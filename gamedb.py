@@ -4,28 +4,7 @@ conn = sqlite3.connect('gamedb.sqlite')
 cur = conn.cursor()
 
 # Do some setup
-cur.executescript('''
-DROP TABLE IF EXISTS Play;
-DROP TABLE IF EXISTS Drive;
-DROP TABLE IF EXISTS Game;
-
-CREATE TABLE Play (
-    id     INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
-    name   TEXT UNIQUE
-);
-
-CREATE TABLE Drive (
-    id     INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
-    title  TEXT UNIQUE
-);
-
-CREATE TABLE Game (
-    user_id     INTEGER,
-    course_id   INTEGER,
-    role        INTEGER,
-    PRIMARY KEY (user_id, course_id)
-)
-''')
+cur.executescript()
 
 fname = input('Enter file name: ')
 if len(fname) < 1:
