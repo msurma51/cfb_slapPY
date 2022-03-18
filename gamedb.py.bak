@@ -34,8 +34,8 @@ for game_info in games:
     game_values = tuple(state[key] for key in game_keys)
     cur.execute(game_script, game_values)
     game = game_info['game']
-    series = 1
     for drive in game:
+        series = 1
         info = drive[0]
         cur.execute('SELECT id FROM Game WHERE home_abbr = ? AND away_abbr = ? ',(info['home_abbr'],info['away_abbr']))
         game_id = cur.fetchone()[0]

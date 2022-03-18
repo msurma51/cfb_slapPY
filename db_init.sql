@@ -33,7 +33,7 @@ CREATE TABLE Drive (
     series      INTEGER NOT NULL,
     num_plays   INTEGER,
     total_yards INTEGER,
-    time_elapsed    INTEGER,
+    time_elapsed_sec    INTEGER,
     drive_end   VARCHAR (25),
     FOREIGN KEY (game_id) REFERENCES Game(id)
 );

@@ -802,7 +802,7 @@ def game_builder(quarters,name_dict):
                 game.append(plays)
         i += 1
     game_state.update(toss_info)
-    return({'game':game,'state':game_state})
+    return(game,game_state)
     
 
 

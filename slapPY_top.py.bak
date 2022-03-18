@@ -8,7 +8,7 @@ for link in box_score_links:
     game_info = game_builder(quarters,name_dict)
     state = game_info['state']
     game_key = state['away_abbr']+' @ '+state['home_abbr']
-    games[game_key] = game_info
+    games.add(game_key: game_info)
     print(game_key,'parsed successfully')
 with open('lycoming.json', 'w') as outfile:
     json.dump(games,outfile)
