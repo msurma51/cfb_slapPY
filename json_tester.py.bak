@@ -13,7 +13,7 @@ def script_maker(table,keys):
     script = 'INSERT OR IGNORE INTO ' + table + ' ('
     for key in keys[:-1]:
         script = script + key + ','
-    script = script + keys[-1] + ') VALUES (' + '?,'*(len(keys)-1) + '?)'
+    script = script + keys[-1] + ') VALUES (' + '?,'*(len(keys)-1) + '?);'
     return(script)
 
 

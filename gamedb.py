@@ -23,6 +23,15 @@ def script_maker(table,keys):
         script = script + key + ','
     script = script + keys[-1] + ') VALUES (' + '?,'*(len(keys)-1) + '?);'
     return(script)
+    
+name_keys = {'rusher','passer', 'intended','kicker','placekicker','punter','returner','tackler1','tackler2',
+             'fumbled_by','fumbled_by2','recovered_by1','recovered_by2', 'forced_by', 'hurried_by',
+             'broken_up_by','intercepted_by','against1','against2'}
+             
+cur.execute('SELECT * FROM Play')
+play_keys_def = [desc[0] for desc in cur.description if desc[0] != 'id']
+
+exclude_keys = {'time_stamp'}
 
 for game_info in games:
     # Grab end game state from game
@@ -34,8 +43,10 @@ for game_info in games:
     game_values = tuple(state[key] for key in game_keys)
     cur.execute(game_script, game_values)
     game = game_info['game']
-    series = 1
+    series = 0
+    play_num = 0
     for drive in game:
+        series += 1
         info = drive[0]
         cur.execute('SELECT id FROM Game WHERE home_abbr = ? AND away_abbr = ? ',(info['home_abbr'],info['away_abbr']))
         game_id = cur.fetchone()[0]
@@ -46,7 +57,24 @@ for game_info in games:
         drive_script = script_maker('Drive', drive_keys)
         drive_values = tuple(info[key] for key in drive_keys)
         cur.execute(drive_script, drive_values)
-        series += 1
+        if len(drive) > 1:
+            plays = drive[1:]
+            series_num = 0
+            for play in plays:
+                play_num += 1
+                series_num += 1
+                cur.execute('SELECT id FROM Drive WHERE game_id = ? AND series = ? ', (game_id, series))
+                drive_id = cur.fetchone()[0]
+                play.update({'game_id': game_id, 'drive_id': drive_id, 'series_num': series_num,
+                'play_num': play_num})
+                play_keys = [key for key in play.keys() if key in play_keys_def]
+                play_script = script_maker('Play', play_keys)
+                play_values = tuple(play[key] for key in play_keys)
+                cur.execute(play_script, play_values)
+                
+                
+                
+            
     conn.commit()
     
 

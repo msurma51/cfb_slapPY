@@ -33,7 +33,7 @@ def ddyl_parser(string,poss):
         # Determine whether offense is in their own territory
         if yl_split[0][0] == poss:
             yl = yl*(-1)
-        ddyl['yard line'] = yl
+        ddyl['yard_line'] = yl
     except:
         None
     try:

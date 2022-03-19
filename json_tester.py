@@ -8,6 +8,7 @@ str_data = open(fname).read()
 schedule = json.loads(str_data)
 
 games = [schedule[game_key] for game_key in schedule.keys() if '@' in game_key]
+plays = [play for game in games for drive in game['game'] for play in drive[1:]]
 
 def script_maker(table,keys):
     script = 'INSERT OR IGNORE INTO ' + table + ' ('
