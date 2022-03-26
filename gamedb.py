@@ -31,7 +31,8 @@ name_keys = {'rusher','passer', 'intended','kicker','placekicker','punter','retu
 cur.execute('SELECT * FROM Play')
 play_keys_def = [desc[0] for desc in cur.description if desc[0] != 'id']
 
-exclude_keys = {'time_stamp'}
+exclude_keys = ['home_name','away_name','home_abbr','away_abbr']
+added_keys = list()
 
 for game_info in games:
     # Grab end game state from game
@@ -68,9 +69,36 @@ for game_info in games:
                 play.update({'game_id': game_id, 'drive_id': drive_id, 'series_num': series_num,
                 'play_num': play_num})
                 play_keys = [key for key in play.keys() if key in play_keys_def]
-                play_script = script_maker('Play', play_keys)
                 play_values = tuple(play[key] for key in play_keys)
+                new_keys = [key for key in play.keys() if key not in play_keys_def + exclude_keys + added_keys]
+                for new_key in new_keys:
+                    if new_key in name_keys:
+                        sql_type = 'VARCHAR (50)'
+                    elif type(play[new_key] == str):
+                        sql_type = 'VARCHAR (25)'
+                    elif type(play[new_key] == int):
+                        sql_type = 'INTEGER'
+                    add_script = 'ALTER TABLE Play ADD COLUMN ' + new_key + ' ' + sql_type + ';'
+                    cur.execute(add_script)
+                added_keys = added_keys + new_keys
+                play_added_keys = [key for key in play.keys() if key in added_keys]
+                play_added_values = list()
+                for add_key in play_added_keys:
+                    name = None
+                    if add_key in name_keys and ',' in play[add_key]:
+                        last_first = play[add_key].split(sep = ',')
+                        name = last_first[1].strip() + ' ' + last_first[0]
+                    if name:
+                        play_added_values.append(name)
+                    else:
+                        play_added_values.append(play[add_key])
+                play_keys = play_keys + play_added_keys
+                play_values = play_values + tuple(play_added_values)
+                play_script = script_maker('Play', play_keys)
                 cur.execute(play_script, play_values)
+                
+                          
+                
                 
                 
                 

@@ -55,6 +55,7 @@ CREATE TABLE Play (
 	down    	INTEGER NOT NULL,
     distance    INTEGER NOT NULL,
     yard_line   INTEGER NOT NULL,
+	gain_loss   INTEGER,
     FOREIGN KEY (game_id) REFERENCES Game(id),
     FOREIGN KEY (drive_id) REFERENCES Drive(id)
 );

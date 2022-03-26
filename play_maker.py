@@ -182,7 +182,7 @@ def run_parser(play,desc,name_re):
         gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])
     if desc.find(" loss ") > -1:
         gain_loss = gain_loss*(-1)
-    play['gain\\loss'] = gain_loss
+    play['gain_loss'] = gain_loss
     return(play)
 
 
@@ -206,7 +206,7 @@ def pass_parser(play,desc,poss,re_select):
     if desc.find(" sacked ") > -1:
         gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
         play['pass_result'] = "Sack"
-    play['gain\\loss'] = gain_loss
+    play['gain_loss'] = gain_loss
     # Determine intended WR and whether QB was intercepted or hurried
     intended = re.findall("complete to " + re_select[poss],desc)
     if len(intended) > 0:
@@ -498,8 +498,8 @@ def drive_end(plays):
         end = 'Fumble'
     elif 'pass_result' in last_play.keys() and last_play['pass_result'] == 'Interception':
         end = 'Interception'
-    elif 'gain\\loss' in last_play.keys() and last_play['down'] == 4:
-        if last_play['gain\\loss'] < last_play['distance']:
+    elif 'gain_loss' in last_play.keys() and last_play['down'] == 4:
+        if last_play['gain_loss'] < last_play['distance']:
              end = 'Downs'
     elif len(common_key) > 0:
         end = time_ends[[x for x in common_key][0]]
