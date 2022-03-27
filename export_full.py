@@ -1,12 +1,9 @@
 import sqlite3
+import csv
 
 conn = sqlite3.connect('gamedb.sqlite')
 cur = conn.cursor()
-
-def q_generator(amount):
-    q_string = '?' + ',?'*(amount-1)
-    return(q_string)
-    
+  
 def select_columns(table_name):
     table_script = 'SELECT * FROM ' + table_name
     cur.execute(table_script)
@@ -18,30 +15,22 @@ drive_cols = ['Drive.series', 'Drive.drive_end']
 play_cols = select_columns('Play')
 selected_cols = tuple(game_cols + drive_cols + play_cols)
 
-script = 'SELECT ' + selected_cols[0]
+cur.execute('DROP VIEW IF EXISTS Full_Export;')
+script = 'CREATE VIEW Full_Export AS SELECT ' + selected_cols[0]
 for col in selected_cols[1:]:
     script = script + ', ' + col
-
-
 
 script = script + ''' 
         FROM Game INNER JOIN Drive ON Game.id = Drive.game_id
         INNER JOIN Play ON Drive.id = Play.drive_id;
         '''
-cur.execute(script, selected_cols)
-play = cur.fetchone()
+cur.execute(script)
+cur.execute('SELECT * FROM Full_Export')
+fields = [desc[0] for desc in cur.description]
+plays = cur.fetchall()
 
-
-# # Do some setup
-# init_script = open('db_init.sql', 'r')
-# cur.executescript(init_script.read())
-# conn.commit
-
-# cur.execute('SELECT * FROM Play')
-# play_keys = {desc[0] for desc in cur.description if desc[0] != 'id'}
-# for key in play_keys:
-    # print(key)
-    
-# new_key = 'rusher'
-# sql_type = 'VARCHAR (50)'
-# cur.execute('ALTER TABLE Play ADD COLUMN ? VARCHAR(50)', (new_key,))
+filename = input('What slapdick team are you scouting?') + '.csv'
+with open(filename, 'w') as csv_file:
+    csv_writer = csv.writer(csv_file, lineterminator = '\n')
+    csv_writer.writerow(fields)
+    csv_writer.writerows(plays)
