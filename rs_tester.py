@@ -1,0 +1,98 @@
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+import ssl
+import csv
+import re
+
+# Read in original roster
+old_file = input('Enter old roster file:')
+if len(old_file) < 1:
+    old_file = 'Roster Data\\2021 Michigan Football Roster.csv'
+with open(old_file, newline = '') as csvfile:
+    reader = csv.DictReader(csvfile)
+    old_roster = tuple(row for row in reader)
+    
+# Assign fieldnames to variables
+jersey, first, last, height, weight, hometown, team, position, curr_class = reader.fieldnames
+
+# Ignore SSL certificate errors
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
+
+# Read in new roster link (ENTER returns current Michigan roster link)
+url = input('Enter roster link:')
+if len(url) < 1:
+    url = 'https://mgoblue.com/sports/football/roster'
+html = urlopen(url, context=ctx).read()
+soup = BeautifulSoup(html, "html.parser")
+
+def pos_converter(roster_pos):
+    conv_dict = {'RB':'HB', 'DE':'ED', 'DL':'DI'}
+    rps = roster_pos.split('/')
+    pff_pos = list()
+    for i in range(len(rps)):
+        if rps[i] in conv_dict.keys():
+            pff_pos.append(conv_dict[rps[i]])
+        else:
+            pff_pos.append(rps[i])
+    return ','.join(pff_pos)
+    
+def height_converter(roster_ht):
+    feet_inches = re.findall('[0-9]+',roster_ht)
+    if len(feet_inches[1]) > 1:
+        return feet_inches[0] + feet_inches[1]
+    else:
+        return feet_inches[0] + '0' + feet_inches[1]
+        
+roster_states_us = ('Calif.', 'Colo.', 'Conn.', 'D.C.', 'Fla.', 'Ga.', 
+                 'Hawaii', 'Idaho', 'Ill.', 'Kan.', 'La.', 'Mass.', 'Md.', 
+                 'Mich.', 'Mo.', 'N.J.', 'N.Y.', 'Nev.', 'Ohio', 'Oregon', 
+                 'Pa.', 'Tenn.', 'Texas', 'Va.', 'Wisc.')
+state_abbrev_us = ('CA','CO','CT','DC','FL','GA','HI','ID','IL','KS','LA',
+                'MA','MD','MI','MO','NJ','NY','NV','OH','OR','PA','TN',
+                'TX','VA','WI')
+state_map = {roster_states_us[i]: state_abbrev_us[i] for i in range(len(roster_states_us))}
+    
+def hometown_converter(roster_hometown,state_map):
+    city_state = roster_hometown.split(', ')
+    city = city_state[0]
+    if city_state[1] in roster_states_us:   
+        state = state_map[city_state[1]]
+        return ", ".join((city,state,'US'))
+    else:
+        return ", ".join((city,city_state[1]))
+    
+    
+    
+    
+        
+
+           
+# Initialize new roster list
+new_roster = list()
+# Find tag containing roster data
+roster_tag = soup.find(attrs = {'class': 'sidearm-roster-players'})
+# Isolate individual player data in iterable
+players_raw = roster_tag('li')
+# Some useful definitions for later
+span_key = 'sidearm-roster-player-'
+class_map = {'Fr.':'F', 'So.':'S', 'Jr.':'J', 'Sr.': 'SN', 'Gr.': 'G'}
+for player in players_raw:
+    player_dict = dict()
+    pos_data = tuple(player(attrs = {'class',span_key+'position'})[0].stripped_strings)
+    player_dict[position] = pos_converter(pos_data[0])
+    player_dict[height] = height_converter(pos_data[1])
+    player_dict[weight] = re.findall('^[0-9]{3}',pos_data[2])[0]
+    roster_hometown = player(attrs = {'class',span_key+'hometown'})[0].string
+    player_dict[hometown] = hometown_converter(roster_hometown,state_map)
+    roster_class = player(attrs = {'class',span_key+'academic-year'})[0].string
+    player_dict[curr_class] = class_map[roster_class]
+        
+    
+    player_dict[team] = old_roster[0][team]
+    new_roster.append(player_dict)
+    
+    
+    
+

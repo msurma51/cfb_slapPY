@@ -1,0 +1,76 @@
+The following players no longer play for Michigan:
+D15 Christopher Hinton
+D55 David Ojabo
+64 Mahdi Hazime
+85 Daylen Baldwin
+D93 Jordan Whittley
+4 Dan Villari
+25 Hassan Haskins
+31 Lucas Andrighetto
+35 Luke Buckman
+39 Matt Torey
+60 Luke Fisher
+66 Chuck Filiaga
+68 Andrew Vastardis
+70 Nolan Rumler
+71 Andrew Stueber
+78 Griffin Korican
+D10 Anthony Solomon
+D12 Josh Ross
+D2 Brad Hawkins
+D24 George Johnson
+D28 Darion Green-Warren
+D30 Daxton Hill
+D36 Andre Seldon
+D4 Vincent Gray
+D57 Joey George
+D67 Jess Speight
+D70 Jack Stewart
+D72 Elijah Pierre
+D95 Donovan Jeter
+D97 Aidan Hutchinson
+S93 Cole Hussung
+40 Jake Friedman
+
+The following players are new to Michigan:
+0 Darrius Clemons
+D2 Will Johnson
+D3 Keon Sabb
+4 Amorion Walker
+D8 Derrick Moore
+10 Alex Orji
+D12 Kody Jones
+13 Tyler Morris
+15 Andy Maddox
+16 Jayden Denegal
+18 Colston Loveland
+D24 Myles Pollard
+31 William McBride
+D39 Joel Metzger
+D43 Ryan Zimmerman
+D44 Paul Jokisch
+D46 Philip Quansah
+49 Henry Donohue
+D55 Mason Graham
+55 Olusegun Oluwatimi
+60 Connor Jones
+S93 Charlie Mentzer
+
+Update the following fields for returning players:
+Alan Bowman do not update current class
+Trevor Andrews update field season_position from S to LB
+Leon Franklin update field jersey_number from 34 to 40
+Mica Gelb update field jersey_number from 55 to 50
+Eamonn Dennis update field season_position from CB to WR
+Eamonn Dennis update field jersey_number from D13 to 37
+Jaylen Harrell update field season_position from ED to LB
+Taylor Upshaw do not update current class
+Jake Moody update field height from 600 to 601
+Brad Robbins do not update current class
+Rhett Andersen do not update current class
+Joe Taylor update field season_position from S to WR
+Joe Taylor update field jersey_number from D38 to 38
+Christian Boivin update field season_position from S to HB
+Christian Boivin update field jersey_number from D40 to 40
+Dominick Giudice update field season_position from ED to DI
+Ike Iwunnah update field season_position from ED to DI

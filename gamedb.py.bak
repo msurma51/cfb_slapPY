@@ -1,7 +1,7 @@
 import sqlite3
 import json
 
-conn = sqlite3.connect('gamedb.sqlite')
+conn = sqlite3.connect('gamedb_test.sqlite')
 cur = conn.cursor()
 
 # Do some setup
@@ -31,6 +31,7 @@ name_keys = {'rusher','passer', 'intended','kicker','placekicker','punter','retu
 cur.execute('SELECT * FROM Play')
 play_keys_def = [desc[0] for desc in cur.description if desc[0] != 'id']
 
+exclude_keys = ['home_name','away_name','home_abbr','away_abbr']
 added_keys = list()
 
 for game_info in games:
@@ -69,7 +70,7 @@ for game_info in games:
                 'play_num': play_num})
                 play_keys = [key for key in play.keys() if key in play_keys_def]
                 play_values = tuple(play[key] for key in play_keys)
-                new_keys = [key for key in play.keys() if key not in play_keys_def + added_keys]
+                new_keys = [key for key in play.keys() if key not in play_keys_def + exclude_keys + added_keys]
                 for new_key in new_keys:
                     if new_key in name_keys:
                         sql_type = 'VARCHAR (50)'

@@ -19,14 +19,14 @@ def drive_dex(pattern, drive_strings):
 
 def ddyl_parser(string,poss):
     ddyl = dict()
-    down = re.findall('([1-4])[a-z]+',string)
-    distance = re.findall(' [0-9]+ ',string)
+    dn = re.findall('([1-4])[a-z]+',string)
+    dis = re.findall(' [0-9]+ ',string)
     yl_split = re.findall('([A-Z]+)([0-9]+)',string)
     if string == 'Opening kickoff':
         ddyl[open_kick] = True
         return(ddyl)
     try:
-        ddyl[down] = int(down[0])
+        ddyl[down] = int(dn[0])
     except:
         return(ddyl)
     try:
@@ -38,7 +38,7 @@ def ddyl_parser(string,poss):
     except:
         None
     try:
-        ddyl[distance] = int(distance[0])
+        ddyl[distance] = int(dis[0])
     except:
         goal_to_go = re.search(' GOAL ', string, re.IGNORECASE)
         if goal_to_go:
@@ -169,7 +169,7 @@ def add_return(play,r_string,poss,name_re):
 
 
 def run_parser(play,desc,name_re):
-    play[play_type] = 'Run'
+    play[play_type] = type_run
     try:
         play[rusher] = re.findall('^' + name_re,desc)[0]
     except:
@@ -180,13 +180,13 @@ def run_parser(play,desc,name_re):
         gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])
     if desc.find(" loss ") > -1:
         gain_loss = gain_loss*(-1)
-    play[gain_loss] = gain_loss
+    play[gn_ls] = gain_loss
     return(play)
 
 
 
 def pass_parser(play,desc,poss,re_select):
-    play[play_type] = 'Pass'
+    play[play_type] = type_pass
     defense = [team for team in re_select.keys() if team != poss][0]
     try:
         play[passer] = re.findall('^' + re_select[poss],desc)[0]
@@ -194,24 +194,24 @@ def pass_parser(play,desc,poss,re_select):
         None
     gain_loss = 0
     if desc.find(" incomplete ") > -1:
-        play[pass_result] = "Incomplete"
+        play[pass_result] = pass_incomplete
     if desc.find(" complete ") > -1:
         try:
             gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])
         except:
             None
-        play[pass_result] = "Complete"
+        play[pass_result] = pass_complete
     if desc.find(" sacked ") > -1:
         gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
-        play[pass_result] = "Sack"
-    play[gain_loss] = gain_loss
+        play[pass_result] = pass_sack
+    play[gn_ls] = gain_loss
     # Determine intended WR and whether QB was intercepted or hurried
     intended_name = re.findall("complete to " + re_select[poss],desc)
     if len(intended_name) > 0:
         play[intended] = intended_name[0]
     intercepted = re.findall("intercepted by " + re_select[defense],desc)
     if len(intercepted) > 0:
-        play[pass_result] = "Interception"
+        play[pass_result] = pass_interception
         play[intercepted_by] = intercepted[0]
         int_return = desc.find('return')
         if int_return > -1:
@@ -230,11 +230,12 @@ def pass_parser(play,desc,poss,re_select):
 def kop_parser(play,desc,poss,re_select):
     if desc.find('punt') > -1:
         ktype = 'punt'
+        play[play_type] = type_punt
         k_keys = (punter,punt_yards,punt_to,punt_result)
     else:
         ktype = 'kickoff'
+        play[play_type] = type_kickoff
         k_keys = (kicker,kick_yards,kick_to,kick_result)
-    play[play_type] = ktype.title()
     rec_team = [team for team in re_select.keys() if team != poss][0]
     # First consider the string segment containing kick info
     kick_yl = re.search('[A-Z]+[0-9]+',desc)
@@ -273,9 +274,11 @@ def kop_parser(play,desc,poss,re_select):
     if r_string.find(' return') > -1:
         play = add_return(play,r_string,poss,re_select[rec_team])
     else:
-        for kp_result in ['fair catch','Touchback', 'out-of-bounds']:
+        kp_result_dict = {'fair catch': kp_fair_catch, 'Touchback': kp_touchback,
+                          'out-of-bounds': kp_out_of_bounds}
+        for kp_result in kp_result_dict.keys():
             if r_string.find(kp_result) > -1:
-                play[k_keys[3]] = kp_result
+                play[k_keys[3]] = kp_result_dict[kp_result]
                 break
     return(play)
 
@@ -286,7 +289,7 @@ def fg_parser(play,desc,poss,re_select):
     fg = desc.find('field goal')
     defense = [team for team in re_select.keys() if team != poss][0]
     if fg > -1: 
-        play[play_type] = 'FG'
+        play[play_type] = type_fg
         res_key = fg_result
         kick_dist = re.findall(' [0-9]{2} ',desc)
         try:
@@ -294,7 +297,7 @@ def fg_parser(play,desc,poss,re_select):
         except:
             None
     else:
-        play[play_type] = 'XP'
+        play[play_type] = type_xp
         res_key = xp_result
         fg = desc.find('kick attempt')
     # Extract the placekicker's name if it's there
@@ -310,13 +313,13 @@ def fg_parser(play,desc,poss,re_select):
     missed = re.search(' MISSED',result_string,re.IGNORECASE)
     if good:
         if re.search('NO',good.group(),re.IGNORECASE):
-            play[res_key] = 'No Good'
+            play[res_key] = fg_no_good
         else:
-            play[res_key] = 'Good'
+            play[res_key] = fg_good
     elif missed:
-        play[res_key] = 'No Good'
+        play[res_key] = fg_no_good
     elif re.search(' blocked ',result_string,re.IGNORECASE):
-        play[res_key] = 'Blocked'
+        play[res_key] = fg_blocked
     fg_return = result_string.find('return')
     if fg_return > -1:
         r_string = result_string[fg_return:]
@@ -328,27 +331,27 @@ def fg_parser(play,desc,poss,re_select):
 def try_parser(play,desc,name_re):
     try_name = re.findall('^' + name_re,desc)
     if desc.find(' rush ') >-1:
-        play[play_type] = 'Run'
+        play[play_type] = type_run
         try:
             play[rusher] = try_name[0]
         except:
             None
     else:
-        play[play_type] = 'Pass'
+        play[play_type] = type_pass
         try:
             play[passer] = try_name[0]
         except:
             None        
     if re.search(' failed',desc,re.IGNORECASE):
-        play[two_point_attempt] = 'No Good'
+        play[two_point_attempt] = try_no_good
     else:
-        play[two_point_attempt] = 'Good'
+        play[two_point_attempt] = try_good
     return(play)
         
 
 
 def timeout_parser(play,desc):
-    play[play_type] = 'Timeout'
+    play[play_type] = timeout
     team = re.findall('Timeout ([A-Z]+)', desc, re.IGNORECASE)
     try:
         play[taken_by] = team[0]
@@ -361,7 +364,7 @@ def timeout_parser(play,desc):
 def end_parser(desc):
     end = dict()
     # Extract the play and total yard counts
-    term_dict = {"play" : "num_plays", "yard" : "total_yards"}
+    term_dict = {"play" : num_plays, "yard" : total_yards}
     for term in term_dict.keys():
         amount = re.findall("(\S*[0-9]+) " + term,desc)
         try:
@@ -370,14 +373,14 @@ def end_parser(desc):
             None
     time_elapsed = re.search("[0-9]+:[0-9]{2}",desc)
     if time_elapsed:
-        end['time_of_possession'] = time_elapsed.group()
-        end['time_elapsed_sec'] = time_conv(time_elapsed.group(),2)
+        end[time_of_possession] = time_elapsed.group()
+        end[time_elapsed_sec] = time_conv(time_elapsed.group(),2)
     if desc.find(' game') >-1:
-        end[drive_end] = 'Game'
+        end[drive_end] = end_game
     elif desc.find(' half') >-1:
-        end[drive_end] = 'Half'
+        end[drive_end] = end_half
     elif desc.find(' quarter') >-1:
-        end[drive_end] = 'Quarter'
+        end[drive_end] = end_quarter
     return(end)
 
 
@@ -399,7 +402,7 @@ def state_update(play,desc,play_state):
         if fumble_poss in play.keys() and play[fumble_poss] != play_state[possession]:
             play_state.update(score_update(not home_ball,6,play_state))
             play_state[possession] = play[fumble_poss]
-        elif pass_result in play.keys() and play[pass_result] == 'Interception':
+        elif pass_result in play.keys() and play[pass_result] == pass_interception:
             play_state.update(score_update(not home_ball,6,play_state))
             if home_ball:
                 play_state[possession] = play_state[away_abbr]
@@ -407,15 +410,15 @@ def state_update(play,desc,play_state):
                 play_state[possession] = play_state[home_abbr]
         else:
             play_state.update(score_update(home_ball,6,play_state))
-    if xp_result in play.keys() and play[xp_result] == 'Good':
+    if xp_result in play.keys() and play[xp_result] == fg_good:
         play_state.update(score_update(home_ball,1,play_state))
-    elif two_point_attempt in play.keys() and play[two_point_attempt] == 'Good':
+    elif two_point_attempt in play.keys() and play[two_point_attempt] == try_good:
         play_state.update(score_update(home_ball,2,play_state))
-    elif fg_result in play.keys() and play[fg_result] == 'Good':
+    elif fg_result in play.keys() and play[fg_result] == fg_good:
         play_state.update(score_update(home_ball,3,play_state))
     if safety in play.keys() and play[safety]:
         play_state.update(score_update(not home_ball,2,play_state))
-    if play_type in play.keys() and play[play_type] == 'Timeout':
+    if play_type in play.keys() and play[play_type] == timeout:
         if taken_by in play.keys():
             taken_by_team = play[taken_by].upper()
             if taken_by_team in (play_state[home_name].upper(), play_state[home_abbr]):
@@ -462,43 +465,42 @@ def drive_end_finder(plays):
         return(end_dict)
     else:
         end = None
-    
     last_play = plays[-1]
-    time_ends = {game_end: 'Game',half_end: 'Half',quarter_end:'Quarter'}
+    time_ends = {game_end: end_game,half_end: end_half,quarter_end: end_quarter}
     common_key = set(time_ends.keys()) & set(last_play.keys())
     if play_type not in last_play.keys():
         return({drive_end:None})
-    if 'h_start' in plays[0].keys() and last_play[play_type] == 'Kickoff':
-        return({drive_end:'Opening Kick'})         
-    elif last_play[play_type] == 'Kickoff':
-        if 'q_start' in plays[-2].keys():
+    if h_start in plays[0].keys() and last_play[play_type] == type_kickoff:
+        return({drive_end:end_kick})         
+    elif last_play[play_type] == type_kickoff:
+        if q_start in plays[-2].keys():
             return(end_dict)
-        elif plays[-2][play_type] == 'XP' or two_point_attempt in plays[-2].keys():
-            end = 'TD'
-        elif plays[-2][play_type] == 'FG':
-            end = 'FG'
+        elif plays[-2][play_type] == type_xp or two_point_attempt in plays[-2].keys():
+            end = end_td
+        elif plays[-2][play_type] == type_fg:
+            end = type_fg
         # If a re-kick took place, recur the function with the 2nd kick taken out
-        elif plays[-2][play_type] == 'Kickoff':
+        elif plays[-2][play_type] == type_kickoff:
             end_dict = drive_end_finder(plays[:-1])
             return(end_dict)
-    elif last_play[play_type] == 'Punt':
-        end = 'Punt'
-    elif last_play[play_type] == 'FG':
-        if last_play[fg_result] == 'No Good':
-            end = 'Missed FG'
+    elif last_play[play_type] == type_punt:
+        end = type_punt
+    elif last_play[play_type] == type_fg:
+        if last_play[fg_result] == fg_no_good:
+            end = end_missed_fg
         elif last_play[quarter] in (1,3):
-            end = 'FG'
+            end = type_fg
         elif last_play[quarter] == 2:
-            end = 'Half'
+            end = end_half
         else:
-            end = 'Game'
+            end = end_game
     elif fumble in last_play.keys():
-        end = 'Fumble'
-    elif pass_result in last_play.keys() and last_play[pass_result] == 'Interception':
-        end = 'Interception'
-    elif gain_loss in last_play.keys() and last_play[down] == 4:
-        if last_play[gain_loss] < last_play[distance]:
-             end = 'Downs'
+        end = end_fumble
+    elif pass_result in last_play.keys() and last_play[pass_result] == pass_interception:
+        end = pass_interception
+    elif gn_ls in last_play.keys() and last_play[down] == 4:
+        if last_play[gn_ls] < last_play[distance]:
+             end = end_downs
     elif len(common_key) > 0:
         end = time_ends[[x for x in common_key][0]]
     end_dict[drive_end] = end
@@ -530,18 +532,18 @@ def toss_parser(drive0,name_dict):
                 toss_dict[won_toss] = name_dict[away_abbr]
                 loser = name_dict[home_abbr]
             if defer >-1:
-                toss_dict[winner_choice] = 'defer'
+                toss_dict[winner_choice] = toss_defer
                 if receive >-1:
-                    toss_dict[loser_choice] = 'receive'
+                    toss_dict[loser_choice] = toss_receive
                     toss_dict[open_kick] = toss_dict[won_toss]
                 else:
-                    toss_dict[loser_choice] = 'kick'
+                    toss_dict[loser_choice] = toss_kick
                     toss_dict[open_kick] = loser
             elif receive >-1:
-                toss_dict[winner_choice] = 'receive'
+                toss_dict[winner_choice] = toss_receive
                 toss_dict[open_kick] = loser
             else:
-                toss_dict[winner_choice] = 'kick'
+                toss_dict[winner_choice] = toss_kick
                 toss_dict[open_kick] = toss_dict[won_toss]
     return(toss_dict)
 
@@ -645,27 +647,27 @@ def drive_parser(drive_strings, game_state, re_select):
     if q:
         # Set the quarter
         info[quarter] = int(q[1])
-        info['q_start'] = True
+        info[q_start] = True
         # New quarter = start time of '15:00'
         info['drive_start'] = '15:00'
         # Determine the start of plays to parse
         start = q[0]+1
         if h:
-            info['h_start'] = True
+            info[h_start] = True
             info[time_remaining] = time_conv(info['drive_start'],info[quarter])
             game_state.update({quarter: info[quarter],
                    time_stamp: info['drive_start'],
                    time_remaining: info[time_remaining]})
             play = play_parser(['Opening kickoff',drive_strings[-1]],
                                      game_state[possession],re_select)
-            if play_type in play.keys() and play[play_type] == 'Kickoff':
+            if play_type in play.keys() and play[play_type] == type_kickoff:
                 play.update(game_state)
                 plays.append(play)
             return(plays)
         if ds:
             start = ds[0]+1
     else:
-        info['q_start'] = False
+        info[q_start] = False
         # Set drive start time
         info['drive_start'] = game_state[time_stamp]
         for i in range(len(drive_strings)):
@@ -714,8 +716,8 @@ def game_builder(quarters,name_dict):
     # Set name format for each team
     ball = possession_tracker(name_dict[home_abbr],name_dict[away_abbr])
     re_select = dict()
-    re_select[name_dict[home_abbr]] = get_name_format(name_dict['home_kicker'])
-    re_select[name_dict[away_abbr]] = get_name_format(name_dict['away_kicker'])
+    re_select[name_dict[home_abbr]] = get_name_format(name_dict[home_kicker])
+    re_select[name_dict[away_abbr]] = get_name_format(name_dict[away_kicker])
     # Process drives starting with opening kickoff
     try:
         ball.set(toss_info[open_kick])
@@ -758,7 +760,7 @@ def game_builder(quarters,name_dict):
             game_state[possession] = ball.get()
             plays = drive_parser(drive,game_state,re_select)
             # Check for unexpected splitting of the drive tables, except for Q3 start
-            if 'h_start' not in plays[0].keys() and not plays[0]['q_start']:
+            if h_start not in plays[0].keys() and not plays[0][q_start]:
                 try:
                     last_drive = game[-1]
                     if play_type not in last_drive[-1].keys():
@@ -777,25 +779,25 @@ def game_builder(quarters,name_dict):
                 if last_play[fumble_poss] != ball.get():
                     ball.flip()
             # Don't flip possession if the previous drive was the end of the quarter
-            elif not info[drive_end] or info[drive_end] == 'Quarter':
+            elif not info[drive_end] or info[drive_end] == end_quarter:
                 None
             # Don't flip possession if the previous drive was a defensive or return TD
             elif last_play[possession] == ball.get():
                 ball.flip()
             # If the drive is the start of 2nd or 4th quarter, merge it with the previous drive
             # unless the last play of the previous quarter was a drive-ending play
-            if info['q_start'] and i in (1,3):
+            if info[q_start] and i in (1,3):
                 last_drive = game[-1]
-                if not last_drive[0][drive_end] or last_drive[0][drive_end] == 'Quarter':
+                if not last_drive[0][drive_end] or last_drive[0][drive_end] == end_quarter:
                     # Append plays individually at the end of last drive
                     for play in plays[1:]:
                         last_drive.append(play)
                     # Update last drive info with q_start drive info
                     last_drive[0][drive_end] = info[drive_end]
-                    if 'num_plays' in info.keys():
-                        last_drive[0]['num_plays'] = info['num_plays']
-                    if 'total_yards' in info.keys():
-                        last_drive[0]['total_yards'] = info['total_yards']
+                    if num_plays in info.keys():
+                        last_drive[0][num_plays] = info[num_plays]
+                    if total_yards in info.keys():
+                        last_drive[0][total_yards] = info[total_yards]
             else:
                 game.append(plays)
         i += 1

@@ -1,0 +1,122 @@
+jersey_number,first_name,last_name,height,weight,hometown,team,season_position,current_class
+0,Darrius,Clemons,603,205,"Portland, OR, US",Michigan,WR,F
+1,Andrel,Anthony,602,185,"East Lansing, MI, US",Michigan,WR,S
+D1,Ja'Den,McBurrows,511,197,"Fort Lauderdale, FL, US",Michigan,DB,S
+2,Blake,Corum,508,200,"Marshall, VA, US",Michigan,HB,J
+D2,Will,Johnson,603,190,"Detroit, MI, US",Michigan,DB,F
+3,A.J.,Henning,510,185,"Frankfort, IL, US",Michigan,WR,J
+D3,Keon,Sabb,602,200,"Glassboro, NJ, US",Michigan,DB,F
+4,Amorion,Walker,604,180,"Ponchatoula, LA, US",Michigan,WR,F
+5,Mike,Sainristil,510,185,"Everett, MA, US",Michigan,WR,SN
+D5,DJ,Turner,600,181,"Suwanee, GA, US",Michigan,DB,SN
+6,Cornelius,Johnson,603,211,"Greenwich, CT, US",Michigan,WR,SN
+D6,R.J.,Moten,600,221,"Delran, NJ, US",Michigan,DB,J
+7,Donovan,Edwards,600,202,"West Bloomfield, MI, US",Michigan,HB,S
+D7,Makari,Paige,603,192,"West Bloomfield, MI, US",Michigan,DB,J
+8,Ronnie,Bell,600,192,"Kansas City, MO, US",Michigan,WR,G
+D8,Derrick,Moore,604,250,"Baltimore, MD, US",Michigan,ED,F
+9,J.J.,McCarthy,603,197,"La Grange Park, IL, US",Michigan,QB,S
+10,Cristian,Dixon,602,197,"Santa Ana, CA, US",Michigan,WR,S
+10,Alex,Orji,602,226,"Sachse, TX, US",Michigan,QB,F
+D12,Kody,Jones,511,175,"Memphis, TN, US",Michigan,DB,F
+12,Cade,McNamara,601,212,"Reno, NV, US",Michigan,QB,SN
+S13,Jake,Moody,601,211,"Northville, MI, US",Michigan,K,G
+13,Tyler,Morris,600,175,"Bolingbrook, IL, US",Michigan,WR,F
+D14,Quinten,Johnson,511,200,"Silver Spring, MD, US",Michigan,DB,SN
+14,Roman,Wilson,600,180,"Honolulu, HI, US",Michigan,WR,J
+15,Alan,Bowman,604,205,"Grapevine, TX, US",Michigan,QB,G
+15,Andy,Maddox,604,212,"Prairie Village, KS, US",Michigan,QB,SN
+16,Jayden,Denegal,604,215,"Apple Valley, CA, US",Michigan,QB,F
+D16,Jalen,Perry,600,187,"Dacula, GA, US",Michigan,DB,SN
+16,Davis,Warren,602,195,"Los Angeles, CA, US",Michigan,QB,S
+D17,Braiden,McGregor,605,265,"Port Huron, MI, US",Michigan,ED,J
+17,Peyton,Smith,603,192,"Ithaca, MI, US",Michigan,QB,J
+D18,Keshaun,Harris,511,186,"Lansing, MI, US",Michigan,DB,SN
+18,Colston,Loveland,605,230,"Gooding, ID, US",Michigan,TE,F
+18,Jesse,Madden,602,198,"Oakland, CA, US",Michigan,QB,S
+S19,Tommy,Doman,605,190,"Rochester Hills, MI, US",Michigan,"K,P",S
+D19,Rod,Moore,600,173,"Clayton, OH, US",Michigan,DB,S
+D20,Kalel,Mullings,601,236,"West Roxbury, MA, US",Michigan,LB,J
+22,Tavierre,Dunlap,600,222,"Del Valle, TX, US",Michigan,HB,S
+D22,Gemon,Green,602,181,"DeSoto, TX, US",Michigan,DB,G
+D23,Michael,Barrett,600,227,"Valdosta, GA, US",Michigan,LB,G
+24,Danny,Hughes,600,200,"Naperville, IL, US",Michigan,HB,SN
+D24,Myles,Pollard,602,185,"Brentwood, TN, US",Michigan,DB,F
+D25,Junior,Colson,602,225,"Brentwood, TN, US",Michigan,LB,S
+D26,Rayshaun,Benny,605,292,"Detroit, MI, US",Michigan,DI,S
+26,Jake,Thaw,600,190,"Westport, CT, US",Michigan,WR,J
+27,Christian,Bartholomew,600,182,"Galesburg, MI, US",Michigan,WR,J
+D27,Tyler,McLaurin,603,237,"Bolingbrook, IL, US",Michigan,LB,S
+S29,Rhett,Andersen,600,172,"Poquoson, VA, US",Michigan,"K,P",G
+D29,Joey,Velazquez,600,228,"Columbus, OH, US",Michigan,LB,SN
+30,Will,Rolapp,600,186,"Darien, CT, US",Michigan,WR,J
+31,William,McBride,509,202,"Bloomfield Hills, MI, US",Michigan,HB,S
+D31,Jordan,Morant,600,210,"Parsippany, NJ, US",Michigan,DB,J
+D32,Jaylen,Harrell,604,242,"Tampa, FL, US",Michigan,LB,J
+D32,Nolan,Knight,603,215,"Northville, MI, US",Michigan,LB,SN
+D33,German,Green,602,190,"DeSoto, TX, US",Michigan,DB,G
+D34,Jaydon,Hood,601,212,"Fort Lauderdale, FL, US",Michigan,LB,S
+D35,Caden,Kolesar,510,196,"Westlake, OH, US",Michigan,DB,SN
+36,Nico,Tiberia,509,201,"Allen Park, MI, US",Michigan,HB,J
+37,Josh,Beetham,605,239,"Yorkville, IL, US",Michigan,TE,J
+37,Eamonn,Dennis,510,175,"Worcester, MA, US",Michigan,WR,J
+38,Peyton,O'Leary,604,190,"Byfield, MA, US",Michigan,WR,S
+38,Joe,Taylor,510,184,"Chelsea, MI, US",Michigan,WR,S
+D39,Joel,Metzger,601,205,"Battle Creek, MI, US",Michigan,LB,S
+40,Christian,Boivin,600,204,"Traverse City, MI, US",Michigan,HB,S
+40,Leon,Franklin,508,206,"Southfield, MI, US",Michigan,HB,SN
+41,Isaiah,Gash,510,178,"Green Bay, WI, US",Michigan,HB,J
+D41,Nikhai,Hill-Green,601,220,"Pittsburgh, PA, US",Michigan,LB,J
+D42,Trevor,Andrews,602,218,"Brentwood, TN, US",Michigan,LB,S
+D42,TJ,Guy,605,251,"Mansfield, MA, US",Michigan,ED,S
+D43,Andrew,Russell,602,191,"Victor, NY, US",Michigan,DB,G
+D43,Ryan,Zimmerman,602,220,"Fort Lauderdale, FL, US",Michigan,LB,J
+D44,Paul,Jokisch,603,230,"Birmingham, MI, US",Michigan,"ED,LB",J
+D44,Joshua,Luther,509,184,"Clarkston, MI, US",Michigan,DB,SN
+45,Noah,Howes,605,234,"Rochester, MI, US",Michigan,TE,S
+S45,Greg,Tarr,602,207,"Washington, MI, US",Michigan,LS,J
+D46,Alexander,Lidback,603,223,"Alpharetta, GA, US",Michigan,LB,S
+D46,Philip,Quansah,508,202,"Dayton, OH, US",Michigan,LB,S
+49,Henry,Donohue,511,199,"Bronxville, NY, US",Michigan,"HB,S",S
+S49,William,Wagner,601,247,"Alpharetta, GA, US",Michigan,LS,SN
+50,Mica,Gelb,604,292,"Washington, DC, US",Michigan,OL,SN
+D50,Jerome,Nichols,600,224,"Belleville, MI, US",Michigan,LB,J
+51,Greg,Crippen,604,290,"Northborough, MA, US",Michigan,OL,S
+52,Karsen,Barnhart,604,307,"Paw Paw, MI, US",Michigan,OL,SN
+D52,Kechaun,Bennett,605,241,"Suffield, CT, US",Michigan,ED,S
+53,Trente,Jones,604,307,"Grayson, GA, US",Michigan,OL,SN
+54,Kraig,Correll,604,311,"Easton, PA, US",Michigan,OL,G
+D54,George,Rooks,605,270,"Jersey City, NJ, US",Michigan,DI,S
+D55,Mason,Graham,603,292,"Anaheim, CA, US",Michigan,DI,F
+55,Olusegun,Oluwatimi,603,310,"Upper Marlboro, MD, US",Michigan,OL,G
+D56,Dominick,Giudice,605,275,"Freehold, NJ, US",Michigan,DI,S
+58,Giovanni,El-Hadi,605,318,"Sterling Heights, MI, US",Michigan,OL,S
+D58,Mazi,Smith,603,326,"Grand Rapids, MI, US",Michigan,DI,SN
+60,Connor,Jones,607,285,"Monument, CO, US",Michigan,OL,F
+61,Noah,Stewart,607,274,"Muskegon, MI, US",Michigan,OL,J
+62,Raheem,Anderson,603,302,"Detroit, MI, US",Michigan,OL,S
+65,Zak,Zinter,606,320,"North Andover, MA, US",Michigan,OL,J
+72,Tristan,Bounds,608,282,"Wallingford, CT, US",Michigan,OL,S
+74,Reece,Atteberry,605,307,"Aurora, CO, US",Michigan,OL,J
+75,Peter,Simmons,603,291,"Bonita Springs, FL, US",Michigan,OL,S
+76,Ryan,Hayes,607,307,"Traverse City, MI, US",Michigan,OL,G
+77,Trevor,Keegan,606,324,"Crystal Lake, IL, US",Michigan,OL,SN
+79,Jeffrey,Persi,607,305,"Mission Viejo, CA, US",Michigan,OL,J
+80,Hunter,Neff,602,237,"Chelsea, MI, US",Michigan,TE,SN
+81,Louis,Hansen,606,252,"Needham, MA, US",Michigan,TE,S
+82,Max,Bredeson,602,222,"Hartland, WI, US",Michigan,TE,S
+83,Erick,All,604,245,"Fairfield, OH, US",Michigan,TE,SN
+84,Joel,Honigford,606,257,"Sugarcreek, OH, US",Michigan,TE,G
+84,Sam,Staruch,601,180,"Lake Orion, MI, US",Michigan,WR,J
+86,Luke,Schoonmaker,605,250,"Hamden, CT, US",Michigan,TE,G
+88,Mathew,Harrison,602,205,"Ortonville, MI, US",Michigan,WR,SN
+88,Matthew,Hibner,604,244,"Burke, VA, US",Michigan,TE,J
+89,Carter,Selzer,608,242,"Kansas City, MO, US",Michigan,TE,G
+D90,Mike,Morris,606,278,"Belle Glade, FL, US",Michigan,ED,SN
+S91,Brad,Robbins,601,203,"Westerville, OH, US",Michigan,P,G
+D91,Taylor,Upshaw,604,262,"Bradenton, FL, US",Michigan,ED,G
+D92,Ike,Iwunnah,603,306,"Garland, TX, US",Michigan,DI,S
+S93,Charlie,Mentzer,602,172,"Northville, MI, US",Michigan,"K,P",S
+D94,Kris,Jenkins,603,275,"Olney, MD, US",Michigan,DI,J
+D96,Julius,Welschof,606,288,"Miesbach, Bavaria",Michigan,DI,G
+D99,Gabe,Newburg,605,251,"Clayton, OH, US",Michigan,ED,SN

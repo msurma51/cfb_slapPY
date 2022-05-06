@@ -1,7 +1,7 @@
 import sqlite3
 import csv
 
-conn = sqlite3.connect('gamedb.sqlite')
+conn = sqlite3.connect('gamedb_test.sqlite')
 cur = conn.cursor()
   
 def select_columns(table_name):
@@ -31,6 +31,6 @@ plays = cur.fetchall()
 
 filename = input('What slapdick team are you scouting?') + '.csv'
 with open(filename, 'w') as csv_file:
-    csv_writer = csv.writer(csv_file, fieldnames = fields, lineterminator = '\n')
-    csv_writer.writeheader()
+    csv_writer = csv.writer(csv_file, lineterminator = '\n')
+    csv_writer.writerow(fields)
     csv_writer.writerows(plays)
