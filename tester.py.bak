@@ -37,9 +37,7 @@ df[odk] = df.apply(odk_maker, axis=1, args=(perspective,))
 df[[off_score,def_score,off_tol,def_tol]] = df.apply(od_score_tol, axis=1, result_type='expand')
 if perspective == name_dict[home_abbr]:
     df[pers_score_diff] = df[score_diff]
-    df[pers_tol] = df[home_tol]
 else:
     df[pers_score_diff] = df[score_diff]*-1
-    df[pers_tol] = df[away_tol]
 
 df.to_csv('psu_test.csv')

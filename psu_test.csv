@@ -1,0 +1,213 @@
+Play #,open_kick,PLAY TYPE,KICKER,KICK YDS,KICK TO,KICK RESULT,home_name,away_name,home_abbr,away_abbr,HOME SCORE,AWAY SCORE,score_diff,home_tol,away_tol,QTR,TIME STAMP,TIME LEFT,OFF TEAM,DN,YARD LN,DIST,RUSHER,GN/LS,TACKLER1,PASSER,PASS RESULT,PASS TARGET,PEN TEAM1,PENALTY1,AGAINST1,PENALTY YDS,NO PLAY,FIRST DOWN,TACKLER2,INTERCEPTED BY,RETURN YDS,ret_territory,RETURN TO,DRIVE END,PUNTER,PUNT YDS,PUNT TO,PUNT RESULT,HURRIED BY,TOUCHDOWN,placekicker,XP RESULT,FUMBLED BY,RECOVER TEAM,RECOVERED BY,fumble_count,fumble_poss,FUMBLE,BROKEN UP BY,TAKEN BY,FG DIST,FG RESULT,PEN TEAM2,PENALTY2,AGAINST2,2 POINT ATT,ODK,OFF SCORE,DEF SCORE,OFF TOL,DEF TOL,SCORE DIFF,TOL
+1,True,KO,"Stout,Jordan",65.0,0.0,Touchback,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,15:00,1800,PSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,0,0,3,3,0,3
+2,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,15:00,1800,ILL,1.0,-25.0,10.0,"Brown,Chase",9.0,"Brown,Ji'Ayir",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+3,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,15:00,1800,ILL,2.0,-34.0,1.0,,0.0,,"Sitkowski,Artur",Incomplete,"Washington,Casey",PSU,Pass Interference,"Castro-Fields,Tariq",16.0,True,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+4,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,15:00,1800,ILL,1.0,-50.0,10.0,"Brown,Chase",18.0,"Castro-Fields,Tariq",,,,,,,,,True,"Ebiketie,Arnold",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+5,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,15:00,1800,ILL,1.0,32.0,10.0,,0.0,,"Sitkowski,Artur",Interception,,,,,,,,,"Jacobs,Curtis",2,PSU,34.0,Interception,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+6,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,13:37,1717,PSU,1.0,-34.0,10.0,"Lee,Keyvone",-3.0,"Barnes,Tarique",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+7,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,13:37,1717,PSU,2.0,-31.0,13.0,"Lee,Keyvone",1.0,"Tolson,Khalan",,,,,,,,,,"Witherspoon,Devon",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+8,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,13:37,1717,PSU,3.0,-32.0,12.0,,-5.0,"Carney, Jr.,Owen","Clifford,Sean",Sack,,,,,,,,,,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+9,,Punt,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,13:37,1717,PSU,4.0,-27.0,17.0,,,,,,,ILL,Holding,"Smith,Eddie",10.0,,,,,,,,,"Stout,Jordan",38.0,35.0,,,,,,,,,,,,,,,,,,,,K,0,0,3,3,0,3
+10,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,11:25,1585,ILL,1.0,-25.0,10.0,"McCray,Josh",9.0,"Brown,Ji'Ayir",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+11,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,11:25,1585,ILL,2.0,-34.0,1.0,"McCray,Josh",10.0,"Brown,Ji'Ayir",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+12,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,11:25,1585,ILL,1.0,-44.0,10.0,,1.0,"Brooks,Ellis","Sitkowski,Artur",Complete,"Williams,Isaiah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+13,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,11:25,1585,ILL,2.0,-45.0,9.0,"Brown,Chase",1.0,"Smith,Brandon",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+14,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,11:25,1585,ILL,3.0,-46.0,8.0,,0.0,,"Sitkowski,Artur",Incomplete,"Washington,Casey",,,,,,,,,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+15,,Punt,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,11:25,1585,ILL,4.0,-46.0,8.0,,,,,,,,,,,,,,,,,,,"Hayes,Blake",42.0,12.0,Fair Catch,,,,,,,,,,,,,,,,,,,K,0,0,3,3,0,3
+16,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,08:45,1425,PSU,1.0,-12.0,10.0,"Lee,Keyvone",13.0,"Martin,Jartavius",,,,,,,,,True,"Brown,Sydney",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+17,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,08:45,1425,PSU,1.0,-25.0,10.0,"Lee,Keyvone",8.0,"Brown,Sydney",,,,,,,,,,"Tolson,Khalan",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+18,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,08:45,1425,PSU,2.0,-33.0,2.0,"Lee,Keyvone",0.0,"Barnes,Tarique",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+19,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,08:45,1425,PSU,3.0,-33.0,2.0,"Lee,Keyvone",1.0,"Witherspoon,Devon",,,,,,,,,,"Tolson,Khalan",,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+20,,Punt,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,08:45,1425,PSU,4.0,-34.0,1.0,,,,,,,,,,,,,,,,,,,"Stout,Jordan",55.0,11.0,Fair Catch,,,,,,,,,,,,,,,,,,,K,0,0,3,3,0,3
+21,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,06:17,1277,ILL,1.0,-11.0,10.0,"Brown,Chase",-1.0,"Tangelo,Derrick",,,,,,,,,,"Brisker,Jaquan",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+22,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,06:17,1277,ILL,2.0,-10.0,11.0,"Brown,Chase",8.0,"Brooks,Ellis",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+23,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,06:17,1277,ILL,3.0,-18.0,3.0,,6.0,"Brooks,Ellis","Sitkowski,Artur",Complete,"Brown,Chase",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+24,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,06:17,1277,ILL,1.0,-24.0,10.0,"Brown,Chase",15.0,"Porter Jr.,Joey",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+25,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,06:17,1277,ILL,1.0,-39.0,10.0,"Brown,Chase",0.0,"Brooks,Ellis",,,,,,,,,,"Porter Jr.,Joey",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+26,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,06:17,1277,ILL,2.0,-39.0,10.0,,0.0,,"Washington,Casey",Incomplete,"Williams,Isaiah",,,,,,,,,,,,,,,,,"Smith,Brandon",,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+27,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,06:17,1277,ILL,3.0,-39.0,10.0,"Brown,Chase",7.0,"Brisker,Jaquan",,,,,,,,,,,,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,D,0,0,3,3,0,3
+28,,Punt,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,06:17,1277,ILL,4.0,-46.0,3.0,,,,,,,,,,,,,,,,,,,"Hayes,Blake",47.0,7.0,,,,,,,,,,,,,,,,,,,,K,0,0,3,3,0,3
+29,,Run,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,02:04,1024,PSU,1.0,-7.0,10.0,"Cain,Noah",4.0,"Randolph Jr.,Keith",,,,,,,,,,"Gay,Isaiah",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+30,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,02:04,1024,PSU,2.0,-11.0,6.0,,11.0,"Smith,Eddie","Clifford,Sean",Complete,"Dotson,Jahan",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+31,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,02:04,1024,PSU,1.0,-22.0,10.0,,36.0,"Martin,Jartavius","Clifford,Sean",Complete,"Dotson,Jahan",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+32,,Pass,,,,,Penn St.,Illinois,PSU,ILL,0,0,0,3,3,1,02:04,1024,PSU,1.0,42.0,10.0,,42.0,,"Clifford,Sean",Complete,"Lambert-Smith,KeAndre",,,,,,True,,,,,,TD,,,,,,True,,,,,,,,,,,,,,,,,O,0,0,3,3,0,3
+33,,Penalty,,,,,Penn St.,Illinois,PSU,ILL,6,0,6,3,3,1,00:09,909,PSU,1.0,3.0,10.0,,,,,,,PSU,False Start,"Holmes,Des",5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,6,0,3,3,6,3
+34,,Extra Pt.,,,,,Penn St.,Illinois,PSU,ILL,6,0,6,3,3,1,00:09,909,PSU,1.0,8.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,"Stout,Jordan",Good,,,,,,,,,,,,,,,K,6,0,3,3,6,3
+35,,KO,"Stout,Jordan",63.0,2.0,Fair Catch,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,1,00:09,909,PSU,1.0,-35.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,7,0,3,3,7,3
+36,,Run,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,1,00:09,909,ILL,1.0,-25.0,10.0,"McCray,Josh",1.0,"Luketa,Jesse",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,7,3,3,7,3
+37,,Run,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,2,15:00,900,ILL,2.0,-26.0,9.0,"Brown,Chase",8.0,"Brisker,Jaquan",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,7,3,3,7,3
+38,,Run,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,2,15:00,900,ILL,3.0,-34.0,1.0,"Brown,Chase",3.0,"Jacobs,Curtis",,,,,,,,,True,"Smith,Brandon",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,7,3,3,7,3
+39,,Run,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,2,15:00,900,ILL,1.0,-37.0,10.0,"McCray,Josh",2.0,"Jacobs,Curtis",,,,,,,,,,"Vanover,Amin",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,7,3,3,7,3
+40,,Pass,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,2,15:00,900,ILL,2.0,-39.0,8.0,,-14.0,"Smith,Brandon","Sitkowski,Artur",Sack,,PSU,Personal Foul,,15.0,,,,,,,,Fumble,,,,,,,,,"Sitkowski,Artur",PSU,"Ellies,Dvon",1.0,PSU,True,,,,,,,,,D,0,7,3,3,7,3
+41,,Run,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,2,12:53,773,PSU,1.0,40.0,10.0,"Cain,Noah",2.0,"Barnes,Tarique",,,,,,,,,,"Newton,Jer'Zhan",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,7,0,3,3,7,3
+42,,Pass,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,2,12:53,773,PSU,2.0,38.0,8.0,,19.0,"Tolson,Khalan","Clifford,Sean",Complete,"Strange,Brenton",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,7,0,3,3,7,3
+43,,Run,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,2,12:53,773,PSU,1.0,19.0,10.0,"Cain,Noah",2.0,"Perry,Roderick",,,,,,,,,,"Newton,Jer'Zhan",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,7,0,3,3,7,3
+44,,Pass,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,2,12:53,773,PSU,2.0,17.0,8.0,,0.0,,"Clifford,Sean",Incomplete,"Dotson,Jahan",,,,,,,,,,,,,,,,,,,,,,,,,,,"Martin,Jartavius",,,,,,,,O,7,0,3,3,7,3
+45,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,3,3,2,12:53,773,PSU,2.0,17.0,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Penn St.,,,,,,,O,7,0,3,3,7,3
+46,,Pass,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,2,3,2,11:23,683,PSU,3.0,17.0,8.0,,0.0,,"Clifford,Sean",Incomplete,"Washington,Parker",,,,,,,,,,,,FG,,,,,"Witherspoon,Devon",,,,,,,,,,,,,,,,,,O,7,0,2,3,7,2
+47,,FG,,,,,Penn St.,Illinois,PSU,ILL,7,0,7,2,3,2,11:23,683,PSU,4.0,17.0,8.0,,,,,,,,,,,,,,,,,,,,,,,,,"Stout,Jordan",,,,,,,,,,35.0,Good,,,,,K,7,0,2,3,7,2
+48,,KO,"Stout,Jordan",65.0,0.0,Touchback,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,PSU,1.0,-35.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,10,0,2,3,10,2
+49,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,1.0,-25.0,10.0,"McCray,Josh",0.0,"Luketa,Jesse",,,,,,,,,,"Tarburton,Nick",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+50,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,2.0,-25.0,10.0,"Sitkowski,Artur",6.0,"Porter Jr.,Joey",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+51,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,3.0,-31.0,4.0,,5.0,"Brown,Ji'Ayir","Sitkowski,Artur",Complete,"Barker,Daniel",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+52,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,1.0,-36.0,10.0,"Brown,Chase",4.0,"Brown,Ji'Ayir",,,,,,,,,,"King,Kalen",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+53,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,2.0,-40.0,6.0,"Brown,Chase",27.0,"Brown,Ji'Ayir",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+54,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,1.0,33.0,10.0,"McCray,Josh",0.0,"Tangelo,Derrick",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+55,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,2.0,33.0,10.0,"Brown,Chase",8.0,"Porter Jr.,Joey",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+56,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,3.0,25.0,2.0,"Sitkowski,Artur",3.0,"Katshir,Charlie",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+57,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,1.0,22.0,10.0,,0.0,,"Sitkowski,Artur",Incomplete,"Ford,Luke",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+58,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,2.0,22.0,10.0,"Brown,Chase",6.0,"Luketa,Jesse",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+59,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,3.0,16.0,4.0,"McCray,Josh",4.0,"Brown,Ji'Ayir",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+60,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,1.0,12.0,10.0,"McCray,Josh",5.0,"Castro-Fields,Tariq",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+61,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,2.0,7.0,5.0,"Brown,Chase",3.0,"Izzard,Coziah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+62,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,3.0,4.0,2.0,"Sitkowski,Artur",3.0,"Ebiketie,Arnold",,,,,,,,,True,"Izzard,Coziah",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,0,10,3,2,10,2
+63,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,3,2,11:12,672,ILL,3.0,4.0,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Illinois,,,,,,,D,0,10,3,2,10,2
+64,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,0,10,2,2,2,02:59,179,ILL,1.0,1.0,1.0,"Brown,Chase",1.0,,,,,,,,,,,,,,,,TD,,,,,,True,,,,,,,,,,,,,,,,,D,0,10,2,2,10,2
+65,,Extra Pt.,,,,,Penn St.,Illinois,PSU,ILL,10,6,4,2,2,2,02:52,172,ILL,1.0,3.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,"McCourt,James",Good,,,,,,,,,,,,,,,K,6,10,2,2,4,2
+66,,KO,"McCourt,James",65.0,0.0,Touchback,Penn St.,Illinois,PSU,ILL,10,7,3,2,2,2,02:52,172,ILL,1.0,-35.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,7,10,2,2,3,2
+67,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,2,2,02:52,172,PSU,1.0,-25.0,10.0,"Lovett,John",18.0,"Woods,Jamal",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,2,2,3,2
+68,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,2,2,02:52,172,PSU,1.0,-43.0,10.0,"Lovett,John",2.0,"Gay,Isaiah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,2,2,3,2
+69,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,2,2,02:52,172,PSU,2.0,-45.0,8.0,,0.0,,"Clifford,Sean",Incomplete,"Dotson,Jahan",PSU,Ineligible Downfield on Pass,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,2,2,3,2
+70,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,2,2,02:52,172,PSU,3.0,-45.0,8.0,,-6.0,"Tolson,Khalan","Clifford,Sean",Sack,,,,,,,,,,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,O,10,7,2,2,3,2
+71,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,2,2,02:52,172,PSU,3.0,-45.0,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Illinois,,,,,,,O,10,7,2,2,3,2
+72,,Punt,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,1,2,01:57,117,PSU,4.0,-39.0,14.0,,,,,,,,,,,,,,,,,,,"Stout,Jordan",55.0,6.0,,,,,,,,,,,,,,,,,,,,K,10,7,2,1,3,2
+73,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,1,2,01:46,106,ILL,1.0,-6.0,10.0,"Brown,Chase",17.0,"Castro-Fields,Tariq",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,1,2,3,2
+74,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,1,2,01:46,106,ILL,1.0,-23.0,10.0,,8.0,"Brown,Ji'Ayir","Sitkowski,Artur",Complete,"Navarro,Donny",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,1,2,3,2
+75,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,1,2,01:46,106,ILL,2.0,-31.0,2.0,,4.0,"Castro-Fields,Tariq","Sitkowski,Artur",Complete,"Navarro,Donny",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,1,2,3,2
+76,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,1,2,01:46,106,ILL,1.0,-35.0,10.0,,-4.0,"Luketa,Jesse, Ebiketie,Arnold","Sitkowski,Artur",Sack,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,1,2,3,2
+77,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,2,1,2,01:46,106,ILL,1.0,-35.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Penn St.,,,,,,,D,7,10,1,2,3,2
+78,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,1,1,2,00:52,52,ILL,2.0,-31.0,14.0,,0.0,,"Sitkowski,Artur",Incomplete,"Washington,Casey",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,1,1,3,1
+79,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,1,1,2,00:52,52,ILL,3.0,-31.0,14.0,,0.0,,"Sitkowski,Artur",Incomplete,"Washington,Casey",,,,,,,,,,,,Punt,,,,,,,,,,,,,,,"Brooks,Ellis",,,,,,,,D,7,10,1,1,3,1
+80,,Punt,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,1,1,2,00:52,52,ILL,4.0,-31.0,14.0,,,,,,,,,,,,,,,,,,,"Hayes,Blake",37.0,32.0,,,,,,,,,,,,,,,,,,,,K,7,10,1,1,3,1
+81,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,1,1,2,00:33,33,PSU,1.0,-32.0,10.0,,0.0,,"Clifford,Sean",Incomplete,"Dotson,Jahan",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,1,1,3,1
+82,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,1,1,2,00:33,33,PSU,2.0,-32.0,10.0,,0.0,,"Clifford,Sean",Incomplete,"Lambert-Smith,KeAndre",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,1,1,3,1
+83,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,1,1,2,00:33,33,PSU,3.0,-32.0,10.0,"Lovett,John",-2.0,"Martin,Jartavius",,,,,,,,,,,,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,O,10,7,1,1,3,1
+84,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,1,1,2,00:33,33,PSU,3.0,-32.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Illinois,,,,,,,O,10,7,1,1,3,1
+85,,Punt,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,1,0,2,00:13,13,PSU,4.0,-30.0,12.0,,,,,,,,,,,,,,,,,,,"Stout,Jordan",53.0,17.0,Fair Catch,,,,,,,,,,,,,,,,,,,K,10,7,1,0,3,1
+86,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,1,0,2,00:05,5,ILL,1.0,-17.0,10.0,"McCray,Josh",6.0,"Castro-Fields,Tariq",,,,,,,,,,"Izzard,Coziah",,,,,Game,,,,,,,,,,,,,,,,,,,,,,,D,7,10,0,1,3,1
+87,True,KO,"McCourt,James",65.0,0.0,Touchback,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,ILL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,7,10,3,3,3,3
+88,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,PSU,1.0,-25.0,10.0,,0.0,,"Clifford,Sean",Incomplete,"Dotson,Jahan",,,,,,,,,,,,,,,,,,,,,,,,,,,"Tolson,Khalan",,,,,,,,O,10,7,3,3,3,3
+89,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,PSU,2.0,-25.0,10.0,"Lee,Keyvone",4.0,"Carney, Jr.,Owen",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+90,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,PSU,3.0,-29.0,6.0,,6.0,"Martin,Jartavius","Clifford,Sean",Complete,"Washington,Parker",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+91,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,PSU,1.0,-35.0,10.0,,15.0,"Adams,Tony","Clifford,Sean",Complete,"Dotson,Jahan",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+92,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,PSU,1.0,-50.0,10.0,,0.0,,"Clifford,Sean",Incomplete,"Dotson,Jahan",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+93,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,PSU,2.0,-50.0,10.0,,0.0,,"Clifford,Sean",Incomplete,,PSU,Holding,,10.0,True,,,,,,,,,,,,,,,,,,,,,,,,,,PSU,Holding,"Cain,Noah",,O,10,7,3,3,3,3
+94,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,PSU,2.0,-40.0,20.0,,0.0,,"Clifford,Sean",Incomplete,"Cain,Noah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+95,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,PSU,3.0,-40.0,20.0,,0.0,,"Clifford,Sean",Incomplete,"Dotson,Jahan",,,,,,,,,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+96,,Punt,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,15:00,1800,PSU,4.0,-40.0,20.0,,,,,,,,,,,,,,,,,,,"Stout,Jordan",48.0,12.0,,,,,,,,,,,,,,,,,,,,K,10,7,3,3,3,3
+97,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,13:00,1680,ILL,1.0,-12.0,10.0,"McCray,Josh",5.0,"Porter Jr.,Joey",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+98,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,13:00,1680,ILL,2.0,-17.0,5.0,"McCray,Josh",22.0,"Brisker,Jaquan",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+99,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,13:00,1680,ILL,1.0,-39.0,10.0,"McCray,Josh",0.0,"Brisker,Jaquan",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+100,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,13:00,1680,ILL,2.0,-39.0,10.0,,6.0,,"Sitkowski,Artur",Complete,"Williams,Isaiah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+101,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,13:00,1680,ILL,3.0,-45.0,4.0,,-11.0,"Tangelo,Derrick","Sitkowski,Artur",Sack,,,,,,,,,,12,ILL,-22.0,Fumble,,,,,,,,,"Sitkowski,Artur",PSU,"Brisker,Jaquan",1.0,PSU,True,,,,,,,,,D,7,10,3,3,3,3
+102,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,11:02,1562,PSU,1.0,22.0,10.0,"Cain,Noah",3.0,"Perry,Roderick",,,,,,,,,,"Barnes,Tarique",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+103,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,11:02,1562,PSU,2.0,19.0,7.0,,3.0,"Adams,Tony","Clifford,Sean",Complete,"Washington,Parker",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+104,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,11:02,1562,PSU,3.0,22.0,10.0,,0.0,,"Clifford,Sean",Incomplete,"Dotson,Jahan",PSU,Holding,,,,,,,,,,Missed FG,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+105,,FG,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,11:02,1562,PSU,4.0,22.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,"Stout,Jordan",,,,,,,,,,40.0,No Good,,,,,K,10,7,3,3,3,3
+106,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,09:19,1459,ILL,1.0,-22.0,10.0,"McCray,Josh",28.0,"Brisker,Jaquan",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+107,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,09:19,1459,ILL,1.0,-50.0,10.0,"Brown,Chase",1.0,"Luketa,Jesse",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+108,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,09:19,1459,ILL,2.0,49.0,9.0,"McCray,Josh",0.0,"Smith,Brandon",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+109,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,09:19,1459,ILL,3.0,49.0,9.0,,0.0,,"Sitkowski,Artur",Incomplete,"Washington,Casey",PSU,Pass Interference,,15.0,True,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+110,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,09:19,1459,ILL,1.0,34.0,10.0,"Brown,Chase",2.0,"Jacobs,Curtis",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+111,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,09:19,1459,ILL,2.0,32.0,8.0,,0.0,,"Sitkowski,Artur",Incomplete,"Ford,Luke",,,,,,,,,,,,,,,,,,,,,,,,,,,"Brown,Ji'Ayir",,,,,,,,D,7,10,3,3,3,3
+112,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,09:19,1459,ILL,3.0,32.0,8.0,,0.0,,"Sitkowski,Artur",Incomplete,"Washington,Casey",,,,,,,,,,,,Missed FG,,,,,,,,,,,,,,,"Castro-Fields,Tariq",,,,,,,,D,7,10,3,3,3,3
+113,,FG,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,09:19,1459,ILL,4.0,32.0,8.0,,,,,,,,,,,,,,,,,,,,,,,,,"McCourt,James",,,,,,,,,,50.0,No Good,,,,,K,7,10,3,3,3,3
+114,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,06:40,1300,PSU,1.0,-32.0,10.0,,0.0,,"Clifford,Sean",Incomplete,"Lambert-Smith,KeAndre",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+115,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,06:40,1300,PSU,2.0,-32.0,10.0,,2.0,"Witherspoon,Devon","Clifford,Sean",Complete,"Lovett,John",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+116,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,06:40,1300,PSU,3.0,-34.0,8.0,,10.0,"Witherspoon,Devon","Clifford,Sean",Complete,"Washington,Parker",ILL,Face Mask,,15.0,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+117,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,06:40,1300,PSU,1.0,41.0,10.0,,0.0,,"Clifford,Sean",Incomplete,"Johnson,Theo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+118,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,06:40,1300,PSU,2.0,41.0,10.0,,0.0,"Martin,Jartavius","Clifford,Sean",Complete,"Lovett,John",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,7,3,3,3,3
+119,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,06:40,1300,PSU,3.0,41.0,10.0,,0.0,,"Clifford,Sean",Incomplete,"Washington,Parker",,,,,,,,,,,,Punt,,,,,,,,,,,,,,,"Gay,Isaiah",,,,,,,,O,10,7,3,3,3,3
+120,,Punt,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,06:40,1300,PSU,4.0,41.0,10.0,,,,,,,,,,,,,,,,,,,"Stout,Jordan",30.0,11.0,,,,,,,,,,,,,,,,,,,,K,10,7,3,3,3,3
+121,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,04:22,1162,ILL,1.0,-11.0,10.0,"Brown,Chase",4.0,"Brooks,Ellis",,,,,,,,,,"Ebiketie,Arnold",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+122,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,04:22,1162,ILL,2.0,-15.0,6.0,"Brown,Chase",17.0,"Tarburton,Nick",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+123,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,04:22,1162,ILL,1.0,-32.0,10.0,"Brown,Chase",8.0,"Ebiketie,Arnold",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+124,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,04:22,1162,ILL,2.0,-40.0,2.0,"Sitkowski,Artur",2.0,"Brooks,Ellis",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+125,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,04:22,1162,ILL,1.0,-42.0,10.0,"McCray,Josh",16.0,"Brisker,Jaquan",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+126,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,04:22,1162,ILL,1.0,42.0,10.0,"Brown,Chase",6.0,"Smith,Brandon",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+127,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,04:22,1162,ILL,2.0,36.0,4.0,"Brown,Chase",10.0,"Porter Jr.,Joey",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+128,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,3,04:22,1162,ILL,1.0,26.0,10.0,"McCray,Josh",5.0,"Luketa,Jesse",,,,,,,,,,"Smith,Brandon",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+129,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,4,15:00,900,ILL,2.0,21.0,5.0,"Brown,Chase",3.0,"Brooks,Ellis",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+130,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,4,15:00,900,ILL,3.0,18.0,2.0,"Sitkowski,Artur",3.0,"Brooks,Ellis",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+131,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,4,15:00,900,ILL,1.0,15.0,10.0,"McCray,Josh",1.0,"Ebiketie,Arnold",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+132,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,4,15:00,900,ILL,2.0,14.0,9.0,,14.0,,"Sitkowski,Artur",Complete,"Barker,Daniel",ILL,Ineligible Downfield on Pass,,15.0,True,,,,,,,,,,,,,True,,,,,,,,,,,,,ILL,Pass Interference,"Sandy,Carlos",,D,7,10,3,3,3,3
+133,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,4,13:12,792,ILL,2.0,29.0,24.0,"Brown,Chase",0.0,"Brooks,Ellis",,,,PSU,Face Mask,"Ebiketie,Arnold",15.0,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+134,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,4,13:12,792,ILL,1.0,14.0,10.0,"Brown,Chase",14.0,,,,,ILL,Holding,"Palczewski,Alex",10.0,True,,,,,,,,,,,,,True,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+135,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,4,00:00,0,ILL,1.0,24.0,20.0,,0.0,,"Sitkowski,Artur",Incomplete,"Barker,Daniel",,,,,,,,,,,,,,,,,,,,,,,,,,,"Dixon,Johnny",,,,,,,,D,7,10,3,3,3,3
+136,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,4,00:00,0,ILL,2.0,24.0,20.0,"Brown,Chase",5.0,"Jacobs,Curtis",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,7,10,3,3,3,3
+137,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,3,4,00:00,0,ILL,2.0,24.0,20.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Illinois,,,,,,,D,7,10,3,3,3,3
+138,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,2,4,12:00,720,ILL,3.0,19.0,15.0,,0.0,,"Sitkowski,Artur",Incomplete,"Washington,Casey",,,,,,,,,,,,FG,,,,,,,,,,,,,,,,,,,,,,,D,7,10,2,3,3,3
+139,,FG,,,,,Penn St.,Illinois,PSU,ILL,10,7,3,3,2,4,12:00,720,ILL,4.0,19.0,15.0,,,,,,,,,,,,,,,,,,,,,,,,,"McCourt,James",,,,,,,,,,37.0,Good,,,,,K,7,10,2,3,3,3
+140,,KO,"McCourt,James",65.0,0.0,Touchback,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,11:49,709,ILL,1.0,-35.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,10,10,2,3,0,3
+141,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,11:49,709,PSU,1.0,-25.0,10.0,"Lovett,John",2.0,"Barnes,Tarique",,,,,,,,,,"Newton,Jer'Zhan",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,3,2,0,3
+142,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,11:49,709,PSU,2.0,-27.0,8.0,,5.0,"Brown,Sydney","Clifford,Sean",Complete,"Lambert-Smith,KeAndre",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,3,2,0,3
+143,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,11:49,709,PSU,3.0,-32.0,3.0,,9.0,,"Clifford,Sean",Complete,"Dotson,Jahan",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,3,2,0,3
+144,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,11:49,709,PSU,1.0,-41.0,10.0,"Lovett,John",1.0,"Adams,Tony",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,3,2,0,3
+145,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,11:49,709,PSU,2.0,-42.0,9.0,,3.0,"Witherspoon,Devon","Clifford,Sean",Complete,"Dotson,Jahan",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,3,2,0,3
+146,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,11:49,709,PSU,3.0,-39.0,12.0,,-11.0,"Witherspoon,Devon","Clifford,Sean",Sack,,,,,,,,,,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,O,10,10,3,2,0,3
+147,,Punt,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,11:49,709,PSU,4.0,-28.0,23.0,,,,,,,,,,,,,,,,,,,"Stout,Jordan",45.0,27.0,Fair Catch,,,,,,,,,,,,,,,,,,,K,10,10,3,2,0,3
+148,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,08:16,496,ILL,1.0,-27.0,10.0,"McCray,Josh",4.0,"Brisker,Jaquan",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,10,2,3,0,3
+149,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,08:16,496,ILL,2.0,-31.0,6.0,"McCray,Josh",5.0,"Porter Jr.,Joey",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,10,2,3,0,3
+150,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,08:16,496,ILL,3.0,-36.0,1.0,"McCray,Josh",3.0,"Brown,Ji'Ayir",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,10,2,3,0,3
+151,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,08:16,496,ILL,1.0,-39.0,10.0,"McCray,Josh",2.0,"Izzard,Coziah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,10,2,3,0,3
+152,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,08:16,496,ILL,2.0,-41.0,8.0,"Brown,Chase",0.0,"Jacobs,Curtis",,,,,,,,,,"Izzard,Coziah",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,10,2,3,0,3
+153,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,08:16,496,ILL,3.0,-41.0,8.0,,-2.0,"Ebiketie,Arnold","Sitkowski,Artur",Sack,,,,,,,,,,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,D,10,10,2,3,0,3
+154,,Punt,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,08:16,496,ILL,4.0,-39.0,10.0,,,,,,,,,,,,,,,,,,,"Hayes,Blake",46.0,15.0,Fair Catch,,,,,,,,,,,,,,,,,,,K,10,10,2,3,0,3
+155,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,04:44,284,PSU,1.0,-15.0,10.0,"Cain,Noah",6.0,"Tolson,Khalan",,,,,,,,,,"Randolph Jr.,Keith",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,3,2,0,3
+156,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,04:44,284,PSU,2.0,-21.0,4.0,"Cain,Noah",6.0,"Newton,Jer'Zhan",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,3,2,0,3
+157,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,04:44,284,PSU,1.0,-27.0,10.0,,2.0,"Adams,Tony","Clifford,Sean",Complete,"Lambert-Smith,KeAndre",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,3,2,0,3
+158,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,3,2,4,04:44,284,PSU,1.0,-27.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Penn St.,,,,,,,O,10,10,3,2,0,3
+159,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,2,4,03:01,181,PSU,2.0,-29.0,8.0,"Cain,Noah",5.0,"Barnes,Tarique",,,,,,,,,,"Joseph,Kerby",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,2,2,0,2
+160,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,2,4,03:01,181,PSU,3.0,-34.0,3.0,,4.0,,"Clifford,Sean",Complete,"Washington,Parker",,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,2,2,0,2
+161,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,2,4,03:01,181,PSU,1.0,-38.0,10.0,"Clifford,Sean",-2.0,"Newton,Jer'Zhan",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,2,2,0,2
+162,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,2,4,03:01,181,PSU,2.0,-36.0,12.0,"Cain,Noah",3.0,"Randolph Jr.,Keith",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,2,2,0,2
+163,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,2,4,03:01,181,PSU,3.0,-39.0,9.0,,0.0,,"Clifford,Sean",Incomplete,"Washington,Parker",,,,,,,,,,,,Punt,,,,,,,,,,,,,,,,,,,,,,,O,10,10,2,2,0,2
+164,,Punt,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,2,4,03:01,181,PSU,4.0,-39.0,9.0,,,,,,,,,,,,,,,,,,,"Stout,Jordan",51.0,10.0,,,,,,,,,,,,,,,,,,,,K,10,10,2,2,0,2
+165,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,2,4,00:33,33,ILL,1.0,-8.0,10.0,"Sitkowski,Artur",6.0,"Porter Jr.,Joey",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,10,2,2,0,2
+166,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,2,4,00:33,33,ILL,2.0,-14.0,4.0,"Brown,Chase",10.0,"Brown,Ji'Ayir",,,,,,,,,True,"Ebiketie,Arnold",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,10,2,2,0,2
+167,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,2,4,00:33,33,ILL,2.0,-14.0,4.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Illinois,,,,,,,D,10,10,2,2,0,2
+168,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,1,4,00:19,19,ILL,1.0,-24.0,10.0,"Brown,Chase",18.0,"Porter Jr.,Joey",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,10,1,2,0,2
+169,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,1,4,00:19,19,ILL,1.0,-24.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Illinois,,,,,,,D,10,10,1,2,0,2
+170,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,0,4,00:13,13,ILL,1.0,-42.0,10.0,,0.0,,"Sitkowski,Artur",Incomplete,"Williams,Isaiah",,,,,,,,,,,,,,,,,,,,,,,,,,,"Hardy,Daequan",,,,,,,,D,10,10,0,2,0,2
+171,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,2,0,4,00:13,13,ILL,2.0,-42.0,10.0,,2.0,"Smith,Brandon","Sitkowski,Artur",Complete,"Norwood,Jakari",,,,,,,,,,,,Game,,,,,,,,,,,,,,,,,,,,,,,D,10,10,0,2,0,2
+172,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,1,1,5,0:00,0,PSU,1.0,25.0,10.0,,3.0,,"Clifford,Sean",Complete,"Cain,Noah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,1,1,0,1
+173,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,1,1,5,0:00,0,PSU,2.0,22.0,7.0,"Cain,Noah",5.0,"Gay,Isaiah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,1,1,0,1
+174,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,1,1,5,0:00,0,PSU,3.0,17.0,2.0,,1.0,"Adams,Tony","Clifford,Sean",Complete,"Johnson,Theo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,1,1,0,1
+175,,Run,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,1,1,5,0:00,0,PSU,4.0,16.0,1.0,"Warren,Tyler",2.0,"Perry,Roderick",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,1,1,0,1
+176,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,1,1,5,0:00,0,PSU,1.0,14.0,10.0,,5.0,"Carney, Jr.,Owen","Clifford,Sean",Complete,"Strange,Brenton",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,1,1,0,1
+177,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,1,1,5,0:00,0,PSU,2.0,9.0,5.0,,0.0,,"Clifford,Sean",Incomplete,"Dotson,Jahan",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,10,10,1,1,0,1
+178,,Pass,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,1,1,5,0:00,0,PSU,3.0,9.0,5.0,,-4.0,"Joseph,Kerby","Clifford,Sean",Sack,,,,,,,,,,,,,Game,,,,,,,,,,,,,,,,,,,,,,,O,10,10,1,1,0,1
+179,,FG,,,,,Penn St.,Illinois,PSU,ILL,10,10,0,1,1,5,0:00,0,PSU,4.0,13.0,9.0,,,,,,,,,,,,,,,,,,,,,,,,,"Stout,Jordan",,,,,,,,,,31.0,Good,,,,,K,10,10,1,1,0,1
+180,,Run,,,,,Penn St.,Illinois,PSU,ILL,13,10,3,1,1,5,0:00,0,ILL,1.0,25.0,10.0,"Brown,Chase",6.0,"Brown,Ji'Ayir",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,13,1,1,3,1
+181,,Run,,,,,Penn St.,Illinois,PSU,ILL,13,10,3,1,1,5,0:00,0,ILL,2.0,19.0,4.0,"Brown,Chase",-2.0,"Brooks,Ellis",,,,,,,,,,"Ebiketie,Arnold",,,,,,,,,,,,,,,,,,,,,,,,,,,,D,10,13,1,1,3,1
+182,,Pass,,,,,Penn St.,Illinois,PSU,ILL,13,10,3,1,1,5,0:00,0,ILL,3.0,21.0,6.0,,0.0,,"Washington,Casey",Incomplete,"Williams,Isaiah",,,,,,,,,,,,Game,,,,,,,,,,,,,,,"Brisker,Jaquan",,,,,,,,D,10,13,1,1,3,1
+183,,FG,,,,,Penn St.,Illinois,PSU,ILL,13,10,3,1,1,5,0:00,0,ILL,4.0,21.0,6.0,,,,,,,,,,,,,,,,,,,,,,,,,"McCourt,James",,,,,,,,,,39.0,Good,,,,,K,10,13,1,1,3,1
+184,,Run,,,,,Penn St.,Illinois,PSU,ILL,13,13,0,1,1,5,0:00,0,ILL,1.0,25.0,10.0,"Brown,Chase",1.0,"Brooks,Ellis",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,13,13,1,1,0,1
+185,,Pass,,,,,Penn St.,Illinois,PSU,ILL,13,13,0,1,1,5,0:00,0,ILL,2.0,24.0,9.0,,6.0,"Brown,Ji'Ayir","Sitkowski,Artur",Complete,"Barker,Daniel",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,13,13,1,1,0,1
+186,,Run,,,,,Penn St.,Illinois,PSU,ILL,13,13,0,1,1,5,0:00,0,ILL,3.0,18.0,3.0,"McCray,Josh",11.0,"Brown,Ji'Ayir",,,,,,,,,True,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,13,13,1,1,0,1
+187,,Run,,,,,Penn St.,Illinois,PSU,ILL,13,13,0,1,1,5,0:00,0,ILL,1.0,7.0,7.0,"McCray,Josh",1.0,"Ebiketie,Arnold",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,13,13,1,1,0,1
+188,,Run,,,,,Penn St.,Illinois,PSU,ILL,13,13,0,1,1,5,0:00,0,ILL,2.0,6.0,6.0,"McCray,Josh",2.0,"Castro-Fields,Tariq",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,D,13,13,1,1,0,1
+189,,Pass,,,,,Penn St.,Illinois,PSU,ILL,13,13,0,1,1,5,0:00,0,ILL,3.0,4.0,4.0,,0.0,,"Sitkowski,Artur",Incomplete,"Ford,Luke",,,,,,,,,,,,Game,,,,,,,,,,,,,,,,,,,,,,,D,13,13,1,1,0,1
+190,,FG,,,,,Penn St.,Illinois,PSU,ILL,13,13,0,1,1,5,0:00,0,ILL,4.0,4.0,4.0,,,,,,,,,,,,,,,,,,,,,,,,,"McCourt,James",,,,,,,,,,22.0,Good,,,,,K,13,13,1,1,0,1
+191,,Pass,,,,,Penn St.,Illinois,PSU,ILL,13,16,-3,1,1,5,0:00,0,PSU,1.0,25.0,10.0,,1.0,"Adams,Tony","Clifford,Sean",Complete,"Dotson,Jahan",,,,,,,"Newton,Jer'Zhan",,,,,,,,,,,,,,,,,,,,,,,,,,,,O,13,16,1,1,-3,1
+192,,Run,,,,,Penn St.,Illinois,PSU,ILL,13,16,-3,1,1,5,0:00,0,PSU,2.0,24.0,9.0,"Cain,Noah",7.0,"Barnes,Tarique",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,13,16,1,1,-3,1
+193,,Run,,,,,Penn St.,Illinois,PSU,ILL,13,16,-3,1,1,5,0:00,0,PSU,3.0,17.0,2.0,"Cain,Noah",0.0,"Randolph Jr.,Keith",,,,,,,,,,,,,,,Game,,,,,,,,,,,,,,,,,,,,,,,O,13,16,1,1,-3,1
+194,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,13,16,-3,1,1,5,0:00,0,PSU,3.0,17.0,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Illinois,,,,,,,O,13,16,1,1,-3,1
+195,,Penalty,,,,,Penn St.,Illinois,PSU,ILL,13,16,-3,1,0,5,0:00,0,PSU,4.0,17.0,2.0,,,,,,,PSU,False Start,"Stout,Jordan",5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,K,13,16,1,0,-3,1
+196,,FG,,,,,Penn St.,Illinois,PSU,ILL,13,16,-3,1,0,5,0:00,0,PSU,4.0,22.0,7.0,,,,,,,,,,,,,,,,,,,,,,,,,"Stout,Jordan",,,,,,,,,,40.0,Good,,,,,K,13,16,1,0,-3,1
+197,,Pass,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,PSU,1.0,3.0,10.0,,,,"Warren,Tyler",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,O,16,16,1,1,0,1
+198,,Pass,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,ILL,1.0,3.0,10.0,,,,"Sitkowski,Artur",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,D,16,16,1,1,0,1
+199,,Pass,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,ILL,1.0,3.0,10.0,,,,"Sitkowski,Artur",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,D,16,16,1,1,0,1
+200,,Pass,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,PSU,1.0,3.0,10.0,,,,"Clifford,Sean",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,O,16,16,1,1,0,1
+201,,Run,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,PSU,1.0,3.0,10.0,"Cain,Noah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,O,16,16,1,1,0,1
+202,,Pass,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,ILL,1.0,3.0,10.0,,,,"Peters,Brandon",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,D,16,16,1,1,0,1
+203,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,ILL,1.0,3.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Illinois,,,,,,,D,16,16,1,1,0,1
+204,,Pass,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,0,5,0:00,0,ILL,1.0,3.0,10.0,,,,"Peters,Brandon",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,D,16,16,0,1,0,1
+205,,Pass,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,0,5,0:00,0,PSU,1.0,3.0,10.0,,,,"Clifford,Sean",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,O,16,16,1,0,0,1
+206,,Run,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,PSU,1.0,3.0,10.0,"Cain,Noah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,O,16,16,1,1,0,1
+207,,Run,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,ILL,1.0,3.0,10.0,"McCray,Josh",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,D,16,16,1,1,0,1
+208,,Pass,,,,,Penn St.,Illinois,PSU,ILL,16,16,0,1,1,5,0:00,0,ILL,1.0,3.0,10.0,,,,"Williams,Isaiah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Good,D,16,16,1,1,0,1
+209,,Run,,,,,Penn St.,Illinois,PSU,ILL,16,18,-2,1,1,5,0:00,0,PSU,1.0,3.0,10.0,"Cain,Noah",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Good,O,16,18,1,1,-2,1
+210,,Pass,,,,,Penn St.,Illinois,PSU,ILL,18,18,0,1,1,5,0:00,0,PSU,1.0,3.0,10.0,,,,"Clifford,Sean",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No Good,O,18,18,1,1,0,1
+211,,Timeout,,,,,Penn St.,Illinois,PSU,ILL,18,18,0,1,1,5,0:00,0,ILL,1.0,3.0,10.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Penn St.,,,,,,,D,18,18,1,1,0,1
+212,,Pass,,,,,Penn St.,Illinois,PSU,ILL,18,18,0,0,1,5,0:00,0,ILL,1.0,3.0,10.0,,,,"Washington,Casey",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Good,D,18,18,1,0,0,0

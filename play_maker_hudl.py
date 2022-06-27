@@ -1,5 +1,5 @@
 import re
-from namespace_og import *
+from hudl_namespace import *
 
 def get_name_format(player_name):
     name_re = "([\w'-]+,[\w'-]+)"

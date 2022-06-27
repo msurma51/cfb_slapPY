@@ -1,7 +1,3 @@
-# To run this, download the BeautifulSoup zip file
-# http://www.py4e.com/code3/bs4.zip
-# and unzip it in the same directory as this file
-
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from namespace_og import *
