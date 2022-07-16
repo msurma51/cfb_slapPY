@@ -46,17 +46,17 @@ pbp = soup.find(id="play-by-play")
 quarters = list()
 for qtr in ('1st','2nd','3rd','4th','OT'):
     q_tags = pbp.find_all(id = qtr)
+    # Create new list to store a list of strings for each drive
+    drives = list()
     for q_tag in q_tags:      
         # Store each drive as a list of bs tags
         drives_raw = list(q_tag("table"))
-        # Create new list to store a list of strings for each drive
-        drives = list()
         for drive in drives_raw:
             strings = list()
             for string in drive.stripped_strings:
                 strings.append(string)
             drives.append(strings)
-        quarters.append(drives)
+    quarters.append(drives)
     
 
 # As a test, print opening kickoff strings

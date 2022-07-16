@@ -1,5 +1,5 @@
 import re
-from namespace_og import *
+from hudl_namespace import *
 
 def get_name_format(player_name):
     name_re = "([\w'-]+,[\w'-]+)"
@@ -620,7 +620,7 @@ def play_parser(string_list,poss,re_select):
         play = pass_parser(play,desc,poss,re_select)
     # Pre-snap penalty
     elif desc.startswith("PENALTY"):
-        play[play_type] = 'Penalty'
+        play[play_type] = type_penalty
         play = add_penalty(play,desc,re_select)
         return(play)
     # Timeout
@@ -771,6 +771,7 @@ def game_builder(quarters,name_dict):
     # Process drives starting with opening kickoff        
     game = list()
     i = 0 # Quarter index
+    o = 0 # Overtime index
     while i < len(quarters):
         current_quarter = quarters[i]
         j = 0 # Drive index
@@ -785,17 +786,22 @@ def game_builder(quarters,name_dict):
                     ball.flip()
                 else:
                     ball.set(poss) 
-                j += 1
             # Reset timeout and set possession at the start of each overtime period
             elif i > 3:
-                poss = possession_finder(drive,name_dict)
+                poss = possession_finder(drive,name_dict)                
+                if j == 0:
+                    o = 1
+                    game_state.update({home_tol: 1, away_tol: 1, overtime: o})
                 if poss:
                     if poss == ot_ball.get():
                         game_state.update({home_tol: 1, away_tol: 1})
+                        if j == 1:
+                            j += -1
                     ot_ball.set(poss)
-                if j == 0:
-                    game_state.update({home_tol: 1, away_tol: 1})
                 ball.set(ot_ball.get())
+                if j > 0 and j % 2 == 0:
+                    o += 1
+                    game_state.update({overtime: o})
             # Run drive parser
             game_state[possession] = ball.get()
             plays = drive_parser(drive,game_state,re_select,i)
