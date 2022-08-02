@@ -1,8 +1,15 @@
 # Sweat the veggies
+from bs4 import BeautifulSoup   
 import pandas as pd
 import numpy as np
 from hudl_namespace import *
-from pbp_parser import quarters, name_dict
+url = input('Enter -')
+try:
+    from pbp_parser_func import pbp_parser
+    quarters, name_dict = pbp_parser(url)
+except:
+    from taster_func import taster
+    quarters, name_dict = taster(url)  
 from play_maker_hudl import game_builder
 game_info = game_builder(quarters,name_dict)
 game = game_info['game']
@@ -87,8 +94,9 @@ def result_maker(play):
     else:
         return(play[play_type])
 
-# Convert names to standard 'First Last' format    
-df[name_keys] = df[name_keys].applymap(name_converter, na_action='ignore')
+# Convert names to standard 'First Last' format
+df_name_fields = [key for key in name_keys if key in df.columns]    
+df[df_name_fields] = df[df_name_fields].applymap(name_converter, na_action='ignore')
 
 # Get perspective as a user input
 perspective = input('Perspective: {} (H) or {} (A)?'.format(name_dict[home_abbr],name_dict[away_abbr]))
@@ -160,4 +168,4 @@ df[[series,series_num]] = pd.Series([series_list,series_num_list])
 df[down].mask((df[series_num]==1) | ~(pd.isna(df[two_point_attempt])), 0, inplace = True)
    
 #Export dataframe to csv with columns listed in the order of the 'cols' field label list   
-df[cols].to_csv('pete_test.csv')
+df[cols].to_csv('test_files\\{}@{}.csv'.format(name_dict[away_abbr],name_dict[home_abbr]))

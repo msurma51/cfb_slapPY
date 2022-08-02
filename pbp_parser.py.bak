@@ -52,10 +52,22 @@ for qtr in ('1st','2nd','3rd','4th','OT'):
         # Store each drive as a list of bs tags
         drives_raw = list(q_tag("table"))
         for drive in drives_raw:
-            strings = list()
-            for string in drive.stripped_strings:
-                strings.append(string)
-            drives.append(strings)
+            rows = drive('tr')
+            play_strings = list()
+            header_dex = 0
+            for row in rows:
+                strings = list()
+                header = row('th')
+                if all((len(header) > 0, header_dex == 0)) and header[0].string:
+                    strings.append(header[0].string.strip())
+                    header_dex = 1  
+                entries = row('td')
+                for entry in entries:
+                    if entry.string:
+                        string = entry.string.strip()
+                        strings.append(string)
+                play_strings.append(strings)
+            drives.append(play_strings)
     quarters.append(drives)
     
 
@@ -65,5 +77,4 @@ def print_drive(drive):
         print(string)
 
 print_drive(quarters[0][0])
-
 

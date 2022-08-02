@@ -66,21 +66,24 @@ for i in range(len(split_rows)):
                   for j in range(len(start_indices)-1)]
     drive_strings = list()
     for drive in drive_rows:
-        strings = list()
+        play_strings = list()
         for row in drive:
+            strings = list()
+            entries = row.find_all(['th','td'])
             seg = '\n' + ' '*6
-            for string in row.stripped_strings:
-                string = string.replace(seg,'')
-                if 'back to top' not in string:
-                    strings.append(string)
-        drive_strings.append(strings)
+            for entry in entries:
+                string = entry.string.replace(seg,'').strip()
+                strings.append(string)
+            if 'back to top' not in strings:
+                play_strings.append(strings)
+        drive_strings.append(play_strings)
     quarters.append(drive_strings)
-    
+   
 # Extract home and away abbreviations from yard line string segments
 abbr = list()
 def abbr_finder(drive,abbr):
-    for string in drive:
-        yl_match = re.findall('([A-Z]+)[0-9]{2}',string)
+    for play in drive:
+        yl_match = re.findall('([A-Z]+)[0-9]{2}',play[0])
         if len(yl_match)>0:
             for match in yl_match:
                 abbr.append(match)
@@ -92,7 +95,7 @@ while len(set(abbr))<2:
 abbr2 = [name for name in abbr if name != abbr[0]][0]
 name_dict[away_abbr] = None
 # Determine whether home or away team kicked off, and match with first abbreviation
-kicker_name = re.findall('([A-Za-z]+) kickoff',quarters[0][0][-1])
+kicker_name = re.findall('([A-Za-z]+) kickoff',quarters[0][0][-1][-1])
 if len(kicker_name)>0:
     for kicker in kicker_names[0]:
         if kicker_name[0] in kicker:

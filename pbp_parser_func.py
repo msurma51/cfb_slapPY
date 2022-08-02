@@ -38,30 +38,41 @@ def pbp_parser(url):
 
     name_dict[home_kicker] = kicker_names[-1]
     name_dict[away_kicker] = kicker_names[0]
-        
 
     # Extract play-by-play data from box score link
     pbp = soup.find(id="play-by-play")
     quarters = list()
     for qtr in ('1st','2nd','3rd','4th','OT'):
         q_tags = pbp.find_all(id = qtr)
+        # Create new list to store a list of strings for each drive
+        drives = list()
         for q_tag in q_tags:      
             # Store each drive as a list of bs tags
             drives_raw = list(q_tag("table"))
-            # Create new list to store a list of strings for each drive
-            drives = list()
             for drive in drives_raw:
-                strings = list()
-                for string in drive.stripped_strings:
-                    strings.append(string)
-                drives.append(strings)
-            quarters.append(drives)
+                rows = drive('tr')
+                play_strings = list()
+                header_dex = 0
+                for row in rows:
+                    strings = list()
+                    header = row('th')
+                    if all((len(header) > 0, header_dex == 0)) and header[0].string:
+                        strings.append(header[0].string.strip())
+                        header_dex = 1  
+                    entries = row('td')
+                    for entry in entries:
+                        if entry.string:
+                            string = entry.string.strip()
+                            strings.append(string)
+                    if len(strings) > 0:
+                        play_strings.append(strings)
+                drives.append(play_strings)
+        quarters.append(drives)
         
-
     # As a test, print opening kickoff strings
     def print_drive(drive):
         for string in drive:
             print(string)
 
     print_drive(quarters[0][0])
-    return(quarters,name_dict)
+    return quarters, name_dict

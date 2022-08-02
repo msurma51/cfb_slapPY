@@ -318,7 +318,7 @@ def fg_parser(play,desc,poss,re_select):
             play[res_key] = fg_good
     elif missed:
         play[res_key] = fg_no_good
-    elif re.search(' blocked ',result_string,re.IGNORECASE):
+    elif re.search(' blocked',result_string,re.IGNORECASE):
         play[res_key] = fg_blocked
     fg_return = result_string.find('return')
     if fg_return > -1:
@@ -471,6 +471,7 @@ def drive_end_finder(plays):
     last_play = plays[-1]
     time_ends = {game_end: end_game,half_end: end_half,quarter_end: end_quarter}
     common_key = set(time_ends.keys()) & set(last_play.keys())
+    #Return None for quarter end drive summaries in which the drive hasn't ended
     if play_type not in last_play.keys():
         return({drive_end:None})
     if h_start in plays[0].keys() and last_play[play_type] == type_kickoff:
@@ -603,13 +604,20 @@ def possession_finder(drive,name_dict):
         
 def play_parser(string_list,poss,re_select):
     play = ddyl_parser(string_list[0],poss)
-    desc = string_list[1]
     # Drive end string
     if not play:
-        play = end_parser(desc)
-        return(play)
+        if string_list[0].find('attempt') > -1:
+            desc = string_list[0]
+        elif string_list[0].find('plays') > -1:
+            play = end_parser(string_list[0])
+            desc = string_list[1]
+        else:
+            play = end_parser(string_list[1])
+            return(play)
+    else:
+        desc = string_list[1]
     # 2 point attempt
-    elif desc.find("rush attempt ") >-1 or desc.find("pass attempt ") >-1:
+    if desc.find("rush attempt ") >-1 or desc.find("pass attempt ") >-1:
         play = try_parser(play,desc,re_select[poss])
         return(play)
     # Run
@@ -636,7 +644,7 @@ def play_parser(string_list,poss,re_select):
     # Kneel
     elif desc.startswith("Kneel "):
         play = run_parser(play,desc,re_select[poss])
-        play[play_type] = 'Kneel'
+        play[play_type] = type_kneel
         return(play)
     # Add tacklers
     play = add_tacklers(play,desc)
@@ -670,7 +678,7 @@ def play_parser(string_list,poss,re_select):
     
 
 
-def drive_parser(drive_strings, game_state, re_select,quarter_tracker):
+def drive_parser(drive_strings, game_state, re_select,quarter_tracker,drive_tracker):
     plays = list()
     # Dictionary to store drive info...
     info = {key:game_state[key] for key in game_state.keys() if key != time_stamp}
@@ -678,25 +686,24 @@ def drive_parser(drive_strings, game_state, re_select,quarter_tracker):
     plays.append(info)
     # Can check possession by passing in name_dict and parsing initial strings
     start = 0
-    h = drive_dex('Start of ([1-4]).*Half',drive_strings)
+    #h = drive_dex('Start of ([1-4]).*Half',drive_strings)
     q = drive_dex('Start of ([1-9]).*quarter',drive_strings)
-    if h and not q:
-        q = (-1,quarter_tracker + 1)
+    #if h and not q:
+        #q = (-1,quarter_tracker + 1)
     ds = drive_dex('drive start', drive_strings)
     # Determine whether the "drive" is the start of a quarter
-    if q:
+    if drive_tracker == 0:
         info[q_start] = True
         # Set the quarter
-        if int(q[1])>4:
+        if quarter_tracker + 1 > 4:
             info[quarter] = 5
             info[drive_start] = '0:00'
         else:
-            info[quarter] = int(q[1])
+            info[quarter] = quarter_tracker + 1
             # New quarter = start time of '15:00'
             info[drive_start] = '15:00'
         # Determine the start of plays to parse
-        start = q[0]+1
-        if h:
+        if quarter_tracker in (0,2):
             info[h_start] = True
             info[time_remaining] = time_conv(info[drive_start],info[quarter])
             game_state.update({quarter: info[quarter],
@@ -708,6 +715,8 @@ def drive_parser(drive_strings, game_state, re_select,quarter_tracker):
                 play.update(game_state)
                 plays.append(play)
             return(plays)
+        if q:
+            start = q[0]+1
         if ds:
             start = ds[0]+1
     else:
@@ -776,77 +785,80 @@ def game_builder(quarters,name_dict):
         current_quarter = quarters[i]
         j = 0 # Drive index
         for drive in current_quarter:
-            # Reset timeouts and possession at the start of the 3rd quarter
-            if (i,j) == (2,0):
-                game_state.update({home_tol: 3, away_tol: 3})
-                poss = possession_finder(drive,name_dict)
-                # If no possessor is found, set 2nd half kick team opposite 1st
-                if not poss:
-                    ball.set(toss_info[open_kick])
+            try:
+                # Reset timeouts and possession at the start of the 3rd quarter
+                if (i,j) == (2,0):
+                    game_state.update({home_tol: 3, away_tol: 3})
+                    poss = possession_finder(drive,name_dict)
+                    # If no possessor is found, set 2nd half kick team opposite 1st
+                    if not poss:
+                        ball.set(toss_info[open_kick])
+                        ball.flip()
+                    else:
+                        ball.set(poss) 
+                # Reset timeout and set possession at the start of each overtime period
+                elif i > 3:
+                    poss = possession_finder(drive,name_dict)                
+                    if j == 0:
+                        o = 1
+                        game_state.update({home_tol: 1, away_tol: 1, overtime: o})
+                    if poss:
+                        if poss == ot_ball.get():
+                            game_state.update({home_tol: 1, away_tol: 1})
+                            if j == 1:
+                                j += -1
+                        ot_ball.set(poss)
+                    ball.set(ot_ball.get())
+                    if j > 0 and j % 2 == 0:
+                        o += 1
+                        game_state.update({overtime: o})
+                # Run drive parser
+                game_state[possession] = ball.get()
+                plays = drive_parser(drive,game_state,re_select,i,j)
+                # Check for unexpected splitting of the drive tables, except for Q3 start
+                if h_start not in plays[0].keys() and not plays[0][q_start]:
+                    try:
+                        last_drive = game[-1]
+                        if play_type not in last_drive[-1].keys():
+                            for play in plays[1:]:
+                                last_drive.append(play)
+                            plays = last_drive
+                            game.pop(-1)
+                    except:
+                        None
+                # Determine drive end and update info
+                info = plays[0]       
+                info.update(drive_end_finder(plays))
+                last_play = plays[-1]        
+                # Don't flip possession on KO or Punt play when poss goes to kick team
+                if fumble and fumble_poss in last_play.keys():    
+                    if last_play[fumble_poss] != ball.get():
+                        ball.flip()
+                # Don't flip possession if the previous drive was the end of the quarter
+                elif not info[drive_end] or info[drive_end] == end_quarter:
+                    None
+                # Don't flip possession if the previous drive was a defensive or return TD
+                elif last_play[possession] == ball.get():
                     ball.flip()
-                else:
-                    ball.set(poss) 
-            # Reset timeout and set possession at the start of each overtime period
-            elif i > 3:
-                poss = possession_finder(drive,name_dict)                
-                if j == 0:
-                    o = 1
-                    game_state.update({home_tol: 1, away_tol: 1, overtime: o})
-                if poss:
-                    if poss == ot_ball.get():
-                        game_state.update({home_tol: 1, away_tol: 1})
-                        if j == 1:
-                            j += -1
-                    ot_ball.set(poss)
-                ball.set(ot_ball.get())
-                if j > 0 and j % 2 == 0:
-                    o += 1
-                    game_state.update({overtime: o})
-            # Run drive parser
-            game_state[possession] = ball.get()
-            plays = drive_parser(drive,game_state,re_select,i)
-            # Check for unexpected splitting of the drive tables, except for Q3 start
-            if h_start not in plays[0].keys() and not plays[0][q_start]:
-                try:
+                # If the drive is the start of 2nd or 4th quarter, merge it with the previous drive
+                # unless the last play of the previous quarter was a drive-ending play
+                if info[q_start] and i in (1,3):
                     last_drive = game[-1]
-                    if play_type not in last_drive[-1].keys():
+                    if not last_drive[0][drive_end] or last_drive[0][drive_end] == end_quarter:
+                        # Append plays individually at the end of last drive
                         for play in plays[1:]:
                             last_drive.append(play)
-                        plays = last_drive
-                        game.pop(-1)
-                except:
-                    None
-            # Determine drive end and update info
-            info = plays[0]       
-            info.update(drive_end_finder(plays))
-            last_play = plays[-1]        
-            # Don't flip possession on KO or Punt play when poss goes to kick team
-            if fumble and fumble_poss in last_play.keys():    
-                if last_play[fumble_poss] != ball.get():
-                    ball.flip()
-            # Don't flip possession if the previous drive was the end of the quarter
-            elif not info[drive_end] or info[drive_end] == end_quarter:
-                None
-            # Don't flip possession if the previous drive was a defensive or return TD
-            elif last_play[possession] == ball.get():
-                ball.flip()
-            # If the drive is the start of 2nd or 4th quarter, merge it with the previous drive
-            # unless the last play of the previous quarter was a drive-ending play
-            if info[q_start] and i in (1,3):
-                last_drive = game[-1]
-                if not last_drive[0][drive_end] or last_drive[0][drive_end] == end_quarter:
-                    # Append plays individually at the end of last drive
-                    for play in plays[1:]:
-                        last_drive.append(play)
-                    # Update last drive info with q_start drive info
-                    last_drive[0][drive_end] = info[drive_end]
-                    if num_plays in info.keys():
-                        last_drive[0][num_plays] = info[num_plays]
-                    if total_yards in info.keys():
-                        last_drive[0][total_yards] = info[total_yards]
-            else:
-                game.append(plays)
-            j += 1
+                        # Update last drive info with q_start drive info
+                        last_drive[0][drive_end] = info[drive_end]
+                        if num_plays in info.keys():
+                            last_drive[0][num_plays] = info[num_plays]
+                        if total_yards in info.keys():
+                            last_drive[0][total_yards] = info[total_yards]
+                else:
+                    game.append(plays)
+                j += 1
+            except:
+                print('Exception in (index) quarter {} drive {}'.format(i,j))
         i += 1
     game_state.update(toss_info)
     return({drive_list:game,state_dict:game_state})
