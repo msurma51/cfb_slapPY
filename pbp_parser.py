@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-from namespace_og import *
+from hudl_namespace import *
 import ssl
 
 # Ignore SSL certificate errors
@@ -23,9 +23,20 @@ name_dict[away_name] = drive_chart('a', href='#visitor-drives')[0].string
 team_stats = soup.find(id="team-stats")
 name_dict[home_abbr] = team_stats('th',id='home-team')[0].string
 name_dict[away_abbr] = team_stats('th',id='away-team')[0].string
+
 # Point names to abbreviations
 name_dict[name_dict[home_name]] = name_dict[home_abbr]
 name_dict[name_dict[away_name]] = name_dict[away_abbr]
+
+# Extract game location, date and time
+name_dict[matchup] = '{} at {}'.format(name_dict[away_name],name_dict[home_name])
+info_tag = soup.find('dl', class_='text-center inline')
+dt = info_tag('dt')
+dd = info_tag('dd')
+info_dict = {dt[i].string:dd[i].string for i in range(len(dt))}
+name_dict[game_location] = info_dict['Site:']
+name_dict[game_date] = info_dict['Date:']
+name_dict[game_time] = info_dict['Kickoff Time:']
 
 # Extract kicker names to determine name format for regex and opening kickoff
 kickers = soup.find(id="individual-kickoffs-stats")

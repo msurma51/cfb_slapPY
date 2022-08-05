@@ -98,13 +98,37 @@ def result_maker(play):
 df_name_fields = [key for key in name_keys if key in df.columns]    
 df[df_name_fields] = df[df_name_fields].applymap(name_converter, na_action='ignore')
 
-# Get perspective as a user input
-perspective = input('Perspective: {} (H) or {} (A)?'.format(name_dict[home_abbr],name_dict[away_abbr]))
-if perspective.upper() == 'A':
-    perspective = name_dict[away_abbr]
-# If 'A' or away abbreviation is not the input, default to home team
-elif perspective not in name_dict.values():
-    perspective = name_dict[home_abbr]
+# Determine whether user is scouting own team or opponent and which team is being scouted 
+scout = input('Is this opponent scout? (Y/N)')
+if scout.upper() in ('N','NO'):
+    opp_scout = False
+    scout_input = input('Are you {} (H) or {} (A)?'.format(name_dict[home_name],name_dict[away_name]))
+else:
+    opp_scout = True
+    scout_input = input('Are you scouting {} (H) or {} (A)?'.format(name_dict[home_name],name_dict[away_name]))
+# Based on the user input, determine to which team the input refers
+home_caps = name_dict[home_name].upper()
+away_caps = name_dict[away_name].upper()
+if scout_input.upper() in ('H', home_caps):
+    scout_team = name_dict[home_abbr]
+elif scout_input.upper() in ('A', away_caps):
+    scout_team = name_dict[away_abbr]
+else:
+    home_set = set(scout_input.upper()) & set(home_caps)
+    away_set = set(scout_input.upper()) & set(away_caps)
+    if len(home_set)/len(home_caps) > len(away_set)/len(away_caps):
+        scout_team = name_dict[home_abbr]
+    else:
+        scout_team = name_dict[away_abbr]
+if opp_scout:
+    if scout_team == name_dict[home_abbr]:
+        perspective = name_dict[away_abbr]
+    else:
+        perspective = name_dict[home_abbr]
+else:
+    perspective = scout_team
+    
+    
 # Apply result function to dataframe, filling Hudl 'RESULT' column
 df[play_result] = df.apply(result_maker, axis=1)
 # For points after, replace potentially erroneous distance listed with the actual yard line
@@ -124,14 +148,11 @@ else:
     df[pers_score_diff] = df[score_diff]*-1
     df[pers_tol] = df[away_tol]
     df[opp_team] = df[home_name]
-scout_team = input('Is this opponent scout? (Y/N)')
-''' If input indicates opponent scout, opposing team will be set to perspective.
- I.e. if Ohio State is scouting Penn State using PSU vs. ILL, Ohio State should select 'ILL' as the
- perspective. OPP TEAM would then be ILL. However, if Penn State were using the same game to self-scout,
- 'PSU' would be selected as perspective but OPP TEAM would still be ILL.
-'''
-if scout_team.upper() not in ('N','NO'):
-    df[opp_team] = perspective
+if opp_scout:
+    if perspective == name_dict[home_abbr]:
+        df[opp_team] = name_dict[home_name]
+    else:
+        df[opp_team] = name_dict[away_name]
     
     
 # Count series numbers for O and D and track the play number within each series. Store these values
