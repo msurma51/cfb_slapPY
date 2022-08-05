@@ -648,7 +648,7 @@ def play_parser(string_list,poss,re_select):
     if not play and len(string_list) == 1:
         play = end_parser(string_list[0])
         return(play)
-    desc = string_list[1]
+    desc = string_list[-1]
     # 2 point attempt
     if desc.find("rush attempt ") >-1 or desc.find("pass attempt ") >-1:
         play = try_parser(play,desc,re_select[poss])

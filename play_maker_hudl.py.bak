@@ -899,8 +899,9 @@ def game_builder(quarters,name_dict):
                             last_drive[0][total_yards] = info[total_yards]
                 # If the previous drive ended on a 'No Play' or if the current drive starts with an XP, 
                 # combine the current and previous drives
-                elif len(game) > 0 and any((no_play in last_drive[-1].keys(), plays[1][play_type] == type_xp,
-                                            two_point_attempt in plays[1].keys())):
+                elif all((len(game) > 0, len(plays) > 1)) and any((no_play in last_drive[-1].keys(), 
+                                                                 plays[1][play_type] == type_xp,
+                                                                 two_point_attempt in plays[1].keys())):
                     for play in plays[1:]:
                         last_drive.append(play)
                     last_drive[0][drive_end] = info[drive_end]

@@ -37,7 +37,6 @@ soup = BeautifulSoup(html, "html.parser", parse_only=only_drive_chart)
 
 names_list = list()
 for url in box_score_links[0:2]:
-    #proc = subprocess.run(['python','sauce.py'], input='{}\na\nn'.format(url), text=True)
     html = urlopen(url, context=ctx).read()
     soup = BeautifulSoup(html, "html.parser", parse_only=only_drive_chart)
     names_list.append((soup.find('a', href='#home-drives').string, soup.find('a', href='#visitor-drives').string))
@@ -48,4 +47,12 @@ for name in names_list[0]:
     curr_prop = max(chars1,chars2)/len(name)
     if curr_prop > match_prop:
         match_prop = curr_prop
-        team_name = name     
+        team_name = name
+scout = input('Is this opponent scout? (Y/N)')    
+for url in box_score_links:
+    try:
+        proc = subprocess.run(['python','sauce.py'], input='{}\n{}\n{}'.format(url,scout,team_name), text=True)
+        print(url + ' link successfully parsed')
+    except:
+        print(url + ' parse unsuccessful')
+        print('error ' + str(IOError))

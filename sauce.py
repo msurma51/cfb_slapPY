@@ -189,5 +189,9 @@ df[[series,series_num]] = pd.Series([series_list,series_num_list])
 df[down].mask((df[series_num]==1) | ~(pd.isna(df[two_point_attempt])), 0, inplace = True)
    
 #Export dataframe to csv with columns listed in the order of the 'cols' field label list
-date_str = name_dict[game_date].replace('/','-')   
-df[cols].to_csv('test_files\\{} {}.csv'.format(name_dict[matchup],date_str))
+date_list = name_dict[game_date].split('/')
+for i in range(2):
+    if len(date_list[i]) < 2:
+        date_list[i] = '0' + date_list[i]
+date_str = '{}-{}-{}'.format(date_list[2],date_list[0],date_list[1]) 
+df[cols].to_csv('test_files\\{} {}.csv'.format(date_str,name_dict[matchup]))

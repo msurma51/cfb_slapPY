@@ -74,6 +74,10 @@ def pbp_parser(url):
                         if entry.string:
                             string = entry.string.strip()
                             strings.append(string)
+                        else:
+                            string = ''
+                            for hidden_string in entry.stripped_strings:
+                                string = string + string
                     if len(strings) > 0:
                         play_strings.append(strings)
                 drives.append(play_strings)

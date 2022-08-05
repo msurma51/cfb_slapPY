@@ -116,7 +116,7 @@ elif scout_input.upper() in ('A', away_caps):
 else:
     home_set = set(scout_input.upper()) & set(home_caps)
     away_set = set(scout_input.upper()) & set(away_caps)
-    if home_set/home_caps > away_set/away_caps:
+    if len(home_set)/len(home_caps) > len(away_set)/len(away_caps):
         scout_team = name_dict[home_abbr]
     else:
         scout_team = name_dict[away_abbr]
@@ -189,5 +189,8 @@ df[[series,series_num]] = pd.Series([series_list,series_num_list])
 df[down].mask((df[series_num]==1) | ~(pd.isna(df[two_point_attempt])), 0, inplace = True)
    
 #Export dataframe to csv with columns listed in the order of the 'cols' field label list
-date_str = name_dict[game_date].replace('/','-')   
-df[cols].to_csv('test_files\\{} {}.csv'.format(name_dict[matchup],date_str))
+date_list = name_dict[game_date].split('/')
+if len(date_list[0]) < 2:
+    date_list[0] = '0' + date_list[0]
+date_str = '{}-{}-{}'.format(date_list[2],date_list[0],date_list[1]) 
+df[cols].to_csv('test_files\\{} {}.csv'.format(date_str,name_dict[matchup]))
