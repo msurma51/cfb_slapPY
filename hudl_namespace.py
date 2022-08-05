@@ -91,6 +91,10 @@ series='SERIES'
 series_num='SERIES #'
 overtime='OT #'
 play_result='RESULT'
+matchup='matchup'
+game_location='location'
+game_date='date'
+game_time='time'
 
 
 #Play result values

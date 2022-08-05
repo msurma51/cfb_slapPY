@@ -167,5 +167,6 @@ df[[series,series_num]] = pd.Series([series_list,series_num_list])
 # Change the first play of each drive and two point attempts to '0'th down for analysis purposes
 df[down].mask((df[series_num]==1) | ~(pd.isna(df[two_point_attempt])), 0, inplace = True)
    
-#Export dataframe to csv with columns listed in the order of the 'cols' field label list   
-df[cols].to_csv('test_files\\{}@{}.csv'.format(name_dict[away_abbr],name_dict[home_abbr]))
+#Export dataframe to csv with columns listed in the order of the 'cols' field label list
+date_str = name_dict[game_date].replace('/','-')   
+df[cols].to_csv('test_files\\{} {}.csv'.format(name_dict[matchup],date_str))

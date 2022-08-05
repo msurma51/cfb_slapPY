@@ -1,6 +1,6 @@
 import urllib.request
 from bs4 import BeautifulSoup
-from namespace_og import *
+from hudl_namespace import *
 import re
 
 user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
@@ -24,6 +24,18 @@ name_dict = dict()
 team_names = soup.find_all('h4')
 name_dict[away_name] = team_names[0].string
 name_dict[home_name] = team_names[1].string
+
+# Extract game location, date and time
+setting_tag = soup.find(class_='align-center')
+setting_strings = [string for string in setting_tag.stripped_strings]
+name_dict[matchup] = setting_strings[0]
+city = re.findall('[A-Z].*',setting_strings[1])
+date = re.findall('\d+/\d+/\d+', setting_strings[2])
+time = re.findall('- (.*)', setting_strings[2])
+setting_dict = {game_location: city, game_date: date, game_time: time}
+for key in setting_dict.keys():
+    if len(setting_dict[key]) > 0:
+        name_dict[key] = setting_dict[key][0]
 
 # Extract kicker names to determine name format for regex and opening kickoff
 kick_headers = soup.find_all("th", string = 'Kickoffs')
