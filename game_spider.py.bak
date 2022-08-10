@@ -12,7 +12,7 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-url = input('Enter schedule link - ')
+url = input('Enter - ')
 if len(url) < 1:
     url = 'https://lycomingathletics.com/sports/football/schedule/2021'
 html = urlopen(url, context=ctx).read()

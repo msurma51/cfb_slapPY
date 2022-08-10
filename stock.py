@@ -39,9 +39,9 @@ for name in names_list[0]:
         team_name = name
 scout = input('Is this opponent scout? (Y/N)')    
 for url in box_score_links:
-    try:
-        proc = subprocess.run(['python','sauce.py'], input='{}\n{}\n{}'.format(url,scout,team_name), text=True)
+    proc = subprocess.run(['python','sauce.py'], input='{}\n{}\n{}'.format(url,scout,team_name), text=True)
+    if proc.returncode == 0:    
         print(url + ' link successfully parsed')
-    except:
+    else:
         print(url + ' parse unsuccessful')
-        print('error ' + str(IOError))
+        

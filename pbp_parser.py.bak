@@ -34,11 +34,10 @@ info_tag = soup.find('dl', class_='text-center inline')
 dt = info_tag('dt')
 dd = info_tag('dd')
 info_dict = {dt[i].string:dd[i].string for i in range(len(dt))}
-'''
 name_dict[game_location] = info_dict['Site:']
 name_dict[game_date] = info_dict['Date:']
 name_dict[game_time] = info_dict['Kickoff Time:']
-'''
+
 # Extract kicker names to determine name format for regex and opening kickoff
 kickers = soup.find(id="individual-kickoffs-stats")
 header = kickers("th", scope = "row")
@@ -76,8 +75,14 @@ for qtr in ('1st','2nd','3rd','4th','OT'):
                 entries = row('td')
                 for entry in entries:
                     if entry.string:
-                        string = entry.string.strip()
-                        strings.append(string)
+                            string = entry.string.strip()
+                            strings.append(string)
+                    else:
+                        string = ''
+                        for hidden_string in entry.stripped_strings:
+                            string = '{} {}'.format(string,hidden_string)
+                        if len(string) > 0:
+                            strings.append(string)
                 if len(strings) > 0:
                     play_strings.append(strings)
             drives.append(play_strings)

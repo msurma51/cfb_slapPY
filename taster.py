@@ -1,16 +1,8 @@
 import urllib.request
 from bs4 import BeautifulSoup
 from hudl_namespace import *
+from presto_prep import headers, pot
 import re
-
-user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
-headers={'User-Agent':user_agent,} 
-
-def pot(headers, url):
-    request = urllib.request.Request(url,None,headers) #The assembled request
-    response = urllib.request.urlopen(request)
-    html = response.read().decode() # The data u need
-    return(BeautifulSoup(html, "html.parser"))
 
 url = input('Enter - ')
 if len(url) < 1:
@@ -95,7 +87,7 @@ for i in range(len(split_rows)):
 abbr = list()
 def abbr_finder(drive,abbr):
     for play in drive:
-        yl_match = re.findall('([A-Z]+)[0-9]{2}',play[0])
+        yl_match = re.findall("([A-Z&']+)[0-9]{2}",play[0])
         if len(yl_match)>0:
             for match in yl_match:
                 abbr.append(match)
@@ -104,24 +96,66 @@ drive_count = 0
 while len(set(abbr))<2:
     abbr = abbr_finder(quarters[0][drive_count],abbr)
     drive_count += 1
-abbr2 = [name for name in abbr if name != abbr[0]][0]
-name_dict[away_abbr] = None
-# Determine whether home or away team kicked off, and match with first abbreviation
 kicker_name = re.findall('([A-Za-z]+) kickoff',quarters[0][0][-1][-1])
+kicker = None
 if len(kicker_name)>0:
-    for kicker in kicker_names[0]:
-        if kicker_name[0] in kicker:
-            name_dict[away_abbr] = abbr[0]
+    if name_dict[away_kicker] in kicker_name[0]:
+        kicker = name_dict[away_kicker]
+    elif name_dict[home_kicker] in kicker_name[0]:
+        kicker = name_dict[home_kicker]
+    else:
+        k = {char for char in kicker_name[0] if char.isalpha()}
+        a = k & set(name_dict[home_kicker])
+        b = k & set(name_dict[away_kicker])
+        if k == a:
+            kicker = name_dict[home_kicker]
+        elif k == b:
+            kicker = name_dict[away_kicker]    
+
+# Determine whether possession was determined in opening kick drive strings
+kick_team = None
+for row in quarters[0][0]:
+    has_ball = re.findall('ball on ([A-Z]+)[0-9]{2}', row[-1])
+    if len(has_ball) > 0:
+        kick_team = has_ball[0]
+        break
+
+name_dict[home_abbr] = None
+name_dict[away_abbr] = None
+
+# Match kicker with kick team abbr, assign remaining abbr to other team
+if kicker and kick_team in abbr:
+    abbr2 = [name for name in abbr if name != kick_team][0]
+    if kicker == name_dict[home_kicker]:
+        name_dict[home_abbr] = kick_team
+        name_dict[away_abbr] = abbr2
+    else:
+        name_dict[home_abbr] = abbr2
+        name_dict[away_abbr] = kick_team
+# If you could not identify the opening kicker or kick team, compare abbreviations to team names
+else:
+    for curr_abbr in set(abbr):
+        abbr2 = [name for name in abbr if name != curr_abbr][0]
+        home_prop = len(set(curr_abbr) & set(name_dict[home_name].upper())) / len(set(curr_abbr))
+        away_prop = len(set(curr_abbr) & set(name_dict[away_name].upper())) / len(set(curr_abbr))
+        if home_prop == away_prop:
+            continue
+        elif home_prop > away_prop:
+            name_dict[home_abbr] = curr_abbr
+            name_dict[away_abbr] = abbr2
+            break
+        else:
+            name_dict[away_abbr] = curr_abbr
             name_dict[home_abbr] = abbr2
             break
-    if not name_dict[away_abbr]:        
-        name_dict[home_abbr] = abbr[0]
-        name_dict[away_abbr] = abbr2
-    
             
-# Point names to abbreviations
-name_dict[name_dict[home_name]] = name_dict[home_abbr]
-name_dict[name_dict[away_name]] = name_dict[away_abbr]
+if not name_dict[home_abbr]:
+    print('Abbreviations could not be matched')
+    
+    
+# Point abbreviations to names
+name_dict[name_dict[home_abbr]] = name_dict[home_name]
+name_dict[name_dict[away_abbr]] = name_dict[away_name]
 
 
 # As a test, print opening kickoff strings

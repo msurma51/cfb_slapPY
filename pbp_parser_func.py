@@ -23,9 +23,10 @@ def pbp_parser(url):
     team_stats = soup.find(id="team-stats")
     name_dict[home_abbr] = team_stats('th',id='home-team')[0].string
     name_dict[away_abbr] = team_stats('th',id='away-team')[0].string
-    # Point names to abbreviations
-    name_dict[name_dict[home_name]] = name_dict[home_abbr]
-    name_dict[name_dict[away_name]] = name_dict[away_abbr]
+    
+    # Point abbreviations to names
+    name_dict[name_dict[home_abbr]] = name_dict[home_name]
+    name_dict[name_dict[away_abbr]] = name_dict[away_name]
     
     # Extract game location, date and time
     name_dict[matchup] = '{} at {}'.format(name_dict[away_name],name_dict[home_name])
@@ -77,7 +78,9 @@ def pbp_parser(url):
                         else:
                             string = ''
                             for hidden_string in entry.stripped_strings:
-                                string = string + hidden_string
+                                string = '{} {}'.format(string,hidden_string)
+                            if len(string) > 0:
+                                strings.append(string)
                     if len(strings) > 0:
                         play_strings.append(strings)
                 drives.append(play_strings)

@@ -1,4 +1,5 @@
 import re
+import traceback
 from hudl_namespace import *
 
 def get_name_format(player_name):
@@ -8,6 +9,19 @@ def get_name_format(player_name):
     elif player_name.find(" ") >-1:
         name_re = "([\w'-]+, [\w'-]+)"
     return(name_re)
+    
+def name_check(play, name_keys):
+    name_key_list = [key for key in name_keys if key in play.keys()]
+    matches = dict()
+    for name_key in name_key_list:
+        dex = play[name_key].find(',')
+        if dex > -1:
+            if play[name_key][dex+1] == ' ':
+                matches[name_key] = play[name_key]
+            else:
+                matches[name_key] = play[name_key].split()[0]
+    return(matches)
+    
 
 def drive_dex(pattern, drive):
     for i in range(len(drive)):
@@ -370,7 +384,7 @@ def timeout_parser(play,desc):
 
 
 
-def end_parser(desc):
+def end_parser(desc, name_ref = None):
     end = dict()
     # Ensure that desc is not the drive start time stamp
     stamp = re.search("at [0-9]+:[0-9]{2}",desc,re.IGNORECASE)
@@ -388,12 +402,19 @@ def end_parser(desc):
     if time_elapsed:
         end[time_of_possession] = time_elapsed.group()
         end[time_elapsed_sec] = time_conv(time_elapsed.group(),2)
+    if name_ref:
+        score_report = re.findall(name_ref[away_name] + ' ([\d]+), ' + name_ref[home_name] + ' ([\d]+)', desc)
+        if len(score_report) > 0:
+            end[away_score] = int(score_report[0][0])
+            end[home_score] = int(score_report[0][1])
     if desc.find(' game') >-1:
         end[drive_end] = end_game
     elif desc.find(' half') >-1:
         end[drive_end] = end_half
     elif desc.find(' quarter') >-1:
         end[drive_end] = end_quarter
+    elif desc.find('Drive end unknown') > -1:
+        end[drive_end] = end_unknown
     return(end)
 
 
@@ -491,7 +512,7 @@ def drive_end_finder(plays):
         return({drive_end:end_kick})         
     elif last_play[play_type] == type_kickoff:
         if q_start in plays[-2].keys():
-            return(end_dict)
+            return({drive_end:None})
         elif plays[-2][play_type] == type_xp or two_point_attempt in plays[-2].keys():
             end = end_td
         elif plays[-2][play_type] == type_fg:
@@ -629,7 +650,7 @@ def possession_finder(drive,name_dict):
     # Try to find 'ball' in drive strings
     if not poss:
         for row in drive:
-            has_ball = re.findall('([A-Z]+) ball',row[-1])
+            has_ball = re.findall('([A-Z\d]+) ball',row[-1])
             if len(has_ball) > 0:
                 poss = has_ball[0]
                 break
@@ -642,12 +663,12 @@ def possession_finder(drive,name_dict):
         
     
         
-def play_parser(string_list,poss,re_select):
-    play = ddyl_parser(string_list[0],poss)
-    # Drive end string
-    if not play and len(string_list) == 1:
+def play_parser(string_list,poss,re_select,name_ref):
+    if len(string_list) == 1:
         play = end_parser(string_list[0])
         return(play)
+    else:
+        play = ddyl_parser(string_list[0],poss)
     desc = string_list[-1]
     # 2 point attempt
     if desc.find("rush attempt ") >-1 or desc.find("pass attempt ") >-1:
@@ -705,7 +726,7 @@ def play_parser(string_list,poss,re_select):
         if re.search(key,desc,re.IGNORECASE):
             play[result_dict[key]] = True
     if play_type not in play.keys():
-        play = end_parser(desc)
+        play = end_parser(desc,name_ref)
     return(play)
     
     
@@ -724,6 +745,8 @@ def drive_parser(drive, game_state, re_select,quarter_tracker,drive_tracker):
     #if h and not q:
         #q = (-1,quarter_tracker + 1)
     ds = drive_dex('drive start', drive)
+    # Store names for access later
+    name_ref = {key:game_state[key] for key in (home_name, away_name, home_abbr, away_abbr)}  
     # Determine whether the "drive" is the start of a quarter
     if drive_tracker == 0:
         info[q_start] = True
@@ -742,11 +765,24 @@ def drive_parser(drive, game_state, re_select,quarter_tracker,drive_tracker):
             game_state.update({quarter: info[quarter],
                    time_stamp: info[drive_start],
                    time_remaining: info[time_remaining]})
-            play = play_parser(['Opening kickoff',drive[-1][-1]],
-                                     game_state[possession],re_select)
-            if play_type in play.keys() and play[play_type] == type_kickoff:
-                play.update(game_state)
-                plays.append(play)
+            play = play_parser(['Opening kickoff',drive[-1][-1]], game_state[possession],re_select,name_ref)
+            # Catch and fix regex pattern for naming protocol for either team
+            if quarter_tracker == 0:
+                names = name_check(play,name_keys)
+                ko_keys = {kicker, tackler1, tackler2} & names.keys()
+                ret_keys = {returner} & names.keys()
+                if names:
+                    play.update(names)
+                    if ko_keys:
+                        re_select[game_state[possession]] = get_name_format(names[list(ko_keys)[0]])
+                    if ret_keys:
+                        defense = [abbr for abbr in (name_dict[home_abbr], name_dict[away_abbr]) if abbr != game_state[possession]][0]
+                        re_select[defense] = get_name_format(names[list(ret_keys)[0]])   
+            if play_type not in play.keys():
+                play[play_type] = type_kickoff
+                play[drive_end] = open_kick
+            play.update(game_state)
+            plays.append(play)    
             return(plays)
         if q:
             start = q[0]+1
@@ -774,13 +810,33 @@ def drive_parser(drive, game_state, re_select,quarter_tracker,drive_tracker):
                        time_stamp: info[drive_start],
                        time_remaining: info[time_remaining],
                        home_tol: info[home_tol],
-                       away_tol: info[away_tol]})
+                       away_tol: info[away_tol]})                 
     while start < len(drive):
-        play = play_parser(drive[start],game_state[possession],re_select)
+        play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+        name_check_tracker = [0,0]
+        if all((quarter_tracker == 0, drive_tracker == 0, name_check_tracker == [0,0])):
+            names = name_check(play, name_keys)
+            if names:
+                play.update(names)
+                off_keys = {passer, rusher, intended, placekicker, punter, fumbled_by} & names.keys()
+                def_keys = {returner, tackler1, tackler2, forced_by, hurried_by, broken_up_by, intercepted_by} & names.keys()
+                if off_keys and name_check_tracker[0] == 0:
+                    re_select[game_state[possession]] = get_name_format(names[list(off_keys)[0]])
+                    name_check_tracker[0] += 1
+                if def_keys and name_check_tracker[1] == 0:
+                    defense = [abbr for abbr in (name_dict[home_abbr], name_dict[away_abbr]) if abbr != game_state[possession]][0]
+                    re_select[defense] = get_name_format(names[list(def_keys)[0]])
+                    name_check_tracker[1] += 1
         if play and play_type in play.keys():
             play.update(game_state)
             plays.append(play)
             game_state = state_update(play,drive[start][1],game_state)  
+        elif play and home_score in play.keys():
+            if game_state[home_score] != play[home_score] and game_state[away_score] != play[away_score]:    
+                game_state.update(play)
+                print('Score correction made in (index) quarter {} drive {}'.format(quarter_tracker, drive_tracker))
+            #if play_type in plays[-1].keys() and any((plays[-1][play_type] == type_xp, two_point_attempt in plays[-1].keys())):
+                
         else:    
             info.update(play)
         start += 1
@@ -817,12 +873,12 @@ def game_builder(quarters,name_dict):
     while i < len(quarters):
         current_quarter = quarters[i]
         j = 0 # Drive index
-        for drive in current_quarter:
+        for curr_drive in current_quarter:
             try:
                 # Reset timeouts and possession at the start of the 3rd quarter
                 if (i,j) == (2,0):
                     game_state.update({home_tol: 3, away_tol: 3})
-                    poss = possession_finder(drive,name_dict)
+                    poss = possession_finder(curr_drive,name_dict)
                     # If no possessor is found, set 2nd half kick team opposite 1st
                     if not poss:
                         ball.set(toss_info[open_kick])
@@ -831,7 +887,7 @@ def game_builder(quarters,name_dict):
                         ball.set(poss) 
                 # Reset timeout and set possession at the start of each overtime period
                 elif i > 3:
-                    poss = possession_finder(drive,name_dict)                
+                    poss = possession_finder(curr_drive,name_dict)                
                     if j == 0:
                         o = 1
                         game_state.update({home_tol: 1, away_tol: 1, overtime: o})
@@ -845,80 +901,86 @@ def game_builder(quarters,name_dict):
                     if j > 0 and j % 2 == 0:
                         o += 1
                         game_state.update({overtime: o})
-                # Run drive parser
-                game_state[possession] = ball.get()
-                plays = drive_parser(drive,game_state,re_select,i,j)
-                # Check for unexpected splitting of the drive tables, except for Q3 start
-                if h_start not in plays[0].keys() and not plays[0][q_start]:
-                    try:
+                # Check for unexpected combination of drives, and split if necessary
+                all_drives = [curr_drive]
+                ds = drive_dex('drive start', curr_drive)
+                if ds:
+                    ds2 = drive_dex('drive start', curr_drive[ds[0]+1:])    
+                    if ds2:
+                        dex2 = ds2[0]
+                        all_drives[0] = curr_drive[:dex2] + [['Drive end unknown']]
+                        all_drives.append(curr_drive[dex2:])
+                for drive in all_drives:        
+                    # Run drive parser
+                    game_state[possession] = ball.get()
+                    plays = drive_parser(drive,game_state,re_select,i,j)
+                    # Determine drive end and update info
+                    info = plays[0]       
+                    info.update(drive_end_finder(plays))
+                    if j == len(current_quarter)-1 and not info[drive_end]:
+                        info[drive_end] = end_quarter
+                    if len(game) > 0:
                         last_drive = game[-1]
-                        if play_type not in last_drive[-1].keys():
-                            for play in plays[1:]:
-                                last_drive.append(play)
-                            plays = last_drive
-                            game.pop(-1)
-                    except:
-                        None
-                # Determine drive end and update info
-                info = plays[0]       
-                info.update(drive_end_finder(plays))
-                last_play = plays[-1]
-                if len(game) > 0:
-                    last_drive = game[-1]
-                # Don't flip possession on KO or Punt play when poss goes to kick team
-                if fumble and fumble_poss in last_play.keys():    
-                    if last_play[fumble_poss] != ball.get():
-                        ball.flip()
-                # Flip possession if there is a turnover (TD) in the previous drive but the xp and/or ko is
-                # moved to the next drive
-                elif last_play[possession] != ball.get() and last_play[play_type] != type_kickoff:
-                    ball.flip()
-                # Don't flip possession if the previous drive was the end of the quarter
-                elif not info[drive_end] or info[drive_end] == end_quarter:
-                    None
-                # Don't flip possession if the drive ends on a 'NO PLAY' (will be merged with next drive)
-                elif no_play in plays[-1].keys():
-                    None
-                # Flip possession if the team who started with the ball also ended with it.
-                # Note: This means that if there was a turnover TD and the ball was subsequently kicked off,
-                # possession is not flipped.
-                elif last_play[possession] == ball.get():
-                    ball.flip()
-                # If the drive is the start of 2nd or 4th quarter, merge it with the previous drive
-                # unless the last play of the previous quarter was a drive-ending play
-                if info[q_start] and i in (1,3):
-                    if not last_drive[0][drive_end] or last_drive[0][drive_end] == end_quarter:
-                        # Append plays individually at the end of last drive
-                        for play in plays[1:]:
-                            last_drive.append(play)
-                        # Update last drive info with q_start drive info
+                    # Check for unexpected splitting of the drive tables (creating a drive with no plays), 
+                    # except for Q3 and OT start. Combine if split.
+                    if all((i not in (2,4), not info[q_start])) and play_type not in last_drive[-1].keys(): 
+                        last_drive[0].update(info)
+                        if len(plays) > 1:
+                            game[-1] = last_drive + plays[1:]  
+                    # If the drive is the start of 2nd or 4th quarter, merge it with the previous drive
+                    # unless the last play of the previous quarter was a drive-ending play
+                    elif info[q_start] and i in (1,3):
+                        if not last_drive[0][drive_end] or last_drive[0][drive_end] == end_quarter:
+                            # Update last drive info with q_start drive info
+                            last_drive[0][drive_end] = info[drive_end]
+                            for end_key in (num_plays, total_yards, time_elapsed_sec):
+                                if end_key in info.keys():
+                                    last_drive[0][end_key] = info[end_key]
+                            # Append plays individually at the end of last drive
+                            game[-1] = last_drive + plays[1:]
+                    # If the previous drive ended on a 'No Play' , if the current drive started on a down later than 1st, 
+                    # or if the current drive starts with an XP, merge the current and previous drives
+                    elif all((len(game) > 0, len(plays) > 1)) and any((no_play in last_drive[-1].keys(), 
+                        plays[1][play_type] == type_xp, two_point_attempt in plays[1].keys(),
+                        all((not last_drive[0][drive_end], down in plays[1].keys() and plays[1][down] > 1)))):
                         last_drive[0][drive_end] = info[drive_end]
                         if num_plays in info.keys():
-                            last_drive[0][num_plays] = info[num_plays]
+                            last_drive[0][num_plays] += info[num_plays]
                         if total_yards in info.keys():
-                            last_drive[0][total_yards] = info[total_yards]
-                # If the previous drive ended on a 'No Play' or if the current drive starts with an XP, 
-                # combine the current and previous drives
-                elif all((len(game) > 0, len(plays) > 1)) and any((no_play in last_drive[-1].keys(), 
-                                                                 plays[1][play_type] == type_xp,
-                                                                 two_point_attempt in plays[1].keys())):
-                    for play in plays[1:]:
-                        last_drive.append(play)
-                    last_drive[0][drive_end] = info[drive_end]
-                    if num_plays in info.keys():
-                        last_drive[0][num_plays] += info[num_plays]
-                    if total_yards in info.keys():
-                        last_drive[0][total_yards] += info[total_yards]
-                    if time_elapsed_sec in info.keys():
-                        last_drive[0][time_elapsed_sec] += info[time_elapsed_sec]
-                        last_drive[0][time_of_possession] = sec_to_min(last_drive[0][time_elapsed_sec])
-                else:
-                    game.append(plays)
+                            last_drive[0][total_yards] += info[total_yards]
+                        if time_elapsed_sec in info.keys():
+                            last_drive[0][time_elapsed_sec] += info[time_elapsed_sec]
+                            last_drive[0][time_of_possession] = sec_to_min(last_drive[0][time_elapsed_sec])
+                        game[-1] = last_drive + plays[1:]
+                        game[-1][0].update(drive_end_finder(game[-1]))
+                    else:
+                        game.append(plays)
+                    # Determine whether possession object should stay or flip
+                    last_play = plays[-1]
+                    updated_info = game[-1][0]
+                    # Don't flip possession on KO or Punt play when poss goes to kick team
+                    if fumble and fumble_poss in last_play.keys():    
+                        if last_play[fumble_poss] != ball.get():
+                            ball.flip()
+                    # Flip possession if there is a turnover (TD) in the previous drive but the xp and/or ko is
+                    # moved to the next drive
+                    elif last_play[possession] != ball.get() and last_play[play_type] != type_kickoff:
+                        ball.flip()
+                    # Don't flip possession if the drive 'ended' with the last play of the quarter, on a 'NO PLAY',
+                    # or if a drive end could not be identified (premature split of drive)
+                    elif any((info[drive_end] == end_quarter, no_play in plays[-1].keys(), not updated_info[drive_end])):
+                        None
+                    # Flip possession if the team who started with the ball also ended with it.
+                    # Note: This means that if there was a turnover TD and the ball was subsequently kicked off,
+                    # possession is not flipped.
+                    elif last_play[possession] == ball.get():
+                        ball.flip()    
                 j += 1
             except:
                 print('Exception in (index) quarter {} drive {}'.format(i,j))
                 print(quarters[i][j])
-                raise
+                print(traceback.format_exc())
+                return({drive_list:game, state_dict:game_state, plays_list:plays})
         i += 1
     game_state.update(toss_info)
     return({drive_list:game,state_dict:game_state})

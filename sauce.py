@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup   
 import pandas as pd
 import numpy as np
+import os
 from hudl_namespace import *
 url = input('Enter -')
 try:
@@ -39,9 +40,7 @@ for col in cols:
     if col not in df.columns:
         df[col] = np.NaN
 
-name_keys = [rusher,passer,intended,kicker,placekicker,punter,returner,tackler1,tackler2,
-             fumbled_by,fumbled_by + '2',recovered_by,recovered_by + '2', forced_by, hurried_by,
-             broken_up_by,intercepted_by,against + '1',against + '2']
+
              
 def name_converter(player_name):
     # Converts names to standard 'First Last' format
@@ -188,10 +187,14 @@ df[[series,series_num]] = pd.Series([series_list,series_num_list])
 # Change the first play of each drive and two point attempts to '0'th down for analysis purposes
 df[down].mask((df[series_num]==1) | ~(pd.isna(df[two_point_attempt])), 0, inplace = True)
    
-#Export dataframe to csv with columns listed in the order of the 'cols' field label list
+# Export dataframe to csv with columns listed in the order of the 'cols' field label list
 date_list = name_dict[game_date].split('/')
 for i in range(2):
     if len(date_list[i]) < 2:
         date_list[i] = '0' + date_list[i]
-date_str = '{}-{}-{}'.format(date_list[2],date_list[0],date_list[1]) 
-df[cols].to_csv('test_files\\{} {}.csv'.format(date_str,name_dict[matchup]))
+date_str = '{}-{}-{}'.format(date_list[2],date_list[0],date_list[1])
+
+# Save to folder labelled with the name of the team being scouted
+if not os.path.exists(name_dict[scout_team]):
+    os.mkdir(name_dict[scout_team])
+df[cols].to_csv('{}\\{} {}.csv'.format(name_dict[scout_team],date_str,name_dict[matchup]))

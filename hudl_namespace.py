@@ -84,6 +84,7 @@ home_kicker='home_kicker'
 away_kicker='away_kicker'
 state_dict='state'
 drive_list='game'
+plays_list='plays'
 odk='ODK'
 opp_team='OPP TEAM'
 play_num='PLAY #'
@@ -127,6 +128,11 @@ end_td = 'TD'
 end_missed_fg = 'Missed FG'
 end_fumble = 'Fumble'
 end_downs = 'Downs'
+end_unknown = 'Unknown'
 toss_defer = 'Defer'
 toss_receive = 'Receive'
 toss_kick = 'Kick'
+
+name_keys = [rusher,passer,intended,kicker,placekicker,punter,returner,tackler1,tackler2,
+             fumbled_by,fumbled_by + '2',recovered_by,recovered_by + '2', forced_by, hurried_by,
+             broken_up_by,intercepted_by,against + '1',against + '2']
