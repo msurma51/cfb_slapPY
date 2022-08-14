@@ -834,7 +834,8 @@ def drive_parser(drive, game_state, re_select,quarter_tracker,drive_tracker):
         elif play and home_score in play.keys():
             if game_state[home_score] != play[home_score] and game_state[away_score] != play[away_score]:    
                 game_state.update(play)
-                print('Score correction made in (index) quarter {} drive {}'.format(quarter_tracker, drive_tracker))
+                print('Score correction made in {} @ {} (index) quarter {} drive {}'.format(game_state[away_name], 
+                    game_state[home_name], quarter_tracker, drive_tracker))
             #if play_type in plays[-1].keys() and any((plays[-1][play_type] == type_xp, two_point_attempt in plays[-1].keys())):
                 
         else:    
@@ -944,12 +945,13 @@ def game_builder(quarters,name_dict):
                         plays[1][play_type] == type_xp, two_point_attempt in plays[1].keys(),
                         all((not last_drive[0][drive_end], down in plays[1].keys() and plays[1][down] > 1)))):
                         last_drive[0][drive_end] = info[drive_end]
-                        if num_plays in info.keys():
-                            last_drive[0][num_plays] += info[num_plays]
-                        if total_yards in info.keys():
-                            last_drive[0][total_yards] += info[total_yards]
-                        if time_elapsed_sec in info.keys():
-                            last_drive[0][time_elapsed_sec] += info[time_elapsed_sec]
+                        for end_key in (num_plays, total_yards, time_elapsed_sec):
+                            if end_key in info.keys():
+                                if end_key in last_drive[0].keys():
+                                    last_drive[0][end_key] += info[end_key]
+                                else:
+                                    last_drive[0][end_key] = info[end_key]
+                        if time_elapsed_sec in last_drive[0].keys():
                             last_drive[0][time_of_possession] = sec_to_min(last_drive[0][time_elapsed_sec])
                         game[-1] = last_drive + plays[1:]
                         game[-1][0].update(drive_end_finder(game[-1]))
@@ -977,10 +979,12 @@ def game_builder(quarters,name_dict):
                         ball.flip()    
                 j += 1
             except:
-                print('Exception in (index) quarter {} drive {}'.format(i,j))
-                print(quarters[i][j])
-                print(traceback.format_exc())
-                return({drive_list:game, state_dict:game_state, plays_list:plays})
+                print('Exception in {} (index) quarter {} drive {}'.format(name_dict[matchup],i,j))
+                for row in quarters[i][j]:
+                    print('\t',row)
+                raise
+                #print(traceback.format_exc())
+                #return({drive_list:game, state_dict:game_state, plays_list:plays})
         i += 1
     game_state.update(toss_info)
     return({drive_list:game,state_dict:game_state})

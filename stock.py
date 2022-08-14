@@ -1,5 +1,7 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup, SoupStrainer
+import sys
+import os
 import ssl
 import re
 import subprocess
@@ -38,10 +40,27 @@ for name in names_list[0]:
         match_prop = curr_prop
         team_name = name
 scout = input('Is this opponent scout? (Y/N)')    
+if not os.path.exists(team_name):
+    os.mkdir(team_name)
+f = open(team_name + '\\output.txt', 'w')
 for url in box_score_links:
-    proc = subprocess.run(['python','sauce.py'], input='{}\n{}\n{}'.format(url,scout,team_name), text=True)
+    proc = subprocess.run(['python','sauce.py'], input='{}\n{}\n{}\n{}'.format(url,scout,team_name,team_name), 
+           capture_output=True, text=True)
+    f.write(proc.stdout)
+    f.write(proc.stderr)
     if proc.returncode == 0:    
         print(url + ' link successfully parsed')
     else:
         print(url + ' parse unsuccessful')
-        
+f.close()      
+with open(team_name + '\\report.txt', 'w') as g:
+    f = open(team_name + '\\output.txt', 'r')
+    write_set = {'\t','Exception','Score', 'Traceback', ' '}
+    for line in f:
+        for tag in write_set:
+            if line.startswith(tag):
+                g.write(line)
+        if re.search('Error', line):
+            g.write(line)
+    
+    

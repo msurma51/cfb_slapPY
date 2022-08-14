@@ -1,0 +1,48 @@
+Enter -['1st']
+['1st and 10 at FMC35', 'F&M wins the toss, defers to the second half']
+['1st and 10 at FMC35', 'FMC ball on FMC35.']
+['', 'J. Rodenberger kickoff 60 yards to the LVC05, Dre Burch return 12 yards to the LVC17, out-of-bounds (Owen Walsh).']
+Is this opponent scout? (Y/N)Are you Lebanon Valley (H) or Franklin & Marshall (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at SUS35', 'FMC ball on FMC35, clock 15:00.']
+['', 'J. Rodenberger kickoff 62 yards to the SUS03, Keith Green return 14 yards to the SUS17 (Jacob Hille; Will Higson).']
+Is this opponent scout? (Y/N)Are you Franklin & Marshall (H) or (RV) Susquehanna (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MCDANIEL35', 'MCDANIEL ball on MCDANIEL35, clock 15:00.']
+['', 'Peyton Denlinge kickoff 60 yards to the FMC05, Nate Costley return 21 yards to the FMC26 (Mason Brown).']
+Is this opponent scout? (Y/N)Are you Franklin & Marshall (H) or McDaniel (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at FMC35', 'FMC ball on FMC35, clock 15:00.']
+['', 'J. Rodenberger kickoff 63 yards to the UC02, Tony Holden return 20 yards to the UC22 (Luke Dauberman).']
+Is this opponent scout? (Y/N)Are you (RV) Ursinus (H) or Franklin & Marshall (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at FMC35', 'Hopkins wins the toss and defers']
+['1st and 10 at FMC35', 'JHU ball on JHU35.']
+['', 'Kyle Battles kickoff 64 yards to the FMC01, Matt Scully return 20 yards to the FMC21 (Spencer Uggla; Chris James).']
+Score correction made in Franklin & Marshall @ #14 Johns Hopkins (index) quarter 1 drive 7
+Is this opponent scout? (Y/N)Are you #14 Johns Hopkins (H) or Franklin & Marshall (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at JUNIATA35', 'JUNIATA ball on JUNIATA35, clock 15:00.']
+['', 'Beckett Leary kickoff 65 yards to the FMC00, touchback.']
+Is this opponent scout? (Y/N)Are you Franklin & Marshall (H) or Juniata (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at FMC35', 'Franklin & Marshall wins toss and will receive']
+['1st and 10 at FMC35', 'DIC will defend South end-zone']
+['1st and 10 at FMC35', 'Start of 1st quarter, clock 15:00, DC ball on DC35.']
+['', 'Moroz,Matt kickoff 55 yards to the FMC10, Matt Scully return 55 yards to the DC35, out-of-bounds (Schimpf,Brendan).']
+Score correction made in Franklin & Marshall @ Dickinson (index) quarter 2 drive 1
+Is this opponent scout? (Y/N)Are you Dickinson (H) or Franklin & Marshall (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MUHL35', 'MUHL ball on MUHL35, clock 15:00.']
+['', 'Nick Stannard kickoff 27 yards to the FMC38, downed.']
+Score correction made in #17 Muhlenberg @ Franklin & Marshall (index) quarter 1 drive 3
+Is this opponent scout? (Y/N)Are you Franklin & Marshall (H) or #17 Muhlenberg (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at F&M35', 'F&M ball on F&M35, clock 15:00.']
+['', 'Jack Rodenberge kickoff 57 yards to the MOR08, Romello Walters return 13 yards to the MOR21 (Luke Dauberman; Kyle Jones).']
+Score correction made in Franklin & Marshall @ Moravian (index) quarter 3 drive 3
+Is this opponent scout? (Y/N)Are you Moravian (H) or Franklin & Marshall (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at GC35', 'GC ball on GC35, clock 15:00.']
+['', 'Doug Cummings kickoff 60 yards to the FMC05, Matt Scully return 95 yards to the GC00, TOUCHDOWN, clock 14:47.']
+Score correction made in Gettysburg @ Franklin & Marshall (index) quarter 0 drive 5
+Score correction made in Gettysburg @ Franklin & Marshall (index) quarter 1 drive 0
+Score correction made in Gettysburg @ Franklin & Marshall (index) quarter 1 drive 3
+Is this opponent scout? (Y/N)Are you Franklin & Marshall (H) or Gettysburg (A)?Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at STE35', 'FMC ball on FMC35, clock 15:00.']
+['', 'Jack Rodenberge kickoff 44 yards to the STE21, Corey Jones-Pen return 4 yards to the STE25 (Jeffrey Krippne).']
+Score correction made in Stevenson @ Franklin & Marshall (index) quarter 0 drive 2
+Score correction made in Stevenson @ Franklin & Marshall (index) quarter 0 drive 4
+Score correction made in Stevenson @ Franklin & Marshall (index) quarter 0 drive 6
+Is this opponent scout? (Y/N)Are you Franklin & Marshall (H) or Stevenson (A)?Folder name? (Scout team name default)

@@ -195,6 +195,9 @@ for i in range(2):
 date_str = '{}-{}-{}'.format(date_list[2],date_list[0],date_list[1])
 
 # Save to folder labelled with the name of the team being scouted
-if not os.path.exists(name_dict[scout_team]):
-    os.mkdir(name_dict[scout_team])
-df[cols].to_csv('{}\\{} {}.csv'.format(name_dict[scout_team],date_str,name_dict[matchup]))
+folder_name = input('Folder name? (Scout team name default)')
+if len(folder_name) < 1:
+    folder_name = name_dict[scout_team]
+if not os.path.exists(folder_name):
+    os.mkdir(folder_name)
+df[cols].to_csv('{}\\{} {}.csv'.format(folder_name,date_str,name_dict[matchup]))
