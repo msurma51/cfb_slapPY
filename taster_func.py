@@ -95,7 +95,7 @@ def taster(url):
     abbr = list()
     def abbr_finder(drive,abbr):
         for play in drive:
-            yl_match = re.findall('([A-Z]+)[0-9]{2}',play[0])
+            yl_match = re.findall("([A-Z&']+)[0-9]{2}",play[0])
             if len(yl_match)>0:
                 for match in yl_match:
                     abbr.append(match)
