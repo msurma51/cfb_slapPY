@@ -40,13 +40,15 @@ for col in cols:
     if col not in df.columns:
         df[col] = np.NaN
 
-
-             
+         
 def name_converter(player_name):
     # Converts names to standard 'First Last' format
     if player_name and ',' in player_name:
         last_first = player_name.split(sep = ',')
         return(last_first[1].strip() + ' ' + last_first[0])
+    # Converts all TEAM captures to just TEAM (eliminating extra words captured)
+    elif player_name and 'TEAM' in player_name:
+        return('TEAM')
     else:
         return(player_name)
         
@@ -186,6 +188,17 @@ for index, row in df.iterrows():
 df[[series,series_num]] = pd.Series([series_list,series_num_list])
 # Change the first play of each drive and two point attempts to '0'th down for analysis purposes
 df[down].mask((df[series_num]==1) | ~(pd.isna(df[two_point_attempt])), 0, inplace = True)
+
+# Check for incorrect possession ID by comparing home rushers and passers to those of the away team
+home_df = df[df[possession] == name_dict[home_abbr]]
+away_df = df[df[possession] == name_dict[away_abbr]]
+home_players = set(home_df[passer]) | set(home_df[rusher])
+away_players = set(away_df[passer]) | set(away_df[rusher])
+overlap = home_players & away_players
+overlap.discard(np.NaN)
+overlap.discard('TEAM')
+if overlap:
+    print('Player name overlap detected in {}. Check possession transitions'.format(name_dict[matchup]))
    
 # Export dataframe to csv with columns listed in the order of the 'cols' field label list
 date_list = name_dict[game_date].split('/')
@@ -193,6 +206,10 @@ for i in range(2):
     if len(date_list[i]) < 2:
         date_list[i] = '0' + date_list[i]
 date_str = '{}-{}-{}'.format(date_list[2],date_list[0],date_list[1])
+if name_dict[scout_team] == name_dict[home_name]:
+    game_str = '{} vs {}'.format(name_dict[home_name],name_dict[away_name])
+else:
+    game_str = '{} at {}'.format(name_dict[away_name],name_dict[home_name])
 
 # Save to folder labelled with the name of the team being scouted
 folder_name = input('Folder name? (Scout team name default)')
@@ -200,4 +217,4 @@ if len(folder_name) < 1:
     folder_name = name_dict[scout_team]
 if not os.path.exists(folder_name):
     os.mkdir(folder_name)
-df[cols].to_csv('{}\\{} {}.csv'.format(folder_name,date_str,name_dict[matchup]))
+df[cols].to_csv('{}\\{} {}.csv'.format(folder_name,date_str,game_str))

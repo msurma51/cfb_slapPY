@@ -421,6 +421,8 @@ def end_parser(desc, name_ref = None):
         end[drive_end] = end_half
     elif desc.find(' quarter') >-1:
         end[drive_end] = end_quarter
+    elif desc.find('Change of possession') >-1:
+        end[drive_end] = end_ot
     elif desc.find('Drive end unknown') > -1:
         end[drive_end] = end_unknown
     return(end)
@@ -656,9 +658,9 @@ def possession_finder(drive,name_dict):
         for row in drive:
             start_drive = re.findall('^(.*) drive start',row[-1])
             if len(start_drive) > 0:
-                if name_dict[home_name] in start_drive[0]:
+                if name_dict[home_name] in start_drive[0] or start_drive[0] in name_dict[home_name]:
                     poss = name_dict[home_abbr]
-                elif name_dict[away_name] in start_drive[0]:
+                elif name_dict[away_name] in start_drive[0] or start_drive[0] in name_dict[away_name]:
                     poss = name_dict[away_abbr]
                 break
     # Try to find 'ball' in drive strings
@@ -901,32 +903,45 @@ def game_builder(quarters,name_dict):
                         ball.flip()
                     else:
                         ball.set(poss) 
-                # Reset timeout and set possession at the start of each overtime period
-                elif i > 3:
-                    poss = possession_finder(curr_drive,name_dict)                
-                    if j == 0:
-                        o = 1
-                        game_state.update({home_tol: 1, away_tol: 1, overtime: o})
-                    if poss:
-                        if poss == ot_ball.get():
-                            game_state.update({home_tol: 1, away_tol: 1})
-                            if j == 1:
-                                j += -1
-                        ot_ball.set(poss)
-                    ball.set(ot_ball.get())
-                    if j > 0 and j % 2 == 0:
-                        o += 1
-                        game_state.update({overtime: o})
                 # Check for unexpected combination of drives, and split if necessary
                 all_drives = [curr_drive]
                 ds = drive_dex('drive start', curr_drive)
                 if ds:
-                    ds2 = drive_dex('drive start', curr_drive[ds[0]+1:])    
-                    if ds2:
-                        dex2 = ds2[0]
-                        all_drives[0] = curr_drive[:dex2] + [['Drive end unknown']]
-                        all_drives.append(curr_drive[dex2:])
+                    next_ds = drive_dex('drive start', curr_drive[ds[0]+1:])
+                    if next_ds:
+                        all_drives[0] = curr_drive[:ds[0]+next_ds[0]+1]
+                        if all_drives[-1][-1][-1].find('Change of possession') == -1:
+                                all_drives[-1].append(['Drive end unknown'])
+                        all_drives.append(curr_drive[ds[0]+next_ds[0]+1:])
+                        next_ds = drive_dex('drive start', all_drives[-1][1:])
+                        while next_ds:
+                            trunc_drive = all_drives[-1]
+                            next_dex = next_ds[0]
+                            all_drives[-1] = trunc_drive[:next_dex+1]
+                            if all_drives[-1][-1][-1].find('Change of possession') == -1:
+                                all_drives[-1].append(['Drive end unknown'])
+                            all_drives.append(trunc_drive[next_dex+1:])
+                            next_ds = drive_dex('drive start', all_drives[-1][1:])
+                d = 0
                 for drive in all_drives:        
+                    # Reset timeout and set possession at the start of each overtime period
+                    if i > 3:
+                        poss = possession_finder(drive,name_dict)                
+                        if j == 0:
+                            o = 1
+                            game_state.update({home_tol: 1, away_tol: 1, overtime: o})
+                        if poss:
+                            if poss == ot_ball.get():
+                                game_state.update({home_tol: 1, away_tol: 1})
+                                if j == 1:
+                                    j += -1
+                            ot_ball.set(poss)
+                        ball.set(ot_ball.get())
+                        if d > 0:
+                            j += 1
+                        if j > 0 and j % 2 == 0:
+                            o += 1
+                            game_state.update({overtime: o})
                     # Run drive parser
                     game_state[possession] = ball.get()
                     plays = drive_parser(drive,game_state,re_select,i,j)
@@ -995,14 +1010,15 @@ def game_builder(quarters,name_dict):
                     # possession is not flipped.
                     elif last_play[possession] == ball.get():
                         ball.flip()    
+                    d += 1
                 j += 1
             except:
                 print('Exception in {} (index) quarter {} drive {}'.format(name_dict[matchup],i,j))
                 for row in quarters[i][j]:
                     print('\t',row)
-                raise
-                #print(traceback.format_exc())
-                #return({drive_list:game, state_dict:game_state, plays_list:plays})
+                #raise
+                print(traceback.format_exc())
+                return({drive_list:game, state_dict:game_state, plays_list:plays})
         i += 1
     game_state.update(toss_info)
     return({drive_list:game,state_dict:game_state})

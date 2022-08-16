@@ -62,5 +62,9 @@ with open(team_name + '\\report.txt', 'w') as g:
                 g.write(line)
         if re.search('Error', line):
             g.write(line)
+        pdex = line.find('Player')
+        if pdex > -1:
+            g.write(line[pdex:])
+            
     
     
