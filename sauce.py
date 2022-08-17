@@ -33,8 +33,8 @@ penalty_cols = [key + '1' for key in penalty_keys] + [key + '2' for key in penal
 cols = [opp_team, odk, possession, quarter, overtime, series, series_num, down, distance, yard_line, play_type, play_result, gn_ls, 
         rusher, passer, pass_result, intended, broken_up_by, intercepted_by, hurried_by, tackler1, tackler2,
         fumble, fumbled_by, forced_by, recover_team, recovered_by, returner, ret_yards, return_to,        
-        kicker, kick_yards, kick_to, kick_result, punter, punt_yards, punt_to, punt_result,
-        placekicker, fg_dist, fg_result, xp_result, two_point_attempt, taken_by, first_down, touchdown, no_play, safety,
+        kicker, kick_yards, kick_to, kick_result, punter, punt_yards, punt_to, punt_result, blocked_by,
+        placekicker, fg_dist, fg_result, xp_result, two_point_attempt, taken_by, first_down, touchdown, no_play, nullified, safety,
         drive_end, time_stamp, time_remaining, off_score, def_score, pers_score_diff, pers_tol, off_tol, def_tol] + penalty_cols
 for col in cols:
     if col not in df.columns:

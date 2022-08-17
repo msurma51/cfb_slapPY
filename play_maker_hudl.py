@@ -85,6 +85,11 @@ def add_tacklers(play,desc):
     elif pen_dex != -1 and para_dex > pen_dex:
         return(play)
     t_string = re.findall('\((.*?)\)',desc)[0]
+    if 'blocked' in t_string:
+        if len(re.findall('\((.*?)\)',desc)) > 1:
+            t_string = re.findall('\((.*?)\)',desc)[1]
+        else:
+            return(play)
     tacklers = [tackler.strip() for tackler in t_string.split(';')]
     play[tackler1] = tacklers[0]
     if len(tacklers) >1:
@@ -442,7 +447,12 @@ def score_update(home_ball,points,play_state):
 def state_update(play,desc,play_state):
     # Determine whether the home team has possession in order to know which side to add/deduct from
     home_ball = play_state[possession] == play_state[home_abbr]
-    if touchdown in play.keys():
+    # Update points based on play result
+    # If the play was ruled a 'no play' or a score was nullified due to a penalty, don't update points
+    if any((no_play in play.keys(), nullified in play.keys())):
+        None
+    # Otherwise...
+    elif touchdown in play.keys():
         if fumble_poss in play.keys() and play[fumble_poss] != play_state[possession]:
             play_state.update(score_update(not home_ball,6,play_state))
             play_state[possession] = play[fumble_poss]
@@ -455,11 +465,9 @@ def state_update(play,desc,play_state):
                 play_state[possession] = play_state[away_abbr]
             else:
                 play_state[possession] = play_state[home_abbr]
-        elif no_play in play.keys():
-            None
         else:
             play_state.update(score_update(home_ball,6,play_state))
-    if xp_result in play.keys() and play[xp_result] == fg_good:
+    elif xp_result in play.keys() and play[xp_result] == fg_good:
         play_state.update(score_update(home_ball,1,play_state))
     elif two_point_attempt in play.keys() and play[two_point_attempt] == try_good:
         play_state.update(score_update(home_ball,2,play_state))
@@ -515,6 +523,12 @@ def drive_end_finder(plays):
         return(end_dict)
     else:
         end = None
+    # Determine whether a safety occurred during the drive
+    was_safety = False
+    for play in plays:
+        if safety in play.keys():
+            was_safety = True
+            break
     last_play = plays[-1]
     time_ends = {game_end: end_game,half_end: end_half,quarter_end: end_quarter}
     common_key = set(time_ends.keys()) & set(last_play.keys())
@@ -526,6 +540,8 @@ def drive_end_finder(plays):
     elif last_play[play_type] == type_kickoff:
         if q_start in plays[-2].keys():
             return({drive_end:None})
+        elif was_safety:
+            end = end_safety
         elif plays[-2][play_type] == type_xp or two_point_attempt in plays[-2].keys():
             end = end_td
         elif plays[-2][play_type] == type_fg:
@@ -689,7 +705,6 @@ def play_parser(string_list,poss,re_select,name_ref):
     # 2 point attempt
     if desc.find("rush attempt ") >-1 or desc.find("pass attempt ") >-1:
         play = try_parser(play,desc,re_select[poss])
-        return(play)
     # Run
     elif desc.find(" rush ") >-1 or desc.startswith("rush "):
         play = run_parser(play,desc,re_select[poss])
@@ -734,7 +749,7 @@ def play_parser(string_list,poss,re_select,name_ref):
     if desc.find(' PENALTY ') > -1:
         play = add_penalty(play,desc,re_select)
     # Add result
-    result_dict = {" TOUCHDOWN":touchdown, " NO PLAY": no_play,
+    result_dict = {" TOUCHDOWN":touchdown, ' nullified': nullified, " NO PLAY": no_play, 
                    " 1ST DOWN": first_down, " safety": safety,
                    " fumble": fumble, " game": game_end, " half": half_end,
                    ' quarter': quarter_end}
@@ -792,7 +807,7 @@ def drive_parser(drive, game_state, re_select,quarter_tracker,drive_tracker):
                     if ko_keys:
                         re_select[game_state[possession]] = get_name_format(names[list(ko_keys)[0]])
                     if ret_keys:
-                        defense = [abbr for abbr in (name_dict[home_abbr], name_dict[away_abbr]) if abbr != game_state[possession]][0]
+                        defense = [abbr for abbr in (game_state[home_abbr], game_state[away_abbr]) if abbr != game_state[possession]][0]
                         re_select[defense] = get_name_format(names[list(ret_keys)[0]])   
             if play_type not in play.keys():
                 play[play_type] = type_kickoff
@@ -1001,8 +1016,8 @@ def game_builder(quarters,name_dict):
                     # moved to the next drive
                     elif last_play[possession] != ball.get() and last_play[play_type] != type_kickoff:
                         ball.flip()
-                    # Don't flip possession if the drive 'ended' with the last play of the quarter, on a 'NO PLAY',
-                    # or if a drive end could not be identified (premature split of drive)
+                    # Don't flip possession if the drive 'ended' with the last play of the quarter,
+                    # on a 'no play', or if a drive end could not be identified (premature split of drive)
                     elif any((info[drive_end] == end_quarter, no_play in plays[-1].keys(), not updated_info[drive_end])):
                         None
                     # Flip possession if the team who started with the ball also ended with it.

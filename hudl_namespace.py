@@ -62,6 +62,7 @@ fg_dist='FG DIST'
 fg_result='FG RESULT'
 xp_result='XP RESULT'
 no_play='NO PLAY'
+nullified='NULLIFIED'
 intercepted_by='INTERCEPTED BY'
 safety='SAFETY'
 broken_up_by='BROKEN UP BY'
@@ -133,6 +134,7 @@ end_td = 'TD'
 end_missed_fg = 'Missed FG'
 end_fumble = 'Fumble'
 end_downs = 'Downs'
+end_safety = 'Safety'
 end_unknown = 'Unknown'
 toss_defer = 'Defer'
 toss_receive = 'Receive'
@@ -140,4 +142,4 @@ toss_kick = 'Kick'
 
 name_keys = [rusher,passer,intended,kicker,placekicker,punter,returner,tackler1,tackler2,
              fumbled_by,fumbled_by + '2',recovered_by,recovered_by + '2', forced_by, hurried_by,
-             broken_up_by,intercepted_by,against + '1',against + '2']
+             broken_up_by,intercepted_by,against + '1',against + '2', blocked_by]
