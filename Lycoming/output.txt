@@ -1,40 +1,50 @@
 Enter -['Start of 1st Half']
 ['Susquahanna wins toss and defers. Lycoming will defend west goal.']
 ['Change of possession, SUSQFB ball on SUSQFB35, 1st and 10.']
-Is this opponent scout? (Y/N)Are you Susquehanna (H) or Lycoming (A)?Folder name? (Scout team name default)Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Susquehanna (H) or Lycoming (A)?Final score Susquehanna 44 - Lycoming 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['LVC wins toss, defers. Lyco receives and defends west endzone.']
 ['Garrett MacClay kickoff 60 yards to the LYCO5, Tyjah During return 41 yards to the LYCO46 (Garrett MacClay).']
-Is this opponent scout? (Y/N)Are you Lycoming (H) or Lebanon Valley (A)?Folder name? (Scout team name default)Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Lycoming (H) or Lebanon Valley (A)?Final score Lycoming 31 - Lebanon Valley 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Lycoming wins toss and defers; KCP will receive; LYC will defend North end-zone.']
 ['Start of 1st quarter, clock 15:00.']
 ['Plankenhorn,Ian kickoff 46 yards to the KCP19 Robinson,Brennan return 1 yard to the KCP20 lateral to Boccella,Gabe to the KCP20 (Hans,Alex; Bell,Anthony).']
-Is this opponent scout? (Y/N)Are you King's (PA) (H) or Lycoming (A)?Player name overlap detected in Lycoming at King's (PA). Check possession transitions
+Is this opponent scout? (Y/N)Are you King's (PA) (H) or Lycoming (A)?Final score King's (PA) 8 - Lycoming 28
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['LYCOMING ball on LYCOMING35, clock 15:00.']
 ['Ian Plankenhorn kickoff 56 yards to the STE09, Cory Jones return 44 yards to the LYCOMING47 (Ian Plankenhorn).']
-Is this opponent scout? (Y/N)Are you Stevenson (H) or Lycoming (A)?Folder name? (Scout team name default)Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Stevenson (H) or Lycoming (A)?Final score Stevenson 28 - Lycoming 29
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Del Val wins toss and receives and defends east endzone.']
 ['LYCO ball on LYCO35.']
 ['Ian Plankenhorn kickoff 64 yards to the DELVAL1, T. Weathers return 14 yards to the DELVAL15 (Nick Parrella).']
-Is this opponent scout? (Y/N)Are you Lycoming (H) or Delaware Valley (A)?Folder name? (Scout team name default)Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Lycoming (H) or Delaware Valley (A)?Final score Lycoming 7 - Delaware Valley 32
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Mis wins toss, defers. Lycoming will receive and defend west endzone.']
 ['Moyer, Chris kickoff 59 yards to the LYCO6, Tyjah During return 14 yards to the LYCO20 (Tanis, John).']
-Is this opponent scout? (Y/N)Are you Lycoming (H) or Misericordia (A)?Folder name? (Scout team name default)Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Lycoming (H) or Misericordia (A)?Final score Lycoming 44 - Misericordia 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 [' LYCO ball on LYCO35. Lyco wins toss, defers. Albright receives and defends east endzone.']
 ['Ian Plankenhorn kickoff 56 yards to the ALBFB9, Roselli, Lucas return 19 yards to the ALBFB28 (Stephon Payne).']
-Is this opponent scout? (Y/N)Are you Lycoming (H) or Albright (A)?Folder name? (Scout team name default)Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Lycoming (H) or Albright (A)?Final score Lycoming 28 - Albright 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Wilkes wins toss, defers. Lycoming receives and defends west endzone.']
 ['A. Orlando kickoff 50 yards to the LYCO15, Tyjah During return 21 yards to the LYCO36 (R. Travis).']
-Is this opponent scout? (Y/N)Are you Lycoming (H) or Wilkes (A)?Folder name? (Scout team name default)Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Lycoming (H) or Wilkes (A)?Final score Lycoming 30 - Wilkes 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Lycoming wins toss and defers; WID will receive; LYC will defend North end-zone.']
 ['Start of 1st quarter, clock 15:00.']
 ['Plankenhorn,Ian kickoff 50 yards to the WID15 Fiucci,Jack return 10 yards to the WID25 (Assifo,Emmanuel).']
-Is this opponent scout? (Y/N)Are you Widener (H) or Lycoming (A)?Folder name? (Scout team name default)Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Widener (H) or Lycoming (A)?Final score Widener 17 - Lycoming 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Alvernia wins toss and will receive; LYC will defend West end-zone.']
 ['Start of 1st quarter, clock 15:00.']
 ['kickoff 65 yards to the ALV00, Touchback.']
-Is this opponent scout? (Y/N)Are you Alvernia (H) or Lycoming (A)?Folder name? (Scout team name default)Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Alvernia (H) or Lycoming (A)?Final score Alvernia 0 - Lycoming 48
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Lycoming wins toss, defers. Ursinus receives and defends west endzone.']
 ['LYCO ball on LYCO35.']
 ['Ian Plankenhorn kickoff 62 yards to the URSINUS3, Zay Brooks return 28 yards to the URSINUS31 (Daniel Jennings).']
-Is this opponent scout? (Y/N)Are you Lycoming (H) or Ursinus (A)?Folder name? (Scout team name default)
+Is this opponent scout? (Y/N)Are you Lycoming (H) or Ursinus (A)?Final score Lycoming 31 - Ursinus 23
+Folder name? (Scout team name default)

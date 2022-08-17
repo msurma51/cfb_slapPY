@@ -61,35 +61,31 @@ for qtr in ('1st','2nd','3rd','4th','OT'):
     drives = list()
     for q_tag in q_tags:      
         # Store each drive as a list of bs tags
-        drives_raw = list(q_tag(['table', 'dl']))
+        drives_raw = list(q_tag("table"))
         for drive in drives_raw:
-            if drive.name == 'dl':
-                score_string = drive('dd')[0].string
-                drives[-1].append([score_string])
-            else:    
-                rows = drive('tr')
-                play_strings = list()
-                header_dex = 0
-                for row in rows:
-                    strings = list()
-                    header = row('th')
-                    if all((len(header) > 0, header_dex == 0)) and header[0].string:
-                        strings.append(header[0].string.strip())
-                        header_dex = 1  
-                    entries = row('td')
-                    for entry in entries:
-                        if entry.string:
-                                string = entry.string.strip()
-                                strings.append(string)
-                        else:
-                            string = ''
-                            for hidden_string in entry.stripped_strings:
-                                string = '{} {}'.format(string,hidden_string)
-                            if len(string) > 0:
-                                strings.append(string)
-                    if len(strings) > 0:
-                        play_strings.append(strings)
-                drives.append(play_strings)
+            rows = drive('tr')
+            play_strings = list()
+            header_dex = 0
+            for row in rows:
+                strings = list()
+                header = row('th')
+                if all((len(header) > 0, header_dex == 0)) and header[0].string:
+                    strings.append(header[0].string.strip())
+                    header_dex = 1  
+                entries = row('td')
+                for entry in entries:
+                    if entry.string:
+                            string = entry.string.strip()
+                            strings.append(string)
+                    else:
+                        string = ''
+                        for hidden_string in entry.stripped_strings:
+                            string = '{} {}'.format(string,hidden_string)
+                        if len(string) > 0:
+                            strings.append(string)
+                if len(strings) > 0:
+                    play_strings.append(strings)
+            drives.append(play_strings)
     quarters.append(drives)
     
 

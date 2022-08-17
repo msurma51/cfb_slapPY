@@ -189,6 +189,9 @@ df[[series,series_num]] = pd.Series([series_list,series_num_list])
 # Change the first play of each drive and two point attempts to '0'th down for analysis purposes
 df[down].mask((df[series_num]==1) | ~(pd.isna(df[two_point_attempt])), 0, inplace = True)
 
+# Print final score for fidelity check
+print('Final score {} {} - {} {}'.format(name_dict[home_name], state[home_score], name_dict[away_name], state[away_score]))
+
 # Check for incorrect possession ID by comparing home rushers and passers to those of the away team
 home_df = df[df[possession] == name_dict[home_abbr]]
 away_df = df[df[possession] == name_dict[away_abbr]]

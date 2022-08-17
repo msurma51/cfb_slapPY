@@ -55,16 +55,17 @@ for url in box_score_links:
 f.close()      
 with open(team_name + '\\report.txt', 'w') as g:
     f = open(team_name + '\\output.txt', 'r')
-    write_set = {'\t','Exception','Score', 'Traceback', ' '}
+    write_set = {'\t', 'Exception', 'Score', 'Traceback', ' '}
     for line in f:
         for tag in write_set:
             if line.startswith(tag):
                 g.write(line)
         if re.search('Error', line):
             g.write(line)
-        pdex = line.find('Player')
-        if pdex > -1:
-            g.write(line[pdex:])
+        for target in ('Player', 'Final'):
+            dex = line.find(target)
+            if dex > -1:
+                g.write(line[dex:])
             
     
     

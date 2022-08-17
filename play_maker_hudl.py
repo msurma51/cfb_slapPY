@@ -416,8 +416,12 @@ def end_parser(desc, name_ref = None):
         end[time_of_possession] = time_elapsed.group()
         end[time_elapsed_sec] = time_conv(time_elapsed.group(),2)
     if name_ref:
+        # Capture scores using presto update convention
         score_report = re.findall(name_ref[away_name] + ' ([\d]+), ' + name_ref[home_name] + ' ([\d]+)', desc)
-        if len(score_report) > 0:
+        if not score_report:
+            # Capture scores using sidearm update convention
+            score_report = re.findall(name_ref[away_name] + ' ([\d]+)-([\d]+) ' + name_ref[home_name], desc)
+        if score_report:
             end[away_score] = int(score_report[0][0])
             end[home_score] = int(score_report[0][1])
     if desc.find(' game') >-1:
