@@ -1,0 +1,100 @@
+Enter -['Start of 1st Half']
+[' Moravian wins toss and defers KCP will receive MOR will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MORAVIAN ball on MORAVIAN35.']
+['Yacuboski,Trevo kickoff 63 yards to the KINGS2, Gabe Boccella return 20 yards to the KINGS22, B. Robinson for 19 yards to the KINGS41 (Blazofsky,Matt), PENALTY KINGS holding 26 yards to the KINGS15.']
+Exception in Moravian at King's College (index) quarter 2 drive 6
+	 ["King's College at 03:49"]
+	 ["King's College at 03:49"]
+	 ['1st and 10 at KINGS32', "KING'S COLLEGE drive start at 03:49."]
+	 ['1st and 10 at KINGS32', 'Tyler Moore RE pass incomplete.']
+	 ['2nd and 10 at KINGS32', 'Enzo Poulson rush over left end for 3 yards to the KINGS35 (Newhard,Chad;Walters,Romello).']
+	 ['3rd and 7 at KINGS35', 'Tyler Moore sacked for no gain to the KINGS35 (Gawlik,Jack).']
+	 ['4th and 7 at KINGS35', 'Tim Costantino punt 39 yards to the MORAVIAN26.']
+	 ['Total', '3 plays , 3 yards Time of Possession: 1:40']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 851, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 717, in play_parser
+    play = pass_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 231, in pass_parser
+    gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
+IndexError: list index out of range
+
+Is this opponent scout? (Y/N)Are you King's College (H) or Moravian (A)?Final score King's College 10 - Moravian 10
+Player name overlap detected in Moravian at King's College. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Lycoming wins toss and defers KCP will receive LYC will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, LYCOMING ball on LYCOMING35.']
+['Plankenhorn,Ian kickoff 46 yards to the KINGS19, B. Robinson return 3 yards to the KINGS22, Gabe Boccella for 1 yard to the KINGS23 (Hans,Alex;Bell,Anthony).']
+Is this opponent scout? (Y/N)Are you King's College (H) or Lycoming (A)?Final score King's College 8 - Lycoming 28
+Player name overlap detected in Lycoming at King's College. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+["King's wins the toss, defers to the second half"]
+['KINGS ball on KINGS35.']
+['Kyle Prescavage kickoff 52 yards to the LVC13, C. Niemeyer return 14 yards to the LVC27 (B. Mozeleski).']
+Is this opponent scout? (Y/N)Are you Lebanon Valley (H) or King's College (A)?Final score Lebanon Valley 24 - King's College 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[" King's (PA) wins toss and defers ALV will receive KCP will defend North end-zone"]
+['.']
+['Start of 1st quarter, clock 15:00, KINGS ball on KINGS35.']
+['Kyle Prescavage kickoff 59 yards to the ALVERNIA6, Stanton,Kyle return 14 yards to the ALVERNIA20 (Robert Caldwell).']
+Is this opponent scout? (Y/N)Are you King's College (H) or Alvernia (A)?Final score King's College 10 - Alvernia 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Delaware Valley wins toss and will receive K C will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, KINGS ball on KINGS35.']
+['Kyle Prescavage kickoff 54 yards to the DELVAL11, Dorsey,Tavian return 14 yards to the DELVAL25, out-of-bounds (Amir Gibson).']
+Exception in King's College at Delaware Valley (index) quarter 0 drive 2
+	 ["King's College at 12:27"]
+	 ["King's College at 12:27"]
+	 ['1st and 10 at KINGS45', "KING'S COLLEGE drive start at 12:27."]
+	 ['1st and 10 at KINGS45', 'Gabe Boccella rush over right end for no gain to the KINGS45 (Fries,Trent).']
+	 ['2nd and 10 at KINGS45', 'Gabe Boccella RE pass incomplete to E. Demosthene.']
+	 ['3rd and 10 at KINGS45', 'Tyler Moore sacked for no gain to the KINGS45 (Nobile,Michael), PENALTY KINGS holding declined.']
+	 ['4th and 10 at KINGS45', '4th and 10.']
+	 ['4th and 10 at KINGS45', 'Tim Costantino punt 33 yards to the DELVAL22, PENALTY DELVAL personal foul (Prevard,Jamir) 11 yards to the DELVAL11, 1ST DOWN DELVAL.']
+	 ['Total', '3 plays , 0 yards Time of Possession: 1:21']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 851, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 717, in play_parser
+    play = pass_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 231, in pass_parser
+    gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
+IndexError: list index out of range
+
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or King's College (A)?Final score Delaware Valley 0 - King's College 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[" King's (PA) wins toss and defers ALB will receive KIN will defend North end-zone"]
+['.']
+['Start of 1st quarter, clock 15:00, KINGS ball on KINGS35.']
+['Kyle Prescavage kickoff 54 yards to the ALBRIGHT11, Zehner,Kevin return 19 yards to the ALBRIGHT30 (Jake Ruppert;Ryan McCombs).']
+Is this opponent scout? (Y/N)Are you King's College (H) or Albright (A)?Final score King's College 51 - Albright 12
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' FDU-Florham wins toss and defers KCP will receive FDU will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, FDUF ball on FDUF35.']
+['Korchma,Christi kickoff 55 yards to the KINGS10, Gabe Boccella return 30 yards to the KINGS40 (Godfrey,Brandon).']
+Is this opponent scout? (Y/N)Are you King's College (H) or FDU-Florham (A)?Final score King's College 20 - FDU-Florham 23
+Player name overlap detected in FDU-Florham at King's College. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Kyle Prescavage kickoff 51 yards to the MIFB14, Artson, Carlos return 19 yards to the MIFB33 (B. Mozeleski).']
+Is this opponent scout? (Y/N)Are you Misericordia (H) or King's College (A)?Final score Misericordia 24 - King's College 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['STE ball on STE35, clock 15:00.']
+['Zachary Rutsch kickoff 57 yards to the KINGS8, Gabe Boccella return 15 yards to the KINGS23 (Sean Sullivan).']
+Is this opponent scout? (Y/N)Are you Stevenson (H) or King's College (A)?Final score Stevenson 35 - King's College 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+["King's (PA) wins toss and defers; WIL will receive; KIN will defend North end-zone."]
+['Start of 1st quarter, clock 15:00.']
+['Prescavage,Kyle kickoff 51 yards to the WIL14 Whitaker,Nate return 21 yards to the WIL35 (Gibson,Amir) PENALTY WIL Holding 10 yards from WIL25 to WIL15.']
+['WIL ball on WIL15.']
+Is this opponent scout? (Y/N)Are you King's (PA) (H) or Wilkes (A)?Final score King's (PA) 41 - Wilkes 0
+Player name overlap detected in Wilkes at King's (PA). Check possession transitions
+Folder name? (Scout team name default)

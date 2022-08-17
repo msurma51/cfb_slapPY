@@ -1,0 +1,53 @@
+Exception in Moravian at King's College (index) quarter 2 drive 6
+	 ["King's College at 03:49"]
+	 ["King's College at 03:49"]
+	 ['1st and 10 at KINGS32', "KING'S COLLEGE drive start at 03:49."]
+	 ['1st and 10 at KINGS32', 'Tyler Moore RE pass incomplete.']
+	 ['2nd and 10 at KINGS32', 'Enzo Poulson rush over left end for 3 yards to the KINGS35 (Newhard,Chad;Walters,Romello).']
+	 ['3rd and 7 at KINGS35', 'Tyler Moore sacked for no gain to the KINGS35 (Gawlik,Jack).']
+	 ['4th and 7 at KINGS35', 'Tim Costantino punt 39 yards to the MORAVIAN26.']
+	 ['Total', '3 plays , 3 yards Time of Possession: 1:40']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 851, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 717, in play_parser
+    play = pass_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 231, in pass_parser
+    gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
+IndexError: list index out of range
+Final score King's College 10 - Moravian 10
+Player name overlap detected in Moravian at King's College. Check possession transitions
+Final score King's College 8 - Lycoming 28
+Player name overlap detected in Lycoming at King's College. Check possession transitions
+Final score Lebanon Valley 24 - King's College 6
+Final score King's College 10 - Alvernia 7
+Exception in King's College at Delaware Valley (index) quarter 0 drive 2
+	 ["King's College at 12:27"]
+	 ["King's College at 12:27"]
+	 ['1st and 10 at KINGS45', "KING'S COLLEGE drive start at 12:27."]
+	 ['1st and 10 at KINGS45', 'Gabe Boccella rush over right end for no gain to the KINGS45 (Fries,Trent).']
+	 ['2nd and 10 at KINGS45', 'Gabe Boccella RE pass incomplete to E. Demosthene.']
+	 ['3rd and 10 at KINGS45', 'Tyler Moore sacked for no gain to the KINGS45 (Nobile,Michael), PENALTY KINGS holding declined.']
+	 ['4th and 10 at KINGS45', '4th and 10.']
+	 ['4th and 10 at KINGS45', 'Tim Costantino punt 33 yards to the DELVAL22, PENALTY DELVAL personal foul (Prevard,Jamir) 11 yards to the DELVAL11, 1ST DOWN DELVAL.']
+	 ['Total', '3 plays , 0 yards Time of Possession: 1:21']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 851, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 717, in play_parser
+    play = pass_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 231, in pass_parser
+    gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
+IndexError: list index out of range
+Final score Delaware Valley 0 - King's College 0
+Final score King's College 51 - Albright 12
+Final score King's College 20 - FDU-Florham 23
+Player name overlap detected in FDU-Florham at King's College. Check possession transitions
+Final score Misericordia 24 - King's College 17
+Final score Stevenson 35 - King's College 10
+Final score King's (PA) 41 - Wilkes 0
+Player name overlap detected in Wilkes at King's (PA). Check possession transitions

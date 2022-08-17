@@ -1,0 +1,51 @@
+Enter -['1st']
+['1st and 10 at JHU35', 'JHU ball on JHU35, clock 15:00.']
+['', 'Kyle Battles kickoff 65 yards to the STE0, touchback.']
+Score correction made in Johns Hopkins @ Stevenson (index) quarter 3 drive 1
+Is this opponent scout? (Y/N)Are you Stevenson (H) or Johns Hopkins (A)?Final score Stevenson 18 - Johns Hopkins 53
+Player name overlap detected in Johns Hopkins at Stevenson. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at STE35', 'Stevenson wins toss and defers; RPI will receive; STE will defend South end-zone.']
+['1st and 10 at STE35', 'Start of 1st quarter, clock 15:00.']
+['', 'Rutsch,Zachary kickoff 63 yards to the RPI02 Munoz Whatts,Delano return 24 yards to the RPI26 (Senga,Steven).']
+Is this opponent scout? (Y/N)Are you RPI (H) or Stevenson (A)?Final score RPI 14 - Stevenson 10
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at STE35', 'Stevenson wins toss and will kickoff; DVU will defend West end-zone.']
+['1st and 10 at STE35', 'Start of 1st quarter, clock 15:00.']
+['', 'Rutsch,Zachary kickoff 63 yards to the DVU02 Prevard,Jamir return 33 yards to the DVU35 (Fleming,Amari; Henderson,Jaiheem).']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Stevenson (A)?Final score Delaware Valley 34 - Stevenson 17
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at LYCOMING35', 'LYCOMING ball on LYCOMING35, clock 15:00.']
+['', 'Ian Plankenhorn kickoff 56 yards to the STE09, Cory Jones return 44 yards to the LYCOMING47 (Ian Plankenhorn).']
+Is this opponent scout? (Y/N)Are you Stevenson (H) or Lycoming (A)?Final score Stevenson 28 - Lycoming 29
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at STE35', 'Stevenson wins toss, defers']
+['1st and 10 at STE35', 'STE ball on STE35.']
+['', 'Zachary Rutsch kickoff 61 yards to the WUFB4, out-of-bounds, PENALTY WUFB illegal kicking 31 yards to the WUFB35, 1st and 10, WUFB ball on WUFB35.']
+Is this opponent scout? (Y/N)Are you Wilkes (H) or Stevenson (A)?Final score Wilkes 21 - Stevenson 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MIS35', 'MIS ball on MIS35, clock 15:00.']
+['', 'Chris Moyer kickoff 62 yards to the STE03, Cory Jones return 18 yards to the STE21 (John Tanis).']
+Is this opponent scout? (Y/N)Are you Stevenson (H) or Misericordia (A)?Final score Stevenson 37 - Misericordia 0
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WIDE35', 'STE ball on STE35, clock 15:00.']
+['', 'Zachary Rutsch kickoff 65 yards to the WIDE00, touchback.']
+Is this opponent scout? (Y/N)Are you Stevenson (H) or Widener (A)?Final score Stevenson 29 - Widener 24
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at STU35', 'Stevenson wins toss and defers; ALV will receive; STU will defend North end-zone.']
+['1st and 10 at STU35', 'Start of 1st quarter, clock 15:00.']
+['', 'Rutsch,Zachary kickoff 55 yards to the ALV10 Perkins,Joseph return 17 yards to the ALV27 (Sullivan,Sean).']
+Is this opponent scout? (Y/N)Are you Alvernia (H) or Stevenson (A)?Final score Alvernia 6 - Stevenson 35
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at KINGS35', 'STE ball on STE35, clock 15:00.']
+['', 'Zachary Rutsch kickoff 57 yards to the KINGS08, Gabe Boccella return 15 yards to the KINGS23 (Sean Sullivan).']
+Is this opponent scout? (Y/N)Are you Stevenson (H) or King's (Pa.) (A)?Final score Stevenson 35 - King's (Pa.) 10
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at STE35', 'FDU won toss and will receive']
+['', 'Zachary Rutsch kickoff 65 yards to the FDU0, touchback.']
+Is this opponent scout? (Y/N)Are you FDU-Florham (H) or Stevenson (A)?Final score FDU-Florham 33 - Stevenson 52
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at STE35', 'FMC ball on FMC35, clock 15:00.']
+['', 'Jack Rodenberge kickoff 44 yards to the STE21, Corey Jones-Pen return 4 yards to the STE25 (Jeffrey Krippne).']
+Is this opponent scout? (Y/N)Are you Franklin & Marshall (H) or Stevenson (A)?Final score Franklin & Marshall 42 - Stevenson 28
+Folder name? (Scout team name default)

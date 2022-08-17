@@ -1,0 +1,54 @@
+Final score Ursinus 42 - Alvernia 6
+Score correction made in Ursinus @ #25 Johns Hopkins (index) quarter 3 drive 4
+Final score #25 Johns Hopkins 49 - Ursinus 21
+Final score #8 Muhlenberg 35 - Ursinus 42
+Player name overlap detected in Ursinus at Muhlenberg. Check possession transitions
+Final score Ursinus 28 - Franklin & Marshall 0
+Final score Ursinus 23 - #25 Susquehanna 62
+Final score McDaniel 14 - Ursinus 18
+Score correction made in Ursinus @ Moravian (index) quarter 2 drive 1
+Score correction made in Ursinus @ Moravian (index) quarter 2 drive 3
+Exception in Ursinus College at Moravian University (index) quarter 3 drive 0
+	 ['4th']
+	 ['2nd and 6 at MOR32', 'Start of 4th quarter, clock 15:00.']
+	 ['2nd and 6 at MOR32', 'Jack Psenicska sacked for no gain to the MOR32 (Paul Defalco;J. Espinal-Katz).']
+	 ['3rd and 6 at MOR32', 'Jack Psenicska sacked for loss of 8 yards to the MOR40 (B. Hornbaker).']
+	 ['4th and 14 at MOR40', 'Billy Cook punt 39 yards to the MOR1, downed.']
+	 ['4 plays, 17 yards, 2:19 elapsed']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 851, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 717, in play_parser
+    play = pass_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 231, in pass_parser
+    gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
+IndexError: list index out of range
+Final score Moravian 0 - Ursinus 27
+Player name overlap detected in Ursinus College at Moravian University. Check possession transitions
+Final score Ursinus 42 - Gettysburg 21
+Exception in Juniata at Ursinus (index) quarter 2 drive 4
+	 ['Juniata at 07:47']
+	 ['1st and 10 at JUNIATA08', 'Juniata drive start at 07:47.']
+	 ['1st and 10 at JUNIATA08', 'Noah Wright pass complete to Javon Heggs for 19 yards to the JUNIATA27 (Aaron Diamond), out-of-bounds.']
+	 ['1st and 10 at JUNIATA27', 'Noah Wright rush for 6 yards to the JUNIATA33 (Jonathan Klee; Ethan Belville).']
+	 ['2nd and 4 at JUNIATA33', 'Charles DeBose rush for 5 yards to the JUNIATA38 (Brett Gross; Anthony Trazzer).']
+	 ['1st and 10 at JUNIATA38', 'Charles DeBose rush for no gain to the JUNIATA38 (Brett Gross; Anthony Reginel).']
+	 ['2nd and 10 at JUNIATA38', 'Noah Wright rush for loss of 5 yards to the JUNIATA33, fumble forced by Ethan Belville, fumble by Noah Wright recovered by JUNIATA Noah Wright at JUNIATA33.']
+	 ['3rd and 15 at JUNIATA33', 'Noah Wright sacked for no gain to the JUNIATA33 (Ryan Bodolus).']
+	 ['4th and 15 at JUNIATA33', 'Beckett Leary punt 43 yards to the URSINUS24, Dash Dulgerian return 0 yards to the URSINUS24 (Nigel Robertson).']
+	 ['6 plays, 25 yards, 03:59 elapsed']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 851, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 717, in play_parser
+    play = pass_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 231, in pass_parser
+    gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
+IndexError: list index out of range
+Final score Ursinus 24 - Juniata 7
+Final score Dickinson 27 - Ursinus 20
+Final score Lycoming 31 - Ursinus 23

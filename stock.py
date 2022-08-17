@@ -43,6 +43,7 @@ scout = input('Is this opponent scout? (Y/N)')
 if not os.path.exists(team_name):
     os.mkdir(team_name)
 f = open(team_name + '\\output.txt', 'w')
+print('Parsing schedule for ' + team_name)
 for url in box_score_links:
     proc = subprocess.run(['python','sauce.py'], input='{}\n{}\n{}\n{}'.format(url,scout,team_name,team_name), 
            capture_output=True, text=True)

@@ -1,0 +1,33 @@
+Final score Wilkes University 46 - Keystone College 7
+Final score Misericordia 15 - Wilkes University 35
+Exception in Alvernia University at Wilkes University (index) quarter 0 drive 3
+	 ['Alvernia University at 07:45']
+	 ['Alvernia University at 07:45']
+	 ['1st and 10 at 21AUFB18', 'ALVERNIA UNIVERSITY drive start at 07:45.']
+	 ['1st and 10 at 21AUFB18', 'PENALTY 21AUFB false start 5 yards to the 21AUFB13.']
+	 ['1st and 15 at 21AUFB13', 'Carey, Malcolm rush for no gain to the 21AUFB13 (B. Costner).']
+	 ['2nd and 15 at 21AUFB13', 'Rosahac, Nick sacked for no gain to the 21AUFB13 (N. Gazzola;S. Hess).']
+	 ['3rd and 15 at 21AUFB13', 'Rosahac, Nick pass complete to Scurlock, Neeko for 3 yards to the 21AUFB16 (J. Washington).']
+	 ['4th and 12 at 21AUFB16', 'PENALTY WUFB substitution infraction 5 yards to the 21AUFB21.']
+	 ['4th and 7 at 21AUFB21', 'Long, Ryan punt 52 yards to the WUFB27, E. Jules return 23 yards to the 50 yardline ( Bohinski, Adri).']
+	 ['Total', '3 plays , 3 yards Time of Possession: 2:37']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 851, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 717, in play_parser
+    play = pass_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 231, in pass_parser
+    gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
+IndexError: list index out of range
+Final score Wilkes University 0 - Alvernia University 0
+Final score Wilkes University 21 - Stevenson 14
+Final score Albright 28 - Wilkes 31
+Player name overlap detected in Wilkes at Albright. Check possession transitions
+Final score Widener 30 - Wilkes 13
+Final score Wilkes University 30 - Lebanon Valley 20
+Final score Lycoming 30 - Wilkes 27
+Final score Wilkes University 0 - Delaware Valley 30
+Final score King's (PA) 41 - Wilkes 0
+Player name overlap detected in Wilkes at King's (PA). Check possession transitions
