@@ -103,7 +103,10 @@ def add_fumble(play,poss,f_string,re_select,fumble_n):
     if fumble_n > 1:
         for i in range(len(fum_keys)):
             fum_keys[i] = fum_keys[i] + str(fumble_n)
-    fumbler = re.findall("fumbled* by " + re_select[poss],f_string)
+    # Muffs will happen before fumbles, so check for those first
+    fumbler = re.findall("muffed by " + re_select[poss],f_string)
+    if len(fumbler) == 0:
+        fumbler = re.findall("fumbled* by " + re_select[poss],f_string)
     if len(fumbler) > 0:
         play[fum_keys[0]] = fumbler[0]
     recovery = re.findall("recovered by ([A-Z\d&']+) ",f_string)
@@ -228,7 +231,10 @@ def pass_parser(play,desc,poss,re_select):
             None
         play[pass_result] = pass_complete
     if desc.find(" sacked ") > -1:
-        gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
+        if re.search(' no gain', desc, re.IGNORECASE):
+            gain_loss = 0
+        else:
+            gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
         play[pass_result] = pass_sack
     play[gn_ls] = gain_loss
     # Determine intended WR and whether QB was intercepted or hurried
@@ -289,6 +295,15 @@ def kop_parser(play,desc,poss,re_select):
         if poss in yl_string:
             kick_land = kick_land*(-1)
         play[k_keys[2]] = kick_land
+    # Determine whether a kickoff was on-side and who recovered it
+    if ktype == 'kickoff' and re.search(' on-*side', desc, re.IGNORECASE):
+        play[onside] = True
+        recovery = re.findall("recovered by ([A-Z\d&']+) ",desc)
+        if len(recovery) > 0:
+            play[recover_team] = recovery[0]
+            recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],desc)
+            if len(recovered_by_name) > 0:
+                play[recovered_by] = recovered_by_name[0]
     # Now consider the end of the string, either kick result or return
     if yl_end != -1:
         r_string = desc[yl_end:]
@@ -305,7 +320,7 @@ def kop_parser(play,desc,poss,re_select):
         play[k_keys[3]] = kp_return
     else:
         kp_result_dict = {'fair catch': kp_fair_catch, 'Touchback': kp_touchback,
-                          'out-of-bounds': kp_out_of_bounds}
+                          'out-of-bounds': kp_out_of_bounds, ' out of bounds': kp_out_of_bounds}
         for kp_result in kp_result_dict.keys():
             if r_string.find(kp_result) > -1:
                 play[k_keys[3]] = kp_result_dict[kp_result]
@@ -575,6 +590,8 @@ def drive_end_finder(plays):
     elif gn_ls in last_play.keys() and last_play[down] == 4:
         if last_play[gn_ls] < last_play[distance]:
              end = end_downs
+    elif last_play[play_type] == timeout:
+        end = drive_end_finder(plays[:-1])
     elif len(common_key) > 0:
         end = time_ends[[x for x in common_key][0]]
     end_dict[drive_end] = end
@@ -595,7 +612,7 @@ def toss_parser(drive0,name_dict):
             toss_string = row[-1]
             break
     if toss_string:
-        winner = re.findall('^([\w&\']+) wins',toss_string)
+        winner = re.findall("([\w&'-]+) wins",toss_string)
         if len(winner) > 0:
             defer = toss_string.find(' defer')
             receive = toss_string.find(' receive')
@@ -678,9 +695,9 @@ def possession_finder(drive,name_dict):
         for row in drive:
             start_drive = re.findall('^(.*) drive start',row[-1])
             if len(start_drive) > 0:
-                if name_dict[home_name] in start_drive[0] or start_drive[0] in name_dict[home_name]:
+                if name_dict[home_name].upper() in start_drive[0].upper() or start_drive[0].upper() in name_dict[home_name].upper():
                     poss = name_dict[home_abbr]
-                elif name_dict[away_name] in start_drive[0] or start_drive[0] in name_dict[away_name]:
+                elif name_dict[away_name].upper() in start_drive[0].upper() or start_drive[0].upper() in name_dict[away_name].upper():
                     poss = name_dict[away_abbr]
                 break
     # Try to find 'ball' in drive strings
@@ -739,6 +756,8 @@ def play_parser(string_list,poss,re_select,name_ref):
     play = add_tacklers(play,desc)
     # Add every fumble
     find_fumble = desc.find(' fumble')
+    if find_fumble == -1:
+        find_fumble = desc.find(' muffed')
     fumble_n = 0
     f_string = desc
     while find_fumble > -1:
@@ -988,6 +1007,8 @@ def game_builder(quarters,name_dict):
                                     last_drive[0][end_key] = info[end_key]
                             # Append plays individually at the end of last drive
                             game[-1] = last_drive + plays[1:]
+                        else:
+                            game.append(plays)
                     # If the previous drive ended on a 'No Play' , if the current drive started on a down later than 1st, 
                     # or if the current drive starts with an XP, merge the current and previous drives
                     elif all((len(game) > 0, len(plays) > 1)) and any((no_play in last_drive[-1].keys(), 
@@ -1010,11 +1031,14 @@ def game_builder(quarters,name_dict):
                     last_play = plays[-1]
                     updated_info = game[-1][0]
                     # Don't flip possession on KO or Punt play when poss goes to kick team
-                    if fumble and fumble_poss in last_play.keys():    
+                    if fumble in last_play.keys() and fumble_poss in last_play.keys():    
                         if last_play[fumble_poss] != ball.get():
                             ball.flip()
                         # But DO flip it if the possession team recovers but is still short of a conversion
                         elif updated_info[drive_end] == end_downs:
+                            ball.flip()
+                    elif onside in last_play.keys() and recover_team in last_play.keys():
+                        if last_play[recover_team] != ball.get():
                             ball.flip()
                     # Flip possession if there is a turnover (TD) in the previous drive but the xp and/or ko is
                     # moved to the next drive
@@ -1022,7 +1046,7 @@ def game_builder(quarters,name_dict):
                         ball.flip()
                     # Don't flip possession if the drive 'ended' with the last play of the quarter,
                     # on a 'no play', or if a drive end could not be identified (premature split of drive)
-                    elif any((info[drive_end] == end_quarter, no_play in plays[-1].keys(), not updated_info[drive_end])):
+                    elif any((updated_info[drive_end] == end_quarter, no_play in plays[-1].keys(), not updated_info[drive_end])):
                         None
                     # Flip possession if the team who started with the ball also ended with it.
                     # Note: This means that if there was a turnover TD and the ball was subsequently kicked off,

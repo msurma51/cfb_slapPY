@@ -8,6 +8,8 @@ except:
     from taster_func import taster
     quarters, name_dict = taster(url)  
 from play_maker_hudl import *
+game_info = game_builder([quarters[0], quarters[1][:2]], name_dict)
+'''
 curr_drive = quarters[4][4]
 all_drives = [curr_drive]
 ds = drive_dex('drive start', curr_drive)
@@ -29,10 +31,13 @@ try:
 except:
     for drive in all_drives:
         print(drive)
-'''
+
 game_info = game_builder(quarters,name_dict)
+'''
+re_select = dict()
+re_select[name_dict[home_abbr]] = get_name_format(name_dict[home_kicker])
+re_select[name_dict[away_abbr]] = get_name_format(name_dict[away_kicker])
 game = game_info['game']
-state = game_info['state']
-if 'plays' in game_info.keys():
-    plays = game_info['plays']
-    '''
+game_state = game_info['state']
+i = 1
+j = 0

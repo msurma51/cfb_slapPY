@@ -11,8 +11,7 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Widener wins toss and defers; LVC will receive; WID will defend North end-zone.']
 ['Start of 1st quarter, clock 15:00.']
 ['Eimer,Larry kickoff 36 yards to the LVC29 Niemeyer,Cam return 0 yards to the LVC29 (Bess,Davon).']
-Is this opponent scout? (Y/N)Are you Widener (H) or Lebanon Valley (A)?Final score Widener 17 - Lebanon Valley 10
-Player name overlap detected in Lebanon Valley at Widener. Check possession transitions
+Is this opponent scout? (Y/N)Are you Widener (H) or Lebanon Valley (A)?Final score Widener 24 - Lebanon Valley 3
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ["King's wins the toss, defers to the second half"]
 ['KINGS01 ball on KINGS0135.']
@@ -22,8 +21,7 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['FDU wins the toss, elects to defer to the second half']
 ['FDUTRAV ball on FDUTRAV35.']
 ['C. Korchma kickoff 55 yards to the LVC10, C. Niemeyer return 20 yards to the LVC30 (J. Swindasz).']
-Is this opponent scout? (Y/N)Are you Lebanon Valley (H) or FDU-Florham (A)?Final score Lebanon Valley 30 - FDU-Florham 30
-Player name overlap detected in FDU-Florham at Lebanon Valley. Check possession transitions
+Is this opponent scout? (Y/N)Are you Lebanon Valley (H) or FDU-Florham (A)?Final score Lebanon Valley 27 - FDU-Florham 33
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['LVC wins the toss, elects to defer to the second half']
 ['LVC ball on LVC35.']
