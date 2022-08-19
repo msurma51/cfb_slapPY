@@ -718,7 +718,7 @@ def possession_finder(drive,name_dict):
         
 def play_parser(string_list,poss,re_select,name_ref):
     if len(string_list) == 1:
-        play = end_parser(string_list[0])
+        play = end_parser(string_list[0], name_ref)
         return(play)
     else:
         play = ddyl_parser(string_list[0],poss)

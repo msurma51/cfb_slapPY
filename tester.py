@@ -8,7 +8,7 @@ except:
     from taster_func import taster
     quarters, name_dict = taster(url)  
 from play_maker_hudl import *
-game_info = game_builder([quarters[0], quarters[1][:2]], name_dict)
+game_info = game_builder(quarters,name_dict)
 '''
 curr_drive = quarters[4][4]
 all_drives = [curr_drive]
@@ -39,5 +39,4 @@ re_select[name_dict[home_abbr]] = get_name_format(name_dict[home_kicker])
 re_select[name_dict[away_abbr]] = get_name_format(name_dict[away_kicker])
 game = game_info['game']
 game_state = game_info['state']
-i = 1
-j = 0
+
