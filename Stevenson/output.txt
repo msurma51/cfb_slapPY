@@ -1,9 +1,7 @@
 Enter -['1st']
 ['1st and 10 at JHU35', 'JHU ball on JHU35, clock 15:00.']
 ['', 'Kyle Battles kickoff 65 yards to the STE0, touchback.']
-Score correction made in Johns Hopkins @ Stevenson (index) quarter 3 drive 1
 Is this opponent scout? (Y/N)Are you Stevenson (H) or Johns Hopkins (A)?Final score Stevenson 18 - Johns Hopkins 53
-Player name overlap detected in Johns Hopkins at Stevenson. Check possession transitions
 Folder name? (Scout team name default)Enter -['1st']
 ['1st and 10 at STE35', 'Stevenson wins toss and defers; RPI will receive; STE will defend South end-zone.']
 ['1st and 10 at STE35', 'Start of 1st quarter, clock 15:00.']

@@ -3,9 +3,9 @@ import traceback
 from hudl_namespace import *
 
 def get_name_format(player_name):
-    name_re = "([\w'-]+,[\w'-]+)"
+    name_re = "([\w'-]+(?: Jr)*[.]*,[\w'-]+)"
     if player_name.find(',') == -1:
-        name_re = "([\w'-\.]+ [\w'-]+)"
+        name_re = "([\w'-.]+ [\w'-]+)"
     elif player_name.find(" ") >-1:
         name_re = "([\w'-]+, [\w'-]+)"
     return(name_re)
@@ -44,7 +44,11 @@ def ddyl_parser(string,poss):
     except:
         return(ddyl)
     try:
-        yl = int(yl_split[0][1])
+        yl_string = yl_split[0][1]
+        if len(yl_string) > 2:
+            yl = int(yl_string[-2:])
+        else:
+            yl = int(yl_string)
         # Determine whether offense is in their own territory
         if yl_split[0][0] == poss:
             yl = yl*(-1)
@@ -188,7 +192,10 @@ def add_return(play,r_string,poss,name_re):
     return_yl = re.findall('([A-Z]+)([0-9]+)',r_string)
     if len(return_yl) > 0:
         play[ret_territory] = return_yl[0][0]
-        return_spot = int(return_yl[0][1])
+        return_spot_str = return_yl[0][1]
+        if len(return_spot_str) > 2:
+            return_spot_str = return_spot_str[-2:]
+        return_spot = int(return_spot_str)
         if play[ret_territory] == poss:
             return_spot = return_spot*(-1)
         play[return_to] = return_spot
@@ -291,7 +298,10 @@ def kop_parser(play,desc,poss,re_select):
         play[k_keys[1]] = int(yards[0])
     # Extract the yard line the ball was kicked to
     if len(yl_string) > 0:
-        kick_land = int(re.findall('[0-9]+',yl_string)[0])
+        kick_land_str = re.findall('[0-9]+',yl_string)[0]
+        if len(kick_land_str) > 2:
+            kick_land_str = kick_land_str[-2:]
+        kick_land = int(kick_land_str)
         if poss in yl_string:
             kick_land = kick_land*(-1)
         play[k_keys[2]] = kick_land
@@ -537,7 +547,7 @@ class possession_tracker:
 def drive_end_finder(plays):
     end_dict = dict()
     # If a drive end has already been determined, return that
-    if drive_end in plays[0].keys() and plays[0][drive_end]:
+    if drive_end in plays[0].keys() and all((plays[0][drive_end], plays[0][drive_end] != end_unknown)):
         end_dict[drive_end] = plays[0][drive_end]
         return(end_dict)
     else:
@@ -569,7 +579,7 @@ def drive_end_finder(plays):
         elif plays[-2][play_type] == type_kickoff:
             end_dict = drive_end_finder(plays[:-1])
             return(end_dict)
-        elif plays[-2][play_type] == type_penalty:
+        elif plays[-2][play_type] in (type_penalty, timeout):
             end_dict = drive_end_finder(plays[:-2] + [plays[-1]])
             return(end_dict)
     elif last_play[play_type] == type_punt:
@@ -594,7 +604,10 @@ def drive_end_finder(plays):
         end = drive_end_finder(plays[:-1])
     elif len(common_key) > 0:
         end = time_ends[[x for x in common_key][0]]
-    end_dict[drive_end] = end
+    if drive_end in plays[0].keys() and all((plays[0][drive_end] == end_unknown, end == None, len(plays) > 1)):
+        end_dict[drive_end] = end_unknown
+    else:
+        end_dict[drive_end] = end
     return(end_dict)
         
         
@@ -643,7 +656,7 @@ def toss_parser(drive0,name_dict):
                 toss_dict[won_toss] = 'Undetermined' 
             if defer >-1:
                 toss_dict[winner_choice] = toss_defer
-                if kick >-1:
+                if kick >-1 and any((re.search(name_dict[away_name],toss_string),re.search(name_dict[away_abbr],toss_string))):
                     toss_dict[loser_choice] = toss_kick
                     toss_dict[open_kick] = loser
                 else:
@@ -773,7 +786,7 @@ def play_parser(string_list,poss,re_select,name_ref):
         play = add_penalty(play,desc,re_select)
     # Add result
     result_dict = {" TOUCHDOWN":touchdown, ' nullified': nullified, " NO PLAY": no_play, 
-                   " 1ST DOWN": first_down, " safety": safety,
+                   " 1ST DOWN": first_down, " safety": safety, " muffed": fumble,
                    " fumble": fumble, " game": game_end, " half": half_end,
                    ' quarter': quarter_end}
     for key in result_dict.keys():
@@ -900,7 +913,7 @@ def drive_parser(drive, game_state, re_select,quarter_tracker,drive_tracker):
     
     
 
-def game_builder(quarters,name_dict):
+def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1):
     # Initialize game state
     game_state = {key:name_dict[key] for key in (home_name, away_name, home_abbr, away_abbr)}
     game_start = {home_score: 0, away_score: 0, score_diff: 0, home_tol: 3,
@@ -928,8 +941,12 @@ def game_builder(quarters,name_dict):
     o = 0 # Overtime index
     while i < len(quarters):
         current_quarter = quarters[i]
+        if all((i == i_stop, j_stop == -1, d_stop == -1)):
+            return({drive_list:game,state_dict:game_state})
         j = 0 # Drive index
         for curr_drive in current_quarter:
+            if all((i == i_stop, j == j_stop, d_stop == -1)):
+                return({drive_list:game,state_dict:game_state})
             try:
                 # Reset timeouts and possession at the start of the 3rd quarter
                 if (i,j) == (2,0):
@@ -962,6 +979,8 @@ def game_builder(quarters,name_dict):
                             next_ds = drive_dex('drive start', all_drives[-1][1:])
                 d = 0
                 for drive in all_drives:        
+                    if all((i == i_stop, j == j_stop, d == d_stop)):
+                        return({drive_list:game,state_dict:game_state})
                     # Reset timeout and set possession at the start of each overtime period
                     if i > 3:
                         poss = possession_finder(drive,name_dict)                
@@ -1007,6 +1026,8 @@ def game_builder(quarters,name_dict):
                                     last_drive[0][end_key] = info[end_key]
                             # Append plays individually at the end of last drive
                             game[-1] = last_drive + plays[1:]
+                        else:
+                            game.append(plays)
                     # If the previous drive ended on a 'No Play' , if the current drive started on a down later than 1st, 
                     # or if the current drive starts with an XP, merge the current and previous drives
                     elif all((len(game) > 0, len(plays) > 1)) and any((no_play in last_drive[-1].keys(), 
@@ -1050,7 +1071,8 @@ def game_builder(quarters,name_dict):
                     # Note: This means that if there was a turnover TD and the ball was subsequently kicked off,
                     # possession is not flipped.
                     elif last_play[possession] == ball.get():
-                        ball.flip()    
+                        ball.flip()
+                    game_state[poss_arrow] = ball.get()
                     d += 1
                 j += 1
             except:
@@ -1062,7 +1084,7 @@ def game_builder(quarters,name_dict):
                 return({drive_list:game, state_dict:game_state, plays_list:plays})
         i += 1
     game_state.update(toss_info)
-    return({drive_list:game,state_dict:game_state,'cp':ball.get()})
+    return({drive_list:game,state_dict:game_state})
     
 
 

@@ -3,47 +3,19 @@ Enter -['Start of 1st Half']
 ['.']
 ['Start of 1st quarter, clock 15:00, PRIDE ball on PRIDE35.']
 ['Eimer,Larry kickoff 51 yards to the PROFS14, Carlstrom,Terry return 28 yards to the PROFS42 (Mavromihalis,Tr).']
-Is this opponent scout? (Y/N)Are you Rowan (H) or Widener (A)?Final score Rowan 17 - Widener 32
-Player name overlap detected in Widener at Rowan. Check possession transitions
+Is this opponent scout? (Y/N)Are you Rowan (H) or Widener (A)?Final score Rowan 22 - Widener 27
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 [' Widener wins toss and defers HSC will receive WID will defend North end-zone']
 ['.']
 ['Start of 1st quarter, clock 15:00, PRIDE ball on PRIDE35.']
 ['Eimer,Larry kickoff 59 yards to the TIGERS6, Lewis,Iceysis return 72 yards to the PRIDE22, out-of-bounds (Jordan,Anthony).']
-Exception in Hampden-Sydney at Widener (index) quarter 1 drive 5
-	 ['Hampden-Sydney at 02:36']
-	 ['Hampden-Sydney at 02:36']
-	 ['1st and 10 at TIGERS45', 'HAMPDEN-SYDNEY drive start at 02:36.']
-	 ['1st and 10 at TIGERS45', 'Bernard,Tanner pass complete to Costello,Dillon for 18 yards to the PRIDE37, 1ST DOWN TIGERS (Cheek, Jr.,Keith;Liberatoscioli,).']
-	 ['1st and 10 at PRIDE37', 'Bernard,Tanner sacked for loss of 8 yards to the PRIDE45 (Scotese,Mario).']
-	 ['2nd and 18 at PRIDE45', 'Bernard,Tanner pass complete to Smith,Kaleb for 8 yards to the PRIDE37 (Davis,Kevin), PENALTY PRIDE personal foul 15 yards to the PRIDE22, 1ST DOWN TIGERS.']
-	 ['1st and 10 at PRIDE22', '1st and 10.']
-	 ['1st and 10 at PRIDE22', 'Smith,Kaleb rush for 1 yard to the PRIDE21 (Werkheiser,Nick).']
-	 ['2nd and 9 at PRIDE21', 'Bernard,Tanner sacked for no gain to the PRIDE21 (Werkheiser,Nick).']
-	 ['3rd and 9 at PRIDE21', 'PENALTY PRIDE offside defense 5 yards to the PRIDE16.']
-	 ['3rd and 4 at PRIDE16', 'Bernard,Tanner pass incomplete to Smith,Kaleb.']
-	 ['4th and 4 at PRIDE16', 'Breedlove,Jack field goal attempt from 33 GOOD, clock 00:29.']
-	 ['1st and GOAL at TIGERS35', 'Smith,Palmer kickoff 38 yards to the PRIDE27, Adams,Jaris return 0 yards to the PRIDE27.']
-	 ['Total', '7 plays , 39 yards Time of Possession: 2:07']
-	 ['Hampden-Sydney 17-21 Widener']
-Traceback (most recent call last):
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
-    plays = drive_parser(drive,game_state,re_select,i,j)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 851, in drive_parser
-    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 717, in play_parser
-    play = pass_parser(play,desc,poss,re_select)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 231, in pass_parser
-    gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
-IndexError: list index out of range
-
-Is this opponent scout? (Y/N)Are you Widener (H) or Hampden-Sydney (A)?Final score Widener 21 - Hampden-Sydney 14
+Is this opponent scout? (Y/N)Are you Widener (H) or Hampden-Sydney (A)?Final score Widener 31 - Hampden-Sydney 30
+Player name overlap detected in Hampden-Sydney at Widener. Check possession transitions
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Widener wins toss and defers; LVC will receive; WID will defend North end-zone.']
 ['Start of 1st quarter, clock 15:00.']
 ['Eimer,Larry kickoff 36 yards to the LVC29 Niemeyer,Cam return 0 yards to the LVC29 (Bess,Davon).']
-Is this opponent scout? (Y/N)Are you Widener (H) or Lebanon Valley (A)?Final score Widener 17 - Lebanon Valley 10
-Player name overlap detected in Lebanon Valley at Widener. Check possession transitions
+Is this opponent scout? (Y/N)Are you Widener (H) or Lebanon Valley (A)?Final score Widener 24 - Lebanon Valley 3
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Albright wins toss and will receive; WID will defend South end-zone.']
 ['Start of 1st quarter, clock 15:00.']
@@ -60,14 +32,13 @@ Exception in FDU-Florham at Widener (index) quarter 2 drive 4
 	 ['1st and 10 at FDU46', 'Thompson,Shawn rush for 0 yards to the FDU46 (Dougherty,Matthew).']
 	 ['2nd and 10 at FDU46', 'Harris,Triston pass intercepted by Howard,Samariy at FDU31 Howard,Samariy return 46 yards to the WID24 fumbled by Howard,Samariy at WID24 forced by Holbert,Ty, out of bounds.']
 Traceback (most recent call last):
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 969, in game_builder
+  File "D:\Python\Soup Time\play_maker_hudl.py", line 1007, in game_builder
     info.update(drive_end_finder(plays))
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 571, in drive_end_finder
+  File "D:\Python\Soup Time\play_maker_hudl.py", line 596, in drive_end_finder
     elif fumble in last_play.keys() and last_play[recover_team] != last_play[possession]:
 KeyError: 'RECOVER TEAM'
 
-Is this opponent scout? (Y/N)Are you Widener (H) or FDU-Florham (A)?Final score Widener 10 - FDU-Florham 17
-Player name overlap detected in FDU-Florham at Widener. Check possession transitions
+Is this opponent scout? (Y/N)Are you Widener (H) or FDU-Florham (A)?Final score Widener 3 - FDU-Florham 24
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Widener wins toss and defers; ALV will receive; WID will defend South end-zone.']
 ['Start of 1st quarter, clock 15:00.']
@@ -91,42 +62,8 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Delaware Valley wins toss and will receive; WID will defend North end-zone.']
 ['Start of 1st quarter, clock 15:00.']
 ['kickoff 51 yards to the DVU14 Prevard,Jamir return 51 yards to the WID35 (Schoenleber,Michael; Murt,Colin).']
-Exception in Widener at Delaware Valley (index) quarter 0 drive 0
-	 ['Start of 1st Half']
-	 ['Delaware Valley wins toss and will receive; WID will defend North end-zone.']
-	 ['Start of 1st quarter, clock 15:00.']
-	 ['kickoff 51 yards to the DVU14 Prevard,Jamir return 51 yards to the WID35 (Schoenleber,Michael; Murt,Colin).']
-Traceback (most recent call last):
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
-    plays = drive_parser(drive,game_state,re_select,i,j)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 803, in drive_parser
-    play = play_parser(['Opening kickoff',drive[-1][-1]], game_state[possession],re_select,name_ref)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 729, in play_parser
-    play = kop_parser(play,desc,poss,re_select)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 289, in kop_parser
-    if poss in yl_string:
-TypeError: 'in <string>' requires string as left operand, not NoneType
-
-Traceback (most recent call last):
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
-    plays = drive_parser(drive,game_state,re_select,i,j)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 803, in drive_parser
-    play = play_parser(['Opening kickoff',drive[-1][-1]], game_state[possession],re_select,name_ref)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 729, in play_parser
-    play = kop_parser(play,desc,poss,re_select)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 289, in kop_parser
-    if poss in yl_string:
-TypeError: 'in <string>' requires string as left operand, not NoneType
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
-    game_info = game_builder(quarters,name_dict)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1040, in game_builder
-    return({drive_list:game, state_dict:game_state, plays_list:plays})
-UnboundLocalError: local variable 'plays' referenced before assignment
-Enter -['Start of 1st Half']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Widener (A)?Final score Delaware Valley 27 - Widener 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Widener wins toss and defers; SUS will receive; WID will defend West end-zone.']
 ['Start of 1st quarter, clock 15:00.']
 ['Eimer,Larry kickoff 60 yards to the SUS05 Howes,Kyle return 95 yards to the WID00 TOUCHDOWN, clock 15:00.']

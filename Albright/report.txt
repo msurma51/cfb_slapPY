@@ -1,12 +1,9 @@
-Final score Albright 21 - Salisbury 49
-Player name overlap detected in Salisbury at Albright. Check possession transitions
+Final score Albright 14 - Salisbury 56
 Final score WestConn 28 - Albright 33
-Player name overlap detected in Albright at WestConn. Check possession transitions
 Final score Alvernia 21 - Albright 31
 Final score Albright 7 - Widener 21
 Final score Misericordia 31 - Albright 20
 Final score Albright 28 - Wilkes 31
-Player name overlap detected in Wilkes at Albright. Check possession transitions
 Final score King's (PA) 51 - Albright 12
 Final score Lycoming 28 - Albright 7
 Final score Albright 35 - FDU-Florham 42

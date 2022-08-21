@@ -2,13 +2,11 @@ Enter -['Start of 1st Half']
 ['Albright wins toss and will receive; SAL will defend South end-zone.']
 ['Start of 1st quarter, clock 15:00.']
 ['Schrecongost,Bert kickoff 64 yards to the ALB01 MacFarlane,Ryan return 17 yards to the ALB18 (Fletcher,David; Barley,Charles).']
-Is this opponent scout? (Y/N)Are you Albright (H) or Salisbury (A)?Final score Albright 21 - Salisbury 49
-Player name overlap detected in Salisbury at Albright. Check possession transitions
+Is this opponent scout? (Y/N)Are you Albright (H) or Salisbury (A)?Final score Albright 14 - Salisbury 56
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 [' WCSU ball on WCSU35. WC wins toss and defers, will kick an defend south goal']
 ['A. Weidtman kickoff 64 yards to the ALBFB211,  Zehner, Kevin return 33 yards to the ALBFB2134 (Ethan Cerian).']
 Is this opponent scout? (Y/N)Are you WestConn (H) or Albright (A)?Final score WestConn 28 - Albright 33
-Player name overlap detected in Albright at WestConn. Check possession transitions
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Albright wins toss and will receive; ALV will defend West end-zone.']
 ['Start of 1st quarter, clock 15:00.']
@@ -28,7 +26,6 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Start of 1st quarter, clock 15:00.']
 ['Orlando,Alex kickoff 48 yards to the ALB17 Zehner,Kevin return 24 yards to the ALB41 (Troutman,Nick), out of bounds.']
 Is this opponent scout? (Y/N)Are you Albright (H) or Wilkes (A)?Final score Albright 28 - Wilkes 31
-Player name overlap detected in Wilkes at Albright. Check possession transitions
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ["King's (PA) wins toss and defers; ALB will receive; KIN will defend North end-zone."]
 ['Start of 1st quarter, clock 15:00.']
