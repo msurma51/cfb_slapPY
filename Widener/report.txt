@@ -1,6 +1,5 @@
 Final score Rowan 22 - Widener 27
-Final score Widener 31 - Hampden-Sydney 30
-Player name overlap detected in Hampden-Sydney at Widener. Check possession transitions
+Final score Widener 34 - Hampden-Sydney 27
 Final score Widener 24 - Lebanon Valley 3
 Final score Albright 7 - Widener 21
 Exception in FDU-Florham at Widener (index) quarter 2 drive 4
@@ -21,5 +20,7 @@ Final score Widener 30 - Wilkes 13
 Final score Stevenson 29 - Widener 24
 Final score Widener 17 - Lycoming 0
 Final score Delaware Valley 27 - Widener 0
-Final score Susquehanna 28 - Widener 35
+Score correction made in Widener @ Susquehanna (index) quarter 0 drive 2
+Score correction made in Widener @ Susquehanna (index) quarter 0 drive 6
+Final score Susquehanna 49 - Widener 21
 Player name overlap detected in Widener at Susquehanna. Check possession transitions

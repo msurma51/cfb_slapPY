@@ -26,7 +26,8 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['.']
 ['Start of 1st quarter, clock 15:00, KINGS ball on KINGS35.']
 ['Kyle Prescavage kickoff 54 yards to the DELVAL11, Dorsey,Tavian return 14 yards to the DELVAL25, out-of-bounds (Amir Gibson).']
-Is this opponent scout? (Y/N)Are you Delaware Valley (H) or King's College (A)?Final score Delaware Valley 48 - King's College 13
+Score correction made in King's College @ Delaware Valley (index) quarter 3 drive 3
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or King's College (A)?Final score Delaware Valley 48 - King's College 15
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 [" King's (PA) wins toss and defers ALB will receive KIN will defend North end-zone"]
 ['.']

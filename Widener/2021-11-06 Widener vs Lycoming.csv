@@ -91,13 +91,13 @@ PLAY #,OPP TEAM,ODK,OFF TEAM,QTR,OT #,SERIES,SERIES #,DN,DIST,YARD LN,PLAY TYPE,
 90,Lycoming,D,LYC,3,,7.0,7.0,4.0,1.0,42.0,Run,Rush,0.0,Elijah Shemory,,,,,,,Kevin Davis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Downs,14:55,1795,0,3,3,3,3,3,,,,,,,
 91,Lycoming,O,WID,3,,8.0,1.0,0.0,10.0,-42.0,Pass,Sack,-6.0,,Triston Harris,Sack,,,,,David Tomb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11:19,1579,3,0,3,3,3,3,,,,,,,
 92,Lycoming,,WID,3,,,,1.0,10.0,-42.0,Timeout,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Widener,,,,,,,11:19,1579,3,0,3,3,3,3,,,,,,,
-93,Lycoming,,WID,3,,,,2.0,16.0,-36.0,Penalty,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33,1533,3,0,3,2,2,3,Offside,LYC,,,,,5.0
+93,Lycoming,,WID,3,,,,2.0,16.0,-36.0,Penalty,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33,1533,3,0,3,2,2,3,Offside,LYC,Abubakar Audu Jr.,,,,5.0
 94,Lycoming,O,WID,3,,8.0,2.0,2.0,11.0,-41.0,Run,Rush,1.0,Tahir Cruse,,,,,,,Sam Pittsman,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33,1533,3,0,3,2,2,3,,,,,,,
 95,Lycoming,O,WID,3,,8.0,3.0,3.0,10.0,-42.0,Run,Rush,12.0,Triston Harris,,,,,,,Johnny Day,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,,,10:33,1533,3,0,3,2,2,3,,,,,,,
 96,Lycoming,O,WID,3,,8.0,4.0,1.0,10.0,46.0,Pass,Incomplete,0.0,,Triston Harris,Incomplete,Tevin Hill,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,True,,,,10:33,1533,3,0,3,2,2,3,Holding,LYC,Hunter Campbell,,,,10.0
 97,Lycoming,,WID,3,,,,1.0,10.0,36.0,Penalty,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33,1533,3,0,3,2,2,3,False Start,WID,Matthew Thomas,,,,5.0
 98,Lycoming,O,WID,3,,8.0,5.0,1.0,15.0,41.0,Run,Rush,3.0,Tahir Cruse,,,,,,,Andre Jackson Jr.,Cole Senior,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33,1533,3,0,3,2,2,3,,,,,,,
-99,Lycoming,O,WID,3,,8.0,6.0,2.0,12.0,38.0,Pass,Incomplete,0.0,,Triston Harris,Incomplete,James Gillespie,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33,1533,3,0,3,2,2,3,,,,,,,
+99,Lycoming,O,WID,3,,8.0,6.0,2.0,12.0,38.0,Pass,Incomplete,0.0,,Triston Harris,Incomplete,James Gillespie,Andre Jackson Jr.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33,1533,3,0,3,2,2,3,,,,,,,
 100,Lycoming,O,WID,3,,8.0,7.0,3.0,12.0,38.0,Pass,Complete,12.0,,Triston Harris,Complete,James Gillespie,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,,,10:33,1533,3,0,3,2,2,3,,,,,,,
 101,Lycoming,O,WID,3,,8.0,8.0,1.0,10.0,26.0,Run,Rush,3.0,Shawn Thompson,,,,,,,Gianni Bryant-Lopez,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33,1533,3,0,3,2,2,3,,,,,,,
 102,Lycoming,O,WID,3,,8.0,9.0,2.0,7.0,23.0,Pass,Incomplete,0.0,,Triston Harris,Incomplete,Joe Bristow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10:33,1533,3,0,3,2,2,3,,,,,,,
