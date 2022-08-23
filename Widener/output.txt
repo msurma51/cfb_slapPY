@@ -24,20 +24,7 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['FDU-Florham wins toss and defers; WID will receive; FDU will defend North end-zone.']
 ['Start of 1st quarter, clock 15:00.']
 ['Korchma,Christian kickoff 59 yards to the WID06 Baxter,Jordan return 55 yards to the FDU39 (Pereira,Tyrell; Brown,Nayson), out of bounds.']
-Exception in FDU-Florham at Widener (index) quarter 2 drive 4
-	 ['Widener at 06:40']
-	 ['Widener at 06:40']
-	 ['1st and 10 at FDU46', 'Widener drive start at 06:40.']
-	 ['1st and 10 at FDU46', 'Thompson,Shawn rush for 0 yards to the FDU46 (Dougherty,Matthew).']
-	 ['2nd and 10 at FDU46', 'Harris,Triston pass intercepted by Howard,Samariy at FDU31 Howard,Samariy return 46 yards to the WID24 fumbled by Howard,Samariy at WID24 forced by Holbert,Ty, out of bounds.']
-Traceback (most recent call last):
-  File "D:\Python\Soup Time\play_maker_hudl.py", line 1007, in game_builder
-    info.update(drive_end_finder(plays))
-  File "D:\Python\Soup Time\play_maker_hudl.py", line 596, in drive_end_finder
-    elif fumble in last_play.keys() and last_play[recover_team] != last_play[possession]:
-KeyError: 'RECOVER TEAM'
-
-Is this opponent scout? (Y/N)Are you Widener (H) or FDU-Florham (A)?Final score Widener 3 - FDU-Florham 24
+Is this opponent scout? (Y/N)Are you Widener (H) or FDU-Florham (A)?Final score Widener 3 - FDU-Florham 27
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Widener wins toss and defers; ALV will receive; WID will defend South end-zone.']
 ['Start of 1st quarter, clock 15:00.']
@@ -68,8 +55,5 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Eimer,Larry kickoff 60 yards to the SUS05 Howes,Kyle return 95 yards to the WID00 TOUCHDOWN, clock 15:00.']
 ['Hoffman,Elijah kick attempt good.']
 ['Hoffman,Elijah kickoff 58 yards to the WID07 Thompson,Shawn return 32 yards to the WID39 (Nicosia,John).']
-Score correction made in Widener @ Susquehanna (index) quarter 0 drive 2
-Score correction made in Widener @ Susquehanna (index) quarter 0 drive 6
 Is this opponent scout? (Y/N)Are you Susquehanna (H) or Widener (A)?Final score Susquehanna 49 - Widener 21
-Player name overlap detected in Widener at Susquehanna. Check possession transitions
 Folder name? (Scout team name default)

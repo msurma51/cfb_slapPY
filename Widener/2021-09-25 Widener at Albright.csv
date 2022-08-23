@@ -79,7 +79,7 @@ PLAY #,OPP TEAM,ODK,OFF TEAM,QTR,OT #,SERIES,SERIES #,DN,DIST,YARD LN,PLAY TYPE,
 78,Albright,,ALB,2,,,,3.0,7.0,-50.0,Timeout,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Albright,,,,,,,00:54,54,0,13,13,2,3,2,,,,,,,
 79,Albright,K,ALB,2,,,,4.0,12.0,-45.0,Punt Ret,Fair Catch,,,,,,,,,,,,,,,,,,,,,,,,Todd Shelley,35.0,20.0,Fair Catch,,,,,,,,,,,,,,00:09,9,0,13,13,2,2,2,,,,,,,
 80,Albright,,WID,2,,,,1.0,10.0,-20.0,Kneel,Kneel,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,00:04,4,13,0,13,2,2,2,,,,,,,
-81,Albright,K,ALB,3,,,,,,,KO Ret,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,open_kick,15:00,1800,0,13,13,3,3,3,,,,,,,
+81,Albright,K,ALB,3,,,,,,,KO Ret,Return,,,,,,,,,,,,,,,,Bryce Casey,0,21.0,Jack Heuer,44.0,21.0,Return,,,,,,,,,,,,,,,,,,,15:00,1800,0,13,13,3,3,3,Illegal Formation,ALB,,,,,5.0
 82,Albright,O,WID,3,,6.0,1.0,0.0,10.0,-26.0,Run,Rush,0.0,Shawn Thompson,,,,,,,Eric Martin,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14:52,1792,13,0,13,3,3,3,,,,,,,
 83,Albright,O,WID,3,,6.0,2.0,2.0,10.0,-26.0,Run,Rush,2.0,Bryce Casey,,,,,,,Armon Jefferson,,,,,,,,,,,,,,,,,,,,,,,,,,True,,,,,,14:52,1792,13,0,13,3,3,3,Personal Foul,ALB,Armon Jefferson,,,,15.0
 84,Albright,O,WID,3,,6.0,3.0,1.0,10.0,-43.0,Run,Rush,5.0,Bryce Casey,,,,,,,Daniel Vital,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14:52,1792,13,0,13,3,3,3,,,,,,,

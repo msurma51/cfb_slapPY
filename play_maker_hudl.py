@@ -593,10 +593,11 @@ def drive_end_finder(plays):
             end = end_half
         else:
             end = end_game
-    elif fumble in last_play.keys() and last_play[recover_team] != last_play[possession]:
-        end = end_fumble
     elif pass_result in last_play.keys() and last_play[pass_result] == pass_interception:
         end = pass_interception
+    elif all((fumble in last_play.keys(), 
+              recover_team in last_play.keys())) and last_play[recover_team] != last_play[possession]:
+        end = end_fumble
     elif gn_ls in last_play.keys() and last_play[down] == 4:
         if last_play[gn_ls] < last_play[distance]:
              end = end_downs
@@ -807,10 +808,7 @@ def drive_parser(drive, game_state, re_select,quarter_tracker,drive_tracker):
     plays.append(info)
     # Can check possession by passing in name_dict and parsing initial strings
     start = 0
-    #h = drive_dex('Start of ([1-4]).*Half',drive)
     q = drive_dex('Start of ([1-9]).*quarter',drive)
-    #if h and not q:
-        #q = (-1,quarter_tracker + 1)
     ds = drive_dex('drive start', drive)
     # Store names for access later
     name_ref = {key:game_state[key] for key in (home_name, away_name, home_abbr, away_abbr)}  
@@ -832,7 +830,11 @@ def drive_parser(drive, game_state, re_select,quarter_tracker,drive_tracker):
             game_state.update({quarter: info[quarter],
                    time_stamp: info[drive_start],
                    time_remaining: info[time_remaining]})
-            play = play_parser(['Opening kickoff',drive[-1][-1]], game_state[possession],re_select,name_ref)
+            ko = drive_dex('kickoff ', drive)
+            if ko:
+                play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+            else:
+                play = play_parser(['Opening kickoff',drive[-1][-1]], game_state[possession],re_select,name_ref)
             # Catch and fix regex pattern for naming protocol for either team
             if quarter_tracker == 0:
                 names = name_check(play,name_keys)
@@ -850,7 +852,16 @@ def drive_parser(drive, game_state, re_select,quarter_tracker,drive_tracker):
                 play[drive_end] = open_kick
             play.update(game_state)
             plays.append(play)
-            game_state = state_update(play,drive[-1][-1],game_state) 
+            game_state = state_update(play,drive[-1][-1],game_state)
+            if ko and -1 < ko[0] < len(drive)-1:
+                for i in range(ko[0]+1,len(drive)):
+                    play = play_parser(['',drive[i][-1]], game_state[possession],re_select,name_ref)
+                    if play and play_type in play.keys():    
+                        play.update(game_state)
+                        plays.append(play)
+                        game_state = state_update(play,drive[i][-1],game_state)
+                    else:
+                        info.update(play)
             return(plays)
         if q:
             start = q[0]+1
@@ -1026,6 +1037,7 @@ def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1):
                                     last_drive[0][end_key] = info[end_key]
                             # Append plays individually at the end of last drive
                             game[-1] = last_drive + plays[1:]
+                            game[-1][0].update(drive_end_finder(game[-1]))
                         else:
                             game.append(plays)
                     # If the previous drive ended on a 'No Play' , if the current drive started on a down later than 1st, 
@@ -1044,6 +1056,13 @@ def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1):
                             last_drive[0][time_of_possession] = sec_to_min(last_drive[0][time_elapsed_sec])
                         game[-1] = last_drive + plays[1:]
                         game[-1][0].update(drive_end_finder(game[-1]))
+                    # If the opening half KO gets pushed to drive index 1, update the placekeeper KO play from
+                    # the previous drive
+                    elif (all((len(plays) > 1, len(game) > 0)) and play_type in last_drive[-1].keys()) and all((
+                              last_drive[-1][play_type] == type_kickoff, plays[1][play_type] == type_kickoff)):
+                        poss_holder = last_drive[-1][possession]
+                        last_drive[-1].update(plays[1])
+                        last_drive[-1][possession] = poss_holder
                     else:
                         game.append(plays)
                     # Determine whether possession object should stay or flip
@@ -1065,7 +1084,13 @@ def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1):
                         ball.flip()
                     # Don't flip possession if the drive 'ended' with the last play of the quarter,
                     # on a 'no play', or if a drive end could not be identified (premature split of drive)
-                    elif any((updated_info[drive_end] == end_quarter, no_play in plays[-1].keys(), not updated_info[drive_end])):
+                    elif any((updated_info[drive_end] == end_quarter, no_play in plays[-1].keys(), 
+                              not updated_info[drive_end])):
+                        None
+                    # Don't flip possession if an opening half kick correction was just made
+                    elif play_type in game[-1][-1] and all((game[-1][-1][play_type] == type_kickoff,
+                                                            game[-1][-1][possession] != ball.get(),
+                                                            updated_info[drive_end] == end_kick)):
                         None
                     # Flip possession if the team who started with the ball also ended with it.
                     # Note: This means that if there was a turnover TD and the ball was subsequently kicked off,

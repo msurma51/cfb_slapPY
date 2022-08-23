@@ -2,25 +2,10 @@ Final score Rowan 22 - Widener 27
 Final score Widener 34 - Hampden-Sydney 27
 Final score Widener 24 - Lebanon Valley 3
 Final score Albright 7 - Widener 21
-Exception in FDU-Florham at Widener (index) quarter 2 drive 4
-	 ['Widener at 06:40']
-	 ['Widener at 06:40']
-	 ['1st and 10 at FDU46', 'Widener drive start at 06:40.']
-	 ['1st and 10 at FDU46', 'Thompson,Shawn rush for 0 yards to the FDU46 (Dougherty,Matthew).']
-	 ['2nd and 10 at FDU46', 'Harris,Triston pass intercepted by Howard,Samariy at FDU31 Howard,Samariy return 46 yards to the WID24 fumbled by Howard,Samariy at WID24 forced by Holbert,Ty, out of bounds.']
-Traceback (most recent call last):
-  File "D:\Python\Soup Time\play_maker_hudl.py", line 1007, in game_builder
-    info.update(drive_end_finder(plays))
-  File "D:\Python\Soup Time\play_maker_hudl.py", line 596, in drive_end_finder
-    elif fumble in last_play.keys() and last_play[recover_team] != last_play[possession]:
-KeyError: 'RECOVER TEAM'
-Final score Widener 3 - FDU-Florham 24
+Final score Widener 3 - FDU-Florham 27
 Final score Alvernia 7 - Widener 37
 Final score Widener 30 - Wilkes 13
 Final score Stevenson 29 - Widener 24
 Final score Widener 17 - Lycoming 0
 Final score Delaware Valley 27 - Widener 0
-Score correction made in Widener @ Susquehanna (index) quarter 0 drive 2
-Score correction made in Widener @ Susquehanna (index) quarter 0 drive 6
 Final score Susquehanna 49 - Widener 21
-Player name overlap detected in Widener at Susquehanna. Check possession transitions

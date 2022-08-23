@@ -11,29 +11,7 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Wilkes wins the toss, defers']
 ['WUFB ball on WUFB35.']
 ['A. Orlando kickoff 55 yards to the 21AUFB10,  Perkins, Josep return 11 yards to the 21AUFB21 (R. Travis;T. Francis), PENALTY 21AUFB illegal block (Russell, Jack) 9 yards to the 21AUFB12, 1st and 10, 21AUFB ball on 21AUFB12.']
-Exception in Alvernia University at Wilkes University (index) quarter 0 drive 3
-	 ['Alvernia University at 07:45']
-	 ['Alvernia University at 07:45']
-	 ['1st and 10 at 21AUFB18', 'ALVERNIA UNIVERSITY drive start at 07:45.']
-	 ['1st and 10 at 21AUFB18', 'PENALTY 21AUFB false start 5 yards to the 21AUFB13.']
-	 ['1st and 15 at 21AUFB13', 'Carey, Malcolm rush for no gain to the 21AUFB13 (B. Costner).']
-	 ['2nd and 15 at 21AUFB13', 'Rosahac, Nick sacked for no gain to the 21AUFB13 (N. Gazzola;S. Hess).']
-	 ['3rd and 15 at 21AUFB13', 'Rosahac, Nick pass complete to Scurlock, Neeko for 3 yards to the 21AUFB16 (J. Washington).']
-	 ['4th and 12 at 21AUFB16', 'PENALTY WUFB substitution infraction 5 yards to the 21AUFB21.']
-	 ['4th and 7 at 21AUFB21', 'Long, Ryan punt 52 yards to the WUFB27, E. Jules return 23 yards to the 50 yardline ( Bohinski, Adri).']
-	 ['Total', '3 plays , 3 yards Time of Possession: 2:37']
-Traceback (most recent call last):
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 966, in game_builder
-    plays = drive_parser(drive,game_state,re_select,i,j)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 851, in drive_parser
-    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 717, in play_parser
-    play = pass_parser(play,desc,poss,re_select)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 231, in pass_parser
-    gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
-IndexError: list index out of range
-
-Is this opponent scout? (Y/N)Are you Wilkes University (H) or Alvernia University (A)?Final score Wilkes University 0 - Alvernia University 0
+Is this opponent scout? (Y/N)Are you Wilkes University (H) or Alvernia University (A)?Final score Wilkes University 23 - Alvernia University 0
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Stevenson wins toss, defers']
 ['STE ball on STE35.']
@@ -44,7 +22,6 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Start of 1st quarter, clock 15:00.']
 ['Orlando,Alex kickoff 48 yards to the ALB17 Zehner,Kevin return 24 yards to the ALB41 (Troutman,Nick), out of bounds.']
 Is this opponent scout? (Y/N)Are you Albright (H) or Wilkes (A)?Final score Albright 28 - Wilkes 31
-Player name overlap detected in Wilkes at Albright. Check possession transitions
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Widener wins toss and defers; WIL will receive; WID will defend West end-zone.']
 ['Start of 1st quarter, clock 15:00.']
@@ -70,6 +47,5 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Start of 1st quarter, clock 15:00.']
 ['Prescavage,Kyle kickoff 51 yards to the WIL14 Whitaker,Nate return 21 yards to the WIL35 (Gibson,Amir) PENALTY WIL Holding 10 yards from WIL25 to WIL15.']
 ['WIL ball on WIL15.']
-Is this opponent scout? (Y/N)Are you King's (PA) (H) or Wilkes (A)?Final score King's (PA) 41 - Wilkes 0
-Player name overlap detected in Wilkes at King's (PA). Check possession transitions
+Is this opponent scout? (Y/N)Are you King's (PA) (H) or Wilkes (A)?Final score King's (PA) 34 - Wilkes 7
 Folder name? (Scout team name default)
