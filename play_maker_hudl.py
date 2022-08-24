@@ -573,7 +573,8 @@ def drive_end_finder(plays):
             return({drive_end:None})
         elif was_safety:
             end = end_safety
-        elif plays[-2][play_type] == type_xp or two_point_attempt in plays[-2].keys():
+        elif any((plays[-2][play_type] == type_xp, two_point_attempt in plays[-2].keys(), 
+                  touchdown in plays[-2].keys())):
             end = end_td
         elif plays[-2][play_type] == type_fg:
             end = type_fg
@@ -973,23 +974,27 @@ def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1):
                         ball.set(poss) 
                 # Check for unexpected combination of drives, and split if necessary
                 all_drives = [curr_drive]
-                ds = drive_dex('drive start', curr_drive)
+                ds = drive_dex('(.*) drive start', curr_drive)
                 if ds:
-                    next_ds = drive_dex('drive start', curr_drive[ds[0]+1:])
+                    next_ds = drive_dex('(.*) drive start', curr_drive[ds[0]+1:])
+                    curr_poss_team = ds[1]
                     if next_ds:
                         all_drives[0] = curr_drive[:ds[0]+next_ds[0]+1]
-                        if all_drives[-1][-1][-1].find('Change of possession') == -1:
+                        next_poss_team = next_ds[1]
+                        if all_drives[-1][-1][-1].find('Change of possession') == -1 and curr_poss_team != next_poss_team:
                                 all_drives[-1].append(['Drive end unknown'])
                         all_drives.append(curr_drive[ds[0]+next_ds[0]+1:])
-                        next_ds = drive_dex('drive start', all_drives[-1][1:])
+                        next_ds = drive_dex('(.*) drive start', all_drives[-1][1:])
+                        curr_poss_team = next_poss_team
                         while next_ds:
                             trunc_drive = all_drives[-1]
                             next_dex = next_ds[0]
                             all_drives[-1] = trunc_drive[:next_dex+1]
-                            if all_drives[-1][-1][-1].find('Change of possession') == -1:
+                            next_poss_team = next_ds[1]
+                            if all_drives[-1][-1][-1].find('Change of possession') == -1 and curr_poss_team != next_poss_team:
                                 all_drives[-1].append(['Drive end unknown'])
                             all_drives.append(trunc_drive[next_dex+1:])
-                            next_ds = drive_dex('drive start', all_drives[-1][1:])
+                            next_ds = drive_dex('(.*) drive start', all_drives[-1][1:])
                 d = 0
                 for drive in all_drives:        
                     if all((i == i_stop, j == j_stop, d == d_stop)):
@@ -1013,7 +1018,13 @@ def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1):
                             o += 1
                             game_state.update({overtime: o})
                     # Run drive parser
-                    game_state[possession] = ball.get()
+                    ds = drive_dex('(.*) drive start', drive)
+                    if ds and ds[1] not in name_dict[ball.get()]:
+                        game_state[possession] = possession_finder(drive, name_dict)
+                        if game_state[possession] != ball.get():
+                            ball.flip()
+                    else:
+                        game_state[possession] = ball.get()
                     plays = drive_parser(drive,game_state,re_select,i,j)
                     # Determine drive end and update info
                     info = plays[0]       
@@ -1099,7 +1110,7 @@ def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1):
                     # possession is not flipped.
                     elif last_play[possession] == ball.get():
                         ball.flip()
-                    game_state[poss_arrow] = ball.get()
+                    updated_info[poss_arrow] = ball.get()
                     d += 1
                 j += 1
             except:
