@@ -5,13 +5,14 @@ Is this opponent scout? (Y/N)Are you Susquehanna (H) or Lycoming (A)?Final score
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['FMC ball on FMC35, clock 15:00.']
 ['Jack Rodenberge kickoff 62 yards to the SUS03, Keith Green return 14 yards to the SUS17 (Jacob Hille; Will Higson).']
-Is this opponent scout? (Y/N)Are you Franklin & Marsh (H) or Susquehanna (A)?Final score Franklin & Marsh 25 - Susquehanna 24
+Score correction made in Susquehanna @ Franklin & Marsh (index) quarter 4 drive 3
+Score correction made in Susquehanna @ Franklin & Marsh (index) quarter 4 drive 4
+Is this opponent scout? (Y/N)Are you Franklin & Marsh (H) or Susquehanna (A)?Final score Franklin & Marsh 28 - Susquehanna 28
 Player name overlap detected in Susquehanna at Franklin & Marsh. Check possession transitions
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['MOR ball on MOR35, clock 15:00.']
 ['T. Yacuboski kickoff 54 yards to the SUSQFB11, Kyle Howes return 17 yards to the SUSQFB28 (Joe LePoidevin).']
-Is this opponent scout? (Y/N)Are you Moravian University (H) or Susquehanna (A)?Final score Moravian University 10 - Susquehanna 34
-Player name overlap detected in Susquehanna at Moravian University. Check possession transitions
+Is this opponent scout? (Y/N)Are you Moravian University (H) or Susquehanna (A)?Final score Moravian University 0 - Susquehanna 44
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Dickinson wins toss and defers. Susquehanna to defend west goal.']
 ['Matt Moroz kickoff 63 yards to the SUSQFB2, Kyle Howes return 43 yards to the SUSQFB45 (James Basilii).']
@@ -40,7 +41,11 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['SUS will defend West end-zone']
 ['Start of 1st quarter, clock 15:00, SUSQFB ball on SUSQFB35.']
 ['Elijah Hoffman kickoff 59 yards to the MUHL06, Washington,John return 51 yards to the SUSQFB43 (Tim Macko).']
-Is this opponent scout? (Y/N)Are you Susquehanna (H) or Muhlenberg (A)?Final score Susquehanna 30 - Muhlenberg 49
+Score correction made in Muhlenberg @ Susquehanna (index) quarter 2 drive 1
+Score correction made in Muhlenberg @ Susquehanna (index) quarter 2 drive 2
+Score correction made in Muhlenberg @ Susquehanna (index) quarter 3 drive 3
+Score correction made in Muhlenberg @ Susquehanna (index) quarter 3 drive 5
+Is this opponent scout? (Y/N)Are you Susquehanna (H) or Muhlenberg (A)?Final score Susquehanna 27 - Muhlenberg 52
 Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Elijah Hoffman kickoff 55 yards to the JCFB2110, Charles Debose return 23 yards to the JCFB2133 (Garrett Swank).']
 Is this opponent scout? (Y/N)Are you Juniata (H) or Susquehanna (A)?Final score Juniata 0 - Susquehanna 65
@@ -50,6 +55,5 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['Eimer,Larry kickoff 60 yards to the SUS05 Howes,Kyle return 95 yards to the WID00 TOUCHDOWN, clock 15:00.']
 ['Hoffman,Elijah kick attempt good.']
 ['Hoffman,Elijah kickoff 58 yards to the WID07 Thompson,Shawn return 32 yards to the WID39 (Nicosia,John).']
-Is this opponent scout? (Y/N)Are you Susquehanna (H) or Widener (A)?Final score Susquehanna 28 - Widener 35
-Player name overlap detected in Widener at Susquehanna. Check possession transitions
+Is this opponent scout? (Y/N)Are you Susquehanna (H) or Widener (A)?Final score Susquehanna 49 - Widener 21
 Folder name? (Scout team name default)

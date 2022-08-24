@@ -485,6 +485,8 @@ def state_update(play,desc,play_state):
         if fumble_poss in play.keys() and play[fumble_poss] != play_state[possession]:
             play_state.update(score_update(not home_ball,6,play_state))
             play_state[possession] = play[fumble_poss]
+        elif fumble_poss in play.keys() and play[fumble_poss] == play_state[possession]:
+            play_state.update(score_update(home_ball,6,play_state))
         elif any((pass_result in play.keys() and play[pass_result] == pass_interception,
                   fg_result in play.keys() and any((play[fg_result] == fg_blocked, play[fg_result] == fg_return)),
                   punt_result in play.keys() and any((play[punt_result] == punt_blocked, play[punt_result] == kp_return)),
