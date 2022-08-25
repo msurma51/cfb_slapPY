@@ -42,28 +42,9 @@ Folder name? (Scout team name default)Enter -['Start of 1st Half']
 ['LVC ball on LVC35.']
 ['Garrett MacClay kickoff 59 yards to the MIFB6, Fant, Jordan return 21 yards to the MIFB27 (Ryan Enright).']
 Is this opponent scout? (Y/N)Are you Lebanon Valley (H) or Misericordia (A)?Final score Lebanon Valley 31 - Misericordia 17
-Folder name? (Scout team name default)Enter -Traceback (most recent call last):
-  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
-    quarters, name_dict = pbp_parser(url)
-  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 14, in pbp_parser
-    html = urlopen(url, context=ctx).read()
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 481, in read
-    s = self._safe_read(self.length)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 630, in _safe_read
-    data = self.fp.read(amt)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\socket.py", line 705, in readinto
-    return self._sock.recv_into(b)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1274, in recv_into
-    return self.read(nbytes, buffer)
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1130, in read
-    return self._sslobj.read(len, buffer)
-ssl.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2548)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
-    quarters, name_dict = taster(url)  
-  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 30, in taster
-    setting_strings = [string for string in setting_tag.stripped_strings]
-AttributeError: 'NoneType' object has no attribute 'stripped_strings'
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Albright wins toss and will receive; LVC will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['MacClay,Garrett kickoff 47 yards to the ALB18 Roselli,Lucas return 14 yards to the ALB32 (Lamb,Justus; Kutzler,Evan).']
+Is this opponent scout? (Y/N)Are you Albright (H) or Lebanon Valley (A)?Final score Albright 2 - Lebanon Valley 25
+Folder name? (Scout team name default)
