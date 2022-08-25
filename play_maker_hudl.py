@@ -88,12 +88,12 @@ def add_tacklers(play,desc):
     # Check if players in parentheses are penalized and not tacklers
     elif pen_dex != -1 and para_dex > pen_dex:
         return(play)
-    t_string = re.findall('\((.*?)\)',desc)[0]
-    if 'blocked' in t_string:
-        if len(re.findall('\((.*?)\)',desc)) > 1:
-            t_string = re.findall('\((.*?)\)',desc)[1]
-        else:
-            return(play)
+    capture_list = re.findall('\((.*?)\)',desc)
+    t_list = [capture for capture in capture_list if capture.find('blocked') == -1]
+    if len(t_list) > 0:
+        t_string = t_list[0]
+    else:
+        return(play)
     tacklers = [tackler.strip() for tackler in t_string.split(';')]
     play[tackler1] = tacklers[0]
     if len(tacklers) >1:
@@ -358,10 +358,8 @@ def fg_parser(play,desc,poss,re_select):
     # Extract the placekicker's name if it's there
     if fg > 0:
         pk = re.findall('^'+re_select[poss],desc)
-        try:
+        if len(pk) > 0:
             play[placekicker] = pk[0]
-        except:
-            None   
     # Analyze substring after 'attempt'
     result_string = desc[desc.find('attempt'):]
     good = re.search('\w+ GOOD',result_string,re.IGNORECASE)
@@ -380,10 +378,10 @@ def fg_parser(play,desc,poss,re_select):
             play[blocked_by] = blocker[0]
     elif missed or failed:
         play[res_key] = fg_no_good        
-    fg_return = max(result_string.find(' return'),result_string.find(' for'))
-    if fg_return > -1:
+    fg_was_returned = max(result_string.find(' return'),result_string.find(' for'))
+    if fg_was_returned > -1:
         play = add_return(play,result_string,poss,re_select[defense])
-        if res_key != play.keys() or play[res_key] != fg_blocked:
+        if res_key not in play.keys() or play[res_key] != fg_blocked:
             play[res_key] = fg_return
     return(play)
 
@@ -1021,7 +1019,9 @@ def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1,score_correct=
                     ds = drive_dex('(.*) drive start', drive)
                     if ds and ds[1] not in name_dict[ball.get()]:
                         game_state[possession] = possession_finder(drive, name_dict)
-                        if game_state[possession] != ball.get():
+                        if not game_state[possession]:
+                            game_state[possession] = ball.get()
+                        elif game_state[possession] != ball.get():
                             ball.flip()
                     else:
                         game_state[possession] = ball.get()
