@@ -1,0 +1,79 @@
+Enter -['Start of 1st Half']
+['Sul Ross St. wins toss and defers; HSU will receive; SUL will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Brown,Jaden kickoff 60 yards to the HSU05 Crawford,Jalen return 35 yards to the HSU40 (Brown,Jaden).']
+Is this opponent scout? (Y/N)Are you Hardin-Simmons (H) or Sul Ross St. (A)?Final score Hardin-Simmons 27 - Sul Ross St. 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['AC ball on AC35, clock 15:00.']
+['John Aldridge kickoff 65 yards to the SRSU00, touchback.']
+Is this opponent scout? (Y/N)Are you Austin (H) or Sul Ross St. (A)?Final score Austin 16 - Sul Ross St. 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Texas Lutheran wins toss and will receive; SRS will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ocampo,Juan kickoff 65 yards to the SRS00, Touchback.']
+['Brown,Jaden kickoff 26 yards to the TLU09 Torello,Keon return 25 yards to the TLU34 (Bunch,Hunter; Weatherly,Javien).']
+Is this opponent scout? (Y/N)Are you Sul Ross St. (H) or Texas Lutheran (A)?Final score Sul Ross St. 12 - Texas Lutheran 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Howard Payne wins toss and will receive; SRS will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Luna,Oswaldo kickoff 55 yards to the HPU10 Russell,Javonte return 23 yards to the HPU33 (Bunch,Hunter).']
+Score correction made in Sul Ross St. @ Howard Payne (index) quarter 3 drive 5
+Score correction made in Sul Ross St. @ Howard Payne (index) quarter 3 drive 6
+Is this opponent scout? (Y/N)Are you Howard Payne (H) or Sul Ross St. (A)?Final score Howard Payne 73 - Sul Ross St. 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Belhaven wins toss and will kickoff; SRS will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hontzas,Constantine kickoff 23 yards to the SRS42 fair catch by Rios,Jade at SRS42.']
+Is this opponent scout? (Y/N)Are you Belhaven (H) or Sul Ross St. (A)?Final score Belhaven 44 - Sul Ross St. 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mary Hardin-Baylor wins toss and defers; SRS will receive; UMH will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 65 yards to the SRS00, Touchback.']
+Is this opponent scout? (Y/N)Are you Sul Ross St. (H) or Mary Hardin-Baylor (A)?Final score Sul Ross St. 14 - Mary Hardin-Baylor 72
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Sul Ross St. wins toss and defers; McM will receive; SRS will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Luna,Oswaldo kickoff 65 yards to the McM00, Touchback.']
+Is this opponent scout? (Y/N)Are you McMurry (H) or Sul Ross St. (A)?Final score McMurry 11 - Sul Ross St. 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['East Tex. Baptist wins toss and defers; SRS will receive; ETB will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Garcia,Alberto kickoff 58 yards to the SRS07 Jefferson,Kendrick return 30 yards to the SRS37 (Burgess,EJ).']
+Is this opponent scout? (Y/N)Are you Sul Ross St. (H) or East Tex. Baptist (A)?Final score Sul Ross St. 28 - East Tex. Baptist 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SUL ROSS ball on SUL ROSS35, clock 15:00.']
+['Oswaldo Luna kickoff 56 yards to the SOUTHWES09, Austin Castille return 15 yards to the SOUTHWES24 (Lorenzo Fowler; Caden Fregia).']
+Exception in Sul Ross St. at Southwestern (Tex.) (index) quarter 0 drive 0
+	 ['Start of 1st Half']
+	 ['SUL ROSS ball on SUL ROSS35, clock 15:00.']
+	 ['Oswaldo Luna kickoff 56 yards to the SOUTHWES09, Austin Castille return 15 yards to the SOUTHWES24 (Lorenzo Fowler; Caden Fregia).']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1122, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment

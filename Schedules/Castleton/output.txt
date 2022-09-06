@@ -1,0 +1,48 @@
+Enter -['Start of 1st Half']
+['Castleton wins coin toss, defers to second half']
+['CUFB ball on CUFB35.']
+['Clock 15:00.']
+['Noah Crossman kickoff 57 yards to the PSU8, Willie Lombard return 27 yards to the PSU35, out-of-bounds (K. Carroll), PENALTY PSU illegal block 15 yards to the PSU20, 1st and 10, PSU ball on PSU20.']
+Is this opponent scout? (Y/N)Are you Castleton (H) or Plymouth State (A)?Final score Castleton 13 - Plymouth State 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FSCFB ball on FSCFB35, clock 15:00.']
+['Mac Kimball kickoff 54 yards to the CUFB11, Simon Davis Jr. return 30 yards to the CUFB41 (Mac Kimball).']
+Is this opponent scout? (Y/N)Are you Fitchburg St. (H) or Castleton (A)?Final score Fitchburg St. 0 - Castleton 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Castleton wins toss, defers']
+['CUFB ball on CUFB35, Noah Crossman kickoff 65 yards to the NORWICH0, touchback.']
+Is this opponent scout? (Y/N)Are you Castleton (H) or Norwich (A)?Final score Castleton 12 - Norwich 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Castleton wins toss and defers; SLU will receive; CAS will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Crossman,Noah kickoff 60 yards to the SLU05 Coll,Robert return 31 yards to the SLU36 (Margolis,Harrison).']
+Is this opponent scout? (Y/N)Are you St. Lawrence (H) or Castleton (A)?Final score St. Lawrence 55 - Castleton 3
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Castleton wins toss, defers to second half.']
+['CU ball on CU35.']
+['Noah Crossman kickoff 54 yards to the MARITIME11, Nicholas Morman return 21 yards to the MARITIME32 (K. Carroll;J. Gilsinger).']
+Is this opponent scout? (Y/N)Are you Maritime College (H) or Castleton University (A)?Final score Maritime College 19 - Castleton University 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['DEAN ball on DEAN35, clock 15:00.']
+['Jacob Bisson kickoff 55 yards to the CASTLETO10, Damiyr Martinez return 6 yards to the CASTLETO16 (Justin Tucker), out-of-bounds, PENALTY CASTLETO illegal block (Devon Kimball) 8 yards to the CASTLETO08.']
+Is this opponent scout? (Y/N)Are you Dean (H) or Castleton (A)?Final score Dean 13 - Castleton 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Keystone wins toss, defers to second half']
+['KCFB ball on KCFB35, Josue Hernandez kickoff 31 yards to the CUFB34, Jared Brockway return 0 yards to the CUFB34 (Zalyn Smith;Sean Tocci).']
+Is this opponent scout? (Y/N)Are you Castleton (H) or Keystone College (A)?Final score Castleton 41 - Keystone College 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Castleton wins toss; defers to second half']
+['CUFB ball on CUFB35.']
+['Noah Crossman kickoff 47 yards to the AMC18, Hayden Braga return 15 yards to the AMC33 (Saijon McIntosh).']
+Is this opponent scout? (Y/N)Are you Castleton (H) or Anna Maria (A)?Final score Castleton 38 - Anna Maria 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Castleton wins toss and defers; ASC will receive; CAS will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Crossman,Noah kickoff 52 yards to the ASC13 Palmer,Jake return 13 yards to the ASC26 (Asiedu,Quinten).']
+Is this opponent scout? (Y/N)Are you Alfred St. (H) or Castleton (A)?Final score Alfred St. 35 - Castleton 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Castleton wins coin toss; defers to second half']
+['CUFB ball on CUFB35.']
+['Noah Crossman kickoff 58 yards to the GAL7, B. Washington return 17 yards to the GAL24 (Quinten Asiedu;Jordan Wright).']
+Is this opponent scout? (Y/N)Are you Castleton (H) or Gallaudet University (A)?Final score Castleton 31 - Gallaudet University 30
+Folder name? (Scout team name default)

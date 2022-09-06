@@ -1,0 +1,52 @@
+Enter -['Start of 1st Half']
+['Ursinus wins toss and will receive; DIC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Moroz,Matt kickoff 53 yards to the URS12 Brooks,Zay return 19 yards to the URS31 (Prochniak,John) PENALTY URS Illegal Block in Back 10 yards from URS31 to URS21.']
+['URS ball on URS21.']
+Is this opponent scout? (Y/N)Are you Dickinson (H) or Ursinus (A)?Final score Dickinson 27 - Ursinus 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Opening coin toss won by Johns Hopkins defers. Dickinson receives.']
+['JHU ball on JHU35.']
+['Kyle Battles kickoff 59 yards to the DC06, P. Douglass return 19 yards to the DC25 (Jake Spivak; Spencer Uggla).']
+Is this opponent scout? (Y/N)Are you Johns Hopkins (H) or Dickinson (A)?Final score Johns Hopkins 37 - Dickinson 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['JCFB21 ball on JCFB2135.']
+['Beckett Leary kickoff 58 yards to the DC07, P. Douglass return 15 yards to the DC22 (Austin Nash).']
+Is this opponent scout? (Y/N)Are you Juniata (H) or Dickinson (A)?Final score Juniata 10 - Dickinson 27
+Player name overlap detected in Dickinson at Juniata. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Franklin & Marshall wins toss and will receive']
+['DIC will defend South end-zone']
+['Start of 1st quarter, clock 15:00, DC ball on DC35.']
+['Moroz,Matt kickoff 55 yards to the FMC10, Matt Scully return 55 yards to the DC35, out-of-bounds (Schimpf,Brendan).']
+Score correction made in Franklin & Marshall @ Dickinson (index) quarter 2 drive 1
+Is this opponent scout? (Y/N)Are you Dickinson (H) or Franklin & Marshall (A)?Final score Dickinson 13 - Franklin & Marshall 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['DC ball on DC35, clock 15:00.']
+['Matt Moroz kickoff 63 yards to the MOR2, Romello Walters return 31 yards to the MOR33 (Jeremy Reid).']
+Is this opponent scout? (Y/N)Are you Moravian University (H) or Dickinson College (A)?Final score Moravian University 21 - Dickinson College 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Dickinson wins toss and defers; MCD will receive; DIC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Moroz,Matt kickoff 56 yards to the MCD09 Carter,Diondre return 30 yards to the MCD39 (Sulin,Alex).']
+Is this opponent scout? (Y/N)Are you Dickinson (H) or McDaniel (A)?Final score Dickinson 24 - McDaniel 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Dickinson wins toss and defers. Susquehanna to defend west goal.']
+['Matt Moroz kickoff 63 yards to the SUSQFB2, Kyle Howes return 43 yards to the SUSQFB45 (James Basilii).']
+Is this opponent scout? (Y/N)Are you Susquehanna (H) or Dickinson College (A)?Final score Susquehanna 31 - Dickinson College 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Dickinson wins toss and will receive; GET will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Cummings,Doug kickoff 65 yards to the DIC00 Douglass,Princeton return 26 yards to the DIC26 (Del Grande,Mike).']
+Is this opponent scout? (Y/N)Are you Dickinson (H) or Gettysburg (A)?Final score Dickinson 34 - Gettysburg 3
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Muhlenberg wins toss and defers; DIC will receive; MUH will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Stannard,Nick kickoff 56 yards to the DIC09 Douglass,Princeton return 23 yards to the DIC32 (Lohrer,John), out of bounds.']
+Is this opponent scout? (Y/N)Are you Dickinson (H) or Muhlenberg (A)?Final score Dickinson 13 - Muhlenberg 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Dickinson wins toss and will receive; RMC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Vidal,Chris kickoff 60 yards to the DIC05 fair catch by Bathon,Daniel at DIC05.']
+Is this opponent scout? (Y/N)Are you Dickinson (H) or Randolph-Macon (A)?Final score Dickinson 21 - Randolph-Macon 31
+Folder name? (Scout team name default)

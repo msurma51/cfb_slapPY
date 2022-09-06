@@ -16,7 +16,7 @@ if len(url) < 1:
 html = urlopen(url, context=ctx).read()
 soup = BeautifulSoup(html, "html.parser")
 
-team_tags = soup('span', class_='sidearm-schedule-game-opponent-name')
+team_tags = soup(class_='sidearm-schedule-game-opponent-name')
 page_links = list()
 for tag in team_tags:
     link_start = tag.a.get('href')

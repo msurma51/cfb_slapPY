@@ -1,0 +1,48 @@
+Enter -['Start of 1st Half']
+['McDaniel wins toss, defers. Catholic to receive, defend North goal.']
+['P Denlinger kickoff 65 yards to the CATHU0, Malachi Hansen return 34 yards to the CATHU34 (Anthony Gorgone).']
+Is this opponent scout? (Y/N)Are you Catholic (H) or McDaniel (A)?Final score Catholic 40 - McDaniel 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['JC wins toss, will recieve. MCD will defend the N end zone.']
+['MCD ball on MCD35.']
+['P Denlinger kickoff 55 yards to the JC10, Kyhlil Jones return 17 yards to the JC27 (Mike Dunn).']
+Is this opponent scout? (Y/N)Are you McDaniel (H) or Juniata (A)?Final score McDaniel 27 - Juniata 9
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MCDANIEL ball on MCDANIEL35, clock 15:00.']
+['Peyton Denlinge kickoff 60 yards to the FMC05, Nate Costley return 21 yards to the FMC26 (Mason Brown).']
+Is this opponent scout? (Y/N)Are you Franklin & Marsh (H) or McDaniel (A)?Final score Franklin & Marsh 35 - McDaniel 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MUHL wins toss, defers. MCD will receive. MUHL will defend S end zone']
+['Nick Stannard kickoff 57 yards to the MCD08, Diondre Carter return 17 yards to the MCD25 (John Lohrer).']
+Is this opponent scout? (Y/N)Are you McDaniel (H) or Muhlenberg (A)?Final score McDaniel 0 - Muhlenberg 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Dickinson wins toss and defers; MCD will receive; DIC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Moroz,Matt kickoff 56 yards to the MCD09 Carter,Diondre return 30 yards to the MCD39 (Sulin,Alex).']
+Is this opponent scout? (Y/N)Are you Dickinson (H) or McDaniel (A)?Final score Dickinson 24 - McDaniel 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UC wins toss, defers. MCD will receive. UC will defend S end zone.']
+['Dakota Wherrity kickoff 57 yards to the MCD08, Diondre Carter return 16 yards to the MCD24 (Marc Clayton).']
+Is this opponent scout? (Y/N)Are you McDaniel (H) or Ursinus (A)?Final score McDaniel 14 - Ursinus 18
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['McDaniel wins toss and defers; SUS will receive; MCD will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+["Compere,John kickoff 60 yards to the SUS05 Howes,Kyle return 20 yards to the SUS25 (Godfrey,Nah'Shon; Money,Tasir)."]
+Is this opponent scout? (Y/N)Are you Susquehanna (H) or McDaniel (A)?Final score Susquehanna 45 - McDaniel 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MCD wins toss, defers. MOR will receive. MCD will defend N end zone.']
+['MCD ball on MCD35.']
+['John Compere kickoff 59 yards to the MOR06, J. Richardson return 11 yards to the MOR17 (Sam Welcher; Kai Leibfried).']
+Score correction made in Moravian @ McDaniel (index) quarter 4 drive 6
+Is this opponent scout? (Y/N)Are you McDaniel (H) or Moravian (A)?Final score McDaniel 31 - Moravian 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Gettysburg defers, McDaniel gets ball']
+['GCFB ball on GCFB35.']
+['Doug Cummings kickoff 60 yards to the MCD5, Diondre Carter return 20 yards to the MCD25 (Chris Lessel).']
+Is this opponent scout? (Y/N)Are you Gettysburg (H) or McDaniel (A)?Final score Gettysburg 3 - McDaniel 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MCD wins toss, defers. JHU will receive. MCD will defend S end zone.']
+['MCD ball on MCD35.']
+['John Compere kickoff 52 yards to the JHU13, H. Wellmann return 42 yards to the MCD45 (Matt Carey).']
+Is this opponent scout? (Y/N)Are you McDaniel (H) or Johns Hopkins (A)?Final score McDaniel 7 - Johns Hopkins 48
+Folder name? (Scout team name default)

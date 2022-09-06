@@ -1,0 +1,50 @@
+Enter -['1st']
+['1st and 10 at OLIVET-R35', 'Eureka wins toss and will receive']
+['1st and 10 at OLIVET-R35', 'OLI will defend North end-zone']
+['1st and 10 at OLIVET-R35', 'Start of 1st quarter, clock 15:00, OLIVET-R ball on OLIVET-R35.']
+['', 'Samuel Roose kickoff 53 yards to the EUREKA12, Folston,Malek return 11 yards to the EUREKA23 (Logan Fee).']
+Is this opponent scout? (Y/N)Are you Eureka (Ill.) (H) or Olivet (A)?Final score Eureka (Ill.) 23 - Olivet 42
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MU35', 'Olivet won toss, receive, and defend south goal.']
+['', 'Andrew Kibler kickoff 62 yards to the OLIVET03, Akeem Benjamin return 97 yards to the MU00, TOUCHDOWN, clock 14:44.']
+Is this opponent scout? (Y/N)Are you Olivet (H) or Manchester (Ind.) (A)?Final score Olivet 59 - Manchester (Ind.) 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at OLIVET35', 'Olivet has won the coin toss and has elected to recieve.']
+['', 'MILLSAPS ball on MILLSAPS35, Ethan Klapatch kickoff 43 yards to the OLIVET22, out-of-bounds, OLIVET ball on OLIVET35.']
+Is this opponent scout? (Y/N)Are you Millsaps (Miss.) (H) or Olivet (A)?Final score Millsaps (Miss.) 27 - Olivet 44
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at OLIVET35', 'ALMA ball on ALMA35, clock 15:00.']
+['', 'Kaleb Kindsvatt kickoff 57 yards to the OLIVET08, Deonte Higgins return 9 yards to the OLIVET17 (Nahuel Juarez).']
+Is this opponent scout? (Y/N)Are you Alma (H) or Olivet (A)?Final score Alma 10 - Olivet 33
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at TRINE35', 'Trine wins toss, defers. Olivet will receive and defend north goal.']
+['', 'Ryan Hibbets kickoff 65 yards to the OLIVET0, touchback.']
+Is this opponent scout? (Y/N)Are you Olivet (H) or Trine (Ind.) (A)?Final score Olivet 14 - Trine (Ind.) 35
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HOPE35', 'Olivet won toss, receives, defends south goal.']
+['', 'Dylan Hillger kickoff 61 yards to the OLIVET04, Deonte Higgins return 39 yards to the OLIVET43 (C Strickland).']
+Is this opponent scout? (Y/N)Are you Olivet (H) or Hope (A)?Final score Olivet 16 - Hope 31
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at OLIVET35', 'Olivet wins toss and will receive']
+['1st and 10 at OLIVET35', 'ALB will defend West end-zone']
+['1st and 10 at OLIVET35', 'Start of 1st quarter, clock 15:00, ALBION ball on ALBION35.']
+['', 'Cooney,Jackson kickoff 64 yards to the OLIVET01, Akeem Benjamin return 18 yards to the OLIVET19, out-of-bounds (Mullan,Rami).']
+Score correction made in Olivet @ Albion (index) quarter 1 drive 4
+Is this opponent scout? (Y/N)Are you Albion (H) or Olivet (A)?Final score Albion 38 - Olivet 17
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at KZOO35', 'Olivet won toss, receive. Kalamazoo defend north goal.']
+['', 'Ian Burr kickoff 40 yards to the OLIVET25, Jacari Hamilton return 3 yards to the OLIVET28 (Sam Hughes).']
+Is this opponent scout? (Y/N)Are you Olivet (H) or Kalamazoo (A)?Final score Olivet 49 - Kalamazoo 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at OLIVET35', 'Adrian wins toss and defers']
+['1st and 10 at OLIVET35', 'OLI will receive']
+['1st and 10 at OLIVET35', 'ADR will defend South end-zone']
+['1st and 10 at OLIVET35', 'Start of 1st quarter, clock 15:00, ADRIAN ball on ADRIAN35.']
+['', 'Evans,Walker kickoff 32 yards to the OLIVET33, fair catch by Kolbe Lewis.']
+Is this opponent scout? (Y/N)Are you Adrian (H) or Olivet (A)?Final score Adrian 28 - Olivet 35
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at FINNU35', 'Finlandia won toss, defers. Olivet receive, defend north goal.']
+['', 'Carter Crouch kickoff 40 yards to the OLIVET25, out-of-bounds, OLIVET ball on OLIVET25.']
+Score correction made in Finlandia @ Olivet (index) quarter 1 drive 9
+Is this opponent scout? (Y/N)Are you Olivet (H) or Finlandia (A)?Final score Olivet 79 - Finlandia 6
+Folder name? (Scout team name default)

@@ -1,10 +1,11 @@
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup, SoupStrainer
 import sys
 import os
 import ssl
 import re
 import subprocess
+import json
 
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()
@@ -19,7 +20,8 @@ if proc.returncode == 0:
     box_score_links = proc.stdout.split()[4:]
     only_drive_chart = SoupStrainer(id='drive-chart')
     for url in box_score_links[0:2]:
-        html = urlopen(url, context=ctx).read()
+        req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        html = urlopen(req, context=ctx).read()
         soup = BeautifulSoup(html, "html.parser", parse_only=only_drive_chart)
         names_list.append((soup.find('a', href='#home-drives').string, soup.find('a', href='#visitor-drives').string))
 else:
@@ -39,10 +41,14 @@ for name in names_list[0]:
     if curr_prop > match_prop:
         match_prop = curr_prop
         team_name = name
-scout = input('Is this opponent scout? (Y/N)')    
-if not os.path.exists(team_name):
-    os.mkdir(team_name)
-f = open(team_name + '\\output.txt', 'w')
+scout = input('Is this opponent scout? (Y/N)')
+folder_path = 'Schedules\\' + team_name    
+if not os.path.exists(folder_path):
+    os.mkdir(folder_path)
+f = open(folder_path + '\\output.txt', 'w')
+infile = open('parsed_schedules.json').read()
+link_list = json.loads(infile)
+link_dict = link_list[0]
 print('Parsing schedule for ' + team_name)
 for url in box_score_links:
     proc = subprocess.run(['python','sauce.py'], input='{}\n{}\n{}\n{}'.format(url,scout,team_name,team_name), 
@@ -50,12 +56,13 @@ for url in box_score_links:
     f.write(proc.stdout)
     f.write(proc.stderr)
     if proc.returncode == 0:    
+        link_dict[team_name] = schedule_link
         print(url + ' link successfully parsed')
     else:
         print(url + ' parse unsuccessful')
 f.close()      
-with open(team_name + '\\report.txt', 'w') as g:
-    f = open(team_name + '\\output.txt', 'r')
+with open(folder_path + '\\report.txt', 'w') as g:
+    f = open(folder_path + '\\output.txt', 'r')
     write_set = {'\t', 'Exception', 'Score', 'Traceback', ' '}
     for line in f:
         for tag in write_set:
@@ -67,6 +74,7 @@ with open(team_name + '\\report.txt', 'w') as g:
             dex = line.find(target)
             if dex > -1:
                 g.write(line[dex:])
-            
+with open('parsed_schedules.json','w') as outfile:
+    json.dump([link_dict,*link_list[1:],outfile)
     
     

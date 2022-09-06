@@ -1,0 +1,48 @@
+Enter -['Start of 1st Half']
+['Coin Toss: CNU wins toss and elects to receive...']
+['WLU ball on WLU35.']
+['Arturo Ramirez kickoff 56 yards to the CNU9, Josh Uvodich return 21 yards to the CNU30 (Hunter Hawk).']
+Is this opponent scout? (Y/N)Are you Chris. Newport (H) or Wash. & Lee (A)?Final score Chris. Newport 28 - Wash. & Lee 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Change of possession, WLU ball on WLU35, 1st and 10.']
+Is this opponent scout? (Y/N)Are you Washington and Lee (H) or Sewanee (A)?Final score Washington and Lee 52 - Sewanee 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Burke Nettles kickoff 54 yards to the WLU11, Alex Wertz return 36 yards to the WLU47 (Burke Nettles).']
+Is this opponent scout? (Y/N)Are you Washington and Lee (H) or Guilford (A)?Final score Washington and Lee 63 - Guilford 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WLU ball on WLU35, clock 15:00.']
+['Arturo Ramirez kickoff 57 yards to the RMC8, David Wallis return 25 yards to the RMC33 (Dean Johnson).']
+Is this opponent scout? (Y/N)Are you Randolph-Macon (H) or Washington and Lee (A)?Final score Randolph-Macon 24 - Washington and Lee 25
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hampden-Sydney wins toss and defers WLU will receive HSC will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, HSC ball on HSC35.']
+['Palmer Smith kickoff 55 yards to the GENERALS10, Wertz,Alex return 23 yards to the GENERALS33 (Dorian Green).']
+Is this opponent scout? (Y/N)Are you Hampden-Sydney (H) or Wash. & Lee (A)?Final score Hampden-Sydney 30 - Wash. & Lee 32
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Jeremiah Morgan kickoff 61 yards to the WLU4, Alex Wertz return 96 yards to the NNA0, TOUCHDOWN, clock 14:46.']
+Is this opponent scout? (Y/N)Are you Washington and Lee (H) or Apprentice School (A)?Final score Washington and Lee 42 - Apprentice School 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Change of possession, WLU ball on WLU35, 1st and 10.']
+Is this opponent scout? (Y/N)Are you Washington and Lee (H) or Bridgewater (A)?Final score Washington and Lee 17 - Bridgewater 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Washington and Lee wins toss and defers E&H will receive W&L will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, WLU ball on WLU35.']
+['Arturo Ramirez kickoff 65 yards to the E&H0, touchback.']
+Is this opponent scout? (Y/N)Are you Emory & Henry (H) or Washington and Lee (A)?Final score Emory & Henry 28 - Washington and Lee 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Change of possession, WLU ball on WLU35, 1st and 10.']
+Is this opponent scout? (Y/N)Are you Washington and Lee (H) or Ferrum (A)?Final score Washington and Lee 28 - Ferrum 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Shenandoah wins toss and defers WLU will receive SUH will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, HORNETS ball on HORNETS35.']
+['Ritchie,Patrick kickoff 36 yards to the WLU29, Sam Neale return 19 yards to the WLU48 (Anthony,Trammel).']
+Is this opponent scout? (Y/N)Are you Shenandoah (H) or Washington and Lee (A)?Final score Shenandoah 14 - Washington and Lee 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wash. & Lee wins toss and defers; MTU will receive; WLU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ramirez,Arturo kickoff 65 yards to the MTU00, Touchback.']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Wash. & Lee (A)?Final score Mount Union 52 - Wash. & Lee 0
+Folder name? (Scout team name default)

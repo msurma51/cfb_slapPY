@@ -1,0 +1,49 @@
+Enter -['1st']
+['1st and 10 at UWO35', 'UWO ball on UWO35, clock 15:00.']
+['', 'Jaydon Haag kickoff 59 yards to the HC06, Malachi Harvey return 29 yards to the HC35 (Richard James).']
+Is this opponent scout? (Y/N)Are you Huntingdon (H) or Wis.-Oshkosh (A)?Final score Huntingdon 24 - Wis.-Oshkosh 28
+Player name overlap detected in UW-Oshkosh at Huntingdon College. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at BIRMINGH35', 'BIRMINGH ball on BIRMINGH35, clock 15:00.']
+['', 'Cole Porch kickoff 58 yards to the HUNTINGD07, Kahari McReynol return 33 yards to the HUNTINGD40 (Cole Porch; Seth Gable), PENALTY BIRMINGH offside 5 yards to the HUNTINGD45.']
+Is this opponent scout? (Y/N)Are you Huntingdon (H) or Birmingham Southern (A)?Final score Huntingdon 9 - Birmingham Southern 48
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HUNTINGD35', 'BREVARD ball on BREVARD35, clock 15:00.']
+['', 'Hugo Taylor kickoff 61 yards to the HUNTINGD04, Malachi Harvey return 16 yards to the HUNTINGD20 (RJ Everett).']
+Is this opponent scout? (Y/N)Are you Brevard (H) or Huntingdon (A)?Final score Brevard 14 - Huntingdon 21
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at METHODIS35', 'HUNTINGD ball on HUNTINGD35, clock 15:00.']
+['', 'Will Edwards kickoff 59 yards to the METHODIS06, Kobe Praylow return 19 yards to the METHODIS25 (Brian Bradford; Miller Park).']
+Is this opponent scout? (Y/N)Are you Huntingdon (H) or Methodist (A)?Final score Huntingdon 48 - Methodist 21
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HC35', 'HC ball on HC35, clock 15:00.']
+['', 'Will Edwards kickoff 53 yards to the SVU12, Kru Huxford return 18 yards to the SVU30 (Martin Toby).']
+Is this opponent scout? (Y/N)Are you Southern Virginia (H) or Huntingdon (A)?Final score Southern Virginia 20 - Huntingdon 48
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at AU35', 'HC ball on HC35, clock 15:00.']
+['', 'Will Edwards kickoff 55 yards to the AU10, Chase Nixon return 21 yards to the AU31 (Bailey Huston).']
+Is this opponent scout? (Y/N)Are you Huntingdon (H) or Averett (A)?Final score Huntingdon 30 - Averett 25
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HC35', 'Greensboro won the toss and deferred. Huntingdon will receive.']
+['1st and 10 at HC35', 'GC ball on GC35.']
+['', 'B. Mangungu kickoff 44 yards to the HC21, Taylor Gay return 18 yards to the HC39 (D. Wallace).']
+Is this opponent scout? (Y/N)Are you Greensboro (H) or Huntingdon (A)?Final score Greensboro 3 - Huntingdon 42
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at N.C. WES35', 'N.C. WES ball on N.C. WES35, clock 15:00.']
+['', 'Nolan Weloff kickoff 32 yards to the HUNTINGD33, Zack Self return 6 yards to the HUNTINGD39 (Corrie Lee).']
+Is this opponent scout? (Y/N)Are you Huntingdon (H) or N.C. Wesleyan (A)?Final score Huntingdon 30 - N.C. Wesleyan 7
+Player name overlap detected in N.C. Wesleyan at Huntingdon. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MARYVILL35', 'MARYVILL ball on MARYVILL35, clock 15:00.']
+['', 'Trey Hampton kickoff 60 yards to the HUNTINGD05, Malachi Harvey return 27 yards to the HUNTINGD32 (Keenan Toomer).']
+Is this opponent scout? (Y/N)Are you Huntingdon (H) or Maryville (Tenn.) (A)?Final score Huntingdon 52 - Maryville (Tenn.) 33
+Folder name? (Scout team name default)Enter -['1st']
+['', 'Nic Lee kickoff 59 yards to the LCM6, fair catch by J. Anderson.']
+Is this opponent scout? (Y/N)Are you LaGrange (H) or Huntingdon (A)?Final score LaGrange 9 - Huntingdon 55
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at BSC35', 'Birmingham-So. wins toss and defers; HUN will receive; BSC will defend West end-zone.']
+['1st and 10 at BSC35', 'Start of 1st quarter, clock 15:00.']
+['', 'Hood,Aidan kickoff 60 yards to the HUN05 McReynolds,Kahari return 63 yards to the BSC32 (Tate,Harry).']
+Score correction made in Huntingdon @ Birmingham Southern (index) quarter 2 drive 3
+Is this opponent scout? (Y/N)Are you Birmingham Southern (H) or Huntingdon (A)?Final score Birmingham Southern 24 - Huntingdon 14
+Folder name? (Scout team name default)

@@ -1,0 +1,13 @@
+Final score Bridgewater 31 - Gettysburg 7
+Player name overlap detected in Gettysburg at Bridgewater. Check possession transitions
+Final score Southern Virginia 17 - Bridgewater 35
+Final score Bridgewater 13 - Randolph-Macon 31
+Final score Emory & Henry 38 - Bridgewater 17
+Final score Shenandoah Hornets 34 - Bridgewater (VA) 27
+Final score BCFB 10 - Ferrum 14
+Score correction made in Apprentice @ BCFB (index) quarter 0 drive 5
+Final score BCFB 27 - Apprentice 7
+Player name overlap detected in Apprentice at BCFB. Check possession transitions
+Final score Washington and Lee 17 - Bridgewater 0
+Final score Hampden-Sydney 24 - Bridgewater (VA) 14
+Final score Bridgewater (VA) 43 - Guilford 0

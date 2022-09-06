@@ -1,0 +1,49 @@
+Enter -['Start of 1st Half']
+[' Benedictine (IL) wins toss and defers KEN will receive BEN will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, BENU ball on BENU35.']
+['Mateus, Tanner kickoff 41 yards to the KENYON24, fair catch by Scherger,Trento.']
+Is this opponent scout? (Y/N)Are you Kenyon (H) or Benedictine (IL) (A)?Final score Kenyon 31 - Benedictine (IL) 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Benedictine won the toss and defers to the second half']
+['BENU ball on BENU35.']
+['Mateus, Tanner kickoff 47 yards to the CARROLL18, Legnaioli return 6 yards to the CARROLL24 (Candelaria, Ton).']
+Is this opponent scout? (Y/N)Are you Benedictine (IL) (H) or Carroll (A)?Final score Benedictine (IL) 24 - Carroll 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Concordia Wisconsin wins toss and defers BEN will receive CUW will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CUW ball on CUW35.']
+['Kaschinske,Maso kickoff 60 yards to the BENU5, Fulvi,Maverick return 19 yards to the BENU24 (Summers III,Pie).']
+Is this opponent scout? (Y/N)Are you Concordia Wisconsin (H) or Benedictine (IL) (A)?Final score Concordia Wisconsin 20 - Benedictine (IL) 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['BENU ball on BENU35.']
+['Mateus, Tanner kickoff 52 yards to the ECFC13, out-of-bounds, ECFC ball on ECFC35.']
+Is this opponent scout? (Y/N)Are you Benedictine (IL) (H) or Eureka (A)?Final score Benedictine (IL) 49 - Eureka 29
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Benedictine captains: 7, 8, 15, 52 St. Norbert captains: 7, 23, 54, 56 Benedictine wins toss and defers. St. Norbert receives north end.']
+['Mateus, Tanner kickoff 41 yards to the SNC24, Lawrence,Parker return 11 yards to the SNC35 (Green, Danny).']
+Is this opponent scout? (Y/N)Are you St. Norbert College (H) or Benedictine (IL) (A)?Final score St. Norbert College 34 - Benedictine (IL) 41
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Benedictine wins toss and defers']
+['BENUFB ball on BENUFB35.']
+['Mateus, Tanner kickoff 42 yards to the LUFB23, Martin, Devin return 2 yards to the LUFB25, out-of-bounds (Williams, Chris).']
+Score correction made in Lakeland University @ Benedictine Univ. (index) quarter 0 drive 2
+Is this opponent scout? (Y/N)Are you Benedictine Univ. (H) or Lakeland University (A)?Final score Benedictine Univ. 54 - Lakeland University 40
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rockford wins the toss and defers. Benedictine will receive']
+['Pavlak, Henry kickoff 35 yards to the BENU30, fair catch by Senerchia, Anth.']
+Is this opponent scout? (Y/N)Are you Benedictine (IL) (H) or Rockford (A)?Final score Benedictine (IL) 41 - Rockford 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Benedictine University wins toss and defers AUR will receive BEN will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, BENU ball on BENU35.']
+['Mateus, Tanner kickoff 36 yards to the AU29, Slatcoff,Ben return 18 yards to the AU47 (Taylor, Cy;Walker, Tyler).']
+Is this opponent scout? (Y/N)Are you Aurora University (H) or Benedictine (IL) (A)?Final score Aurora University 63 - Benedictine (IL) 41
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Ryan Auer kickoff 49 yards to the BENU16, fair catch by Ayash, Sami.']
+Is this opponent scout? (Y/N)Are you Benedictine (IL) (H) or Concordia Chicago (A)?Final score Benedictine (IL) 49 - Concordia Chicago 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Benedictine Won the Coin Toss and Deferred to the Second Half']
+['Mateus, Tanner kickoff 39 yards to the WLC26, Garnett, Ashton return 16 yards to the WLC42 (Weninger, Ryan).']
+Is this opponent scout? (Y/N)Are you Wisconsin Lutheran (H) or Benedictine (A)?Final score Wisconsin Lutheran 49 - Benedictine 51
+Folder name? (Scout team name default)

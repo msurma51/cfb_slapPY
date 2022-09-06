@@ -1,0 +1,115 @@
+Enter -['Start of 1st Half']
+[' Shenandoah wins toss and will receive MUM will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MU ball on MU35.']
+['Ramiro,Diego kickoff 54 yards to the SU11, Miles Moore return 12 yards to the SU23 (Hill,Josh).']
+Score correction made in Methodist @ Shenandoah Hornets (index) quarter 0 drive 2
+Score correction made in Methodist @ Shenandoah Hornets (index) quarter 1 drive 0
+Score correction made in Methodist @ Shenandoah Hornets (index) quarter 1 drive 7
+Score correction made in Methodist @ Shenandoah Hornets (index) quarter 2 drive 4
+Score correction made in Methodist @ Shenandoah Hornets (index) quarter 3 drive 0
+Score correction made in Methodist @ Shenandoah Hornets (index) quarter 3 drive 1
+Score correction made in Methodist @ Shenandoah Hornets (index) quarter 3 drive 2
+Score correction made in Methodist @ Shenandoah Hornets (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you Shenandoah Hornets (H) or Methodist (A)?Final score Shenandoah Hornets 28 - Methodist 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SU ball on SU35, clock 15:00.']
+['Patrick Ritchie kickoff 45 yards to the NCWC20, Sean Washington return 9 yards to the NCWC29 (Yuri Smaltz).']
+Score correction made in Shenandoah Hornets @ N.C. Wesleyan (index) quarter 0 drive 1
+Score correction made in Shenandoah Hornets @ N.C. Wesleyan (index) quarter 0 drive 2
+Score correction made in Shenandoah Hornets @ N.C. Wesleyan (index) quarter 1 drive 0
+Score correction made in Shenandoah Hornets @ N.C. Wesleyan (index) quarter 1 drive 5
+Score correction made in Shenandoah Hornets @ N.C. Wesleyan (index) quarter 2 drive 1
+Score correction made in Shenandoah Hornets @ N.C. Wesleyan (index) quarter 2 drive 6
+Score correction made in Shenandoah Hornets @ N.C. Wesleyan (index) quarter 3 drive 0
+Score correction made in Shenandoah Hornets @ N.C. Wesleyan (index) quarter 3 drive 2
+Score correction made in Shenandoah Hornets @ N.C. Wesleyan (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you N.C. Wesleyan (H) or Shenandoah Hornets (A)?Final score N.C. Wesleyan 21 - Shenandoah Hornets 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Shenandoah wins toss and defers HSC will receive SHN will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SU ball on SU35.']
+['Patrick Ritchie kickoff 58 yards to the HSC7, Wilson,Brice return 43 yards to the 50 yardline (Quante Redd).']
+Score correction made in Shenandoah Hornets @ Hampden-Sydney (index) quarter 3 drive 5
+Is this opponent scout? (Y/N)Are you Hampden-Sydney (H) or Shenandoah Hornets (A)?Final score Hampden-Sydney 28 - Shenandoah Hornets 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Bridgewater (VA) wins toss and will receive SUH will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SU ball on SU35.']
+['Scott Martin kickoff 45 yards to the BC20, Gilliam,Tyler return 13 yards to the BC33 (Ben Burgan).']
+Is this opponent scout? (Y/N)Are you Shenandoah Hornets (H) or Bridgewater (VA) (A)?Final score Shenandoah Hornets 0 - Bridgewater (VA) 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['GC ball on GC35, clock 15:00.']
+["Burke Nettles kickoff 53 yards to the SU12, Yuri Smaltz return 23 yards to the SU35 (Rontayev'on Gra;Clint Bost)."]
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 0 drive 1
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 0 drive 5
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 0 drive 7
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 1 drive 1
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 1 drive 2
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 1 drive 3
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 1 drive 4
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 1 drive 5
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 2 drive 1
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 3 drive 0
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 3 drive 1
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 3 drive 2
+Is this opponent scout? (Y/N)Are you Guilford (H) or Shenandoah Hornets (A)?Final score Guilford 25 - Shenandoah Hornets 52
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SU ball on SU35, clock 15:00.']
+['Jacob Pavkov kickoff 57 yards to the FERRUM8, Marcus Cutler return 32 yards to the FERRUM40 (Gary Garlic).']
+Score correction made in Shenandoah Hornets @ Ferrum (index) quarter 0 drive 2
+Score correction made in Shenandoah Hornets @ Ferrum (index) quarter 0 drive 4
+Score correction made in Shenandoah Hornets @ Ferrum (index) quarter 1 drive 3
+Score correction made in Shenandoah Hornets @ Ferrum (index) quarter 1 drive 4
+Score correction made in Shenandoah Hornets @ Ferrum (index) quarter 2 drive 4
+Score correction made in Shenandoah Hornets @ Ferrum (index) quarter 2 drive 5
+Score correction made in Shenandoah Hornets @ Ferrum (index) quarter 3 drive 4
+Score correction made in Shenandoah Hornets @ Ferrum (index) quarter 3 drive 5
+Score correction made in Shenandoah Hornets @ Ferrum (index) quarter 3 drive 6
+Is this opponent scout? (Y/N)Are you Ferrum (H) or Shenandoah Hornets (A)?Final score Ferrum 24 - Shenandoah Hornets 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Emory & Henry wins toss and defers SUH will receive EHC will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, EHC ball on EHC35.']
+['Arno,Jackson kickoff 53 yards to the SU12, William Crowder return 22 yards to the SU34 (Hamilton,Nate).']
+Score correction made in Emory & Henry @ Shenandoah Hornets (index) quarter 0 drive 6
+Score correction made in Emory & Henry @ Shenandoah Hornets (index) quarter 2 drive 4
+Score correction made in Emory & Henry @ Shenandoah Hornets (index) quarter 3 drive 7
+Is this opponent scout? (Y/N)Are you Shenandoah Hornets (H) or Emory & Henry (A)?Final score Shenandoah Hornets 9 - Emory & Henry 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SU ball on SU35, clock 15:00.']
+['Patrick Ritchie kickoff 46 yards to the RMC19, JoJo Marinella return 20 yards to the RMC39 (Scott Martin).']
+Score correction made in Shenandoah Hornets @ Randolph-Macon (index) quarter 0 drive 1
+Score correction made in Shenandoah Hornets @ Randolph-Macon (index) quarter 0 drive 3
+Score correction made in Shenandoah Hornets @ Randolph-Macon (index) quarter 0 drive 4
+Score correction made in Shenandoah Hornets @ Randolph-Macon (index) quarter 1 drive 2
+Score correction made in Shenandoah Hornets @ Randolph-Macon (index) quarter 1 drive 4
+Score correction made in Shenandoah Hornets @ Randolph-Macon (index) quarter 2 drive 4
+Score correction made in Shenandoah Hornets @ Randolph-Macon (index) quarter 3 drive 0
+Score correction made in Shenandoah Hornets @ Randolph-Macon (index) quarter 3 drive 2
+Score correction made in Shenandoah Hornets @ Randolph-Macon (index) quarter 3 drive 3
+Is this opponent scout? (Y/N)Are you Randolph-Macon (H) or Shenandoah Hornets (A)?Final score Randolph-Macon 45 - Shenandoah Hornets 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Shenandoah wins toss and will receive APP will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, APP ball on APP35.']
+['Jeremiah Morgan kickoff 51 yards to the SU14, Brant Butler return 21 yards to the SU35, R. Byrd Jr. for 3 yards to the SU38 (Q. Jackson).']
+Score correction made in Apprentice School @ Shenandoah Hornets (index) quarter 0 drive 1
+Score correction made in Apprentice School @ Shenandoah Hornets (index) quarter 0 drive 3
+Score correction made in Apprentice School @ Shenandoah Hornets (index) quarter 1 drive 0
+Score correction made in Apprentice School @ Shenandoah Hornets (index) quarter 1 drive 1
+Score correction made in Apprentice School @ Shenandoah Hornets (index) quarter 2 drive 3
+Score correction made in Apprentice School @ Shenandoah Hornets (index) quarter 2 drive 7
+Score correction made in Apprentice School @ Shenandoah Hornets (index) quarter 3 drive 1
+Score correction made in Apprentice School @ Shenandoah Hornets (index) quarter 3 drive 3
+Is this opponent scout? (Y/N)Are you Shenandoah Hornets (H) or Apprentice School (A)?Final score Shenandoah Hornets 35 - Apprentice School 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Shenandoah wins toss and defers WLU will receive SUH will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SU ball on SU35.']
+['Patrick Ritchie kickoff 36 yards to the WANDL29, Neale,Sam return 19 yards to the WANDL48 (T. Anthony).']
+Score correction made in Wash. & Lee @ Shenandoah Hornets (index) quarter 0 drive 5
+Score correction made in Wash. & Lee @ Shenandoah Hornets (index) quarter 1 drive 1
+Score correction made in Wash. & Lee @ Shenandoah Hornets (index) quarter 2 drive 1
+Is this opponent scout? (Y/N)Are you Shenandoah Hornets (H) or Wash. & Lee (A)?Final score Shenandoah Hornets 14 - Wash. & Lee 6
+Folder name? (Scout team name default)

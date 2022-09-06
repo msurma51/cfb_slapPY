@@ -1,0 +1,47 @@
+Enter -['Start of 1st Half']
+['FC ball on FC35, clock 15:00.']
+['Seth Deaton kickoff 63 yards to the AU02, Chase Nixon return 28 yards to the AU30, out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Ferrum (H) or Averett (A)?Final score Ferrum 31 - Averett 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coin Toss: CNU wins and will receive']
+['FC ball on FC35.']
+['Seth Deaton kickoff 56 yards to the CNU09, fair catch by Josh Uvodich.']
+Is this opponent scout? (Y/N)Are you Chris. Newport (H) or Ferrum (A)?Final score Chris. Newport 19 - Ferrum 26
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NNA ball on NNA35, clock 15:00.']
+["Jeremiah Morgan kickoff 40 yards to the FC25, fair catch by Ja'Kari William."]
+Score correction made in Apprentice @ Ferrum (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you Ferrum (H) or Apprentice (A)?Final score Ferrum 30 - Apprentice 28
+Player name overlap detected in Apprentice at Ferrum. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['RMC ball on RMC35, clock 15:00.']
+['Vidal,Chris kickoff 56 yards to the FC09, touchback.']
+Is this opponent scout? (Y/N)Are you Ferrum (H) or Randolph-Macon (A)?Final score Ferrum 21 - Randolph-Macon 44
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FC ball on FC35.']
+['Isaiah Clark kickoff 51 yards to the BCFB14, Viante Tucker return 31 yards to the BCFB45 (Isaiah Clark).']
+Is this opponent scout? (Y/N)Are you BCFB (H) or Ferrum (A)?Final score BCFB 10 - Ferrum 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SHENANDO ball on SHENANDO35, clock 15:00.']
+['Jacob Pavkov kickoff 57 yards to the FERRUM08, Marcus Cutler return 32 yards to the FERRUM40 (Gary Garlic).']
+Is this opponent scout? (Y/N)Are you Ferrum (H) or Shenandoah (A)?Final score Ferrum 24 - Shenandoah 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Ferrum wins toss and defers HSC will receive FER will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, PANTHERS ball on PANTHERS35.']
+['Clark,Isaiah kickoff 47 yards to the HSC18, Wilson,Brice return 7 yards to the HSC25 (Epperley,Cole).']
+Is this opponent scout? (Y/N)Are you Hampden-Sydney (H) or Ferrum (A)?Final score Hampden-Sydney 42 - Ferrum 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FC ball on FC35, clock 15:00.']
+['Seth Deaton kickoff 58 yards to the GUIL07, Kamari Norman return 76 yards to the FC17 (Na-Shawn Greene; TEAM).']
+Is this opponent scout? (Y/N)Are you Ferrum (H) or Guilford (A)?Final score Ferrum 57 - Guilford 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Change of possession, WLU ball on WLU35, 1st and 10.']
+['Arturo Ramirez kickoff 50 yards to the FC15, Na-Shawn Greene return 14 yards to the FC29 (FJ Hogg).']
+Is this opponent scout? (Y/N)Are you Washington and Lee (H) or Ferrum (A)?Final score Washington and Lee 28 - Ferrum 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Ferrum wins toss and defers; E&H will receive; FER will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Clark,Isaiah kickoff 65 yards to the E&H00 Tester,T.J. return 35 yards to the E&H35 (Ellerbe,Josh), out of bounds.']
+Is this opponent scout? (Y/N)Are you Emory & Henry (H) or Ferrum (A)?Final score Emory & Henry 41 - Ferrum 23
+Folder name? (Scout team name default)

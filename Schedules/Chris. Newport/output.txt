@@ -1,0 +1,63 @@
+Enter -['Start of 1st Half']
+['Coin Toss: CNU wins toss and elects to receive...']
+['WLU ball on WLU35.']
+['Arturo Ramirez kickoff 56 yards to the CNU9, Josh Uvodich return 21 yards to the CNU30 (Hunter Hawk).']
+Is this opponent scout? (Y/N)Are you Chris. Newport (H) or Wash. & Lee (A)?Final score Chris. Newport 28 - Wash. & Lee 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['CNU wins coin toss, elects to receive']
+['AU ball on AU35.']
+['Will Caviness kickoff 62 yards to the CNU3, Cade Bills return 25 yards to the CNU28 (Nick Haitz).']
+Is this opponent scout? (Y/N)Are you Averett (H) or Christopher Newport (A)?Final score Averett 30 - Christopher Newport 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coin Toss: CNU wins and will receive']
+['FC ball on FC35.']
+['Seth Deaton kickoff 56 yards to the CNU9, fair catch by Josh Uvodich.']
+Is this opponent scout? (Y/N)Are you Chris. Newport (H) or Ferrum (A)?Final score Chris. Newport 19 - Ferrum 26
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['CNU wins coin toss, will receive. CATHU to defend South goal.']
+['CNU ball on CNU35.']
+['CATHU ball on CATHU35.']
+['Connor Gill kickoff 58 yards to the CNU7, Jordan Borders return 93 yards to the CATHU0, TOUCHDOWN, clock 14:45.']
+Is this opponent scout? (Y/N)Are you Catholic (H) or Chris. Newport (A)?Final score Catholic 14 - Chris. Newport 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coin Toss: Kean wins and defers']
+['KEAN ball on KEAN35.']
+['G. Chrissafis kickoff 65 yards to the CNU0, Josh Uvodich return 25 yards to the CNU25 (M. Pittman), PENALTY CNU illegal block 10 yards to the CNU15, 1st and 10, CNU ball on CNU15.']
+Score correction made in Kean @ Chris. Newport (index) quarter 4 drive 1
+Is this opponent scout? (Y/N)Are you Chris. Newport (H) or Kean (A)?Final score Chris. Newport 20 - Kean 27
+Player name overlap detected in Kean at Chris. Newport. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Wm. Paterson wins toss and defers CNU will receive WPU will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, WPU ball on WPU35.']
+['Alvarez,Ronald kickoff 47 yards to the CNU18, Josh Uvodich return 20 yards to the CNU38 (Abdul Malik,Sir).']
+Is this opponent scout? (Y/N)Are you Wm. Paterson (H) or Chris. Newport (A)?Final score Wm. Paterson 48 - Chris. Newport 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coin Toss: CNU wins toss and defers...']
+['CNU ball on CNU35.']
+['Ryan Castle kickoff 64 yards to the MSU1, Zahir Wilder return 15 yards to the MSU16 (Niko Tauti;Jayson Eanes).']
+Is this opponent scout? (Y/N)Are you Chris. Newport (H) or Montclair State (A)?Final score Chris. Newport 28 - Montclair State 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['H win, defer, V recieve left']
+['TCNJ ball on TCNJ35.']
+['CNU ball on CNU36.']
+['Aeron Williams rush for 2 yards to the CNU38 (Jacob Maurice).']
+['Matt Dzierski sacked for loss of 6 yards to the CNU32 (Chris McCormack).']
+['Aeron Williams rush for 4 yards to the CNU36 (Cole Groschel;Malin Jasinski).']
+['Nick Gonzalez punt 33 yards to the TCNJ31, downed, PENALTY CNU kick catching interference 14 yards to the TCNJ45, 1st and 10, TCNJ ball on TCNJ45.']
+Is this opponent scout? (Y/N)Are you TCNJ (H) or Christopher Newport (A)?Final score TCNJ 14 - Christopher Newport 21
+Player name overlap detected in Christopher Newport at TCNJ. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coin Toss: CNU wins and will receive']
+['SAL ball on SAL35.']
+['Schrecongost,B. kickoff 56 yards to the CNU9, Cade Bills return 8 yards to the CNU17 (Vanzego,Kobe).']
+Score correction made in Salisbury @ Chris. Newport (index) quarter 0 drive 2
+Score correction made in Salisbury @ Chris. Newport (index) quarter 0 drive 3
+Is this opponent scout? (Y/N)Are you Chris. Newport (H) or Salisbury (A)?Final score Chris. Newport 14 - Salisbury 84
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Chris. Newport wins toss and will receive ROW will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, ROW ball on ROW35.']
+['Kay,Danny kickoff 59 yards to the CNU6, Borders,Jordan return 15 yards to the CNU21 (Bryant,Eric).']
+Is this opponent scout? (Y/N)Are you Rowan (H) or Chris. Newport (A)?Final score Rowan 32 - Chris. Newport 35
+Folder name? (Scout team name default)

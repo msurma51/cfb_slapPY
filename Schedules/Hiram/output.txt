@@ -1,0 +1,51 @@
+Enter -['Start of 1st Half']
+['Bethany (WV) wins toss and will receive; HIR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Miller,Chris kickoff 54 yards to the BET11 McWhorter,Devaughn return 16 yards to the BET27 (Keaton,Cade; Irving,Xavier).']
+Is this opponent scout? (Y/N)Are you Hiram (H) or Bethany (WV) (A)?Final score Hiram 41 - Bethany (WV) 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wabash wins toss and defers; HIR will receive; WAB will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Handley,Jacob kickoff 65 yards to the HIR00, Touchback.']
+Is this opponent scout? (Y/N)Are you Hiram (H) or Wabash (A)?Final score Hiram 14 - Wabash 42
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WITF ball on WITF35, clock 15:00.']
+['Nick Bowman kickoff 53 yards to the HIRF12, Dexter Coleman return 16 yards to the HIRF28 (Cameron Snurr).']
+Is this opponent scout? (Y/N)Are you Wittenberg (H) or Hiram College (A)?Final score Wittenberg 51 - Hiram College 21
+Player name overlap detected in Hiram College at Wittenberg. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['DePauw wins toss and will receive; HIR will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Miller,Chris kickoff 44 yards to the DPU21 Sheehan,Danny return 65 yards to the PENALTY DPU Personal Foul (Quigley,Gabe) 15 yards from HIR14 to HIR29.']
+['DPU ball on HIR29.']
+Is this opponent scout? (Y/N)Are you DePauw (H) or Hiram (A)?Final score DePauw 57 - Hiram 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['* Hiram wins toss and defers, OWU will receive and defend N goal.']
+['Chris Miller kickoff 65 yards to the OWU0, touchback.']
+Is this opponent scout? (Y/N)Are you Ohio Wesleyan (H) or Hiram (A)?Final score Ohio Wesleyan 34 - Hiram 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hiram wins toss and defers; ALL will receive; HIR will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Miller,Chris kickoff 65 yards to the ALL00, Touchback.']
+Is this opponent scout? (Y/N)Are you Hiram (H) or Allegheny (A)?Final score Hiram 13 - Allegheny 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hiram wins toss and defers; OBE will receive; HIR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Miller,Chris kickoff 65 yards to the OBE00, Touchback.']
+Is this opponent scout? (Y/N)Are you Hiram (H) or Oberlin (A)?Final score Hiram 28 - Oberlin 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hiram wins toss and will receive; WOO will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Balassy,Sebestyen kickoff 63 yards to the HIR02 Dees,Tommy return 24 yards to the HIR26 (Talley,Dorion), out of bounds.']
+Is this opponent scout? (Y/N)Are you Wooster (H) or Hiram (A)?Final score Wooster 51 - Hiram 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Denison wins toss and will receive; HIR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Miller,Chris kickoff 60 yards to the DEN05 Epps,Jaylin return for 4 yards loss to the DEN05 fumbled by Epps,Jaylin at DEN05 recovered by DEN Epps,Jaylin at DEN01 (Irving,Xavier; Brumbaugh,Anthony).']
+Is this opponent scout? (Y/N)Are you Hiram (H) or Denison (A)?Final score Hiram 6 - Denison 59
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hiram wins toss and defers; KEN will receive; Hir will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Miller,Chris kickoff 65 yards to the KEN00, Touchback.']
+Is this opponent scout? (Y/N)Are you Kenyon (H) or Hiram (A)?Final score Kenyon 21 - Hiram 16
+Folder name? (Scout team name default)

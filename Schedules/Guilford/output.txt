@@ -1,0 +1,37 @@
+Enter -['Start of 1st Half']
+['GUILFORD ball on GUILFORD35, clock 15:00.']
+["Burke Nettles kickoff 0 yards to the GUILFORD35, Shy'Heem Clemon return -41 yards to the GREENSBO24 (Brett Shreve)."]
+Is this opponent scout? (Y/N)Are you Guilford (H) or Greensboro (A)?Final score Guilford 21 - Greensboro 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Burke Nettles kickoff 54 yards to the WLU11, Alex Wertz return 36 yards to the WLU47 (Burke Nettles).']
+Is this opponent scout? (Y/N)Are you Washington and Lee (H) or Guilford (A)?Final score Washington and Lee 63 - Guilford 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['HSC ball on HSC35, clock 15:00.']
+['Palmer Smith kickoff 60 yards to the GUILFORD5, Kamari Norman return 65 yards to the HSC30 (Hunter Spence).']
+Is this opponent scout? (Y/N)Are you Guilford (H) or Hampden-Sydney (A)?Final score Guilford 27 - Hampden-Sydney 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['GC ball on GC35, clock 15:00.']
+["Burke Nettles kickoff 53 yards to the SU12, Yuri Smaltz return 23 yards to the SU35 (Rontayev'on Gra; Clint Bost)."]
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 1 drive 1
+Score correction made in Shenandoah Hornets @ Guilford (index) quarter 1 drive 2
+Is this opponent scout? (Y/N)Are you Guilford (H) or Shenandoah Hornets (A)?Final score Guilford 25 - Shenandoah Hornets 52
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['RMC ball on RMC35, clock 15:00.']
+['Chris Vidal kickoff 64 yards to the GC01, Kamari Norman return 7 yards to the GC08 (Tony Skinner; Kyle Ringley).']
+Is this opponent scout? (Y/N)Are you Guilford (H) or Randolph-Macon (A)?Final score Guilford 0 - Randolph-Macon 58
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FC ball on FC35, clock 15:00.']
+['Seth Deaton kickoff 58 yards to the GUIL07, Kamari Norman return 76 yards to the FC17 (Na-Shawn Greene; TEAM).']
+Is this opponent scout? (Y/N)Are you Ferrum (H) or Guilford (A)?Final score Ferrum 57 - Guilford 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['E&H ball on E&H35, clock 15:00.']
+['Cameron Jones kickoff 65 yards to the GC00, touchback.']
+Score correction made in Emory & Henry @ Guilford (index) quarter 3 drive 1
+Is this opponent scout? (Y/N)Are you Guilford (H) or Emory & Henry (A)?Final score Guilford 13 - Emory & Henry 66
+Player name overlap detected in Emory & Henry at Guilford. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Guilford wins toss and will kickoff; BCE will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hendren,Jackson onside kickoff 11 yards to the BCE24.']
+Is this opponent scout? (Y/N)Are you Bridgewater (VA) (H) or Guilford (A)?Final score Bridgewater (VA) 43 - Guilford 0
+Folder name? (Scout team name default)

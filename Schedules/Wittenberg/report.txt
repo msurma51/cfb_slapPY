@@ -1,0 +1,69 @@
+Final score Wittenberg 16 - SUNY Cortland 38
+Final score Wittenberg 51 - Hiram 21
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 14, in pbp_parser
+    html = urlopen(url, context=ctx).read()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 105, in taster
+    abbr = abbr_finder(quarters[0][drive_count],abbr)
+IndexError: list index out of range
+Final score Ohio Wesleyan 23 - Wittenberg 24
+Final score Wittenberg 14 - DePauw 17
+Exception in Wittenberg at Oberlin College (index) quarter 1 drive 3
+	 ['Oberlin at 07:16']
+	 ['1st and 10 at OBEF11', 'Oberlin College drive start at 07:16.']
+	 ['1st and 10 at OBEF11', 'Allen Jr pass complete to Diskin for 14 yards to the OBEF25, out-of-bounds (Burkey, Jordan), PENALTY WITFB1 personal foul 15 yards to the OBEF40.']
+	 ['1st and 10 at OBEF40', '1st and 10.']
+	 ['1st and 10 at OBEF40', 'Brooks rush for 4 yards to the OBEF44 (Caudle, Kameron).']
+	 ['2nd and 6 at OBEF44', 'Brooks rush for 2 yards to the OBEF46 (Caudle, Kameron).']
+	 ['3rd and 4 at OBEF46', 'Allen Jr pass complete to Diskin for 8 yards to the WITFB146 (Fiessinger, M.).']
+	 ['1st and 10 at WITFB146', 'Allen Jr pass complete to Davies for 21 yards to the WITFB125 (Edwards, Rashon).']
+	 ['1st and 10 at WITFB125', 'Allen Jr pass complete to Arnold for 3 yards to the WITFB122 (Edwards, Rashon).']
+	 ['2nd and 7 at WITFB122', 'Brooks rush for 4 yards to the WITFB118 (Morrison, Levi).']
+	 ['3rd and 3 at WITFB118', 'Allen Jr pass complete to Colarusso for 18 yards to the WITFB100, TOUCHDOWN, clock 03:26.']
+	 ['', 'Bingaman kick attempt good.']
+	 ['', 'Wittenberg 14, Oberlin 7']
+	 ['8 plays, 89 yards, 03:50 elapsed']
+	 ['', 'Bingaman kickoff 40 yards to the WITFB125, Watts, Artemus return 0 yards to the WITFB125, fumble by Watts, Artemus recovered by WITFB1 Culliver, Dev at WITFB127.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'WITFB1'
+Final score Oberlin 7 - Wittenberg 14
+Final score Wittenberg 38 - Kenyon 14
+Final score Allegheny 19 - Wittenberg 29
+Final score Wabash 14 - Wittenberg 35
+Final score Wittenberg 44 - Wooster 29

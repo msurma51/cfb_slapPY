@@ -1,0 +1,49 @@
+Enter -Abbreviations could not be matched
+['1st']
+['1st and 10 at AUS35', 'Texas Lutheran wins toss and will receive; AUS will defend East end-zone.']
+['1st and 10 at AUS35', 'Start of 1st quarter, clock 15:00.']
+['', 'Aldridge,John kickoff 65 yards to the TLU00, Touchback.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 941, in game_builder
+    toss_info = toss_parser(first_drive,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 635, in toss_parser
+    first_letters = (name_dict[home_abbr][0], name_dict[away_abbr][0])
+TypeError: 'NoneType' object is not subscriptable
+Enter -['1st']
+['1st and 10 at SRSU35', 'AC ball on AC35, clock 15:00.']
+['', 'John Aldridge kickoff 65 yards to the SRSU00, touchback.']
+Is this opponent scout? (Y/N)Are you Austin College (H) or Sul Ross St. (A)?Final score Austin College 16 - Sul Ross St. 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ACK35', 'Belhaven wins toss and will receive; ACK will defend North end-zone.']
+['1st and 10 at ACK35', 'Start of 1st quarter, clock 15:00.']
+['', 'Aldridge,John kickoff 63 yards to the BEL02 Blunt,Kolbe return 14 yards to the BEL16 (Verdun,Sean).']
+Is this opponent scout? (Y/N)Are you Belhaven (H) or Austin College (A)?Final score Belhaven 41 - Austin College 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UMHB35', 'AC ball on AC35, clock 15:00.']
+['', 'John Aldridge kickoff 65 yards to the UMHB00, Aaron Sims return 29 yards to the UMHB29 (John Aldridge).']
+Is this opponent scout? (Y/N)Are you Austin College (H) or No. 1 Mary Hardin-Baylor (A)?Final score Austin College 0 - No. 1 Mary Hardin-Baylor 56
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at McM35', 'McMurry wins toss and defers; AST will receive; McM will defend South end-zone.']
+['1st and 10 at McM35', 'Start of 1st quarter, clock 15:00.']
+['', 'Mendoza,Jared kickoff 64 yards to the AST01 Bess,Kaden return 24 yards to the AST25 (Dozier Jr.,Damon; Colbert,Jacorian).']
+Is this opponent scout? (Y/N)Are you McMurry (H) or Austin College (A)?Final score McMurry 48 - Austin College 13
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ETBU35', 'ETBU ball on ETBU35, clock 15:00.']
+['', 'Alberto Garcia kickoff 65 yards to the AC00, touchback.']
+Is this opponent scout? (Y/N)Are you Austin College (H) or East Tex. Baptist (A)?Final score Austin College 30 - East Tex. Baptist 37
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at AUSTIN35', 'SOUTHWES ball on SOUTHWES35, clock 15:00.']
+['', 'Charlie Fournier kickoff 51 yards to the AUSTIN14, Kaden Bess return 0 yards to the AUSTIN14.']
+Is this opponent scout? (Y/N)Are you Southwestern (Tex.) (H) or Austin College (A)?Final score Southwestern (Tex.) 45 - Austin College 19
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HSU35', 'HSU ball on HSU35, clock 15:00.']
+['', 'Edgar Davila kickoff 56 yards to the AC09, Mekhi Nicholson return 12 yards to the AC21 (Higginbotham,Tr).']
+Is this opponent scout? (Y/N)Are you Austin College (H) or Hardin-Simmons (A)?Final score Austin College 14 - Hardin-Simmons 56
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ACO35', 'Howard Payne wins toss and will receive; ACO will defend South end-zone.']
+['1st and 10 at ACO35', 'Start of 1st quarter, clock 15:00.']
+['', 'Aldridge,John kickoff 65 yards to the HPU00 Parker,Jake return 21 yards to the HPU21 (Aldridge,John).']
+Is this opponent scout? (Y/N)Are you Howard Payne (H) or Austin College (A)?Final score Howard Payne 49 - Austin College 21
+Folder name? (Scout team name default)

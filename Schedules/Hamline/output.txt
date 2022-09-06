@@ -1,0 +1,90 @@
+Enter -['Start of 1st Half']
+[' Hamline wins toss and will receive CWN will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CC ball on CC35.']
+['Osborne,Jonah kickoff 30 yards to the HU35, Fritz,Sam return 0 yards to the HU35.']
+Exception in Crown (MN) at Hamline (index) quarter 2 drive 0
+	 ['Start of 2nd Half']
+	 ['Start of 3rd quarter, clock 15:00, HU ball on HU35.']
+	 ['.']
+	 ['HAMLINE drive start at 15:00.']
+	 ['Griebel,Zach middle pass complete to Ralph,Alec for 30 yards to the CC35, 1ST DOWN HU (44).']
+	 ['Griebel,Zach middle pass complete to Fritz,Sam for loss of 8 yards to the CC43 (Caruthers,Avory).']
+	 ['Griebel,Zach middle pass complete to 6 for loss of 24 yards to the HU33 (Caruthers,Avory;Swecker,Ryan).']
+	 ['32 rush up middle for loss of 20 yards to the HU13 (90;44).']
+	 ['Griebel,Zach middle pass complete to 32 for loss of 12 yards to the HU1 (Riedinger,Dylan), PENALTY CC holding (Lawien,Maddox) 10 yards to the HU23, NO PLAY.']
+	 ['1st and 20.']
+	 ['Griebel,Zach middle pass incomplete to Wilson,Charlie.']
+	 ['Griebel,Zach middle pass incomplete to Ralph,Alec.']
+	 ['Griebel,Zach middle pass incomplete to Fritz,Sam, PENALTY HU pass interference (Smith,Kaden) 11 yards to the HU12, 1ST DOWN HU, NO PLAY.']
+	 ['1st and 10.']
+	 ['middle pass complete to Fritz,Sam for no gain to the HU12 (Grant,Destin).']
+	 ['Griebel,Zach rush up middle for loss of 4 yards to the HU8 (97).']
+	 ['Griebel,Zach middle pass incomplete to Wilson,Charlie.']
+	 ['Griebel,Zach middle pass complete to 32 for loss of 1 yard to the HU7 (Swecker,Ryan).']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1031, in game_builder
+    info.update(drive_end_finder(plays))
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 602, in drive_end_finder
+    elif gn_ls in last_play.keys() and last_play[down] == 4:
+KeyError: 'DN'
+
+Is this opponent scout? (Y/N)Are you Hamline (H) or Crown (MN) (A)?Final score Hamline 40 - Crown (MN) 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Morris wins toss and defers to second half; Hamline will receive']
+['UMM ball on UMM35.']
+['Alex Happ kickoff 58 yards to the HU7, Lueders,Caleb return 20 yards to the HU27 (Ryan Bouley).']
+Is this opponent scout? (Y/N)Are you Minnesota Morris (H) or Hamline (A)?Final score Minnesota Morris 28 - Hamline 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hamline wins toss and will receive CAR will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CAR ball on CAR35.']
+['Ramirez,Trent kickoff 59 yards to the HU6, Cracolici,A return 19 yards to the HU25 (Detmer,Henry).']
+Is this opponent scout? (Y/N)Are you Carleton (H) or Hamline (A)?Final score Carleton 35 - Hamline 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. Scholastica wins toss and defers HAM will receive CSS will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CSS ball on CSS35.']
+['Oswald,Kyle kickoff 63 yards to the HU2, Thomas,Triston return 28 yards to the HU30 (Oswald,Kyle).']
+Is this opponent scout? (Y/N)Are you Hamline (H) or St. Scholastica (A)?Final score Hamline 34 - St. Scholastica 18
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Bethel (MN) wins toss and defers HAM will receive BET will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, ROYALS ball on ROYALS35.']
+['Cifuentes,Hugo kickoff 60 yards to the HU5, Thomas,Triston return 18 yards to the HU23 (Fouquette,Eric).']
+Is this opponent scout? (Y/N)Are you Hamline (H) or Bethel (MN) (A)?Final score Hamline 7 - Bethel (MN) 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Gust. Adolphus wins toss and defers HUP will receive GAC will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, GUSTIES ball on GUSTIES35.']
+['Abegglen,Andrew kickoff 63 yards to the HU2, Thomas,Triston return 35 yards to the HU37 (Simon,Payton).']
+Is this opponent scout? (Y/N)Are you Gust. Adolphus (H) or Hamline (A)?Final score Gust. Adolphus 33 - Hamline 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Augsburg wins toss, defers; Hamline to receive and defend west end.']
+['AUG ball on AUG35.']
+['Durham Welch kickoff 47 yards to the HU18, Thomas,Triston return 18 yards to the HU36 (Robert Adams;Sillys Seiler).']
+Score correction made in Hamline @ Augsburg University (index) quarter 0 drive 1
+Score correction made in Hamline @ Augsburg University (index) quarter 0 drive 2
+Is this opponent scout? (Y/N)Are you Augsburg University (H) or Hamline (A)?Final score Augsburg University 38 - Hamline 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hamline wins toss and will kickoff MAC will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, HU ball on HU35.']
+['Peters,Matt kickoff 31 yards to the MAC34, Josh Bulski return 0 yards to the MAC34 (Olson,Spencer).']
+Is this opponent scout? (Y/N)Are you Macalester (H) or Hamline (A)?Final score Macalester 23 - Hamline 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[" Concordia-M'head wins toss and defers HAM will receive CON will defend East end-zone"]
+['.']
+['Start of 1st quarter, clock 15:00, COBBERS ball on COBBERS35.']
+['Silus,Damien kickoff 63 yards to the HU2, Thomas,Triston return 19 yards to the HU21 (Leslie,Robert), PENALTY COBBERS personal foul (Leslie,Robert) 14 yards to the HU35.']
+Score correction made in Concordia-M'head @ Hamline (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you Hamline (H) or Concordia-M'head (A)?Final score Hamline 7 - Concordia-M'head 41
+Player name overlap detected in Concordia-M'head at Hamline. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hamline wins toss and will receive CSS will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CSS ball on CSS35.']
+['Oswald,Kyle kickoff 46 yards to the HU19, Thomas,Triston return 35 yards to the CSS46 (Taylor,Kevin), PENALTY HU illegal block (Hickman,Noah) 39 yards to the HU15.']
+Is this opponent scout? (Y/N)Are you Hamline (H) or St. Scholastica (A)?Final score Hamline 21 - St. Scholastica 20
+Player name overlap detected in St. Scholastica at Hamline. Check possession transitions
+Folder name? (Scout team name default)

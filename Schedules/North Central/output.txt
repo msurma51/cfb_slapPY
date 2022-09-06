@@ -1,0 +1,103 @@
+Enter -['Start of 1st Half']
+['Aurora wins coin toss and defers. NCC to receive.']
+['AU ball on AU35.']
+['Wielgosz, A. kickoff 58 yards to the NCC7, Hill, T. return 29 yards to the NCC36 (Mautino, J.).']
+Is this opponent scout? (Y/N)Are you North Central (H) or Aurora (A)?Final score North Central 64 - Aurora 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NC wins toss- defers.  Wheaton will receive and defend East goal']
+['Rains, T. kickoff 54 yards to the WHEATON11, Tucker, Ma. return 21 yards to the WHEATON32 (Orr, Z.).']
+Is this opponent scout? (Y/N)Are you Wheaton (IL) (H) or North Central (A)?Final score Wheaton (IL) 7 - North Central 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Augustana wins coin toss and defers; NCC to receive.']
+['Maroon, Sidney kickoff 55 yards to the NCC10, Lynch, Ju. return to the NCC17 ( Pearre, Jackso), PENALTY AUGIE illegal procedure 5 yards to the AUGIE30, NO PLAY.']
+['Maroon, Sidney kickoff 66 yards to the NCC4, out-of-bounds, NCC ball on NCC40.']
+Is this opponent scout? (Y/N)Are you North Central (H) or Augustana (A)?Final score North Central 58 - Augustana 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carroll (WI) wins toss and will receive; NCC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Rains,Tanner kickoff 65 yards to the CAR00, Touchback.']
+Is this opponent scout? (Y/N)Are you Carroll (WI) (H) or North Central (IL) (A)?Final score Carroll (WI) 7 - North Central (IL) 62
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carthage wins toss and will receive; NCC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+["Rains,Tanner kickoff 60 yards to the CAR05 Jarvis,Alex return 30 yards to the CAR35 (Cusumano,Angelo; Roberson,De'Angelo)."]
+Is this opponent scout? (Y/N)Are you Carthage (H) or North Central (IL) (A)?Final score Carthage 13 - North Central (IL) 64
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Elmhurst wins coin toss and defers, NCC to receive.']
+['Quintanilla kickoff 53 yards to the NCC12, Lynch, Ju. return 20 yards to the NCC32 (Masco).']
+Is this opponent scout? (Y/N)Are you North Central (H) or Elmhurst (A)?Final score North Central 77 - Elmhurst 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['IWU wins coin toss and elects to receive']
+['NCC ball on NCC35.']
+['Rains, T. kickoff 58 yards to the IWU7, Albin,Seth return 33 yards to the IWU40 (Rojas, Y.).']
+Is this opponent scout? (Y/N)Are you North Central (H) or Illinois Wesleyan (A)?Final score North Central 55 - Illinois Wesleyan 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['North Central (IL) wins toss and will receive; MIL will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ramirez,David kickoff 33 yards to the NCC32 Quinn,Matt return 0 yards to the NCC32 (Salazar,Matthew), out of bounds.']
+Exception in North Central (IL) at Millikin (index) quarter 0 drive 0
+	 ['Start of 1st Half']
+	 ['North Central (IL) wins toss and will receive; MIL will defend North end-zone.']
+	 ['Start of 1st quarter, clock 15:00.']
+	 ['Ramirez,David kickoff 33 yards to the NCC32 Quinn,Matt return 0 yards to the NCC32 (Salazar,Matthew), out of bounds.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1122, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment
+Enter -['Start of 1st Half']
+['47, 65, 48, and 30 are captains. NC wins and elects to defer.']
+['Start of 1st quarter, clock 15:00.']
+['WASHU ball on WASHU35.']
+['C. Vartanian kickoff 61 yards to the NCC4, Hill, T. return 26 yards to the NCC30 (Kieran Conjar).']
+Is this opponent scout? (Y/N)Are you Washington (Mo.) (H) or North Central (A)?Final score Washington (Mo.) 20 - North Central 59
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NPU wins coin toss and defers. NCC to receive.']
+['Blatchford kickoff 44 yards to the NCC21, fair catch by Chapman, S..']
+Is this opponent scout? (Y/N)Are you North Central (H) or North Park (A)?Final score North Central 84 - North Park 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UWL wins coin toss and defers; NCC to receive']
+['Beirne, Ryan kickoff 65 yards to the NCC0, touchback.']
+Is this opponent scout? (Y/N)Are you North Central (H) or Wis.-La Crosse (A)?Final score North Central 34 - Wis.-La Crosse 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NCC wins coin toss and elects to receive.']
+['Bisson, Trevor kickoff 60 yards to the NCC5, Hardy, D. return 25 yards to the NCC30 (Farina, Nolan).']
+Is this opponent scout? (Y/N)Are you North Central (H) or RPI (A)?Final score North Central 55 - RPI 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mount Union wins toss and defers; NCC will receive; MTU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Deack,Nick kickoff 35 yards to the NCC30 Quinn,Matt return 0 yards to the NCC30, End Of Play.']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or North Central (IL) (A)?Final score Mount Union 13 - North Central (IL) 26
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' North Central (IL) wins toss and will receive MHB will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, UMHB ball on UMHB35.']
+['Avila,Anthony kickoff 58 yards to the NCC7, Hardy, D. return 93 yards to the UMHB0, TOUCHDOWN, clock 14:48.']
+Score correction made in Mary Hardin-Baylor @ North Central (index) quarter 3 drive 7
+Is this opponent scout? (Y/N)Are you North Central (H) or Mary Hardin-Baylor (A)?Final score North Central 24 - Mary Hardin-Baylor 57
+Folder name? (Scout team name default)

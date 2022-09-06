@@ -1,0 +1,50 @@
+Enter -['Start of 1st Half']
+['MUHL ball on MUHL35, clock 15:00.']
+['.']
+['Nick Stannard kickoff 55 yards to the TCNJ10, Dylan Richey return 13 yards to the TCNJ23 (Tyler Ekstrom).']
+Is this opponent scout? (Y/N)Are you Muhlenberg (H) or TCNJ (A)?Final score Muhlenberg 41 - TCNJ 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SUNY Cortland wins toss and defers']
+['Patrick Luby kickoff 58 yards to the TCNJ7, Dylan Richey return 16 yards to the TCNJ23 (John Manganella).']
+Is this opponent scout? (Y/N)Are you TCNJ (H) or Cortland (A)?Final score TCNJ 6 - Cortland 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NIC ball on NIC30.']
+['V. Mallozzi kickoff 59 yards to the TCNJ11, Ryan McDermott return 13 yards to the TCNJ24 (Keenan Esau).']
+Is this opponent scout? (Y/N)Are you Nichols (H) or TCNJ (A)?Final score Nichols 0 - TCNJ 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['TCNJ wins toss, elects to receive']
+['WP ball on WP35.']
+['Alvarez,Ronald kickoff 50 yards to the TCNJ15, Sal Tardogno return 23 yards to the TCNJ38 (Mason,Marcel), PENALTY TCNJ unsportsmanlike conduct 15 yards to the WP47, 1st and 10, TCNJ ball on WP47.']
+Is this opponent scout? (Y/N)Are you TCNJ (H) or William Paterson (A)?Final score TCNJ 15 - William Paterson 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' TCNJ wins toss and defers MSU will receive CNJ will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, TCNJ ball on TCNJ35.']
+['Bobby Wortman kickoff 0 yards to the TCNJ35, PENALTY TCNJ offside defense (Nick Recine) 5 yards to the TCNJ30, NO PLAY.']
+['Bobby Wortman kickoff 59 yards to the MSU11, Sutton,Robert return 25 yards to the MSU36 (Justin Dailey).']
+Is this opponent scout? (Y/N)Are you Montclair St. (H) or TCNJ (A)?Final score Montclair St. 9 - TCNJ 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['TCNJ wins the toss and defers.  Kean will receive.']
+['Brian Puccio kickoff 57 yards to the KEAN8, Donte Jamison return 21 yards to the KEAN29 (Jayson Schmidt;Dominick Nocero).']
+Is this opponent scout? (Y/N)Are you Kean (H) or TCNJ (A)?Final score Kean 20 - TCNJ 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['H win, defer, V recieve left']
+['TCNJ ball on TCNJ35.']
+['CNU ball on CNU36.']
+['Aeron Williams rush for 2 yards to the CNU38 (Jacob Maurice).']
+['Matt Dzierski sacked for loss of 6 yards to the CNU32 (Chris McCormack).']
+['Aeron Williams rush for 4 yards to the CNU36 (Cole Groschel;Malin Jasinski).']
+['Nick Gonzalez punt 33 yards to the TCNJ31, downed, PENALTY CNU kick catching interference 14 yards to the TCNJ45, 1st and 10, TCNJ ball on TCNJ45.']
+Is this opponent scout? (Y/N)Are you TCNJ (H) or Christopher Newport (A)?Final score TCNJ 14 - Christopher Newport 21
+Player name overlap detected in Christopher Newport at TCNJ. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SAL ball on SAL35.']
+['Schrecongost,B. kickoff 65 yards to the TCNJ0, touchback, TCNJ ball on TCNJ25.']
+Score correction made in TCNJ @ Salisbury (index) quarter 0 drive 6
+Is this opponent scout? (Y/N)Are you Salisbury (H) or TCNJ (A)?Final score Salisbury 37 - TCNJ 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rowan wins toss, defers to second half']
+['ROW ball on ROW35.']
+['Parigi,Peter kickoff 65 yards to the TCNJ0, touchback.']
+Is this opponent scout? (Y/N)Are you TCNJ (H) or Rowan (A)?Final score TCNJ 21 - Rowan 35
+Folder name? (Scout team name default)

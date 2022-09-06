@@ -1,0 +1,41 @@
+Enter -['1st']
+['1st and 10 at CLU35', 'Cal Lutheran wins toss and defers; STW will receive; CLU will defend South end-zone.']
+['1st and 10 at CLU35', 'Start of 1st quarter, clock 15:00.']
+['', 'kickoff 56 yards to the STW09 Garza,Adrian return 10 yards to the STW19 (White,Jackson; Huseman,Reid).']
+Is this opponent scout? (Y/N)Are you Cal Lutheran (H) or Southwestern (Texas) (A)?Final score Cal Lutheran 30 - Southwestern (Texas) 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at PLU35', 'Pacific Lutheran wins toss and defers; CLU will receive; PLU will defend South end-zone.']
+['1st and 10 at PLU35', 'Start of 1st quarter, clock 15:00.']
+['', 'Hilliard,Peiyton kickoff 62 yards to the CLU03 Taylor,Jackson return 47 yards to the CLU50 (Meade,Kellen).']
+Is this opponent scout? (Y/N)Are you Cal Lutheran (H) or Pacific Lutheran (Wash.) (A)?Final score Cal Lutheran 42 - Pacific Lutheran (Wash.) 28
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CLU35', 'Cal Lutheran wins toss and defers; UPS will receive; CLU will defend West end-zone.']
+['1st and 10 at CLU35', 'Start of 1st quarter, clock 15:00.']
+['', 'Burgos,Daniel kickoff 54 yards to the UPS11 fair catch by Singh Halpin,Dillon at UPS11.']
+Is this opponent scout? (Y/N)Are you Puget Sound (Wash.) (H) or Cal Lutheran (A)?Final score Puget Sound (Wash.) 21 - Cal Lutheran 25
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at LVU35', 'La Verne wins toss and defers; CLU will receive; LVU will defend North end-zone.']
+['1st and 10 at LVU35', 'Start of 1st quarter, clock 15:00.']
+['1st and 10 at LVU35', 'Kamakawiwoole,Kapena onside kickoff 16 yards to the CLU49, End Of Play PENALTY LVU Illegal Touch Of Kick (Sagastume,Nathaniel) 5 yards from CLU49 to LVU46.']
+['1st and 10 at LVU35', 'CLU ball on LVU46.']
+Is this opponent scout? (Y/N)Are you Cal Lutheran (H) or La Verne (A)?Final score Cal Lutheran 35 - La Verne 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CLU35', 'Cal Lutheran wins toss and defers; CHA will receive; CLU will defend North end-zone.']
+['1st and 10 at CLU35', 'Start of 1st quarter, clock 15:00.']
+['', 'Burgos,Daniel kickoff 63 yards to the CHA02 Ragas,Nico return 30 yards to the CHA32 (Palacios,Hector).']
+Is this opponent scout? (Y/N)Are you Chapman (H) or Cal Lutheran (A)?Final score Chapman 42 - Cal Lutheran 13
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CLU35', 'Cal Lutheran wins toss and defers; CMS will receive; CLU will defend North end-zone.']
+['1st and 10 at CLU35', 'Start of 1st quarter, clock 15:00.']
+['', 'Burgos,Daniel kickoff 56 yards to the CMS09 Cotton,Mason return 2 yards to the CMS11 (Charles,Keshaun).']
+Is this opponent scout? (Y/N)Are you Cal Lutheran (H) or Claremont-Mudd-Scripps (A)?Final score Cal Lutheran 0 - Claremont-Mudd-Scripps 27
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WTR35', 'Whittier wins toss and defers; CLU will receive; WTR will defend South end-zone.']
+['1st and 10 at WTR35', 'Start of 1st quarter, clock 15:00.']
+['', 'Handel,Noah kickoff 45 yards to the CLU20 McDermott,Connor return 17 yards to the CLU37 (Ortiz-Valenzuela,Alex).']
+Is this opponent scout? (Y/N)Are you Cal Lutheran (H) or Whittier (A)?Final score Cal Lutheran 45 - Whittier 8
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CAL LUTH35', 'REDLANDS ball on REDLANDS35, clock 15:00.']
+['', 'Brendan Marmion kickoff 60 yards to the CAL LUTH05, Reid Huseman return 13 yards to the CAL LUTH18 (Joe Bennett).']
+Is this opponent scout? (Y/N)Are you Redlands (H) or Cal Lutheran (A)?Final score Redlands 56 - Cal Lutheran 28
+Folder name? (Scout team name default)

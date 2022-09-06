@@ -1,0 +1,241 @@
+Index,School,Nickname,Location,Conference,Region,Surface,Enrollment
+0,Adrian,Bulldogs,"Adrian, MI",MIAA,4,Turf,1723
+1,Albion,Britons,"Albion, MI",MIAA,4,Turf,1448
+2,Albright,Lions,"Reading, PA",MAC,1,Turf,1701
+3,Alfred State,Pioneers,"Alfred, NY",ECFC,1,Turf,3482
+4,Alfred,Saxons,"Alfred, NY",E8,2,Turf,1639
+5,Allegheny,Gators,"Meadville, PA",NCAC,4,Turf,1711
+6,Alma,Scots,"Alma, MI",MIAA,4,Turf,1396
+7,Alvernia,Golden Wolves,"Reading, PA",MAC,1,Turf,1655
+8,Amherst,Mammoths,"Amherst, MA",NESCAC,1,Turf,1839
+9,Anderson,Ravens,"Anderson, IN",HCAC,4,Turf,1213
+10,Anna Maria,Amcats,"Paxton, MA",ECFC,1,Turf,924
+11,Augsburg,Auggies,"Minneapolis, MN",MIAC,6,Turf,2166
+12,Augustana,Vikings,"Rock Island, IL",CCIW,5,Turf,2523
+13,Aurora,Spartans,"Aurora, IL",NACC,5,Turf,3679
+14,Austin,Kangaroos,"Sherman, TX",ASC,3,Grass,1290
+15,Averett,Cougars,"Danville, VA",USAC,3,Turf,868
+16,Baldwin Wallace,Yellow Jackets,"Berea, OH",OAC,4,Turf,2767
+17,Bates,Bobcats,"Lewiston, ME",NESCAC,1,Turf,1820
+18,Belhaven,Blazers,"Jackson, MS",ASC,3,Turf,1242
+19,Beloit,Buccaneers,"Beloit, WI",MWC,5,Turf,1320
+20,Benedictine,Eagles,"Lisle, IL",NACC,5,Turf,2465
+21,Berry,Vikings,"Mount Berry, GA",SAA,3,Turf,1942
+22,Bethany,Bison,"Bethany, WV",PAC,2,Turf,501
+23,Bethel,Royals,"Arden Hills, MN",MIAC,6,Turf,2248
+24,Birmingham-Southern,Panthers,"Birmingham, AL",SAA,3,Turf,1199
+25,Bluffton,Beavers,"Bluffton, OH",HCAC,4,Turf,605
+26,Bowdoin,Polar Bears,"Brunswick, ME",NESCAC,1,Turf,1797
+27,Brevard,Tornados,"Brevard, NC",USAC,3,Turf,713
+28,Bridgewater State,Bears,"Bridgewater, MA",MASCAC,1,Turf,7959
+29,Bridgewater,Eagles,"Bridgewater, VA",ODAC,3,Turf,1868
+30,Brockport,Golden Eagles,"Brockport, NY",E8,2,Turf,6304
+31,Buena Vista,Beavers,"Storm Lake, IA",ARC,5,Turf,1873
+32,Buffalo State,Bengals,"Buffalo, NY",LL,2,Turf,8797
+33,Cal Lutheran,Kingsmen,"Thousand Oaks, CA",SCIAC,6,Turf,2477
+34,Capital,Comets,"Columbus, OH",OAC,4,Turf,2329
+35,Carleton,Knights,"Northfield, MN",MIAC,6,Grass,2023
+36,Carnegie Mellon,Tartans,"Pittsburgh, PA",PAC,2,Turf,5609
+37,Carroll,Pioneers,"Waukesha, WI",CCIW,5,Turf,2493
+38,Carthage,Firebirds,"Kenosha, WI",CCIW,5,Turf,2533
+39,Case Western Reserve,Spartans,"Cleveland, OH",PAC,2,Turf,4966
+40,Castleton,Spartans,"Castleton, VT",ECFC,1,Turf,1718
+41,Catholic,Cardinals,"Washington, DC",NEWMAC,1,Turf,3409
+42,Central,Dutch,"Pella, Iowa",ARC,5,Turf,1179
+43,Centre,Colonels,"Danville, KY",SAA,3,Turf,1337
+44,Chapman,Panthers,"Orange, CA",SCIAC,6,Turf,5433
+45,Chicago,Maroons,"Chicago, IL",MWC,5,Turf,4955
+46,Christopher Newport,Captains,"Newport News, VA",NJAC,2,Grass,4962
+47,Claremont-Mudd-Scripps,Stags,"Claremont, CA",SCIAC,6,Grass,2873
+48,Coast Guard,Bears,"New London, CT",NEWMAC,1,Turf,963
+49,Coe,Kohawks,"Cedar Rapids, IA",ARC,5,Turf,1343
+50,Colby,Mules,"Waterville, ME",NESCAC,1,Turf,1847
+51,Concordia (Wis.),Falcons,"Mequon, WI",NACC,5,Turf,2521
+52,Concordia-Chicago,Cougars,"River Forest, IL",NACC,5,Turf,1025
+53,Concordia-Moorhead,Cobbers,"Moorhead, MN",MIAC,6,Turf,2815
+54,Cornell,Rams,"Mount Vernon, IA",MWC,5,Turf,998
+55,Cortland,Red Dragons,"Cortland, NY",E8,2,Turf,6203
+56,Crown,Polars,"St. Bonifacius, MN",UMAC,6,Turf,535
+57,Curry,Colonels,"Milton, MA",CCC,1,Turf,1976
+58,Dean,Bulldogs,"Franklin, MA",ECFC,1,Grass,1095
+59,Defiance,Yellow Jackets,"Defiance, OH",HCAC,4,Turf,514
+60,Delaware Valley,Aggies,"Doylestown, PA",MAC,1,Turf,1645
+61,Denison,Big Red,"Granville, OH",NCAC,4,Turf,2259
+62,DePauw,Tigers,"Greencastle, IN",NCAC,4,Turf,1939
+63,Dickinson,Red Devils,"Carlisle, PA",CC,2,Turf,2091
+64,Dubuque,Spartans,"Dubuque, IA",ARC,5,Turf,1554
+65,East Texas Baptist,Tigers,"Marshall, TX",ASC,3,Turf,1230
+66,Elmhurst,Bluejays,"Elmhurst, IL",CCIW,5,Turf,2712
+67,Endicott,Gulls,"Beverly, MA",CCC,1,Turf,2798
+68,Eureka,Red Devils,"Eureka, IL",NACC,5,Turf,478
+69,FDU-Florham,Devils,"Madison, NJ",MAC,1,Turf,2532
+70,Ferrum,Panthers,"Ferrum, VA",ODAC,3,Turf,1030
+71,Finlandia,Lions,"Hancock, MI",UMAC,6,Turf,367
+72,Fitchburg State,Falcons,"Fitchburg, MA",MASCAC,1,Turf,3145
+73,Framingham State,Rams,"Framingham, MA",MASCAC,1,Grass,3359
+74,Franklin and Marshall,Diplomats,"Lancaster, PA",CC,2,Turf,2306
+75,Franklin,Grizzlies,"Franklin, IN",HCAC,4,Turf,876
+76,Gallaudet,Bison,"Washington, DC",ECFC,1,Turf,1005
+77,Geneva,Golden Tornadoes,"Beaver Falls, PA",PAC,2,Turf,1564
+78,George Fox,Bruins,"Newberg, OR",NWC,6,Turf,2428
+79,Gettysburg,Bullets,"Gettysburg, PA",CC,2,Turf,2367
+80,Greensboro,Pride,"Greensboro, NC",USAC,3,Turf,696
+81,Greenville,Panthers,"Greenville, IL",UMAC,6,Grass,815
+82,Grinnell,Pioneers,"Grinnell, IA",MWC,5,Grass,1694
+83,Grove City,Wolverines,"Grove City, PA",PAC,2,Turf,2509
+84,Guilford,Quakers,"Greensboro, NC",ODAC,3,Turf,1266
+85,Gustavus Adolphus,Gusties,"St. Peter, MN",MIAC,6,Turf,2212
+86,Hamilton,Continentals,"Clinton, NY",NESCAC,1,Turf,1997
+87,Hamline,Pipers,"St. Paul, MN",MIAC,6,Turf,1996
+88,Hampden-Sydney,Tigers,"Hampden-Sydney, VA",ODAC,3,Grass,986
+89,Hanover,Panthers,"Hanover, IN",HCAC,4,Turf,1062
+90,Hardin-Simmons,Cowboys,"Abilene, TX",ASC,3,Turf,1614
+91,Hartwick,Hawks,"Oneonta, NY",E8,2,Turf,1164
+92,Heidelberg,Student Princes,"Tiffin, OH",OAC,4,Turf,1036
+93,Hendrix,Warriors,"Conway, AR",SAA,3,Turf,1101
+94,Hilbert,Hawks,"Hamburg, NY",IND,2,TBA,686
+95,Hiram,Terriers,"Hiram, OH",NCAC,4,Turf,801
+96,Hobart,Statesmen,"Geneva, NY",LL,2,Turf,2031
+97,Hope,Flying Dutchmen,"Holland, MI",MIAA,4,Turf,2910
+98,Howard Payne,Yellow Jackets,"Brownwood, TX",ASC,3,Turf,738
+99,Huntingdon,Hawks,"Montgomery, AL",USAC,3,Turf,830
+100,Husson,Eagles,"Bangor, ME",CCC,1,Turf,2404
+101,Illinois College,Blueboys,"Jacksonville, IL",MWC,5,Turf,1037
+102,Illinois Wesleyan,Titans,"Bloomington, IL",CCIW,5,Turf,1610
+103,Ithaca,Bombers,"Ithaca, NY",LL,2,Grass,5735
+104,John Carroll,Blue Streaks,"University Heights, OH",OAC,4,Turf,2904
+105,Johns Hopkins,Blue Jays,"Baltimore, MD",CC,2,Turf,6006
+106,Juniata,Eagles,"Huntingdon, PA",CC,2,Turf,1269
+107,Kalamazoo,Hornets,"Kalamazoo, MI",MIAA,4,Turf,1256
+108,Kean,Cougars,"Union, NJ",NJAC,2,Turf,9702
+109,Kenyon,Owls,"Gambier, OH",NCAC,4,Turf,1734
+110,Keystone,Giants,"La Plume, PA",ECFC,1,Turf,1087
+111,King's,Monarchs,"Wilkes-Barre, PA",MAC,1,Turf,2040
+112,Knox,Prairie Fire,"Galesburg, IL",MWC,5,Turf,1223
+113,La Verne,Leopards,"La Verne, CA",SCIAC,6,Turf,3353
+114,LaGrange,Panthers,"LaGrange, GA",USAC,3,Turf,844
+115,Lake Forest,Foresters,"Lake Forest, IL",MWC,5,Turf,1509
+116,Lakeland,Muskies,"Sheboygan, WI",NACC,5,Turf,794
+117,Lawrence,Vikings,"Appleton, WI",MWC,5,Turf,1397
+118,Lebanon Valley,Flying Dutchmen,"Annville, PA",MAC,1,Turf,1633
+119,Lewis and Clark,Pioneers,"Portland, OR",NWC,6,Turf,1887
+120,Linfield,Wildcats,"McMinnville, OR",NWC,6,Turf,1363
+121,Loras,Duhawks,"Dubuque, IA",ARC,5,Turf,1260
+122,Luther,Norse,"Decorah, IA",ARC,5,Turf,1913
+123,Lycoming,Warriors,"Williamsport, PA",MAC,1,Turf,1122
+124,Macalester,Scots,"St. Paul, MN",MIAC,6,Turf,2062
+125,Manchester,Spartans,"N. Manchester, IN",HCAC,4,Turf,1060
+126,Marietta,Pioneers,"Marietta, OH",OAC,4,Turf,1052
+127,Martin Luther,Knights,"New Ulm, MN",UMAC,6,Grass,705
+128,Mary Hardin-Baylor,Crusaders,"Belton, TX",ASC,3,Turf,3112
+129,Maryville (Tenn.),Scots,"Maryville, TN",USAC,3,Grass,1061
+130,Mass-Dartmouth,Corsairs,"North Dartmouth, MA",MASCAC,1,Turf,5439
+131,Massachusetts Maritime,Buccaneers,"Buzzards Bay, MA",MASCAC,1,Turf,1616
+132,McDaniel,Green Terror,"Westminster, MD",CC,2,Turf,1649
+133,McMurry,War Hawks,"Abilene, TX",ASC,3,Turf,1019
+134,Merchant Marine,Mariners,"Kings Point, NY",NEWMAC,1,Turf,1007
+135,Methodist,Monarchs,"Fayetteville, NC",USAC,3,Grass,1974
+136,Middlebury,Panthers,"Middlebury, VT",NESCAC,1,Turf,2541
+137,Millikin,Big Blue,"Decatur, IL",CCIW,5,Turf,1869
+138,Millsaps,Majors,"Jackson, MS",SAA,3,Turf,768
+139,Minnesota-Morris,Cougars,"Morris, MN",UMAC,6,Turf,1349
+140,Misericordia,Cougars,"Dallas, PA",MAC,1,Turf,1584
+141,MIT,Engineers,"Cambridge, MA",NEWMAC,1,Turf,4487
+142,Monmouth,Scots,"Monmouth, IL",MWC,5,Turf,897
+143,Montclair State,Red Hawks,"Upper Montclair, NJ",NJAC,2,Turf,14745
+144,Moravian,Greyhounds,"Bethlehem, PA",CC,2,Turf,1912
+145,Morrisville State,Mustangs,"Morrisville, NY",E8,2,Turf,2283
+146,Mount St. Joseph,Lions,"Cincinnati, OH",HCAC,4,Turf,1006
+147,Mount Union,Purple Raiders,"Alliance, OH",OAC,4,Turf,1978
+148,Muhlenberg,Mules,"Allentown, PA",CC,2,Turf,2190
+149,Muskingum,Muskies,"New Concord, OH",OAC,4,Turf,1355
+150,N.C. Wesleyan,Battling Bishops,"Rocky Mount, NC",USAC,3,Grass,1600
+151,Nebraska Wesleyan,Prairie Wolves,"Lincoln, NE",ARC,5,Turf,1692
+152,Nichols,Bison,"Dudley, MA",CCC,1,Turf,1217
+153,North Central (Ill.),Cardinals,"Naperville, IL",CCIW,5,Turf,2530
+154,North Park,Vikings,"Chicago, IL",CCIW,5,Turf,1723
+155,Northwestern (Minn.),Eagles,"Roseville, MN",UMAC,6,Turf,1603
+156,Norwich,Cadets,"Northfield, VT",NEWMAC,1,Turf,2602
+157,Oberlin,Yeomen,"Oberlin, OH",NCAC,4,Turf,2882
+158,Ohio Northern,Polar Bears,"Ada, OH",OAC,4,Turf,2078
+159,Ohio Wesleyan,Battling Bishops,"Delaware, OH",NCAC,4,Turf,1485
+160,Olivet,Comets,"Olivet, MI",MIAA,4,Turf,959
+161,Otterbein,Cardinals,"Westerville, OH",OAC,4,Turf,2307
+162,Pacific Lutheran,Lutes,"Tacoma, WA",NWC,6,Turf,2623
+163,Pacific,Boxers,"Forest Grove, OR",NWC,6,Turf,1724
+164,Plymouth State,Panthers,"Plymouth, NH",MASCAC,1,Turf,3659
+165,Pomona-Pitzer,Sagehens,"Claremont, CA",SCIAC,6,Grass,2515
+166,Puget Sound,Loggers,"Tacoma, WA",NWC,6,Grass,2271
+167,Randolph-Macon,Yellow Jackets,"Ashland, VA",ODAC,3,Turf,1513
+168,Redlands,Bulldogs,"Redlands, CA",SCIAC,6,Grass,2642
+169,Rhodes,Lynx,"Memphis, TN",SAA,3,Turf,1939
+170,Ripon,Red Hawks,"Ripon, WI",MWC,5,Turf,765
+171,Rochester,Yellowjackets,"Rochester, NY",LL,2,Turf,6371
+172,Rockford,Regents,"Rockford, IL",NACC,5,Grass,891
+173,Rose-Hulman,Engineers,"Terre Haute, IN",HCAC,4,Turf,1975
+174,Rowan,Profs,"Glassboro, NJ",NJAC,2,Turf,14049
+175,RPI,Engineers,"Troy, NY",LL,2,Turf,6198
+176,Salisbury,Sea Gulls,"Salisbury, MD",NJAC,2,Turf,7081
+177,Salve Regina,Seahawks,"Newport, RI",CCC,1,Turf,2085
+178,Sewanee,Tigers,"Sewanee, TN",SAA,3,Turf,1669
+179,Shenandoah,Hornets,"Winchester, VA",ODAC,3,Turf,1989
+180,Simpson,Storm,"Indianola, IA",ARC,5,Turf,1159
+181,Southern Virginia,Knights,"Buena Vista, VA",USAC,3,Turf,1016
+182,Southwestern,Pirates,"Georgetown, TX",ASC,3,Turf,1495
+183,Springfield,Pride,"Springfield, MA",NEWMAC,1,Turf,2139
+184,St. John Fisher,Cardinals,"Pittsford, NY",E8,2,Turf,2535
+185,St. John's,Johnnies,"Collegeville, MN",MIAC,6,Turf,1877
+186,St. Lawrence,Saints,"Canton, NY",LL,2,Grass,2359
+187,St. Norbert,Green Knights,"De Pere, WI",NACC,5,Turf,1956
+188,St. Olaf,Oles,"Northfield, MN",MIAC,6,Turf,3030
+189,St. Scholastica,Saints,"Duluth, MN",MIAC,6,Turf,2058
+190,St. Vincent,Bearcats,"Latrobe, PA",PAC,2,Grass,1483
+191,Stevenson,Mustangs,"Stevenson, MD",MAC,1,Turf,2724
+192,Sul Ross State,Lobos,"Alpine, TX",ASC,3,Turf,1179
+193,SUNY-Maritime,Privateers,"Throggs Neck, NY",ECFC,1,Turf,1465
+194,Susquehanna,River Hawks,"Selinsgrove, PA",CC,2,Turf,2291
+195,TCNJ,Lions,"Ewing, NJ",NJAC,2,Turf,6598
+196,Texas Lutheran,Bulldogs,"Seguin, TX",ASC,3,Turf,1379
+197,Thiel,Tomcats,"Greenville, PA",PAC,2,Turf,689
+198,Trine,Thunder,"Angola, IN",MIAA,4,Turf,2087
+199,Trinity (Conn.),Bantams,"Hartford, CT",NESCAC,1,Turf,2109
+200,Trinity (Texas),Tigers,"San Antonio, TX",SAA,3,Turf,2397
+201,Tufts,Jumbos,"Medford, MA",NESCAC,1,Turf,5938
+202,Union,Dutchmen,"Schenectady, NY",LL,2,Turf,2157
+203,University of New England,Nor'easters,"Biddeford, ME",CCC,1,Turf,2409
+204,Ursinus,Bears,"Collegeville, PA",CC,2,Turf,1454
+205,Utica,Pioneers,"Utica, NY",E8,2,Turf,2810
+206,UW-Eau Claire,Blugolds,"Eau Claire, WI",WIAC,6,Turf,9743
+207,UW-La Crosse,Eagles,"La Crosse, WI",WIAC,6,Turf,9055
+208,UW-Oshkosh,Titans,"Oshkosh, WI",WIAC,6,Turf,8438
+209,UW-Platteville,Pioneers,"Platteville, WI",WIAC,6,Turf,6457
+210,UW-River Falls,Falcons,"River Falls, WI",WIAC,6,Turf,4991
+211,UW-Stevens Point,Pointers,"Stevens Point, WI",WIAC,6,Turf,8332
+212,UW-Stout,Blue Devils,"Menomonie, WI",WIAC,6,Turf,6825
+213,UW-Whitewater,Warhawks,"Whitewater, WI",WIAC,6,Turf,9488
+214,Wabash,Little Giants,"Crawfordsville, IN",NCAC,4,Turf,868
+215,Wartburg,Knights,"Waverly, IA",ARC,5,Turf,1461
+216,Washington and Jefferson,Presidents,"Washington, PA",PAC,2,Turf,1243
+217,Washington and Lee,Generals,"Lexington, VA",ODAC,3,Turf,1843
+218,Washington U.,Bears,"St. Louis, MO",CCIW,5,Turf,7092
+219,Waynesburg,Yellow Jackets,"Waynesburg, PA",PAC,2,Turf,1239
+220,Wesleyan,Cardinals,"Middletown, CT",NESCAC,1,Grass,2930
+221,Western Connecticut,Colonials,"Danbury, CT",MASCAC,1,Turf,4072
+222,Western New England,Golden Bears,"Springfield, MA",CCC,1,Turf,2580
+223,Westfield State,Owls,"Westfield, MA",MASCAC,1,Turf,4239
+224,Westminster (Mo.),Blue Jays,"Fulton, MO",UMAC,6,Turf,632
+225,Westminster (Pa.),Titans,"New Wilmington, PA",PAC,2,Turf,1107
+226,Wheaton (Ill.),Thunder,"Wheaton, IL",CCIW,5,Turf,2325
+227,Whittier,Poets,"Whittier, CA",SCIAC,6,Turf,1746
+228,Whitworth,Pirates,"Spokane, WA",NWC,6,Turf,2353
+229,Widener,Pride,"Chester, PA",MAC,1,Turf,2767
+230,Wilkes,Colonels,"Wilkes-Barre, PA",MAC,1,Turf,2082
+231,Willamette,Bearcats,"Salem, OR",NWC,6,Turf,1456
+232,William Paterson,Pioneers,"Wayne, NJ",NJAC,2,Turf,7155
+233,Williams,Ephs,"Williamstown, MA",NESCAC,1,Turf,2028
+234,Wilmington,Quakers,"Wilmington, OH",OAC,4,Turf,1192
+235,Wisconsin Lutheran,Warriors,"Milwaukee, WI",NACC,5,Turf,915
+236,Wittenberg,Tigers,"Springfield, OH",NCAC,4,Turf,1492
+237,Wooster,Scots,"Wooster, OH",NCAC,4,Turf,1934
+238,Worcester State,Lancers,"Worcester, MA",MASCAC,1,Turf,4069
+239,WPI,Engineers,"Worcester, MA",NEWMAC,1,Turf,4578

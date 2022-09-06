@@ -1,0 +1,55 @@
+Enter -['Start of 1st Half']
+['Clock 15:00.']
+['Quintanilla,San kickoff 46 yards to the UWRF19, Oeun,Tim return 15 yards to the UWRF34 (Masco,Jake;Fowler,Zach).']
+Is this opponent scout? (Y/N)Are you UW-River Falls (H) or Elmhurst (A)?Final score UW-River Falls 45 - Elmhurst 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Start of 1st quarter, clock 15:00.']
+['HENDRIX ball on HENDRIX35.']
+['Bennett Ellis kickoff 60 yards to the UWRF5, Silva,Anthony return 19 yards to the UWRF24 (Ethan Armour;Seth Hakanson).']
+Is this opponent scout? (Y/N)Are you Hendrix (H) or UW-River Falls (A)?Final score Hendrix 33 - UW-River Falls 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Northwestern won the toss. Northwestern deferred until the second half River Falls will receive the opening kickoff.']
+['UNW ball on UNW35.']
+['Blake Mitchell kickoff 55 yards to the UWRF10, Fugate,Luke return 26 yards to the UWRF36 (Tate Bounds;Cameron Coppock).']
+Is this opponent scout? (Y/N)Are you Northwestern (Minn.) (H) or UW-River Falls (A)?Final score Northwestern (Minn.) 13 - UW-River Falls 69
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UW-River Falls wins toss and will kickoff; UWL will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Patterson,Bobby kickoff 28 yards to the UWL37 Simuncak,Jake return 0 yards to the UWL37 (Myren,Garrett).']
+Is this opponent scout? (Y/N)Are you UW-River Falls (H) or Wis.-La Crosse (A)?Final score UW-River Falls 23 - Wis.-La Crosse 45
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Stevens Point wins toss and defers; WRF will receive; WSP will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ponterio,Victor kickoff 64 yards to the WRF01 Blaha,Kaleb return 24 yards to the WRF25 (Wiggins,Reese).']
+Is this opponent scout? (Y/N)Are you Wis.-Stevens Point (H) or UW-River Falls (A)?Final score Wis.-Stevens Point 20 - UW-River Falls 56
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Eau Claire wins toss and defers; WRF will receive; WEC will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Frantal,Brady kickoff 58 yards to the WRF07 Blaha,Kaleb return 32 yards to the WRF39 (Burzynski,Sam; Tankhamvang,Tommy).']
+Is this opponent scout? (Y/N)Are you Wis.-Eau Claire (H) or UW-River Falls (A)?Final score Wis.-Eau Claire 24 - UW-River Falls 41
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Whitewater wins toss and will kickoff; UWR will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Maldonado,Matt kickoff 62 yards to the UWR03 Blaha,Kaleb return 13 yards to the UWR16 (Koelblinger,Kyle).']
+Is this opponent scout? (Y/N)Are you UW-River Falls (H) or Wis.-Whitewater (A)?Final score UW-River Falls 28 - Wis.-Whitewater 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UW-River Falls wins toss and will receive; UWP will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Schweigert,Andrew kickoff 55 yards to the UWR10 Blaha,Kaleb return 15 yards to the UWR25 (Cole,Ryan).']
+Is this opponent scout? (Y/N)Are you UW-River Falls (H) or UW-Platteville (A)?Final score UW-River Falls 31 - UW-Platteville 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Stout wins toss. Stout defers to 2nd half. Stout will defend south ez']
+['STOUT ball on STOUT35.']
+['Jack Meyer kickoff 65 yards to the UWRF0, Blaha,Kaleb return 27 yards to the UWRF27 (Noah Jungwirth).']
+Is this opponent scout? (Y/N)Are you UW-Stout (H) or UW-River Falls (A)?Final score UW-Stout 35 - UW-River Falls 57
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UWO wins toss and differs option. UWRF will receive kickoff.']
+['UWO ball on UWO35.']
+['Jaydon Haag kickoff 52 yards to the UWRF13, Blaha,Kaleb return 27 yards to the UWRF40 (Alex Gonzalez).']
+Is this opponent scout? (Y/N)Are you UW-Oshkosh (H) or UW-River Falls (A)?Final score UW-Oshkosh 21 - UW-River Falls 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WashU wins toss and defers; RF  will receive; WAS will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Vartanian,Chris kickoff 61 yards to the RF 04 Blaha,Kaleb return 26 yards to the RF 30 (Conjar,Kieran).']
+Is this opponent scout? (Y/N)Are you UW-River Falls (H) or WashU (A)?Final score UW-River Falls 48 - WashU 27
+Folder name? (Scout team name default)

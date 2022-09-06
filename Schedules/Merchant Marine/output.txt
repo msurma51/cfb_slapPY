@@ -1,0 +1,45 @@
+Enter -['Start of 1st Half']
+['FDU won toss and will receive']
+['Jackson Tinkis kickoff 55 yards to the FDU10, Brendan Dennis return 80 yards to the USMMA10 (Kurt Voll;C.J. Mustain).']
+Is this opponent scout? (Y/N)Are you FDU-Florham (H) or Merchant Marine (A)?Final score FDU-Florham 27 - Merchant Marine 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Maritime wins toss - elects to receive']
+['USMMA ball on USMMA35.']
+['Jackson Tinkis kickoff 47 yards to the MARITIME18, Caden Bennett return 7 yards to the MARITIME25, fumble forced by Mark Thompson, fumble by Caden Bennett recovered by MARITIME Caden Bennett at MARITIME24.']
+Is this opponent scout? (Y/N)Are you SUNY Maritime (H) or Merchant Marine (A)?Final score SUNY Maritime 7 - Merchant Marine 56
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Change of possession, USMMA ball on USMMA35, 1st and 10.']
+Is this opponent scout? (Y/N)Are you Merchant Marine (H) or Kean (A)?Final score Merchant Marine 56 - Kean 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['USMMA wins toss, and defers; WPI will receive from L to R.']
+['USMMA ball on USMMA35.']
+['Jackson Tinkis kickoff 45 yards to the WPI20, Beck Carrier return 8 yards to the WPI28 (Brian McGovern).']
+Is this opponent scout? (Y/N)Are you Merchant Marine (H) or WPI (A)?Final score Merchant Marine 31 - WPI 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NORWICH ball on NORWICH35, clock 15:00.']
+['Zach Buchy kickoff 11 yards to the NORWICH46, on-side kick, recovered by NORWICH on NORWICH44, PENALTY NORWICH illegal touching (Zach Buchy) 9 yards to the NORWICH44, NO PLAY.']
+Is this opponent scout? (Y/N)Are you Norwich (H) or Merchant Marine (A)?Final score Norwich 14 - Merchant Marine 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Change of possession, USMMA ball on USMMA35, 1st and 10. USMMA won coin toss and deferred to second half.']
+Is this opponent scout? (Y/N)Are you Merchant Marine (H) or MIT (A)?Final score Merchant Marine 56 - MIT 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Catholic won the toss and elected to defer to the second half.']
+['Connor Gill kickoff 58 yards to the USMMA7, Matt Strong return 16 yards to the USMMA23 (Noah Miller).']
+Is this opponent scout? (Y/N)Are you Merchant Marine (H) or Catholic (A)?Final score Merchant Marine 44 - Catholic 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Merchant Marine wins the toss, Springfield will receive opening kickoff']
+['MERCHANT ball on MERCHANT35, clock 15:00.']
+['Jackson Tinkis kickoff 53 yards to the SPRINGFI12, Ryan Hendricks return 26 yards to the SPRINGFI38 (Jeremiah Wang), PENALTY MERCHANT unsportmanlike conduct (Teddy Brunger) 15 yards to the MERCHANT47.']
+Is this opponent scout? (Y/N)Are you Springfield (H) or Merchant Marine (A)?Final score Springfield 28 - Merchant Marine 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Merchant Marine wins toss and defers; CGA will receive; MMA will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Tinkis,Jackson kickoff 47 yards to the CGA18 Ross,Matt return 6 yards to the CGA24 (Strong,Matt).']
+Is this opponent scout? (Y/N)Are you Coast Guard (H) or Merchant Marine (A)?Final score Coast Guard 14 - Merchant Marine 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Merchant Marine wins toss and defers WNE will receive MMA will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, USMMA ball on USMMA35.']
+['Jackson Tinkis kickoff 44 yards to the GOLDEN-B21, Watson,Richie return 10 yards to the GOLDEN-B31 (Daniel Falzone).']
+Is this opponent scout? (Y/N)Are you Western New Eng. (H) or Merchant Marine (A)?Final score Western New Eng. 35 - Merchant Marine 63
+Folder name? (Scout team name default)

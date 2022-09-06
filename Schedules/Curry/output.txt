@@ -1,0 +1,42 @@
+Enter -['1st']
+['1st and 10 at CURRY35', 'MIT ball on MIT25.']
+['', 'Nico Bulhof kickoff 0 yards to the MIT25, Miles Cogdell return -35 yards to the CURRY40 (Adam Zimmermann; Jay Theriault).']
+Is this opponent scout? (Y/N)Are you MIT (H) or Curry (A)?Final score MIT 41 - Curry 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CGA35', 'CGA ball on CGA35, clock 15:00.']
+['', 'Finnegan Hall kickoff 51 yards to the CURRY14, Angel Martinez return 7 yards to the CURRY21 (Nico Berrios).']
+Is this opponent scout? (Y/N)Are you Curry (H) or Coast Guard (A)?Final score Curry 21 - Coast Guard 18
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HARTWICK35', 'HARTWICK ball on HARTWICK35, clock 15:00.']
+['1st and 10 at HARTWICK35', 'Curry wins the coin toss, elects to receive']
+['', 'Nick Andrade kickoff 56 yards to the CURRY09, Chris Jenkins return 22 yards to the CURRY31 (Dylan Solenski).']
+Is this opponent scout? (Y/N)Are you Curry (H) or Hartwick (A)?Final score Curry 14 - Hartwick 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CURRY35', '*Endicott wins coin toss, elects to differ']
+['1st and 10 at CURRY35', 'ECM ball on ECM35.']
+['', 'C. Edwards kickoff 52 yards to the CURRY13, Angel Martinez return 9 yards to the CURRY22 (Matthew Whelan).']
+Is this opponent scout? (Y/N)Are you Endicott (H) or Curry (A)?Final score Endicott 34 - Curry 27
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CURRY35', 'CURRY ball on CURRY35, clock 15:00.']
+['', 'Billy Lynch kickoff 49 yards to the HUS16, out-of-bounds, HUS ball on HUS35, clock 15:00.']
+Is this opponent scout? (Y/N)Are you Husson (H) or Curry (A)?Final score Husson 21 - Curry 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WNEU35', 'CURRY ball on CURRY35, clock 15:00.']
+['1st and 10 at CURRY35', 'Curry wins toss elects to defer']
+['', 'Billy Lynch kickoff 56 yards to the WNEU09, Adam Razza return 91 yards to the CURRY00, TOUCHDOWN, clock 14:48.']
+Is this opponent scout? (Y/N)Are you Curry (H) or Western New Eng. (A)?Final score Curry 10 - Western New Eng. 23
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CUR35', 'SRU ball on SRU35, clock 15:00.']
+['', 'Matteo Marasco kickoff 50 yards to the CUR15, Chris Jenkins return 14 yards to the CUR29 (G. DeForest).']
+Is this opponent scout? (Y/N)Are you Salve Regina (H) or Curry (A)?Final score Salve Regina 47 - Curry 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at NICHOLS35', 'NICHOLS ball on NICHOLS35, clock 15:00.']
+['1st and 10 at NICHOLS35', 'Curry wins the toss, elects to receive']
+['', 'V. Mallozzi kickoff 45 yards to the CURRY20, Angel Martinez return 14 yards to the CURRY34 (Dylan Nees-Fair).']
+Score correction made in Nichols @ Curry (index) quarter 1 drive 1
+Is this opponent scout? (Y/N)Are you Curry (H) or Nichols (A)?Final score Curry 28 - Nichols 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UNE35', 'CURRY ball on CURRY35, clock 15:00.']
+['', 'Billy Lynch kickoff 63 yards to the UNE02, Jack Mahoney return 17 yards to the UNE19 (Justin Orlowski; Adem Kica).']
+Is this opponent scout? (Y/N)Are you Curry (H) or U. of New England (A)?Final score Curry 43 - U. of New England 55
+Folder name? (Scout team name default)

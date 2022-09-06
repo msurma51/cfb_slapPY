@@ -1,0 +1,74 @@
+Enter -['Start of 1st Half']
+['ETBU ball on ETBU35, clock 15:00.']
+['A Garcia kickoff 49 yards to the UWP16, Kyle Antos return 15 yards to the UWP31 (K Bradley).']
+Score correction made in East Tex. Baptist @ Wis.-Platteville (index) quarter 3 drive 9
+Is this opponent scout? (Y/N)Are you Wis.-Platteville (H) or East Tex. Baptist (A)?Final score Wis.-Platteville 31 - East Tex. Baptist 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['East Tex. Baptist wins toss and defers; CRU will receive; ETB will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Garcia,Alberto kickoff 46 yards to the CRU19 Bowden,Tommy return 23 yards to the CRU42 (Patrick,Azaya; Bradley,Kenneth).']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or East Tex. Baptist (A)?Final score Mary Hardin-Baylor 34 - East Tex. Baptist 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['McMurry wins toss and defers; ETX will receive; McM will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Mendoza,Jared kickoff 60 yards to the ETX05 Boyd,Semaj return 25 yards to the ETX30 (Conn,Cooper).']
+Score correction made in McMurry @ East Tex. Baptist (index) quarter 0 drive 1
+Is this opponent scout? (Y/N)Are you East Tex. Baptist (H) or McMurry (A)?Final score East Tex. Baptist 24 - McMurry 15
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Howard Payne wins toss and will receive; ETX will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Garcia,Alberto kickoff 55 yards to the HPU10 Lanier,Otis return 20 yards to the HPU30 (Williams,Jordyn).']
+Score correction made in Howard Payne @ East Tex. Baptist (index) quarter 2 drive 1
+Score correction made in Howard Payne @ East Tex. Baptist (index) quarter 2 drive 4
+Is this opponent scout? (Y/N)Are you East Tex. Baptist (H) or Howard Payne (A)?Final score East Tex. Baptist 38 - Howard Payne 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SOUTHWES ball on SOUTHWES35, clock 15:00.']
+['Charlie Fournier kickoff 65 yards to the EAST TEX00, touchback.']
+Exception in East Tex. Baptist at Southwestern (Tex.) (index) quarter 3 drive 10
+	 ['East Tex. Baptist at 01:22']
+	 ['East Tex. Baptist at 01:22']
+	 ['1st and 10 at SOUTHWES29', 'East Tex. Baptist drive start at 01:22.']
+	 ['1st and 10 at SOUTHWES29', 'TEAM rush for loss of 6 yards to the SOUTHWES35.']
+	 ['2nd and 16 at SOUTHWES35', 'Troy Yowman rush for loss of 3 yards to the SOUTHWES38, fumble by Troy Yowman recovered by EAST TEX Jaden Thomas at SOUTHWES41.']
+	 ['3rd and 22 at SOUTHWES41', 'End of game, clock 00:00.']
+	 ['Total', '2 plays , -12 yards Time of Possession: 01:22']
+	 ['East Tex. Baptist 27-17 Southwestern (Tex.)']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'EAST'
+
+Is this opponent scout? (Y/N)Are you Southwestern (Tex.) (H) or East Tex. Baptist (A)?Final score Southwestern (Tex.) 17 - East Tex. Baptist 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hardin-Simmons wins toss and defers; ETX will receive; HSU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Davila,Edgar kickoff 62 yards to the ETX03 Boyd,Semaj return 29 yards to the ETX32 (Michna,Cade).']
+Is this opponent scout? (Y/N)Are you East Tex. Baptist (H) or Hardin-Simmons (A)?Final score East Tex. Baptist 0 - Hardin-Simmons 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['ETBU ball on ETBU35, clock 15:00.']
+['Alberto Garcia kickoff 65 yards to the AC00, touchback.']
+Score correction made in East Tex. Baptist @ Austin (index) quarter 3 drive 3
+Score correction made in East Tex. Baptist @ Austin (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you Austin (H) or East Tex. Baptist (A)?Final score Austin 30 - East Tex. Baptist 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Texas Lutheran wins toss and defers; ETX will receive; TLU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ocampo,Juan kickoff 43 yards to the ETX22 Eagans,Caleb return 11 yards to the ETX33 (Augustin,David).']
+Is this opponent scout? (Y/N)Are you East Tex. Baptist (H) or Texas Lutheran (A)?Final score East Tex. Baptist 13 - Texas Lutheran 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['East Tex. Baptist wins toss and defers; SRS will receive; ETB will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Garcia,Alberto kickoff 58 yards to the SRS07 Jefferson,Kendrick return 30 yards to the SRS37 (Burgess,EJ).']
+Is this opponent scout? (Y/N)Are you Sul Ross St. (H) or East Tex. Baptist (A)?Final score Sul Ross St. 28 - East Tex. Baptist 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['East Tex. Baptist wins toss and defers; BEL will receive; ETX will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Garcia,Alberto kickoff 61 yards to the BEL04 Toliver,Corey return 17 yards to the BEL21 (Pike,Zach).']
+Is this opponent scout? (Y/N)Are you East Tex. Baptist (H) or Belhaven (A)?Final score East Tex. Baptist 7 - Belhaven 41
+Folder name? (Scout team name default)

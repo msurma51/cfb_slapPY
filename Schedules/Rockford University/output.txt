@@ -1,0 +1,57 @@
+Enter -['Start of 1st Half']
+['Rockford wins the toss and defers. Grinnell will receive.']
+['RU ball on RU35.']
+['Start of 1st quarter, clock 15:00.']
+['Zamudio,Gerardo kickoff 57 yards to the GC8, fair catch by Hugh Werner.']
+Is this opponent scout? (Y/N)Are you Rockford University (H) or Grinnell College (A)?Final score Rockford University 48 - Grinnell College 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rockford wins the toss and defers. Greenville will receive.']
+['RU ball on RU35.']
+['Start of 1st quarter, clock 15:00.']
+['Zamudio,Gerardo kickoff 63 yards to the GU2, Ashton Moultrie return 19 yards to the GU21, out-of-bounds (Zamudio,Gerardo), PENALTY GU holding 10 yards to the GU11, 1st and 10, GU ball on GU11.']
+Is this opponent scout? (Y/N)Are you Rockford University (H) or Greenville (A)?Final score Rockford University 42 - Greenville 57
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rockford wins the toss and elects to receive.']
+['EUR ball on EUR35.']
+['Start of 1st quarter, clock 15:00.']
+['Bartkus, Steven kickoff 57 yards to the RU8, Bowins, Martiez return 10 yards to the RU18 (Toussaint, M.).']
+Is this opponent scout? (Y/N)Are you Rockford University (H) or Eureka College (A)?Final score Rockford University 57 - Eureka College 58
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Aurora University wins toss and defers; ROC will receive; AUR will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Wielgosz,Austin kickoff 65 yards to the ROC00, Touchback.']
+Is this opponent scout? (Y/N)Are you Aurora University (H) or Rockford University (A)?Final score Aurora University 70 - Rockford University 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rockford wins toss and will receive; CUW will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Casas,Andre kickoff 65 yards to the ROC00, Touchback.']
+Score correction made in Rockford @ Concordia Wisconsin (index) quarter 0 drive 3
+Score correction made in Rockford @ Concordia Wisconsin (index) quarter 0 drive 7
+Is this opponent scout? (Y/N)Are you Concordia Wisconsin (H) or Rockford (A)?Final score Concordia Wisconsin 41 - Rockford 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rockford wins the toss and will receive.']
+['CUC ball on CUC35.']
+['Start of 1st quarter, clock 15:00.']
+['Ryan Auer kickoff 51 yards to the RU14, Williams, Maur return 17 yards to the RU31 (Justin Pierce).']
+Is this opponent scout? (Y/N)Are you Rockford University (H) or Concordia Chicago (A)?Final score Rockford University 35 - Concordia Chicago 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wisconsin Lutheran wins the toss and defers. Rockford will receive.']
+['Start of 1st quarter, clock 15:00.']
+['Ortega, Arnulfo kickoff 50 yards to the RU15, Carey, Jack return 0 yards to the RU15, fumble by Carey, Jack recovered by RU TEAM at RU10.']
+Is this opponent scout? (Y/N)Are you Rockford University (H) or Wisconsin Lutheran (A)?Final score Rockford University 41 - Wisconsin Lutheran 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rockford wins the toss and defers. Benedictine will receive']
+['Pavlak, Henry kickoff 35 yards to the BENU30, fair catch by Senerchia, Anth.']
+Is this opponent scout? (Y/N)Are you Benedictine (IL) (H) or Rockford (A)?Final score Benedictine (IL) 41 - Rockford 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. Norbert captains: 7, 23, 54, 56 Rockford captains: 2, 4, 11, 28 Rockford wins toss and defers choice. St. Norbert receives north end.']
+['Pavlak, Henry kickoff 22 yards to the SNC43, fair catch by Hoeft,Tommy.']
+Is this opponent scout? (Y/N)Are you St. Norbert College (H) or Rockford Univ. (A)?Final score St. Norbert College 77 - Rockford Univ. 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rockford wins the toss and defers. Lakeland will receive.']
+['Start of 1st quarter, clock 15:00.']
+['RU ball on RU35.']
+['Start of 1st quarter, clock 15:00.']
+['Gonzalez, Abrah kickoff 41 yards to the LU24, Prunick, Mason return 11 yards to the LU35 (Johnson, Emani;Morris, Joshua).']
+Is this opponent scout? (Y/N)Are you Rockford University (H) or Lakeland University (A)?Final score Rockford University 28 - Lakeland University 56
+Folder name? (Scout team name default)

@@ -1,0 +1,53 @@
+Enter -['Start of 1st Half']
+['DU won the toss and defers. ONU will receive and defend the N goal.']
+['Thomas Gelorme kickoff 63 yards to the ONU2, fair catch by Brock Martin.']
+Is this opponent scout? (Y/N)Are you Ohio Northern (H) or DENISON (A)?Final score Ohio Northern 34 - DENISON 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Allegheny wins toss and defers; Den will receive; All will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Perkins,Score kickoff 62 yards to the Den03 Epps,Jaylin return 17 yards to the Den20 (Perkins,Score).']
+Is this opponent scout? (Y/N)Are you Denison (H) or Allegheny (A)?Final score Denison 31 - Allegheny 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['OC 4,71,21,2: 50,1,57,8 DC. Oberlin wins toss and will kick off']
+['OBEF ball on OBEF35.']
+['Sam Bingaman kickoff 59 yards to the DENISON6, Andrew Brown return 24 yards to the DENISON30 (Noah Schwartz).']
+Is this opponent scout? (Y/N)Are you Oberlin College (H) or DENISON (A)?Final score Oberlin College 12 - DENISON 59
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Denison wins toss and defers; Wit will receive; Den will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Gelorme,Thomas kickoff 23 yards to the Wit42 Bright,Lashon return 0 yards to the Wit42 (Ellis,Karl), out of bounds.']
+Is this opponent scout? (Y/N)Are you Denison (H) or Wittenberg (A)?Final score Denison 21 - Wittenberg 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Denison wins toss and defers; Wab will receive; Den will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Gelorme,Thomas kickoff 60 yards to the Wab05 fair catch by Sullivan,Cooper at Wab05.']
+Score correction made in Wabash @ Denison (index) quarter 2 drive 2
+Is this opponent scout? (Y/N)Are you Denison (H) or Wabash (A)?Final score Denison 38 - Wabash 39
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Denison wins toss and defers; KEN will receive; DEN will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Gelorme,Thomas kickoff 58 yards to the KEN07 Kim,Zach return 31 yards to the KEN38 (Bearden,Jonathan).']
+Is this opponent scout? (Y/N)Are you Kenyon (H) or Denison (A)?Final score Kenyon 7 - Denison 45
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Denison wins toss and defers; Woo will receive; Den will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Gelorme,Thomas kickoff 65 yards to the Woo00, Touchback.']
+Is this opponent scout? (Y/N)Are you Denison (H) or Wooster (A)?Final score Denison 52 - Wooster 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Denison wins toss and defers; DPU will receive; DEN will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Gelorme,Thomas kickoff 65 yards to the DPU00, Touchback.']
+Is this opponent scout? (Y/N)Are you DePauw (H) or Denison (A)?Final score DePauw 27 - Denison 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Denison wins toss and will receive; HIR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Miller,Chris kickoff 60 yards to the DEN05 Epps,Jaylin return for 4 yards loss to the DEN05 fumbled by Epps,Jaylin at DEN05 recovered by DEN Epps,Jaylin at DEN01 (Irving,Xavier; Brumbaugh,Anthony).']
+Is this opponent scout? (Y/N)Are you Hiram (H) or Denison (A)?Final score Hiram 6 - Denison 59
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Denison wins toss and defers']
+['OWU will receive']
+['Den will defend West end-zone']
+['Start of 1st quarter, clock 15:00, DEN ball on DEN35.']
+['Thomas Gelorme kickoff 60 yards to the OWU05, Trey Dixon return 17 yards to the OWU22, out-of-bounds (Tyler Hendricks).']
+Is this opponent scout? (Y/N)Are you Denison (H) or Ohio Wesleyan (A)?Final score Denison 25 - Ohio Wesleyan 35
+Folder name? (Scout team name default)

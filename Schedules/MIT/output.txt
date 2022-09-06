@@ -1,0 +1,41 @@
+Enter -['Start of 1st Half']
+['MIT ball on MIT25.']
+['Nico Bulhof kickoff 0 yards to the MIT25, Miles Cogdell return -35 yards to the CURRY40 (Adam Zimmermann;Jay Theriault).']
+Is this opponent scout? (Y/N)Are you MIT (H) or Curry College (A)?Final score MIT 41 - Curry College 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SRU ball on SRU35.']
+['Brian Johnson kickoff 60 yards to the MIT5, Evan Gwozdz return 14 yards to the MIT19 (Nicholas Lane).']
+Is this opponent scout? (Y/N)Are you Salve Regina (H) or MIT (A)?Final score Salve Regina 21 - MIT 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['DEAN ball on DEAN35, clock 15:00.']
+['Mason Dill kickoff 60 yards to the MIT05, George Stultz return 50 yards to the DEAN45 (Kordell Scott; Mason Dill).']
+Is this opponent scout? (Y/N)Are you Dean (H) or MIT (A)?Final score Dean 0 - MIT 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MIT wins coin toss, defers. CATHU to receive, defend South endzone.']
+['Nico Bulhof kickoff 62 yards to the CATHU3, fair catch by Malachi Hansen.']
+Score correction made in MIT @ Catholic (index) quarter 3 drive 3
+Score correction made in MIT @ Catholic (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you Catholic (H) or MIT (A)?Final score Catholic 23 - MIT 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Change of possession, USMMA ball on USMMA35, 1st and 10. USMMA won coin toss and deferred to second half.']
+Is this opponent scout? (Y/N)Are you Merchant Marine (H) or MIT (A)?Final score Merchant Marine 56 - MIT 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Norwich won toss, defers']
+['Zach Buchy kickoff 36 yards to the MIT29, George Stultz return 2 yards to the MIT31.']
+Is this opponent scout? (Y/N)Are you MIT (H) or Norwich (A)?Final score MIT 48 - Norwich 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' MIT wins toss and defers CGA will receive MIT will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MIT ball on MIT35.']
+['Nico Bulhof kickoff 56 yards to the CGA9, Wagner,Jacob return 24 yards to the CGA33 (Adam Zimmermann).']
+Is this opponent scout? (Y/N)Are you Coast Guard (H) or MIT (A)?Final score Coast Guard 7 - MIT 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Springfield wins the toss and defers to the second half.']
+['Christian Hutra kickoff 59 yards to the MIT6, Evan Gwozdz return 21 yards to the MIT27 (Cam Hart).']
+Is this opponent scout? (Y/N)Are you MIT (H) or Springfield (A)?Final score MIT 7 - Springfield 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MIT wins toss; defers to second half']
+['MIT ball on MIT35.']
+['Nico Bulhof kickoff 60 yards to the WPI5, C. Luizzi return 45 yards to the 50 yardline, out-of-bounds (Step. Lostetter).']
+Is this opponent scout? (Y/N)Are you MIT (H) or WPI (A)?Final score MIT 38 - WPI 10
+Folder name? (Scout team name default)

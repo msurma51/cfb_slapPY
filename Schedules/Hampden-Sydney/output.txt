@@ -1,0 +1,59 @@
+Enter -['Start of 1st Half']
+[' Baldwin Wallace wins toss and defers HSC will receive BWU will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, BWU ball on BWU35.']
+['Sarris,Dean kickoff 57 yards to the HSC8, Iceysis Lewis return 20 yards to the HSC28 (Pankow,Nick;Levasseur,Mason).']
+Is this opponent scout? (Y/N)Are you Hampden-Sydney (H) or Baldwin Wallace (A)?Final score Hampden-Sydney 24 - Baldwin Wallace 45
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Widener wins toss and defers HSC will receive WID will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, PRIDE ball on PRIDE35.']
+['Eimer,Larry kickoff 59 yards to the HSC6, Iceysis Lewis return 72 yards to the PRIDE22, out-of-bounds (Jordan,Anthony).']
+Is this opponent scout? (Y/N)Are you Widener (H) or Hampden-Sydney (A)?Final score Widener 34 - Hampden-Sydney 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Shenandoah wins toss and defers HSC will receive SHN will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SU ball on SU35.']
+['Ritchie,Patrick kickoff 58 yards to the HSC7, Brice Wilson return 43 yards to the 50 yardline (Redd,Quante).']
+Score correction made in Shenandoah @ Hampden-Sydney (index) quarter 1 drive 4
+Is this opponent scout? (Y/N)Are you Hampden-Sydney (H) or Shenandoah (A)?Final score Hampden-Sydney 28 - Shenandoah 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['HSC ball on HSC35, clock 15:00.']
+['Palmer Smith kickoff 60 yards to the GUILFORD5, Kamari Norman return 65 yards to the HSC30 (Hunter Spence).']
+Is this opponent scout? (Y/N)Are you Guilford (H) or Hampden-Sydney (A)?Final score Guilford 27 - Hampden-Sydney 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hampden-Sydney wins toss and defers WLU will receive HSC will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, HSC ball on HSC35.']
+['Palmer Smith kickoff 55 yards to the GENERALS10, Wertz,Alex return 23 yards to the GENERALS33 (Dorian Green).']
+Is this opponent scout? (Y/N)Are you Hampden-Sydney (H) or Wash. & Lee (A)?Final score Hampden-Sydney 30 - Wash. & Lee 32
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hampden-Sydney wins toss and defers E&H will receive HSC will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, HSC ball on HSC35.']
+["Smith,Palmer kickoff 61 yards to the E&H4, Howard,Jo'-el return 96 yards to the HSC0, TOUCHDOWN, clock 14:48."]
+Is this opponent scout? (Y/N)Are you Emory & Henry (H) or Hampden-Sydney (A)?Final score Emory & Henry 37 - Hampden-Sydney 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Ferrum wins toss and defers HSC will receive FER will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, PANTHERS ball on PANTHERS35.']
+['Clark,Isaiah kickoff 47 yards to the HSC18, Wilson,Brice return 7 yards to the HSC25 (Epperley,Cole).']
+Is this opponent scout? (Y/N)Are you Hampden-Sydney (H) or Ferrum (A)?Final score Hampden-Sydney 42 - Ferrum 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['APR won, defers']
+['APR ball on APR35.']
+['Jeremiah Morgan kickoff 60 yards to the HSC5, Wilson,Brice return 25 yards to the HSC30 (TEAM).']
+Score correction made in Hampden-Sydney @ Apprentice (index) quarter 2 drive 10
+Score correction made in Hampden-Sydney @ Apprentice (index) quarter 3 drive 3
+Is this opponent scout? (Y/N)Are you Apprentice (H) or Hampden-Sydney (A)?Final score Apprentice 21 - Hampden-Sydney 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hampden-Sydney wins toss and will receive BWC will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, BC ball on BC35.']
+['Hendren,Jackson kickoff 61 yards to the HSC4, Wilson,Brice return 22 yards to the HSC26 (Papich,Jaden;Waller,Brandon).']
+Is this opponent scout? (Y/N)Are you Hampden-Sydney (H) or Bridgewater (VA) (A)?Final score Hampden-Sydney 24 - Bridgewater (VA) 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['RMC ball on RMC35, clock 15:00.']
+['Chris Vidal kickoff 60 yards to the HSC5, out-of-bounds, HSC ball on HSC35, clock 15:00.']
+Is this opponent scout? (Y/N)Are you Randolph-Macon (H) or Hampden-Sydney (A)?Final score Randolph-Macon 37 - Hampden-Sydney 14
+Folder name? (Scout team name default)

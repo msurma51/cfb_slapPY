@@ -1,0 +1,51 @@
+Enter -['Start of 1st Half']
+['NORWICH ball on NORWICH35, clock 15:00.']
+['Zach Buchy kickoff 54 yards to the SRU11, Benjamin Cortes return 19 yards to the SRU30 (Kevin Dougherty).']
+Is this opponent scout? (Y/N)Are you Norwich (H) or Salve Regina (A)?Final score Norwich 0 - Salve Regina 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Norwich wins toss and defers; SLU will receive; NWU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Bushy,Zach kickoff 51 yards to the SLU14 Schmitt,Peyton return 4 yards to the SLU18 (Lander,Jonathan).']
+Is this opponent scout? (Y/N)Are you St. Lawrence (H) or Norwich (A)?Final score St. Lawrence 37 - Norwich 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Castleton wins toss, defers']
+['CUFB ball on CUFB35, Noah Crossman kickoff 65 yards to the NORWICH00, touchback.']
+Is this opponent scout? (Y/N)Are you Castleton (H) or Norwich (A)?Final score Castleton 12 - Norwich 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['ECM ball on ECM35, clock 15:00.']
+['C. Edwards kickoff 55 yards to the NORWICH10, Nate Parady return 20 yards to the NORWICH30 (Brendan Gill).']
+Is this opponent scout? (Y/N)Are you Norwich (H) or Endicott (A)?Final score Norwich 21 - Endicott 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Norwich wins toss and defers; CGA will receive; NOR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Bushy,Zach kickoff 60 yards to the CGA05 Wagner,Jacob return 26 yards to the CGA31 (Bushy,Zach).']
+Is this opponent scout? (Y/N)Are you Coast Guard (H) or Norwich (A)?Final score Coast Guard 21 - Norwich 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NORWICH ball on NORWICH35, clock 15:00.']
+['Zach Buchy kickoff 11 yards to the NORWICH46, on-side kick, recovered by NORWICH on NORWICH44, PENALTY NORWICH illegal touching (Zach Buchy) 9 yards to the NORWICH44, NO PLAY.']
+Is this opponent scout? (Y/N)Are you Norwich (H) or Merchant Marine (A)?Final score Norwich 14 - Merchant Marine 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SPRINGFI ball on SPRINGFI35, clock 15:00.']
+['Christian Hutra kickoff 65 yards to the NORWICH00, touchback.']
+Is this opponent scout? (Y/N)Are you Norwich (H) or Springfield (A)?Final score Norwich 7 - Springfield 56
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Norwich won toss, defers']
+['Zach Buchy kickoff 36 yards to the MIT29, George Stultz return 2 yards to the MIT31.']
+Score correction made in Norwich @ MIT (index) quarter 2 drive 2
+Score correction made in Norwich @ MIT (index) quarter 2 drive 3
+Score correction made in Norwich @ MIT (index) quarter 3 drive 1
+Score correction made in Norwich @ MIT (index) quarter 3 drive 3
+Score correction made in Norwich @ MIT (index) quarter 3 drive 7
+Score correction made in Norwich @ MIT (index) quarter 3 drive 9
+Is this opponent scout? (Y/N)Are you MIT (H) or Norwich (A)?Final score MIT 48 - Norwich 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WPI ball on WPI35, clock 15:00.']
+['Bryce Wade kickoff 55 yards to the NORWICH10, Jehric Hackney return 18 yards to the NORWICH28 (Beck Carrier; Harrison Kyriac).']
+Is this opponent scout? (Y/N)Are you Norwich (H) or WPI (A)?Final score Norwich 2 - WPI 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NU has wins coin toss, will receive. CATHU to kick and defend North.']
+['CATHU ball on CATHU35.']
+['Connor Gill kickoff 56 yards to the NOR9, Jehric Hackney return 16 yards to the NOR25 (Dieter Kerat;John Maynes).']
+Is this opponent scout? (Y/N)Are you Catholic (H) or Norwich (A)?Final score Catholic 35 - Norwich 14
+Player name overlap detected in Norwich at Catholic. Check possession transitions
+Folder name? (Scout team name default)

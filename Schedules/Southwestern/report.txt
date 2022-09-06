@@ -1,0 +1,65 @@
+Final score Cal Lutheran 37 - Southwestern 7
+Final score Belhaven 27 - Southwestern 34
+Exception in Mary Hardin-Baylor at Southwestern (Tex.) (index) quarter 1 drive 0
+	 ['2nd']
+	 ['2nd and 1 at SOUTHWES36', 'Start of 2nd quarter, clock 15:00.']
+	 ['2nd and 1 at SOUTHWES36', 'Kyle King pass intercepted by Jackson Reece at the SOUTHWES27, Jackson Reece return 0 yards to the SOUTHWES27, fumble forced by K.J. Miller, fumble by Jackson Reece recovered by MARY HAR Romello Cook at SOUTHWES27.']
+	 ['2 plays, 9 yards, 00:27 elapsed']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'MARY'
+Final score Southwestern 3 - Mary Hardin-Baylor 20
+Final score McMurry 41 - Southwestern 31
+Exception in East Tex. Baptist at Southwestern (Tex.) (index) quarter 3 drive 10
+	 ['East Texas Baptist at 01:22']
+	 ['1st and 10 at SOUTHWES29', 'East Tex. Baptist drive start at 01:22.']
+	 ['1st and 10 at SOUTHWES29', 'TEAM rush for loss of 6 yards to the SOUTHWES35.']
+	 ['2nd and 16 at SOUTHWES35', 'Troy Yowman rush for loss of 3 yards to the SOUTHWES38, fumble by Troy Yowman recovered by EAST TEX Jaden Thomas at SOUTHWES41.']
+	 ['2 plays, -12 yards, 01:22 elapsed']
+	 ['3rd and 22 at SOUTHWES41', 'End of game, clock 00:00.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'EAST'
+Final score Southwestern 17 - East Texas Baptist 27
+Exception in Howard Payne at Southwestern (Tex.) (index) quarter 2 drive 4
+	 ['Howard Payne at 04:01']
+	 ['1st and 10 at HOWARD P36', 'Howard Payne drive start at 04:01.']
+	 ['1st and 10 at HOWARD P36', 'Derrick Berry rush for loss of 3 yards to the HOWARD P33, fumble forced by Blane Corekin, fumble by Derrick Berry recovered by HOWARD P Justin Tesno at HOWARD P34.']
+	 ['2nd and 12 at HOWARD P34', 'Landon McKinney pass incomplete to Otis Lanier, dropped pass.']
+	 ['3rd and 12 at HOWARD P34', 'Timeout Howard Payne, clock 03:20.']
+	 ['3rd and 12 at HOWARD P34', 'Landon McKinney rush for 6 yards to the HOWARD P40 (Payton Vaughn; Bernard Sencher).']
+	 ['4th and 6 at HOWARD P40', 'Landon McKinney pass complete to Otis Lanier for 10 yards to the 50 yardline (Blane Corekin; Camden Terry), PENALTY HOWARD P holding (Justin Tesno) 0 yards to the HOWARD P40, NO PLAY.']
+	 ['4th and 6 at HOWARD P40', 'Landon McKinney pass incomplete to Stephen Willis.']
+	 ['4 plays, 4 yards, 04:01 elapsed']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'HOWARD'
+Final score Southwestern 10 - Howard Payne 14
+Final score Hardin-Simmons 69 - Southwestern 7
+Final score Southwestern 45 - Austin College 19
+Final score Texas Lutheran 14 - Southwestern 24
+Score correction made in Sul Ross State @ Southwestern (index) quarter 1 drive 1
+Score correction made in Sul Ross State @ Southwestern (index) quarter 2 drive 3
+Final score Southwestern 49 - Sul Ross State 15
+Player name overlap detected in Sul Ross St. at Southwestern (Tex.). Check possession transitions

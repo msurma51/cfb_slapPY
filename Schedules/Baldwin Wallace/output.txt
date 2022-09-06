@@ -1,0 +1,52 @@
+Enter -['1st']
+['1st and 10 at BWU35', 'Baldwin Wallace wins toss and defers']
+['1st and 10 at BWU35', '.']
+['1st and 10 at BWU35', 'Start of 1st quarter, clock 15:00, BWU ball on BWU35.']
+['', 'Sarris,Dean kickoff 57 yards to the HSC8, Iceysis Lewis return 20 yards to the HSC28 (Pankow,Nick;Levasseur,Mason).']
+Is this opponent scout? (Y/N)Are you Hampden-Sydney (Va.) (H) or Baldwin Wallace (A)?Final score Hampden-Sydney (Va.) 24 - Baldwin Wallace 45
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at BW35', 'BW wins the toss and defers, Otterbein will  defend north end zone']
+['1st and 10 at BW35', 'clock 15:00.']
+['1st and 10 at BW35', 'BW ball on BW35.']
+['', 'Dean Sarris kickoff 65 yards to the OTT00, touchback.']
+Is this opponent scout? (Y/N)Are you Otterbein (H) or Baldwin Wallace (A)?Final score Otterbein 10 - Baldwin Wallace 41
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MTU35', 'Mount Union wins toss and defers; BWU will receive; MTU will defend North end-zone.']
+['1st and 10 at MTU35', 'Start of 1st quarter, clock 15:00.']
+['', 'Deack,Nick kickoff 59 yards to the BWU06 Stokes,Darius return 21 yards to the BWU27 (Redmon,KJ; Griffin,Jalen).']
+Is this opponent scout? (Y/N)Are you #3 Mount Union (H) or Baldwin Wallace (A)?Final score #3 Mount Union 31 - Baldwin Wallace 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HEID35', 'BW ball on BW35, clock 15:00.']
+['1st and 10 at BW35', 'BW won the coin toss and elected to defer to the second half. Heidelberg will receive the opening kick. BW will defend the south end zone']
+['', 'Dean Sarris kickoff 65 yards to the HEID00, touchback.']
+Is this opponent scout? (Y/N)Are you Baldwin Wallace (H) or #22 Heidelberg (A)?Final score Baldwin Wallace 20 - #22 Heidelberg 10
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CAP35', 'BW ball on BW35, clock 15:00.']
+['1st and 10 at BW35', 'BW wins toss and defers to the second half. Capital will receive and defend the north end zone']
+['', 'Dean Sarris kickoff 65 yards to the CAP00, touchback.']
+Is this opponent scout? (Y/N)Are you Baldwin Wallace (H) or Capital (A)?Final score Baldwin Wallace 51 - Capital 0
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at BW35', 'Muskingum wins toss and defers to 2nd half']
+['1st and 10 at BW35', 'MUSK ball on MUSK35.']
+['', 'C. Scozzafava kickoff 65 yards to the BW00, touchback.']
+Is this opponent scout? (Y/N)Are you Muskingum (H) or #25 Baldwin Wallace (A)?Final score Muskingum 10 - #25 Baldwin Wallace 49
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WIL35', 'WIL ball on WIL35, clock 15:00.']
+['1st and 10 at WIL35', 'Willimton Won the toss. Differed to the 2nd half. BW will receive. BW defending the north end zone']
+['', 'Gabe Dolen kickoff 8 yards to the WIL27, out-of-bounds, PENALTY WIL illegal kicking (Gabe Dolen) 38 yards to the BW35.']
+Is this opponent scout? (Y/N)Are you #25 Baldwin Wallace (H) or Wilmington (A)?Final score #25 Baldwin Wallace 41 - Wilmington 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MC35', 'MC ball on MC35, clock 15:00.']
+['', 'Brady Wilson kickoff 45 yards to the BW20, Iyan Mitchell return 5 yards to the BW25 (Addison Painter; Brady Panucci).']
+Is this opponent scout? (Y/N)Are you #23 Baldwin Wallace (H) or Marietta (A)?Final score #23 Baldwin Wallace 24 - Marietta 21
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at BW35', 'BW wins the toss and defers. ONU will receive and defend the N goal.']
+['', 'Dean Sarris kickoff 65 yards to the ONU00, Nate Dean return 22 yards to the ONU22 (Jonah Shrock).']
+Is this opponent scout? (Y/N)Are you Ohio Northern (H) or #21 Baldwin Wallace (A)?Final score Ohio Northern 14 - #21 Baldwin Wallace 17
+Player name overlap detected in Baldwin Wallace at Ohio Northern. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at JCU35', 'JCU ball on JCU35, clock 15:00.']
+['1st and 10 at JCU35', 'John Carroll Won the toss and deffered to the 2nd half. BW will receive and defend the north endzone']
+['', 'Grant Gonya kickoff 62 yards to the BW03, Dylan Kooyman return 14 yards to the BW17 (Michael Palmer; Tyler Thimons).']
+Is this opponent scout? (Y/N)Are you #20 Baldwin Wallace (H) or John Carroll (A)?Final score #20 Baldwin Wallace 28 - John Carroll 29
+Folder name? (Scout team name default)

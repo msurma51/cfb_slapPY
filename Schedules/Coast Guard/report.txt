@@ -1,0 +1,28 @@
+Final score U. of New England 0 - Coast Guard 16
+Final score Curry 21 - Coast Guard 18
+Final score Coast Guard 33 - Nichols 6
+Final score Coast Guard 24 - Anna Maria 29
+Final score Coast Guard 21 - Norwich 24
+Exception in Coast Guard at Springfield (index) quarter 2 drive 2
+	 ['Coast Guard at 12:25']
+	 ['1st and 10 at COAST GU11', 'Coast Guard drive start at 12:25.']
+	 ['1st and 10 at COAST GU11', 'Jared Colletti rush for loss of 1 yard to the COAST GU10 (Amari Bilal).']
+	 ['2nd and 11 at COAST GU10', 'Joseph Armentro pass complete to Matt Ross for 2 yards to the COAST GU12, fumble forced by Kyle Niehr, fumble by Matt Ross recovered by COAST GU Matt Ross at COAST GU12.']
+	 ['3rd and 9 at COAST GU12', 'Joseph Armentro pass complete to Matthew Thomas for 4 yards to the COAST GU16 (Kyle Niehr).']
+	 ['4th and 5 at COAST GU16', 'Finnegan Hall punt 29 yards to the COAST GU45, downed.']
+	 ['3 plays, 5 yards, 02:12 elapsed']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'COAST'
+Final score Springfield 47 - Coast Guard 0
+Final score Catholic 30 - Coast Guard 7
+Final score Coast Guard 7 - MIT 21
+Final score WPI 38 - Coast Guard 6
+Final score Coast Guard 14 - Merchant Marine 49

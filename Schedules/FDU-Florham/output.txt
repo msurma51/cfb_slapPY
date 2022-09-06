@@ -1,0 +1,90 @@
+Enter -['Start of 1st Half']
+['FDU won toss and will receive']
+['Jackson Tinkis kickoff 55 yards to the FDU10, Brendan Dennis return 80 yards to the USMMA10 (Kurt Voll;C.J. Mustain).']
+Is this opponent scout? (Y/N)Are you FDU-Florham (H) or Merchant Marine (A)?Final score FDU-Florham 27 - Merchant Marine 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' FDU-Florham wins toss and will receive WPU will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, PIONEERS ball on PIONEERS35.']
+['Alvarez,Ronald kickoff 27 yards to the FDU38, Rory Sullivan return 6 yards to the FDU44 (Rojas-Herrera,Y).']
+Is this opponent scout? (Y/N)Are you Wm. Paterson (H) or FDU-Florham (A)?Final score Wm. Paterson 17 - FDU-Florham 43
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Misericordia won the toss and will receive']
+['FDU ball on FDU25.']
+['C. Korchma kickoff 65 yards to the MIS10, Artson, Carlos return 21 yards to the MIS31 (T. Periera).']
+Is this opponent scout? (Y/N)Are you FDU-Florham (H) or Misericordia (A)?Final score FDU-Florham 31 - Misericordia 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' FDU-Florham wins toss and defers WID will receive FDU will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, FDU ball on FDU35.']
+['Christian Korchma kickoff 59 yards to the PRIDE6, Baxter,Jordan return 55 yards to the FDU39, out-of-bounds (Maxwell Drakeford;Nayson Brown).']
+Score correction made in FDU-Florham @ Widener (index) quarter 1 drive 7
+Is this opponent scout? (Y/N)Are you Widener (H) or FDU-Florham (A)?Final score Widener 3 - FDU-Florham 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FDU wins the toss, elects to defer to the second half']
+['FDU ball on FDU35.']
+['Christian Korchma kickoff 55 yards to the LVC10, C. Niemeyer return 20 yards to the LVC30 (Jake Swindasz).']
+Is this opponent scout? (Y/N)Are you Lebanon Valley (H) or FDU-Florham (A)?Final score Lebanon Valley 27 - FDU-Florham 33
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['DVU won the toss and deferred, FDU will receive']
+['DELVAL ball on DELVAL35.']
+['Jack Hughes kickoff 55 yards to the FDUTRAV10, Anthony Bilotta return 10 yards to the FDUTRAV20 (James Agresta).']
+Is this opponent scout? (Y/N)Are you FDU-Florham (H) or Delaware Valley (A)?Final score FDU-Florham 7 - Delaware Valley 61
+Player name overlap detected in Delaware Valley at FDU-Florham. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' FDU-Florham wins toss and defers KCP will receive FDU will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, FDU ball on FDU35.']
+['C. Korchma kickoff 55 yards to the MONARCHS10, Boccella,Gabe return 30 yards to the MONARCHS40 (B. Godfrey).']
+Is this opponent scout? (Y/N)Are you King's (PA) (H) or FDU-Florham (A)?Final score King's (PA) 23 - FDU-Florham 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Albright wins toss and defers FDU will receive ALB will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, LIONS ball on LIONS35.']
+['Heuer,Jack kickoff 48 yards to the FDU17, Brendan Dennis return 20 yards to the FDU37 (Walker,Sidney).']
+Is this opponent scout? (Y/N)Are you Albright (H) or FDU-Florham (A)?Final score Albright 35 - FDU-Florham 42
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FDU won toss and will receive']
+['Henry Garton kickoff 54 yards to the FDU11, Adrian Reese return 87 yards to the AUFB2 (Jamel Fleming).']
+Is this opponent scout? (Y/N)Are you FDU-Florham (H) or Alvernia University (A)?Final score FDU-Florham 34 - Alvernia University 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FDU won toss and will receive']
+['Zachary Rutsch kickoff 65 yards to the FDU0, touchback.']
+Score correction made in Stevenson University @ FDU-Florham (index) quarter 1 drive 0
+Score correction made in Stevenson University @ FDU-Florham (index) quarter 1 drive 1
+Is this opponent scout? (Y/N)Are you FDU-Florham (H) or Stevenson University (A)?Final score FDU-Florham 33 - Stevenson University 52
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['A. Koscielicki kickoff 35 yards to the FDU30, M. DeSantis return 8 yards to the FDU38, out-of-bounds.']
+Exception in St. Vincent College at FDU-Florham (index) quarter 0 drive 0
+	 ['Start of 1st Half']
+	 ['A. Koscielicki kickoff 35 yards to the FDU30, M. DeSantis return 8 yards to the FDU38, out-of-bounds.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1122, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment

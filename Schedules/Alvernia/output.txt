@@ -1,0 +1,55 @@
+Enter -['Start of 1st Half']
+['AUFB ball on AUFB35, clock 15:00.']
+['R. Long kickoff 53 yards to the UC12, Octavious Carte return 15 yards to the UC27 (A. Cade).']
+Is this opponent scout? (Y/N)Are you Ursinus (H) or Alvernia (A)?Final score Ursinus 42 - Alvernia 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alvernia wins toss, defers to second half; Hartwick will receive']
+['AUFB ball on AUFB35.']
+['R. Long kickoff 61 yards to the HARTWICK4, Armani Banton return 28 yards to the HARTWICK32 (B. Johnson).']
+Score correction made in Alvernia @ Hartwick (index) quarter 0 drive 1
+Score correction made in Alvernia @ Hartwick (index) quarter 3 drive 0
+Is this opponent scout? (Y/N)Are you Hartwick (H) or Alvernia (A)?Final score Hartwick 23 - Alvernia 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Albright wins toss and will receive ALV will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, AUFB ball on AUFB35.']
+['R. Long kickoff 57 yards to the LIONS8, Zehner,Kevin return 33 yards to the LIONS41, out-of-bounds (R. Long), PENALTY AUFB personal foul 15 yards to the AUFB44.']
+Score correction made in Albright @ Alvernia (index) quarter 3 drive 3
+Is this opponent scout? (Y/N)Are you Alvernia (H) or Albright (A)?Final score Alvernia 21 - Albright 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wilkes wins the toss, defers']
+['WUFB ball on WUFB35.']
+['A. Orlando kickoff 55 yards to the AUFB10, J. Perkins return 11 yards to the AUFB21 (R. Travis;T. Francis), PENALTY AUFB illegal block (J. Russell) 9 yards to the AUFB12, 1st and 10, AUFB ball on AUFB12.']
+Is this opponent scout? (Y/N)Are you Wilkes University (H) or Alvernia (A)?Final score Wilkes University 23 - Alvernia 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[" King's (PA) wins toss and defers ALV will receive KCP will defend North end-zone"]
+['.']
+['Start of 1st quarter, clock 15:00, MONARCHS ball on MONARCHS35.']
+['Prescavage,Kyle kickoff 59 yards to the AUFB6, K. Stanton return 14 yards to the AUFB20 (Caldwell,Robert).']
+Is this opponent scout? (Y/N)Are you King's (PA) (H) or Alvernia (A)?Final score King's (PA) 10 - Alvernia 0
+Player name overlap detected in Alvernia at King's (PA). Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Widener wins toss and defers; ALV will receive; WID will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Eimer,Larry kickoff 45 yards to the ALV20 Perkins,Joseph return 10 yards to the ALV30 (Murt,Colin).']
+Is this opponent scout? (Y/N)Are you Alvernia (H) or Widener (A)?Final score Alvernia 7 - Widener 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['LVC wins the toss, elects to defer to the second half']
+['LVC ball on LVC35.']
+['Garrett MacClay kickoff 65 yards to the AUFB0, touchback.']
+Is this opponent scout? (Y/N)Are you Lebanon Valley (H) or Alvernia (A)?Final score Lebanon Valley 31 - Alvernia 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Stevenson wins toss and defers; ALV will receive; STU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Rutsch,Zachary kickoff 55 yards to the ALV10 Perkins,Joseph return 17 yards to the ALV27 (Sullivan,Sean).']
+Is this opponent scout? (Y/N)Are you Alvernia (H) or Stevenson (A)?Final score Alvernia 6 - Stevenson 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FDU won toss and will receive']
+['Henry Garton kickoff 54 yards to the FDU11, Adrian Reese return 87 yards to the AUFB2 (Jamel Fleming).']
+Is this opponent scout? (Y/N)Are you FDU-Florham (H) or Alvernia University (A)?Final score FDU-Florham 34 - Alvernia University 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alvernia wins toss and will receive; LYC will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['kickoff 65 yards to the ALV00, Touchback.']
+Is this opponent scout? (Y/N)Are you Alvernia (H) or Lycoming (A)?Final score Alvernia 0 - Lycoming 48
+Folder name? (Scout team name default)

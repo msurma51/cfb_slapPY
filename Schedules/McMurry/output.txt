@@ -1,0 +1,49 @@
+Enter -['Start of 1st Half']
+['Howard Payne wins toss and will receive; MCM will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Mendoza,Jared kickoff 58 yards to the HPU07 Lanier,Otis return 24 yards to the HPU31 (Sinegal,Dontre).']
+Is this opponent scout? (Y/N)Are you McMurry (H) or Howard Payne (A)?Final score McMurry 36 - Howard Payne 42
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['McMurry wins toss and defers; ETX will receive; McM will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Mendoza,Jared kickoff 60 yards to the ETX05 Boyd,Semaj return 25 yards to the ETX30 (Conn,Cooper).']
+Score correction made in McMurry @ East Tex. Baptist (index) quarter 0 drive 1
+Is this opponent scout? (Y/N)Are you East Tex. Baptist (H) or McMurry (A)?Final score East Tex. Baptist 24 - McMurry 15
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Southwestern (TX) wins toss and will receive; McM will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Mendoza,Jared kickoff 65 yards to the SWU00, Touchback.']
+Is this opponent scout? (Y/N)Are you McMurry (H) or Southwestern (TX) (A)?Final score McMurry 41 - Southwestern (TX) 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hardin-Simmons wins toss and defers; MCM will receive; HSU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Boster,Chandler kickoff 55 yards to the MCM10 Robinson,Dee return 90 yards to the HSU00 TOUCHDOWN, clock 14:44.']
+['Wyble,Dexter pass attempt Failed.']
+['Mendoza,Jared kickoff 59 yards to the HSU06 fair catch by Bell,Cade at HSU06.']
+Is this opponent scout? (Y/N)Are you Hardin-Simmons (H) or McMurry (A)?Final score Hardin-Simmons 24 - McMurry 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['McMurry wins toss and defers; AST will receive; McM will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Mendoza,Jared kickoff 64 yards to the AST01 Bess,Kaden return 24 yards to the AST25 (Dozier Jr.,Damon; Colbert,Jacorian).']
+Is this opponent scout? (Y/N)Are you McMurry (H) or Austin College (A)?Final score McMurry 48 - Austin College 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Texas Lutheran wins toss and will receive; MCM will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Mendoza,Jared kickoff 65 yards to the TLU00, Touchback.']
+Is this opponent scout? (Y/N)Are you Texas Lutheran (H) or McMurry (A)?Final score Texas Lutheran 28 - McMurry 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Sul Ross St. wins toss and defers; McM will receive; SRS will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Luna,Oswaldo kickoff 65 yards to the McM00, Touchback.']
+Is this opponent scout? (Y/N)Are you McMurry (H) or Sul Ross St. (A)?Final score McMurry 11 - Sul Ross St. 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['McMurry wins toss and will kickoff; BEL will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Mendoza,Jared kickoff 60 yards to the BEL05 Carter,Phabian return 15 yards to the BEL20 (Diaz,Isaiah).']
+Is this opponent scout? (Y/N)Are you Belhaven (H) or McMurry (A)?Final score Belhaven 35 - McMurry 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mary Hardin-Baylor wins toss and defers; McM will receive; MHB will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 65 yards to the McM00, Touchback.']
+Is this opponent scout? (Y/N)Are you McMurry (H) or Mary Hardin-Baylor (A)?Final score McMurry 3 - Mary Hardin-Baylor 77
+Folder name? (Scout team name default)

@@ -1,0 +1,97 @@
+Enter -['Start of 1st Half']
+['Simpson wins toss and will receive; CRU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 43 yards to the SIM22 Jacoby,Terrhyn return 0 yards to the SIM22 (Young,Mason; Fritz,Jefferson).']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Simpson (A)?Final score Mary Hardin-Baylor 84 - Simpson 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['East Tex. Baptist wins toss and defers; CRU will receive; ETB will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Garcia,Alberto kickoff 46 yards to the CRU19 Bowden,Tommy return 23 yards to the CRU42 (Patrick,Azaya; Bradley,Kenneth).']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or East Tex. Baptist (A)?Final score Mary Hardin-Baylor 34 - East Tex. Baptist 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SOUTHWES ball on SOUTHWES35, clock 15:00.']
+['Charlie Fournie kickoff 63 yards to the MARY HAR02, Aaron Sims return 18 yards to the MARY HAR20 (Micah Justice; Patrick Nicolas).']
+Exception in Mary Hardin-Baylor at Southwestern (Tex.) (index) quarter 1 drive 0
+	 ['Start of Quarter #2']
+	 ['2nd and 1 at SOUTHWES36', 'Start of 2nd quarter, clock 15:00.']
+	 ['2nd and 1 at SOUTHWES36', 'Kyle King pass intercepted by Jackson Reece at the SOUTHWES27, Brandon Jenning return 0 yards to the SOUTHWES27, fumble forced by K.J. Miller, fumble by Brandon Jenning recovered by MARY HAR Romello Cook at SOUTHWES27.']
+	 ['Total', '2 plays , 9 yards Time of Possession: 00:27']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'MARY'
+
+Is this opponent scout? (Y/N)Are you Southwestern (Tex.) (H) or Mary Hardin-Baylor (A)?Final score Southwestern (Tex.) 3 - Mary Hardin-Baylor 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mary Hardin-Baylor wins toss and defers; HSU will receive; CRU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 57 yards to the HSU08 Crawford,Jalen return 13 yards to the HSU21 (Hackett,Mikkah) PENALTY CRU Offside 5 yards from HSU21 to HSU26.']
+['HSU ball on HSU26.']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Hardin-Simmons (A)?Final score Mary Hardin-Baylor 34 - Hardin-Simmons 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['AC ball on AC35, clock 15:00.']
+['John Aldridge kickoff 65 yards to the UMHB00, Aaron Sims return 29 yards to the UMHB29 (John Aldridge).']
+Is this opponent scout? (Y/N)Are you Austin (H) or Mary Hardin-Baylor (A)?Final score Austin 0 - Mary Hardin-Baylor 56
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mary Hardin-Baylor wins toss and defers; TLU will receive; CRU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 65 yards to the TLU00, Touchback.']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Texas Lutheran (A)?Final score Mary Hardin-Baylor 49 - Texas Lutheran 3
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mary Hardin-Baylor wins toss and defers; SRS will receive; UMH will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 65 yards to the SRS00, Touchback.']
+Is this opponent scout? (Y/N)Are you Sul Ross St. (H) or Mary Hardin-Baylor (A)?Final score Sul Ross St. 14 - Mary Hardin-Baylor 72
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Belhaven wins toss and defers; CRU will kickoff; BEL will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 65 yards to the BEL00, Touchback.']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Belhaven (A)?Final score Mary Hardin-Baylor 29 - Belhaven 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mary Hardin-Baylor wins toss and will kickoff; HPU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 46 yards to the HPU19 Smith,Selah return 11 yards to the HPU30 (Fritz,Jefferson).']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Howard Payne (A)?Final score Mary Hardin-Baylor 59 - Howard Payne 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mary Hardin-Baylor wins toss and defers; McM will receive; MHB will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 65 yards to the McM00, Touchback.']
+Is this opponent scout? (Y/N)Are you McMurry (H) or Mary Hardin-Baylor (A)?Final score McMurry 3 - Mary Hardin-Baylor 77
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Trinity (TX) wins toss and will receive; CRU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 65 yards to the TRN00, Touchback.']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Trinity (TX) (A)?Final score Mary Hardin-Baylor 13 - Trinity (TX) 3
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Birmingham-So. wins toss and defers; CRU will receive; BSC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hood,Aidan kickoff 30 yards to the CRU35, out of bounds.']
+['CRU ball on CRU35.']
+Score correction made in Birmingham-So. @ Mary Hardin-Baylor (index) quarter 0 drive 3
+Score correction made in Birmingham-So. @ Mary Hardin-Baylor (index) quarter 0 drive 4
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Birmingham-So. (A)?Final score Mary Hardin-Baylor 42 - Birmingham-So. 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Linfield wins toss and defers; CRU will receive; LIN will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Starkel,Andrew kickoff 65 yards to the CRU00, Touchback.']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Linfield (A)?Final score Mary Hardin-Baylor 49 - Linfield 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Whitewater wins toss and defers; MHB will receive; UWW will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Maldonado,Matt kickoff 59 yards to the MHB06 Sims,Aaron return 7 yards to the MHB13 (Christiansen,Tegan).']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Mary Hardin-Baylor (A)?Final score Wis.-Whitewater 7 - Mary Hardin-Baylor 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['North Central (IL) wins toss and will receive; MHB will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 58 yards to the NCC07 Hardy,Deangelo return 93 yards to the MHB00 TOUCHDOWN, clock 14:48.']
+['PENALTY NCC False Start (Metz,Matt) 5 yards from MHB03 to MHB08. NO PLAY.']
+['Rains,Tanner kick attempt good.']
+['Rains,Tanner kickoff 54 yards to the MHB11 Sims,Aaron return 12 yards to the MHB23 (Rojas,Yasmani).']
+Is this opponent scout? (Y/N)Are you North Central (IL) (H) or Mary Hardin-Baylor (A)?Final score North Central (IL) 17 - Mary Hardin-Baylor 64
+Folder name? (Scout team name default)

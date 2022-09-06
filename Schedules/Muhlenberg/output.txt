@@ -1,0 +1,68 @@
+Enter -['Start of 1st Half']
+['MUHL ball on MUHL35, clock 15:00.']
+['.']
+['Nick Stannard kickoff 55 yards to the TCNJ10, Dylan Richey return 13 yards to the TCNJ23 (Tyler Ekstrom).']
+Is this opponent scout? (Y/N)Are you Muhlenberg (H) or TCNJ (A)?Final score Muhlenberg 41 - TCNJ 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Muhlenberg wins toss and defers DIC will receive MUH will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MUHL ball on MUHL35.']
+['Nick Stannard kickoff 56 yards to the DC9, Douglass,Prince return 23 yards to the DC32, out-of-bounds (John Lohrer).']
+Is this opponent scout? (Y/N)Are you Dickinson (H) or Muhlenberg (A)?Final score Dickinson 13 - Muhlenberg 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' MUHL ball on MUHL35, clock 15:00. Ursinus won the toss and will receive Muhlenberg to defend the west goal']
+['Nick Stannard kickoff 58 yards to the UC7, Samuel Ragland return 18 yards to the UC25 (Tyler Ekstrom).']
+Is this opponent scout? (Y/N)Are you Muhlenberg (H) or Ursinus (A)?Final score Muhlenberg 35 - Ursinus 42
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MUHL wins toss, defers. MCD will receive. MUHL will defend S end zone']
+['Nick Stannard kickoff 57 yards to the MCD8, Diondre Carter return 17 yards to the MCD25 (John Lohrer).']
+Is this opponent scout? (Y/N)Are you McDaniel (H) or Muhlenberg (A)?Final score McDaniel 0 - Muhlenberg 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['GC wins toss, defers choice. MH receives opening kickoff, defend north']
+['GCFB ball on GCFB35, Doug Cummings kickoff 65 yards to the MUHL0, touchback.']
+Is this opponent scout? (Y/N)Are you Gettysburg (H) or Muhlenberg (A)?Final score Gettysburg 19 - Muhlenberg 54
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Johns Hopkins won the toss and deferred Muhlenberg to receive and defend the East goal']
+['Kyle Battles kickoff 65 yards to the MUHL0, touchback.']
+Is this opponent scout? (Y/N)Are you Muhlenberg (H) or Johns Hopkins (A)?Final score Muhlenberg 21 - Johns Hopkins 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Muhlenberg won the toss and deferred Juniata to receive and defend the East goal']
+['MUHL ball on MUHL35, clock 15:00.']
+['Nick Stannard kickoff 61 yards to the JCFB214, Javon Heggs return 12 yards to the JCFB2116 (Tyler Ekstrom).']
+Score correction made in Juniata @ Muhlenberg (index) quarter 2 drive 6
+Score correction made in Juniata @ Muhlenberg (index) quarter 2 drive 7
+Is this opponent scout? (Y/N)Are you Muhlenberg (H) or Juniata (A)?Final score Muhlenberg 56 - Juniata 16
+Player name overlap detected in Juniata at Muhlenberg. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MUHL ball on MUHL35, clock 15:00.']
+['Nick Stannard kickoff 27 yards to the FMC38, downed.']
+Is this opponent scout? (Y/N)Are you Franklin & Marshall (H) or Muhlenberg (A)?Final score Franklin & Marshall 10 - Muhlenberg 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Susquehanna wins toss and defers MUH will receive SUS will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SUSQFB ball on SUSQFB35.']
+['Elijah Hoffman kickoff 59 yards to the MUHL6, John Washington return 51 yards to the SUSQFB43 (Tim Macko).']
+Is this opponent scout? (Y/N)Are you Susquehanna (H) or Muhlenberg (A)?Final score Susquehanna 27 - Muhlenberg 52
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Muhlenberg won the toss and deferred Moravian to receive and defend the East goal']
+['MUHL ball on MUHL35, clock 15:00.']
+['Nick Stannard kickoff 58 yards to the MOR7, Romello Walters return 43 yards to the 50 yardline (Spencer Kirin), out-of-bounds, PENALTY MOR unsportsmanlike conduct 15 yards to the MOR35.']
+Is this opponent scout? (Y/N)Are you Muhlenberg (H) or Moravian (A)?Final score Muhlenberg 55 - Moravian 0
+Player name overlap detected in Moravian at Muhlenberg. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Framingham won the toss and defers. Muhlenberg to receive']
+['H. De Boni kickoff 65 yards to the MUHL0, Thomas Jenkins return 34 yards to the MUHL34 (Joshua Onujiogu).']
+Is this opponent scout? (Y/N)Are you Muhlenberg (H) or Framingham State (A)?Final score Muhlenberg 45 - Framingham State 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Delaware Valley wins toss and defers MUH will receive DVU will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, AGGIES ball on AGGIES35.']
+['Moran,Pat kickoff 60 yards to the MUHL5, John Washington return 49 yards to the AGGIES46 (Moore,Ahmad).']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Muhlenberg (A)?Final score Delaware Valley 0 - Muhlenberg 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Mount Union wins toss and defers MUH will receive MTU will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MTU ball on MTU35.']
+['Deack,Nick kickoff 58 yards to the MUHL7, Chris Ardito return 15 yards to the MUHL22 (Hawk,Aaron).']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Muhlenberg (A)?Final score Mount Union 35 - Muhlenberg 29
+Folder name? (Scout team name default)

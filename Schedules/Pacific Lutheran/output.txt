@@ -1,0 +1,49 @@
+Enter -['Start of 1st Half']
+['Pacific Lutheran wins toss and defers; CLU will receive; PLU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hilliard,Peiyton kickoff 62 yards to the CLU03 Taylor,Jackson return 47 yards to the CLU50 (Meade,Kellen).']
+Is this opponent scout? (Y/N)Are you Cal Lutheran (H) or Pacific Lutheran (A)?Final score Cal Lutheran 42 - Pacific Lutheran 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Pacific Lutheran wins toss and defers; ULV will receive; PLU will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hilliard,Peiyton kickoff 57 yards to the ULV08, out of bounds.']
+['ULV ball on ULV35.']
+Is this opponent scout? (Y/N)Are you Pacific Lutheran (H) or La Verne (A)?Final score Pacific Lutheran 22 - La Verne 12
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Pacific Lutheran wins toss and will receive; GFU will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Santoni,Jason kickoff 60 yards to the PLU05 Chaffin,Darius return 18 yards to the PLU23 (Brockamp,Austin).']
+Is this opponent scout? (Y/N)Are you Pacific Lutheran (H) or George Fox (A)?Final score Pacific Lutheran 14 - George Fox 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Lewis & Clark wins toss and defers; PLU will receive; LAC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Moses,Hayden kickoff 58 yards to the PLU07 Ciglar,Cody return 19 yards to the PLU26 (Herman,Logan).']
+Score correction made in Pacific Lutheran @ Lewis & Clark (index) quarter 2 drive 4
+Score correction made in Pacific Lutheran @ Lewis & Clark (index) quarter 2 drive 6
+Is this opponent scout? (Y/N)Are you Lewis & Clark (H) or Pacific Lutheran (A)?Final score Lewis & Clark 37 - Pacific Lutheran 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Whitworth wins toss and will receive; PLU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hilliard,Peiyton kickoff 51 yards to the WTW14 Sheley,Cameron return 19 yards to the WTW33 (Elwin,Jared).']
+Is this opponent scout? (Y/N)Are you Whitworth (H) or Pacific Lutheran (A)?Final score Whitworth 31 - Pacific Lutheran 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Pacific Lutheran wins toss and defers; LIN will receive; PLU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hilliard,Peiyton kickoff 55 yards to the LIN10 Morton,Connor return 38 yards to the LIN48 (Higa,Kaysen).']
+Is this opponent scout? (Y/N)Are you Pacific Lutheran (H) or Linfield (A)?Final score Pacific Lutheran 7 - Linfield 52
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Pacific Lutheran wins toss and defers; WIL will receive; PLU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hilliard,Peiyton kickoff 51 yards to the WIL14 Goff,Nik return 7 yards to the WIL21 (Higa,Kaysen; Kim,Shaun).']
+Is this opponent scout? (Y/N)Are you Willamette (H) or Pacific Lutheran (A)?Final score Willamette 0 - Pacific Lutheran 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Pacific Lutheran wins toss and will receive; UPS will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Everett,Alex kickoff 59 yards to the PLU06 Chaffin,Darius return 38 yards to the PLU44 (Bonicatto,Jack).']
+Is this opponent scout? (Y/N)Are you Pacific Lutheran (H) or Puget Sound (A)?Final score Pacific Lutheran 33 - Puget Sound 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Pacific wins coin toss; defers. PLU to receive. PLU will defend the East goal; Pacific defends the West goal.']
+['PAC ball on PAC35.']
+['Saros,Zack kickoff 57 yards to the PLU8, Darius Chaffin return 92 yards to the PAC0, TOUCHDOWN, clock 14:48.']
+Is this opponent scout? (Y/N)Are you Pacific (Ore.) (H) or Pacific Lutheran (A)?Final score Pacific (Ore.) 20 - Pacific Lutheran 17
+Folder name? (Scout team name default)

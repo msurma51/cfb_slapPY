@@ -206,10 +206,9 @@ def add_return(play,r_string,poss,name_re):
 
 def run_parser(play,desc,name_re):
     play[play_type] = type_run
-    try:
-        play[rusher] = re.findall('^' + name_re,desc)[0]
-    except:
-        None
+    rb = re.findall(name_re + ' rush',desc)
+    if len(rb) > 0:
+        play[passer] = rb[0]
     if desc.find(' no gain') > -1:
         gain_loss = 0
     else:
@@ -224,10 +223,11 @@ def run_parser(play,desc,name_re):
 def pass_parser(play,desc,poss,re_select):
     play[play_type] = type_pass
     defense = [team for team in re_select.keys() if team != poss][0]
-    try:
-        play[passer] = re.findall('^' + re_select[poss],desc)[0]
-    except:
-        None
+    qb = re.findall(re_select[poss] + ' pass',desc)
+    if len(qb) == 0:
+        qb = re.findall(re_select[poss] + ' sacked',desc)
+    if len(qb) > 0:
+        play[passer] = qb[0]
     gain_loss = 0
     if desc.find(" incomplete") > -1:
         play[pass_result] = pass_incomplete
@@ -546,9 +546,12 @@ class possession_tracker:
 
 def drive_end_finder(plays):
     end_dict = dict()
+    last_play = plays[-1]
     # If a drive end has already been determined, return that
     if drive_end in plays[0].keys() and all((plays[0][drive_end], plays[0][drive_end] != end_unknown)):
         end_dict[drive_end] = plays[0][drive_end]
+        if end_dict[drive_end] == end_half and last_play[quarter] in (1,3):
+            end_dict[drive_end] = end_quarter
         return(end_dict)
     else:
         end = None
@@ -558,7 +561,6 @@ def drive_end_finder(plays):
         if safety in play.keys():
             was_safety = True
             break
-    last_play = plays[-1]
     time_ends = {game_end: end_game,half_end: end_half,quarter_end: end_quarter}
     common_key = set(time_ends.keys()) & set(last_play.keys())
     #Return None for quarter end drive summaries in which the drive hasn't ended
@@ -606,6 +608,8 @@ def drive_end_finder(plays):
         end = drive_end_finder(plays[:-1])
     elif len(common_key) > 0:
         end = time_ends[[x for x in common_key][0]]
+        if end == end_half and last_play[quarter] in (1,3):
+            end = end_quarter
     if drive_end in plays[0].keys() and all((plays[0][drive_end] == end_unknown, end == None, len(plays) > 1)):
         end_dict[drive_end] = end_unknown
     else:

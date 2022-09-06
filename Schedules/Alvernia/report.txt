@@ -1,0 +1,14 @@
+Final score Ursinus 42 - Alvernia 6
+Score correction made in Alvernia @ Hartwick (index) quarter 0 drive 1
+Score correction made in Alvernia @ Hartwick (index) quarter 3 drive 0
+Final score Hartwick 23 - Alvernia 14
+Score correction made in Albright @ Alvernia (index) quarter 3 drive 3
+Final score Alvernia 21 - Albright 31
+Final score Wilkes University 23 - Alvernia 0
+Final score King's (PA) 10 - Alvernia 0
+Player name overlap detected in Alvernia at King's (PA). Check possession transitions
+Final score Alvernia 7 - Widener 37
+Final score Lebanon Valley 31 - Alvernia 10
+Final score Alvernia 6 - Stevenson 35
+Final score FDU-Florham 34 - Alvernia University 14
+Final score Alvernia 0 - Lycoming 48

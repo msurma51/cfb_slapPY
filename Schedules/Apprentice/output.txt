@@ -1,0 +1,43 @@
+Enter -['1st']
+['1st and 10 at APPRENTI35', 'APPRENTI ball on APPRENTI35, clock 15:00.']
+['', 'Jeremiah Morgan kickoff 57 yards to the BREVARD08, Marcus Lane return 22 yards to the BREVARD30 (Derian Gibson), PENALTY BREVARD unsportmanlike conduct (Brandon Norris) 15 yards to the BREVARD15.']
+Is this opponent scout? (Y/N)Are you Brevard (H) or Apprentice (A)?Final score Brevard 27 - Apprentice 34
+Player name overlap detected in Apprentice at Brevard. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at E&H35', 'Emory & Henry wins toss and defers; TAS will receive; E&H will defend East end-zone.']
+['1st and 10 at E&H35', 'Start of 1st quarter, clock 15:00.']
+['', 'Jones,Cameron kickoff 64 yards to the TAS01 Thomas,Amari return 9 yards to the TAS10 (Hamilton,Nate).']
+Is this opponent scout? (Y/N)Are you Emory & Henry (H) or Apprentice (A)?Final score Emory & Henry 63 - Apprentice 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at NNA35', 'NNA ball on NNA35, clock 15:00.']
+['', "Jeremiah Morgan kickoff 40 yards to the FC25, fair catch by Ja'Kari William."]
+Score correction made in Apprentice @ Ferrum (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you Ferrum (H) or Apprentice (A)?Final score Ferrum 30 - Apprentice 28
+Player name overlap detected in Apprentice at Ferrum. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['', 'Jeremiah Morgan kickoff 61 yards to the WLU04, Alex Wertz return 96 yards to the NNA00, TOUCHDOWN, clock 14:46.']
+Is this opponent scout? (Y/N)Are you Washington and Lee (H) or Apprentice (A)?Final score Washington and Lee 42 - Apprentice 13
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at APP35', 'BC wins toss, defers']
+['1st and 10 at APP35', 'BCFB ball on BCFB35.']
+['', 'Jackson Hendren kickoff 63 yards to the APP02, Lawrence Reed return 18 yards to the APP20 (W. Parker Jr.).']
+Is this opponent scout? (Y/N)Are you Bridgewater (Va.) (H) or Apprentice (A)?Final score Bridgewater (Va.) 24 - Apprentice 10
+Player name overlap detected in Apprentice at BCFB. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at TAS35', 'TAS ball on TAS35, clock 15:00.']
+['', 'Grant Swanger kickoff 50 yards to the RMC15, Thompson,Ricky return 17 yards to the RMC32 (Justin DePriest).']
+Is this opponent scout? (Y/N)Are you Randolph-Macon (H) or Apprentice (A)?Final score Randolph-Macon 49 - Apprentice 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HSC35', 'APR won, defers']
+['1st and 10 at HSC35', 'APR ball on APR35.']
+['', 'Jeremiah Morgan kickoff 60 yards to the HSC5, Wilson,Brice return 25 yards to the HSC30 (TEAM).']
+Score correction made in Hampden-Sydney @ Apprentice (index) quarter 2 drive 10
+Score correction made in Hampden-Sydney @ Apprentice (index) quarter 3 drive 3
+Is this opponent scout? (Y/N)Are you Apprentice (H) or Hampden-Sydney (A)?Final score Apprentice 21 - Hampden-Sydney 38
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at APP35', 'Shenandoah wins toss and will receive']
+['1st and 10 at APP35', 'APP will defend East end-zone']
+['1st and 10 at APP35', 'Start of 1st quarter, clock 15:00, APP ball on APP35.']
+['', 'Jeremiah Morgan kickoff 51 yards to the SU14, Brant Butler return 21 yards to the SU35, R. Byrd Jr. for 3 yards to the SU38 (Q. Jackson).']
+Is this opponent scout? (Y/N)Are you Shenandoah (H) or Apprentice (A)?Final score Shenandoah 35 - Apprentice 16
+Folder name? (Scout team name default)

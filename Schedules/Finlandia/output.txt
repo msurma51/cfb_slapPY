@@ -1,0 +1,78 @@
+Enter -['Start of 1st Half']
+['LU wins toss and defers, will defend south end zone. FinnU to receive']
+['Change of possession, LU ball on LU40, 1st and 10.']
+Is this opponent scout? (Y/N)Are you Lawrence (H) or Finlandia (A)?Final score Lawrence 42 - Finlandia 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['COUGAR~1 ball on COUGAR~135.']
+['Anthony Ryan kickoff 52 yards to the FINNU13, B. OWENS return 19 yards to the FINNU32 (Rajee Bey-Moore).']
+Exception in Concordia-Chicago at Finlandia (index) quarter 0 drive 0
+	 ['Start of 1st Half']
+	 ['COUGAR~1 ball on COUGAR~135.']
+	 ['Anthony Ryan kickoff 52 yards to the FINNU13, B. OWENS return 19 yards to the FINNU32 (Rajee Bey-Moore).']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1122, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment
+Enter -['Start of 1st Half']
+['Finlandia wins toss.  Will Receive']
+['ADRIAN ball on ADRIAN35.']
+['Walker Evans kickoff 45 yards to the FINNU20, B. OWENS return 10 yards to the FINNU30 (Nate Shaw;Jimmie Clark).']
+Is this opponent scout? (Y/N)Are you Finlandia (H) or Adrian (A)?Final score Finlandia 6 - Adrian 56
+Player name overlap detected in Adrian at Finlandia. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Finlandia won the toss and elected to receive.']
+['UNW ball on UNW35.']
+['Blake Mitchell kickoff 37 yards to the FINNU28, M. GRANGER return 1 yards to the FINNU29 (EthanPanchyshyn;Rodrigo Mork).']
+Is this opponent scout? (Y/N)Are you Northwestern (Minn.) (H) or Finlandia (A)?Final score Northwestern (Minn.) 16 - Finlandia 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UMM ball on UMM35, clock 15:00.']
+['Alex Happ kickoff 50 yards to the FINNU15, B. OWENS return 19 yards to the FINNU34 (E. Kowalzek;Matt Laur).']
+Is this opponent scout? (Y/N)Are you Finlandia (H) or Minnesota Morris (A)?Final score Finlandia 20 - Minnesota Morris 41
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Crown (MN) wins toss and defers FIN will receive CCS will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CROW ball on CROW35.']
+['Osborne,Jonah kickoff 43 yards to the FINNU22, downed.']
+Is this opponent scout? (Y/N)Are you Crown (MN) (H) or Finlandia (A)?Final score Crown (MN) 19 - Finlandia 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WESTMINS ball on WESTMINS35, clock 15:00.']
+['Tim Branneky kickoff 63 yards to the FINNU2, B. OWENS return 34 yards to the FINNU36 (Chandler Taylor).']
+Is this opponent scout? (Y/N)Are you Westminster (Mo.) (H) or Finlandia (A)?Final score Westminster (Mo.) 42 - Finlandia 32
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Finlandia won coin toss.  Defer']
+['FINNU ball on FINNU35.']
+['C. CROUCH kickoff 43 yards to the GREENVIL22, Adrian Hinton return 11 yards to the GREENVIL33 (K. SANDERS;M. WALKER).']
+Is this opponent scout? (Y/N)Are you Finlandia (H) or Greenville (A)?Final score Finlandia 2 - Greenville 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Finlandia won toss, defers. Olivet receive, defend north goal.']
+['C. CROUCH kickoff 40 yards to the OLIVET25, out-of-bounds, OLIVET ball on OLIVET25.']
+Score correction made in Finlandia @ Olivet College (index) quarter 0 drive 1
+Is this opponent scout? (Y/N)Are you Olivet College (H) or Finlandia (A)?Final score Olivet College 79 - Finlandia 6
+Player name overlap detected in Finlandia at Olivet College. Check possession transitions
+Folder name? (Scout team name default)

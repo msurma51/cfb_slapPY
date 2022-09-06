@@ -1,4 +1,4 @@
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 from hudl_namespace import *
 import ssl
@@ -11,7 +11,8 @@ ctx.verify_mode = ssl.CERT_NONE
 def pbp_parser(url):
     if len(url) < 1:
         url = 'https://lycomingathletics.com/sports/football/stats/2021/alvernia/boxscore/15038'
-    html = urlopen(url, context=ctx).read()
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    html = urlopen(req, context=ctx).read()
     soup = BeautifulSoup(html, "html.parser")
 
     # Extract home and away names and abbreviations, store in dict for ref

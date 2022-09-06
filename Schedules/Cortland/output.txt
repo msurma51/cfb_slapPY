@@ -1,0 +1,63 @@
+Enter -['Start of 1st Half']
+['CORTLAND ball on CORTLAND35, clock 15:00.']
+['Patrick Luby kickoff 65 yards to the WITT0, touchback.']
+Is this opponent scout? (Y/N)Are you Wittenberg (H) or Cortland (A)?Final score Wittenberg 16 - Cortland 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SUNY Cortland wins toss and defers']
+['Patrick Luby kickoff 58 yards to the TCNJ7, Dylan Richey return 16 yards to the TCNJ23 (John Manganella).']
+Is this opponent scout? (Y/N)Are you TCNJ (H) or Cortland (A)?Final score TCNJ 6 - Cortland 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Buff St wins toss, defers. Cortland receives. Buff St defends south.']
+['BUFF ball on BUFF35.']
+['Nick Sciandra kickoff 52 yards to the CORTLAND13, CJ Messina return 9 yards to the CORTLAND22 (Bruce Jefferson).']
+Is this opponent scout? (Y/N)Are you Cortland (H) or Buffalo St. (A)?Final score Cortland 58 - Buffalo St. 9
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' SUNY Cortland wins toss and defers MOR will receive COR will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CORTLAND ball on CORTLAND35.']
+['Patrick Luby kickoff 65 yards to the MORR0, touchback.']
+Score correction made in Cortland @ Morrisville St. (index) quarter 2 drive 7
+Is this opponent scout? (Y/N)Are you Morrisville St. (H) or Cortland (A)?Final score Morrisville St. 7 - Cortland 58
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Cortland wins toss, defers. Brockport receives. Cortland defends south']
+['CORTLAND ball on CORTLAND35.']
+['Patrick Luby kickoff 65 yards to the BROCK0, touchback.']
+Is this opponent scout? (Y/N)Are you Cortland (H) or Brockport (A)?Final score Cortland 31 - Brockport 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Cortland wins toss and defers']
+['CORTLAND ball on CORTLAND35.']
+['Patrick Luby kickoff 59 yards to the HARTWICK6, fair catch by TEAM.']
+Score correction made in Cortland @ Hartwick (index) quarter 0 drive 3
+Is this opponent scout? (Y/N)Are you Hartwick (H) or Cortland (A)?Final score Hartwick 3 - Cortland 48
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Utica wins toss, defers. Cortland receives. Utica defends south.']
+['UTICA ball on UTICA35.']
+['Cory Lichtman kickoff 65 yards to the CORTLAND0, DJ Trent return 33 yards to the CORTLAND33 (Anthony Novello).']
+Is this opponent scout? (Y/N)Are you Cortland (H) or Utica (A)?Final score Cortland 45 - Utica 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alfred wins toss, defers. Cortland receives. Alfred defends south.']
+['ALFRED ball on ALFRED35.']
+['McCaslin, Dusti kickoff 63 yards to the CORTLAND2, CJ Messina return 38 yards to the CORTLAND40, out-of-bounds (McCaslin, Dusti).']
+Is this opponent scout? (Y/N)Are you Cortland (H) or Alfred Univ. (A)?Final score Cortland 47 - Alfred Univ. 3
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. John Fisher wins toss and defers COR will receive SJF will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, FISHER ball on FISHER35.']
+['Dotterweich,Joe kickoff 45 yards to the CORTLAND20, DJ Trent return 5 yards to the CORTLAND25 (Ellison,Jonatha;Schahczenski,Ch).']
+Is this opponent scout? (Y/N)Are you St. John Fisher (H) or Cortland (A)?Final score St. John Fisher 3 - Cortland 55
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Ithaca wins toss, will receive. Cortland defends south goal.']
+['CORTLAND ball on CORTLAND35.']
+['Patrick Luby kickoff 65 yards to the ITHACA0, touchback.']
+Is this opponent scout? (Y/N)Are you Cortland (H) or Ithaca (A)?Final score Cortland 28 - Ithaca 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Springfield wins toss, defers. Cortland receives. Spr. defends south.']
+['SPRING ball on SPRING35.']
+['Christian Hutra kickoff 64 yards to the CORTLAND1, DJ Trent return 26 yards to the CORTLAND27 (Joe Maurer).']
+Is this opponent scout? (Y/N)Are you Cortland (H) or Springfield (A)?Final score Cortland 26 - Springfield 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Cortland wins toss, defers. RPI receives. Cortland defends north.']
+['CORTLAND ball on CORTLAND35.']
+['Patrick Luby kickoff 61 yards to the RPI4, Peter Lombardi return 22 yards to the RPI26 (Paul Imperiale;Zack Thuesen).']
+Is this opponent scout? (Y/N)Are you Cortland (H) or RPI (A)?Final score Cortland 14 - RPI 21
+Folder name? (Scout team name default)

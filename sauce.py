@@ -75,7 +75,7 @@ def k_types(play, perspective):
     # Renames kick play types to those used by Hudl based on perspective
     if play[play_type] in (type_kickoff, type_punt, type_fg, type_xp) and play[possession] != perspective:
         if play[play_type] in (type_kickoff, type_punt):
-            return(play[play_type] + ' Ret')
+            return(play[play_type] + ' Rec')
         else:
             return(play[play_type] + ' Block')
     else:
@@ -218,6 +218,6 @@ else:
 folder_name = input('Folder name? (Scout team name default)')
 if len(folder_name) < 1:
     folder_name = name_dict[scout_team]
-if not os.path.exists(folder_name):
-    os.mkdir(folder_name)
-df[cols].to_csv('{}\\{} {}.csv'.format(folder_name,date_str,game_str))
+if not os.path.exists('Schedules\\'+folder_name):
+    os.mkdir('Schedules\\'+folder_name)
+df[cols].to_csv('Schedules\\{}\\{} {}.csv'.format(folder_name,date_str,game_str))

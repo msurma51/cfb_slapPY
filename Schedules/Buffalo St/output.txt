@@ -1,0 +1,54 @@
+Enter -['Start of 1st Half']
+['Buffalo St. wins toss and defers; SJF will receive; BSC will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hollander,Thom kickoff 49 yards to the SJF16 Taylor,Taurian return 15 yards to the SJF31 (Hill,Peyton), out of bounds.']
+Is this opponent scout? (Y/N)Are you Buffalo St. (H) or St. John Fisher (A)?Final score Buffalo St. 14 - St. John Fisher 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Buff St wins toss, defers. Cortland receives. Buff St defends south.']
+['BUFF ball on BUFF35.']
+['Nick Sciandra kickoff 52 yards to the CORTLAND13, CJ Messina return 9 yards to the CORTLAND22 (Bruce Jefferson).']
+Is this opponent scout? (Y/N)Are you Cortland (H) or Buffalo St. (A)?Final score Cortland 58 - Buffalo St. 9
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Morrisville St. wins toss and will receive; BSC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Sciandra,Nick kickoff 59 yards to the MOR06 Wells,Deondrade return 28 yards to the MOR34 (Ferguson,Dom).']
+Is this opponent scout? (Y/N)Are you Morrisville St. (H) or Buffalo St. (A)?Final score Morrisville St. 41 - Buffalo St. 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Buffalo St. wins toss and defers; UNI will receive; BSC will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Sciandra,Nick kickoff 54 yards to the UNI11, out of bounds.']
+['UNI ball on UNI35.']
+Is this opponent scout? (Y/N)Are you Buffalo St. (H) or Union (NY) (A)?Final score Buffalo St. 17 - Union (NY) 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rensselaer wins toss and defers; BSC will receive; RPI will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['MacDougall,Conor kickoff 53 yards to the BSC12 Jackson,Nas return 10 yards to the BSC22 (Goldsmith,Gil; Vigneant,Lou).']
+Is this opponent scout? (Y/N)Are you Rensselaer (H) or Buffalo St. (A)?Final score Rensselaer 24 - Buffalo St. 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Buffalo St. wins toss and will receive ROC will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, ROC ball on ROC35.']
+['Jordan Laudani kickoff 60 yards to the BSC5, Nas Jackson return 15 yards to the BSC20 (Cole McHugh;Dan Shaughnessy).']
+Is this opponent scout? (Y/N)Are you Buffalo State (H) or Rochester (A)?Final score Buffalo State 7 - Rochester 14
+Player name overlap detected in Rochester at Buffalo State. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Buffalo St. wins toss and defers; ITH will receive; BSC will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+["Sciandra,Nick kickoff 51 yards to the ITH14 D'Addetta,Anthony return 37 yards to the BSC49 (Sciandra,Nick)."]
+Is this opponent scout? (Y/N)Are you Ithaca (H) or Buffalo St. (A)?Final score Ithaca 51 - Buffalo St. 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Buffalo St. wins toss and will receive; BRO will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Wigent,Nate kickoff 55 yards to the BSC10 Prawl,Praise return 19 yards to the BSC29, out of bounds.']
+Is this opponent scout? (Y/N)Are you Buffalo St. (H) or SUNY Brockport (A)?Final score Buffalo St. 16 - SUNY Brockport 41
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Buffalo St. wins toss and will receive; HOB will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['DiGregorio,Rob kickoff 49 yards to the BSC16 Jackson,Nas return 16 yards to the BSC32 (Romano,Anthony).']
+Is this opponent scout? (Y/N)Are you Hobart (H) or Buffalo St. (A)?Final score Hobart 45 - Buffalo St. 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Buffalo St. wins toss and will receive; SLU will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Doin,Ian kickoff 30 yards to the BSC35 Nelson,Tariq return 0 yards to the BSC35, End Of Play.']
+Is this opponent scout? (Y/N)Are you Buffalo St. (H) or St. Lawrence (A)?Final score Buffalo St. 6 - St. Lawrence 41
+Folder name? (Scout team name default)

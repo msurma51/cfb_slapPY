@@ -1,0 +1,40 @@
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 50, in pbp_parser
+    name_dict[home_kicker] = kicker_names[-1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 30, in taster
+    setting_strings = [string for string in setting_tag.stripped_strings]
+AttributeError: 'NoneType' object has no attribute 'stripped_strings'
+Exception in Puget Sound at Redlands (index) quarter 0 drive 1
+	 ['Puget Sound at 14:53']
+	 ['Puget Sound at 14:53']
+	 ['1st and 10 at PUGET SO25', 'Puget Sound drive start at 14:53.']
+	 ['1st and 10 at PUGET SO25', 'Murdock Rutledg rush for loss of 1 yard to the PUGET SO24, fumble forced by TEAM, fumble by Murdock Rutledg recovered by PUGET SO Simon Yim at PUGET SO24.']
+	 ['2nd and 11 at PUGET SO24', 'Murdock Rutledg pass incomplete to AJ Johnson (Brandon Heinel).']
+	 ['3rd and 11 at PUGET SO24', 'Murdock Rutledg pass incomplete to AJ Johnson.']
+	 ['4th and 11 at PUGET SO24', 'Alex Everett punt 43 yards to the REDLANDS33, Khory Day return 40 yards to the PUGET SO27 (Austin Knight).']
+	 ['Total', '3 plays , -1 yards Time of Possession: 01:16']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'PUGET'
+Final score Redlands 0 - Puget Sound 0
+Final score Puget Sound 21 - Cal Lutheran 25
+Final score Puget Sound 7 - Linfield 56
+Final score Pacific University 69 - Puget Sound 6
+Score correction made in George Fox @ Puget Sound (index) quarter 3 drive 4
+Final score Puget Sound 28 - George Fox 49
+Final score Lewis & Clark 46 - Puget Sound 29
+Final score Puget Sound 14 - Whitworth 68
+Final score Pacific Lutheran 33 - Puget Sound 0
+Final score Puget Sound 62 - Willamette 34

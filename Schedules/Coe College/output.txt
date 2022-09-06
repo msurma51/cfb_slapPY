@@ -1,0 +1,53 @@
+Enter -['Start of 1st Half']
+['Cornell College wins toss and will receive; COE will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ellis,Evan kickoff 65 yards to the COR00, Touchback.']
+Is this opponent scout? (Y/N)Are you Cornell College (H) or Coe College (A)?Final score Cornell College 7 - Coe College 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coe wins toss and defers; HCO will receive; Coe will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ellis,Evan kickoff 65 yards to the HCO00, Touchback.']
+Is this opponent scout? (Y/N)Are you Coe (H) or Hope (A)?Final score Coe 28 - Hope 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Simpson wins toss and will receive; COE will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ellis,Evan kickoff 62 yards to the SIM03 Jacoby,Terrhyn return 17 yards to the SIM20 (Kruse,Chase; Eckardt,Mitchell).']
+Is this opponent scout? (Y/N)Are you Coe (H) or Simpson (A)?Final score Coe 42 - Simpson 22
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coe wins toss and will receive; War will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Eagle,Kain kickoff 50 yards to the Coe15 Shepardson,Dominic return 10 yards to the Coe25 (Griffin,Austin; Van Roekel,Jaden).']
+Is this opponent scout? (Y/N)Are you Wartburg (H) or Coe (A)?Final score Wartburg 28 - Coe 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coe wins toss and defers; CEN will receive; COE will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ellis,Evan kickoff 65 yards to the CEN00, Touchback.']
+Is this opponent scout? (Y/N)Are you Coe (H) or Central (IA) (A)?Final score Coe 21 - Central (IA) 55
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Loras wins toss and defers; COE will receive; LOR will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Talmadge,Scott kickoff 60 yards to the COE05 Eckardt,Mitchell return 24 yards to the COE29 (Foley,Joey).']
+Is this opponent scout? (Y/N)Are you Loras (H) or Coe (A)?Final score Loras 20 - Coe 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Luther wins toss and defers; COE will receive; LUT will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Larson,Thane kickoff 45 yards to the COE20 Eckardt,Mitchell return 22 yards to the COE42 (Moses,Willy).']
+Is this opponent scout? (Y/N)Are you Coe (H) or Luther (A)?Final score Coe 63 - Luther 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coin flip was won by UD and will defer']
+['DBQFB ball on DBQFB35.']
+['Tyler Sheffield kickoff 55 yards to the COE10, out-of-bounds, COE ball on COE35.']
+Score correction made in Coe College @ Dubuque, Univ. of (index) quarter 0 drive 3
+Is this opponent scout? (Y/N)Are you Dubuque, Univ. of (H) or Coe College (A)?Final score Dubuque, Univ. of 27 - Coe College 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Buena Vista wins toss and will receive; COE will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ellis,Evan kickoff 59 yards to the BVU06 Pacheco,Eric return 34 yards to the BVU40 (Ellis,Evan).']
+Is this opponent scout? (Y/N)Are you Coe (H) or Buena Vista (A)?Final score Coe 31 - Buena Vista 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Coe wins toss and defers NWU will receive Coe will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, COE ball on COE35.']
+['Ellis,Evan kickoff 64 yards to the PRAIRIE1, Guzman,Victor return 14 yards to the PRAIRIE15 (Shaw,Jack).']
+Is this opponent scout? (Y/N)Are you Neb. Wesleyan (H) or Coe College (A)?Final score Neb. Wesleyan 21 - Coe College 53
+Folder name? (Scout team name default)

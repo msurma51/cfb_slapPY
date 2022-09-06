@@ -1,0 +1,85 @@
+Enter -['Start of 1st Half']
+['Wis.-Whitewater wins toss and defers; CAR will receive; UWW will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Lupa,Kacper kickoff 58 yards to the CAR07 Jarvis,Alex return 14 yards to the CAR21 (Edmonson,Jaylon).']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Carthage (A)?Final score Wis.-Whitewater 46 - Carthage 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UWW ball on UWW35, clock 15:00.']
+['Kacper Lupa kickoff 62 yards to the SAL3, Butler,A.J. return 15 yards to the SAL18 (J. Hendrickson;Nate Tyley).']
+Is this opponent scout? (Y/N)Are you Salisbury (H) or Wis.-Whitewater (A)?Final score Salisbury 14 - Wis.-Whitewater 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Berry wins toss and defers; UWW will receive; BER will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Rivera,Christian kickoff 59 yards to the UWW06 DeLany,Sam return 18 yards to the UWW24 (Kawa,Cameron; Brooks,Shaquan).']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Berry (A)?Final score Wis.-Whitewater 39 - Berry 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Whitewater wins toss and defers; UWS will receive; UWW will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Lupa,Kacper kickoff 62 yards to the UWS03 Cox,Arthur return 13 yards to the UWS16 (Christiansen,Tegan).']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Wis.-Stout (A)?Final score Wis.-Whitewater 37 - Wis.-Stout 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Wis.-Platteville wins toss and defers UWW will receive UWP will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, UWP ball on UWP35.']
+['Schweigert,Andr kickoff 65 yards to the UWW0, Ryan Wisniewski return 60 yards to the UWP40 (Mlachnik,Joseph;Doherty,Ryan).']
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 0 drive 1
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 0 drive 5
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 0 drive 7
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 0 drive 8
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 1 drive 0
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 1 drive 1
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 1 drive 4
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 1 drive 6
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 2 drive 2
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 2 drive 5
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 3 drive 0
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 3 drive 1
+Score correction made in Wis.-Platteville @ Wis.-Whitewater (index) quarter 3 drive 2
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Wis.-Platteville (A)?Final score Wis.-Whitewater 65 - Wis.-Platteville 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UWO won toss and differs option to second half.']
+['UWO ball on UWO35.']
+['Jaydon Haag kickoff 62 yards to the UWW3, Ryan Wisniewski return 18 yards to the UWW21 (Daniel Fynaardt).']
+Score correction made in UW-Whitewater @ UW-Oshkosh (index) quarter 1 drive 1
+Is this opponent scout? (Y/N)Are you UW-Oshkosh (H) or UW-Whitewater (A)?Final score UW-Oshkosh 13 - UW-Whitewater 32
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Whitewater wins toss and will kickoff; UWR will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Maldonado,Matt kickoff 62 yards to the UWR03 Blaha,Kaleb return 13 yards to the UWR16 (Koelblinger,Kyle).']
+Is this opponent scout? (Y/N)Are you UW-River Falls (H) or Wis.-Whitewater (A)?Final score UW-River Falls 28 - Wis.-Whitewater 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Whitewater wins toss and defers; WEC will receive; UWW will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Maldonado,Matt kickoff 64 yards to the WEC01 Adair,Will return 25 yards to the WEC26 (Heffner,Hawk; Nelson,Luke).']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Wis.-Eau Claire (A)?Final score Wis.-Whitewater 48 - Wis.-Eau Claire 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-La Crosse wins toss and defers; UWW will receive; UWL will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Beirne,Ryan kickoff 65 yards to the UWW00, Touchback.']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Wis.-La Crosse (A)?Final score Wis.-Whitewater 13 - Wis.-La Crosse 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Stevens Point wins toss and defers; UWW will receive; WSP will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ponterio,Victor kickoff 45 yards to the UWW20 Edmonson,Jaylon return for 3 yards loss to the UWW20 fumbled by Edmonson,Jaylon at UWW20 recovered by WSP Wis.-Stevens Point at UWW17, End Of Play.']
+Is this opponent scout? (Y/N)Are you Wis.-Stevens Point (H) or Wis.-Whitewater (A)?Final score Wis.-Stevens Point 10 - Wis.-Whitewater 56
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Greenville wins toss and defers; UWW will receive; GRE will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hermo,Lucas kickoff 35 yards to the UWW30 Sturdevant,Aaron return 12 yards to the UWW42 (Dowell,Jalen), out of bounds.']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Greenville (A)?Final score Wis.-Whitewater 69 - Greenville 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['DePauw wins toss and defers; UWW will receive; DPW will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Drake,Jack kickoff 65 yards to the UWW00, Touchback.']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or DePauw (A)?Final score Wis.-Whitewater 45 - DePauw 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Central (IA) wins toss and defers; UWW will receive; CEN will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Sunvold,Logan kickoff 61 yards to the UWW04 Wisniewski,Ryan return 12 yards to the UWW16 (Mayberry,Colton).']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Central (IA) (A)?Final score Wis.-Whitewater 51 - Central (IA) 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Whitewater wins toss and defers; MHB will receive; UWW will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Maldonado,Matt kickoff 59 yards to the MHB06 Sims,Aaron return 7 yards to the MHB13 (Christiansen,Tegan).']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Mary Hardin-Baylor (A)?Final score Wis.-Whitewater 7 - Mary Hardin-Baylor 24
+Folder name? (Scout team name default)

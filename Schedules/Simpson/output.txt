@@ -1,0 +1,84 @@
+Enter -['1st']
+['1st and 10 at SIM35', 'Simpson wins toss and will receive']
+['1st and 10 at SIM35', '.']
+['1st and 10 at SIM35', 'Start of 1st quarter, clock 15:00, UMHB ball on UMHB35.']
+['1st and 10 at UMHB35', '.']
+['1st and 10 at UMHB35', 'MARY HARDIN-BAYLOR drive start at 14:55.']
+['1st and 10 at UMHB35', 'Minniweather,Ch rush up middle for 47 yards to the SIM18, 1ST DOWN UMHB (Hockemeier,Tomm).']
+['1st and 10 at SIM18', 'Redding,Ryan middle pass complete to 8 for loss of 19 yards to the SIM37 (Berkey,Brady).']
+['2nd and 29 at SIM37', 'Minniweather,Ch rush up middle for 2 yards to the SIM35 (Henrichs,Jaden;Wolff,Sam).']
+['3rd and 27 at SIM35', 'Redding,Ryan middle pass incomplete to Day,Jerry (Hubbell,Colin).']
+['4th and 27 at SIM35', 'Redding,Ryan middle pass incomplete to King,Kyle.']
+Exception in Simpson at Mary Hardin-Baylor (index) quarter 0 drive 0
+	 ['1st']
+	 ['1st and 10 at SIM35', 'Simpson wins toss and will receive']
+	 ['1st and 10 at SIM35', '.']
+	 ['1st and 10 at SIM35', 'Start of 1st quarter, clock 15:00, UMHB ball on UMHB35.']
+	 ['1st and 10 at UMHB35', '.']
+	 ['1st and 10 at UMHB35', 'MARY HARDIN-BAYLOR drive start at 14:55.']
+	 ['1st and 10 at UMHB35', 'Minniweather,Ch rush up middle for 47 yards to the SIM18, 1ST DOWN UMHB (Hockemeier,Tomm).']
+	 ['1st and 10 at SIM18', 'Redding,Ryan middle pass complete to 8 for loss of 19 yards to the SIM37 (Berkey,Brady).']
+	 ['2nd and 29 at SIM37', 'Minniweather,Ch rush up middle for 2 yards to the SIM35 (Henrichs,Jaden;Wolff,Sam).']
+	 ['3rd and 27 at SIM35', 'Redding,Ryan middle pass incomplete to Day,Jerry (Hubbell,Colin).']
+	 ['4th and 27 at SIM35', 'Redding,Ryan middle pass incomplete to King,Kyle.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1031, in game_builder
+    info.update(drive_end_finder(plays))
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 602, in drive_end_finder
+    elif gn_ls in last_play.keys() and last_play[down] == 4:
+KeyError: 'DN'
+
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Simpson (A)?C:\Users\surma\Python\cfb_slapPY\sauce.py:27: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  dex = pd.Series(list(range(1,len(plays)+1)),name = 'PLAY #')
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 134, in <module>
+    df[play_result] = df.apply(result_maker, axis=1)
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\core\frame.py", line 3645, in __setitem__
+    self._set_item_frame_value(key, value)
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\core\frame.py", line 3775, in _set_item_frame_value
+    raise ValueError("Columns must be same length as key")
+ValueError: Columns must be same length as key
+Enter -['1st']
+['1st and 10 at UWSP35', 'SIM ball on SIM35, clock 15:00.']
+['', 'Hansen,Parker kickoff 64 yards to the UWSP1, Jermaine Moore return 27 yards to the UWSP28 (Damman,Cole), out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Simpson (H) or Wis.-Stevens Point (A)?Final score Simpson 7 - Wis.-Stevens Point 34
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at SIM35', 'Simpson wins toss and will receive']
+['1st and 10 at SIM35', '.']
+['1st and 10 at SIM35', 'Start of 1st quarter, clock 15:00, COE ball on COE35.']
+['', 'Ellis,Evan kickoff 62 yards to the SIM3, Jacoby,Terrhyn return 17 yards to the SIM20 (Kruse,Chase;Eckardt,Mitchel).']
+Is this opponent scout? (Y/N)Are you Coe (H) or Simpson (A)?Final score Coe 42 - Simpson 22
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CENFB35', 'CENFB ball on CENFB35, clock 15:00.']
+['', "Logan Sunvold kickoff 61 yards to the SIM4, O'Steen,Gavin return 16 yards to the SIM20 (Reid Pakkebier)."]
+Is this opponent scout? (Y/N)Are you Simpson (H) or Central (Iowa) (A)?Final score Simpson 16 - Central (Iowa) 84
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at SIM35', 'Simpson wins toss and will receive']
+['1st and 10 at SIM35', '.']
+['1st and 10 at SIM35', 'Start of 1st quarter, clock 15:00, LORAS ball on LORAS35.']
+['', "Talmadge,Scott kickoff 62 yards to the SIM3, O'Steen,Gavin return 26 yards to the SIM29 (Harris,Dustin)."]
+Is this opponent scout? (Y/N)Are you Loras (H) or Simpson (A)?Final score Loras 21 - Simpson 13
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at LUT35', 'LUT ball on LUT35, clock 15:00.']
+['', "Thane Larson kickoff 40 yards to the SIM25, O'Steen,Gavin return 54 yards to the LUT21 (Thane Larson), out-of-bounds."]
+Is this opponent scout? (Y/N)Are you Simpson (H) or Luther (A)?Final score Simpson 68 - Luther 34
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at SIM35', 'Coin toss was won by UD and they will defer Simpson will receive']
+['1st and 10 at SIM35', 'DBQ ball on DBQ35.']
+['', 'Tyler Sheffield kickoff 64 yards to the SIM1, out-of-bounds, SIM ball on SIM35.']
+Is this opponent scout? (Y/N)Are you Dubuque (H) or Simpson (A)?Final score Dubuque 41 - Simpson 28
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at BVU35', 'SIM ball on SIM35, clock 15:00.']
+['', 'Hansen,Parker kickoff 31 yards to the BVU34, fair catch by Quinn Hussey.']
+Is this opponent scout? (Y/N)Are you Simpson (H) or Buena Vista (A)?Final score Simpson 19 - Buena Vista 50
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at SIM35', 'Simpson wins toss and will receive']
+['1st and 10 at SIM35', '.']
+['1st and 10 at SIM35', 'Start of 1st quarter, clock 15:00, NWU ball on NWU35.']
+['', "Fendley,Zach kickoff 63 yards to the SIM2, O'Steen,Gavin return 22 yards to the SIM24 (DeVoy,Branden)."]
+Is this opponent scout? (Y/N)Are you Neb. Wesleyan (H) or Simpson (A)?Final score Neb. Wesleyan 44 - Simpson 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WAR35', 'WAR ball on WAR35, clock 15:00.']
+['', 'A. Muhamedagic kickoff 54 yards to the SIM11, Jones,Cameron return 10 yards to the SIM21 (Gavin Dooley).']
+Is this opponent scout? (Y/N)Are you Simpson (H) or Wartburg (A)?Final score Simpson 23 - Wartburg 55
+Folder name? (Scout team name default)

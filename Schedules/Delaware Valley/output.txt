@@ -1,0 +1,85 @@
+Enter -['Start of 1st Half']
+['Del Val wins the toss and will receive']
+['KEAN ball on KEAN35.']
+['G. Chrissafis kickoff 50 yards to the DELVAL15, Team return 18 yards to the DELVAL33 (O. Valeriano).']
+Is this opponent scout? (Y/N)Are you KEAN (H) or Delaware Valley (A)?Final score KEAN 6 - Delaware Valley 57
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Delaware Valley wins toss and will receive; MSU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Myerson,Andrew kickoff 43 yards to the DVU22 Prevard,Jamir return 10 yards to the DVU32 (George,Jarred).']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Montclair St. (A)?Final score Delaware Valley 26 - Montclair St. 2
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Stevenson wins toss and will kickoff; DVU will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Rutsch,Zachary kickoff 63 yards to the DVU02 Prevard,Jamir return 33 yards to the DVU35 (Fleming,Amari; Henderson,Jaiheem).']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Stevenson (A)?Final score Delaware Valley 34 - Stevenson 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Del Val wins toss and receives and defends east endzone.']
+['LYCO ball on LYCO35.']
+['Ian Plankenhorn kickoff 64 yards to the DELVAL1, T. Weathers return 14 yards to the DELVAL15 (Nick Parrella).']
+Is this opponent scout? (Y/N)Are you Lycoming (H) or Delaware Valley (A)?Final score Lycoming 7 - Delaware Valley 32
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Delaware Valley wins toss and will receive; K C will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Prescavage,Kyle kickoff 54 yards to the DVU11 Dorsey,Tavian return 14 yards to the DVU25 (Gibson,Amir), out of bounds.']
+Exception in King's (PA) at Delaware Valley (index) quarter 0 drive 1
+	 ['Delaware Valley at 14:54']
+	 ['Delaware Valley at 14:54']
+	 ['1st and 10 at DVU25', 'Delaware Valley drive start at 14:54.']
+	 ['1st and 10 at DVU25', 'Bohannan,Daquan pass complete to Davis,John for 4 yards to the DVU29 (Mozeleski,Brendan).']
+	 ['2nd and 6 at DVU29', 'Bohannan,Daquan pass complete to Dorsey,Bryce for 1 yard loss to the DVU28 (Lettsome,Jassiem).']
+	 ['3rd and 7 at DVU28', 'Bohannan,Daquan pass complete to Barksdale,Tahmir for 8 yards to the DVU36 (Demosthene,Elijah), out of bounds, 1ST DOWN.']
+	 ['1st and 10 at DVU36', 'Simmons,Donte rush for 15 yards gain to the K C49 (Gilmore,Tommy), 1ST DOWN.']
+	 ['1st and 10 at K C49', 'Simmons,Donte rush for 4 yards gain to the K C45 fumbled by Simmons,Donte at K C47 forced by Solomon,Dallas recovered by K C Demosthene,Elijah at K C45, End Of Play.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'K'
+
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or King's (PA) (A)?Final score Delaware Valley 0 - King's (PA) 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['DVU won the toss and deferred, FDU will receive']
+['DELVAL ball on DELVAL35.']
+['Jack Hughes kickoff 55 yards to the FDUTRAV10, Anthony Bilotta return 10 yards to the FDUTRAV20 (James Agresta).']
+Is this opponent scout? (Y/N)Are you FDU-Florham (H) or Delaware Valley (A)?Final score FDU-Florham 7 - Delaware Valley 61
+Player name overlap detected in Delaware Valley at FDU-Florham. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MIFB ball on MIFB35.']
+['Moyer, Chris kickoff 61 yards to the DELVAL4, Tavaian Dorsey return 30 yards to the DELVAL34 (Ibe, Christian).']
+Is this opponent scout? (Y/N)Are you Misericordia (H) or Delaware Valley (A)?Final score Misericordia 0 - Delaware Valley 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Delaware Valley wins toss and defers; LVC will receive; DVU will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Moran,Pat kickoff 56 yards to the LVC09 Niemeyer,Cameron return 12 yards to the LVC21 (Cruz,Gerald; Mayers,Aaron).']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Lebanon Valley (A)?Final score Delaware Valley 31 - Lebanon Valley 3
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Delaware Valley unsportsmanlike conduct penalty will be enforced on KO Del Val wins toss, will receive']
+['WUFB ball on WUFB35.']
+['PENALTY DELVAL unsportsmanlike conduct 15 yards to the 50 yardline, 1ST DOWN WUFB.']
+['A. Orlando kickoff 50 yards to the DELVAL0, touchback.']
+Is this opponent scout? (Y/N)Are you Wilkes University (H) or Delaware Valley (A)?Final score Wilkes University 0 - Delaware Valley 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Delaware Valley wins toss and will receive; WID will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Eimer,Larry kickoff 51 yards to the DVU14 Prevard,Jamir return 51 yards to the WID35 (Schoenleber,Michael; Murt,Colin).']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Widener (A)?Final score Delaware Valley 27 - Widener 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Delaware Valley wins toss and defers; AMC will receive; DVU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Moran,Pat kickoff 47 yards to the AMC18 McMillian,Justin return 82 yards to the DVU00 TOUCHDOWN, clock 14:40.']
+['Kent,Ryan kick attempt good.']
+['Kent,Ryan kickoff 35 yards to the DVU30 Harris,Justin return 12 yards to the DVU42 (George,Danny) PENALTY AMC Horse Collar Tackle (George,Danny) 15 yards from AMC38 to AMC23.']
+['DVU ball on AMC23.']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Anna Maria (A)?Final score Delaware Valley 62 - Anna Maria 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Delaware Valley wins toss and defers; MUH will receive; DVU will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Moran,Pat kickoff 60 yards to the MUH05 Washington,John return 49 yards to the DVU46 (Moore,Ahmad).']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Muhlenberg (A)?Final score Delaware Valley 0 - Muhlenberg 14
+Folder name? (Scout team name default)

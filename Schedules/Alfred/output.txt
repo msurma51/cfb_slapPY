@@ -1,0 +1,50 @@
+Enter -['Start of 1st Half']
+['Hobart wins toss and defers; ALF will receive; HOB will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['DiGregorio,Rob kickoff 49 yards to the ALF16 Gray,Darviae return 9 yards to the ALF25 (Kante,Bangaly).']
+Is this opponent scout? (Y/N)Are you Alfred (H) or Hobart (A)?Final score Alfred 3 - Hobart 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alfred wins toss and will receive; MSJ will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Murray,Ryan kickoff 65 yards to the AUS00, Touchback.']
+Is this opponent scout? (Y/N)Are you Mt. St. Joseph (H) or Alfred (A)?Final score Mt. St. Joseph 33 - Alfred 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Ithaca wins toss and will receive; ALF will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+["McCaslin,Dustin kickoff 63 yards to the ITH02 D'Addetta,Anthony return 12 yards to the ITH14 (Russo,Carter)."]
+Is this opponent scout? (Y/N)Are you Alfred (H) or Ithaca (A)?Final score Alfred 0 - Ithaca 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['KALAMAZO ball on KALAMAZO35, clock 15:00.']
+['Ian Burr kickoff 60 yards to the ALFRED05, Darviae Gray return 39 yards to the ALFRED44 (Tommy Kartes; Sam Hughes), PENALTY KALAMAZO personal foul (Sam Hughes) 15 yards to the KALAMAZO41.']
+Is this opponent scout? (Y/N)Are you Kalamazoo (H) or Alfred (A)?Final score Kalamazoo 7 - Alfred 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alfred wins toss and will kickoff; HAR will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['McCaslin,Dustin kickoff 65 yards to the HAR00, Touchback.']
+Is this opponent scout? (Y/N)Are you Alfred (H) or Hartwick (A)?Final score Alfred 24 - Hartwick 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['St. John Fisher wins toss and defers; ALF will receive; SJF will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Dotterweich,Joe kickoff 64 yards to the ALF01 Moretti-Ransom,Steven return 12 yards to the ALF13 (Letta,Johnathan).']
+Is this opponent scout? (Y/N)Are you St. John Fisher (H) or Alfred (A)?Final score St. John Fisher 35 - Alfred 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alfred wins toss and defers; MSC will receive; ALF will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['McCaslin,Dustin kickoff 42 yards to the MSC23 Salvaggio,Evan return 8 yards to the MSC31 (Copp,Joe).']
+Is this opponent scout? (Y/N)Are you Alfred (H) or Morrisville St. (A)?Final score Alfred 21 - Morrisville St. 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alfred wins toss, defers. Cortland receives. Alfred defends south.']
+['ALFRED ball on ALFRED35.']
+['McCaslin, Dusti kickoff 63 yards to the CORTLAND2, CJ Messina return 38 yards to the CORTLAND40, out-of-bounds (McCaslin, Dusti).']
+Is this opponent scout? (Y/N)Are you Cortland (H) or Alfred Univ. (A)?Final score Cortland 47 - Alfred Univ. 3
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alfred wins toss and will receive; UTI will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Lichtman,Cory kickoff 65 yards to the ALF00, Touchback.']
+Is this opponent scout? (Y/N)Are you Alfred (H) or Utica (A)?Final score Alfred 24 - Utica 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Brockport wins toss and defers']
+['BROCK ball on BROCK35.']
+['Nate Wigent kickoff 56 yards to the ALFRED9, Max Freeman return 18 yards to the ALFRED27 (Ben Marshall).']
+Is this opponent scout? (Y/N)Are you Brockport St. (H) or ALFRED (A)?Final score Brockport St. 38 - ALFRED 0
+Folder name? (Scout team name default)

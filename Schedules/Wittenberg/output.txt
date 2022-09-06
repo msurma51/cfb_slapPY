@@ -1,0 +1,103 @@
+Enter -['1st']
+['1st and 10 at CORTLAND35', 'CORTLAND ball on CORTLAND35, clock 15:00.']
+['', 'Patrick Luby kickoff 65 yards to the WITT0, touchback.']
+Is this opponent scout? (Y/N)Are you Wittenberg (H) or SUNY Cortland (A)?Final score Wittenberg 16 - SUNY Cortland 38
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HIRF35', 'WITF ball on WITF35, clock 15:00.']
+['', 'Nick Bowman kickoff 53 yards to the HIRF12, Dexter Coleman return 16 yards to the HIRF28 (Cameron Snurr).']
+Is this opponent scout? (Y/N)Are you Wittenberg (H) or Hiram (A)?Final score Wittenberg 51 - Hiram 21
+Folder name? (Scout team name default)Enter -Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 14, in pbp_parser
+    html = urlopen(url, context=ctx).read()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 557, in error
+    result = self._call_chain(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 749, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 525, in open
+    response = meth(req, response)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 634, in http_response
+    response = self.parent.error(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 563, in error
+    return self._call_chain(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 105, in taster
+    abbr = abbr_finder(quarters[0][drive_count],abbr)
+IndexError: list index out of range
+Enter -['1st']
+['1st and 10 at WIT35', '* Wittenberg wins the toss, OWU will receive and defend N goal.']
+['', 'Nick Bowman kickoff 65 yards to the OWU00, touchback.']
+Is this opponent scout? (Y/N)Are you Ohio Wesleyan (H) or Wittenberg (A)?Final score Ohio Wesleyan 23 - Wittenberg 24
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at DPU35', 'WIT ball on WIT35, clock 15:00.']
+['', 'Nick Bowman kickoff 63 yards to the DPU02, Danny Sheehan return 20 yards to the DPU22, fumble forced by TEAM, fumble by Danny Sheehan recovered by DPU Danny Sheehan at DPU27.']
+Is this opponent scout? (Y/N)Are you Wittenberg (H) or DePauw (A)?Final score Wittenberg 14 - DePauw 17
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WITFB135', 'Witt wins toss and will kickoff']
+['', 'Bowman, Nick kickoff 58 yards to the OBEF07, Arnold return 18 yards to the OBEF25 (Sterett, Drew).']
+Exception in Wittenberg at Oberlin College (index) quarter 1 drive 3
+	 ['Oberlin at 07:16']
+	 ['1st and 10 at OBEF11', 'Oberlin College drive start at 07:16.']
+	 ['1st and 10 at OBEF11', 'Allen Jr pass complete to Diskin for 14 yards to the OBEF25, out-of-bounds (Burkey, Jordan), PENALTY WITFB1 personal foul 15 yards to the OBEF40.']
+	 ['1st and 10 at OBEF40', '1st and 10.']
+	 ['1st and 10 at OBEF40', 'Brooks rush for 4 yards to the OBEF44 (Caudle, Kameron).']
+	 ['2nd and 6 at OBEF44', 'Brooks rush for 2 yards to the OBEF46 (Caudle, Kameron).']
+	 ['3rd and 4 at OBEF46', 'Allen Jr pass complete to Diskin for 8 yards to the WITFB146 (Fiessinger, M.).']
+	 ['1st and 10 at WITFB146', 'Allen Jr pass complete to Davies for 21 yards to the WITFB125 (Edwards, Rashon).']
+	 ['1st and 10 at WITFB125', 'Allen Jr pass complete to Arnold for 3 yards to the WITFB122 (Edwards, Rashon).']
+	 ['2nd and 7 at WITFB122', 'Brooks rush for 4 yards to the WITFB118 (Morrison, Levi).']
+	 ['3rd and 3 at WITFB118', 'Allen Jr pass complete to Colarusso for 18 yards to the WITFB100, TOUCHDOWN, clock 03:26.']
+	 ['', 'Bingaman kick attempt good.']
+	 ['', 'Wittenberg 14, Oberlin 7']
+	 ['8 plays, 89 yards, 03:50 elapsed']
+	 ['', 'Bingaman kickoff 40 yards to the WITFB125, Watts, Artemus return 0 yards to the WITFB125, fumble by Watts, Artemus recovered by WITFB1 Culliver, Dev at WITFB127.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'WITFB1'
+
+Is this opponent scout? (Y/N)Are you Oberlin (H) or Wittenberg (A)?Final score Oberlin 7 - Wittenberg 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at KENYON35', 'WITTENBE ball on WITTENBE35, clock 15:00.']
+['', 'Nick Bowman kickoff 59 yards to the KENYON06, Zach Kim return 15 yards to the KENYON21 (Julio Novarini), out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Wittenberg (H) or Kenyon (A)?Final score Wittenberg 38 - Kenyon 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WITF35', 'WITF ball on WITF35, clock 15:00.']
+['', 'Nick Bowman kickoff 62 yards to the ALLF03, Ian Durci return 20 yards to the ALLF23 (Christian Sweet).']
+Is this opponent scout? (Y/N)Are you Allegheny (H) or Wittenberg (A)?Final score Allegheny 19 - Wittenberg 29
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WIT35', 'Wabash wins toss and defers']
+['1st and 10 at WIT35', '.']
+['1st and 10 at WIT35', 'Start of 1st quarter, clock 15:00, WAB ball on WAB35.']
+['', 'Jacob Handley kickoff 45 yards to the WIT20, May,Tyler return 19 yards to the WIT39 (Aidan Walker).']
+Is this opponent scout? (Y/N)Are you Wabash (H) or Wittenberg (A)?Final score Wabash 14 - Wittenberg 35
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WOO35', 'WIT ball on WIT35, clock 15:00.']
+['', 'Brandon Goodwin kickoff 55 yards to the WOO10, Matt Ulishney return 18 yards to the WOO28 (Tyler VanMeter).']
+Is this opponent scout? (Y/N)Are you Wittenberg (H) or Wooster (A)?Final score Wittenberg 44 - Wooster 29
+Folder name? (Scout team name default)

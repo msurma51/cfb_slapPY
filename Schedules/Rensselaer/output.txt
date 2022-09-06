@@ -1,0 +1,75 @@
+Enter -['Start of 1st Half']
+[' Montclair St. wins toss and defers RPI will receive MSU will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MSU ball on MSU35.']
+['Myerson,Andrew kickoff 48 yards to the RPI17, D. Munoz Whatts return 19 yards to the RPI36 (TEAM).']
+Is this opponent scout? (Y/N)Are you Rensselaer (H) or Montclair State (A)?Final score Rensselaer 21 - Montclair State 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Stevenson wins toss and defers RPI will receive STE will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, STEVENSO ball on STEVENSO35.']
+['Rutsch,Zachary kickoff 63 yards to the RPI2, D. Munoz Whatts return 24 yards to the RPI26 (Senga,Steven).']
+Is this opponent scout? (Y/N)Are you Rensselaer (H) or Stevenson (A)?Final score Rensselaer 14 - Stevenson 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' RPI ball on RPI35, clock 15:00. RPI won the opening coin toss and defers to the second half WPI will receive the opening kickoff and will defend the north goal']
+['C. MacDougall kickoff 56 yards to the WPI9, Zachary Levy return 29 yards to the WPI38, fumble forced by C. MacDougall, fumble by Zachary Levy recovered by RPI Jimmy Leblo at WPI37.']
+Is this opponent scout? (Y/N)Are you WPI (H) or Rensselaer (A)?Final score WPI 10 - Rensselaer 24
+Player name overlap detected in Rensselaer at WPI. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. John Fisher wins toss and defers RPI will receive SJF will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SJFC ball on SJFC35.']
+['Dotterweich,Joe kickoff 58 yards to the RPI7, Carlos Davis return 27 yards to the RPI34 (Manna,Anthony;Dotterweich,Joe).']
+Is this opponent scout? (Y/N)Are you Rensselaer (H) or St. John Fisher (A)?Final score Rensselaer 41 - St. John Fisher 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Rensselaer wins toss and defers ROC will receive RPI will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, RPI ball on RPI35.']
+['C. MacDougall kickoff 63 yards to the YELLOWJA2, Penman,Chris return 19 yards to the YELLOWJA21 (Nolan Farina;Cam Younginer).']
+Is this opponent scout? (Y/N)Are you Rensselaer (H) or Rochester (NY) (A)?Final score Rensselaer 38 - Rochester (NY) 22
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Rensselaer wins toss and defers BSC will receive RPI will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, RPI ball on RPI35.']
+['C. MacDougall kickoff 53 yards to the BENGALS12, Jackson,Nas return 10 yards to the BENGALS22 (Gil Goldsmith;Lou Vigeant).']
+Is this opponent scout? (Y/N)Are you Rensselaer (H) or Buffalo St. (A)?Final score Rensselaer 24 - Buffalo St. 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hobart wins toss and defers RPI will receive HOB will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, HOBART ball on HOBART35.']
+['DiGregorio,Rob kickoff 34 yards to the RPI31, fair catch by Matt Parrino.']
+Is this opponent scout? (Y/N)Are you Hobart (H) or Rensselaer (A)?Final score Hobart 10 - Rensselaer 9
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Rensselaer wins toss and defers ITH will receive RPI will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, RPI ball on RPI35.']
+['C. MacDougall kickoff 38 yards to the ITHACA27, Williams,Jake return 4 yards to the ITHACA31 (Cam Younginer;Lou Vigeant).']
+Is this opponent scout? (Y/N)Are you Rensselaer (H) or Ithaca (A)?Final score Rensselaer 14 - Ithaca 11
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Rensselaer wins toss and defers SLU will receive RPI will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, RPI ball on RPI35.']
+['Zac Montrief kickoff 61 yards to the SLU4, out-of-bounds.']
+Is this opponent scout? (Y/N)Are you St. Lawrence (H) or Rensselaer (A)?Final score St. Lawrence 20 - Rensselaer 22
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Union (NY) wins toss and defers RPI will receive UNI will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, UNION ball on UNION35.']
+['Lau,Andrew kickoff 60 yards to the RPI5, Walker-Sutton return 17 yards to the RPI22 (Ciocca,Jake).']
+Is this opponent scout? (Y/N)Are you Union (NY) (H) or Rensselaer (A)?Final score Union (NY) 24 - Rensselaer 12
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Endicott ends the toss and defers to the second half.']
+['ECM ball on ECM35.']
+['PENALTY ECM delay of game (Ryan Smith) 5 yards to the ECM30.']
+['Ryan Smith kickoff 58 yards to the RPI12, Walker-Sutton return 11 yards to the RPI23.']
+Is this opponent scout? (Y/N)Are you Endicott (H) or Rensselaer (A)?Final score Endicott 14 - Rensselaer 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Cortland wins toss, defers. RPI receives. Cortland defends north.']
+['CORTLAND ball on CORTLAND35.']
+['Patrick Luby kickoff 61 yards to the RPI4, Peter Lombardi return 22 yards to the RPI26 (Paul Imperiale;Zack Thuesen).']
+Is this opponent scout? (Y/N)Are you Cortland (H) or RPI (A)?Final score Cortland 14 - RPI 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NCC wins coin toss and elects to receive.']
+['Bisson, Trevor kickoff 60 yards to the NCC5, Hardy, D. return 25 yards to the NCC30 (Farina, Nolan).']
+Is this opponent scout? (Y/N)Are you North Central (H) or RPI (A)?Final score North Central 55 - RPI 6
+Folder name? (Scout team name default)

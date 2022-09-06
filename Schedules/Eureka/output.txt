@@ -1,0 +1,88 @@
+Enter -['1st']
+['1st and 10 at EUR35', 'Eureka wins toss and defers; NWU will receive; EUR will defend South end-zone.']
+['1st and 10 at EUR35', 'Start of 1st quarter, clock 15:00.']
+['', 'Bartkus,Steven kickoff 65 yards to the NWU00, Touchback.']
+Is this opponent scout? (Y/N)Are you Neb. Wesleyan (H) or Eureka (A)?Final score Neb. Wesleyan 69 - Eureka 20
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at OLIVET-R35', 'Eureka wins toss and will receive']
+['1st and 10 at OLIVET-R35', 'OLI will defend North end-zone']
+['1st and 10 at OLIVET-R35', 'Start of 1st quarter, clock 15:00, OLIVET-R ball on OLIVET-R35.']
+['', 'Samuel Roose kickoff 53 yards to the EUREKA12, Folston,Malek return 11 yards to the EUREKA23 (Logan Fee).']
+Score correction made in Olivet @ Eureka (index) quarter 1 drive 7
+Score correction made in Olivet @ Eureka (index) quarter 2 drive 1
+Score correction made in Olivet @ Eureka (index) quarter 2 drive 2
+Score correction made in Olivet @ Eureka (index) quarter 2 drive 2
+Score correction made in Olivet @ Eureka (index) quarter 2 drive 5
+Score correction made in Olivet @ Eureka (index) quarter 3 drive 0
+Is this opponent scout? (Y/N)Are you Eureka (H) or Olivet (A)?Final score Eureka 16 - Olivet 42
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at EUR35', 'Rockford wins the toss and elects to receive.']
+['1st and 10 at EUR35', 'EUR ball on EUR35.']
+['1st and 10 at EUR35', 'Start of 1st quarter, clock 15:00.']
+['', 'Bartkus, Steven kickoff 57 yards to the RU08, Bowins, Martiez return 10 yards to the RU18 (Toussaint, M.).']
+Score correction made in Eureka @ Rockford (index) quarter 4 drive 0
+Is this opponent scout? (Y/N)Are you Rockford (H) or Eureka (A)?Final score Rockford 57 - Eureka 58
+Player name overlap detected in Eureka College at Rockford University. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at EUR35', 'BENU ball on BENU35.']
+['', 'Mateus,Tanner kickoff 52 yards to the EUR13, out-of-bounds, EUR ball on EUR35.']
+Is this opponent scout? (Y/N)Are you Benedictine (Ill.) (H) or Eureka (A)?Final score Benedictine (Ill.) 49 - Eureka 29
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at COUGARS35', 'Concordia has won, Red Devils receive north end zone']
+['1st and 10 at COUGARS35', 'COUGARS ball on COUGARS35.']
+['', 'Ryan Auer kickoff 43 yards to the ECFC22, Hill, Sebastian return 9 yards to the ECFC31, out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Eureka (H) or Concordia Chicago (A)?Final score Eureka 38 - Concordia Chicago 13
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CUW35', 'Concordia won the toss, deferred, EC will receive north end']
+['1st and 10 at CUW35', 'CUW ball on CUW35.']
+['', 'Casas,Andre kickoff 65 yards to the ECFC00, touchback.']
+Score correction made in Concordia Wisconsin @ Eureka (index) quarter 1 drive 2
+Score correction made in Concordia Wisconsin @ Eureka (index) quarter 1 drive 5
+Score correction made in Concordia Wisconsin @ Eureka (index) quarter 2 drive 3
+Score correction made in Concordia Wisconsin @ Eureka (index) quarter 3 drive 5
+Is this opponent scout? (Y/N)Are you Eureka (H) or Concordia Wisconsin (A)?Final score Eureka 20 - Concordia Wisconsin 28
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at EUR35', 'Aurora University wins toss and will receive; EUR will defend South end-zone.']
+['1st and 10 at EUR35', 'Start of 1st quarter, clock 15:00.']
+['', 'Bartkus,Steven kickoff 63 yards to the AUR02 Moore,Cameron return 32 yards to the AUR34 (Bartkus,Steven).']
+Is this opponent scout? (Y/N)Are you Aurora (H) or Eureka (A)?Final score Aurora 49 - Eureka 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ECFC35', 'Eureka Won the Coin Toss, Deferred to the Second Half']
+['', 'Bartkus, Steven kickoff 60 yards to the WLCFB2105, Schneider, C. return 18 yards to the WLCFB2123 (Hopkins, Austin).']
+Exception in Eureka at Wisconsin Lutheran (index) quarter 2 drive 1
+	 ['Eureka at 15:00']
+	 ['1st and 10 at ECFC32', 'Eureka drive start at 15:00.']
+	 ['1st and 10 at ECFC32', 'Bernabei, Ben rush for 9 yards to the ECFC41 (Ly, Alec).']
+	 ['2nd and 1 at ECFC41', 'Bernabei, Ben rush for 30 yards to the WLCFB2129 (Castillo, Ty).']
+	 ['1st and 10 at WLCFB2129', 'Tinkham, Lukas pass incomplete to Bradford, P., dropped pass.']
+	 ['2nd and 10 at WLCFB2129', 'Damerell, B. rush for 14 yards to the WLCFB2115 (Allen, Xavion).']
+	 ['1st and 10 at WLCFB2115', 'Damerell, B. rush for 14 yards to the WLCFB2101, fumble by Damerell, B. recovered by WLCFB21 Castillo, Ty at WLCFB2100, touchback.']
+	 ['5 plays, 68 yards, 01:29 elapsed']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'WLCFB21'
+
+Is this opponent scout? (Y/N)Are you Wis. Lutheran (H) or Eureka (A)?Final score Wis. Lutheran 34 - Eureka 19
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at LUFB35', 'lakeland won, deffered to recieve']
+['1st and 10 at LUFB35', 'lakeland will kickoff']
+['1st and 10 at LUFB35', 'LUFB ball on LUFB35.']
+['', 'Colley, Andrew kickoff 60 yards to the ECFC05, Hill, Sebastian return 23 yards to the ECFC28, out-of-bounds (Schaefer).']
+Score correction made in Lakeland @ Eureka (index) quarter 1 drive 2
+Score correction made in Lakeland @ Eureka (index) quarter 1 drive 2
+Is this opponent scout? (Y/N)Are you Eureka (H) or Lakeland (A)?Final score Eureka 16 - Lakeland 45
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at SNC35', 'Red Devils will receive']
+['1st and 10 at SNC35', 'SNC ball on SNC35.']
+['', 'Wodack,Brady kickoff 64 yards to the EUR01, Sebastian Hill return 16 yards to the EUR17 (Santos,Kyle; Barnett,Sam).']
+Score correction made in St. Norbert @ Eureka (index) quarter 2 drive 2
+Score correction made in St. Norbert @ Eureka (index) quarter 3 drive 2
+Is this opponent scout? (Y/N)Are you Eureka (H) or St. Norbert (A)?Final score Eureka 21 - St. Norbert 63
+Folder name? (Scout team name default)

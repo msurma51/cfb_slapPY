@@ -1,0 +1,52 @@
+Enter -['Start of 1st Half']
+['Adrian wins toss and defers; HEI will receive; ADR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Evans,Walker kickoff 56 yards to the HEI09 Wiley,Tramon return 30 yards to the HEI39 (Augle,Christopher).']
+Score correction made in Heidelberg @ Adrian (index) quarter 0 drive 6
+Is this opponent scout? (Y/N)Are you Adrian (H) or Heidelberg (A)?Final score Adrian 20 - Heidelberg 48
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Adrian wins toss and will receive; HAN will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Vanosdol,Jayden kickoff 44 yards to the ADR21 Kujawa,Kenny return 0 yards to the ADR21 (Hardiman,Devonte).']
+Is this opponent scout? (Y/N)Are you Hanover (H) or Adrian (A)?Final score Hanover 21 - Adrian 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Greenville wins toss and defers; ADR will receive; GRE will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hermo,Lucas kickoff 57 yards to the ADR08 Kujawa,Kenny return 19 yards to the ADR27 (Neeley,Claude).']
+Is this opponent scout? (Y/N)Are you Adrian (H) or Greenville (A)?Final score Adrian 41 - Greenville 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Finlandia wins toss.  Will Receive']
+['ADRIAN ball on ADRIAN35.']
+['Walker Evans kickoff 45 yards to the FINNU20, B. OWENS return 10 yards to the FINNU30 (Nate Shaw;Jimmie Clark).']
+Is this opponent scout? (Y/N)Are you Finlandia (H) or Adrian (A)?Final score Finlandia 6 - Adrian 56
+Player name overlap detected in Adrian at Finlandia. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Trine wins toss and defers; ADR will receive; TRI will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hibbetts,Ryan kickoff 65 yards to the ADR00, Touchback.']
+Is this opponent scout? (Y/N)Are you Trine (H) or Adrian (A)?Final score Trine 36 - Adrian 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Albion wins toss and defers; ADR will receive; ALB will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Williams,Hunter kickoff 58 yards to the ADR07 Ray,Malik return 13 yards to the ADR20 (Jones-Price,Phillip; Longmire,Eddie).']
+Is this opponent scout? (Y/N)Are you Adrian (H) or Albion (A)?Final score Adrian 21 - Albion 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alma wins toss and defers; ADR will receive; ALM will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Kindsvatter,Kaleb kickoff 55 yards to the ADR10 Ray,Malik return 4 yards to the ADR14 (Salani,Trever).']
+Is this opponent scout? (Y/N)Are you Adrian (H) or Alma (A)?Final score Adrian 36 - Alma 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hope wins toss and defers; ADR will receive; HPE will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hillger,Dylan kickoff 64 yards to the ADR01 Clark,Jimmie return 9 yards to the ADR10 (Debri,Andrew).']
+Is this opponent scout? (Y/N)Are you Hope (H) or Adrian (A)?Final score Hope 19 - Adrian 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Adrian wins toss and defers; OLI will receive; ADR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Evans,Walker kickoff 32 yards to the OLI33 fair catch by Lewis,Kolbe at OLI33.']
+Is this opponent scout? (Y/N)Are you Adrian (H) or Olivet (A)?Final score Adrian 28 - Olivet 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['KALAMAZO ball on KALAMAZO35, clock 15:00.']
+['Ian Burr kickoff 11 yards to the KALAMAZO46, on-side kick, recovered by ADRIAN on KALAMAZO46.']
+Is this opponent scout? (Y/N)Are you Kalamazoo (H) or Adrian (A)?Final score Kalamazoo 21 - Adrian 33
+Folder name? (Scout team name default)

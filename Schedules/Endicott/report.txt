@@ -1,0 +1,30 @@
+Final score Endicott 27 - St. Lawrence 14
+Score correction made in WPI @ Endicott (index) quarter 2 drive 3
+Final score Endicott 28 - WPI 21
+Player name overlap detected in WPI at Endicott. Check possession transitions
+Final score Catholic 32 - Endicott 29
+Final score Norwich 21 - Endicott 30
+Final score Endicott 34 - Curry 27
+Final score Endicott 45 - Western New Eng. 21
+Player name overlap detected in Western New England at Endicott. Check possession transitions
+Final score Husson 17 - Endicott 24
+Final score Salve Regina 21 - Endicott 14
+Score correction made in U. of New England @ Endicott (index) quarter 1 drive 4
+Final score Endicott 19 - U. of New England 17
+Player name overlap detected in UNE at Endicott. Check possession transitions
+Final score Nichols 3 - Endicott 37
+Final score Endicott 14 - No. 18/20 Rensselaer 20
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 223, in <module>
+    df[cols].to_csv('Schedules\\{}\\{} {}.csv'.format(folder_name,date_str,game_str))
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\core\generic.py", line 3551, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\formats\format.py", line 1180, in to_csv
+    csv_formatter.save()
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\formats\csvs.py", line 241, in save
+    with get_handle(
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\common.py", line 694, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\common.py", line 568, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'Schedules\Endicott\2021-11-20 Endicott vs No. 18'

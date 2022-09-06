@@ -1,0 +1,98 @@
+Enter -['1st']
+['1st and 10 at MOR35', 'Moravian wins toss and defers; KCP will receive; MOR will defend South end-zone.']
+['1st and 10 at MOR35', 'Start of 1st quarter, clock 15:00.']
+['1st and 10 at MOR35', 'Yacuboski,Trevor kickoff 63 yards to the KCP02 Boccella,Gabe return 3 yards to the KCP05 lateral to Robinson,Brennan to the KCP05 (Blazofsky,Matt) PENALTY KCP Holding 10 yards from KCP25 to KCP15.']
+['1st and 10 at MOR35', 'KCP ball on KCP15.']
+Is this opponent scout? (Y/N)Are you King's (Pa.) College (H) or Moravian University (A)?Final score King's (Pa.) College 6 - Moravian University 17
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MOR35', '*GC wins toss, defers option to 2nd half. GC defends north goal']
+['1st and 10 at MOR35', 'GCFB ball on GCFB35.']
+['', 'Doug Cummings kickoff 59 yards to the MOR6, Cory Little return 20 yards to the MOR26 (Matt Mikulka).']
+Score correction made in Moravian University @ Gettysburg College (index) quarter 4 drive 0
+Is this opponent scout? (Y/N)Are you Gettysburg College (H) or Moravian University (A)?Final score Gettysburg College 13 - Moravian University 16
+Player name overlap detected in Moravian at Gettysburg. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at SUSQFB35', 'MOR ball on MOR35, clock 15:00.']
+['', 'T. Yacuboski kickoff 54 yards to the SUSQFB11, Kyle Howes return 17 yards to the SUSQFB28 (Joe LePoidevin).']
+Is this opponent scout? (Y/N)Are you Moravian University (H) or Susquehanna University (A)?Final score Moravian University 0 - Susquehanna University 44
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at JHU35', 'JHU ball on JHU35, clock 15:00.']
+['', 'Kyle Battles kickoff 62 yards to the MOR3, Cory Little return 19 yards to the MOR22 (Finn Zechman;Jameson Lajoie), PENALTY JHU personal foul (Duncan Van Kout) 15 yards to the MOR37.']
+Score correction made in No. 14/18 Johns Hopkins University @ Moravian University (index) quarter 1 drive 1
+Is this opponent scout? (Y/N)Are you Moravian University (H) or No. 14/18 Johns Hopkins University (A)?Final score Moravian University 6 - No. 14/18 Johns Hopkins University 54
+Player name overlap detected in Johns Hopkins Univ. at Moravian University. Check possession transitions
+Folder name? (Scout team name default)Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 223, in <module>
+    df[cols].to_csv('Schedules\\{}\\{} {}.csv'.format(folder_name,date_str,game_str))
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\core\generic.py", line 3551, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\formats\format.py", line 1180, in to_csv
+    csv_formatter.save()
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\formats\csvs.py", line 241, in save
+    with get_handle(
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\common.py", line 694, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\surma\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\pandas\io\common.py", line 568, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'Schedules\Moravian University\2021-09-25 Moravian University vs No. 14'
+Enter -['1st']
+['1st and 10 at MOR35', 'JCFB21 ball on JCFB2135.']
+['', 'Beckett Leary kickoff 57 yards to the MOR08, Cory Little return 21 yards to the MOR29 (Moses Perkins).']
+Exception in MOR at Juniata (index) quarter 0 drive 0
+	 ['1st']
+	 ['1st and 10 at MOR35', 'JCFB21 ball on JCFB2135.']
+	 ['', 'Beckett Leary kickoff 57 yards to the MOR08, Cory Little return 21 yards to the MOR29 (Moses Perkins).']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 836, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 761, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1122, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment
+Enter -['1st']
+['1st and 10 at DC35', 'DC ball on DC35, clock 15:00.']
+['', 'Matt Moroz kickoff 63 yards to the MOR2, Romello Walters return 31 yards to the MOR33 (Jeremy Reid).']
+Is this opponent scout? (Y/N)Are you Moravian University (H) or Dickinson College (A)?Final score Moravian University 21 - Dickinson College 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UC35', 'UC ball on UC35, clock 15:00.']
+['', 'Dakota Wherrity kickoff 64 yards to the MOR1, Romello Walters return 15 yards to the MOR16 (William Tatlong;Lamar Fisher), PENALTY UC offside (Marc Clayton) 5 yards to the MOR21.']
+Is this opponent scout? (Y/N)Are you Moravian University (H) or Ursinus College (A)?Final score Moravian University 7 - Ursinus College 34
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MOR35', 'MCD wins toss, defers. MOR will receive. MCD will defend N end zone.']
+['1st and 10 at MOR35', 'MCD ball on MCD35.']
+['', 'John Compere kickoff 59 yards to the MOR06, J. Richardson return 11 yards to the MOR17 (Sam Welcher; Kai Leibfried).']
+Is this opponent scout? (Y/N)Are you McDaniel College (H) or Moravian University (A)?Final score McDaniel College 31 - Moravian University 37
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at F&M35', 'F&M ball on F&M35, clock 15:00.']
+['', 'Jack Rodenberge kickoff 57 yards to the MOR08, Romello Walters return 13 yards to the MOR21 (Luke Dauberman; Kyle Jones).']
+Is this opponent scout? (Y/N)Are you Moravian University (H) or Franklin & Marshall College (A)?Final score Moravian University 10 - Franklin & Marshall College 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at MOR35', 'Muhlenberg won the toss and deferred']
+['1st and 10 at MOR35', 'Moravian to receive and defend the East goal']
+['1st and 10 at MOR35', 'MUHL ball on MUHL35, clock 15:00.']
+['', 'Nick Stannard kickoff 58 yards to the MOR07, Romello Walters return 43 yards to the 50 yardline (Spencer Kirin), out-of-bounds, PENALTY MOR unsportmanlike conduct 15 yards to the MOR35.']
+Is this opponent scout? (Y/N)Are you No. 15 Muhlenberg College (H) or Moravian University (A)?Final score No. 15 Muhlenberg College 55 - Moravian University 0
+Folder name? (Scout team name default)

@@ -1,0 +1,47 @@
+Enter -['Start of 1st Half']
+['Keystone wins toss, will receive']
+['WUFB ball on WUFB35.']
+['A. Orlando kickoff 54 yards to the KCFB202111,  Tabb, Darrien return 14 yards to the KCFB202125 (K. Elamin;J. Addesso).']
+Is this opponent scout? (Y/N)Are you Wilkes University (H) or Keystone College (A)?Final score Wilkes University 46 - Keystone College 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Keystone wins toss and defers; MIS will receive; KEY will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hernandez,Josue kickoff 57 yards to the MIS08 Gawlik,Michael return 15 yards to the MIS23 (Tibbs,Quentin), out of bounds.']
+Score correction made in Misericordia @ Keystone (index) quarter 0 drive 4
+Is this opponent scout? (Y/N)Are you Keystone (H) or Misericordia (A)?Final score Keystone 7 - Misericordia 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['KEYSTONE ball on KEYSTONE35, clock 15:00.']
+['.']
+["Jos Hernandez kickoff 50 yards to the WP15, Abdul Malik,Sir return 19 yards to the WP34 (Da'Juan Vales;Maxwe Johnson)."]
+Is this opponent scout? (Y/N)Are you Keystone (H) or William Paterson (A)?Final score Keystone 14 - William Paterson 42
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hobart wins toss and defers; KEY will receive; HOB will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['DiGregorio,Rob kickoff 57 yards to the KEY08, out of bounds.']
+['KEY ball on KEY35.']
+Is this opponent scout? (Y/N)Are you Hobart (H) or Keystone (A)?Final score Hobart 58 - Keystone 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['KEYSTONE ball on KEYSTONE35, clock 15:00.']
+['Jos Hernandez kickoff 41 yards to the AMC24, Hayden Braga return 76 yards to the KEYSTONE00, TOUCHDOWN, clock 14:46.']
+Is this opponent scout? (Y/N)Are you Keystone (H) or Anna Maria (A)?Final score Keystone 35 - Anna Maria 55
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Keystone won the toss and defers. Gallaudet to receive.']
+['Hernandez, Josu kickoff 37 yards to the GAL28, Mitch Dolinar return 4 yards to the GAL32 (Tocci, Sean).']
+Is this opponent scout? (Y/N)Are you Gallaudet (H) or Keystone (A)?Final score Gallaudet 34 - Keystone 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['DEAN ball on DEAN35, clock 15:00.']
+['Mason Dill kickoff 57 yards to the KEYSTONE08, Christope Diaz return 22 yards to the KEYSTONE30 (Joshua Hali).']
+Is this opponent scout? (Y/N)Are you Keystone (H) or Dean (A)?Final score Keystone 36 - Dean 39
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Keystone wins toss, defers to second half']
+['KCFB ball on KCFB35, Josue Hernandez kickoff 31 yards to the CUFB34, Jared Brockway return 0 yards to the CUFB34 (Zalyn Smith;Sean Tocci).']
+Is this opponent scout? (Y/N)Are you Castleton (H) or Keystone College (A)?Final score Castleton 41 - Keystone College 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['ASC ball on ASC35, clock 15:00.']
+['Evan French kickoff 40 yards to the KEYSTONE25, Tyler Shertzer return 15 yards to the KEYSTONE40 (TEAM).']
+Is this opponent scout? (Y/N)Are you Keystone (H) or Alfred St. (A)?Final score Keystone 7 - Alfred St. 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Keystone won the coin toss and defered to the second half']
+['Josue Hernandez kickoff 42 yards to the MARITIME23, Tim Gasparik return 17 yards to the MARITIME40, out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Maritime College (H) or Keystone College (A)?Final score Maritime College 24 - Keystone College 21
+Folder name? (Scout team name default)

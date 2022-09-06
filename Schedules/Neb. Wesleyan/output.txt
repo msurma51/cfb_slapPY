@@ -1,0 +1,53 @@
+Enter -['Start of 1st Half']
+['Eureka wins toss and defers; NWU will receive; EUR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Bartkus,Steven kickoff 65 yards to the NWU00, Touchback.']
+Is this opponent scout? (Y/N)Are you Neb. Wesleyan (H) or Eureka (A)?Final score Neb. Wesleyan 69 - Eureka 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Augsburg wins toss, will defer and defend east end.']
+['AUG ball on AUG35.']
+['Durham Welch kickoff 59 yards to the NWU6, fair catch by Victor Guzman.']
+Is this opponent scout? (Y/N)Are you Augsburg University (H) or Nebraska Wesleyan (A)?Final score Augsburg University 19 - Nebraska Wesleyan 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Central (IA) wins toss and defers; NWU will receive; CEN will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Sunvold,Logan kickoff 59 yards to the NWU06 fair catch by Guzman,Victor at NWU06.']
+Is this opponent scout? (Y/N)Are you Central (IA) (H) or Neb. Wesleyan (A)?Final score Central (IA) 37 - Neb. Wesleyan 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Loras wins toss and defers; NWU will receive; Lor will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Talmadge,Scott kickoff 65 yards to the NWU00, Touchback.']
+Score correction made in Loras @ Neb. Wesleyan (index) quarter 0 drive 9
+Is this opponent scout? (Y/N)Are you Neb. Wesleyan (H) or Loras (A)?Final score Neb. Wesleyan 30 - Loras 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['luther won the toss, they defered']
+['LUT ball on LUT35.']
+['Thane Larson kickoff 46 yards to the NWU19, Wyatt Faz return 13 yards to the NWU32.']
+Is this opponent scout? (Y/N)Are you Luther College (H) or Nebraska Wesleyan (A)?Final score Luther College 21 - Nebraska Wesleyan 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Dubuque wins toss and defers; NWU will receive; Dub will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Sheffield,Tyler kickoff 64 yards to the NWU01 Guzman,Victor return 9 yards to the NWU10 (Stuver,Chase; Louis,Kedar) PENALTY NWU Clipping 5 yards from NWU10 to NWU05.']
+['NWU ball on NWU5.']
+Is this opponent scout? (Y/N)Are you Neb. Wesleyan (H) or Dubuque (A)?Final score Neb. Wesleyan 14 - Dubuque 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Neb. Wesleyan wins toss and defers; BVU will receive; NWU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Fendley,Zach kickoff 55 yards to the BVU10 Moore,Jalen return 19 yards to the BVU29 (Prorok,Dakota).']
+Is this opponent scout? (Y/N)Are you Buena Vista (H) or Neb. Wesleyan (A)?Final score Buena Vista 50 - Neb. Wesleyan 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Simpson wins toss and will receive; NWU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+["Fendley,Zach kickoff 63 yards to the Sim02 O'Steen,Gavin return 22 yards to the Sim24 (DeVoy,Branden)."]
+Is this opponent scout? (Y/N)Are you Neb. Wesleyan (H) or Simpson (A)?Final score Neb. Wesleyan 44 - Simpson 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Neb. Wesleyan wins toss and defers; War will receive; NWU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Fendley,Zach kickoff 61 yards to the War04 Califf,Robert return 47 yards to the NWU49 (DeVoy,Branden).']
+Is this opponent scout? (Y/N)Are you Wartburg (H) or Neb. Wesleyan (A)?Final score Wartburg 50 - Neb. Wesleyan 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coe wins toss and defers; NWU will receive; Coe will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ellis,Evan kickoff 64 yards to the NWU01 Guzman,Victor return 14 yards to the NWU15 (Shaw,Jack).']
+Is this opponent scout? (Y/N)Are you Neb. Wesleyan (H) or Coe (A)?Final score Neb. Wesleyan 21 - Coe 53
+Folder name? (Scout team name default)

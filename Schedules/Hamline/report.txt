@@ -1,0 +1,40 @@
+Exception in Crown (MN) at Hamline (index) quarter 2 drive 0
+	 ['Start of 2nd Half']
+	 ['Start of 3rd quarter, clock 15:00, HU ball on HU35.']
+	 ['.']
+	 ['HAMLINE drive start at 15:00.']
+	 ['Griebel,Zach middle pass complete to Ralph,Alec for 30 yards to the CC35, 1ST DOWN HU (44).']
+	 ['Griebel,Zach middle pass complete to Fritz,Sam for loss of 8 yards to the CC43 (Caruthers,Avory).']
+	 ['Griebel,Zach middle pass complete to 6 for loss of 24 yards to the HU33 (Caruthers,Avory;Swecker,Ryan).']
+	 ['32 rush up middle for loss of 20 yards to the HU13 (90;44).']
+	 ['Griebel,Zach middle pass complete to 32 for loss of 12 yards to the HU1 (Riedinger,Dylan), PENALTY CC holding (Lawien,Maddox) 10 yards to the HU23, NO PLAY.']
+	 ['1st and 20.']
+	 ['Griebel,Zach middle pass incomplete to Wilson,Charlie.']
+	 ['Griebel,Zach middle pass incomplete to Ralph,Alec.']
+	 ['Griebel,Zach middle pass incomplete to Fritz,Sam, PENALTY HU pass interference (Smith,Kaden) 11 yards to the HU12, 1ST DOWN HU, NO PLAY.']
+	 ['1st and 10.']
+	 ['middle pass complete to Fritz,Sam for no gain to the HU12 (Grant,Destin).']
+	 ['Griebel,Zach rush up middle for loss of 4 yards to the HU8 (97).']
+	 ['Griebel,Zach middle pass incomplete to Wilson,Charlie.']
+	 ['Griebel,Zach middle pass complete to 32 for loss of 1 yard to the HU7 (Swecker,Ryan).']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1031, in game_builder
+    info.update(drive_end_finder(plays))
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 602, in drive_end_finder
+    elif gn_ls in last_play.keys() and last_play[down] == 4:
+KeyError: 'DN'
+Final score Hamline 40 - Crown (MN) 14
+Final score Minnesota Morris 28 - Hamline 30
+Final score Carleton 35 - Hamline 7
+Final score Hamline 34 - St. Scholastica 18
+Final score Hamline 7 - Bethel (MN) 49
+Final score Gust. Adolphus 33 - Hamline 21
+Score correction made in Hamline @ Augsburg University (index) quarter 0 drive 1
+Score correction made in Hamline @ Augsburg University (index) quarter 0 drive 2
+Final score Augsburg University 38 - Hamline 30
+Final score Macalester 23 - Hamline 13
+Score correction made in Concordia-M'head @ Hamline (index) quarter 3 drive 4
+Final score Hamline 7 - Concordia-M'head 41
+Player name overlap detected in Concordia-M'head at Hamline. Check possession transitions
+Final score Hamline 21 - St. Scholastica 20
+Player name overlap detected in St. Scholastica at Hamline. Check possession transitions

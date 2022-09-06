@@ -1,0 +1,62 @@
+Enter -['1st']
+['1st and 10 at WEC35', 'Wis.-Eau Claire wins toss and defers; LCN will receive; WEC will defend West end-zone.']
+['1st and 10 at WEC35', 'Start of 1st quarter, clock 15:00.']
+['', 'Frantal,Brady kickoff 62 yards to the LCN03, out of bounds.']
+['1st and 10 at WEC35', 'LCN ball on LCN35.']
+Is this opponent scout? (Y/N)Are you UW-Eau Claire (H) or Luther (Iowa) (A)?Final score UW-Eau Claire 38 - Luther (Iowa) 21
+Player name overlap detected in Luther at Wis.-Eau Claire. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at EAU35', 'Wis.-Eau Claire wins toss and defers; LOR will receive; EAU will defend East end-zone.']
+['1st and 10 at EAU35', 'Start of 1st quarter, clock 15:00.']
+['', 'Frantal,Brady kickoff 61 yards to the LOR04 Thomas,Elijah return 18 yards to the LOR22 (Schradle,Sam).']
+Is this opponent scout? (Y/N)Are you Loras (Iowa) (H) or UW-Eau Claire (A)?Final score Loras (Iowa) 6 - UW-Eau Claire 28
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WEC35', 'Wis.-Eau Claire wins toss and defers; ALB will receive; WEC will defend East end-zone.']
+['1st and 10 at WEC35', 'Start of 1st quarter, clock 15:00.']
+['', 'Frantal,Brady kickoff 63 yards to the ALB02 Teal,Brendan return 98 yards to the WEC00 TOUCHDOWN, clock 14:48.']
+['', 'Cooney,Jackson kick attempt good.']
+['', 'Williams,Hunter kickoff 54 yards to the WEC11 Antoine,David return 10 yards to the WEC21 (Smith,Conner).']
+Is this opponent scout? (Y/N)Are you Albion (H) or UW-Eau Claire (A)?Final score Albion 23 - UW-Eau Claire 20
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WEC35', 'Wis.-Eau Claire wins toss and defers; STP will receive; WEC will defend South end-zone.']
+['1st and 10 at WEC35', 'Start of 1st quarter, clock 15:00.']
+['', 'Frantal,Brady kickoff 40 yards to the STP25 Nelson,Bo return 0 yards to the STP25, End Of Play.']
+Score correction made in UW-Eau Claire @ UW-Stevens Point (index) quarter 3 drive 3
+Is this opponent scout? (Y/N)Are you UW-Stevens Point (H) or UW-Eau Claire (A)?Final score UW-Stevens Point 15 - UW-Eau Claire 25
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWS35', 'Wis.-Stout wins toss and defers; WEC will receive; UWS will defend East end-zone.']
+['1st and 10 at UWS35', 'Start of 1st quarter, clock 15:00.']
+['', 'Meyer,Jack kickoff 65 yards to the WEC00, Touchback.']
+Score correction made in UW-Stout @ UW-Eau Claire (index) quarter 0 drive 5
+Score correction made in UW-Stout @ UW-Eau Claire (index) quarter 1 drive 1
+Score correction made in UW-Stout @ UW-Eau Claire (index) quarter 1 drive 2
+Score correction made in UW-Stout @ UW-Eau Claire (index) quarter 3 drive 1
+Is this opponent scout? (Y/N)Are you UW-Eau Claire (H) or UW-Stout (A)?Final score UW-Eau Claire 34 - UW-Stout 38
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WEC35', 'Wis.-Eau Claire wins toss and defers; WRF will receive; WEC will defend East end-zone.']
+['1st and 10 at WEC35', 'Start of 1st quarter, clock 15:00.']
+['', 'Frantal,Brady kickoff 58 yards to the WRF07 Blaha,Kaleb return 32 yards to the WRF39 (Burzynski,Sam; Tankhamvang,Tommy).']
+Is this opponent scout? (Y/N)Are you UW-Eau Claire (H) or UW-River Falls (A)?Final score UW-Eau Claire 24 - UW-River Falls 41
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWEC35', 'UWEC wins toss and differs option to second half']
+['', 'Brady Frantal kickoff 52 yards to the UWO13, Peter MacCudden return 17 yards to the UWO30 (Ryan Kuechle).']
+Is this opponent scout? (Y/N)Are you UW-Oshkosh (H) or UW-Eau Claire (A)?Final score UW-Oshkosh 54 - UW-Eau Claire 31
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWW35', 'Wis.-Whitewater wins toss and defers; WEC will receive; UWW will defend South end-zone.']
+['1st and 10 at UWW35', 'Start of 1st quarter, clock 15:00.']
+['', 'Maldonado,Matt kickoff 64 yards to the WEC01 Adair,Will return 25 yards to the WEC26 (Heffner,Hawk; Nelson,Luke).']
+Is this opponent scout? (Y/N)Are you UW-Whitewater (H) or UW-Eau Claire (A)?Final score UW-Whitewater 48 - UW-Eau Claire 6
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at PIONEERS35', 'Wis.-Eau Claire wins toss and will receive']
+['1st and 10 at PIONEERS35', 'UWP will defend East end-zone']
+['1st and 10 at PIONEERS35', 'Start of 1st quarter, clock 15:00, PIONEERS ball on PIONEERS35.']
+['', 'Schweigert,Andr kickoff 65 yards to the BLUGOLDS00, touchback.']
+Score correction made in UW-Platteville @ UW-Eau Claire (index) quarter 1 drive 1
+Score correction made in UW-Platteville @ UW-Eau Claire (index) quarter 1 drive 1
+Is this opponent scout? (Y/N)Are you UW-Eau Claire (H) or UW-Platteville (A)?Final score UW-Eau Claire 28 - UW-Platteville 55
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWEAUCLA35', 'UW-EC won the toss and will receive; UWL kick and defend South goal']
+['1st and 10 at UWEAUCLA35', 'UWL ball on UWL35.']
+['', 'Ryan Beirne kickoff 64 yards to the UWEAUCLA01, Will Adair return 32 yards to the UWEAUCLA33 (Max Brower).']
+Is this opponent scout? (Y/N)Are you UW-La Crosse (H) or UW-Eau Claire (A)?Final score UW-La Crosse 44 - UW-Eau Claire 20
+Folder name? (Scout team name default)

@@ -1,0 +1,56 @@
+Enter -['Start of 1st Half']
+['Adrian wins toss and defers; HEI will receive; ADR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Evans,Walker kickoff 56 yards to the HEI09 Wiley,Tramon return 30 yards to the HEI39 (Augle,Christopher).']
+Score correction made in Heidelberg @ Adrian (index) quarter 0 drive 6
+Is this opponent scout? (Y/N)Are you Adrian (H) or Heidelberg (A)?Final score Adrian 20 - Heidelberg 48
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Capital wins toss and defers HEI will receive CAP will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CAPF ball on CAPF35.']
+['Noble,Eric kickoff 55 yards to the HEID10, Reed,Brandon return 44 yards to the CAPF46 (Hoersten,Louis).']
+Is this opponent scout? (Y/N)Are you Heidelberg (H) or Capital (A)?Final score Heidelberg 48 - Capital 17
+Player name overlap detected in Capital at Heidelberg. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['BW ball on BW35, clock 15:00.']
+['BW won the coin toss and elected to defer to the second half. Heidelberg will receive the opening kick. BW will defend the south end zone']
+['Dean Sarris kickoff 65 yards to the HEID00, touchback.']
+Is this opponent scout? (Y/N)Are you Baldwin Wallace (H) or Heidelberg (A)?Final score Baldwin Wallace 20 - Heidelberg 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' MAR Capt:0 DT Gallagher, 24 RB Agnew, 51 DE Neuberger BERG Capt:1DB Wiley, 12 LB Blackiston 15LB Richmond 41TE Grossman Coin Toss: Berg won toss to receive, Marietta defending N goal']
+['MAR ball on MAR35.']
+['Matthew Haus kickoff 65 yards to the BERG0, touchback.']
+Is this opponent scout? (Y/N)Are you Marietta College (H) or Heidelberg (A)?Final score Marietta College 21 - Heidelberg 44
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Otterbein wins toss and will receive; HEI will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Steckel,Branden kickoff 65 yards to the OTT00, Touchback.']
+Is this opponent scout? (Y/N)Are you Heidelberg (H) or Otterbein (A)?Final score Heidelberg 52 - Otterbein 19
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Heidelberg wins toss and will receive; MTU will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Deack,Nick kickoff 63 yards to the HEI02 Reed,Brandon return 27 yards to the HEI29 (Sexton,Ian).']
+Is this opponent scout? (Y/N)Are you Heidelberg (H) or Mount Union (A)?Final score Heidelberg 14 - Mount Union 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Heidelberg wins coin toss and will receive']
+['MUSK ball on MUSK35.']
+['C. Scozzafava kickoff 55 yards to the BERG10, M. Yearby return 20 yards to the BERG30 (Justin Bell).']
+Score correction made in Heidelberg @ Muskingum (index) quarter 1 drive 0
+Score correction made in Heidelberg @ Muskingum (index) quarter 1 drive 1
+Is this opponent scout? (Y/N)Are you Muskingum (H) or Heidelberg (A)?Final score Muskingum 14 - Heidelberg 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Heidelberg wins toss and will receive; JCU will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Gonya,Grant kickoff 65 yards to the HEI00, Touchback.']
+Is this opponent scout? (Y/N)Are you Heidelberg (H) or John Carroll (A)?Final score Heidelberg 27 - John Carroll 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['ONU wins the toss and defers. HU will receive and defend the N goal.']
+['ONU ball on ONU35.']
+['Dom DiFalco kickoff 65 yards to the BERG00, touchback.']
+Score correction made in Heidelberg @ Ohio Northern (index) quarter 1 drive 6
+Score correction made in Heidelberg @ Ohio Northern (index) quarter 2 drive 2
+Score correction made in Heidelberg @ Ohio Northern (index) quarter 3 drive 6
+Score correction made in Heidelberg @ Ohio Northern (index) quarter 3 drive 7
+Score correction made in Heidelberg @ Ohio Northern (index) quarter 3 drive 8
+Is this opponent scout? (Y/N)Are you Ohio Northern (H) or Heidelberg (A)?Final score Ohio Northern 32 - Heidelberg 33
+Folder name? (Scout team name default)

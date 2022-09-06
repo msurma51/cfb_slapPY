@@ -1,0 +1,49 @@
+Enter -['Start of 1st Half']
+['Widener wins toss and defers; ROW will receive; WID will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Eimer,Larry kickoff 51 yards to the ROW14 Carlstrom,Terry return 28 yards to the ROW42 (Mavromihalis,Trevor).']
+Is this opponent scout? (Y/N)Are you Rowan (H) or Widener (A)?Final score Rowan 22 - Widener 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Springfield wins toss and defers; ROW will receive; SPR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hutra,Christian kickoff 54 yards to the ROW11 Carlstrom,Terry return 36 yards to the ROW47 (Ross-Perkins,Juan).']
+Is this opponent scout? (Y/N)Are you Rowan (H) or Springfield (A)?Final score Rowan 24 - Springfield 46
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Salve Regina wins toss and defers ROW will receive SRU will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SRU ball on SRU35.']
+['Matteo Marasco kickoff 56 yards to the ROW9, Racobaldo,Joe return 15 yards to the ROW24 (Sam Capodice).']
+Is this opponent scout? (Y/N)Are you Salve Regina (H) or ROWAN (A)?Final score Salve Regina 50 - ROWAN 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Kean wins the toss and defers.  Rowan will receive.']
+['KEAN ball on KEAN35.']
+['George Chrissafis kickoff 54 yards to the ROW11, Carlstrom,Terry return 16 yards to the ROW27 (AiJohnnie Rembert;Nick Sura).']
+Is this opponent scout? (Y/N)Are you Kean (H) or Rowan (A)?Final score Kean 24 - Rowan 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rowan wins toss and defers; SAL will receive; ROW will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Kay,Danny kickoff 65 yards to the SAL00, Touchback.']
+Is this opponent scout? (Y/N)Are you Rowan (H) or Salisbury (A)?Final score Rowan 7 - Salisbury 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Rowan wins toss and defers WPU will receive ROW will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, ROW ball on ROW35.']
+['Kay,Danny kickoff 64 yards to the WPU1, Massey,Richard return 24 yards to the WPU25 (Cook,Miles), PENALTY WPU holding 10 yards to the WPU15.']
+Is this opponent scout? (Y/N)Are you Rowan (H) or William Paterson (A)?Final score Rowan 25 - William Paterson 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rowan wins toss and defers; MSU will receive; ROW will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Kay,Danny kickoff 58 yards to the MSU07 Wilder,Zahir return 32 yards to the MSU39 (Robinson,Aeneas).']
+Is this opponent scout? (Y/N)Are you Montclair St. (H) or Rowan (A)?Final score Montclair St. 20 - Rowan 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Chris. Newport wins toss and will receive ROW will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, ROW ball on ROW35.']
+['Kay,Danny kickoff 59 yards to the CNU6, Borders,Jordan return 15 yards to the CNU21 (Bryant,Eric).']
+Is this opponent scout? (Y/N)Are you Rowan (H) or Chris. Newport (A)?Final score Rowan 32 - Chris. Newport 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rowan wins toss, defers to second half']
+['ROW ball on ROW35.']
+['Parigi,Peter kickoff 65 yards to the TCNJ0, touchback.']
+Is this opponent scout? (Y/N)Are you TCNJ (H) or Rowan (A)?Final score TCNJ 21 - Rowan 35
+Folder name? (Scout team name default)
