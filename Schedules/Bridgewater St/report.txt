@@ -1,0 +1,29 @@
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 97, in taster
+    abbr = abbr_finder(quarters[0][drive_count],abbr)
+IndexError: list index out of range
+Score correction made in U. of New England @ Bridgewater St. (index) quarter 0 drive 5
+Score correction made in U. of New England @ Bridgewater St. (index) quarter 1 drive 6
+Score correction made in U. of New England @ Bridgewater St. (index) quarter 4 drive 1
+Final score Bridgewater St. 20 - U. of New England 23
+Final score Bridgewater St. 27 - Plymouth St. 24
+Score correction made in Western Conn. St. @ Bridgewater St. (index) quarter 3 drive 3
+Final score Bridgewater St. 21 - Western Conn. St. 17
+Player name overlap detected in WestConn at Bridgewater State. Check possession transitions
+Final score Fitchburg St. 0 - Bridgewater St. 42
+Final score Worcester St. 13 - Bridgewater St. 49
+Final score Bridgewater St. 47 - Westfield St. 14
+Score correction made in Mass.-Dartmouth @ Bridgewater St. (index) quarter 3 drive 0
+Final score Bridgewater St. 20 - Mass.-Dartmouth 26
+Player name overlap detected in UMass Dartmouth at Bridgewater State. Check possession transitions
+Final score Framingham St. 47 - Bridgewater St. 13
+Score correction made in Bridgewater St. @ Mass. Maritime (index) quarter 0 drive 3
+Final score Mass. Maritime 7 - Bridgewater St. 35
+Player name overlap detected in Bridgewater St. at Mass. Maritime. Check possession transitions

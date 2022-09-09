@@ -1,0 +1,54 @@
+Enter -['Start of 1st Half']
+['HUS ball on HUS35, clock 15:00.']
+['Erick Solarzana kickoff 44 yards to the UMD21, Mike Vincent return 14 yards to the UMD35 (Kaleb Caron).']
+Is this opponent scout? (Y/N)Are you Husson (H) or Mass.-Dartmouth (A)?Final score Husson 14 - Mass.-Dartmouth 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UMass Dartmouth wins toss and will receive; DEC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Dill,Mason kickoff 50 yards to the UMD15 Jean,Marvens return 21 yards to the UMD36 (Kidd,Dre).']
+Is this opponent scout? (Y/N)Are you UMass Dartmouth (H) or Dean (A)?Final score UMass Dartmouth 48 - Dean 29
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FRAM ball on FRAM35, clock 15:00.']
+['Matthew Farley kickoff 50 yards to the UMD15, Malakie Simao return 15 yards to the UMD30 (Kelvin Davila; Justin Toon).']
+Is this opponent scout? (Y/N)Are you Framingham St. (H) or Mass.-Dartmouth (A)?Final score Framingham St. 45 - Mass.-Dartmouth 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UMass Dartmouth wins toss and will receive; WSU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hapenny,Tyler kickoff 45 yards to the UMD20 Woodbury,Eric return 18 yards to the UMD38 (Broyles,Mason).']
+Is this opponent scout? (Y/N)Are you UMass Dartmouth (H) or Worcester St. (A)?Final score UMass Dartmouth 52 - Worcester St. 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WCSU ball on WCSU35, clock 15:00.']
+['A. Weidtman kickoff 65 yards to the UMD00, touchback.']
+Is this opponent scout? (Y/N)Are you Western Conn. St. (H) or Mass.-Dartmouth (A)?Final score Western Conn. St. 34 - Mass.-Dartmouth 19
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mass. Maritime wins toss and defers; UMD will receive; MMA will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ross-Parent,Marco kickoff 51 yards to the UMD14 Jean,Marvens return 24 yards to the UMD38 (Wells,Hugh).']
+Is this opponent scout? (Y/N)Are you UMass Dartmouth (H) or Mass. Maritime (A)?Final score UMass Dartmouth 26 - Mass. Maritime 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+["UMass won, will receive, and defend south endzone'"]
+['WSU ball on WSU35.']
+['Julian, C. kickoff 52 yards to the UMD13, Cole, Isaiah return 22 yards to the UMD35 (Perez-Guzman, J).']
+Score correction made in UMass-Dartmouth @ Westfield State (index) quarter 1 drive 1
+Is this opponent scout? (Y/N)Are you Westfield State (H) or UMass-Dartmouth (A)?Final score Westfield State 16 - UMass-Dartmouth 26
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Fitchburg St. wins toss and defers; UMD will receive; FSU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Kimball,Mac onside kickoff 12 yards to the FSU47, End Of Play.']
+Is this opponent scout? (Y/N)Are you UMass Dartmouth (H) or Fitchburg St. (A)?Final score UMass Dartmouth 40 - Fitchburg St. 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UMD won the coin toss and elected to receive.']
+['BSU ball on BSU35.']
+['Shane Drake kickoff 61 yards to the UMD4, Jalyn Aponte return 19 yards to the UMD23 (Chris Guiliani).']
+Is this opponent scout? (Y/N)Are you Bridgewater State (H) or UMass Dartmouth (A)?Final score Bridgewater State 20 - UMass Dartmouth 26
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UMass Dartmouth wins toss and will receive; PSU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Disalvo,Seth kickoff 59 yards to the UMD06 Jean,Marvens return 14 yards to the UMD20 (Wronski,Bryce; Griffing,Matt).']
+Is this opponent scout? (Y/N)Are you UMass Dartmouth (H) or Plymouth St. (A)?Final score UMass Dartmouth 28 - Plymouth St. 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UMass Dartmouth wins toss and will receive; ASC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['French,Evan kickoff 36 yards to the UMD29 Cole,Isaiah return 9 yards to the UMD38 (VanFleet,Rylie).']
+Is this opponent scout? (Y/N)Are you UMass Dartmouth (H) or Alfred St. (A)?Final score UMass Dartmouth 42 - Alfred St. 16
+Folder name? (Scout team name default)

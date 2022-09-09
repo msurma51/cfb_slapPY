@@ -1,0 +1,51 @@
+Enter -['Start of 1st Half']
+['Millsaps wins toss and will receive; BEL will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hontzas,Constantine kickoff 62 yards to the MIL03 Felix,Montreal return 28 yards to the MIL31 (Welch,Matthieu).']
+Is this opponent scout? (Y/N)Are you Belhaven (H) or Millsaps (A)?Final score Belhaven 56 - Millsaps 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Belhaven wins toss and will receive; SWU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Fournier,Charlie kickoff 63 yards to the BEL02 Blunt,Kolbe return 19 yards to the BEL21 (Izydorczyk,Dominik).']
+Is this opponent scout? (Y/N)Are you Belhaven (H) or Southwestern (TX) (A)?Final score Belhaven 27 - Southwestern (TX) 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hardin-Simmons wins toss and defers; BEL will receive; HSU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Boster,Chandler kickoff 61 yards to the BEL04 Blunt,Kolbe return 27 yards to the BEL31 (McGee,Kelton).']
+Is this opponent scout? (Y/N)Are you Hardin-Simmons (H) or Belhaven (A)?Final score Hardin-Simmons 21 - Belhaven 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Belhaven wins toss and will receive; ACK will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Aldridge,John kickoff 63 yards to the BEL02 Blunt,Kolbe return 14 yards to the BEL16 (Verdun,Sean).']
+Is this opponent scout? (Y/N)Are you Belhaven (H) or Austin (A)?Final score Belhaven 41 - Austin 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Texas Lutheran wins toss and will receive; BEL will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hontzas,Constantine kickoff 52 yards to the TLU13 Robinson IV,Eugene return 24 yards to the TLU37 (Reimonenq,Jaren).']
+Is this opponent scout? (Y/N)Are you Texas Lutheran (H) or Belhaven (A)?Final score Texas Lutheran 35 - Belhaven 42
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Belhaven wins toss and will kickoff; SRS will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hontzas,Constantine kickoff 23 yards to the SRS42 fair catch by Rios,Jade at SRS42.']
+Is this opponent scout? (Y/N)Are you Belhaven (H) or Sul Ross St. (A)?Final score Belhaven 44 - Sul Ross St. 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Howard Payne wins toss and will receive; BEL will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hontzas,Constantine kickoff 61 yards to the HPU04 Russell,Javonte return 26 yards to the HPU30 (Tyler,Lawrence).']
+Is this opponent scout? (Y/N)Are you Howard Payne (H) or Belhaven (A)?Final score Howard Payne 10 - Belhaven 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Belhaven wins toss and defers; CRU will kickoff; BEL will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Avila,Anthony kickoff 65 yards to the BEL00, Touchback.']
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Belhaven (A)?Final score Mary Hardin-Baylor 29 - Belhaven 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['McMurry wins toss and will kickoff; BEL will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Mendoza,Jared kickoff 60 yards to the BEL05 Carter,Phabian return 15 yards to the BEL20 (Diaz,Isaiah).']
+Is this opponent scout? (Y/N)Are you Belhaven (H) or McMurry (A)?Final score Belhaven 35 - McMurry 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['East Tex. Baptist wins toss and defers; BEL will receive; ETX will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Garcia,Alberto kickoff 61 yards to the BEL04 Toliver,Corey return 17 yards to the BEL21 (Pike,Zach).']
+Is this opponent scout? (Y/N)Are you East Tex. Baptist (H) or Belhaven (A)?Final score East Tex. Baptist 7 - Belhaven 41
+Folder name? (Scout team name default)

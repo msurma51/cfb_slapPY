@@ -1,0 +1,61 @@
+Enter -['Start of 1st Half']
+[' Rose-Hulman wins toss and defers WAB will receive R-H will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, RHIT ball on RHIT35.']
+['Jonathan Oliger kickoff 61 yards to the WABASH4, fair catch by Sullivan,Cooper.']
+Is this opponent scout? (Y/N)Are you Rose-Hulman (H) or Wabash (A)?Final score Rose-Hulman 23 - Wabash 33
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Trine wins toss and defers RHI will receive TRI will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, TRINE ball on TRINE35.']
+['Hibbetts,Ryan kickoff 65 yards to the RHIT0, touchback.']
+Is this opponent scout? (Y/N)Are you Trine (H) or Rose-Hulman (A)?Final score Trine 30 - Rose-Hulman 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Rose-Hulman wins toss and defers HPE will receive RHI will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, RHIT ball on RHIT35.']
+['Jonathan Oliger kickoff 54 yards to the HOPE11, Nofziger,Carter return 16 yards to the HOPE27 (Chaikou Sow).']
+Is this opponent scout? (Y/N)Are you Hope (H) or Rose-Hulman (A)?Final score Hope 27 - Rose-Hulman 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Rose-Hulman wins toss and will kickoff DEF will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, RHIT ball on RHIT35.']
+['Jonathan Oliger kickoff 49 yards to the DC16, Maratea,Gavin return 30 yards to the DC46 (Tristen Foisy).']
+Is this opponent scout? (Y/N)Are you Defiance (H) or Rose-Hulman (A)?Final score Defiance 14 - Rose-Hulman 63
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rose-Hulman wins toss and defers; H-C will receive; R-H will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Tuttle,Brett kickoff 63 yards to the H-C02 Oppel,Austin return 22 yards to the H-C24 (Meyer,Christian).']
+Is this opponent scout? (Y/N)Are you Rose-Hulman (H) or Hanover (A)?Final score Rose-Hulman 31 - Hanover 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rose-Hulman wins toss and defers; A-U will receive; R-H will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Tuttle,Brett kickoff 60 yards to the A-U05 McSmith,Sean return 24 yards to the A-U29 (Brown,Caleb).']
+Is this opponent scout? (Y/N)Are you Rose-Hulman (H) or Anderson (IN) (A)?Final score Rose-Hulman 62 - Anderson (IN) 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['RHIT ball on RHIT35, clock 15:00.']
+['Brett Tuttle kickoff 64 yards to the MAN01, David Smith return 14 yards to the MAN15, PENALTY MAN holding (Justin Abiagom) 8 yards to the MAN07.']
+Score correction made in Rose-Hulman @ Manchester (index) quarter 1 drive 2
+Score correction made in Rose-Hulman @ Manchester (index) quarter 1 drive 3
+Is this opponent scout? (Y/N)Are you Manchester (H) or Rose-Hulman (A)?Final score Manchester 14 - Rose-Hulman 57
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Rose-Hulman wins toss and defers B-U will receive R-H will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, RHIT ball on RHIT35.']
+['Brett Tuttle kickoff 52 yards to the BU13, Price Jr.,Andre return 0 yards to the BU13 (Connor Schulte;Riley Roberts).']
+Is this opponent scout? (Y/N)Are you Rose-Hulman (H) or Bluffton (A)?Final score Rose-Hulman 48 - Bluffton 12
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['RHIT ball on RHIT35, clock 15:00.']
+['Brett Tuttle kickoff 47 yards to the FRANKLIN18, out-of-bounds, FRANKLIN ball on FRANKLIN35, clock 15:00.']
+Is this opponent scout? (Y/N)Are you Franklin (H) or Rose-Hulman (A)?Final score Franklin 14 - Rose-Hulman 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['RHIT ball on RHIT35.']
+['Brett Tuttle kickoff 55 yards to the MSJ10, Devon Donawerth return 19 yards to the MSJ29 (Alex Gresock).']
+Is this opponent scout? (Y/N)Are you Rose-Hulman (H) or Mount St. Joseph (A)?Final score Rose-Hulman 58 - Mount St. Joseph 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Rose-Hulman wins toss and defers DPU will receive RHI will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, RHIT ball on RHIT35.']
+['Brett Tuttle kickoff 65 yards to the DPU0, touchback.']
+Is this opponent scout? (Y/N)Are you DePauw (H) or Rose-Hulman (A)?Final score DePauw 26 - Rose-Hulman 21
+Folder name? (Scout team name default)

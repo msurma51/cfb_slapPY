@@ -1,0 +1,29 @@
+Final score Chicago 31 - WashU 21
+Final score WashU 41 - North Park 7
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 207, in <module>
+    date_list = name_dict[game_date].split('/')
+KeyError: 'date'
+Final score WashU 27 - Elmhurst 7
+Final score WashU 17 - Wheaton (Ill.) 33
+Player name overlap detected in Wheaton (IL) at Washington (Mo.). Check possession transitions
+Score correction made in Illinois Wesleyan @ WashU (index) quarter 3 drive 4
+Final score WashU 38 - Illinois Wesleyan 22
+Final score Augustana (Ill.) 7 - WashU 31
+Final score Millikin 13 - WashU 55
+Final score WashU 31 - Carroll (Wis.) 16
+Player name overlap detected in Carroll (WI) at Washington (Mo.). Check possession transitions
+Final score WashU 20 - North Central (Ill.) 59
+Player name overlap detected in North Central at Washington (Mo.). Check possession transitions
+Final score Carthage 16 - WashU 37
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 97, in taster
+    abbr = abbr_finder(quarters[0][drive_count],abbr)
+IndexError: list index out of range

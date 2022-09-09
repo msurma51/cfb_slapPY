@@ -1,0 +1,40 @@
+Final score Wilmington (Ohio) 34 - Southern Virginia 41
+Final score Southern Virginia 17 - Bridgewater 35
+Final score Southern Virginia 34 - LaGrange 38
+Final score Methodist 37 - Southern Virginia Un 14
+Score correction made in Southern Va. @ Maryville (index) quarter 3 drive 4
+Final score Maryville 38 - Southern Va. 17
+Final score Southern Virginia 20 - Huntingdon 48
+Final score Southern Virginia 31 - Greensboro 14
+Final score Brevard 7 - Southern Virginia 3
+Final score Southern Virginia 23 - Averett 28
+Exception in Southern Virginia at N.C. Wesleyan (index) quarter 0 drive 0
+	 ['Start of 1st Half']
+	 ['N.C. WES ball on N.C. WES35, clock 15:00.']
+	 ['Nolan Weloff kickoff 50 yards to the SOUTHERN15, Kru Huxford return 17 yards to the SOUTHERN32 (Alex Nease), out-of-bounds, PENALTY SOUTHERN holding 21 yards to the SOUTHERN11.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1126, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment

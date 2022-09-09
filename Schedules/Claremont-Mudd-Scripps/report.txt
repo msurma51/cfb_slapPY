@@ -1,0 +1,15 @@
+Final score Pomona-Pitzer 3 - Claremont-Mudd-Scripps 25
+Final score Claremont-Mudd-Scripps 34 - Lewis & Clark 10
+Final score Claremont-Mudd-Scripps 15 - Whitworth 31
+Final score Claremont-Mudd-Scripps 29 - Chapman 21
+Score correction made in Redlands @ Claremont-Mudd-Scripps (index) quarter 0 drive 2
+Final score Claremont-Mudd-Scripps 19 - Redlands 22
+Player name overlap detected in Redlands at ClaremontMuddScripps. Check possession transitions
+Score correction made in Claremont-Mudd-Scripps @ Whittier (index) quarter 3 drive 2
+Final score Whittier 13 - Claremont-Mudd-Scripps 50
+Player name overlap detected in Claremont-M-S at Whittier. Check possession transitions
+Final score Cal Lutheran 0 - Claremont-Mudd-Scripps 27
+Final score Claremont-Mudd-Scripps 34 - La Verne 10
+Player name overlap detected in La Verne at ClaremontMuddScripps. Check possession transitions
+Final score Chapman 34 - Claremont-Mudd-Scripps 42
+Final score Claremont-Mudd-Scripps 10 - Pomona-Pitzer 24

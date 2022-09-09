@@ -1,0 +1,40 @@
+Enter -['Start of 1st Half']
+['WILLIAMS ball on WILLIAMS40, clock 15:00.']
+['Ivan Shuran kickoff 35 yards to the MIDDLEBU25, touchback.']
+Score correction made in Middlebury @ Williams (index) quarter 0 drive 5
+Is this opponent scout? (Y/N)Are you Williams (H) or Middlebury (A)?Final score Williams 41 - Middlebury 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Tufts wins toss and will receive.']
+['Ivan Shuran kickoff 59 yards to the TUFTS01, John Andre return 19 yards to the TUFTS20 (Zach Barnes).']
+Is this opponent scout? (Y/N)Are you Tufts (H) or Williams (A)?Final score Tufts 29 - Williams 32
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Bowdoin wins toss, defers, Williams to receive']
+['BOW ball on BOW40.']
+['Sean Mitchell kickoff 50 yards to the WIL10, Mario Fischetti return 14 yards to the WIL24, out-of-bounds (Noah Clack; Jake Horigan).']
+Is this opponent scout? (Y/N)Are you Bowdoin (H) or Williams (A)?Final score Bowdoin 3 - Williams 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WILLIAMS ball on WILLIAMS35, clock 15:00.']
+['Ivan Shuran kickoff 63 yards to the COLBY02, Billy Stevens return 22 yards to the COLBY24 (Austin Dehmel).']
+Is this opponent scout? (Y/N)Are you Williams (H) or Colby (A)?Final score Williams 42 - Colby 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WILLIAMS ball on WILLIAMS40, clock 15:00.']
+['Ivan Shuran kickoff 60 yards to the HAMILTON00, Saleh Eltayeb return 15 yards to the HAMILTON15 (Zach Barnes).']
+Is this opponent scout? (Y/N)Are you Hamilton (H) or Williams (A)?Final score Hamilton 7 - Williams 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WILLIAMS ball on WILLIAMS40, clock 15:00.']
+['Ivan Shuran kickoff 54 yards to the BATES06, Christian Olivi return 13 yards to the BATES19 (Ethan Scott).']
+Is this opponent scout? (Y/N)Are you Bates (H) or Williams (A)?Final score Bates 21 - Williams 38
+Player name overlap detected in Williams at Bates. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WILLIAMS ball on WILLIAMS40, clock 15:00.']
+['Ivan Shuran kickoff 58 yards to the TRINITY02, touchback.']
+Is this opponent scout? (Y/N)Are you Williams (H) or Trinity (Conn.) (A)?Final score Williams 42 - Trinity (Conn.) 3
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WILLIAMS ball on WILLIAMS40, clock 15:00.']
+['Ivan Shuran kickoff 60 yards to the WESLEYAN00, touchback.']
+Is this opponent scout? (Y/N)Are you Williams (H) or Wesleyan (Conn.) (A)?Final score Williams 25 - Wesleyan (Conn.) 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WILLIAMS ball on WILLIAMS40, clock 15:00.']
+['Ivan Shuran kickoff 50 yards to the AMHERST10, Joe Masterson return 15 yards to the AMHERST25 (Ryan Carney).']
+Is this opponent scout? (Y/N)Are you Amherst (H) or Williams (A)?Final score Amherst 19 - Williams 24
+Folder name? (Scout team name default)

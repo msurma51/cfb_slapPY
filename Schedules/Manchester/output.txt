@@ -1,0 +1,50 @@
+Enter -['Start of 1st Half']
+['MAN ball on MAN35, clock 15:00.']
+['Andrew Kibler kickoff 65 yards to the TRI00, touchback.']
+Is this opponent scout? (Y/N)Are you Manchester (H) or Trine (A)?Final score Manchester 14 - Trine 52
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['ALMA ball on ALMA35, clock 15:00.']
+['Kaleb Kindsvatter kickoff 64 yards to the MAN01, Cameron Hovey return 9 yards to the MAN10 (Bryce Fredenburg).']
+Score correction made in Alma @ Manchester (index) quarter 1 drive 6
+Score correction made in Alma @ Manchester (index) quarter 1 drive 7
+Score correction made in Alma @ Manchester (index) quarter 3 drive 1
+Score correction made in Alma @ Manchester (index) quarter 3 drive 2
+Is this opponent scout? (Y/N)Are you Manchester (H) or Alma (A)?Final score Manchester 23 - Alma 47
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Olivet won toss, receive, and defend south goal.']
+['Andrew Kibler kickoff 62 yards to the OLIVET03, Akeem Benjamin return 97 yards to the MU00, TOUCHDOWN, clock 14:44.']
+Is this opponent scout? (Y/N)Are you Olivet (H) or Manchester (Ind.) (A)?Final score Olivet 59 - Manchester (Ind.) 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MAN ball on MAN35, clock 15:00.']
+['Andrew Kibler kickoff 56 yards to the FC09, Jarrett Gibson return 41 yards to the 50 yardline (Andrew Kibler), out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Franklin (H) or Manchester (A)?Final score Franklin 24 - Manchester 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['DEF ball on DEF35, clock 15:00.']
+['Cason Markevich kickoff 45 yards to the MAN20, Sam Huffman return 15 yards to the MAN35 (Malcom McNeil).']
+Score correction made in Defiance @ Manchester (index) quarter 1 drive 7
+Is this opponent scout? (Y/N)Are you Manchester (H) or Defiance (A)?Final score Manchester 22 - Defiance 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Manchester wins toss and defers; MSJ will receive; MUS will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Kibler,Andrew kickoff 51 yards to the MSJ14 Newton,Joey return 17 yards to the MSJ31 (Cross,Michael; Willis,Quentin).']
+Is this opponent scout? (Y/N)Are you Mt. St. Joseph (H) or Manchester (A)?Final score Mt. St. Joseph 28 - Manchester 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['RHIT ball on RHIT35, clock 15:00.']
+['Brett Tuttle kickoff 64 yards to the MAN01, David Smith return 14 yards to the MAN15, PENALTY MAN holding (Justin Abiagom) 8 yards to the MAN07.']
+Score correction made in Rose-Hulman @ Manchester (index) quarter 1 drive 2
+Score correction made in Rose-Hulman @ Manchester (index) quarter 1 drive 3
+Is this opponent scout? (Y/N)Are you Manchester (H) or Rose-Hulman (A)?Final score Manchester 14 - Rose-Hulman 57
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Manchester wins toss and will receive; HAN will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['kickoff 54 yards to the MAN11 Gurley,Carmelo return 16 yards to the MAN27 (Treber,Kyle).']
+Is this opponent scout? (Y/N)Are you Hanover (H) or Manchester (A)?Final score Hanover 33 - Manchester 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['BLUFFTON ball on BLUFFTON35, clock 15:00.']
+['Jake Baumgartne kickoff 46 yards to the MANCH19, Latsen Stoudymire return 25 yards to the MANCH44 (Jake Baumgartne).']
+Is this opponent scout? (Y/N)Are you Bluffton (H) or Manchester (A)?Final score Bluffton 31 - Manchester 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MAN ball on MAN35, clock 15:00.']
+['Andrew Kibler kickoff 62 yards to the AND03, out-of-bounds, AND ball on AND35, clock 15:00.']
+Is this opponent scout? (Y/N)Are you Manchester (H) or Anderson (Ind.) (A)?Final score Manchester 3 - Anderson (Ind.) 0
+Folder name? (Scout team name default)

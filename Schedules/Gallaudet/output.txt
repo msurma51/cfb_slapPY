@@ -1,0 +1,41 @@
+Enter -['1st']
+['1st and 10 at TSC35', 'Gallaudet wins the toss and will receive']
+['', 'A. Romanowski kickoff 62 yards to the GAL3, B. Washington return 22 yards to the GAL25 (Mason Brill).']
+Is this opponent scout? (Y/N)Are you Gallaudet (H) or Thaddeus Stevens (A)?Final score Gallaudet 21 - Thaddeus Stevens 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at GAL35', 'Gallaudet is kicking off']
+['1st and 10 at GAL35', 'GAL ball on GAL35.']
+['', 'J. Waterman kickoff 52 yards to the GC13, S. Clemons return 6 yards to the GC19 (Eric Gregory;Luong Vong).']
+Is this opponent scout? (Y/N)Are you Greensboro (H) or Gallaudet (A)?Final score Greensboro 42 - Gallaudet 49
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at DEAN35', 'Dean won the toss and will receive']
+['1st and 10 at DEAN35', 'GAL ball on GAL35.']
+['', 'J. Waterman kickoff 33 yards to the DEAN32, TEAM return 0 yards to the DEAN32, out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Gallaudet (H) or Dean (A)?Final score Gallaudet 42 - Dean 35
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at KC35', 'Keystone won the toss and defers. Gallaudet to receive.']
+['', 'Hernandez, Josu kickoff 37 yards to the GAL28, Mitch Dolinar return 4 yards to the GAL32 (Tocci, Sean).']
+Is this opponent scout? (Y/N)Are you Gallaudet (H) or Keystone (A)?Final score Gallaudet 34 - Keystone 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at GAL35', 'Gallaudet wins toss, and defers; Maritime to receive from L to R.']
+['', 'J. Waterman kickoff 35 yards to the MARITIME30, Tim Gasparik return 5 yards to the MARITIME35 (Stefan Anderson;Wendell Ratliff).']
+Is this opponent scout? (Y/N)Are you Maritime (N.Y.) (H) or Gallaudet (A)?Final score Maritime (N.Y.) 0 - Gallaudet 32
+Player name overlap detected in Gallaudet at SUNY Maritime. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ASC35', 'Gallaudet won the coin toss and deferred']
+['1st and 10 at ASC35', 'GAL ball on GAL35.']
+['1st and 10 at GAL35', 'PENALTY GAL offside 5 yards to the GAL30.']
+['', 'J. Waterman kickoff 42 yards to the ASC28, Nichols, Jasiah return 3 yards to the ASC31 (T. Sellers;Jacob Hartman), PENALTY ASC illegal block 10 yards to the ASC21, 1st and 10, ASC ball on ASC21.']
+Is this opponent scout? (Y/N)Are you Gallaudet (H) or Alfred St. (A)?Final score Gallaudet 21 - Alfred St. 24
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at GAL35', 'Anna Maria wins toss and defers']
+['1st and 10 at GAL35', '.']
+['1st and 10 at GAL35', 'Start of 1st quarter, clock 15:00, AMCATS ball on AMCATS35.']
+['', 'Sinclair,Drew kickoff 37 yards to the GAL28, fair catch by Mitch Dolinar.']
+Is this opponent scout? (Y/N)Are you Anna Maria (H) or Gallaudet (A)?Final score Anna Maria 37 - Gallaudet 21
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at GAL35', 'Castleton wins coin toss; defers to second half']
+['1st and 10 at GAL35', 'CUFB ball on CUFB35.']
+['', 'Noah Crossman kickoff 58 yards to the GAL7, B. Washington return 17 yards to the GAL24 (Quinten Asiedu;Jordan Wright).']
+Is this opponent scout? (Y/N)Are you Castleton (H) or Gallaudet (A)?Final score Castleton 31 - Gallaudet 30
+Folder name? (Scout team name default)

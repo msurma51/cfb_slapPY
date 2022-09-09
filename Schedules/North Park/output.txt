@@ -1,0 +1,50 @@
+Enter -['Start of 1st Half']
+['Bethel wins toss, will receive.  NPU to defend south goal']
+['Change of possession, NPU ball on NPU35, 1st and 10.']
+Score correction made in Bethel @ North Park (index) quarter 2 drive 2
+Is this opponent scout? (Y/N)Are you North Park (H) or Bethel (A)?Final score North Park 7 - Bethel 59
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NPU ball on NPU35.']
+['Messersmith kickoff 49 yards to the WASHU16, T. Lamphier return 18 yards to the WASHU34.']
+Is this opponent scout? (Y/N)Are you Washington (Mo.) (H) or North Park (A)?Final score Washington (Mo.) 41 - North Park 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NPU wins toss and defers to 2nd half.  Will defend south endzone.']
+['Change of possession, NPU ball on NPU35, 1st and 10.']
+Is this opponent scout? (Y/N)Are you North Park (H) or Wheaton (IL) (A)?Final score North Park 27 - Wheaton (IL) 58
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' North Park wins toss and defers AUG will receive NPU will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, NPU ball on NPU35.']
+['Blatchford kickoff 49 yards to the AUG16, DiGioia,Mike return 2 yards to the AUG18 (Nieves).']
+Is this opponent scout? (Y/N)Are you Augustana (IL) (H) or North Park (A)?Final score Augustana (IL) 17 - North Park 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NPU wins toss and defers to 2nd half.  Will defend south endzone']
+['Change of possession, NPU ball on NPU35, 1st and 10.']
+Is this opponent scout? (Y/N)Are you North Park (H) or Carroll (WI) (A)?Final score North Park 26 - Carroll (WI) 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['North Park wins toss and defers; CAR will receive; NPU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Blatchford,Carson kickoff 52 yards to the CAR13 Jarvis,Alex return 25 yards to the CAR38 (Landrau,Arnaldo).']
+Is this opponent scout? (Y/N)Are you Carthage (H) or North Park (A)?Final score Carthage 30 - North Park 33
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Elmhurst wins toss and will receive.  NPU to defend south goal.']
+['NPU ball on NPU35.']
+['Blatchford kickoff 37 yards to the ELMHURST28, fair catch by Beck.']
+Is this opponent scout? (Y/N)Are you North Park (H) or Elmhurst (A)?Final score North Park 45 - Elmhurst 3
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' North Park wins toss and defers IWU will receive NPU will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, NPU ball on NPU35.']
+['Blatchford kickoff 65 yards to the TITANS0, touchback.']
+Is this opponent scout? (Y/N)Are you Ill. Wesleyan (H) or North Park (A)?Final score Ill. Wesleyan 56 - North Park 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Millikin calls tails and wins, defers millikin kicking from south end NPU defending North end zone']
+['Clock 15:00.']
+['Ramirez kickoff 51 yards to the NPU14, Harris return 0 yards to the NPU14, out-of-bounds.']
+Score correction made in Millikin @ North Park (index) quarter 1 drive 2
+Is this opponent scout? (Y/N)Are you North Park (H) or Millikin (A)?Final score North Park 0 - Millikin 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['NPU wins coin toss and defers. NCC to receive.']
+['Blatchford kickoff 44 yards to the NCC21, fair catch by Chapman, S..']
+Is this opponent scout? (Y/N)Are you North Central (H) or North Park (A)?Final score North Central 84 - North Park 6
+Folder name? (Scout team name default)

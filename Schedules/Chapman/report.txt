@@ -1,0 +1,20 @@
+Final score Pacific (Ore.) 23 - Chapman 35
+Final score Chapman 59 - La Verne 25
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 102, in taster
+    abbr = abbr_finder(quarters[0][drive_count],abbr)
+IndexError: list index out of range
+Final score Claremont-M-S 29 - Chapman 21
+Final score Chapman 57 - Whittier 14
+Final score Chapman 42 - Cal Lutheran 13
+Final score Redlands 28 - Chapman 24
+Final score Pomona-Pitzer 14 - Chapman 27
+Final score Chapman 34 - Claremont-M-S 42
+Final score La Verne 32 - Chapman 35

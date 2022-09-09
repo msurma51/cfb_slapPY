@@ -1,0 +1,48 @@
+Enter -['1st']
+['1st and 10 at UWO35', 'UWO ball on UWO35, clock 15:00.']
+['', 'Jaydon Haag kickoff 59 yards to the HC06, Malachi Harvey return 29 yards to the HC35 (Richard James).']
+Is this opponent scout? (Y/N)Are you Huntingdon College (Ala.) (H) or UW-Oshkosh (A)?Final score Huntingdon College (Ala.) 17 - UW-Oshkosh 35
+Player name overlap detected in UW-Oshkosh at Huntingdon College. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWO35', 'Northern Mich. wins toss and will receive']
+['1st and 10 at UWO35', 'UWO will defend South end-zone']
+['1st and 10 at UWO35', 'Start of 1st quarter, clock 15:00, UWO ball on UWO35.']
+['', "Sam Kiesner kickoff 37 yards to the NMU28, Sahr,Kyle return 6 yards to the NMU34 (A. D'Orazio)."]
+Is this opponent scout? (Y/N)Are you Northern Michigan University (H) or UW-Oshkosh (A)?Final score Northern Michigan University 10 - UW-Oshkosh 28
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at TITANS35', 'Wis.-Oshkosh wins toss and will receive']
+['1st and 10 at TITANS35', 'UWP will defend South end-zone']
+['1st and 10 at TITANS35', 'Start of 1st quarter, clock 15:00, PIONEERS ball on PIONEERS35.']
+['', 'Schweigert,Andr kickoff 65 yards to the TITANS00, touchback.']
+Is this opponent scout? (Y/N)Are you UW-Platteville (H) or UW-Oshkosh (A)?Final score UW-Platteville 32 - UW-Oshkosh 35
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWO35', 'UWL wins the toss and defers; UWO will receive and defend South goal']
+['1st and 10 at UWO35', 'UWL ball on UWL35.']
+['', 'Ryan Beirne kickoff 62 yards to the UWO03, Jaylen Grant return 22 yards to the UWO25 (Garrett Graf).']
+Is this opponent scout? (Y/N)Are you UW-La Crosse (H) or UW-Oshkosh (A)?Final score UW-La Crosse 30 - UW-Oshkosh 21
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWW35', 'UWO won toss and differs option to second half.']
+['1st and 10 at UWW35', 'UWO ball on UWO35.']
+['', 'Jaydon Haag kickoff 62 yards to the UWW03, Ryan Wisniewski return 18 yards to the UWW21 (Daniel Fynaardt).']
+Score correction made in UW-Whitewater @ UW-Oshkosh (index) quarter 1 drive 1
+Is this opponent scout? (Y/N)Are you UW-Oshkosh (H) or UW-Whitewater (A)?Final score UW-Oshkosh 13 - UW-Whitewater 32
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWEC35', 'UWEC wins toss and differs option to second half']
+['', 'Brady Frantal kickoff 52 yards to the UWO13, Peter MacCudden return 17 yards to the UWO30 (Ryan Kuechle).']
+Is this opponent scout? (Y/N)Are you UW-Oshkosh (H) or UW-Eau Claire (A)?Final score UW-Oshkosh 54 - UW-Eau Claire 31
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWO35', 'Stout wins toss. Deferred to 2nd half. Stout defends south ez']
+['1st and 10 at UWO35', 'UWST ball on UWST35.']
+['', 'Jack Meyer kickoff 62 yards to the UWO03, Peter MacCudden return 18 yards to the UWO21 (Noah Benson).']
+Is this opponent scout? (Y/N)Are you UW-Stout (H) or UW-Oshkosh (A)?Final score UW-Stout 36 - UW-Oshkosh 43
+Player name overlap detected in UW-Oshkosh at UW-Stout. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWSP35', 'UWSP wins toss and differs. UWO will receive kick.']
+['', 'Ponterio kickoff 51 yards to the UWO14, Terrell Carey return 6 yards to the UWO20 (Berry).']
+Is this opponent scout? (Y/N)Are you UW-Oshkosh (H) or UW-Stevens Point (A)?Final score UW-Oshkosh 49 - UW-Stevens Point 17
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UWRF35', 'UWO wins toss and differs option. UWRF will receive kickoff.']
+['1st and 10 at UWRF35', 'UWO ball on UWO35.']
+['', 'Jaydon Haag kickoff 52 yards to the UWRF13, Blaha,Kaleb return 27 yards to the UWRF40 (Alex Gonzalez).']
+Is this opponent scout? (Y/N)Are you UW-Oshkosh (H) or UW-River Falls (A)?Final score UW-Oshkosh 21 - UW-River Falls 28
+Folder name? (Scout team name default)

@@ -1,0 +1,60 @@
+Enter -['Start of 1st Half']
+['Carleton wins toss and defers; Minnesota Morris will receive']
+['CAR ball on CAR35.']
+['Trent Ramirez kickoff 57 yards to the UMM8, Garrett Elison return 17 yards to the UMM25 (John Witte).']
+Score correction made in Carleton College @ Minnesota Morris (index) quarter 3 drive 5
+Is this opponent scout? (Y/N)Are you Minnesota Morris (H) or Carleton College (A)?Final score Minnesota Morris 13 - Carleton College 50
+Player name overlap detected in Carleton College at Minnesota Morris. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Crown (MN) wins toss and defers; CAR will receive; CCS will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Edwards,Nathan onside kickoff 11 yards to the CCS46.']
+Is this opponent scout? (Y/N)Are you Crown (MN) (H) or Carleton (A)?Final score Crown (MN) 0 - Carleton 51
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Hamline wins toss and will receive; CAR will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ramirez,Trent kickoff 59 yards to the HAM06 Cracolici,Adrian return 19 yards to the HAM25 (Detmer,Henry).']
+Is this opponent scout? (Y/N)Are you Carleton (H) or Hamline (A)?Final score Carleton 35 - Hamline 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Macalester wins toss and defers CAR will receive MAC will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MAC ball on MAC35.']
+['Jon Neve kickoff 54 yards to the CAR11, Brown,Travis return 14 yards to the CAR25 (TEAM).']
+Score correction made in Carleton @ Macalester (index) quarter 1 drive 3
+Score correction made in Carleton @ Macalester (index) quarter 1 drive 4
+Is this opponent scout? (Y/N)Are you Macalester (H) or Carleton (A)?Final score Macalester 10 - Carleton 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Carleton wins toss and defers STO will receive CAR will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CAR ball on CAR35.']
+['Trent Ramirez kickoff 65 yards to the STO0, touchback.']
+Is this opponent scout? (Y/N)Are you St. Olaf College (H) or Carleton College (A)?Final score St. Olaf College 23 - Carleton College 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carleton wins toss and defers; CSS will receive; CAR will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ramirez,Trent kickoff 65 yards to the CSS00, Touchback.']
+Is this opponent scout? (Y/N)Are you St. Scholastica (H) or Carleton (A)?Final score St. Scholastica 14 - Carleton 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+["Concordia-M'head wins toss and defers; CAR will receive; CON will defend North end-zone."]
+['Start of 1st quarter, clock 15:00.']
+['Silus,Damien kickoff 57 yards to the CAR08 Brown,Travis return 16 yards to the CAR24 (Leslie,Robert; Magnuson,Blake).']
+Is this opponent scout? (Y/N)Are you Carleton (H) or Concordia-M'head (A)?Final score Carleton 28 - Concordia-M'head 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carleton wins toss and defers; GAC will receive; CAR will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ramirez,Trent kickoff 62 yards to the GAC03 Thelen,Dalton return 18 yards to the GAC21 (Fraley,Jack) PENALTY GAC Illegal Block in Back (Scott,Kaleb) 10 yards from GAC21 to GAC11.']
+['GAC ball on GAC11.']
+Is this opponent scout? (Y/N)Are you Carleton (H) or Gust. Adolphus (A)?Final score Carleton 9 - Gust. Adolphus 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Carleton wins toss and defers SJU will receive CAR will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CAR ball on CAR35.']
+['Trent Ramirez kickoff 65 yards to the SJU0, touchback.']
+Is this opponent scout? (Y/N)Are you Carleton College (H) or Saint John's (MN) (A)?Final score Carleton College 7 - Saint John's (MN) 41
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Macalester wins toss and will receive CAR will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CAR ball on CAR35.']
+['Trent Ramirez kickoff 65 yards to the MAC0, Josh Bulski return 25 yards to the MAC25 (Henry Detmer).']
+Is this opponent scout? (Y/N)Are you Macalester College (H) or Carleton College (A)?Final score Macalester College 45 - Carleton College 48
+Folder name? (Scout team name default)

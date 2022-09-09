@@ -1,0 +1,60 @@
+Enter -['Start of 1st Half']
+[' Ithaca wins toss and will receive BSU will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, BSU ball on BSU35.']
+['Drake,Shane kickoff 56 yards to the ITHACA9, J. Leonard-Osbourne return 22 yards to the ITHACA31 (Fontaine,James;Daley,Brandon).']
+Is this opponent scout? (Y/N)Are you Ithaca College (H) or Bridgewater St. (A)?Final score Ithaca College 52 - Bridgewater St. 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Brockport won the toss and deferred. Ithaca gets the kickoff']
+['BROCK ball on BROCK35.']
+['Nate Wigent kickoff 40 yards to the ITHACA25, touchback.']
+Is this opponent scout? (Y/N)Are you Brockport St. (H) or Ithaca College (A)?Final score Brockport St. 8 - Ithaca College 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Ithaca wins toss and will receive ALF will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, ALFRED ball on ALFRED35.']
+["McCaslin,Dustin kickoff 63 yards to the ITHACA2, Anthony D'Addetta return 12 yards to the ITHACA14 (Russo,Carter)."]
+Score correction made in Ithaca College @ Alfred (index) quarter 3 drive 7
+Is this opponent scout? (Y/N)Are you Alfred (H) or Ithaca College (A)?Final score Alfred 0 - Ithaca College 40
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hobart wins toss and defers ITH will receive HOB will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, HOBART ball on HOBART35.']
+['DiGregorio,Rob kickoff 43 yards to the ITHACA22, Stephen Soravilla return 4 yards to the ITHACA26 (Aguilar,Bryan).']
+Is this opponent scout? (Y/N)Are you Ithaca College (H) or Hobart (A)?Final score Ithaca College 28 - Hobart 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Ithaca wins the toss and will receive.']
+['ROC ball on ROC35.']
+['Shane Bombace kickoff 58 yards to the ITHACA7, J. Leonard-Osbourne return 22 yards to the ITHACA29 (Joe Butler;Shane Bombace).']
+Is this opponent scout? (Y/N)Are you Rochester (H) or Ithaca College (A)?Final score Rochester 14 - Ithaca College 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Ithaca wins toss and will receive SLU will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SLU ball on SLU35.']
+['Doin,Ian kickoff 26 yards to the ITHACA39, Jake Williams return 0 yards to the ITHACA39.']
+Is this opponent scout? (Y/N)Are you St. Lawrence (H) or Ithaca College (A)?Final score St. Lawrence 0 - Ithaca College 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Buffalo St. wins toss and defers ITH will receive BSC will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, BSC ball on BSC35.']
+["Sciandra,Nick kickoff 51 yards to the ITHACA14, Anthony D'Addetta return 37 yards to the BSC49 (Sciandra,Nick)."]
+Score correction made in Buffalo St. @ Ithaca College (index) quarter 1 drive 2
+Is this opponent scout? (Y/N)Are you Ithaca College (H) or Buffalo St. (A)?Final score Ithaca College 51 - Buffalo St. 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rensselaer wins toss and defers; ITH will receive; RPI will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['MacDougall,Conor kickoff 38 yards to the ITH27 Williams,Jake return 4 yards to the ITH31 (Younginer,Cam; Vigeant,Lou).']
+Is this opponent scout? (Y/N)Are you Rensselaer (H) or Ithaca (A)?Final score Rensselaer 14 - Ithaca 11
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Union (NY) wins toss and defers ITH will receive UNI will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, UNION ball on UNION35.']
+["Lau,Andrew kickoff 57 yards to the ITHACA8, Anthony D'Addetta return 14 yards to the ITHACA22 (Goldstien,Spenc)."]
+Is this opponent scout? (Y/N)Are you Ithaca College (H) or Union (NY) (A)?Final score Ithaca College 26 - Union (NY) 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Ithaca wins toss, will receive. Cortland defends south goal.']
+['CORTLAND ball on CORTLAND35.']
+['Patrick Luby kickoff 65 yards to the ITHACA0, touchback.']
+Is this opponent scout? (Y/N)Are you Cortland (H) or Ithaca (A)?Final score Cortland 28 - Ithaca 27
+Player name overlap detected in Ithaca at Cortland. Check possession transitions
+Folder name? (Scout team name default)

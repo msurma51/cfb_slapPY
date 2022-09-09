@@ -1,0 +1,54 @@
+Enter -['Start of 1st Half']
+['AUGIE wins toss, defers; RHODES will receive and defend east end zone.']
+["Wehr, Justin kickoff 54 yards to the RHODES11, JaVon Cooper return 14 yards to the RHODES25 (Shelton, Craig; D'Orazio, Vinc), PENALTY RHODES holding (Charlie Mackey) 10 yards to the RHODES15, 1st and 10, RHODES ball on RHODES15."]
+Score correction made in Augustana College @ Rhodes (index) quarter 0 drive 2
+Score correction made in Augustana College @ Rhodes (index) quarter 0 drive 3
+Is this opponent scout? (Y/N)Are you Rhodes (H) or Augustana College (A)?Final score Rhodes 21 - Augustana College 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Millikin wins toss and defers; AUG will receive; MIL will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Johnson,Zachary kickoff 54 yards to the AUG11 Erickson,Casey return 24 yards to the AUG35 (Williams,Elisa).']
+Is this opponent scout? (Y/N)Are you Augustana (IL) (H) or Millikin (A)?Final score Augustana (IL) 21 - Millikin 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Augustana wins coin toss and defers; NCC to receive.']
+['Maroon, Sidney kickoff 55 yards to the NCC10, Lynch, Ju. return to the NCC17 ( Pearre, Jackso), PENALTY AUGIE illegal procedure 5 yards to the AUGIE30, NO PLAY.']
+['Maroon, Sidney kickoff 66 yards to the NCC4, out-of-bounds, NCC ball on NCC40.']
+Is this opponent scout? (Y/N)Are you North Central (H) or Augustana (A)?Final score North Central 58 - Augustana 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' North Park wins toss and defers AUG will receive NPU will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, NPU ball on NPU35.']
+['Blatchford kickoff 49 yards to the AUG16, DiGioia,Mike return 2 yards to the AUG18 (Nieves).']
+Is this opponent scout? (Y/N)Are you Augustana (IL) (H) or North Park (A)?Final score Augustana (IL) 17 - North Park 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Augustana wins toss- defers. Wheaton will receive']
+['Maroon, Sidney kickoff 58 yards to the WHEATON7, Grotelueschen return 21 yards to the WHEATON28, out-of-bounds (Brooks, Jacob).']
+Is this opponent scout? (Y/N)Are you Wheaton (IL) (H) or Augustana (IL) (A)?Final score Wheaton (IL) 45 - Augustana (IL) 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Augustana (IL) wins toss and defers; WSH will receive; AUG will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Maroon,Sidney kickoff 59 yards to the WSH06 Goldberg,Collin return 6 yards to the WSH12 (Leavitt,Kyle; McCarthy,Matthew).']
+Is this opponent scout? (Y/N)Are you Augustana (IL) (H) or WashU (A)?Final score Augustana (IL) 7 - WashU 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carroll (WI) wins toss and will receive; AUG will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Maroon,Sidney kickoff 50 yards to the CAR15 Hill,Josh return 7 yards to the CAR22 (Waite,Conner).']
+Is this opponent scout? (Y/N)Are you Augustana (IL) (H) or Carroll (WI) (A)?Final score Augustana (IL) 26 - Carroll (WI) 29
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carthage wins toss and defers; AUG will receive; CAR will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Collins,David kickoff 65 yards to the AUG00, Touchback.']
+Is this opponent scout? (Y/N)Are you Carthage (H) or Augustana (IL) (A)?Final score Carthage 14 - Augustana (IL) 42
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Augustana (IL) wins toss and defers; ELM will receive; AUG will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Maroon,Sidney kickoff 51 yards to the ELM14 McCarville,Max return 9 yards to the ELM23 (DiGioia,Mike).']
+Is this opponent scout? (Y/N)Are you Augustana (IL) (H) or Elmhurst (A)?Final score Augustana (IL) 48 - Elmhurst 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Ill. Wesleyan wins toss and will receive AUG will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, AUGIE ball on AUGIE35.']
+['Maroon,Sidney kickoff 57 yards to the IWU8, Woodson, Mel return 9 yards to the IWU17 (Mistak,Arik;Leavitt,Kyle).']
+Is this opponent scout? (Y/N)Are you Ill. Wesleyan (H) or Augustana (IL) (A)?Final score Ill. Wesleyan 14 - Augustana (IL) 38
+Player name overlap detected in Augustana (IL) at Ill. Wesleyan. Check possession transitions
+Folder name? (Scout team name default)

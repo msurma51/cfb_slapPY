@@ -1,0 +1,44 @@
+Final score Colby 5 - Wesleyan (Conn.) 21
+Final score Amherst 7 - Colby 10
+Final score Colby 14 - Hamilton 27
+Final score Williams 42 - Colby 0
+Final score Colby 28 - Middlebury 14
+Exception in Trinity (Conn.) at Colby (index) quarter 0 drive 4
+	 ['Colby at 08:30']
+	 ['Colby at 08:30']
+	 ['1st and 10 at COLBY14', 'Colby drive start at 08:30.']
+	 ['1st and 10 at COLBY14', 'Keon Smart rush for 5 yards to the COLBY19 (Aidan Kennedy).']
+	 ['2nd and 5 at COLBY19', 'Keon Smart rush for 2 yards to the COLBY21 (Cade Klarides-Ditra).']
+	 ['3rd and 3 at COLBY21', 'Matt Hersch pass complete to Nuri Robinson for 9 yards to the COLBY30 (B. Casagrande).']
+	 ['1st and 10 at COLBY30', 'Keon Smart rush for 3 yards to the COLBY33 (Cooper Mandel).']
+	 ['2nd and 7 at COLBY33', 'Keon Smart rush for no gain to the COLBY33 (B. Casagrande).']
+	 ['3rd and 7 at COLBY33', 'Matt Hersch rush for 14 yards to the COLBY47 (Darren Warren; Matt McCarthy).']
+	 ['1st and 10 at COLBY47', 'Matt Hersch pass incomplete.']
+	 ['2nd and 10 at COLBY47', 'Keon Smart rush for 5 yards to the TRINITY 48 (Michael Masse; Noah Glantz).']
+	 ['3rd and 5 at TRINITY 48', "Matt Hersch pass complete to Jack Sawyer for 27 yards to the TRINITY 21 (Justin O'Neil-Riley), out-of-bounds."]
+	 ['1st and 10 at TRINITY 21', "Matt Hersch rush for 9 yards to the TRINITY 12 (Justin O'Neil-Riley), out-of-bounds."]
+	 ['2nd and 1 at TRINITY 12', 'Keon Smart rush for 12 yards to the TRINITY 00, TOUCHDOWN, clock 02:05.']
+	 ['1st and GOAL at TRINITY 03', 'Moises Celaya kick attempt failed.']
+	 ['1st and 10 at COLBY40', 'Moises Celaya kickoff 53 yards to the TRINITY 07, out-of-bounds, TRINITY  ball on TRINITY 30, clock 02:05.']
+	 ['Total', '11 plays , 86 yards Time of Possession: 06:25']
+	 ['Trinity (Conn.) 0-6 Colby']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 59, in ddyl_parser
+    ddyl[distance] = int(dis[0])
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 899, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 743, in play_parser
+    play = ddyl_parser(string_list[0],poss)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 63, in ddyl_parser
+    ddyl[distance] = yl
+UnboundLocalError: local variable 'yl' referenced before assignment
+Final score Colby 6 - Trinity (Conn.) 0
+Final score Bates 2 - Colby 10
+Final score Tufts 26 - Colby 21
+Score correction made in Bowdoin @ Colby (index) quarter 3 drive 2
+Score correction made in Bowdoin @ Colby (index) quarter 3 drive 6
+Final score Colby 21 - Bowdoin 10

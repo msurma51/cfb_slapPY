@@ -1,0 +1,26 @@
+Exception in St. John Fisher at Buffalo St. (index) quarter 2 drive 0
+	 ['Start of 2nd Half']
+	 ['Start of 3rd quarter, clock 15:00, FISHERFB ball on FISHERFB35.']
+	 ['.']
+	 ['ST. JOHN FISHER drive start at 14:50.']
+	 ['M. Escobar LE pass complete to A. Symans for 9 yards to the FISHERFB44, 1ST DOWN FISHERFB (Barksdale,Brand).']
+	 ['M. Escobar rush up middle for loss of 1 yard to the FISHERFB43 (Johnson,Fred;Emerson,Justin).']
+	 ['H. Walsh rush over left end for 3 yards to the FISHERFB46 (DiNapoli,Joseph;Emerson,Justin).']
+	 ['M. Escobar RE pass complete to J. Dotterweich for loss of 16 yards to the FISHERFB30 (Brown,Jordan).']
+	 [' H. Walsh rush up middle for no gain to the FISHERFB30 (Nelson,Tariq;Emerson,Justin). Timeout on the field.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1035, in game_builder
+    info.update(drive_end_finder(plays))
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 604, in drive_end_finder
+    elif gn_ls in last_play.keys() and last_play[down] == 4:
+KeyError: 'DN'
+Final score Buffalo St. 7 - St. John Fisher 7
+Final score St. John Fisher 38 - Framingham St. 7
+Final score St. John Fisher 21 - Hobart 42
+Final score Rensselaer 41 - St. John Fisher 7
+Final score St. John Fisher 7 - SUNY Brockport 34
+Final score Morrisville St. 23 - St. John Fisher 28
+Final score St. John Fisher 35 - Alfred 38
+Final score Hartwick 7 - St. John Fisher 28
+Final score St. John Fisher 3 - SUNY Cortland 55
+Final score Utica College 35 - St. John Fisher 14

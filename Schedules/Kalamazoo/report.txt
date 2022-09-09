@@ -1,0 +1,34 @@
+Exception in Kalamazoo College at Oberlin College (index) quarter 0 drive 1
+	 ['Oberlin at 15:00']
+	 ['1st and 10 at OBEF25', 'Allen Jr. pass complete to Pierce MuthuiEdwards for 6 yards to the OBEF31 (Jamison Brown, Jr.).']
+	 ['2nd and 4 at OBEF31', 'Kobe Brooks rush for loss of 2 yards to the OBEF29 (Jake Robertson).']
+	 ['3rd and 6 at OBEF29', 'Allen Jr. pass complete to Bear Broyles for 20 yards to the OBEF49, 1ST DOWN OBEF (Nick Lang).']
+	 ['1st and 10 at OBEF49', 'Allen Jr. rush for 6 yards to the KZOO202145 (Nick Lang), PENALTY OBEF holding (Brent Larson) 10 yards to the OBEF39, NO PLAY.']
+	 ['1st and 20 at OBEF39', 'Allen Jr. pass complete to Kobe Brooks for 9 yards to the OBEF48 (Jack Miller).']
+	 ['2nd and 11 at OBEF48', 'Allen Jr. pass complete to Brian Colarusso for 8 yards to the KZOO202144 (Payton Fleming;Nick Lang).']
+	 ['3rd and 3 at KZOO202144', 'Allen Jr. pass incomplete to Jack Diskin.']
+	 ['4th and 3 at KZOO202144', 'Kobe Brooks rush for 4 yards to the KZOO202140, 1ST DOWN OBEF (Jake Robertson).']
+	 ['1st and 10 at KZOO202140', 'Allen Jr. pass incomplete to Bear Broyles (Ryan Hanifan).']
+	 ['2nd and 10 at KZOO202140', 'Allen Jr. pass complete to Bear Broyles for 38 yards to the KZOO20212 (Micah Groom), PENALTY OBEF holding (Drew Bernard) 10 yards to the 50 yardline, NO PLAY.']
+	 ['2nd and 20 at OBEF50', 'Kobe Brooks rush for loss of 5 yards to the OBEF45, fumble forced by Isaiah Fleming, fumble by Kobe Brooks recovered by KZOO2021 Ryan Hanifan at OBEF31.']
+	 ['9 plays, 6 yards, 4:13 elapsed']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 899, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 785, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'KZOO2021'
+Final score Oberlin 0 - Kalamazoo 0
+Final score Central (Iowa) 69 - Kalamazoo 13
+Final score Kalamazoo 20 - Bluffton 21
+Final score Kalamazoo 7 - Alfred 10
+Final score Hope 67 - Kalamazoo 0
+Final score Kalamazoo 3 - Alma 28
+Final score Kalamazoo 0 - Albion 49
+Final score Trine 47 - Kalamazoo 13
+Final score Olivet 49 - Kalamazoo 7
+Final score Kalamazoo 21 - Adrian 33

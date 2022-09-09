@@ -1,0 +1,22 @@
+Final score Trinity (CT) 42 - Tufts 28
+Final score Bowdoin 14 - Trinity (Conn.) 38
+Final score Trinity (CT) 28 - Middlebury 0
+Final score Hamilton 7 - Trinity (Conn.) 34
+Final score Trinity (CT) 45 - Bates 7
+Final score Colby 12 - Trinity (Conn.) 35
+Final score Williams 42 - Trinity (Conn.) 3
+Final score Trinity (CT) 49 - Amherst 7
+Exception in Trinity at Wesleyan (index) quarter 0 drive 1
+	 ['Trinity at 15:00']
+	 ['Trinity at 15:00']
+	 ['TRINITY drive start at 14:58 (1st).']
+	 ['Spencer Fetter pass incomplete to Jonathan Girard (Alex Beauchesne).']
+	 ['PENALTY TRINITY holding 5 yards to the TRINITY20.']
+	 ['William Kirby rush for 1 yard to the TRINITY21 (Nick Helbig).']
+	 ['Spencer Fetter pass incomplete to Jonathan Girard.']
+	 ['M. Laughlin punt 31 yards to the WES48.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1024, in game_builder
+    if ds and ds[1] not in name_dict[ball.get()]:
+KeyError: None
+Final score Wesleyan 0 - Trinity 0

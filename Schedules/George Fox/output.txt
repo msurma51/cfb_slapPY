@@ -1,0 +1,84 @@
+Enter -['Start of 1st Half']
+['George Fox won the coin toss, deferred, defended south goal']
+['GFU ball on GFU35.']
+['Start of 1st quarter, clock 15:00.']
+['Santoni,Jason kickoff 60 yards to the URFB5, Myles Herrera return 23 yards to the URFB28 (Hauenstein,Josh).']
+Is this opponent scout? (Y/N)Are you George Fox (H) or Redlands (A)?Final score George Fox 14 - Redlands 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' George Fox wins toss and defers CHA will receive GFX will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, GFU ball on GFU35.']
+['Smith,Abe kickoff 65 yards to the Panthers0, Ragas,Nico return 24 yards to the Panthers24 (Marks,Jaron).']
+Exception in George Fox at Chapman (index) quarter 0 drive 3
+	 ['Chapman at 12:35']
+	 ['Chapman at 12:35']
+	 ['1st and 10 at GFU27', 'CHAPMAN drive start at 12:35.']
+	 ['1st and 10 at GFU27', 'Woods,Isaiah rush up middle for no gain to the GFU27 (Smith,Abe;Knoll,Kross).']
+	 ['2nd and 10 at GFU27', 'MacIntyre,Jonst LE pass complete to Woods,Isaiah for 5 yards to the GFU22 (Knoll,Kross).']
+	 ['3rd and 5 at GFU22', 'MacIntyre,Jonst rush over left end for 5 yards to the GFU17, 1ST DOWN Panthers (Pasion,Anthony).']
+	 ['1st and 10 at GFU17', 'MacIntyre,Jonst rush up middle for 10 yards to the GFU7, 1ST DOWN Panthers.']
+	 ['1st and GOAL at GFU07', 'Mendoza,Tanner rush over right end for no gain to the GFU7 (ValenzuelaAaron).']
+	 ['2nd and GOAL at GFU07', 'MacIntyre,Jonst LE pass incomplete to Corona,Spencer.']
+	 ['3rd and GOAL at GFU07', 'MacIntyre,Jonst middle pass complete to Corona,Spencer for 4 yards to the GFU3 (Poppleton,Josh).']
+	 ['4th and GOAL at GFU03', 'Baierl,Ken field goal attempt from 20 GOOD, clock 08:30.']
+	 ['1st and GOAL at Panthers35', 'Tapia,Owen kickoff 56 yards to the GFU9, Montijo,Justin return 31 yards to the GFU40, out-of-bounds (Tapia,Owen).']
+	 ['Total', '8 plays , 24 yards Time of Possession: 4:05']
+	 ['George Fox 0-3 Chapman']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 59, in ddyl_parser
+    ddyl[distance] = int(dis[0])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 899, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 743, in play_parser
+    play = ddyl_parser(string_list[0],poss)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 63, in ddyl_parser
+    ddyl[distance] = yl
+UnboundLocalError: local variable 'yl' referenced before assignment
+
+Is this opponent scout? (Y/N)Are you Chapman (H) or George Fox (A)?Final score Chapman 3 - George Fox 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Pacific Lutheran wins toss and will receive; GFU will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Santoni,Jason kickoff 60 yards to the PLU05 Chaffin,Darius return 18 yards to the PLU23 (Brockamp,Austin).']
+Is this opponent scout? (Y/N)Are you Pacific Lutheran (H) or George Fox (A)?Final score Pacific Lutheran 14 - George Fox 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WU won coin toss, defered, GFU to receive kickoff']
+['WU ball on WU35, Dirnberger kickoff 65 yards to the GFU0, touchback.']
+Is this opponent scout? (Y/N)Are you George Fox (H) or Willamette (A)?Final score George Fox 44 - Willamette 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['George Fox wins toss and defers; UPS will receive; GFU will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Santoni,Jason kickoff 64 yards to the UPS01 Washington,Silas return 21 yards to the UPS22 (Brockamp,Austin).']
+Score correction made in George Fox @ Puget Sound (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you Puget Sound (H) or George Fox (A)?Final score Puget Sound 28 - George Fox 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['PAC wins, defers, GFU to defend north end and receive']
+['Start of 1st quarter, clock 15:00.']
+['PACFB ball on PACFB35.']
+['Saros,Zack kickoff 63 yards to the GFU2, Montijo,Justin return 25 yards to the GFU27 (Kameshige,E).']
+Is this opponent scout? (Y/N)Are you George Fox (H) or Pacific (Ore.) (A)?Final score George Fox 21 - Pacific (Ore.) 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['George Fox won the toss, defers, Linfield receives, defends south goal']
+['GFU ball on GFU35.']
+['Start of 1st quarter, clock 15:00.']
+['Santoni,Jason kickoff 65 yards to the LIN0, touchback.']
+Is this opponent scout? (Y/N)Are you Linfield (H) or George Fox (A)?Final score Linfield 38 - George Fox 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' George Fox wins toss and defers L&C will receive GFU will defend South end-zone']
+['Santoni,Jason kickoff 60 yards to the LCFB5, Holton, Desmon return 17 yards to the LCFB22, fumble forced by Schwin,Lucas, fumble by Holton, Desmon recovered by LCFB Holly, Keegan at LCFB27.']
+Score correction made in George Fox @ Lewis & Clark (index) quarter 1 drive 1
+Score correction made in George Fox @ Lewis & Clark (index) quarter 1 drive 2
+Is this opponent scout? (Y/N)Are you Lewis & Clark (H) or George Fox (A)?Final score Lewis & Clark 9 - George Fox 40
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['GFU wins toss, defers to 2nd half - WHTW to defend N endzone']
+['GFU ball on GFU35.']
+['Santoni,Jason kickoff 57 yards to the WHTW8, Sheley, Cameron return 15 yards to the WHTW23 (Santoni,Jason), PENALTY WHTW holding (Kuk, Dillon) 10 yards to the WHTW13, 1st and 10, WHTW ball on WHTW13.']
+Is this opponent scout? (Y/N)Are you George Fox (H) or Whitworth (A)?Final score George Fox 16 - Whitworth 10
+Folder name? (Scout team name default)

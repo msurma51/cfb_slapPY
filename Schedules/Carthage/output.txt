@@ -1,0 +1,56 @@
+Enter -['Start of 1st Half']
+['Wis.-Whitewater wins toss and defers; CAR will receive; UWW will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Lupa,Kacper kickoff 58 yards to the CAR07 Jarvis,Alex return 14 yards to the CAR21 (Edmonson,Jaylon).']
+Is this opponent scout? (Y/N)Are you Wis.-Whitewater (H) or Carthage (A)?Final score Wis.-Whitewater 46 - Carthage 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Elmhurst wins toss and defers; CAR will receive; ELM will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Quintanilla,Sandro kickoff 55 yards to the CAR10 Jarvis,Alex return 27 yards to the CAR37 (Quintanilla,Sandro).']
+Is this opponent scout? (Y/N)Are you Elmhurst (H) or Carthage (A)?Final score Elmhurst 17 - Carthage 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carthage wins toss and defers; IWU will receive; CAR will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['kickoff 60 yards to the IWU05 Albin,Seth return 21 yards to the IWU26 (DiVito,Chris).']
+Score correction made in Ill. Wesleyan @ Carthage (index) quarter 3 drive 0
+Score correction made in Ill. Wesleyan @ Carthage (index) quarter 3 drive 1
+Is this opponent scout? (Y/N)Are you Carthage (H) or Ill. Wesleyan (A)?Final score Carthage 62 - Ill. Wesleyan 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carthage wins toss and will receive; MIL will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Johnson,Zachary kickoff 54 yards to the CAR11 Jarvis,Alex return 18 yards to the CAR29 (Salazar,Matthew).']
+Is this opponent scout? (Y/N)Are you Millikin (H) or Carthage (A)?Final score Millikin 42 - Carthage 63
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carthage wins toss and will receive; NCC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+["Rains,Tanner kickoff 60 yards to the CAR05 Jarvis,Alex return 30 yards to the CAR35 (Cusumano,Angelo; Roberson,De'Angelo)."]
+Is this opponent scout? (Y/N)Are you Carthage (H) or North Central (IL) (A)?Final score Carthage 13 - North Central (IL) 64
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['North Park wins toss and defers; CAR will receive; NPU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Blatchford,Carson kickoff 52 yards to the CAR13 Jarvis,Alex return 25 yards to the CAR38 (Landrau,Arnaldo).']
+Is this opponent scout? (Y/N)Are you Carthage (H) or North Park (A)?Final score Carthage 30 - North Park 33
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wheaton wins toss and defers to 2nd half. will defend east goal']
+['WHEATON ball on WHEATON35.']
+['Gallagher kickoff 56 yards to the CARTHAGE9, Ell III, Eddie return 19 yards to the CARTHAGE28 (Reeves, C.).']
+Is this opponent scout? (Y/N)Are you Wheaton (IL) (H) or Carthage (A)?Final score Wheaton (IL) 56 - Carthage 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Carthage wins toss and defers; AUG will receive; CAR will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Collins,David kickoff 65 yards to the AUG00, Touchback.']
+Is this opponent scout? (Y/N)Are you Carthage (H) or Augustana (IL) (A)?Final score Carthage 14 - Augustana (IL) 42
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Carroll (WI) wins toss and defers CTH will receive CAR will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CARROLL ball on CARROLL35.']
+['Laurent kickoff 61 yards to the CARTHAGE4, Dennis,Jalen return 19 yards to the CARTHAGE23 (Zweifel).']
+Is this opponent scout? (Y/N)Are you Carroll (WI) (H) or Carthage (A)?Final score Carroll (WI) 26 - Carthage 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WashU wins toss and defers; CAR will receive; WAS will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Vartanian,Chris kickoff 55 yards to the CAR10 Campbell,Sylvere return 15 yards to the CAR25 (Laramore-Josey,Langston; Cohan,Alex).']
+Score correction made in WashU @ Carthage (index) quarter 3 drive 0
+Score correction made in WashU @ Carthage (index) quarter 3 drive 1
+Is this opponent scout? (Y/N)Are you Carthage (H) or WashU (A)?Final score Carthage 16 - WashU 37
+Folder name? (Scout team name default)

@@ -1,0 +1,60 @@
+Enter -['Start of 1st Half']
+[' Illinois Col. wins toss and defers LAK will receive IC will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, ICFB ball on ICFB35.']
+['Schuckman,Konne kickoff 53 yards to the LUFB12, Prunick, Mason return 13 yards to the LUFB25 (Patterson,Charl).']
+Is this opponent scout? (Y/N)Are you Illinois College (H) or Lakeland University (A)?Final score Illinois College 18 - Lakeland University 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['LUFB ball on LUFB35, clock 15:00.']
+['Colley, Andrew kickoff 62 yards to the ANDERSON3, Caden Robinson return 15 yards to the ANDERSON18 (Vang, Romeo).']
+Is this opponent scout? (Y/N)Are you Anderson (Ind.) (H) or Lakeland University (A)?Final score Anderson (Ind.) 39 - Lakeland University 54
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WLC wins coin toss, defers. Lakeland will receive opening kickoff']
+['WLCFB ball on WLCFB35.']
+['Ortega, Arnulfo kickoff 56 yards to the LUFB9, Martin, Devin return 17 yards to the LUFB26 (Kubacki, Kyle).']
+Score correction made in Wisconsin Lutheran @ Lakeland University (index) quarter 1 drive 7
+Score correction made in Wisconsin Lutheran @ Lakeland University (index) quarter 1 drive 8
+Is this opponent scout? (Y/N)Are you Lakeland University (H) or Wisconsin Lutheran (A)?Final score Lakeland University 56 - Wisconsin Lutheran 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['St. Norbert wins coin toss, defers. Lakeland receives opening kickoff']
+['SNCFB ball on SNCFB35.']
+['Wodack,Brady kickoff 55 yards to the LUFB10, Martin, Devin return 8 yards to the LUFB18 (Santos,Kyle), PENALTY LUFB holding (Rido, Jaylen) 9 yards to the LUFB9, 1st and 10, LUFB ball on LUFB9.']
+Is this opponent scout? (Y/N)Are you Lakeland University (H) or St. Norbert College (A)?Final score Lakeland University 40 - St. Norbert College 8
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Benedictine wins toss and defers']
+['BENUFB ball on BENUFB35.']
+['Mateus, Tanner kickoff 42 yards to the LUFB23, Martin, Devin return 2 yards to the LUFB25, out-of-bounds (Williams, Chris).']
+Score correction made in Lakeland University @ Benedictine Univ. (index) quarter 0 drive 2
+Is this opponent scout? (Y/N)Are you Benedictine Univ. (H) or Lakeland University (A)?Final score Benedictine Univ. 54 - Lakeland University 40
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Concordia Chicago wins toss and defers LAU will receive CUC will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CUCFB ball on CUCFB35.']
+['Auer,Ryan kickoff 37 yards to the LUFB28, Maynes, Gabriel return 18 yards to the LUFB46, out-of-bounds (Jones,Jayden).']
+Score correction made in Lakeland University @ Concordia Chicago (index) quarter 1 drive 4
+Score correction made in Lakeland University @ Concordia Chicago (index) quarter 1 drive 10
+Is this opponent scout? (Y/N)Are you Concordia Chicago (H) or Lakeland University (A)?Final score Concordia Chicago 7 - Lakeland University 63
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Lakeland wins coin toss, defers. Concordia will receive kickoff']
+['LUFB ball on LUFB35.']
+['Colley, Andrew kickoff 47 yards to the CUWFB18, Griffin,Rico return 7 yards to the CUWFB25, out-of-bounds (Crutcher).']
+Is this opponent scout? (Y/N)Are you Lakeland University (H) or Concordia Wisconsin (A)?Final score Lakeland University 49 - Concordia Wisconsin 32
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' lakeland won, deffered to recieve lakeland will kickoff']
+['LUFB ball on LUFB35.']
+['Colley, Andrew kickoff 60 yards to the EUREKAFB5, Hill, Sebastian return 23 yards to the EUREKAFB28, out-of-bounds (Schaefer).']
+Score correction made in Lakeland University @ Eureka College (index) quarter 1 drive 0
+Is this opponent scout? (Y/N)Are you Eureka College (H) or Lakeland University (A)?Final score Eureka College 16 - Lakeland University 45
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Aurora wins coin toss, defers to 2nd half. Lakeland receives kickoff']
+['AUFB ball on AUFB35.']
+['Wielgosz, A. kickoff 62 yards to the LUFB3, Martin, Devin return 22 yards to the LUFB25, out-of-bounds (Wielgosz, A.), PENALTY LUFB holding 10 yards to the LUFB15, 1st and 10, LUFB ball on LUFB15.']
+Is this opponent scout? (Y/N)Are you Lakeland University (H) or Aurora University (A)?Final score Lakeland University 20 - Aurora University 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rockford wins the toss and defers. Lakeland will receive.']
+['Start of 1st quarter, clock 15:00.']
+['RUFB ball on RUFB35.']
+['Start of 1st quarter, clock 15:00.']
+['Gonzalez, Abrah kickoff 41 yards to the LUFB24, Prunick, Mason return 11 yards to the LUFB35 (Johnson, Emani;Morris, Joshua).']
+Is this opponent scout? (Y/N)Are you Rockford University (H) or Lakeland University (A)?Final score Rockford University 28 - Lakeland University 56
+Folder name? (Scout team name default)

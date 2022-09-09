@@ -1,0 +1,57 @@
+Enter -['Start of 1st Half']
+['Castleton wins coin toss, defers to second half']
+['CUFB ball on CUFB35.']
+['Clock 15:00.']
+['Noah Crossman kickoff 57 yards to the PSU8, Willie Lombard return 27 yards to the PSU35, out-of-bounds (K. Carroll), PENALTY PSU illegal block 15 yards to the PSU20, 1st and 10, PSU ball on PSU20.']
+Is this opponent scout? (Y/N)Are you Castleton (H) or Plymouth State (A)?Final score Castleton 13 - Plymouth State 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Husson wins toss and defers; PSU will receive; HUS will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Solarzana,Erick kickoff 43 yards to the PSU22 Milliken,Ryan return 32 yards to the HUS46 (LaFrance,Parker).']
+Is this opponent scout? (Y/N)Are you Plymouth St. (H) or Husson (A)?Final score Plymouth St. 7 - Husson 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['PSU won the coin toss and deferred. BSU to receive to start the game.']
+['Dan Carey kickoff 52 yards to the BSU13, Michael Henri return 26 yards to the BSU39 (Dan Carey).']
+Score correction made in Plymouth State @ Bridgewater State (index) quarter 2 drive 6
+Score correction made in Plymouth State @ Bridgewater State (index) quarter 2 drive 7
+Is this opponent scout? (Y/N)Are you Bridgewater State (H) or Plymouth State (A)?Final score Bridgewater State 27 - Plymouth State 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Framingham St. wins toss and defers; PSU will receive; FSU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['De Boni,Henrique kickoff 62 yards to the PSU03 Milliken,Ryan return 27 yards to the PSU30 (Davila,Kelvin).']
+Is this opponent scout? (Y/N)Are you Plymouth St. (H) or Framingham St. (A)?Final score Plymouth St. 0 - Framingham St. 33
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WCSU ball on WCSU35, clock 15:00.']
+['.']
+['A. Weidtman kickoff 59 yards to the PSU6, out-of-bounds, PENALTY WCSU illegal procedure (A. Weidtman) 5 yards to the WCSU30, NO PLAY.']
+['WESTCONN drive start at 15:00.']
+['A. Weidtman kickoff 62 yards to the PSU8, Ryan Milliken return 19 yards to the PSU27 (Andrew Colletti).']
+Is this opponent scout? (Y/N)Are you WestConn (H) or Plymouth St. (A)?Final score WestConn 13 - Plymouth St. 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Plymouth St. wins toss and defers; FIT will receive; PSU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Carey,Dan kickoff 57 yards to the FIT08 Spears,Gary return 22 yards to the FIT30, out of bounds.']
+Is this opponent scout? (Y/N)Are you Plymouth St. (H) or Fitchburg St. (A)?Final score Plymouth St. 36 - Fitchburg St. 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Worcester St. wins toss and will receive; PSu will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Carey,Dan kickoff 55 yards to the WSU10 von Klock,Drew return 10 yards to the WSU20 (Wronski,Bryce).']
+Score correction made in Worcester St. @ Plymouth St. (index) quarter 0 drive 1
+Is this opponent scout? (Y/N)Are you Plymouth St. (H) or Worcester St. (A)?Final score Plymouth St. 42 - Worcester St. 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Plymouth wins defers, will defend north end zone']
+['Seth Disalvo kickoff 53 yards to the WSU12, Parrish, K. return 14 yards to the WSU26 (K. Baillargeon).']
+Is this opponent scout? (Y/N)Are you Westfield State (H) or Plymouth State (A)?Final score Westfield State 7 - Plymouth State 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mass. Maritime wins toss and defers; PSU will receive; MMA will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ross-Parent,Marco kickoff 50 yards to the PSU15 Milliken,Ryan return 85 yards to the MMA00 TOUCHDOWN, clock 14:50.']
+['Carey,Dan kick attempt good.']
+['Carey,Dan kickoff 56 yards to the MMA09 Childs,Anthony return 16 yards to the MMA25 (Moody,Gavin).']
+Is this opponent scout? (Y/N)Are you Plymouth St. (H) or Mass. Maritime (A)?Final score Plymouth St. 27 - Mass. Maritime 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UMass Dartmouth wins toss and will receive; PSU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Disalvo,Seth kickoff 59 yards to the UMD06 Jean,Marvens return 14 yards to the UMD20 (Wronski,Bryce; Griffing,Matt).']
+Is this opponent scout? (Y/N)Are you UMass Dartmouth (H) or Plymouth St. (A)?Final score UMass Dartmouth 28 - Plymouth St. 7
+Folder name? (Scout team name default)

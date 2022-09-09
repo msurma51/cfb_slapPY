@@ -1,0 +1,13 @@
+Final score Ithaca College 52 - Bridgewater St. 20
+Final score Brockport St. 8 - Ithaca College 23
+Score correction made in Ithaca College @ Alfred (index) quarter 3 drive 7
+Final score Alfred 0 - Ithaca College 40
+Final score Ithaca College 28 - Hobart 21
+Final score Rochester 14 - Ithaca College 37
+Final score St. Lawrence 0 - Ithaca College 17
+Score correction made in Buffalo St. @ Ithaca College (index) quarter 1 drive 2
+Final score Ithaca College 51 - Buffalo St. 7
+Final score Rensselaer 14 - Ithaca 11
+Final score Ithaca College 26 - Union (NY) 7
+Final score Cortland 28 - Ithaca 27
+Player name overlap detected in Ithaca at Cortland. Check possession transitions

@@ -1,16 +1,8 @@
 import urllib.request
 from bs4 import BeautifulSoup
 from hudl_namespace import *
+from presto_prep import headers, pot
 import re
-
-user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
-headers={'User-Agent':user_agent,} 
-
-def pot(headers, url):
-    request = urllib.request.Request(url,None,headers) #The assembled request
-    response = urllib.request.urlopen(request)
-    html = response.read().decode() # The data u need
-    return(BeautifulSoup(html, "html.parser"))
 
 def taster(url):
     if len(url) < 1:
@@ -63,6 +55,8 @@ def taster(url):
         for i in range(len(rows)):
             if rows[i].contents[0] in tags:
                 tag_dex.append(i)
+            elif len(rows[i].contents) > 1 and rows[i].contents[1] in tags:
+                tag_dex.append(i)
         return(tag_dex)
         
     qtag_dex = dex_list(rows,qtags)
@@ -84,7 +78,10 @@ def taster(url):
                 entries = row.find_all(['th','td'])
                 seg = '\n' + ' '*6
                 for entry in entries:
+                    if entry.find('div'):
+                        entry = entry.find_all('div')[0]
                     string = entry.string.replace(seg,'').strip()
+                    string = string.replace('\n','')
                     strings.append(string)
                 if 'back to top' not in strings:
                     play_strings.append(strings)
@@ -104,7 +101,8 @@ def taster(url):
     while len(set(abbr))<2:
         abbr = abbr_finder(quarters[0][drive_count],abbr)
         drive_count += 1
-    kicker_name = re.findall('([A-Za-z]+) kickoff',quarters[0][0][-1][-1])
+    ko_string = quarters[0][0][-1][-1]
+    kicker_name = re.findall('([A-Za-z]+) kickoff',ko_string)
     kicker = None
     if len(kicker_name)>0:
         if name_dict[away_kicker] in kicker_name[0]:
@@ -140,8 +138,31 @@ def taster(url):
         else:
             name_dict[home_abbr] = abbr2
             name_dict[away_abbr] = kick_team
+
+    # Determine abbr using kicker home or away and which territory he kicked the ball to
+    if not name_dict[home_abbr] and kicker:
+        yards = re.findall('kickoff (\d+) yards to the ([A-Za-z]+)[\d]{2}', ko_string)
+        if len(yards) > 0:
+            kick_yards = int(yards[0][0])
+            kick_terr = yards[0][1]
+            abbr2 = [name for name in abbr if name != kick_terr][0]
+            if kick_yards > 14:
+                if kicker == name_dict[away_kicker]:
+                    name_dict[home_abbr] = kick_terr
+                    name_dict[away_abbr] = abbr2
+                else:
+                    name_dict[away_abbr] = kick_terr
+                    name_dict[home_abbr] = abbr2
+            else:
+                if kicker == name_dict[away_kicker]:
+                    name_dict[away_abbr] = kick_terr
+                    name_dict[home_abbr] = abbr2
+                else:
+                    name_dict[home_abbr] = kick_terr
+                    name_dict[away_abbr] = abbr2
+                    
     # If you could not identify the opening kicker or kick team, compare abbreviations to team names
-    else:
+    if not name_dict[home_abbr]:
         for curr_abbr in set(abbr):
             abbr2 = [name for name in abbr if name != curr_abbr][0]
             home_prop = len(set(curr_abbr) & set(name_dict[home_name].upper())) / len(set(curr_abbr))

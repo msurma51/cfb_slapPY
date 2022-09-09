@@ -208,7 +208,7 @@ def run_parser(play,desc,name_re):
     play[play_type] = type_run
     rb = re.findall(name_re + ' rush',desc)
     if len(rb) > 0:
-        play[passer] = rb[0]
+        play[rusher] = rb[0]
     if desc.find(' no gain') > -1:
         gain_loss = 0
     else:

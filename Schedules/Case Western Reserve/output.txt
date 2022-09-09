@@ -1,0 +1,54 @@
+Enter -['1st']
+['1st and 10 at CWR35', 'CWRU wins the coin toss and defers to 2nd half. UR to receive.']
+['', 'Jacob Lurie kickoff 59 yards to the ROC06, Trey Johnson return 19 yards to the ROC25 (Nate Cikalo).']
+Is this opponent scout? (Y/N)Are you Rochester (N.Y.) (H) or Case Western Reserve (A)?Final score Rochester (N.Y.) 20 - Case Western Reserve 27
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CWR35', 'CWR won the toss and will defer , WAY will recive']
+['', 'Joseph Rhodes V kickoff 65 yards to the WAY00, touchback.']
+Is this opponent scout? (Y/N)Are you Waynesburg (H) or Case Western Reserve (A)?Final score Waynesburg 33 - Case Western Reserve 66
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WES35', 'CWRU wins toss and defers. CWRU will receive on south side endzone.']
+['1st and 10 at WES35', 'WES ball on WES35.']
+['', 'Joshua Byers kickoff 57 yards to the CWR08, Antonio Orsini return 17 yards to the CWR25 (Harris Kohl; Carter Chinn).']
+Is this opponent scout? (Y/N)Are you Case Western Reserve (H) or Westminster (Pa.) (A)?Final score Case Western Reserve 12 - Westminster (Pa.) 34
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WJC35', 'CWRU wins toss and elects to receive. CWRU will receive on north end.']
+['1st and 10 at WJC35', 'WJC ball on WJC35.']
+['', 'J. Mikelonis kickoff 58 yards to the CWR07, out-of-bounds, PENALTY WJC illegal kicking (J. Mikelonis) 28 yards to the CWR35, 1st and 10, CWR ball on CWR35.']
+Is this opponent scout? (Y/N)Are you Case Western Reserve (H) or Wash. & Jeff. (A)?Final score Case Western Reserve 14 - Wash. & Jeff. 37
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CWR35', 'Saint Vincent wins the toss and will defer']
+['1st and 10 at CWR35', 'Change of possession, SVC ball on SVC35, 1st and 10.']
+['', 'Zach Kuvinka kickoff 49 yards to the CWR16, Gage Duesler return 8 yards to the CWR24 (M. Cromerdie).']
+Score correction made in Case Western Reserve @ St. Vincent (index) quarter 3 drive 4
+Score correction made in Case Western Reserve @ St. Vincent (index) quarter 3 drive 5
+Is this opponent scout? (Y/N)Are you St. Vincent (H) or Case Western Reserve (A)?Final score St. Vincent 42 - Case Western Reserve 33
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at BETFB35', 'Bethany wins the coin toss and will defer to the second half']
+['1st and 10 at BETFB35', 'CWRU will receive the kick off and defend the south end zone']
+['1st and 10 at BETFB35', 'BETFB ball on BETFB35.']
+['', 'Sean Cole kickoff 63 yards to the CWR02, Ethan Dahlem return 32 yards to the CWR34 (C. Norfus).']
+Is this opponent scout? (Y/N)Are you Case Western Reserve (H) or Bethany (W.V.) (A)?Final score Case Western Reserve 53 - Bethany (W.V.) 0
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at GEN35', 'Geneva wins the toss, will receive ball on north side of field']
+['1st and 10 at GEN35', 'CWR ball on CWR35.']
+['', 'Jacob Lurie kickoff 61 yards to the GEN04, Hilton McClain return 21 yards to the GEN25 (Ryan Cabrera; Sean Torres).']
+Is this opponent scout? (Y/N)Are you Case Western Reserve (H) or Geneva (A)?Final score Case Western Reserve 42 - Geneva 38
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CWR35', 'CWRU wins toss and defers']
+['1st and 10 at CWR35', 'THI will receive']
+['1st and 10 at CWR35', 'CWR will defend West end-zone']
+['1st and 10 at CWR35', 'Start of 1st quarter, clock 15:00, CWR ball on CWR35.']
+['', 'Jacob Lurie kickoff 60 yards to the THI05, Lawler,Chase return 11 yards to the THI16 (Ryan Cabrera).']
+Is this opponent scout? (Y/N)Are you Thiel (H) or Case Western Reserve (A)?Final score Thiel 12 - Case Western Reserve 30
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at GRO35', 'Grove City wins the coin toss and will defer']
+['1st and 10 at GRO35', 'CWRU will receive the kick off and defend the south end zone']
+['1st and 10 at GRO35', 'GRO ball on GRO35.']
+['', 'Eddie Bianco kickoff 55 yards to the CWR10, Ethan Dahlem return 18 yards to the CWR28 (James Shaffer; Cole DeFillippo).']
+Is this opponent scout? (Y/N)Are you Case Western Reserve (H) or Grove City (A)?Final score Case Western Reserve 35 - Grove City 21
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CWR35', '*CWRU wins toss, Defers to 2nd half. CMU to receive, defend east goal']
+['', 'Jacob Lurie kickoff 64 yards to the CMU01, Ethan Reifer return 20 yards to the CMU21 (Marco Toth; D.J. Wolf).']
+Is this opponent scout? (Y/N)Are you Carnegie Mellon (H) or Case Western Reserve (A)?Final score Carnegie Mellon 24 - Case Western Reserve 6
+Folder name? (Scout team name default)

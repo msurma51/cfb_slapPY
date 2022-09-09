@@ -1,0 +1,20 @@
+Final score Wartburg 44 - Monmouth (IL) 3
+Final score Gust. Adolphus 27 - Wartburg 18
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 17, in taster
+    name_dict[away_name] = team_names[0].string
+IndexError: list index out of range
+Final score Central (IA) 49 - Wartburg 24
+Final score Wartburg 58 - Loras 21
+Final score Luther College 0 - Wartburg College 67
+Final score Wartburg 27 - Dubuque 7
+Final score Buena Vista 24 - Wartburg 20
+Final score Wartburg 50 - Neb. Wesleyan 14
+Final score Simpson 23 - Wartburg 55

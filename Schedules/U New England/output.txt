@@ -1,0 +1,44 @@
+Enter -['Start of 1st Half']
+['U New England wins toss and defers; CGA will receive; UNE will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ruelas Villasenor,Abe kickoff 55 yards to the CGA10 Wagner,Jacob return 35 yards to the CGA45 (Beauvais,Zach), out of bounds.']
+Is this opponent scout? (Y/N)Are you U New England (H) or Coast Guard (A)?Final score U New England 0 - Coast Guard 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UNE won the coin toss and deferred. BSU to receive to start the game.']
+['Ruelas Villasen kickoff 64 yards to the BSU1, Gilzene-Tucker return 9 yards to the BSU10 (Mikey Brennan).']
+Is this opponent scout? (Y/N)Are you Bridgewater State (H) or Univ. of New England (A)?Final score Bridgewater State 20 - Univ. of New England 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Alfred St. wins toss and defers; UNE will receive; ASC will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Fontaine,Dawson kickoff 50 yards to the UNE15 Mahoney,Jack return 19 yards to the UNE34 (Napoleon,Roman; Nichols,Jasiah).']
+Is this opponent scout? (Y/N)Are you Alfred St. (H) or U New England (A)?Final score Alfred St. 17 - U New England 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['U New England wins toss and will receive; NIC will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Mallozzi,Vincent kickoff 55 yards to the UNE10 Maheux,Jaymeson return 27 yards to the UNE37 (Ryan,Darnele).']
+Is this opponent scout? (Y/N)Are you U New England (H) or Nichols (A)?Final score U New England 28 - Nichols 19
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SRU ball on SRU35, clock 15:00.']
+['Matteo Marasco kickoff 55 yards to the UNE10, Jack Mahoney return 53 yards to the SRU37 (Joe Salute).']
+Is this opponent scout? (Y/N)Are you Salve Regina (H) or Univ. of New England (A)?Final score Salve Regina 48 - Univ. of New England 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['U New England wins toss and will receive; HUS will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Paradis,Aaron kickoff 52 yards to the UNE13 Mahoney,Jack return 18 yards to the UNE31 (Floyd,Phoebus).']
+Is this opponent scout? (Y/N)Are you U New England (H) or Husson (A)?Final score U New England 14 - Husson 41
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['*UNE wins coin toss, defers to second half']
+['Leonatti, Josep kickoff 47 yards to the ECM18, Freddy Gabin return 17 yards to the ECM35 (Mahoney, Jack).']
+Is this opponent scout? (Y/N)Are you Endicott (H) or UNE (A)?Final score Endicott 19 - UNE 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['U New England wins toss and will receive; WNE will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Izzo,Nolan kickoff 59 yards to the UNE06 Maheux,Jaymeson return 9 yards to the UNE15 (Caputo,Alex).']
+Is this opponent scout? (Y/N)Are you U New England (H) or Western New Eng. (A)?Final score U New England 17 - Western New Eng. 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['CURRY ball on CURRY35, clock 15:00.']
+['Billy Lynch kickoff 63 yards to the UNE02, Jack Mahoney return 17 yards to the UNE19 (Justin Orlowski; Adem Kica).']
+Score correction made in U. of New England @ Curry (index) quarter 0 drive 4
+Score correction made in U. of New England @ Curry (index) quarter 0 drive 5
+Is this opponent scout? (Y/N)Are you Curry (H) or U. of New England (A)?Final score Curry 43 - U. of New England 55
+Folder name? (Scout team name default)

@@ -1,0 +1,46 @@
+Enter -['1st']
+['1st and 10 at BLUFFTON35', 'ALMA ball on ALMA35, clock 15:00.']
+['', 'Kaleb Kindsvatt kickoff 64 yards to the BLUFFTON01, Montez Archer J return 45 yards to the BLUFFTON46 (Kaleb Kindsvatt), PENALTY ALMA personal foul 15 yards to the ALMA39.']
+Is this opponent scout? (Y/N)Are you Alma College (H) or Bluffton University (OH) (A)?Final score Alma College 24 - Bluffton University (OH) 6
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ALMA35', 'ALMA ball on ALMA35, clock 15:00.']
+['', 'Kaleb Kindsvatter kickoff 64 yards to the MAN01, Cameron Hovey return 9 yards to the MAN10 (Bryce Fredenburg).']
+Is this opponent scout? (Y/N)Are you Manchester University (IN) (H) or Alma College (A)?Final score Manchester University (IN) 21 - Alma College 47
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ANDERSON35', 'ANDERSON ball on ANDERSON35, clock 15:00.']
+['', 'Caleb Oliver kickoff 55 yards to the ALMA10, Devon Frenchko return 32 yards to the ALMA42, out-of-bounds, PENALTY ANDERSON personal foul (Caleb Oliver) 30 yards to the ANDERSON28.']
+Is this opponent scout? (Y/N)Are you Alma College (H) or Anderson University (IN) (A)?Final score Alma College 51 - Anderson University (IN) 2
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ALM35', 'Alma wins toss and defers; MLC will receive; ALM will defend East end-zone.']
+['1st and 10 at ALM35', 'Start of 1st quarter, clock 15:00.']
+['', 'Kindsvatter,Kaleb kickoff 55 yards to the MLC10 Holien,Aiden return 13 yards to the MLC23 (Lenardson,Spencer).']
+Is this opponent scout? (Y/N)Are you Martin Luther (H) or Alma College (A)?Final score Martin Luther 27 - Alma College 35
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at OLIVET35', 'ALMA ball on ALMA35, clock 15:00.']
+['', 'Kaleb Kindsvatt kickoff 57 yards to the OLIVET08, Deonte Higgins return 9 yards to the OLIVET17 (Nahuel Juarez).']
+Is this opponent scout? (Y/N)Are you Alma College (H) or Olivet College (A)?Final score Alma College 10 - Olivet College 33
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ALMA35', 'KALAMAZO ball on KALAMAZO35, clock 15:00.']
+['', 'Ian Burr kickoff 65 yards to the ALMA00, Devon Frenchko return 28 yards to the ALMA28 (Tyler Houle).']
+Is this opponent scout? (Y/N)Are you Kalamazoo College (H) or Alma College (A)?Final score Kalamazoo College 3 - Alma College 28
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ALM35', 'Alma wins toss and defers; ADR will receive; ALM will defend South end-zone.']
+['1st and 10 at ALM35', 'Start of 1st quarter, clock 15:00.']
+['', 'Kindsvatter,Kaleb kickoff 55 yards to the ADR10 Ray,Malik return 4 yards to the ADR14 (Salani,Trever).']
+Is this opponent scout? (Y/N)Are you Adrian College (H) or Alma College (A)?Final score Adrian College 36 - Alma College 21
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HOPE35', 'HOPE ball on ALMA15, clock 09:09.']
+['', 'Dylan Hillger kickoff 12 yards to the ALMA03, Brodie Crim return 27 yards to the ALMA30 (Tyler Stezowski).']
+Score correction made in Hope College @ Alma College (index) quarter 1 drive 0
+Is this opponent scout? (Y/N)Are you Alma College (H) or Hope College (A)?Final score Alma College 3 - Hope College 27
+Player name overlap detected in Hope at Alma. Check possession transitions
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at TRINE35', 'ALMA ball on ALMA35, clock 15:00.']
+['', 'Kaleb Kindsvatter kickoff 65 yards to the TRINE00, touchback.']
+Is this opponent scout? (Y/N)Are you Alma College (H) or Trine University (IN) (A)?Final score Alma College 23 - Trine University (IN) 37
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ALB35', 'Albion wins toss and will kickoff; ALM will defend West end-zone.']
+['1st and 10 at ALB35', 'Start of 1st quarter, clock 15:00.']
+['', 'Williams,Hunter kickoff 65 yards to the ALM00, Touchback.']
+Is this opponent scout? (Y/N)Are you Albion College (H) or Alma College (A)?Final score Albion College 34 - Alma College 7
+Folder name? (Scout team name default)

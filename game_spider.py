@@ -24,7 +24,7 @@ def has_box_link(href):
 
 box_score_tags = soup('a', href=has_box_link)
 box_score_links = list()
-url_start = url[:re.search('(\.com|\.edu)',url).span()[1]]
+url_start = url[:re.search('(\.com|\.edu|\.net|\.org)',url).span()[1]]
 for tag in box_score_tags:
     link = url_start + tag['href']
     if link not in box_score_links:

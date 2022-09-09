@@ -1,0 +1,55 @@
+Enter -['Start of 1st Half']
+['Capital wins toss and will kickoff; DEF will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Noble,Eric kickoff 44 yards to the DEF21 Martin,Michael return 0 yards to the DEF21 (Newsome,Blake).']
+Is this opponent scout? (Y/N)Are you Capital (H) or Defiance (A)?Final score Capital 41 - Defiance 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Capital wins toss and defers HEI will receive CAP will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CAPF ball on CAPF35.']
+['Noble,Eric kickoff 55 yards to the HEID10, Reed,Brandon return 44 yards to the CAPF46 (Hoersten,Louis).']
+Is this opponent scout? (Y/N)Are you Heidelberg (H) or Capital (A)?Final score Heidelberg 48 - Capital 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Marietta wins toss and will kickoff; CAP will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Haus,Matthew kickoff 56 yards to the CAP09 Pickett,Sam return 23 yards to the CAP32 (Agnew,Bryce).']
+Is this opponent scout? (Y/N)Are you Capital (H) or Marietta (A)?Final score Capital 7 - Marietta 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['BW ball on BW35, clock 15:00.']
+['BW wins toss and defers to the second half. Capital will receive and defend the north end zone']
+['Dean Sarris kickoff 65 yards to the CAP00, touchback.']
+Is this opponent scout? (Y/N)Are you Baldwin Wallace (H) or Capital (A)?Final score Baldwin Wallace 51 - Capital 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Capital wins toss and will kickoff; JCU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Noble,Eric kickoff 48 yards to the JCU17 Olivera,JJ return 28 yards to the JCU45 (Davis,Chad).']
+Is this opponent scout? (Y/N)Are you Capital (H) or John Carroll (A)?Final score Capital 7 - John Carroll 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Mount Union wins toss and defers CAP will receive MTU will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MTU ball on MTU35.']
+['Nick Deack kickoff 56 yards to the CAP9, fair catch by Matthews,Lance.']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Capital (A)?Final score Mount Union 63 - Capital 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['CU wins the toss and defers. ONU will receive and defend the N goal.']
+['PENALTY ONU delay of game 5 yards to the CAP40.']
+['E. Noble kickoff 46 yards to the ONU14, Brock Martin return 7 yards to the ONU21 (M. Smith).']
+Is this opponent scout? (Y/N)Are you Ohio Northern (H) or Capital (A)?Final score Ohio Northern 28 - Capital 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Capital wins toss and will kickoff; OTT will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Noble,Eric kickoff 49 yards to the OTT16 Alamo,Carlos return 13 yards to the OTT29 (Curtis,James; Shutler,Tyson).']
+Score correction made in Otterbein @ Capital (index) quarter 3 drive 1
+Score correction made in Otterbein @ Capital (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you Capital (H) or Otterbein (A)?Final score Capital 33 - Otterbein 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WC ball on WC35, clock 15:00.']
+['Gabe Dolen kickoff 58 yards to the CAP07, Aralius Walters return 14 yards to the CAP21 (Tavion Bryant).']
+Is this opponent scout? (Y/N)Are you Wilmington (Ohio) (H) or Capital (A)?Final score Wilmington (Ohio) 24 - Capital 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Capital wins toss and defers; MUS will receive; CAP will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+["Noble,Eric kickoff 46 yards to the MUS19 Goodman,Ja'Lin return 0 yards to the (Ormond,EJ) PENALTY MUS Illegal Block in Back 9 yards from MUS19 to MUS10."]
+['MUS ball on MUS10.']
+Is this opponent scout? (Y/N)Are you Capital (H) or Muskingum (A)?Final score Capital 27 - Muskingum 46
+Folder name? (Scout team name default)

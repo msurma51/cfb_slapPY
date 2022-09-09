@@ -15,7 +15,25 @@ ctx.verify_mode = ssl.CERT_NONE
 schedule_link = input('Enter schedule link -')
 names_list = list()
 
-proc = subprocess.run(['python','game_spider.py'], input=schedule_link, capture_output=True, text=True)
+proc = subprocess.run(['python','game_spider_presto.py'], input=schedule_link, capture_output=True, text=True)
+if proc.returncode == 1 or proc.stdout == 'Enter schedule link - ':
+    proc = subprocess.run(['python','game_spider.py'], input=schedule_link, capture_output=True, text=True)
+box_score_links = proc.stdout.split()[4:]
+try:
+    only_drive_chart = SoupStrainer(id='drive-chart')
+    for url in box_score_links[0:2]:
+        req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        html = urlopen(req, context=ctx).read()
+        soup = BeautifulSoup(html, "html.parser", parse_only=only_drive_chart)
+        names_list.append((soup.find('a', href='#home-drives').string, soup.find('a', href='#visitor-drives').string))
+except:
+    from presto_prep import headers, pot
+    only_h4 = SoupStrainer('h4')
+    for url in box_score_links[0:2]:
+        soup = pot(headers, url, strainer = only_h4)
+        names_list.append((soup('h4')[0].string,soup('h4')[1].string))
+    
+'''
 if proc.returncode == 0:
     box_score_links = proc.stdout.split()[4:]
     only_drive_chart = SoupStrainer(id='drive-chart')
@@ -32,15 +50,23 @@ else:
     for url in box_score_links[0:2]:
         soup = pot(headers, url, strainer = only_h4)
         names_list.append((soup('h4')[0].string,soup('h4')[1].string))
-        
-match_prop = 0.0
+'''     
+def jaccard(name,key):
+    a = {char.upper() for char in name if char.isalpha()}
+    b = {char.upper() for char in key if char.isalpha()}
+    c = a & b
+    d = a | b
+    return len(c) / len(d)
+    
+pair_list = list()
+j_score = 0
 for name in names_list[0]:
-    chars1 = len(set(name) & set(names_list[1][0]))
-    chars2 = len(set(name) & set(names_list[1][1]))
-    curr_prop = max(chars1,chars2)/len(name)
-    if curr_prop > match_prop:
-        match_prop = curr_prop
-        team_name = name
+    for name2 in names_list[1]:
+        j_now = jaccard(name,name2)
+        if j_now > j_score:
+            team_name = name
+            j_score = j_now
+
 scout = input('Is this opponent scout? (Y/N)')
 folder_path = 'Schedules\\' + team_name    
 if not os.path.exists(folder_path):
@@ -75,6 +101,6 @@ with open(folder_path + '\\report.txt', 'w') as g:
             if dex > -1:
                 g.write(line[dex:])
 with open('parsed_schedules.json','w') as outfile:
-    json.dump([link_dict,*link_list[1:],outfile)
+    json.dump([link_dict,*link_list[1:]],outfile)
     
     

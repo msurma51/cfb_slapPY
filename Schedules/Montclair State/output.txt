@@ -1,0 +1,60 @@
+Enter -['Start of 1st Half']
+[' Montclair St. wins toss and defers RPI will receive MSU will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MSU ball on MSU35.']
+['Myerson,Andrew kickoff 48 yards to the RPI17, Munoz Whatts,De return 19 yards to the RPI36 (TEAM).']
+Is this opponent scout? (Y/N)Are you Rensselaer (H) or Montclair State (A)?Final score Rensselaer 21 - Montclair State 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Delaware Valley wins toss and will receive MSU will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MSU ball on MSU35.']
+['Myerson,Andrew kickoff 43 yards to the DVU22, Prevard,Jamir return 10 yards to the DVU32 (George,Jarred).']
+Is this opponent scout? (Y/N)Are you Delaware Valley (H) or Montclair State (A)?Final score Delaware Valley 26 - Montclair State 2
+Player name overlap detected in Montclair State at Delaware Valley. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Salve Regina wins toss and defers MSU will receive SRU will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SRU ball on SRU35.']
+['Marasco,Matteo kickoff 60 yards to the MSU5, Ramos,Dan return 33 yards to the MSU38 (Zingaro,John).']
+Is this opponent scout? (Y/N)Are you Montclair State (H) or Salve Regina (A)?Final score Montclair State 21 - Salve Regina 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' WPI wins toss and defers MSU will receive WPI will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, WPI ball on WPI35.']
+['Wade,Bryce kickoff 60 yards to the MSU5, Ramos,Dan return 27 yards to the MSU32 (Anderson,Max).']
+Is this opponent scout? (Y/N)Are you Montclair State (H) or WPI (A)?Final score Montclair State 31 - WPI 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Montclair St. wins toss and defers SAL will receive MSU will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MSU ball on MSU35.']
+['Fitzpatrick,Mic kickoff 49 yards to the SAL16, Price,Rahshawn return 20 yards to the SAL36 (Ferrignno,Gerry).']
+Is this opponent scout? (Y/N)Are you Montclair State (H) or Salisbury (A)?Final score Montclair State 7 - Salisbury 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' TCNJ wins toss and defers MSU will receive CNJ will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, TCNJ ball on TCNJ35.']
+['Wortman,Bobby kickoff 0 yards to the TCNJ35, PENALTY TCNJ offside defense (Recine,Nick) 5 yards to the TCNJ30, NO PLAY.']
+['Wortman,Bobby kickoff 59 yards to the MSU11, Sutton,Robert return 25 yards to the MSU36 (Dailey,Justin).']
+Is this opponent scout? (Y/N)Are you Montclair State (H) or TCNJ (A)?Final score Montclair State 9 - TCNJ 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Coin Toss: CNU wins toss and defers...']
+['CNU ball on CNU35.']
+['Ryan Castle kickoff 64 yards to the MSU1, Zahir Wilder return 15 yards to the MSU16 (Niko Tauti;Jayson Eanes).']
+Is this opponent scout? (Y/N)Are you Chris. Newport (H) or Montclair State (A)?Final score Chris. Newport 28 - Montclair State 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rowan wins toss and defers; MSU will receive; ROW will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Kay,Danny kickoff 58 yards to the MSU07 Wilder,Zahir return 32 yards to the MSU39 (Robinson,Aeneas).']
+Is this opponent scout? (Y/N)Are you Montclair St. (H) or Rowan (A)?Final score Montclair St. 20 - Rowan 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wm. Paterson wins toss and defers; MSU will receive; WPU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Alvarez,Ronald kickoff 40 yards to the MSU25 Edelstein,Jeremy return 15 yards to the MSU40 (Abdul Malik,Siraj; Brookins,Tye).']
+Score correction made in Montclair St. @ Wm. Paterson (index) quarter 1 drive 9
+Is this opponent scout? (Y/N)Are you Wm. Paterson (H) or Montclair St. (A)?Final score Wm. Paterson 22 - Montclair St. 23
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Kean wins the toss and defers.  MSU elects to receive.']
+['KEAN ball on KEAN35.']
+['George Chrissafis kickoff 53 yards to the MSU12, Dan Ramos return 40 yards to the KEAN48, out-of-bounds (George Chrissafis).']
+Is this opponent scout? (Y/N)Are you Kean (H) or Montclair State (A)?Final score Kean 15 - Montclair State 7
+Folder name? (Scout team name default)

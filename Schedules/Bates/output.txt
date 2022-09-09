@@ -1,0 +1,44 @@
+Enter -['Start of 1st Half']
+['AMHERST ball on AMHERST40, clock 15:00.']
+['AMHERST ball on AMHERST40.']
+['Conor Kennelly kickoff 57 yards to the BATES03, Diawara,Mohamed return 22 yards to the BATES25 (Cesar Suarez).']
+Is this opponent scout? (Y/N)Are you Bates (H) or Amherst (A)?Final score Bates 20 - Amherst 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['BATES ball on BATES40, clock 15:00.']
+['Archie Green kickoff 50 yards to the MIDD10, Carter Stockwel return 18 yards to the MIDD28 (Hunter Klingens).']
+Is this opponent scout? (Y/N)Are you Middlebury (H) or Bates (A)?Final score Middlebury 24 - Bates 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WESLEYAN ball on WESLEYAN40, clock 15:00.']
+['Daniel Yoon kickoff 56 yards to the BATES4, Diawara,Mohamed return 43 yards to the BATES47 (Corey Fausto).']
+Is this opponent scout? (Y/N)Are you Bates (H) or Wesleyan (Conn.) (A)?Final score Bates 24 - Wesleyan (Conn.) 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['.']
+['TUFTS ball on TUFTS40, clock 15:00.']
+['Patrick Walsh kickoff 60 yards to the BATES0, touchback.']
+Is this opponent scout? (Y/N)Are you Tufts (H) or Bates (A)?Final score Tufts 10 - Bates 33
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Trinity (CT) wins toss and defers; BAT will receive; TRI will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Trout,Hampton kickoff 63 yards to the BAT02 Olivieri,Christian return 19 yards to the BAT21 (Tully,Hunter).']
+Is this opponent scout? (Y/N)Are you Trinity (CT) (H) or Bates (A)?Final score Trinity (CT) 45 - Bates 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WILLIAMS ball on WILLIAMS40, clock 15:00.']
+['Ivan Shuran kickoff 54 yards to the BATES6, Olivieri,Chris. return 13 yards to the BATES19 (Ethan Scott).']
+Is this opponent scout? (Y/N)Are you Bates (H) or Williams (A)?Final score Bates 21 - Williams 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['COLBY ball on COLBY40, clock 15:00.']
+['Moises Celaya kickoff 58 yards to the BATES2, Capo,Chris return 20 yards to the BATES22, fumble forced by Alex Nuahn, fumble by Capo,Chris recovered by COLBY Locksley Burke at BATES24.']
+Is this opponent scout? (Y/N)Are you Bates (H) or Colby (A)?Final score Bates 2 - Colby 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Bates wins toss and defers, Bowdoin to receive']
+['BAT21 ball on BAT2140.']
+['Archie Green kickoff 58 yards to the BOW02, Aise Pream return 13 yards to the BOW15 (H. Klingensmith).']
+Score correction made in Bates College @ Bowdoin (index) quarter 2 drive 6
+Score correction made in Bates College @ Bowdoin (index) quarter 3 drive 2
+Score correction made in Bates College @ Bowdoin (index) quarter 3 drive 6
+Is this opponent scout? (Y/N)Are you Bowdoin (H) or Bates College (A)?Final score Bowdoin 24 - Bates College 25
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['BATES ball on BATES40, clock 15:00.']
+['Green,Archie kickoff 55 yards to the HAMILTON5, Saleh Eltayeb return 95 yards to the BATES0, TOUCHDOWN, clock 15:00.']
+Is this opponent scout? (Y/N)Are you Bates (H) or Hamilton (A)?Final score Bates 27 - Hamilton 21
+Folder name? (Scout team name default)

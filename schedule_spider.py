@@ -28,7 +28,8 @@ url_ends = ('/sports/football/schedule/2021','/sports/fball/2021-22/schedule','/
 infile = open('parsed_schedules.json').read()
 inlist = json.loads(infile)
 link_dict = inlist[0]
-link_dump = inlist[1]
+link_archive = inlist[1]
+link_dump = inlist[2]
 for link_start in page_links:
     if link_start in link_dump:
         print(link_start,'is a bad link')
@@ -37,14 +38,11 @@ for link_start in page_links:
     skip_dump = False
     for url_end in url_ends:
         link = link_start + url_end
-        if link in link_dict.values():
+        if link in link_dict.values() or link in link_archive.values():
             skip_dump = True
             break
         proc = subprocess.run(['python','stock.py'], input='{}\n{}'.format(link,'n'), capture_output=True, text=True)
         if proc.returncode == 0:
-            output_first_line = proc.stdout.splitlines()[0]
-            team_name = re.findall('Parsing schedule for (.*)', output_first_line)[0]
-            link_dict[team_name] = link
             print(link + ' schedule parsed successfully')
             break
     if proc and all((proc.returncode == 1, not skip_dump)):
@@ -52,5 +50,5 @@ for link_start in page_links:
         print(link_start + ' schedule parse unsuccessful')
 
 with open('parsed_schedules.json', 'w') as outfile:
-    json.dump([link_dict,link_dump],outfile)
+    json.dump([link_dict,link_archive,link_dump],outfile)
     

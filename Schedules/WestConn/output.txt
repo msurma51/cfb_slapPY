@@ -1,0 +1,84 @@
+Enter -['Start of 1st Half']
+['WCSU ball on WCSU35, clock 15:00.']
+['A. Weidtman kickoff 30 yards to the WPU35, downed.']
+Is this opponent scout? (Y/N)Are you WestConn (H) or Wm. Paterson (A)?Final score WestConn 24 - Wm. Paterson 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' WCSU ball on WCSU35. WC wins toss and defers, will kick an defend south goal']
+['A. Weidtman kickoff 64 yards to the ALBFB211,  Zehner, Kevin return 33 yards to the ALBFB2134 (Ethan Ceriano).']
+Is this opponent scout? (Y/N)Are you WestConn (H) or Albright (A)?Final score WestConn 28 - Albright 33
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WCSU ball on WCSU35, clock 15:00.']
+['A. Weidtman kickoff 60 yards to the WSC5, Kordell Parrish return 22 yards to the WSC27 (A. Gonzalez).']
+Is this opponent scout? (Y/N)Are you WestConn (H) or Westfield St. (A)?Final score WestConn 42 - Westfield St. 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['BSU won the coin toss and deferred. WCSU to receive.']
+['BSU ball on BSU35.']
+['Shane Drake kickoff 64 yards to the WCSU1, out-of-bounds, WCSU ball on WCSU35.']
+Is this opponent scout? (Y/N)Are you Bridgewater State (H) or WestConn (A)?Final score Bridgewater State 21 - WestConn 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WCSU ball on WCSU35, clock 15:00.']
+['A. Weidtman kickoff 65 yards to the UMD0, touchback.']
+Is this opponent scout? (Y/N)Are you WestConn (H) or Mass.-Dartmouth (A)?Final score WestConn 34 - Mass.-Dartmouth 19
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WCSU ball on WCSU35, clock 15:00.']
+['.']
+['A. Weidtman kickoff 59 yards to the PSU6, out-of-bounds, PENALTY WCSU illegal procedure (A. Weidtman) 5 yards to the WCSU30, NO PLAY.']
+['WESTCONN drive start at 15:00.']
+['A. Weidtman kickoff 62 yards to the PSU8, Ryan Milliken return 19 yards to the PSU27 (Andrew Colletti).']
+Is this opponent scout? (Y/N)Are you WestConn (H) or Plymouth St. (A)?Final score WestConn 13 - Plymouth St. 16
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WCSU ball on WCSU35, clock 15:00.']
+['A. Weidtman kickoff 55 yards to the FRAM10, Devaun Ford return 36 yards to the FRAM46 (M. Howell-Brown).']
+Is this opponent scout? (Y/N)Are you Framingham St. (H) or WestConn (A)?Final score Framingham St. 35 - WestConn 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WCSU ball on WCSU35, clock 15:00.']
+['WC wins toss and defers to 2nd half.  MMA  defends north goal']
+['A. Weidtman kickoff 55 yards to the MMA10, Evan Dyer return 30 yards to the MMA40 (A. Colletti).']
+Is this opponent scout? (Y/N)Are you Western Conn. St. (H) or Mass. Maritime (A)?Final score Western Conn. St. 20 - Mass. Maritime 22
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' WCSU ball on WCSU35, clock 15:00. Worcester State wins the toss, elects to receive']
+['A. Weidtman kickoff 60 yards to the WORCESTE5, Drew von Klock return 24 yards to the WORCESTE29 (Bryan Jones).']
+Is this opponent scout? (Y/N)Are you Worcester St. (H) or WestConn (A)?Final score Worcester St. 30 - WestConn 56
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['FITCHBUR ball on FITCHBUR35, clock 15:00.']
+['Mac Kimball kickoff 50 yards to the WESTERN 15, Messiah Diggs return 15 yards to the WESTERN 30 (Luke Noyes).']
+Exception in Western Conn. St. at Fitchburg St. (index) quarter 1 drive 3
+	 ['Fitchburg St. at 10:15']
+	 ['Fitchburg St. at 10:15']
+	 ['1st and 10 at FITCHBUR22', 'Fitchburg St. drive start at 10:15.']
+	 ['1st and 10 at FITCHBUR22', 'Tahjeron Wade rush for 5 yards to the FITCHBUR27 (Jemeson Charlestin).']
+	 ['2nd and 5 at FITCHBUR27', 'Tahjeron Wade rush for 6 yards to the FITCHBUR33 (Jemeson Charlestin).']
+	 ['1st and 10 at FITCHBUR33', 'Tahjeron Wade rush for 7 yards to the FITCHBUR40 (Brian Tucker).']
+	 ['2nd and 3 at FITCHBUR40', 'Joseph Haskins pass complete to Tahjeron Wade for 4 yards to the FITCHBUR44 (Ryan Kinsley).']
+	 ['1st and 10 at FITCHBUR44', 'Justyn Stanford rush for 6 yards to the 50 yardline (Brian Tucker).']
+	 ['2nd and 4 at FITCHBUR50', 'Justyn Stanford rush for 4 yards to the WESTERN 46 (Michael Diconstanzo).']
+	 ['1st and 10 at WESTERN 46', 'Justyn Stanford rush for 6 yards to the WESTERN 40 (Nosa Uzamere).']
+	 ['2nd and 4 at WESTERN 40', 'Mac Kimball rush for 14 yards to the WESTERN 26 (L. Pappalardo).']
+	 ['1st and 10 at WESTERN 26', 'Jordan Dickerson rush for loss of 2 yards to the WESTERN 28 (Jonathan Fox).']
+	 ['2nd and 12 at WESTERN 28', 'Tahjeron Wade rush for 24 yards to the WESTERN 04 (Troy Pomykala).']
+	 ['1st and GOAL at WESTERN 04', 'Tahjeron Wade rush for 1 yard to the WESTERN 03 (Raquell Davis).']
+	 ['2nd and GOAL at WESTERN 03', 'Joseph Haskins rush for 3 yards to the WESTERN 00, TOUCHDOWN, clock 02:40.']
+	 ['1st and GOAL at WESTERN 03', 'Mac Kimball kick attempt good.']
+	 ['1st and 10 at FITCHBUR35', 'Mac Kimball kickoff 9 yards to the FITCHBUR44, out-of-bounds, WESTERN  ball on FITCHBUR39, clock 02:40.']
+	 ['Total', '12 plays , 78 yards Time of Possession: 07:35']
+	 ['Western Conn. St. 28-7 Fitchburg St.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 59, in ddyl_parser
+    ddyl[distance] = int(dis[0])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 899, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 743, in play_parser
+    play = ddyl_parser(string_list[0],poss)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 63, in ddyl_parser
+    ddyl[distance] = yl
+UnboundLocalError: local variable 'yl' referenced before assignment
+
+Is this opponent scout? (Y/N)Are you Fitchburg St. (H) or Western Conn. St. (A)?Final score Fitchburg St. 0 - Western Conn. St. 28
+Folder name? (Scout team name default)

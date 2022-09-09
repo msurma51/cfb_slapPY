@@ -1,0 +1,70 @@
+Enter -['Start of 1st Half']
+['*Mount Union wins toss and defers. Westminster will receive.']
+['Nick Deack kickoff 65 yards to the WES0, touchback.']
+Is this opponent scout? (Y/N)Are you Westminster (PA) (H) or Mount Union (A)?Final score Westminster (PA) 14 - Mount Union 41
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mount Union wins toss and defers; BWU will receive; MTU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Deack,Nick kickoff 59 yards to the BWU06 Stokes,Darius return 21 yards to the BWU27 (Redmon,KJ; Griffin,Jalen).']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Baldwin Wallace (A)?Final score Mount Union 31 - Baldwin Wallace 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mount Union wins toss, defers; JCU will receive and defend east goal']
+['MTU ball on MTU35.']
+['Nick Deack kickoff 65 yards to the JCU0, McVay,Evan return 12 yards to the JCU12 (Lance Mitchell).']
+Is this opponent scout? (Y/N)Are you John Carroll (H) or Mount Union (A)?Final score John Carroll 14 - Mount Union 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Otterbein wins toss and will receive; MTU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Deack,Nick kickoff 56 yards to the OTT09 fair catch by Alamo,Carlos at OTT09.']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Otterbein (A)?Final score Mount Union 55 - Otterbein 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MTU ball on MTU35, clock 15:00.']
+['Nick Deack kickoff 65 yards to the WC0, touchback.']
+Is this opponent scout? (Y/N)Are you Wilmington (Ohio) (H) or Mount Union (A)?Final score Wilmington (Ohio) 0 - Mount Union 63
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Mount Union wins toss and defers CAP will receive MTU will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MTU ball on MTU35.']
+['Nick Deack kickoff 56 yards to the CAP9, fair catch by Matthews,Lance.']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Capital (A)?Final score Mount Union 63 - Capital 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Heidelberg wins toss and will receive; MTU will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Deack,Nick kickoff 63 yards to the HEI02 Reed,Brandon return 27 yards to the HEI29 (Sexton,Ian).']
+Is this opponent scout? (Y/N)Are you Heidelberg (H) or Mount Union (A)?Final score Heidelberg 14 - Mount Union 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Ohio Northern wins toss and defers; MTU will receive; ONU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['DiFalco,Dom kickoff 65 yards to the MTU00 Redmon,KJ return 38 yards to the MTU38 (Tjong,Dalton).']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Ohio Northern (A)?Final score Mount Union 42 - Ohio Northern 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Muskingum wins toss and defers; MTU will receive; MUS will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Scozzafava,Collin kickoff 65 yards to the MTU00, Touchback.']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Muskingum (A)?Final score Mount Union 73 - Muskingum 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' MC Capt:0 DT Gallagher, 24 RB Agnew, 51 DE Neuberger MTU Capt: 0 WR Harvey, Jr., 9 QB Plunk, 32 DB Ford Coin Toss: MTU won toss defered, MC to receive, MTU defends N goal']
+['MTU ball on MTU35.']
+['Nick Deack kickoff 56 yards to the MC9, fair catch by Austin Veatch.']
+Is this opponent scout? (Y/N)Are you Marietta (H) or Mount Union (A)?Final score Marietta 7 - Mount Union 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wash. & Lee wins toss and defers; MTU will receive; WLU will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ramirez,Arturo kickoff 65 yards to the MTU00, Touchback.']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Wash. & Lee (A)?Final score Mount Union 52 - Wash. & Lee 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Johns Hopkins wins toss and defers; MTU will receive; JHU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Battles,Kyle kickoff 54 yards to the MTU11 Redmon,KJ return 17 yards to the MTU28 (Chapman,Jacob).']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Johns Hopkins (A)?Final score Mount Union 45 - Johns Hopkins 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mount Union wins toss and defers; MUH will receive; MTU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Deack,Nick kickoff 58 yards to the MUH07 Ardito,Christopher return 15 yards to the MUH22 (Hawk,Aaron).']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or Muhlenberg (A)?Final score Mount Union 35 - Muhlenberg 29
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Mount Union wins toss and defers; NCC will receive; MTU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Deack,Nick kickoff 35 yards to the NCC30 Quinn,Matt return 0 yards to the NCC30, End Of Play.']
+Is this opponent scout? (Y/N)Are you Mount Union (H) or North Central (IL) (A)?Final score Mount Union 13 - North Central (IL) 26
+Folder name? (Scout team name default)

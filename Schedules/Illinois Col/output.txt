@@ -1,0 +1,47 @@
+Enter -['Start of 1st Half']
+['Illinois Col. wins toss and defers; LAK will receive;  IC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Schuckman,Konner kickoff 53 yards to the LAK12 Prunick,Mason return 13 yards to the LAK25 (Patterson,Charlie).']
+Is this opponent scout? (Y/N)Are you Illinois Col. (H) or Lakeland (A)?Final score Illinois Col. 18 - Lakeland 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['IC ball on IC35, clock 15:00.']
+['C. Brunstein kickoff 51 yards to the UC14, Solis,Gabe return 17 yards to the UC31 (C. Patterson;Aaron Rodriguez).']
+Is this opponent scout? (Y/N)Are you Univ. of Chicago (H) or Illinois College (A)?Final score Univ. of Chicago 66 - Illinois College 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Monmouth (IL) wins toss and defers; ILL will receive; MON will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Szelc,Cody kickoff 53 yards to the ILL12 Brunstein,Collin return 24 yards to the ILL36 (Uryasz,Jake).']
+Is this opponent scout? (Y/N)Are you Illinois Col. (H) or Monmouth (IL) (A)?Final score Illinois Col. 27 - Monmouth (IL) 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Ripon wins coin toss; chooses to receive']
+['C. Brunstein kickoff 63 yards to the RC2, out-of-bounds, RC ball on RC35.']
+Is this opponent scout? (Y/N)Are you Ripon College (H) or Illinois College (A)?Final score Ripon College 24 - Illinois College 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Lake Forest wins toss and defers; ILL will receive; LFC will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Persson,Logan kickoff 65 yards to the ILL00, Touchback.']
+Is this opponent scout? (Y/N)Are you Illinois Col. (H) or Lake Forest (A)?Final score Illinois Col. 13 - Lake Forest 48
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['IC wins toss and defers. LU to receive and defend south end zone.']
+['Tre Johnson kickoff 54 yards to the LU11, Cameron Wicks return 7 yards to the LU18, fumble forced by Beau Barbour, fumble by Cameron Wicks recovered by IC Jaylin Swan at LU18, Jaylin Swan for 14 yards to the LU4 (Prince Mukuna).']
+Is this opponent scout? (Y/N)Are you Lawrence University (H) or Illinois College (A)?Final score Lawrence University 37 - Illinois College 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Knox wins toss and will receive; ILL will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Johnson,Tre kickoff 44 yards to the KNO21 Jackson,Derrick return 17 yards to the KNO38 (Aguilar Ladson,Triston), out of bounds.']
+Is this opponent scout? (Y/N)Are you Illinois Col. (H) or Knox (A)?Final score Illinois Col. 27 - Knox 20
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Illinois Col. wins toss and defers; COR will receive; ILC will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Schuckman,Konner kickoff 45 yards to the COR20 Davis,Mason return 0 yards to the COR20 (Patterson,Charlie; Lane,Kyle).']
+Is this opponent scout? (Y/N)Are you Cornell College (H) or Illinois Col. (A)?Final score Cornell College 7 - Illinois Col. 39
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Illinois Col. wins toss and defers; GRI will receive; ILL will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Johnson,Tre kickoff 40 yards to the GRI25 fair catch by Rhinehart,Nick at GRI25.']
+Is this opponent scout? (Y/N)Are you Illinois Col. (H) or Grinnell (A)?Final score Illinois Col. 55 - Grinnell 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['BELOIT ball on BELOIT35, clock 15:00.']
+['Rafael Cervante kickoff 49 yards to the IC16, Matt Schultz return 10 yards to the IC26 (Jordan Wells;K. Springs-McCo).']
+Is this opponent scout? (Y/N)Are you Beloit (H) or Illinois College (A)?Final score Beloit 3 - Illinois College 21
+Folder name? (Scout team name default)

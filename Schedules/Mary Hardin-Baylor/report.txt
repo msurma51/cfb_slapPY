@@ -6,11 +6,11 @@ Exception in Mary Hardin-Baylor at Southwestern (Tex.) (index) quarter 1 drive 0
 	 ['2nd and 1 at SOUTHWES36', 'Kyle King pass intercepted by Jackson Reece at the SOUTHWES27, Brandon Jenning return 0 yards to the SOUTHWES27, fumble forced by K.J. Miller, fumble by Brandon Jenning recovered by MARY HAR Romello Cook at SOUTHWES27.']
 	 ['Total', '2 plays , 9 yards Time of Possession: 00:27']
 Traceback (most recent call last):
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1028, in game_builder
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
     plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 895, in drive_parser
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 899, in drive_parser
     play = play_parser(drive[start],game_state[possession],re_select,name_ref)
-  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 781, in play_parser
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 785, in play_parser
     play = add_fumble(play,poss,f_string,re_select,fumble_n)
   File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
     recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)

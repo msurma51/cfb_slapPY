@@ -1,0 +1,54 @@
+Enter -['1st']
+['1st and 10 at WASHU35', 'WASHU ball on WASHU35, clock 15:00.']
+['', 'C. Vartanian kickoff 65 yards to the UC00, touchback.']
+Is this opponent scout? (Y/N)Are you Chicago (H) or Washington-St. Louis (A)?Final score Chicago 31 - Washington-St. Louis 21
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at IC35', 'IC ball on IC35, clock 15:00.']
+['', 'C. Brunstein kickoff 51 yards to the UC14, Solis,Gabe return 17 yards to the UC31 (C. Patterson; Aaron Rodriguez).']
+Is this opponent scout? (Y/N)Are you Chicago (H) or Illinois College (A)?Final score Chicago 66 - Illinois College 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UC35', 'BC ball on BC35, clock 15:00.']
+['', 'Rafael Cervante kickoff 50 yards to the UC15, Olson,Zack return 4 yards to the UC19 (K. Springs-McCo).']
+Is this opponent scout? (Y/N)Are you Beloit (H) or Chicago (A)?Final score Beloit 0 - Chicago 66
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at KCFB35', 'UC ball on UC35, clock 15:00.']
+['', 'Goodman,Will kickoff 65 yards to the KCFB00, touchback.']
+Is this opponent scout? (Y/N)Are you Chicago (H) or Knox (A)?Final score Chicago 45 - Knox 10
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UC35', 'Monmouth (IL) wins toss and defers']
+['1st and 10 at UC35', 'UCM will receive']
+['1st and 10 at UC35', 'MCS will defend North end-zone']
+['1st and 10 at UC35', 'Start of 1st quarter, clock 15:00, MC ball on MC35.']
+['', 'Szelc,Cody kickoff 41 yards to the UC24, Kalinowski,C. return 0 yards to the UC24 (Endicott,Caleb).']
+Is this opponent scout? (Y/N)Are you Monmouth (Ill.) (H) or Chicago (A)?Final score Monmouth (Ill.) 34 - Chicago 37
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UC35', 'Cornell College wins toss and defers']
+['1st and 10 at UC35', 'CHI will receive']
+['1st and 10 at UC35', 'COR will defend West end-zone']
+['1st and 10 at UC35', 'Start of 1st quarter, clock 15:00, CORNELL ball on CORNELL35.']
+['', 'Mitchell,Adam kickoff 55 yards to the UC10, Kalinowski,C. return 22 yards to the UC32 (Clark,Colden; Harris,Bruce).']
+Score correction made in Chicago @ Cornell College (index) quarter 3 drive 0
+Score correction made in Chicago @ Cornell College (index) quarter 3 drive 1
+Score correction made in Chicago @ Cornell College (index) quarter 3 drive 3
+Is this opponent scout? (Y/N)Are you Cornell College (H) or Chicago (A)?Final score Cornell College 21 - Chicago 41
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at RC35', 'UC ball on UC35, clock 15:00.']
+['', 'Goodman,Will kickoff 61 yards to the RC04, Mike Burke return 30 yards to the RC34 (Littell,Alex).']
+Is this opponent scout? (Y/N)Are you Chicago (H) or Ripon (A)?Final score Chicago 38 - Ripon 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at UC35', 'Chicago wins toss and defers']
+['1st and 10 at UC35', 'GRI will receive']
+['1st and 10 at UC35', 'CHI will defend North end-zone']
+['1st and 10 at UC35', 'Start of 1st quarter, clock 15:00, UC ball on UC35.']
+['', 'Goodman,Will kickoff 63 yards to the GRINNELL02, Stefan,Luke return 18 yards to the GRINNELL20, out-of-bounds (Partridge,Henry; Cooper,Kaelen).']
+Is this opponent scout? (Y/N)Are you Grinnell (H) or Chicago (A)?Final score Grinnell 3 - Chicago 78
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at LU35', 'UC ball on UC35, clock 15:00.']
+['', 'Gomez,Michael kickoff 65 yards to the LU00, touchback.']
+Is this opponent scout? (Y/N)Are you Chicago (H) or Lawrence (A)?Final score Chicago 66 - Lawrence 0
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CHI35', 'Chicago wins toss and defers; LFC will receive; CHI will defend East end-zone.']
+['1st and 10 at CHI35', 'Start of 1st quarter, clock 15:00.']
+['', 'Goodman,Will kickoff 54 yards to the LFC11 Jackson,A.J. return 21 yards to the LFC32 (Cardona,Carlos; Cooper,Kaelen).']
+Is this opponent scout? (Y/N)Are you Lake Forest (H) or Chicago (A)?Final score Lake Forest 28 - Chicago 6
+Folder name? (Scout team name default)

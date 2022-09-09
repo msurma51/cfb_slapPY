@@ -1,0 +1,68 @@
+Final score Dean 42 - Fitchburg St. 6
+Final score UMass Dartmouth 48 - Dean 29
+Final score Husson 42 - Dean 14
+Final score Dean 0 - MIT 27
+Final score Gallaudet 42 - Dean 35
+Final score Dean 13 - Castleton 21
+Final score Keystone 36 - Dean 39
+Exception in Dean at Anna Maria (index) quarter 0 drive 0
+	 ['Start of 1st Half']
+	 ['ANNA MAR ball on ANNA MAR35, clock 15:00.']
+	 ['Ryan Kent kickoff 55 yards to the DEAN10, Michael Bethune return 15 yards to the DEAN25 (Danny George).']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1126, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment
+Final score Dean 27 - Maritime (N.Y.) 31
+Exception in Alfred St. at Dean (index) quarter 0 drive 0
+	 ['Start of 1st Half']
+	 ['ALFRED S ball on ALFRED S35, clock 15:00.']
+	 ["Evan French kickoff 45 yards to the DEAN20, Ki'sean Bullard return 1 yards to the DEAN21."]
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1126, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment

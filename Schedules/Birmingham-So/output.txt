@@ -1,0 +1,61 @@
+Enter -['Start of 1st Half']
+['LaGrange wins toss and defers; BSC will receive; LAG will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+["Rivera,Alex kickoff 58 yards to the BSC07 Fleming,Tavion return 23 yards to the BSC30 (Wasef hajbeh,Xean; Bell,De'Angelo)."]
+Is this opponent scout? (Y/N)Are you Birmingham-So. (H) or LaGrange (A)?Final score Birmingham-So. 42 - LaGrange 17
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['BIRMINGH ball on BIRMINGH35, clock 15:00.']
+['Cole Porch kickoff 58 yards to the HUNTINGD07, Kahari McReynol return 33 yards to the HUNTINGD40 (Cole Porch; Seth Gable), PENALTY BIRMINGH offside 5 yards to the HUNTINGD45.']
+Is this opponent scout? (Y/N)Are you Huntingdon (H) or Birmingham Southern (A)?Final score Huntingdon 9 - Birmingham Southern 48
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Ark. Baptist wins toss, elects to defers to second half']
+['Change of possession, ABC ball on ABC35, 1st and 10.']
+Is this opponent scout? (Y/N)Are you Arkansas Baptist (H) or Birmingham-So. (A)?Final score Arkansas Baptist 6 - Birmingham-So. 55
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Sewanee wins toss and will receive; BSC will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Porch,Cole kickoff 65 yards to the SEW00, Touchback.']
+Is this opponent scout? (Y/N)Are you Birmingham-So. (H) or Sewanee (A)?Final score Birmingham-So. 49 - Sewanee 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Start of 1st quarter, clock 15:00. Hendrix captains: 11,33 Birmingham-Southern captains: 25,13,7,14 Hendrix wins toss, defers to second half, defending south endzone']
+['HENDRIX ball on HENDRIX35.']
+['Bennett Ellis kickoff 58 yards to the BSCF7, DJ Albright return 23 yards to the BSCF30 (Brody Plemons;Tristan Sehika).']
+Is this opponent scout? (Y/N)Are you Hendrix (H) or Birmingham-So. (A)?Final score Hendrix 6 - Birmingham-So. 43
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Centre wins the toss, defers. Centre will kick off and defend the north goal.']
+['CENTRE ball on CENTRE35.']
+['Nick Kopp kickoff 50 yards to the BSCFB15, Jon Lewis return 15 yards to the BSCFB30 (Sam Murray;Patric Edwards).']
+Is this opponent scout? (Y/N)Are you Centre (H) or BSCFB (A)?Final score Centre 21 - BSCFB 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Rhodes wins toss and defers; BSC will receive; RHO will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Henshaw,Wiley kickoff 59 yards to the BSC06 Albright,D.J. return 15 yards to the BSC21 (Duncan,Jake).']
+Is this opponent scout? (Y/N)Are you Birmingham-So. (H) or Rhodes (A)?Final score Birmingham-So. 41 - Rhodes 6
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Birmingham-Southern Captains: Patterson, Sherrell, Neese, Coley Berry Captains: Wilson, Kinsey, Cheyunski, Weitkamp Birmingham-Southern won toss and defer to the second half']
+['A. HOOD kickoff 58 yards to the BERRY7, Brandon Moody return 24 yards to the BERRY31 (G. MOTES).']
+Is this opponent scout? (Y/N)Are you Berry College (H) or Birmingham-So. (A)?Final score Berry College 3 - Birmingham-So. 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Birmingham-So. wins toss and defers; TRI will receive; BSC will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hood,Aidan kickoff 57 yards to the TRI08 Stewart,Brian return 29 yards to the TRI37 (Cook,Lance), out of bounds.']
+Is this opponent scout? (Y/N)Are you Birmingham-So. (H) or Trinity (TX) (A)?Final score Birmingham-So. 27 - Trinity (TX) 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Millsaps has won the toss and has deferred.']
+['MILLSAPS ball on MILLSAPS35, start of 1st quarter, clock 15:00.']
+['Ethan Klapatch kickoff 50 yards to the BSC15, DJ Albright return 50 yards to the MILLSAPS35, fumble forced by Chase Heard, fumble by DJ Albright recovered by BSC Tyson Swope at MILLSAPS31.']
+Is this opponent scout? (Y/N)Are you Millsaps College (H) or Birmingham-Southern (A)?Final score Millsaps College 7 - Birmingham-Southern 49
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Birmingham-So. wins toss and defers; HUN will receive; BSC will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hood,Aidan kickoff 60 yards to the HUN05 McReynolds,Kahari return 63 yards to the BSC32 (Tate,Harry).']
+Is this opponent scout? (Y/N)Are you Birmingham-So. (H) or Huntingdon (A)?Final score Birmingham-So. 24 - Huntingdon 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Birmingham-So. wins toss and defers; CRU will receive; BSC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Hood,Aidan kickoff 30 yards to the CRU35, out of bounds.']
+['CRU ball on CRU35.']
+Score correction made in Birmingham-So. @ Mary Hardin-Baylor (index) quarter 0 drive 3
+Score correction made in Birmingham-So. @ Mary Hardin-Baylor (index) quarter 0 drive 4
+Is this opponent scout? (Y/N)Are you Mary Hardin-Baylor (H) or Birmingham-So. (A)?Final score Mary Hardin-Baylor 42 - Birmingham-So. 7
+Folder name? (Scout team name default)

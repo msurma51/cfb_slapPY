@@ -1,241 +1,241 @@
-Index,School,Nickname,Location,Conference,Region,Surface,Enrollment
-0,Adrian,Bulldogs,"Adrian, MI",MIAA,4,Turf,1723
-1,Albion,Britons,"Albion, MI",MIAA,4,Turf,1448
-2,Albright,Lions,"Reading, PA",MAC,1,Turf,1701
-3,Alfred State,Pioneers,"Alfred, NY",ECFC,1,Turf,3482
-4,Alfred,Saxons,"Alfred, NY",E8,2,Turf,1639
-5,Allegheny,Gators,"Meadville, PA",NCAC,4,Turf,1711
-6,Alma,Scots,"Alma, MI",MIAA,4,Turf,1396
-7,Alvernia,Golden Wolves,"Reading, PA",MAC,1,Turf,1655
-8,Amherst,Mammoths,"Amherst, MA",NESCAC,1,Turf,1839
-9,Anderson,Ravens,"Anderson, IN",HCAC,4,Turf,1213
-10,Anna Maria,Amcats,"Paxton, MA",ECFC,1,Turf,924
-11,Augsburg,Auggies,"Minneapolis, MN",MIAC,6,Turf,2166
-12,Augustana,Vikings,"Rock Island, IL",CCIW,5,Turf,2523
-13,Aurora,Spartans,"Aurora, IL",NACC,5,Turf,3679
-14,Austin,Kangaroos,"Sherman, TX",ASC,3,Grass,1290
-15,Averett,Cougars,"Danville, VA",USAC,3,Turf,868
-16,Baldwin Wallace,Yellow Jackets,"Berea, OH",OAC,4,Turf,2767
-17,Bates,Bobcats,"Lewiston, ME",NESCAC,1,Turf,1820
-18,Belhaven,Blazers,"Jackson, MS",ASC,3,Turf,1242
-19,Beloit,Buccaneers,"Beloit, WI",MWC,5,Turf,1320
-20,Benedictine,Eagles,"Lisle, IL",NACC,5,Turf,2465
-21,Berry,Vikings,"Mount Berry, GA",SAA,3,Turf,1942
-22,Bethany,Bison,"Bethany, WV",PAC,2,Turf,501
-23,Bethel,Royals,"Arden Hills, MN",MIAC,6,Turf,2248
-24,Birmingham-Southern,Panthers,"Birmingham, AL",SAA,3,Turf,1199
-25,Bluffton,Beavers,"Bluffton, OH",HCAC,4,Turf,605
-26,Bowdoin,Polar Bears,"Brunswick, ME",NESCAC,1,Turf,1797
-27,Brevard,Tornados,"Brevard, NC",USAC,3,Turf,713
-28,Bridgewater State,Bears,"Bridgewater, MA",MASCAC,1,Turf,7959
-29,Bridgewater,Eagles,"Bridgewater, VA",ODAC,3,Turf,1868
-30,Brockport,Golden Eagles,"Brockport, NY",E8,2,Turf,6304
-31,Buena Vista,Beavers,"Storm Lake, IA",ARC,5,Turf,1873
-32,Buffalo State,Bengals,"Buffalo, NY",LL,2,Turf,8797
-33,Cal Lutheran,Kingsmen,"Thousand Oaks, CA",SCIAC,6,Turf,2477
-34,Capital,Comets,"Columbus, OH",OAC,4,Turf,2329
-35,Carleton,Knights,"Northfield, MN",MIAC,6,Grass,2023
-36,Carnegie Mellon,Tartans,"Pittsburgh, PA",PAC,2,Turf,5609
-37,Carroll,Pioneers,"Waukesha, WI",CCIW,5,Turf,2493
-38,Carthage,Firebirds,"Kenosha, WI",CCIW,5,Turf,2533
-39,Case Western Reserve,Spartans,"Cleveland, OH",PAC,2,Turf,4966
-40,Castleton,Spartans,"Castleton, VT",ECFC,1,Turf,1718
-41,Catholic,Cardinals,"Washington, DC",NEWMAC,1,Turf,3409
-42,Central,Dutch,"Pella, Iowa",ARC,5,Turf,1179
-43,Centre,Colonels,"Danville, KY",SAA,3,Turf,1337
-44,Chapman,Panthers,"Orange, CA",SCIAC,6,Turf,5433
-45,Chicago,Maroons,"Chicago, IL",MWC,5,Turf,4955
-46,Christopher Newport,Captains,"Newport News, VA",NJAC,2,Grass,4962
-47,Claremont-Mudd-Scripps,Stags,"Claremont, CA",SCIAC,6,Grass,2873
-48,Coast Guard,Bears,"New London, CT",NEWMAC,1,Turf,963
-49,Coe,Kohawks,"Cedar Rapids, IA",ARC,5,Turf,1343
-50,Colby,Mules,"Waterville, ME",NESCAC,1,Turf,1847
-51,Concordia (Wis.),Falcons,"Mequon, WI",NACC,5,Turf,2521
-52,Concordia-Chicago,Cougars,"River Forest, IL",NACC,5,Turf,1025
-53,Concordia-Moorhead,Cobbers,"Moorhead, MN",MIAC,6,Turf,2815
-54,Cornell,Rams,"Mount Vernon, IA",MWC,5,Turf,998
-55,Cortland,Red Dragons,"Cortland, NY",E8,2,Turf,6203
-56,Crown,Polars,"St. Bonifacius, MN",UMAC,6,Turf,535
-57,Curry,Colonels,"Milton, MA",CCC,1,Turf,1976
-58,Dean,Bulldogs,"Franklin, MA",ECFC,1,Grass,1095
-59,Defiance,Yellow Jackets,"Defiance, OH",HCAC,4,Turf,514
-60,Delaware Valley,Aggies,"Doylestown, PA",MAC,1,Turf,1645
-61,Denison,Big Red,"Granville, OH",NCAC,4,Turf,2259
-62,DePauw,Tigers,"Greencastle, IN",NCAC,4,Turf,1939
-63,Dickinson,Red Devils,"Carlisle, PA",CC,2,Turf,2091
-64,Dubuque,Spartans,"Dubuque, IA",ARC,5,Turf,1554
-65,East Texas Baptist,Tigers,"Marshall, TX",ASC,3,Turf,1230
-66,Elmhurst,Bluejays,"Elmhurst, IL",CCIW,5,Turf,2712
-67,Endicott,Gulls,"Beverly, MA",CCC,1,Turf,2798
-68,Eureka,Red Devils,"Eureka, IL",NACC,5,Turf,478
-69,FDU-Florham,Devils,"Madison, NJ",MAC,1,Turf,2532
-70,Ferrum,Panthers,"Ferrum, VA",ODAC,3,Turf,1030
-71,Finlandia,Lions,"Hancock, MI",UMAC,6,Turf,367
-72,Fitchburg State,Falcons,"Fitchburg, MA",MASCAC,1,Turf,3145
-73,Framingham State,Rams,"Framingham, MA",MASCAC,1,Grass,3359
-74,Franklin and Marshall,Diplomats,"Lancaster, PA",CC,2,Turf,2306
-75,Franklin,Grizzlies,"Franklin, IN",HCAC,4,Turf,876
-76,Gallaudet,Bison,"Washington, DC",ECFC,1,Turf,1005
-77,Geneva,Golden Tornadoes,"Beaver Falls, PA",PAC,2,Turf,1564
-78,George Fox,Bruins,"Newberg, OR",NWC,6,Turf,2428
-79,Gettysburg,Bullets,"Gettysburg, PA",CC,2,Turf,2367
-80,Greensboro,Pride,"Greensboro, NC",USAC,3,Turf,696
-81,Greenville,Panthers,"Greenville, IL",UMAC,6,Grass,815
-82,Grinnell,Pioneers,"Grinnell, IA",MWC,5,Grass,1694
-83,Grove City,Wolverines,"Grove City, PA",PAC,2,Turf,2509
-84,Guilford,Quakers,"Greensboro, NC",ODAC,3,Turf,1266
-85,Gustavus Adolphus,Gusties,"St. Peter, MN",MIAC,6,Turf,2212
-86,Hamilton,Continentals,"Clinton, NY",NESCAC,1,Turf,1997
-87,Hamline,Pipers,"St. Paul, MN",MIAC,6,Turf,1996
-88,Hampden-Sydney,Tigers,"Hampden-Sydney, VA",ODAC,3,Grass,986
-89,Hanover,Panthers,"Hanover, IN",HCAC,4,Turf,1062
-90,Hardin-Simmons,Cowboys,"Abilene, TX",ASC,3,Turf,1614
-91,Hartwick,Hawks,"Oneonta, NY",E8,2,Turf,1164
-92,Heidelberg,Student Princes,"Tiffin, OH",OAC,4,Turf,1036
-93,Hendrix,Warriors,"Conway, AR",SAA,3,Turf,1101
-94,Hilbert,Hawks,"Hamburg, NY",IND,2,TBA,686
-95,Hiram,Terriers,"Hiram, OH",NCAC,4,Turf,801
-96,Hobart,Statesmen,"Geneva, NY",LL,2,Turf,2031
-97,Hope,Flying Dutchmen,"Holland, MI",MIAA,4,Turf,2910
-98,Howard Payne,Yellow Jackets,"Brownwood, TX",ASC,3,Turf,738
-99,Huntingdon,Hawks,"Montgomery, AL",USAC,3,Turf,830
-100,Husson,Eagles,"Bangor, ME",CCC,1,Turf,2404
-101,Illinois College,Blueboys,"Jacksonville, IL",MWC,5,Turf,1037
-102,Illinois Wesleyan,Titans,"Bloomington, IL",CCIW,5,Turf,1610
-103,Ithaca,Bombers,"Ithaca, NY",LL,2,Grass,5735
-104,John Carroll,Blue Streaks,"University Heights, OH",OAC,4,Turf,2904
-105,Johns Hopkins,Blue Jays,"Baltimore, MD",CC,2,Turf,6006
-106,Juniata,Eagles,"Huntingdon, PA",CC,2,Turf,1269
-107,Kalamazoo,Hornets,"Kalamazoo, MI",MIAA,4,Turf,1256
-108,Kean,Cougars,"Union, NJ",NJAC,2,Turf,9702
-109,Kenyon,Owls,"Gambier, OH",NCAC,4,Turf,1734
-110,Keystone,Giants,"La Plume, PA",ECFC,1,Turf,1087
-111,King's,Monarchs,"Wilkes-Barre, PA",MAC,1,Turf,2040
-112,Knox,Prairie Fire,"Galesburg, IL",MWC,5,Turf,1223
-113,La Verne,Leopards,"La Verne, CA",SCIAC,6,Turf,3353
-114,LaGrange,Panthers,"LaGrange, GA",USAC,3,Turf,844
-115,Lake Forest,Foresters,"Lake Forest, IL",MWC,5,Turf,1509
-116,Lakeland,Muskies,"Sheboygan, WI",NACC,5,Turf,794
-117,Lawrence,Vikings,"Appleton, WI",MWC,5,Turf,1397
-118,Lebanon Valley,Flying Dutchmen,"Annville, PA",MAC,1,Turf,1633
-119,Lewis and Clark,Pioneers,"Portland, OR",NWC,6,Turf,1887
-120,Linfield,Wildcats,"McMinnville, OR",NWC,6,Turf,1363
-121,Loras,Duhawks,"Dubuque, IA",ARC,5,Turf,1260
-122,Luther,Norse,"Decorah, IA",ARC,5,Turf,1913
-123,Lycoming,Warriors,"Williamsport, PA",MAC,1,Turf,1122
-124,Macalester,Scots,"St. Paul, MN",MIAC,6,Turf,2062
-125,Manchester,Spartans,"N. Manchester, IN",HCAC,4,Turf,1060
-126,Marietta,Pioneers,"Marietta, OH",OAC,4,Turf,1052
-127,Martin Luther,Knights,"New Ulm, MN",UMAC,6,Grass,705
-128,Mary Hardin-Baylor,Crusaders,"Belton, TX",ASC,3,Turf,3112
-129,Maryville (Tenn.),Scots,"Maryville, TN",USAC,3,Grass,1061
-130,Mass-Dartmouth,Corsairs,"North Dartmouth, MA",MASCAC,1,Turf,5439
-131,Massachusetts Maritime,Buccaneers,"Buzzards Bay, MA",MASCAC,1,Turf,1616
-132,McDaniel,Green Terror,"Westminster, MD",CC,2,Turf,1649
-133,McMurry,War Hawks,"Abilene, TX",ASC,3,Turf,1019
-134,Merchant Marine,Mariners,"Kings Point, NY",NEWMAC,1,Turf,1007
-135,Methodist,Monarchs,"Fayetteville, NC",USAC,3,Grass,1974
-136,Middlebury,Panthers,"Middlebury, VT",NESCAC,1,Turf,2541
-137,Millikin,Big Blue,"Decatur, IL",CCIW,5,Turf,1869
-138,Millsaps,Majors,"Jackson, MS",SAA,3,Turf,768
-139,Minnesota-Morris,Cougars,"Morris, MN",UMAC,6,Turf,1349
-140,Misericordia,Cougars,"Dallas, PA",MAC,1,Turf,1584
-141,MIT,Engineers,"Cambridge, MA",NEWMAC,1,Turf,4487
-142,Monmouth,Scots,"Monmouth, IL",MWC,5,Turf,897
-143,Montclair State,Red Hawks,"Upper Montclair, NJ",NJAC,2,Turf,14745
-144,Moravian,Greyhounds,"Bethlehem, PA",CC,2,Turf,1912
-145,Morrisville State,Mustangs,"Morrisville, NY",E8,2,Turf,2283
-146,Mount St. Joseph,Lions,"Cincinnati, OH",HCAC,4,Turf,1006
-147,Mount Union,Purple Raiders,"Alliance, OH",OAC,4,Turf,1978
-148,Muhlenberg,Mules,"Allentown, PA",CC,2,Turf,2190
-149,Muskingum,Muskies,"New Concord, OH",OAC,4,Turf,1355
-150,N.C. Wesleyan,Battling Bishops,"Rocky Mount, NC",USAC,3,Grass,1600
-151,Nebraska Wesleyan,Prairie Wolves,"Lincoln, NE",ARC,5,Turf,1692
-152,Nichols,Bison,"Dudley, MA",CCC,1,Turf,1217
-153,North Central (Ill.),Cardinals,"Naperville, IL",CCIW,5,Turf,2530
-154,North Park,Vikings,"Chicago, IL",CCIW,5,Turf,1723
-155,Northwestern (Minn.),Eagles,"Roseville, MN",UMAC,6,Turf,1603
-156,Norwich,Cadets,"Northfield, VT",NEWMAC,1,Turf,2602
-157,Oberlin,Yeomen,"Oberlin, OH",NCAC,4,Turf,2882
-158,Ohio Northern,Polar Bears,"Ada, OH",OAC,4,Turf,2078
-159,Ohio Wesleyan,Battling Bishops,"Delaware, OH",NCAC,4,Turf,1485
-160,Olivet,Comets,"Olivet, MI",MIAA,4,Turf,959
-161,Otterbein,Cardinals,"Westerville, OH",OAC,4,Turf,2307
-162,Pacific Lutheran,Lutes,"Tacoma, WA",NWC,6,Turf,2623
-163,Pacific,Boxers,"Forest Grove, OR",NWC,6,Turf,1724
-164,Plymouth State,Panthers,"Plymouth, NH",MASCAC,1,Turf,3659
-165,Pomona-Pitzer,Sagehens,"Claremont, CA",SCIAC,6,Grass,2515
-166,Puget Sound,Loggers,"Tacoma, WA",NWC,6,Grass,2271
-167,Randolph-Macon,Yellow Jackets,"Ashland, VA",ODAC,3,Turf,1513
-168,Redlands,Bulldogs,"Redlands, CA",SCIAC,6,Grass,2642
-169,Rhodes,Lynx,"Memphis, TN",SAA,3,Turf,1939
-170,Ripon,Red Hawks,"Ripon, WI",MWC,5,Turf,765
-171,Rochester,Yellowjackets,"Rochester, NY",LL,2,Turf,6371
-172,Rockford,Regents,"Rockford, IL",NACC,5,Grass,891
-173,Rose-Hulman,Engineers,"Terre Haute, IN",HCAC,4,Turf,1975
-174,Rowan,Profs,"Glassboro, NJ",NJAC,2,Turf,14049
-175,RPI,Engineers,"Troy, NY",LL,2,Turf,6198
-176,Salisbury,Sea Gulls,"Salisbury, MD",NJAC,2,Turf,7081
-177,Salve Regina,Seahawks,"Newport, RI",CCC,1,Turf,2085
-178,Sewanee,Tigers,"Sewanee, TN",SAA,3,Turf,1669
-179,Shenandoah,Hornets,"Winchester, VA",ODAC,3,Turf,1989
-180,Simpson,Storm,"Indianola, IA",ARC,5,Turf,1159
-181,Southern Virginia,Knights,"Buena Vista, VA",USAC,3,Turf,1016
-182,Southwestern,Pirates,"Georgetown, TX",ASC,3,Turf,1495
-183,Springfield,Pride,"Springfield, MA",NEWMAC,1,Turf,2139
-184,St. John Fisher,Cardinals,"Pittsford, NY",E8,2,Turf,2535
-185,St. John's,Johnnies,"Collegeville, MN",MIAC,6,Turf,1877
-186,St. Lawrence,Saints,"Canton, NY",LL,2,Grass,2359
-187,St. Norbert,Green Knights,"De Pere, WI",NACC,5,Turf,1956
-188,St. Olaf,Oles,"Northfield, MN",MIAC,6,Turf,3030
-189,St. Scholastica,Saints,"Duluth, MN",MIAC,6,Turf,2058
-190,St. Vincent,Bearcats,"Latrobe, PA",PAC,2,Grass,1483
-191,Stevenson,Mustangs,"Stevenson, MD",MAC,1,Turf,2724
-192,Sul Ross State,Lobos,"Alpine, TX",ASC,3,Turf,1179
-193,SUNY-Maritime,Privateers,"Throggs Neck, NY",ECFC,1,Turf,1465
-194,Susquehanna,River Hawks,"Selinsgrove, PA",CC,2,Turf,2291
-195,TCNJ,Lions,"Ewing, NJ",NJAC,2,Turf,6598
-196,Texas Lutheran,Bulldogs,"Seguin, TX",ASC,3,Turf,1379
-197,Thiel,Tomcats,"Greenville, PA",PAC,2,Turf,689
-198,Trine,Thunder,"Angola, IN",MIAA,4,Turf,2087
-199,Trinity (Conn.),Bantams,"Hartford, CT",NESCAC,1,Turf,2109
-200,Trinity (Texas),Tigers,"San Antonio, TX",SAA,3,Turf,2397
-201,Tufts,Jumbos,"Medford, MA",NESCAC,1,Turf,5938
-202,Union,Dutchmen,"Schenectady, NY",LL,2,Turf,2157
-203,University of New England,Nor'easters,"Biddeford, ME",CCC,1,Turf,2409
-204,Ursinus,Bears,"Collegeville, PA",CC,2,Turf,1454
-205,Utica,Pioneers,"Utica, NY",E8,2,Turf,2810
-206,UW-Eau Claire,Blugolds,"Eau Claire, WI",WIAC,6,Turf,9743
-207,UW-La Crosse,Eagles,"La Crosse, WI",WIAC,6,Turf,9055
-208,UW-Oshkosh,Titans,"Oshkosh, WI",WIAC,6,Turf,8438
-209,UW-Platteville,Pioneers,"Platteville, WI",WIAC,6,Turf,6457
-210,UW-River Falls,Falcons,"River Falls, WI",WIAC,6,Turf,4991
-211,UW-Stevens Point,Pointers,"Stevens Point, WI",WIAC,6,Turf,8332
-212,UW-Stout,Blue Devils,"Menomonie, WI",WIAC,6,Turf,6825
-213,UW-Whitewater,Warhawks,"Whitewater, WI",WIAC,6,Turf,9488
-214,Wabash,Little Giants,"Crawfordsville, IN",NCAC,4,Turf,868
-215,Wartburg,Knights,"Waverly, IA",ARC,5,Turf,1461
-216,Washington and Jefferson,Presidents,"Washington, PA",PAC,2,Turf,1243
-217,Washington and Lee,Generals,"Lexington, VA",ODAC,3,Turf,1843
-218,Washington U.,Bears,"St. Louis, MO",CCIW,5,Turf,7092
-219,Waynesburg,Yellow Jackets,"Waynesburg, PA",PAC,2,Turf,1239
-220,Wesleyan,Cardinals,"Middletown, CT",NESCAC,1,Grass,2930
-221,Western Connecticut,Colonials,"Danbury, CT",MASCAC,1,Turf,4072
-222,Western New England,Golden Bears,"Springfield, MA",CCC,1,Turf,2580
-223,Westfield State,Owls,"Westfield, MA",MASCAC,1,Turf,4239
-224,Westminster (Mo.),Blue Jays,"Fulton, MO",UMAC,6,Turf,632
-225,Westminster (Pa.),Titans,"New Wilmington, PA",PAC,2,Turf,1107
-226,Wheaton (Ill.),Thunder,"Wheaton, IL",CCIW,5,Turf,2325
-227,Whittier,Poets,"Whittier, CA",SCIAC,6,Turf,1746
-228,Whitworth,Pirates,"Spokane, WA",NWC,6,Turf,2353
-229,Widener,Pride,"Chester, PA",MAC,1,Turf,2767
-230,Wilkes,Colonels,"Wilkes-Barre, PA",MAC,1,Turf,2082
-231,Willamette,Bearcats,"Salem, OR",NWC,6,Turf,1456
-232,William Paterson,Pioneers,"Wayne, NJ",NJAC,2,Turf,7155
-233,Williams,Ephs,"Williamstown, MA",NESCAC,1,Turf,2028
-234,Wilmington,Quakers,"Wilmington, OH",OAC,4,Turf,1192
-235,Wisconsin Lutheran,Warriors,"Milwaukee, WI",NACC,5,Turf,915
-236,Wittenberg,Tigers,"Springfield, OH",NCAC,4,Turf,1492
-237,Wooster,Scots,"Wooster, OH",NCAC,4,Turf,1934
-238,Worcester State,Lancers,"Worcester, MA",MASCAC,1,Turf,4069
-239,WPI,Engineers,"Worcester, MA",NEWMAC,1,Turf,4578
+School,Nickname,Location,Conference,Region,Surface,Enrollment,Match,2021 Link,2022 Link
+Adrian,Bulldogs,"Adrian, MI",MIAA,4,Turf,1723,Adrian,http://www.adrianbulldogs.com/sports/football/schedule/2021,http://www.adrianbulldogs.com/sports/football/schedule/2022
+Albion,Britons,"Albion, MI",MIAA,4,Turf,1448,Albion,http://gobrits.com/sports/football/schedule/2021,http://gobrits.com/sports/football/schedule/2022
+Albright,Lions,"Reading, PA",MAC,1,Turf,1701,Albright,http://www.albrightathletics.com/sports/football/schedule/2021,http://www.albrightathletics.com/sports/football/schedule/2022
+Alfred State,Pioneers,"Alfred, NY",ECFC,1,Turf,3482,Alfred St.,http://www.alfredstateathletics.com//sports/fball/2021-22/schedule,http://www.alfredstateathletics.com//sports/fball/2022-23/schedule
+Alfred,Saxons,"Alfred, NY",E8,2,Turf,1639,Alfred,http://gosaxons.com//sports/football/schedule/2021,http://gosaxons.com//sports/football/schedule/2022
+Allegheny,Gators,"Meadville, PA",NCAC,4,Turf,1711,Allegheny,http://www.alleghenysports.com//sports/football/schedule/2021,http://www.alleghenysports.com//sports/football/schedule/2022
+Alma,Scots,"Alma, MI",MIAA,4,Turf,1396,Alma College,https://almascots.com/sports/fball/2021-22/schedule,https://almascots.com/sports/fball/2022-23/schedule
+Alvernia,Golden Wolves,"Reading, PA",MAC,1,Turf,1655,Alvernia,http://athletics.alvernia.edu//sports/football/schedule/2021,http://athletics.alvernia.edu//sports/football/schedule/2022
+Amherst,Mammoths,"Amherst, MA",NESCAC,1,Turf,1839,Amherst,https://athletics.amherst.edu/sports/football/schedule/2021,https://athletics.amherst.edu/sports/football/schedule/2022
+Anderson,Ravens,"Anderson, IN",HCAC,4,Turf,1213,Anderson (Ind.),http://athletics.anderson.edu//sports/fball/2021-22/schedule,http://athletics.anderson.edu//sports/fball/2022-23/schedule
+Anna Maria,Amcats,"Paxton, MA",ECFC,1,Turf,924,Anna Maria,http://goamcats.com//sports/fball/2021-22/schedule,http://goamcats.com//sports/fball/2022-23/schedule
+Augsburg,Auggies,"Minneapolis, MN",MIAC,6,Turf,2166,Augsburg University,http://athletics.augsburg.edu//sports/football/schedule/2021,http://athletics.augsburg.edu//sports/football/schedule/2022
+Augustana,Vikings,"Rock Island, IL",CCIW,5,Turf,2523,Augustana College,http://www.athletics.augustana.edu/sports/football/schedule/2021,http://www.athletics.augustana.edu/sports/football/schedule/2022
+Aurora,Spartans,"Aurora, IL",NACC,5,Turf,3679,Aurora University,http://athletics.aurora.edu//sports/football/schedule/2021,http://athletics.aurora.edu//sports/football/schedule/2022
+Austin,Kangaroos,"Sherman, TX",ASC,3,Grass,1290,Austin College,http://www.acroos.com//sports/fball/2021-22/schedule,http://www.acroos.com//sports/fball/2022-23/schedule
+Averett,Cougars,"Danville, VA",USAC,3,Turf,868,Averett,http://www.averettcougars.com/sports/football/schedule/2021,http://www.averettcougars.com/sports/football/schedule/2022
+Baldwin Wallace,Yellow Jackets,"Berea, OH",OAC,4,Turf,2767,Baldwin Wallace,http://www.bwyellowjackets.com//sports/fball/2021-22/schedule,http://www.bwyellowjackets.com//sports/fball/2022-23/schedule
+Bates,Bobcats,"Lewiston, ME",NESCAC,1,Turf,1820,Bates,https://gobatesbobcats.com//sports/football/schedule/2021,https://gobatesbobcats.com//sports/football/schedule/2022
+Belhaven,Blazers,"Jackson, MS",ASC,3,Turf,1242,Belhaven,http://blazers.belhaven.edu//sports/football/schedule/2021,http://blazers.belhaven.edu//sports/football/schedule/2022
+Beloit,Buccaneers,"Beloit, WI",MWC,5,Turf,1320,Beloit,https://beloitcollegeathletics.com//sports/football/schedule/2021,https://beloitcollegeathletics.com//sports/football/schedule/2022
+Benedictine,Eagles,"Lisle, IL",NACC,5,Turf,2465,Benedictine (IL),http://www.benueagles.com//sports/football/schedule/2021,http://www.benueagles.com//sports/football/schedule/2022
+Berry,Vikings,"Mount Berry, GA",SAA,3,Turf,1942,Berry College,http://www.berryvikings.com/sports/football/schedule/2021,http://www.berryvikings.com/sports/football/schedule/2022
+Bethany,Bison,"Bethany, WV",PAC,2,Turf,501,Bethany,http://bethanybison.com/sports/fball/2021-22/schedule,http://bethanybison.com/sports/fball/2022-23/schedule
+Bethel,Royals,"Arden Hills, MN",MIAC,6,Turf,2248,Bethel (MN),http://athletics.bethel.edu/sports/football/schedule/2021,http://athletics.bethel.edu/sports/football/schedule/2022
+Birmingham-Southern,Panthers,"Birmingham, AL",SAA,3,Turf,1199,Birmingham-So.,https://bscsports.net/sports/football/schedule/2021,https://bscsports.net/sports/football/schedule/2022
+Bluffton,Beavers,"Bluffton, OH",HCAC,4,Turf,605,Bluffton,http://blufftonbeavers.com/sports/fball/2021-22/schedule,http://blufftonbeavers.com/sports/fball/2022-23/schedule
+Bowdoin,Polar Bears,"Brunswick, ME",NESCAC,1,Turf,1797,Bowdoin,http://athletics.bowdoin.edu/sports/football/schedule/2021,http://athletics.bowdoin.edu/sports/football/schedule/2022
+Brevard,Tornados,"Brevard, NC",USAC,3,Turf,713,Brevard,http://www.bctornados.com//sports/fball/2021-22/schedule,http://www.bctornados.com//sports/fball/2022-23/schedule
+Bridgewater State,Bears,"Bridgewater, MA",MASCAC,1,Turf,7959,Bridgewater St.,http://www.bsubears.com/sports/fball/2021-22/schedule,http://www.bsubears.com/sports/fball/2022-23/schedule
+Bridgewater,Eagles,"Bridgewater, VA",ODAC,3,Turf,1868,Bridgewater,http://www.bridgewatereagles.com/sports/football/schedule/2021,http://www.bridgewatereagles.com/sports/football/schedule/2022
+Brockport,Golden Eagles,"Brockport, NY",E8,2,Turf,6304,Brockport St.,http://www.gobrockport.com/sports/football/schedule/2021,http://www.gobrockport.com/sports/football/schedule/2022
+Buena Vista,Beavers,"Storm Lake, IA",ARC,5,Turf,1873,Buena Vista,http://bvuathletics.com//sports/football/schedule/2021,http://bvuathletics.com//sports/football/schedule/2022
+Buffalo State,Bengals,"Buffalo, NY",LL,2,Turf,8797,Buffalo St.,http://www.buffalostateathletics.com/sports/football/schedule/2021,http://www.buffalostateathletics.com/sports/football/schedule/2022
+Cal Lutheran,Kingsmen,"Thousand Oaks, CA",SCIAC,6,Turf,2477,Cal Lutheran,http://www.clusports.com//sports/fball/2021-22/schedule,http://www.clusports.com//sports/fball/2022-23/schedule
+Capital,Comets,"Columbus, OH",OAC,4,Turf,2329,Capital,http://athletics.capital.edu//sports/football/schedule/2021,http://athletics.capital.edu//sports/football/schedule/2022
+Carleton,Knights,"Northfield, MN",MIAC,6,Grass,2023,Carleton College,https://athletics.carleton.edu/sports/football/schedule/2021,https://athletics.carleton.edu/sports/football/schedule/2022
+Carnegie Mellon,Tartans,"Pittsburgh, PA",PAC,2,Turf,5609,Carnegie Mellon,http://athletics.cmu.edu//sports/fball/2021-22/schedule,http://athletics.cmu.edu//sports/fball/2022-23/schedule
+Carroll,Pioneers,"Waukesha, WI",CCIW,5,Turf,2493,Carroll (WI),http://gopios.com//sports/football/schedule/2021,http://gopios.com//sports/football/schedule/2022
+Carthage,Firebirds,"Kenosha, WI",CCIW,5,Turf,2533,Carthage,https://athletics.carthage.edu//sports/football/schedule/2021,https://athletics.carthage.edu//sports/football/schedule/2022
+Case Western Reserve,Spartans,"Cleveland, OH",PAC,2,Turf,4966,Case Western Reserve,http://athletics.case.edu//sports/fball/2021-22/schedule,http://athletics.case.edu//sports/fball/2022-23/schedule
+Castleton,Spartans,"Castleton, VT",ECFC,1,Turf,1718,Castleton,http://www.castletonsports.com//sports/football/schedule/2021,http://www.castletonsports.com//sports/football/schedule/2022
+Catholic,Cardinals,"Washington, DC",NEWMAC,1,Turf,3409,Catholic,http://www.catholicathletics.com/sports/fball/2021-22/schedule,http://www.catholicathletics.com/sports/fball/2022-23/schedule
+Central,Dutch,"Pella, Iowa",ARC,5,Turf,1179,Central College,https://athletics.central.edu/sports/football/schedule/2021,https://athletics.central.edu/sports/football/schedule/2022
+Centre,Colonels,"Danville, KY",SAA,3,Turf,1337,Centre,http://centrecolonels.com/sports/football/schedule/2021,http://centrecolonels.com/sports/football/schedule/2022
+Chapman,Panthers,"Orange, CA",SCIAC,6,Turf,5433,Chapman,https://www.chapmanathletics.com/sports/fball/2021-22/schedule,https://www.chapmanathletics.com/sports/fball/2022-23/schedule
+Chicago,Maroons,"Chicago, IL",MWC,5,Turf,4955,Chicago,http://athletics.uchicago.edu//sports/fball/2021-22/schedule,http://athletics.uchicago.edu//sports/fball/2022-23/schedule
+Christopher Newport,Captains,"Newport News, VA",NJAC,2,Grass,4962,Chris. Newport,http://www.cnusports.com//sports/football/schedule/2021,http://www.cnusports.com//sports/football/schedule/2022
+Claremont-Mudd-Scripps,Stags,"Claremont, CA",SCIAC,6,Grass,2873,Claremont-Mudd-Scripps,https://www.cmsathletics.org/sports/fball/2021-22/schedule,https://www.cmsathletics.org/sports/fball/2022-23/schedule
+Coast Guard,Bears,"New London, CT",NEWMAC,1,Turf,963,Coast Guard,http://www.uscgasports.com//sports/fball/2021-22/schedule,http://www.uscgasports.com//sports/fball/2022-23/schedule
+Coe,Kohawks,"Cedar Rapids, IA",ARC,5,Turf,1343,Coe College,https://kohawkathletics.com/sports/football/schedule/2021,https://kohawkathletics.com/sports/football/schedule/2022
+Colby,Mules,"Waterville, ME",NESCAC,1,Turf,1847,Colby,http://gocolbymules.com//sports/football/schedule/2021,http://gocolbymules.com//sports/football/schedule/2022
+Concordia (Wis.),Falcons,"Mequon, WI",NACC,5,Turf,2521,Concordia Wisconsin,https://www.cuwfalcons.com//sports/fball/2021-22/schedule,https://www.cuwfalcons.com//sports/fball/2022-23/schedule
+Concordia-Chicago,Cougars,"River Forest, IL",NACC,5,Turf,1025,Concordia Chicago,http://www.cucougars.com/sports/football/schedule/2021,http://www.cucougars.com/sports/football/schedule/2022
+Concordia-Moorhead,Cobbers,"Moorhead, MN",MIAC,6,Turf,2815,Concordia-M'head,http://concordiamn.prestosports.com//sports/fball/2021-22/schedule,http://concordiamn.prestosports.com//sports/fball/2022-23/schedule
+Cornell,Rams,"Mount Vernon, IA",MWC,5,Turf,998,Cornell College,https://cornellrams.com/sports/football/schedule/2021,https://cornellrams.com/sports/football/schedule/2022
+Cortland,Red Dragons,"Cortland, NY",E8,2,Turf,6203,Cortland,http://www.cortlandreddragons.com//sports/football/schedule/2021,http://www.cortlandreddragons.com//sports/football/schedule/2022
+Crown,Polars,"St. Bonifacius, MN",UMAC,6,Turf,535,Crown (MN),https://athletics.crown.edu/sports/football/schedule/2021-22,https://athletics.crown.edu/sports/football/schedule/2022-23
+Curry,Colonels,"Milton, MA",CCC,1,Turf,1976,Curry,http://www.curryathletics.com/sports/fball/2021-22/schedule,http://www.curryathletics.com/sports/fball/2022-23/schedule
+Dean,Bulldogs,"Franklin, MA",ECFC,1,Grass,1095,Dean,https://deanbulldogs.com/sports/football/schedule/2021,https://deanbulldogs.com/sports/football/schedule/2022
+Defiance,Yellow Jackets,"Defiance, OH",HCAC,4,Turf,514,Defiance,http://www.defianceathletics.com//sports/fball/2021-22/schedule,http://www.defianceathletics.com//sports/fball/2022-23/schedule
+Delaware Valley,Aggies,"Doylestown, PA",MAC,1,Turf,1645,Delaware Valley,http://athletics.delval.edu//sports/football/schedule/2021,http://athletics.delval.edu//sports/football/schedule/2022
+Denison,Big Red,"Granville, OH",NCAC,4,Turf,2259,DENISON,https://denisonbigred.com/sports/football/schedule/2021,https://denisonbigred.com/sports/football/schedule/2022
+DePauw,Tigers,"Greencastle, IN",NCAC,4,Turf,1939,DePauw,http://depauwtigers.com/sports/football/schedule/2021,http://depauwtigers.com/sports/football/schedule/2022
+Dickinson,Red Devils,"Carlisle, PA",CC,2,Turf,2091,Dickinson,http://www.dickinsonathletics.com/sports/football/schedule/2021,http://www.dickinsonathletics.com/sports/football/schedule/2022
+Dubuque,Spartans,"Dubuque, IA",ARC,5,Turf,1554,"Dubuque, Univ. of",https://udspartans.com//sports/football/schedule/2021,https://udspartans.com//sports/football/schedule/2022
+East Texas Baptist,Tigers,"Marshall, TX",ASC,3,Turf,1230,East Tex. Baptist,http://www.goetbutigers.com//sports/football/schedule/2021,http://www.goetbutigers.com//sports/football/schedule/2022
+Elmhurst,Bluejays,"Elmhurst, IL",CCIW,5,Turf,2712,Elmhurst,http://www.elmhurstbluejays.com/sports/football/schedule/2021,http://www.elmhurstbluejays.com/sports/football/schedule/2022
+Endicott,Gulls,"Beverly, MA",CCC,1,Turf,2798,Endicott,http://ecgulls.com/sports/fball/2021-22/schedule,http://ecgulls.com/sports/fball/2022-23/schedule
+Eureka,Red Devils,"Eureka, IL",NACC,5,Turf,478,Eureka,http://eurekareddevils.com/sports/fball/2021-22/schedule,http://eurekareddevils.com/sports/fball/2022-23/schedule
+FDU-Florham,Devils,"Madison, NJ",MAC,1,Turf,2532,FDU-Florham,http://fdudevils.com//sports/football/schedule/2021,http://fdudevils.com//sports/football/schedule/2022
+Ferrum,Panthers,"Ferrum, VA",ODAC,3,Turf,1030,Ferrum,http://www.ferrumpanthers.com//sports/football/schedule/2021,http://www.ferrumpanthers.com//sports/football/schedule/2022
+Finlandia,Lions,"Hancock, MI",UMAC,6,Turf,367,Finlandia,http://www.fulions.com/sports/football/schedule/2021,http://www.fulions.com/sports/football/schedule/2022
+Fitchburg State,Falcons,"Fitchburg, MA",MASCAC,1,Turf,3145,Fitchburg St.,http://www.fscfalcons.com//sports/fball/2021-22/schedule,http://www.fscfalcons.com//sports/fball/2022-23/schedule
+Framingham State,Rams,"Framingham, MA",MASCAC,1,Grass,3359,Framingham St.,http://www.fsurams.com/sports/fball/2021-22/schedule,http://www.fsurams.com/sports/fball/2022-23/schedule
+Franklin and Marshall,Diplomats,"Lancaster, PA",CC,2,Turf,2306,Franklin & Marshall,http://www.godiplomats.com/sports/m-footbl/2021-22/schedule,http://www.godiplomats.com/sports/m-footbl/2022-23/schedule
+Franklin,Grizzlies,"Franklin, IN",HCAC,4,Turf,876,Franklin,http://www.franklingrizzlies.com//sports/football/schedule/2021,http://www.franklingrizzlies.com//sports/football/schedule/2022
+Gallaudet,Bison,"Washington, DC",ECFC,1,Turf,1005,Gallaudet,https://www.gallaudetathletics.com/sports/fball/2021-22/schedule,https://www.gallaudetathletics.com/sports/fball/2022-23/schedule
+Geneva,Golden Tornadoes,"Beaver Falls, PA",PAC,2,Turf,1564,Geneva,http://athletics.geneva.edu//sports/football/schedule/2021,http://athletics.geneva.edu//sports/football/schedule/2022
+George Fox,Bruins,"Newberg, OR",NWC,6,Turf,2428,George Fox,http://athletics.georgefox.edu/sports/football/schedule/2021,http://athletics.georgefox.edu/sports/football/schedule/2022
+Gettysburg,Bullets,"Gettysburg, PA",CC,2,Turf,2367,Gettysburg,http://www.gettysburgsports.com//sports/football/schedule/2021,http://www.gettysburgsports.com//sports/football/schedule/2022
+Greensboro,Pride,"Greensboro, NC",USAC,3,Turf,696,Greensboro,http://www.greensborocollegesports.com//sports/football/schedule/2021,http://www.greensborocollegesports.com//sports/football/schedule/2022
+Greenville,Panthers,"Greenville, IL",UMAC,6,Grass,815,Greenville,https://athletics.greenville.edu/sports/fball/2021-22/schedule,https://athletics.greenville.edu/sports/fball/2022-23/schedule
+Grinnell,Pioneers,"Grinnell, IA",MWC,5,Grass,1694,Grinnell College,http://pioneers.grinnell.edu//sports/football/schedule/2021,http://pioneers.grinnell.edu//sports/football/schedule/2022
+Grove City,Wolverines,"Grove City, PA",PAC,2,Turf,2509,Grove City,https://athletics.gcc.edu/sports/football/schedule/2021,https://athletics.gcc.edu/sports/football/schedule/2022
+Guilford,Quakers,"Greensboro, NC",ODAC,3,Turf,1266,Guilford,http://www.guilfordquakers.com/sports/football/schedule/2021,http://www.guilfordquakers.com/sports/football/schedule/2022
+Gustavus Adolphus,Gusties,"St. Peter, MN",MIAC,6,Turf,2212,NONE,,
+Hamilton,Continentals,"Clinton, NY",NESCAC,1,Turf,1997,Hamilton,http://athletics.hamilton.edu//sports/football/schedule/2021,http://athletics.hamilton.edu//sports/football/schedule/2022
+Hamline,Pipers,"St. Paul, MN",MIAC,6,Turf,1996,Hamline,http://hamlineathletics.com//sports/football/schedule/2021,http://hamlineathletics.com//sports/football/schedule/2022
+Hampden-Sydney,Tigers,"Hampden-Sydney, VA",ODAC,3,Grass,986,Hampden-Sydney,http://hscathletics.com/sports/football/schedule/2021,http://hscathletics.com/sports/football/schedule/2022
+Hanover,Panthers,"Hanover, IN",HCAC,4,Turf,1062,Hanover,https://athletics.hanover.edu/sports/football/schedule/2021,https://athletics.hanover.edu/sports/football/schedule/2022
+Hardin-Simmons,Cowboys,"Abilene, TX",ASC,3,Turf,1614,Hardin-Simmons,http://www.hsuathletics.com//sports/m-footbl/2021-22/schedule,http://www.hsuathletics.com//sports/m-footbl/2022-23/schedule
+Hartwick,Hawks,"Oneonta, NY",E8,2,Turf,1164,Hartwick,https://www.hartwickhawks.com/sports/football/schedule/2021-22,https://www.hartwickhawks.com/sports/football/schedule/2022-23
+Heidelberg,Student Princes,"Tiffin, OH",OAC,4,Turf,1036,Heidelberg,http://www.bergathletics.com//sports/football/schedule/2021,http://www.bergathletics.com//sports/football/schedule/2022
+Hendrix,Warriors,"Conway, AR",SAA,3,Turf,1101,Hendrix,http://www.hendrixwarriors.com/sports/football/schedule/2021,http://www.hendrixwarriors.com/sports/football/schedule/2022
+Hilbert,Hawks,"Hamburg, NY",IND,2,TBA,686,NONE,,https://hilberthawks.com/sports/football/schedule/2022
+Hiram,Terriers,"Hiram, OH",NCAC,4,Turf,801,Hiram,http://www.hiramterriers.com//sports/football/schedule/2021,http://www.hiramterriers.com//sports/football/schedule/2022
+Hobart,Statesmen,"Geneva, NY",LL,2,Turf,2031,Hobart,http://www.hwsathletics.com//sports/football/schedule/2021,http://www.hwsathletics.com//sports/football/schedule/2022
+Hope,Flying Dutchmen,"Holland, MI",MIAA,4,Turf,2910,Hope,http://athletics.hope.edu/sports/football/schedule/2021,http://athletics.hope.edu/sports/football/schedule/2022
+Howard Payne,Yellow Jackets,"Brownwood, TX",ASC,3,Turf,738,Howard Payne,http://www.hpusports.com/sports/football/schedule/2021,http://www.hpusports.com/sports/football/schedule/2022
+Huntingdon,Hawks,"Montgomery, AL",USAC,3,Turf,830,Huntingdon,http://www.huntingdonhawks.com/sports/fball/2021-22/schedule,http://www.huntingdonhawks.com/sports/fball/2022-23/schedule
+Husson,Eagles,"Bangor, ME",CCC,1,Turf,2404,Husson,https://husson.prestosports.com/sports/fball/2021-22/schedule,https://husson.prestosports.com/sports/fball/2022-23/schedule
+Illinois College,Blueboys,"Jacksonville, IL",MWC,5,Turf,1037,Illinois Col.,http://illinoiscollegeathletics.com/sports/football/schedule/2021,http://illinoiscollegeathletics.com/sports/football/schedule/2022
+Illinois Wesleyan,Titans,"Bloomington, IL",CCIW,5,Turf,1610,Ill. Wesleyan,https://www.iwusports.com/sports/football/schedule/2021,https://www.iwusports.com/sports/football/schedule/2022
+Ithaca,Bombers,"Ithaca, NY",LL,2,Grass,5735,Ithaca College,http://bombers.ithaca.edu//sports/football/schedule/2021,http://bombers.ithaca.edu//sports/football/schedule/2022
+John Carroll,Blue Streaks,"University Heights, OH",OAC,4,Turf,2904,John Carroll,http://www.jcusports.com//sports/football/schedule/2021,http://www.jcusports.com//sports/football/schedule/2022
+Johns Hopkins,Blue Jays,"Baltimore, MD",CC,2,Turf,6006,Johns Hopkins,http://www.hopkinssports.com//sports/football/schedule/2021,http://www.hopkinssports.com//sports/football/schedule/2022
+Juniata,Eagles,"Huntingdon, PA",CC,2,Turf,1269,Juniata,https://www.juniatasports.net/sports/fball/2021-22/schedule,https://www.juniatasports.net/sports/fball/2022-23/schedule
+Kalamazoo,Hornets,"Kalamazoo, MI",MIAA,4,Turf,1256,Kalamazoo,http://hornets.kzoo.edu/sports/fball/2021-22/schedule,http://hornets.kzoo.edu/sports/fball/2022-23/schedule
+Kean,Cougars,"Union, NJ",NJAC,2,Turf,9702,KEAN,https://keanathletics.com/sports/football/schedule/2021,https://keanathletics.com/sports/football/schedule/2022
+Kenyon,Owls,"Gambier, OH",NCAC,4,Turf,1734,Kenyon,http://athletics.kenyon.edu/sports/football/schedule/2021,http://athletics.kenyon.edu/sports/football/schedule/2022
+Keystone,Giants,"La Plume, PA",ECFC,1,Turf,1087,Keystone College,http://www.gokcgiants.com/sports/football/schedule/2021,http://www.gokcgiants.com/sports/football/schedule/2022
+King's,Monarchs,"Wilkes-Barre, PA",MAC,1,Turf,2040,King's College,http://www.kingscollegeathletics.com//sports/football/schedule/2021,http://www.kingscollegeathletics.com//sports/football/schedule/2022
+Knox,Prairie Fire,"Galesburg, IL",MWC,5,Turf,1223,Knox,http://prairiefire.knox.edu//sports/football/schedule/2021,http://prairiefire.knox.edu//sports/football/schedule/2022
+La Verne,Leopards,"La Verne, CA",SCIAC,6,Turf,3353,La Verne,http://www.leopardathletics.com/sports/fball/2021-22/schedule,http://www.leopardathletics.com/sports/fball/2022-23/schedule
+LaGrange,Panthers,"LaGrange, GA",USAC,3,Turf,844,LaGrange,http://www.lagrangepanthers.com/sports/fball/2021-22/schedule,http://www.lagrangepanthers.com/sports/fball/2022-23/schedule
+Lake Forest,Foresters,"Lake Forest, IL",MWC,5,Turf,1509,Lake Forest,http://www.goforesters.com//sports/fball/2021-22/schedule,http://www.goforesters.com//sports/fball/2022-23/schedule
+Lakeland,Muskies,"Sheboygan, WI",NACC,5,Turf,794,Lakeland University,https://lakelandmuskies.com/sports/football/schedule/2021,https://lakelandmuskies.com/sports/football/schedule/2022
+Lawrence,Vikings,"Appleton, WI",MWC,5,Turf,1397,Lawrence University,http://vikings.lawrence.edu/sports/football/schedule/2021,http://vikings.lawrence.edu/sports/football/schedule/2022
+Lebanon Valley,Flying Dutchmen,"Annville, PA",MAC,1,Turf,1633,Lebanon Valley,http://www.godutchmen.com//sports/football/schedule/2021,http://www.godutchmen.com//sports/football/schedule/2022
+Lewis and Clark,Pioneers,"Portland, OR",NWC,6,Turf,1887,Lewis & Clark,http://www.lcpioneers.com/sports/football/schedule/2021,http://www.lcpioneers.com/sports/football/schedule/2022
+Linfield,Wildcats,"McMinnville, OR",NWC,6,Turf,1363,Linfield,https://golinfieldwildcats.com//sports/football/schedule/2021,https://golinfieldwildcats.com//sports/football/schedule/2022
+Loras,Duhawks,"Dubuque, IA",ARC,5,Turf,1260,Loras College,http://www.duhawks.com//sports/football/schedule/2021,http://www.duhawks.com//sports/football/schedule/2022
+Luther,Norse,"Decorah, IA",ARC,5,Turf,1913,Luther College,https://luthernorse.com//sports/football/schedule/2021,https://luthernorse.com//sports/football/schedule/2022
+Lycoming,Warriors,"Williamsport, PA",MAC,1,Turf,1122,Lycoming,http://athletics.lycoming.edu/sports/football/schedule/2021,http://athletics.lycoming.edu/sports/football/schedule/2022
+Macalester,Scots,"St. Paul, MN",MIAC,6,Turf,2062,Macalester,http://athletics.macalester.edu/sports/football/schedule/2021,http://athletics.macalester.edu/sports/football/schedule/2022
+Manchester,Spartans,"N. Manchester, IN",HCAC,4,Turf,1060,Manchester,http://muspartans.com//sports/football/schedule/2021,http://muspartans.com//sports/football/schedule/2022
+Marietta,Pioneers,"Marietta, OH",OAC,4,Turf,1052,Marietta College,http://pioneers.marietta.edu//sports/football/schedule/2021,http://pioneers.marietta.edu//sports/football/schedule/2022
+Martin Luther,Knights,"New Ulm, MN",UMAC,6,Grass,705,Martin Luther,http://mlcknights.com//sports/football/schedule/2021,http://mlcknights.com//sports/football/schedule/2022
+Mary Hardin-Baylor,Crusaders,"Belton, TX",ASC,3,Turf,3112,Mary Hardin-Baylor,http://cruathletics.com/sports/football/schedule/2021,http://cruathletics.com/sports/football/schedule/2022
+Maryville (Tenn.),Scots,"Maryville, TN",USAC,3,Grass,1061,Maryville College,http://mcscots.com//sports/football/schedule/2021,http://mcscots.com//sports/football/schedule/2022
+Mass-Dartmouth,Corsairs,"North Dartmouth, MA",MASCAC,1,Turf,5439,Mass.-Dartmouth,http://www.corsairathletics.com/sports/football/schedule/2021,http://www.corsairathletics.com/sports/football/schedule/2022
+Massachusetts Maritime,Buccaneers,"Buzzards Bay, MA",MASCAC,1,Turf,1616,Mass. Maritime,http://www.mmabucs.com/sports/fball/2021-22/schedule,http://www.mmabucs.com/sports/fball/2022-23/schedule
+McDaniel,Green Terror,"Westminster, MD",CC,2,Turf,1649,McDaniel,http://www.mcdanielathletics.com/sports/football/schedule/2021,http://www.mcdanielathletics.com/sports/football/schedule/2022
+McMurry,War Hawks,"Abilene, TX",ASC,3,Turf,1019,McMurry,http://www.mcmurrysports.com//sports/football/schedule/2021,http://www.mcmurrysports.com//sports/football/schedule/2022
+Merchant Marine,Mariners,"Kings Point, NY",NEWMAC,1,Turf,1007,Merchant Marine,http://www.usmmasports.com//sports/football/schedule/2021,http://www.usmmasports.com//sports/football/schedule/2022
+Methodist,Monarchs,"Fayetteville, NC",USAC,3,Grass,1974,Methodist,http://www.mumonarchs.com//sports/football/schedule/2021,http://www.mumonarchs.com//sports/football/schedule/2022
+Middlebury,Panthers,"Middlebury, VT",NESCAC,1,Turf,2541,Middlebury,http://athletics.middlebury.edu/sports/football/schedule/2021,http://athletics.middlebury.edu/sports/football/schedule/2022
+Millikin,Big Blue,"Decatur, IL",CCIW,5,Turf,1869,MILLIKIN,https://athletics.millikin.edu/sports/football/schedule/2021,https://athletics.millikin.edu/sports/football/schedule/2022
+Millsaps,Majors,"Jackson, MS",SAA,3,Turf,768,Millsaps,http://www.gomajors.com/sports/football/schedule/2021,http://www.gomajors.com/sports/football/schedule/2022
+Minnesota-Morris,Cougars,"Morris, MN",UMAC,6,Turf,1349,Minnesota Morris,http://morriscougars.com/sports/football/schedule/2021,http://morriscougars.com/sports/football/schedule/2022
+Misericordia,Cougars,"Dallas, PA",MAC,1,Turf,1584,Misericordia,http://athletics.misericordia.edu/sports/football/schedule/2021,http://athletics.misericordia.edu/sports/football/schedule/2022
+MIT,Engineers,"Cambridge, MA",NEWMAC,1,Turf,4487,MIT,http://www.mitathletics.com/sports/football/schedule/2021,http://www.mitathletics.com/sports/football/schedule/2022
+Monmouth,Scots,"Monmouth, IL",MWC,5,Turf,897,Monmouth (IL),http://monmouthscots.com//sports/football/schedule/2021,http://monmouthscots.com//sports/football/schedule/2022
+Montclair State,Red Hawks,"Upper Montclair, NJ",NJAC,2,Turf,14745,Montclair State,http://www.montclairathletics.com/sports/football/schedule/2021,http://www.montclairathletics.com/sports/football/schedule/2022
+Moravian,Greyhounds,"Bethlehem, PA",CC,2,Turf,1912,Moravian University,http://moraviansports.com//sports/fball/2021-22/schedule,http://moraviansports.com//sports/fball/2022-23/schedule
+Morrisville State,Mustangs,"Morrisville, NY",E8,2,Turf,2283,Morrisville St.,https://morrisvillemustangs.com/sports/football/schedule/2021,https://morrisvillemustangs.com/sports/football/schedule/2022
+Mount St. Joseph,Lions,"Cincinnati, OH",HCAC,4,Turf,1006,Mt. St. Joseph,http://www.msjsports.com//sports/fball/2021-22/schedule,http://www.msjsports.com//sports/fball/2022-23/schedule
+Mount Union,Purple Raiders,"Alliance, OH",OAC,4,Turf,1978,Mount Union,http://athletics.mountunion.edu/sports/football/schedule/2021,http://athletics.mountunion.edu/sports/football/schedule/2022
+Muhlenberg,Mules,"Allentown, PA",CC,2,Turf,2190,Muhlenberg,http://muhlenbergsports.com//sports/football/schedule/2021,http://muhlenbergsports.com//sports/football/schedule/2022
+Muskingum,Muskies,"New Concord, OH",OAC,4,Turf,1355,Muskingum,http://fightingmuskies.com//sports/fball/2021-22/schedule,http://fightingmuskies.com//sports/fball/2022-23/schedule
+N.C. Wesleyan,Battling Bishops,"Rocky Mount, NC",USAC,3,Grass,1600,N.C. Wesleyan,http://www.ncwcsports.com/sports/fball/2021-22/schedule,http://www.ncwcsports.com/sports/fball/2022-23/schedule
+Nebraska Wesleyan,Prairie Wolves,"Lincoln, NE",ARC,5,Turf,1692,Neb. Wesleyan,http://www.nwusports.com//sports/football/schedule/2021,http://www.nwusports.com//sports/football/schedule/2022
+Nichols,Bison,"Dudley, MA",CCC,1,Turf,1217,Nichols,http://www.nicholsathletics.com//sports/football/schedule/2021,http://www.nicholsathletics.com//sports/football/schedule/2022
+North Central (Ill.),Cardinals,"Naperville, IL",CCIW,5,Turf,2530,North Central,http://northcentralcardinals.com//sports/football/schedule/2021,http://northcentralcardinals.com//sports/football/schedule/2022
+North Park,Vikings,"Chicago, IL",CCIW,5,Turf,1723,North Park,http://athletics.northpark.edu//sports/football/schedule/2021,http://athletics.northpark.edu//sports/football/schedule/2022
+Northwestern (Minn.),Eagles,"Roseville, MN",UMAC,6,Turf,1603,Northwestern (MN),http://unweagles.com/sports/football/schedule/2021,http://unweagles.com/sports/football/schedule/2022
+Norwich,Cadets,"Northfield, VT",NEWMAC,1,Turf,2602,Norwich,http://www.norwichathletics.com//sports/football/schedule/2021,http://www.norwichathletics.com//sports/football/schedule/2022
+Oberlin,Yeomen,"Oberlin, OH",NCAC,4,Turf,2882,Oberlin College,http://www.goyeo.com//sports/football/schedule/2021,http://www.goyeo.com//sports/football/schedule/2022
+Ohio Northern,Polar Bears,"Ada, OH",OAC,4,Turf,2078,Ohio Northern,https://www.onusports.com/sports/fball/2021-22/schedule,https://www.onusports.com/sports/fball/2022-23/schedule
+Ohio Wesleyan,Battling Bishops,"Delaware, OH",NCAC,4,Turf,1485,Ohio Wesleyan,http://www.battlingbishops.com//sports/football/schedule/2021,http://www.battlingbishops.com//sports/football/schedule/2022
+Olivet,Comets,"Olivet, MI",MIAA,4,Turf,959,Olivet,http://www.olivetcomets.com/sports/fball/2021-22/schedule,http://www.olivetcomets.com/sports/fball/2022-23/schedule
+Otterbein,Cardinals,"Westerville, OH",OAC,4,Turf,2307,Otterbein University,http://www.otterbeincardinals.com//sports/football/schedule/2021,http://www.otterbeincardinals.com//sports/football/schedule/2022
+Pacific Lutheran,Lutes,"Tacoma, WA",NWC,6,Turf,2623,Pacific Lutheran,http://golutes.com/sports/football/schedule/2021,http://golutes.com/sports/football/schedule/2022
+Pacific,Boxers,"Forest Grove, OR",NWC,6,Turf,1724,Pacific University,http://www.goboxers.com//sports/football/schedule/2021,http://www.goboxers.com//sports/football/schedule/2022
+Plymouth State,Panthers,"Plymouth, NH",MASCAC,1,Turf,3659,Plymouth State,http://athletics.plymouth.edu/sports/football/schedule/2021,http://athletics.plymouth.edu/sports/football/schedule/2022
+Pomona-Pitzer,Sagehens,"Claremont, CA",SCIAC,6,Grass,2515,Pomona-Pitzer,http://www.pe.pomona.edu/sports/fball/2021-22/schedule,http://www.pe.pomona.edu/sports/fball/2022-23/schedule
+Puget Sound,Loggers,"Tacoma, WA",NWC,6,Grass,2271,Puget Sound,http://www.loggerathletics.com/sports/football/schedule/2021,http://www.loggerathletics.com/sports/football/schedule/2022
+Randolph-Macon,Yellow Jackets,"Ashland, VA",ODAC,3,Turf,1513,Randolph-Macon,https://rmcathletics.com/sports/fball/2021-22/schedule,https://rmcathletics.com/sports/fball/2022-23/schedule
+Redlands,Bulldogs,"Redlands, CA",SCIAC,6,Grass,2642,Redlands,https://www.goredlands.com/sports/fball/2021-22/schedule,https://www.goredlands.com/sports/fball/2022-23/schedule
+Rhodes,Lynx,"Memphis, TN",SAA,3,Turf,1939,Rhodes,http://www.rhodeslynx.com//sports/football/schedule/2021,http://www.rhodeslynx.com//sports/football/schedule/2022
+Ripon,Red Hawks,"Ripon, WI",MWC,5,Turf,765,Ripon College,https://riponredhawks.com//sports/football/schedule/2021,https://riponredhawks.com//sports/football/schedule/2022
+Rochester,Yellowjackets,"Rochester, NY",LL,2,Turf,6371,Rochester,http://www.uofrathletics.com//sports/football/schedule/2021,http://www.uofrathletics.com//sports/football/schedule/2022
+Rockford,Regents,"Rockford, IL",NACC,5,Grass,891,Rockford University,http://goregents.com/sports/football/schedule/2021,http://goregents.com/sports/football/schedule/2022
+Rose-Hulman,Engineers,"Terre Haute, IN",HCAC,4,Turf,1975,Rose-Hulman,http://athletics.rose-hulman.edu//sports/football/schedule/2021,http://athletics.rose-hulman.edu//sports/football/schedule/2022
+Rowan,Profs,"Glassboro, NJ",NJAC,2,Turf,14049,Rowan,http://www.rowanathletics.com//sports/football/schedule/2021,http://www.rowanathletics.com//sports/football/schedule/2022
+RPI,Engineers,"Troy, NY",LL,2,Turf,6198,Rensselaer,http://www.rpiathletics.com//sports/football/schedule/2021,http://www.rpiathletics.com//sports/football/schedule/2022
+Salisbury,Sea Gulls,"Salisbury, MD",NJAC,2,Turf,7081,Salisbury,http://www.suseagulls.com/sports/football/schedule/2021,http://www.suseagulls.com/sports/football/schedule/2022
+Salve Regina,Seahawks,"Newport, RI",CCC,1,Turf,2085,Salve Regina,http://www.salveathletics.com/sports/fball/2021-22/schedule,http://www.salveathletics.com/sports/fball/2022-23/schedule
+Sewanee,Tigers,"Sewanee, TN",SAA,3,Turf,1669,Sewanee,http://www.sewaneetigers.com//sports/football/schedule/2021,http://www.sewaneetigers.com//sports/football/schedule/2022
+Shenandoah,Hornets,"Winchester, VA",ODAC,3,Turf,1989,Shenandoah Hornets,http://www.suhornets.com/sports/football/schedule/2021,http://www.suhornets.com/sports/football/schedule/2022
+Simpson,Storm,"Indianola, IA",ARC,5,Turf,1159,Simpson,http://simpsonathletics.com/sports/fball/2021-22/schedule,http://simpsonathletics.com/sports/fball/2022-23/schedule
+Southern Virginia,Knights,"Buena Vista, VA",USAC,3,Turf,1016,Southern Virginia,https://knightathletics.com/sports/football/schedule/2021-22,https://knightathletics.com/sports/football/schedule/2022-23
+Southwestern,Pirates,"Georgetown, TX",ASC,3,Turf,1495,Southwestern,http://southwesternpirates.com/sports/m-footbl/2021-22/schedule,http://southwesternpirates.com/sports/m-footbl/2022-23/schedule
+Springfield,Pride,"Springfield, MA",NEWMAC,1,Turf,2139,Springfield,http://springfieldcollegepride.com/sports/fball/2021-22/schedule,http://springfieldcollegepride.com/sports/fball/2022-23/schedule
+St. John Fisher,Cardinals,"Pittsford, NY",E8,2,Turf,2535,St. John Fisher,http://athletics.sjfc.edu//sports/football/schedule/2021,http://athletics.sjfc.edu//sports/football/schedule/2022
+St. John's,Johnnies,"Collegeville, MN",MIAC,6,Turf,1877,Saint John's Univ.,https://gojohnnies.com/sports/football/schedule/2021,https://gojohnnies.com/sports/football/schedule/2022
+St. Lawrence,Saints,"Canton, NY",LL,2,Grass,2359,St. Lawrence,http://saintsathletics.com/sports/football/schedule/2021,http://saintsathletics.com/sports/football/schedule/2022
+St. Norbert,Green Knights,"De Pere, WI",NACC,5,Turf,1956,St. Norbert College,http://athletics.snc.edu//sports/football/schedule/2021,http://athletics.snc.edu//sports/football/schedule/2022
+St. Olaf,Oles,"Northfield, MN",MIAC,6,Turf,3030,St. Olaf,http://athletics.stolaf.edu//sports/football/schedule/2021,http://athletics.stolaf.edu//sports/football/schedule/2022
+St. Scholastica,Saints,"Duluth, MN",MIAC,6,Turf,2058,St. Scholastica,http://csssaints.com/sports/football/schedule/2021,http://csssaints.com/sports/football/schedule/2022
+St. Vincent,Bearcats,"Latrobe, PA",PAC,2,Grass,1483,St. Vincent,http://athletics.stvincent.edu/sports/football/schedule/2021,http://athletics.stvincent.edu/sports/football/schedule/2022
+Stevenson,Mustangs,"Stevenson, MD",MAC,1,Turf,2724,Stevenson,http://gomustangsports.com/sports/fball/2021-22/schedule,http://gomustangsports.com/sports/fball/2022-23/schedule
+Sul Ross State,Lobos,"Alpine, TX",ASC,3,Turf,1179,Sul Ross St.,http://www.srlobos.com//sports/football/schedule/2021,http://www.srlobos.com//sports/football/schedule/2022
+SUNY-Maritime,Privateers,"Throggs Neck, NY",ECFC,1,Turf,1465,Maritime College,http://maritimeathletics.com//sports/football/schedule/2021,http://maritimeathletics.com//sports/football/schedule/2022
+Susquehanna,River Hawks,"Selinsgrove, PA",CC,2,Turf,2291,Susquehanna,http://suriverhawks.com/sports/football/schedule/2021,http://suriverhawks.com/sports/football/schedule/2022
+TCNJ,Lions,"Ewing, NJ",NJAC,2,Turf,6598,TCNJ,http://www.tcnjathletics.com//sports/football/schedule/2021,http://www.tcnjathletics.com//sports/football/schedule/2022
+Texas Lutheran,Bulldogs,"Seguin, TX",ASC,3,Turf,1379,Texas Lutheran,http://www.tlubulldogs.com/sports/fball/2021-22/schedule,http://www.tlubulldogs.com/sports/fball/2022-23/schedule
+Thiel,Tomcats,"Greenville, PA",PAC,2,Turf,689,Thiel,http://www.thielathletics.com//sports/football/schedule/2021,http://www.thielathletics.com//sports/football/schedule/2022
+Trine,Thunder,"Angola, IN",MIAA,4,Turf,2087,Trine,http://trinethunder.com/sports/fball/2021-22/schedule,http://trinethunder.com/sports/fball/2022-23/schedule
+Trinity (Conn.),Bantams,"Hartford, CT",NESCAC,1,Turf,2109,Trinity (CT),https://bantamsports.com//sports/football/schedule/2021,https://bantamsports.com//sports/football/schedule/2022
+Trinity (Texas),Tigers,"San Antonio, TX",SAA,3,Turf,2397,Trinity University,http://www.trinitytigers.com/sports/fball/2021-22/schedule,http://www.trinitytigers.com/sports/fball/2022-23/schedule
+Tufts,Jumbos,"Medford, MA",NESCAC,1,Turf,5938,Tufts,https://tufts.prestosports.com/sports/fball/2021-22/schedule,https://tufts.prestosports.com/sports/fball/2022-23/schedule
+Union,Dutchmen,"Schenectady, NY",LL,2,Turf,2157,Union (NY),http://www.unionathletics.com//sports/football/schedule/2021,http://www.unionathletics.com//sports/football/schedule/2022
+University of New England,Nor'easters,"Biddeford, ME",CCC,1,Turf,2409,U New England,https://athletics.une.edu/sports/football/schedule/2021,https://athletics.une.edu/sports/football/schedule/2022
+Ursinus,Bears,"Collegeville, PA",CC,2,Turf,1454,Ursinus,http://www.ursinusathletics.com/sports/football/schedule/2021,http://www.ursinusathletics.com/sports/football/schedule/2022
+Utica,Pioneers,"Utica, NY",E8,2,Turf,2810,Utica College,http://www.ucpioneers.com/sports/football/schedule/2021,http://www.ucpioneers.com/sports/football/schedule/2022
+UW-Eau Claire,Blugolds,"Eau Claire, WI",WIAC,6,Turf,9743,UW-Eau Claire,http://blugolds.com/sports/fball/2021-22/schedule,http://blugolds.com/sports/fball/2022-23/schedule
+UW-La Crosse,Eagles,"La Crosse, WI",WIAC,6,Turf,9055,UW-La Crosse,http://www.uwlathletics.com//sports/football/schedule/2021,http://www.uwlathletics.com//sports/football/schedule/2022
+UW-Oshkosh,Titans,"Oshkosh, WI",WIAC,6,Turf,8438,UW-Oshkosh,https://uwoshkoshtitans.com/sports/fball/2021-22/schedule,https://uwoshkoshtitans.com/sports/fball/2022-23/schedule
+UW-Platteville,Pioneers,"Platteville, WI",WIAC,6,Turf,6457,Wis.-Platteville,https://letsgopioneers.com/sports/fball/2021-22/schedule,https://letsgopioneers.com/sports/fball/2022-23/schedule
+UW-River Falls,Falcons,"River Falls, WI",WIAC,6,Turf,4991,UW-River Falls,http://www.uwrfsports.com//sports/football/schedule/2021,http://www.uwrfsports.com//sports/football/schedule/2022
+UW-Stevens Point,Pointers,"Stevens Point, WI",WIAC,6,Turf,8332,UW-Stevens Point,http://athletics.uwsp.edu//sports/football/schedule/2021,http://athletics.uwsp.edu//sports/football/schedule/2022
+UW-Stout,Blue Devils,"Menomonie, WI",WIAC,6,Turf,6825,UW-Stout,http://athletics.uwstout.edu//sports/football/schedule/2021,http://athletics.uwstout.edu//sports/football/schedule/2022
+UW-Whitewater,Warhawks,"Whitewater, WI",WIAC,6,Turf,9488,Wis.-Whitewater,http://www.uwwsports.com/sports/football/schedule/2021,http://www.uwwsports.com/sports/football/schedule/2022
+Wabash,Little Giants,"Crawfordsville, IN",NCAC,4,Turf,868,Wabash College,http://sports.wabash.edu/sports/football/schedule/2021,http://sports.wabash.edu/sports/football/schedule/2022
+Wartburg,Knights,"Waverly, IA",ARC,5,Turf,1461,Wartburg,https://go-knights.net/sports/football/schedule/2021,https://go-knights.net/sports/football/schedule/2022
+Washington and Jefferson,Presidents,"Washington, PA",PAC,2,Turf,1243,Wash. & Jeff.,http://gopresidents.com//sports/football/schedule/2021,http://gopresidents.com//sports/football/schedule/2022
+Washington and Lee,Generals,"Lexington, VA",ODAC,3,Turf,1843,Wash. & Lee,http://www.generalssports.com/sports/football/schedule/2021,http://www.generalssports.com/sports/football/schedule/2022
+Washington U.,Bears,"St. Louis, MO",CCIW,5,Turf,7092,WashU,http://bearsports.wustl.edu/sports/fball/2021-22/schedule,http://bearsports.wustl.edu/sports/fball/2022-23/schedule
+Waynesburg,Yellow Jackets,"Waynesburg, PA",PAC,2,Turf,1239,Waynesburg,http://www.waynesburgsports.com//sports/football/schedule/2021,http://www.waynesburgsports.com//sports/football/schedule/2022
+Wesleyan,Cardinals,"Middletown, CT",NESCAC,1,Grass,2930,Wesleyan (Conn.),http://athletics.wesleyan.edu/sports/football/schedule/2021,http://athletics.wesleyan.edu/sports/football/schedule/2022
+Western Connecticut,Colonials,"Danbury, CT",MASCAC,1,Turf,4072,WestConn,https://westconnathletics.com/sports/football/schedule/2021-22,https://westconnathletics.com/sports/football/schedule/2022-23
+Western New England,Golden Bears,"Springfield, MA",CCC,1,Turf,2580,Western New Eng.,http://wnegoldenbears.com/sports/fball/2021-22/schedule,http://wnegoldenbears.com/sports/fball/2022-23/schedule
+Westfield State,Owls,"Westfield, MA",MASCAC,1,Turf,4239,Westfield St.,http://www.westfieldstateowls.com//sports/fball/2021-22/schedule,http://www.westfieldstateowls.com//sports/fball/2022-23/schedule
+Westminster (Mo.),Blue Jays,"Fulton, MO",UMAC,6,Turf,632,Westminster,http://www.wcbluejays.com/sports/fball/2021-22/schedule,http://www.wcbluejays.com/sports/fball/2022-23/schedule
+Westminster (Pa.),Titans,"New Wilmington, PA",PAC,2,Turf,1107,Westminster (PA),http://athletics.westminster.edu/sports/football/schedule/2021,http://athletics.westminster.edu/sports/football/schedule/2022
+Wheaton (Ill.),Thunder,"Wheaton, IL",CCIW,5,Turf,2325,Wheaton (IL),http://athletics.wheaton.edu//sports/football/schedule/2021,http://athletics.wheaton.edu//sports/football/schedule/2022
+Whittier,Poets,"Whittier, CA",SCIAC,6,Turf,1746,Whittier,http://www.wcpoets.com//sports/fball/2021-22/schedule,http://www.wcpoets.com//sports/fball/2022-23/schedule
+Whitworth,Pirates,"Spokane, WA",NWC,6,Turf,2353,Whitworth,http://www.whitworthpirates.com/sports/football/schedule/2021,http://www.whitworthpirates.com/sports/football/schedule/2022
+Widener,Pride,"Chester, PA",MAC,1,Turf,2767,Widener,http://www.widenerpride.com//sports/football/schedule/2021,http://www.widenerpride.com//sports/football/schedule/2022
+Wilkes,Colonels,"Wilkes-Barre, PA",MAC,1,Turf,2082,Wilkes University,http://www.gowilkesu.com//sports/football/schedule/2021,http://www.gowilkesu.com//sports/football/schedule/2022
+Willamette,Bearcats,"Salem, OR",NWC,6,Turf,1456,Willamette,http://wubearcats.com//sports/fball/2021-22/schedule,http://wubearcats.com//sports/fball/2022-23/schedule
+William Paterson,Pioneers,"Wayne, NJ",NJAC,2,Turf,7155,William Paterson,http://www.wpupioneers.com/sports/football/schedule/2021,http://www.wpupioneers.com/sports/football/schedule/2022
+Williams,Ephs,"Williamstown, MA",NESCAC,1,Turf,2028,Williams,https://ephsports.williams.edu/sports/football/schedule/2021,https://ephsports.williams.edu/sports/football/schedule/2022
+Wilmington,Quakers,"Wilmington, OH",OAC,4,Turf,1192,Wilmington,http://www.wilmingtonquakers.com/sports/fball/2021-22/schedule,http://www.wilmingtonquakers.com/sports/fball/2022-23/schedule
+Wisconsin Lutheran,Warriors,"Milwaukee, WI",NACC,5,Turf,915,Wisconsin Lutheran,http://wlcsports.com//sports/football/schedule/2021,http://wlcsports.com//sports/football/schedule/2022
+Wittenberg,Tigers,"Springfield, OH",NCAC,4,Turf,1492,Wittenberg,http://www.wittenbergtigers.com/sports/fball/2021-22/schedule,http://www.wittenbergtigers.com/sports/fball/2022-23/schedule
+Wooster,Scots,"Wooster, OH",NCAC,4,Turf,1934,Wooster,http://www.woosterathletics.com/sports/fball/2021-22/schedule,http://www.woosterathletics.com/sports/fball/2022-23/schedule
+Worcester State,Lancers,"Worcester, MA",MASCAC,1,Turf,4069,Worcester St.,http://wsulancers.com/sports/fball/2021-22/schedule,http://wsulancers.com/sports/fball/2022-23/schedule
+WPI,Engineers,"Worcester, MA",NEWMAC,1,Turf,4578,WPI,http://athletics.wpi.edu/sports/fball/2021-22/schedule,http://athletics.wpi.edu/sports/fball/2022-23/schedule

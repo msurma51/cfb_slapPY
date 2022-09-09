@@ -1,0 +1,116 @@
+Enter -['Start of 1st Half']
+['Hamline wins toss and will receive; CWN will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Osborne,Jonah kickoff 30 yards to the HAM35 Fritz,Sam return 0 yards to the HAM35.']
+Is this opponent scout? (Y/N)Are you Hamline (H) or Crown (MN) (A)?Final score Hamline 54 - Crown (MN) 38
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Crown (MN) wins toss and will kickoff; CAR will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['onside kickoff 11 yards to the CCS46.']
+Exception in Carleton at Crown (MN) (index) quarter 0 drive 0
+	 ['Start of 1st Half']
+	 ['Crown (MN) wins toss and will kickoff; CAR will defend East end-zone.']
+	 ['Start of 1st quarter, clock 15:00.']
+	 ['onside kickoff 11 yards to the CCS46.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1126, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment
+Enter -['Start of 1st Half']
+[' Crown (MN) wins toss and defers UMM will receive CCS will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, STORM ball on STORM35.']
+['Osborne,Jonah kickoff 0 yards to the STORM35, out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Crown (MN) (H) or Minnesota Morris (A)?Final score Crown (MN) 18 - Minnesota Morris 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['IOWA WES ball on IOWA WES35, clock 15:00.']
+['George Chappel kickoff 50 yards to the CROWN15, Rudy Criner return 30 yards to the CROWN45 (Jakim Brock), out-of-bounds.']
+Exception in Crown at Iowa Wesleyan (index) quarter 0 drive 0
+	 ['Start of 1st Half']
+	 ['IOWA WES ball on IOWA WES35, clock 15:00.']
+	 ['George Chappel kickoff 50 yards to the CROWN15, Rudy Criner return 30 yards to the CROWN45 (Jakim Brock), out-of-bounds.']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 840, in drive_parser
+    play = play_parser(['Opening kickoff',drive[ko[0]][-1]], game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 765, in play_parser
+    play = kop_parser(play,desc,poss,re_select)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 293, in kop_parser
+    kp = re.findall('^'+re_select[poss],k_string)
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    game_info = game_builder(quarters,name_dict)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1126, in game_builder
+    return({drive_list:game, state_dict:game_state, plays_list:plays})
+UnboundLocalError: local variable 'plays' referenced before assignment
+Enter -['Start of 1st Half']
+['Martin Luther wins toss and defers; CCS will receive; MLC will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Kehren,Josh kickoff 51 yards to the CCS14 Mistretta,Cole return 18 yards to the CCS32 (Ehlke,Joey).']
+Is this opponent scout? (Y/N)Are you Crown (MN) (H) or Martin Luther (A)?Final score Crown (MN) 18 - Martin Luther 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Crown wins the toss and defers; Minnesota Morris to receive south EZ']
+['STORM ball on STORM35.']
+['Osborne,Jonah kickoff 36 yards to the UMM29, Cole Mitchell return 10 yards to the UMM39 (Watson,Teris;Swecker,Ryan).']
+Is this opponent scout? (Y/N)Are you Minnesota Morris (H) or Crown (MN) (A)?Final score Minnesota Morris 42 - Crown (MN) 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Crown (MN) wins toss and defers; FIN will receive; CCS will defend West end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Osborne,Jonah kickoff 43 yards to the FIN22 St. Fort,Brad return 0 yards to the FIN22.']
+Is this opponent scout? (Y/N)Are you Crown (MN) (H) or Finlandia (A)?Final score Crown (MN) 19 - Finlandia 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['CCFB wins toss, elects to defer. GUFB will receive.']
+['Osborne, Jonah kickoff 35 yards to the GUFB30, Ashton Moultrie return 6 yards to the GUFB36 (Wallace, Josh).']
+Is this opponent scout? (Y/N)Are you Greenville (H) or Crown (MN) (A)?Final score Greenville 55 - Crown (MN) 30
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Westminster (MO) wins toss and defers; CCS will receive; WCB will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['kickoff 47 yards to the CCS18 Caruthers,Avory return 17 yards to the CCS35 (Crown (MN)), out of bounds.']
+Is this opponent scout? (Y/N)Are you Crown (MN) (H) or Westminster (MO) (A)?Final score Crown (MN) 35 - Westminster (MO) 56
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Crown won the toss and elected to defer.']
+['Jonah Osbourne kickoff 41 yards to the UNW24, Beau Burk return 15 yards to the UNW39 (Jesse Synogroun).']
+Is this opponent scout? (Y/N)Are you Northwestern (Minn.) (H) or CROWN (A)?Final score Northwestern (Minn.) 59 - CROWN 20
+Folder name? (Scout team name default)

@@ -1,0 +1,52 @@
+Enter -['Start of 1st Half']
+['coin flip won by UD and will defer']
+['DBQFB ball on DBQFB35.']
+['Tyler Sheffield kickoff 58 yards to the MAR7, Darius Hatch return 19 yards to the MAR26 (G. Hertzfeldt;Kedar Louis).']
+Is this opponent scout? (Y/N)Are you Dubuque, Univ. of (H) or Marietta College (A)?Final score Dubuque, Univ. of 30 - Marietta College 25
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Capt: MAR 0 DT Gallagher, 24 RB Agnew, 51 DE Neuberger MUSK capt: 0 DB McGinnis, 2 QB Garrett, 6 DB Brown, 54 OL Horvath Coin Toss: MUSK WIN TOSS DEFER, MAR TO RECEIVE MUSK DEFEND S GOAL']
+['MUSK ball on MUSK35.']
+['C. Scozzafava kickoff 56 yards to the MAR9, Darius Hatch return 25 yards to the MAR34 (Cortez McGinnis).']
+Is this opponent scout? (Y/N)Are you Marietta College (H) or Muskingum (A)?Final score Marietta College 18 - Muskingum 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Marietta wins toss and will kickoff; CAP will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Haus,Matthew kickoff 56 yards to the CAP09 Pickett,Sam return 23 yards to the CAP32 (Agnew,Bryce).']
+Is this opponent scout? (Y/N)Are you Capital (H) or Marietta (A)?Final score Capital 7 - Marietta 37
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['ONU wins the toss and defers. MC will receive and defend the S goal.']
+['ONU ball on ONU35.']
+['Dom DiFalco kickoff 65 yards to the MAR0, touchback.']
+Is this opponent scout? (Y/N)Are you Ohio Northern (H) or Marietta College (A)?Final score Ohio Northern 34 - Marietta College 33
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' MAR Capt:0 DT Gallagher, 24 RB Agnew, 51 DE Neuberger BERG Capt:1DB Wiley, 12 LB Blackiston 15LB Richmond 41TE Grossman Coin Toss: Berg won toss to receive, Marietta defending N goal']
+['MAR ball on MAR35.']
+['Matthew Haus kickoff 65 yards to the BERG0, touchback.']
+Is this opponent scout? (Y/N)Are you Marietta College (H) or Heidelberg (A)?Final score Marietta College 21 - Heidelberg 44
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['WC ball on WC35, clock 15:00.']
+["Gabe Dolen kickoff 64 yards to the MARIETTA01, Hayden Tanner return 4 yards to the MARIETTA05 (Na'Zere Neal; Eli Berner)."]
+Is this opponent scout? (Y/N)Are you Wilmington (Ohio) (H) or Marietta (A)?Final score Wilmington (Ohio) 7 - Marietta 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' MC Capt:DT 0 Gallagher, RB 24 Agnew, DL 51 Neuberger JCU Capt: QB 5 Floriea, DB 30 Leopold Coin toss JCU won defered, MC receive JC to defend N goal']
+['JCU ball on JCU35.']
+['Grant Gonya kickoff 65 yards to the MAR0, touchback.']
+Score correction made in John Carroll @ Marietta College (index) quarter 2 drive 8
+Score correction made in John Carroll @ Marietta College (index) quarter 2 drive 9
+Is this opponent scout? (Y/N)Are you Marietta College (H) or John Carroll (A)?Final score Marietta College 10 - John Carroll 19
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['MC ball on MC35, clock 15:00.']
+['Marietta won the coin toss and defferend to the second half. BW will receive and will defend the north endzone']
+['Brady Wilson kickoff 45 yards to the BW20, Iyan Mitchell return 5 yards to the BW25 (Addison Painter; Brady Panucci).']
+Is this opponent scout? (Y/N)Are you Baldwin Wallace (H) or Marietta (A)?Final score Baldwin Wallace 24 - Marietta 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' MAR Capt:0 DL Gallagher, 24 RB Agnew, 51 DL Neuberger OTT Capt: 5 TE Jones, 5 DL Cipriano, 6 LB Nolder, 56 OL Martin Coin Toss: Mar wins toss defers, OTT to Receive, MAR defend S goal']
+['MAR ball on MAR35.']
+['Brady Wilson kickoff 57 yards to the OTT8, Carlos Alamo return 15 yards to the OTT23 (Addison Painter).']
+Is this opponent scout? (Y/N)Are you Marietta College (H) or Otterbein (A)?Final score Marietta College 56 - Otterbein 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' MC Capt:0 DT Gallagher, 24 RB Agnew, 51 DE Neuberger MTU Capt: 0 WR Harvey, Jr., 9 QB Plunk, 32 DB Ford Coin Toss: MTU won toss defered, MC to receive, MTU defends N goal']
+['MTU ball on MTU35.']
+['Nick Deack kickoff 56 yards to the MAR9, fair catch by Austin Veatch.']
+Is this opponent scout? (Y/N)Are you Marietta College (H) or Mount Union (A)?Final score Marietta College 7 - Mount Union 37
+Folder name? (Scout team name default)

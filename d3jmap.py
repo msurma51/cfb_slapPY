@@ -1,19 +1,22 @@
 import json
+import subprocess
 import pandas as pd
 import numpy as np
 
 infile = open('parsed_schedules.json').read()
 link_list = json.loads(infile)
 link_dict = link_list[0]
-key_list = [key for key in link_dict.keys()]
-key_list.sort()
 
-df = pd.read_csv('d3info.csv').sort_values('School')
-teams = df['School']
-df = df.set_index('School')
-df['Match'] = None
-df['P'] = np.NaN
-df['Link'] = None
+
+df = pd.read_csv('d3jmap.csv', index_col='School')
+new_match = df[(df['Match'].notnull()) & (df['Link'].isnull())].copy()
+for index, row in new_match.iterrows():
+    if row['Match'] in link_dict.keys():
+        df.at[index,'Link'] = link_dict[row['Match']]
+
+no_match = df[df['Match'].isnull()].index
+key_list = [key for key in link_dict.keys() if key not in df['Match'].values]
+key_list.sort()
 key_match = list()
 
 def find_match(row, key_list, criterion):
@@ -29,14 +32,15 @@ def find_match(row, key_list, criterion):
         return(None)
     
 def jaccard(name,key):
-    a = {char for char in name if char.isalpha()}
-    b = {char for char in key if char.isalpha()}
+    a = {char.upper() for char in name if char.isalpha()}
+    b = {char.upper() for char in key if char.isalpha()}
     c = a & b
     d = a | b
     return len(c) / len(d)
 
+
 pair_list = list()    
-for team in teams:
+for team in no_match:
     for key in key_list:
         team_dict = dict()
         team_dict['School'] = team
@@ -44,13 +48,7 @@ for team in teams:
         team_dict['J'] = jaccard(team,key)
         pair_list.append(team_dict)
         
-        
-#for index,row in df.iterrows():
-#    df.at[index,'Match'] = find_match(row, key_list, jaccard)
     
-
-name = 'Alfred State'
-key = 'Alfred St.'
 picc_df = pd.DataFrame(pair_list).sort_values('J', ascending = False)
 
 while len(picc_df) > 0:

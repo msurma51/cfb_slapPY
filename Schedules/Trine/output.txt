@@ -1,0 +1,57 @@
+Enter -['1st']
+['1st and 10 at TRI35', 'MAN ball on MAN35, clock 15:00.']
+['', 'Andrew Kibler kickoff 65 yards to the TRI00, touchback.']
+Is this opponent scout? (Y/N)Are you Manchester (H) or Trine (A)?Final score Manchester 14 - Trine 52
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at RHIT35', 'Trine wins toss and defers']
+['1st and 10 at RHIT35', 'RHI will receive']
+['1st and 10 at RHIT35', 'TRI will defend South end-zone']
+['1st and 10 at RHIT35', 'Start of 1st quarter, clock 15:00, TRINE ball on TRINE35.']
+['', 'Ryan Hibbets kickoff 65 yards to the RHIT00, touchback.']
+Is this opponent scout? (Y/N)Are you Trine (H) or Rose-Hulman (A)?Final score Trine 30 - Rose-Hulman 31
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at LIONS35', 'Mt. St. Joseph wins toss and defers']
+['1st and 10 at LIONS35', 'TRI will receive']
+['1st and 10 at LIONS35', 'MSJ will defend North end-zone']
+['1st and 10 at LIONS35', 'Start of 1st quarter, clock 15:00, LIONS ball on LIONS35.']
+['', 'Murray,Ryan kickoff 60 yards to the TRINE05, Josh Davis return 31 yards to the TRINE36 (Finn,Jonathan).']
+Is this opponent scout? (Y/N)Are you Trine (H) or Mt. St. Joseph (A)?Final score Trine 31 - Mt. St. Joseph 30
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at TRINE35', 'Centre wins toss, defers.']
+['1st and 10 at TRINE35', 'Centre will kock off and defend the south goal.']
+['1st and 10 at TRINE35', 'CENTRE ball on CENTRE35.']
+['', 'Nick Kopp kickoff 55 yards to the TRINE10, Kyran Pearson return 15 yards to the TRINE25 (Cole Arendsen; Daylin Huff), PENALTY TRINE illegal block 10 yards to the TRINE15, 1st and 10, TRINE ball on TRINE15.']
+Score correction made in Trine @ Centre (index) quarter 2 drive 1
+Is this opponent scout? (Y/N)Are you Centre (H) or Trine (A)?Final score Centre 14 - Trine 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ADRIAN35', 'Trine wins toss and defers']
+['1st and 10 at ADRIAN35', 'ADR will receive']
+['1st and 10 at ADRIAN35', 'TRI will defend North end-zone']
+['1st and 10 at ADRIAN35', 'Start of 1st quarter, clock 15:00, TRINE ball on TRINE35.']
+['', 'Ryan Hibbets kickoff 65 yards to the ADRIAN00, touchback.']
+Is this opponent scout? (Y/N)Are you Trine (H) or Adrian (A)?Final score Trine 36 - Adrian 20
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at TRINE35', 'Trine wins toss, defers. Olivet will receive and defend north goal.']
+['', 'Ryan Hibbets kickoff 65 yards to the OLIVET0, touchback.']
+Is this opponent scout? (Y/N)Are you Olivet (H) or Trine (A)?Final score Olivet 14 - Trine 35
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at KZO35', 'Kalamazoo wins toss and defers; TRI will defend South end-zone; KZO will kickoff.']
+['1st and 10 at KZO35', 'Start of 1st quarter, clock 15:00.']
+['', 'Burr,Ian kickoff 50 yards to the TRI15 Davis,Joshua return 54 yards to the KZO31 (Burr,Ian).']
+Is this opponent scout? (Y/N)Are you Trine (H) or Kalamazoo (A)?Final score Trine 47 - Kalamazoo 13
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at ALB35', 'Albion wins toss and defers; TRI will receive; ALB will defend East end-zone.']
+['1st and 10 at ALB35', 'Start of 1st quarter, clock 15:00.']
+['1st and 10 at ALB35', 'Williams,Hunter kickoff 62 yards to the TRI03 Davis,Joshua return 87 yards to the ALB10 (Willis,Bobby) PENALTY TRI Holding (Orozco,Sylvester) 10 yards from TRI24 to TRI14.']
+['1st and 10 at ALB35', 'ALB ball on TRI14.']
+Is this opponent scout? (Y/N)Are you Albion (H) or Trine (A)?Final score Albion 31 - Trine 24
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at TRINE35', 'ALMA ball on ALMA35, clock 15:00.']
+['', 'Kaleb Kindsvatter kickoff 65 yards to the TRINE00, touchback.']
+Is this opponent scout? (Y/N)Are you Alma (H) or Trine (A)?Final score Alma 23 - Trine 37
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at HOP35', 'Hope wins toss and defers; TRI will receive; HOP will defend North end-zone.']
+['1st and 10 at HOP35', 'Start of 1st quarter, clock 15:00.']
+['', 'Hillger,Dylan kickoff 65 yards to the TRI00, Touchback.']
+Is this opponent scout? (Y/N)Are you Trine (H) or Hope (A)?Final score Trine 13 - Hope 17
+Folder name? (Scout team name default)

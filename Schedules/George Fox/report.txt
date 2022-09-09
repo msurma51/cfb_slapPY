@@ -1,0 +1,41 @@
+Final score George Fox 14 - Redlands 24
+Exception in George Fox at Chapman (index) quarter 0 drive 3
+	 ['Chapman at 12:35']
+	 ['Chapman at 12:35']
+	 ['1st and 10 at GFU27', 'CHAPMAN drive start at 12:35.']
+	 ['1st and 10 at GFU27', 'Woods,Isaiah rush up middle for no gain to the GFU27 (Smith,Abe;Knoll,Kross).']
+	 ['2nd and 10 at GFU27', 'MacIntyre,Jonst LE pass complete to Woods,Isaiah for 5 yards to the GFU22 (Knoll,Kross).']
+	 ['3rd and 5 at GFU22', 'MacIntyre,Jonst rush over left end for 5 yards to the GFU17, 1ST DOWN Panthers (Pasion,Anthony).']
+	 ['1st and 10 at GFU17', 'MacIntyre,Jonst rush up middle for 10 yards to the GFU7, 1ST DOWN Panthers.']
+	 ['1st and GOAL at GFU07', 'Mendoza,Tanner rush over right end for no gain to the GFU7 (ValenzuelaAaron).']
+	 ['2nd and GOAL at GFU07', 'MacIntyre,Jonst LE pass incomplete to Corona,Spencer.']
+	 ['3rd and GOAL at GFU07', 'MacIntyre,Jonst middle pass complete to Corona,Spencer for 4 yards to the GFU3 (Poppleton,Josh).']
+	 ['4th and GOAL at GFU03', 'Baierl,Ken field goal attempt from 20 GOOD, clock 08:30.']
+	 ['1st and GOAL at Panthers35', 'Tapia,Owen kickoff 56 yards to the GFU9, Montijo,Justin return 31 yards to the GFU40, out-of-bounds (Tapia,Owen).']
+	 ['Total', '8 plays , 24 yards Time of Possession: 4:05']
+	 ['George Fox 0-3 Chapman']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 59, in ddyl_parser
+    ddyl[distance] = int(dis[0])
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 899, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 743, in play_parser
+    play = ddyl_parser(string_list[0],poss)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 63, in ddyl_parser
+    ddyl[distance] = yl
+UnboundLocalError: local variable 'yl' referenced before assignment
+Final score Chapman 3 - George Fox 0
+Final score Pacific Lutheran 14 - George Fox 27
+Final score George Fox 44 - Willamette 14
+Score correction made in George Fox @ Puget Sound (index) quarter 3 drive 4
+Final score Puget Sound 28 - George Fox 49
+Final score George Fox 21 - Pacific (Ore.) 14
+Final score Linfield 38 - George Fox 7
+Score correction made in George Fox @ Lewis & Clark (index) quarter 1 drive 1
+Score correction made in George Fox @ Lewis & Clark (index) quarter 1 drive 2
+Final score Lewis & Clark 9 - George Fox 40
+Final score George Fox 16 - Whitworth 10

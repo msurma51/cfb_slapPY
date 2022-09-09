@@ -1,0 +1,61 @@
+Enter -['Start of 1st Half']
+['Macalester wins toss and elects to receive; MM defends south end zone']
+['UMM ball on UMM35.']
+['Alex Happ kickoff 40 yards to the MAC25, Josh Bulski return 10 yards to the MAC35 (Matt Laur).']
+Score correction made in Minnesota Morris @ Macalester (index) quarter 3 drive 3
+Score correction made in Minnesota Morris @ Macalester (index) quarter 3 drive 4
+Is this opponent scout? (Y/N)Are you Macalester (H) or Minnesota Morris (A)?Final score Macalester 38 - Minnesota Morris 32
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Trinity (TX) wins toss and will receive MAC will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MAC ball on MAC35.']
+['Jon Neve kickoff 65 yards to the TIGERS0, Stewart,Brian return 28 yards to the TIGERS28 (Brody Fuller).']
+Is this opponent scout? (Y/N)Are you Trinity (TX) (H) or Macalester (A)?Final score Trinity (TX) 64 - Macalester 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Macalester wins toss and defers STO will receive MAC will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MAC ball on MAC35.']
+['Jon Neve kickoff 50 yards to the STO15, Evan Hammonds return 9 yards to the STO24 (Brady Thompson).']
+Score correction made in Macalester @ St. Olaf (index) quarter 0 drive 2
+Is this opponent scout? (Y/N)Are you St. Olaf (H) or Macalester (A)?Final score St. Olaf 40 - Macalester 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Macalester wins toss and defers CAR will receive MAC will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MAC ball on MAC35.']
+['Jon Neve kickoff 54 yards to the CAR11, Brown,Travis return 14 yards to the CAR25 (TEAM).']
+Score correction made in Carleton @ Macalester (index) quarter 1 drive 3
+Score correction made in Carleton @ Macalester (index) quarter 1 drive 4
+Is this opponent scout? (Y/N)Are you Macalester (H) or Carleton (A)?Final score Macalester 10 - Carleton 24
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Macalester wins toss and defers Con will receive Mac will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MAC ball on MAC35.']
+['Jon Neve kickoff 30 yards to the CC35, Gagnon,Hayden return 8 yards to the CC43, out-of-bounds (Michael Poker).']
+Is this opponent scout? (Y/N)Are you Macalester (H) or Concordia-M'head (A)?Final score Macalester 27 - Concordia-M'head 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Macalester wins toss, defers; Augsburg to defend west end and receive.']
+['Jon Neve kickoff 34 yards to the AUG31, downed.']
+Is this opponent scout? (Y/N)Are you Augsburg University (H) or Macalester College (A)?Final score Augsburg University 37 - Macalester College 29
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Macalester wins toss and defers; BET will receive; MAC will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Neve,Jon kickoff 59 yards to the BET06 Jones,Nic return 15 yards to the BET21 (Davis,Jacob).']
+Is this opponent scout? (Y/N)Are you Bethel (MN) (H) or Macalester (A)?Final score Bethel (MN) 63 - Macalester 10
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Hamline wins toss and will kickoff MAC will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, HU ball on HU35.']
+['Peters,Matt kickoff 31 yards to the MAC34, Josh Bulski return 0 yards to the MAC34 (Olson,Spencer).']
+Is this opponent scout? (Y/N)Are you Macalester (H) or Hamline (A)?Final score Macalester 23 - Hamline 13
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Macalester wins toss and will receive; CSS will defend East end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Oswald,Kyle kickoff 49 yards to the MAC16 Pampel,Logan return 22 yards to the MAC38 (Oswald,Kyle).']
+Is this opponent scout? (Y/N)Are you St. Scholastica (H) or Macalester (A)?Final score St. Scholastica 14 - Macalester 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Macalester wins toss and will receive CAR will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CAR ball on CAR35.']
+['Ramirez,Trent kickoff 65 yards to the MAC0, Josh Bulski return 25 yards to the MAC25 (Detmer,Henry).']
+Is this opponent scout? (Y/N)Are you Macalester (H) or Carleton (A)?Final score Macalester 45 - Carleton 48
+Folder name? (Scout team name default)

@@ -1,0 +1,59 @@
+Enter -['Start of 1st Half']
+[' Central (IA) wins toss and defers STO will receive CEN will defend West end-zone']
+['Start of 1st quarter, clock 15:00.']
+['Clock 15:00.']
+['Logan Sunvold kickoff 64 yards to the STO1, Payton Schott return 34 yards to the STO35 (Brayden Egli).']
+Is this opponent scout? (Y/N)Are you St. Olaf (H) or Central (IA) (A)?Final score St. Olaf 27 - Central (IA) 46
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['luther won the toss defered st. olaf will recieve']
+['LUT ball on LUT35.']
+['Thane Larson kickoff 47 yards to the STO18, Evan Hammonds return 11 yards to the STO29 (X. Franquero;Mason Ross).']
+Is this opponent scout? (Y/N)Are you Luther (H) or St. Olaf (A)?Final score Luther 7 - St. Olaf 19
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Macalester wins toss and defers STO will receive MAC will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, MAC ball on MAC35.']
+['Neve,Jon kickoff 50 yards to the STO15, Evan Hammonds return 9 yards to the STO24 (Thompson,Brady).']
+Score correction made in Macalester @ St. Olaf (index) quarter 0 drive 2
+Is this opponent scout? (Y/N)Are you St. Olaf (H) or Macalester (A)?Final score St. Olaf 40 - Macalester 27
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['St. Olaf wins toss, defers; Augsburg to receive & defend east end.']
+['Tyler Huettel kickoff 65 yards to the AUG0, touchback.']
+Is this opponent scout? (Y/N)Are you Augsburg (H) or St. Olaf (A)?Final score Augsburg 56 - St. Olaf 28
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Carleton wins toss and defers STO will receive CAR will defend East end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, CAR ball on CAR35.']
+['Ramirez,Trent kickoff 65 yards to the STO0, touchback.']
+Is this opponent scout? (Y/N)Are you St. Olaf (H) or Carleton (A)?Final score St. Olaf 23 - Carleton 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[" Saint John's wins toss and defers STO will receive SJU will defend South end-zone"]
+['.']
+['Start of 1st quarter, clock 15:00, SJU ball on SJU35.']
+['Conor Pavelko kickoff 58 yards to the STO7, Evan Hammonds for 22 yards to the STO29, fumble forced by Hayden Sanders, fumble by Evan Hammonds recovered by SJU Dwayne Wade Jr. at STO29.']
+Is this opponent scout? (Y/N)Are you Saint John's (H) or St. Olaf (A)?Final score Saint John's 56 - St. Olaf 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. Olaf wins toss and defers CSS will receive STO will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, STO ball on STO35.']
+['Tyler Huettel kickoff 54 yards to the CSS11, out-of-bounds.']
+Is this opponent scout? (Y/N)Are you St. Olaf (H) or St. Scholastica (A)?Final score St. Olaf 41 - St. Scholastica 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Bethel (MN) wins toss and defers STO will receive BET will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, BU ball on BU35.']
+['Wieber,Brant kickoff 55 yards to the STO10, Evan Hammonds return 16 yards to the STO26 (Teigland,Matt;Go,Zenardi).']
+Is this opponent scout? (Y/N)Are you St. Olaf (H) or Bethel (MN) (A)?Final score St. Olaf 14 - Bethel (MN) 35
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. Olaf wins toss and defers GAC will receive STO will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, STO ball on STO35.']
+['Tyler Huettel kickoff 61 yards to the GAC4, Scott,Kaleb return 42 yards to the GAC46, out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Gust. Adolphus (H) or St. Olaf (A)?Final score Gust. Adolphus 29 - St. Olaf 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Augsburg wins toss and defers SOC will receive AUG will defend West end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, AUG ball on AUG35.']
+['Landon Ramos kickoff 48 yards to the STO17, Payton Schott return 20 yards to the STO37 (Marcus Mattox;Lavell Miller).']
+Is this opponent scout? (Y/N)Are you Augsburg (H) or St. Olaf (A)?Final score Augsburg 28 - St. Olaf 35
+Folder name? (Scout team name default)

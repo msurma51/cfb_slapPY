@@ -30,7 +30,7 @@ df = pd.DataFrame(plays, index = dex)
 # Create a list of columns desired for each dataframe. Will be presented in order in the csv export
 penalty_keys = [penalty, pen_team, against]
 penalty_cols = [key + '1' for key in penalty_keys] + [key + '2' for key in penalty_keys] + [pen_yards]
-cols = [opp_team, odk, possession, quarter, overtime, series, series_num, down, distance, yard_line, play_type, play_result, gn_ls, 
+cols = [opp_team, odk, possession, quarter, overtime, series, series_num, down, distance, yard_line, field_zone, play_type, play_result, gn_ls, 
         rusher, passer, pass_result, intended, broken_up_by, intercepted_by, hurried_by, tackler1, tackler2,
         fumble, fumbled_by, forced_by, recover_team, recovered_by, returner, ret_yards, return_to,        
         kicker, kick_yards, kick_to, kick_result, onside, punter, punt_yards, punt_to, punt_result, blocked_by,
@@ -94,10 +94,33 @@ def result_maker(play):
         return('Rush')
     else:
         return(play[play_type])
+        
+def field_zones(yard_line):
+    if yard_line < -44:
+        return fz_go_zone
+    elif yard_line < -25:
+        return fz_gold_zone
+    elif yard_line < -10:
+        return fz_coming_out
+    elif yard_line < 0:
+        return fz_backed_up
+    elif yard_line < 6:
+        return fz_redzone_low
+    elif yard_line < 14:
+        return fz_redzone
+    elif yard_line < 21:
+        return fz_redzone_high
+    elif yard_line < 36:
+        return fz_take_a_shot
+    else:
+        return fz_go_zone
 
 # Convert names to standard 'First Last' format
 df_name_fields = [key for key in name_keys if key in df.columns]    
 df[df_name_fields] = df[df_name_fields].applymap(name_converter, na_action='ignore')
+
+# Add field zones column
+df[field_zone] = df[yard_line].map(field_zones, na_action='ignore')
 
 # Determine whether user is scouting own team or opponent and which team is being scouted 
 scout = input('Is this opponent scout? (Y/N)')

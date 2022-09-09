@@ -1,0 +1,54 @@
+Enter -['Start of 1st Half']
+[' St. Norbert captains: 7, 23, 54, 56 Loras captains: 6, 13, 24, 28 Loras wins toss and defers. St. Norbert receives north end zone.']
+['LOR ball on LOR35.']
+['Zak Talbot kickoff 65 yards to the SNC0, Lawrence,Parker return 20 yards to the SNC20 (Sean Doyle).']
+Score correction made in Loras College @ St. Norbert College (index) quarter 2 drive 7
+Score correction made in Loras College @ St. Norbert College (index) quarter 2 drive 8
+Is this opponent scout? (Y/N)Are you St. Norbert College (H) or Loras College (A)?Final score St. Norbert College 21 - Loras College 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['St. Norbert will defer, Stout will defend south goal']
+['SNC ball on SNC35.']
+['Wodack,Brady kickoff 64 yards to the UWS1, Arthur Cox return 49 yards to the 50 yardline (Karcz,Kendall).']
+Is this opponent scout? (Y/N)Are you UW-Stout (H) or St. Norbert College (A)?Final score UW-Stout 34 - St. Norbert College 14
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['St. Norbert wins coin toss, defers. Lakeland receives opening kickoff']
+['SNC ball on SNC35.']
+['Wodack,Brady kickoff 55 yards to the LU10, Martin, Devin return 8 yards to the LU18 (Santos,Kyle), PENALTY LU holding (Rido, Jaylen) 9 yards to the LU9, 1st and 10, LU ball on LU9.']
+Is this opponent scout? (Y/N)Are you Lakeland Univ. (H) or St. Norbert College (A)?Final score Lakeland Univ. 40 - St. Norbert College 8
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' Benedictine captains: 7, 8, 15, 52 St. Norbert captains: 7, 23, 54, 56 Benedictine wins toss and defers. St. Norbert receives north end.']
+['Mateus, Tanner kickoff 41 yards to the SNC24, Lawrence,Parker return 11 yards to the SNC35 (Green, Danny).']
+Is this opponent scout? (Y/N)Are you St. Norbert College (H) or Benedictine Univ. (A)?Final score St. Norbert College 34 - Benedictine Univ. 41
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. Norbert captains: 7, 23, 54, 56 Wisconsin Lutheran captains: 6, 11, 14, 24 St. Norbert wins toss and defers. WLC receives in north end.']
+['SNC ball on SNC35.']
+['Wodack,Brady kickoff 65 yards to the WLC0, DuPree, Mike return 17 yards to the WLC17 (Santos,Kyle).']
+Is this opponent scout? (Y/N)Are you St. Norbert College (H) or Wisconsin Lutheran (A)?Final score St. Norbert College 68 - Wisconsin Lutheran 0
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. Norbert wins toss and defers CUW will receive SNC will defend North end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SNC ball on SNC35.']
+['Wodack,Brady kickoff 61 yards to the CUW4, Summers III, P. return 31 yards to the CUW35, out-of-bounds (Karcz,Kendall).']
+Is this opponent scout? (Y/N)Are you Concordia Wisconsin (H) or St. Norbert College (A)?Final score Concordia Wisconsin 24 - St. Norbert College 14
+Player name overlap detected in St. Norbert College at Concordia Wisconsin. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. Norbert captains: 7, 23, 54, 56 Aurora captains: 1, 7, 10, 20 Aurora wins toss and will receive in north end zone.']
+['SNC ball on SNC35.']
+['Wodack,Brady kickoff 60 yards to the AU5, Whitehead, M. return 38 yards to the AU43 (Campbell,Alex).']
+Is this opponent scout? (Y/N)Are you St. Norbert College (H) or Aurora Univ. (A)?Final score St. Norbert College 7 - Aurora Univ. 25
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. Norbert captains: 7, 23, 54, 56 Rockford captains: 2, 4, 11, 28 Rockford wins toss and defers choice. St. Norbert receives north end.']
+['Pavlak, Henry kickoff 22 yards to the SNC43, fair catch by Hoeft,Tommy.']
+Is this opponent scout? (Y/N)Are you St. Norbert College (H) or Rockford Univ. (A)?Final score St. Norbert College 77 - Rockford Univ. 7
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Red Devils will receive']
+['SNC ball on SNC35.']
+['Wodack,Brady kickoff 64 yards to the EC1, Sebastian Hill return 16 yards to the EC17 (Santos,Kyle;Barnett,Sam).']
+Is this opponent scout? (Y/N)Are you Eureka College (H) or St. Norbert College (A)?Final score Eureka College 21 - St. Norbert College 70
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+[' St. Norbert wins toss and defers CUC will receive SNC will defend South end-zone']
+['.']
+['Start of 1st quarter, clock 15:00, SNC ball on SNC35.']
+['Wodack,Brady kickoff 63 yards to the CUC2, Elliott, Drue return 13 yards to the CUC15 (Barnett,Sam).']
+Is this opponent scout? (Y/N)Are you Concordia Chicago (H) or St. Norbert College (A)?Final score Concordia Chicago 0 - St. Norbert College 34
+Folder name? (Scout team name default)

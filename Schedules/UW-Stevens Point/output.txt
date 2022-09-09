@@ -1,0 +1,49 @@
+Enter -['Start of 1st Half']
+['MAYVILLE ball on MAYVILLE35, clock 15:00.']
+['Kaden Johnson kickoff 57 yards to the UWSP8, Aguilera return 15 yards to the UWSP23 (Tishawn Steele).']
+Is this opponent scout? (Y/N)Are you Mayville State (H) or UW-Stevens Point (A)?Final score Mayville State 14 - UW-Stevens Point 31
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['SIM ball on SIM35, clock 15:00.']
+['Hansen,Parker kickoff 64 yards to the UWSP1, Moore Jr. return 27 yards to the UWSP28 (Damman,Cole), out-of-bounds.']
+Is this opponent scout? (Y/N)Are you Simpson (H) or UW-Stevens Point (A)?Final score Simpson 7 - UW-Stevens Point 34
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Stevens Point wins toss and defers; UWS will receive; STP will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ponterio,Victor kickoff 65 yards to the UWS00, Touchback.']
+Is this opponent scout? (Y/N)Are you Wis.-Stevens Point (H) or Wis.-Stout (A)?Final score Wis.-Stevens Point 14 - Wis.-Stout 45
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Eau Claire wins toss and defers; STP will receive; WEC will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Frantal,Brady kickoff 40 yards to the STP25 Nelson,Bo return 0 yards to the STP25, End Of Play.']
+Is this opponent scout? (Y/N)Are you Wis.-Stevens Point (H) or Wis.-Eau Claire (A)?Final score Wis.-Stevens Point 15 - Wis.-Eau Claire 25
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Stevens Point wins toss and defers; WRF will receive; WSP will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ponterio,Victor kickoff 64 yards to the WRF01 Blaha,Kaleb return 24 yards to the WRF25 (Wiggins,Reese).']
+Is this opponent scout? (Y/N)Are you Wis.-Stevens Point (H) or UW-River Falls (A)?Final score Wis.-Stevens Point 20 - UW-River Falls 56
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Stout wins toss. Stout defers. Stout defends North ez.']
+['STOUT ball on STOUT35.']
+['Jack Meyer kickoff 56 yards to the UWSP9, Moore Jr. return 19 yards to the UWSP28 (Carson Strong).']
+Is this opponent scout? (Y/N)Are you UW-Stout (H) or UW-Stevens Point (A)?Final score UW-Stout 37 - UW-Stevens Point 12
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Platteville wins toss and defers; UWS will receive; UWP will defend South end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['kickoff 60 yards to the UWS05 Stigall,Jahi return 31 yards to the UWS36 (Hoff,Drew), out of bounds.']
+Is this opponent scout? (Y/N)Are you Wis.-Platteville (H) or Wis.-Stevens Point (A)?Final score Wis.-Platteville 45 - Wis.-Stevens Point 21
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Stevens Point wins toss and will receive; WLC will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Beirne,Ryan kickoff 65 yards to the STP00, Touchback.']
+Is this opponent scout? (Y/N)Are you Wis.-Stevens Point (H) or Wis.-La Crosse (A)?Final score Wis.-Stevens Point 3 - Wis.-La Crosse 56
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['UWSP wins toss and differs. UWO will receive kick.']
+['Ponterio kickoff 51 yards to the UWO14, Terrell Carey return 6 yards to the UWO20 (Berry).']
+Is this opponent scout? (Y/N)Are you UW-Oshkosh (H) or UW-Stevens Point (A)?Final score UW-Oshkosh 49 - UW-Stevens Point 17
+Player name overlap detected in UW-Stevens Point at UW-Oshkosh. Check possession transitions
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Wis.-Stevens Point wins toss and defers; UWW will receive; WSP will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Ponterio,Victor kickoff 45 yards to the UWW20 Edmonson,Jaylon return for 3 yards loss to the UWW20 fumbled by Edmonson,Jaylon at UWW20 recovered by WSP Wis.-Stevens Point at UWW17, End Of Play.']
+Is this opponent scout? (Y/N)Are you Wis.-Stevens Point (H) or Wis.-Whitewater (A)?Final score Wis.-Stevens Point 10 - Wis.-Whitewater 56
+Folder name? (Scout team name default)

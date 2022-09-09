@@ -1,0 +1,20 @@
+Final score Centre 56 - Hanover 34
+Final score Hanover 21 - Adrian 14
+Final score Albion 24 - Hanover 14
+Final score Hanover 49 - Anderson (IN) 0
+Final score Rose-Hulman 31 - Hanover 21
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 51, in pbp_parser
+    name_dict[home_kicker] = kicker_names[-1]
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 30, in taster
+    setting_strings = [string for string in setting_tag.stripped_strings]
+AttributeError: 'NoneType' object has no attribute 'stripped_strings'
+Final score Bluffton 10 - Hanover 41
+Final score Hanover 33 - Manchester 0
+Final score Mt. St. Joseph 23 - Hanover 6
+Final score Hanover 16 - Franklin 27

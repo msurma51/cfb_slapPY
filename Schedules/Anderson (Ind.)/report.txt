@@ -1,0 +1,21 @@
+Final score (RV) Hope 40 - Anderson (Ind.) 1
+Player name overlap detected in AU at Hope. Check possession transitions
+Final score Anderson (Ind.) 39 - Lakeland 54
+Final score Alma 51 - Anderson (Ind.) 2
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 10, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 13, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 44, in taster
+    name_dict[away_kicker] = kicker_names[0][0]
+IndexError: list index out of range
+Final score Anderson (Ind.) 20 - Bluffton 32
+Final score Rose-Hulman 55 - Anderson (Ind.) 14
+Final score Anderson (Ind.) 0 - Franklin 17
+Final score Mt. St. Joseph 41 - Anderson (Ind.) 12
+Final score Anderson (Ind.) 42 - Defiance 14
+Final score Manchester 3 - Anderson (Ind.) 0

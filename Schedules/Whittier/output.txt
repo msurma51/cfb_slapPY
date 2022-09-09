@@ -1,0 +1,61 @@
+Enter -['1st']
+['1st and 10 at WC35', 'ULV ball on ULV35, clock 15:00.']
+['', 'K. Kamakawiwool kickoff 55 yards to the WC10, Moises Gonzalez return 21 yards to the WC31 (Kelvin Richards).']
+Is this opponent scout? (Y/N)Are you La Verne (H) or Whittier (A)?Final score La Verne 42 - Whittier 0
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at POMONA-P35', 'POMONA-P ball on POMONA-P35, clock 15:00.']
+['', 'Cameron Shirang kickoff 0 yards to the POMONA-P35, Andres Ruvalcab return -33 yards to the WHITTIER32 (Joshua Yen; Nate Barewin).']
+Is this opponent scout? (Y/N)Are you Whittier (H) or Pomona-Pitzer (A)?Final score Whittier 16 - Pomona-Pitzer 59
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WHITTIER35', 'WHITTIER captains: 1-M.Gonzalez, 4-H.Williams']
+['1st and 10 at WHITTIER35', 'Start of 1st quarter, clock 15:00, LCFB ball on LCFB35.']
+['', 'Clock 15:00, Moses, Hayden kickoff 58 yards to the WHITTIER7, Moises Gonzalez return 18 yards to the WHITTIER25 (Fajardo, Jordan;Pham, Daniel).']
+Is this opponent scout? (Y/N)Are you Lewis & Clark (H) or Whittier (A)?Final score Lewis & Clark 66 - Whittier 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WHITTIER35', 'WHITTIER ball on WHITTIER35, clock 15:00.']
+['', 'Noah Handel kickoff 63 yards to the POMONA-P02, Kenric Jameison return 21 yards to the POMONA-P23 (Blake Boucher).']
+Is this opponent scout? (Y/N)Are you Pomona-Pitzer (H) or Whittier (A)?Final score Pomona-Pitzer 56 - Whittier 3
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WHI35', 'Whittier wins toss and will kickoff; CHA will defend East end-zone.']
+['1st and 10 at WHI35', 'Start of 1st quarter, clock 15:00.']
+['1st and 10 at WHI35', 'Handel,Noah kickoff 60 yards to the CHA05 Ragas,Nico return 25 yards to the CHA30 (Hanamaikai,Nocholas) PENALTY CHA Illegal Block in Back (Dural,Jalen) 10 yards from CHA25 to CHA15.']
+['1st and 10 at WHI35', 'CHA ball on CHA15.']
+Is this opponent scout? (Y/N)Are you Chapman (H) or Whittier (A)?Final score Chapman 57 - Whittier 14
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at CLAREMON35', 'WHITTIER ball on WHITTIER35, clock 15:00.']
+['', 'Noah Handel kickoff 40 yards to the CLAREMON25, fair catch by James Catron.']
+Is this opponent scout? (Y/N)Are you Whittier (H) or Claremont-M-S (A)?Final score Whittier 13 - Claremont-M-S 50
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at LA VERNE35', 'LA VERNE ball on LA VERNE35, clock 15:00.']
+['', 'Kapena Kamakawi kickoff 57 yards to the WHITTIER08, Andres Ruvalcab return 22 yards to the WHITTIER30 (Arthur Delgado).']
+Exception in La Verne at Whittier (index) quarter 3 drive 7
+	 ['La Verne at 05:02']
+	 ['1st and 10 at LA VERNE35', 'La Verne drive start at 05:02.']
+	 ['1st and 10 at LA VERNE35', "Daushin Wright rush for 20 yards to the WHITTIER45 (Sha'Cobe Marzet; Andres Ruvalcab)."]
+	 ['1st and 10 at WHITTIER45', 'Daushin Wright rush for loss of 2 yards to the WHITTIER47, fumble by Daushin Wright recovered by LA VERNE Daushin Wright at WHITTIER47.']
+	 ['2nd and 12 at WHITTIER47', 'Daushin Wright rush for no gain to the WHITTIER47 (Aaron Martinez).']
+	 ['3rd and 12 at WHITTIER47', 'JD Curran pass incomplete to Makena Ramos Ka (Sam Aseh).']
+	 ['4th and 12 at WHITTIER47', 'Arturo Herrera- punt 39 yards to the WHITTIER08, downed.']
+	 ['4 plays, 18 yards, 02:12 elapsed']
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 1032, in game_builder
+    plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 899, in drive_parser
+    play = play_parser(drive[start],game_state[possession],re_select,name_ref)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 785, in play_parser
+    play = add_fumble(play,poss,f_string,re_select,fumble_n)
+  File "C:\Users\surma\Python\cfb_slapPY\play_maker_hudl.py", line 119, in add_fumble
+    recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
+KeyError: 'LA'
+
+Is this opponent scout? (Y/N)Are you Whittier (H) or La Verne (A)?Final score Whittier 26 - La Verne 50
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at WTR35', 'Whittier wins toss and defers; CLU will receive; WTR will defend South end-zone.']
+['1st and 10 at WTR35', 'Start of 1st quarter, clock 15:00.']
+['', 'Handel,Noah kickoff 45 yards to the CLU20 McDermott,Connor return 17 yards to the CLU37 (Ortiz-Valenzuela,Alex).']
+Is this opponent scout? (Y/N)Are you Cal Lutheran (H) or Whittier (A)?Final score Cal Lutheran 45 - Whittier 8
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at REDLANDS35', 'REDLANDS ball on REDLANDS35, clock 15:00.']
+['', 'Brendan Marmion kickoff 61 yards to the WHITTIER04, Andres Ruvalcab return 10 yards to the WHITTIER14, fumble forced by Joseph Rosales, fumble by Andres Ruvalcab recovered by REDLANDS Troy "TC" Willi at WHITTIER14 (Hakim Williams).']
+Is this opponent scout? (Y/N)Are you Whittier (H) or Redlands (A)?Final score Whittier 7 - Redlands 65
+Folder name? (Scout team name default)
