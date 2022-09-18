@@ -1,5 +1,6 @@
 import re
 import traceback
+from fuzzywuzzy import fuzz
 from hudl_namespace import *
 
 def get_name_format(player_name):
@@ -115,6 +116,15 @@ def add_fumble(play,poss,f_string,re_select,fumble_n):
         play[fum_keys[0]] = fumbler[0]
     recovery = re.findall("recovered by ([A-Z\d&']+) ",f_string)
     if len(recovery) > 0:
+        if recovery[0] not in re_select.keys():
+            abbr_match = False
+            for key in re_select.keys():
+                if key in recovery[0]:
+                    abbr_match = True
+                    recovery[0] = key
+            if not abbr_match:
+                fuzzy_dict = {key:fuzz.ratio(key,recovery[0]) for key in re_select.keys()}
+                recovery = [key for key in fuzzy_dict if fuzzy_dict[key] == max(fuzzy_dict.values())]
         play[fum_keys[1]] = recovery[0]
         recovered_by_name = re.findall('recovered by ' + recovery[0] + ' ' + re_select[recovery[0]],f_string)
         if len(recovered_by_name) > 0:
@@ -206,7 +216,7 @@ def add_return(play,r_string,poss,name_re):
 
 def run_parser(play,desc,name_re):
     play[play_type] = type_run
-    rb = re.findall(name_re + ' rush',desc)
+    rb = re.findall(name_re + '.+?rush',desc)
     if len(rb) > 0:
         play[rusher] = rb[0]
     if desc.find(' no gain') > -1:
@@ -216,6 +226,9 @@ def run_parser(play,desc,name_re):
     if desc.find(" loss ") > -1:
         gain_loss = gain_loss*(-1)
     play[gn_ls] = gain_loss
+    direction = re.findall('( left| middle| right)',desc)
+    if len(direction) > 0:
+        play[rush_direction] = direction[0].strip()
     return(play)
 
 
@@ -244,8 +257,14 @@ def pass_parser(play,desc,poss,re_select):
             gain_loss = int(re.findall(' ([0-9]+) ',desc)[0])*(-1)
         play[pass_result] = pass_sack
     play[gn_ls] = gain_loss
+    # Determine pass depth and direction if it's there
+    pattern = '( short| deep)( left| middle| right)'
+    pass_info = re.findall(pattern,desc)
+    if len(pass_info) > 0:
+        play[pass_depth] = pass_info[0][0].strip()
+        play[pass_direction] = pass_info[0][1].strip()
     # Determine intended WR and whether QB was intercepted or hurried
-    intended_name = re.findall("complete to " + re_select[poss],desc)
+    intended_name = re.findall("complete.+?to " + re_select[poss],desc)
     if len(intended_name) > 0:
         play[intended] = intended_name[0]
     intercepted = re.findall("intercepted by " + re_select[defense],desc)

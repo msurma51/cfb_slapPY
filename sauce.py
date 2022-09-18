@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 import os
 from hudl_namespace import *
+import json
+
 url = input('Enter -')
 try:
     from pbp_parser_func import pbp_parser
@@ -31,7 +33,7 @@ df = pd.DataFrame(plays, index = dex)
 penalty_keys = [penalty, pen_team, against]
 penalty_cols = [key + '1' for key in penalty_keys] + [key + '2' for key in penalty_keys] + [pen_yards]
 cols = [opp_team, odk, possession, quarter, overtime, series, series_num, down, distance, yard_line, field_zone, play_type, play_result, gn_ls, 
-        rusher, passer, pass_result, intended, broken_up_by, intercepted_by, hurried_by, tackler1, tackler2,
+        rusher, rush_direction, passer, pass_depth, pass_direction, pass_result, intended, broken_up_by, intercepted_by, hurried_by, tackler1, tackler2,
         fumble, fumbled_by, forced_by, recover_team, recovered_by, returner, ret_yards, return_to,        
         kicker, kick_yards, kick_to, kick_result, onside, punter, punt_yards, punt_to, punt_result, blocked_by,
         placekicker, fg_dist, fg_result, xp_result, two_point_attempt, taken_by, first_down, touchdown, no_play, nullified, safety,
@@ -243,4 +245,13 @@ if len(folder_name) < 1:
     folder_name = name_dict[scout_team]
 if not os.path.exists('Schedules\\'+folder_name):
     os.mkdir('Schedules\\'+folder_name)
-df[cols].to_csv('Schedules\\{}\\{} {}.csv'.format(folder_name,date_str,game_str))
+file_name = '{} {}'.format(date_str,game_str)
+df[cols].to_csv('Schedules\\{}\\{}.csv'.format(folder_name,file_name))
+
+# Add file name : url pair to dict in json to track which games have been parsed / exported
+infile = open('parsed_games_2022.json').read()
+link_list = json.loads(infile)
+link_dict = link_list[0]
+link_dict[file_name] = url
+with open('parsed_games_2022.json', 'w') as outfile:
+    json.dump([link_dict,*link_list[1:]],outfile)
