@@ -8,7 +8,7 @@ except:
     from taster_func import taster
     quarters, name_dict = taster(url)  
 from play_maker_hudl import *
-game_info = game_builder(quarters, name_dict, i_stop=2)
+game_info = game_builder(quarters, name_dict, i_stop=1, j_stop=5)
 
 '''
 curr_drive = quarters[4][4]

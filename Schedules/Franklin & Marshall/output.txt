@@ -1,0 +1,96 @@
+Enter -['1st']
+['1st and 10 at LVC35', 'FMC ball on FMC35, clock 15:00.']
+['', 'Jack Rodenberge kickoff 60 yards to the LVC05, Jay Sisko return 10 yards to the LVC15 (Daniel Shakal).']
+Is this opponent scout? (Y/N)Are you Franklin & Marshall (H) or Lebanon Valley (A)?Final score Franklin & Marshall 26 - Lebanon Valley 7
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at FMC35', 'Franklin & Marshall wins toss and defers']
+['1st and 10 at FMC35', 'SUS will receive']
+['1st and 10 at FMC35', 'F&M will defend West end-zone']
+['1st and 10 at FMC35', 'Start of 1st quarter, clock 15:00, FMC ball on FMC35.']
+['', 'J. Rodenberger kickoff 60 yards to the SUSQ05, Howes,Kyle return 95 yards to the FMC00, TOUCHDOWN, clock 14:44.']
+Name regex correction made for #25 Susquehanna using Negrini,Frankie
+Score correction made in Franklin & Marshall @ #25 Susquehanna (index) quarter 2 drive 2
+Score correction made in Franklin & Marshall @ #25 Susquehanna (index) quarter 2 drive 5
+Score correction made in Franklin & Marshall @ #25 Susquehanna (index) quarter 3 drive 6
+Score correction made in Franklin & Marshall @ #25 Susquehanna (index) quarter 3 drive 8
+Score correction made in Franklin & Marshall @ #25 Susquehanna (index) quarter 3 drive 8
+Is this opponent scout? (Y/N)Are you #25 Susquehanna (H) or Franklin & Marshall (A)?Final score #25 Susquehanna 39 - Franklin & Marshall 29
+Folder name? (Scout team name default)Enter -['1st']
+['1st and 10 at FMC35', 'MCD ball on MCD35.']
+['', 'William Looney kickoff 65 yards to the FMC00, touchback.']
+Is this opponent scout? (Y/N)Are you McDaniel (H) or Franklin & Marshall (A)?Final score McDaniel 3 - Franklin & Marshall 35
+Folder name? (Scout team name default)Enter -Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 12, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 17, in taster
+    name_dict[away_name] = team_names[0].string
+IndexError: list index out of range
+Enter -Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 12, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 17, in taster
+    name_dict[away_name] = team_names[0].string
+IndexError: list index out of range
+Enter -Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 12, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 17, in taster
+    name_dict[away_name] = team_names[0].string
+IndexError: list index out of range
+Enter -Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 12, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 17, in taster
+    name_dict[away_name] = team_names[0].string
+IndexError: list index out of range
+Enter -Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 12, in <module>
+    quarters, name_dict = pbp_parser(url)
+  File "C:\Users\surma\Python\cfb_slapPY\pbp_parser_func.py", line 21, in pbp_parser
+    name_dict[home_name] = drive_chart('a', href='#home-drives')[0].string
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\surma\Python\cfb_slapPY\sauce.py", line 15, in <module>
+    quarters, name_dict = taster(url)  
+  File "C:\Users\surma\Python\cfb_slapPY\taster_func.py", line 17, in taster
+    name_dict[away_name] = team_names[0].string
+IndexError: list index out of range

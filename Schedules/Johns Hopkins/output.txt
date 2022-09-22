@@ -1,0 +1,17 @@
+Enter -['Start of 1st Half']
+[' Case wins the toss and will defer JHU will receive and defend the south end zone']
+['CWR ball on CWR35.']
+['Barney,Ben kickoff 52 yards to the JHU13, PJ Scales return 60 yards to the CWR27 (McCrae,Jack).']
+Is this opponent scout? (Y/N)Are you scouting Case Western Reserve (H) or Johns Hopkins (A)?Final score Case Western Reserve 14 - Johns Hopkins 54
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['JHU ball on JHU35.']
+["Joe Zahner kickoff 53 yards to the URSINUS12, Michael D'Amico return 18 yards to the URSINUS30 (Jack Jurkovich)."]
+Score correction made in Johns Hopkins @ Ursinus (index) quarter 2 drive 10
+Score correction made in Johns Hopkins @ Ursinus (index) quarter 2 drive 11
+Is this opponent scout? (Y/N)Are you scouting Ursinus (H) or Johns Hopkins (A)?Final score Ursinus 29 - Johns Hopkins 36
+Folder name? (Scout team name default)Enter -['Start of 1st Half']
+['Johns Hopkins wins toss and defers; JUN will receive; JHU will defend North end-zone.']
+['Start of 1st quarter, clock 15:00.']
+['Zahner,Joe kickoff 45 yards to the JUN20 Nash,Austin return 3 yards to the JUN23 (Van Kouteren,Duncan; Bourdo,Carson).']
+Is this opponent scout? (Y/N)Are you scouting Johns Hopkins (H) or Juniata (A)?Final score Johns Hopkins 70 - Juniata 0
+Folder name? (Scout team name default)

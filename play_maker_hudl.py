@@ -51,7 +51,7 @@ def ddyl_parser(string,poss):
         else:
             yl = int(yl_string)
         # Determine whether offense is in their own territory
-        if yl_split[0][0] == poss:
+        if yl_split[0][0] == poss and yl != 50:
             yl = yl*(-1)
         ddyl[yard_line] = yl
     except:
@@ -741,10 +741,17 @@ def possession_finder(drive,name_dict):
     # Try to find 'ball' in drive strings
     if not poss:
         for row in drive:
-            has_ball = re.findall("([A-Z\d&']+) ball",row[-1])
+            has_ball = re.findall("([A-Z\d&' ]+) ball",row[-1])
             if len(has_ball) > 0:
-                poss = has_ball[0]
-                break
+                if has_ball[0] in (name_dict[home_abbr],name_dict[away_abbr]):
+                    poss = has_ball[0]
+                    break
+                elif has_ball[0] in name_dict[home_abbr] or name_dict[home_abbr] in has_ball[0]:
+                    poss = name_dict[home_abbr]
+                    break
+                elif has_ball[0] in name_dict[away_abbr] or name_dict[away_abbr] in has_ball[0]:
+                    poss = name_dict[away_abbr]
+                    break
     # Try to identify kicker name and match with kick team
     if not poss:
         kick_team = kicker_match(drive[-1][-1],name_dict)
@@ -957,8 +964,14 @@ def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1,score_correct=
     game_state.update(game_start)
     # Set name format for each team
     re_select = dict()
-    re_select[name_dict[home_abbr]] = get_name_format(name_dict[home_kicker])
-    re_select[name_dict[away_abbr]] = get_name_format(name_dict[away_kicker])
+    if home_player in name_dict.keys():
+        re_select[name_dict[home_abbr]] = get_name_format(name_dict[home_player])
+    else:    
+        re_select[name_dict[home_abbr]] = get_name_format(name_dict[home_kicker])
+    if away_player in name_dict.keys():
+        re_select[name_dict[away_abbr]] = get_name_format(name_dict[away_player])
+    else:    
+        re_select[name_dict[away_abbr]] = get_name_format(name_dict[away_kicker])
     # Determine coin toss results 
     first_drive = quarters[0][0]
     toss_info = toss_parser(first_drive,name_dict)
@@ -1049,6 +1062,36 @@ def game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1,score_correct=
                     else:
                         game_state[possession] = ball.get()
                     plays = drive_parser(drive,game_state,re_select,i,j,score_correct)
+                    # Check to see if name regex formats (name_re) are correctly identified
+                    
+                    if i == 0 and j < 4:    
+                        check_plays = [play for play in plays if play_type in play.keys()]
+                        missing_names_pass = [play for play in check_plays if play[play_type] == type_pass and passer not in play.keys()]
+                        missing_names_run = [play for play in check_plays if play[play_type] == type_run and rusher not in play.keys()]
+                        # If it ain't broke don't fix it
+                        name_capture = None
+                        if missing_names_run:
+                            for row in drive:
+                                if row[-1].find('rush') > -1:
+                                    name_capture = re.findall('(?:No Huddle-Shotgun )*(.+)(?: left| right| middle)* rush',row[-1],re.IGNORECASE)
+                                    if len(name_capture) > 0:
+                                        break
+                        elif missing_names_pass:
+                            for row in drive:
+                                if row[-1].find('pass') > -1:
+                                    name_capture = re.findall('(?:No Huddle-Shotgun )*(.+)(?: short| deep)* pass',row[-1],re.IGNORECASE)
+                                    if len(name_capture) > 0:
+                                        break
+                        # If a player name can be isolated, add it to name_dict and re-run game_builder 
+                        if name_capture:
+                            if game_state[possession] == name_dict[home_abbr]:
+                                name_dict[home_player] = name_capture[0]
+                                print('Name regex correction made for {} using {}'.format(name_dict[home_name],name_capture[0]))
+                            else:
+                                name_dict[away_player] = name_capture[0]
+                                print('Name regex correction made for {} using {}'.format(name_dict[away_name],name_capture[0]))
+                            return game_builder(quarters,name_dict,i_stop=-1,j_stop=-1,d_stop=-1,score_correct=score_correct)    
+                         
                     # Determine drive end and update info
                     info = plays[0]       
                     info.update(drive_end_finder(plays))
