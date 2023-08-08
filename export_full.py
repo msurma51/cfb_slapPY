@@ -29,7 +29,7 @@ cur.execute('SELECT * FROM Full_Export')
 fields = [desc[0] for desc in cur.description]
 plays = cur.fetchall()
 
-filename = input('What slapdick team are you scouting?') + '.csv'
+filename = input('What team are you scouting?') + '.csv'
 with open(filename, 'w') as csv_file:
     csv_writer = csv.writer(csv_file, lineterminator = '\n')
     csv_writer.writerow(fields)
