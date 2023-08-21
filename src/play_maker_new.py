@@ -125,17 +125,23 @@ for xp_type in ('kick', 'rush', 'pass'):
         for col in df_xp:
             df_xp[col] = df_xp[col] + df_xp_type[col]
 
+fg_result_pat = ' field goal attempt from (?P<fg_dist>\d{1,2}) (?P<fg_result>good|successful|no good|failed)'
+df_fg = name_extract(df['play_str'], '^', ' field goal attempt', name_patterns, prefix = 'fg_' )
+df_fg = pd.concat((df_fg, df['play_str'].str.extract(fg_result_pat, flags = re.IGNORECASE)), axis = 1).fillna('')
+
 # Extract kickoff and punt info
 df_ko = kick_extract(df['play_str'], 'kickoff', name_patterns)
 df_punt = kick_extract(df['play_str'], 'punt', name_patterns)
+df_kp = df_ko + df_punt
+
 
 # Extract return info
-df_return = name_extract(df['play_str'], '', ' return', name_patterns, prefix = 'ret_')
+df_return = name_extract(df['play_str'], '', ' return', name_patterns, prefix = 'retBy_')
 df_retYards = df['play_str'].str.extract("return (?P<ret_yards>\d{1,2}) yard(?:s)?")
 yl_str = "return .*? to the (?P<ret_terr>[A-Z\d']+?)(?P<ret_yl>[0-9]{1,2})"
 df_retYL = df['play_str'].str.extract(yl_str)
 df_return = pd.concat((df_return, df_retYards, df_retYL), axis = 1)
-df = pd.concat((df, df_xp, df_ko, df_punt, df_return), axis = 1)
+df = pd.concat((df, df_xp, df_kp, df_fg, df_return), axis = 1)
 
 # Extract tackler info
 df['tackle_str'] = df['play_str'].str.extract('(.*)(?:PENALTY.*)$')
@@ -149,13 +155,30 @@ df_tackler2 = name_extract(tackler_df[1], '', '', name_patterns, prefix = 'tackl
 df['pen_str'] = df['play_str'].str.extract('(PENALTY.*)', flags = re.IGNORECASE)
 df['presnap_pen'] = df['play_str'].str.startswith('PENALTY')
 player_pen_strings = df['pen_str'].str.extract("\((.*)\)").squeeze().str.strip().fillna('')
-df_pen = name_extract(player_pen_strings, '', '', name_patterns, prefix = 'pen_')
+df_pen = name_extract(player_pen_strings, '', '', name_patterns, prefix = 'penOn_')
 pen_pat = "PENALTY (?P<pen_team>[A-Z'\d]+) (?P<penalty>[a-zA-Z ]+[a-zA-Z])? ?(?P<pen_yards>\d{1,2})"
 df_pen = pd.concat((df_pen,df['pen_str'].str.extract(pen_pat)), axis = 1)
-df = pd.concat((df, df_tackler1, df_tackler2, df_pen), axis = 1)
+
+
+# Extract fumble info
+df['fumble_str'] = df['play_str'].str.extract(' (fumble.*)')
+df_fum = name_extract(df['fumble_str'], 'fumble by ', '', name_patterns, prefix = 'fumbleBy_')
+recov_by_pat = "recovered by (?P<recovery_team>[A-Z\d']+) "
+df_fum = pd.concat((df_fum, name_extract(df['fumble_str'], recov_by_pat, '', 
+                                         name_patterns, prefix = 'recoveredBy_')), axis = 1)
+fum_yl = df['fumble_str'].str.extract("at (?P<recov_terr>[A-Z\d']+?)(?P<recov_yl>[0-9]{1,2})")
+df_fum = pd.concat((df_fum, fum_yl), axis =1)
+df = pd.concat((df, df_tackler1, df_tackler2, df_fum, df_pen), axis = 1)
+
+# Get times where posted
+df['game_clock'] = ''
+for token in (' at', ' clock'):
+    time_series = df['play_str'].str.extract(token + ' (\d{1,2}:\d{2})').squeeze().fillna('')
+    df['game_clock'] = df.game_clock + time_series
+df['game_clock'] = df['game_clock'].replace('', np.NaN).ffill().bfill()
 
 # Set boolean values for certain events
-for tag in ['TOUCHDOWN', 'NO PLAY']:
+for tag in ['TOUCHDOWN', 'NO PLAY', 'Timeout']:
     colname = '_'.join(tag.lower().split())
     df[colname] = np.where(df['play_str'].str.contains(tag, flags = re.IGNORECASE), 1, 0)
 

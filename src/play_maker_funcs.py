@@ -38,7 +38,7 @@ def kick_extract(str_ser, kick_type, name_patterns):
     df_yards = str_ser.str.extract(kick_type + " (?P<kick_yards>\d{1,2}) yard(?:s)?")
     yl_str = ".*? to the (?P<kick_terr>[A-Z\d']+?)(?P<kick_yl>[0-9]{1,2})"
     df_yl = str_ser.str.extract(kick_type + yl_str)
-    return pd.concat((df_kicker, df_yards, df_yl), axis = 1)
+    return pd.concat((df_kicker, df_yards, df_yl), axis = 1).fillna('')
 
 def regex_check(df):
     df_check = df.replace('', np.NaN)
