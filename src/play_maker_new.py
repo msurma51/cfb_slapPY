@@ -8,8 +8,8 @@ import pandas as pd
 import numpy as np
 import re
 from presto_prep import headers, pot, presto_parser
-from play_maker_funcs import name_extract, kick_extract, regex_check
-from bs4 import SoupStrainer
+from play_maker_funcs import name_extract, kick_extract, fumble_df, regex_check
+from bs4 import BeautifulSoup, SoupStrainer
 
 
 pd.set_option('display.max_columns', None)
@@ -17,7 +17,12 @@ url = 'https://lycomingathletics.com/sports/football/stats/2021/susquehanna/boxs
 #url = 'https://muhlenbergsports.com/sports/football/stats/2022/lebanon-valley/boxscore/4834'
 #url = 'https://www.godiplomats.com/sports/m-footbl/2021-22/boxscores/20210911_9fo4.xml?view=plays'
 # BS object of just the play-by-play
-soup = pot(headers, url, strainer = SoupStrainer(id='play-by-play'))
+#soup = pot(headers, url, strainer = SoupStrainer(id='play-by-play'))
+fname = 'lyco_pbp.html'
+with open(fname, 'r') as infile:
+    html = infile.read()
+strainer = SoupStrainer(id='play-by-play')
+soup = BeautifulSoup(html, "html.parser", parse_only = strainer)
 if len(soup) > 0:
     # Pull a BS object for each quarter of the game
     quarter_sections = soup.find_all('section')[1:]
@@ -47,14 +52,16 @@ df.fillna('', inplace = True)
 # Clean strings by eliminating multiple spaces between words
 df['dd_str'] = df['dd_str'].str.split().str.join(sep = ' ')
 # Extract down, distance and yard line from d&d string
-dd_pattern = "(?P<down>[1-4])[dhnrst]{2} and (?P<dist>\d{1,2}|GOAL) at (?P<terr>[A-Z\d']+)(?P<yl_raw>[0-9]{2})"
-df_ddyl = df['dd_str'].str.extract(dd_pattern)
-df = pd.concat((df,df_ddyl), axis=1)
+dd_pattern = "(?P<down>[1-4])[dhnrst]{2} and (?P<dist>\d{1,2}|GOAL) at "
+at_yl_pattern = " at (?P<terr>[A-Z']+(?:\d{4}|\d{2})?)(?P<yl_raw>[0-9]{2})"
+df_dd = df['dd_str'].str.extract(dd_pattern)
+df_yl = df['dd_str'].str.extract(at_yl_pattern)
+df = pd.concat((df,df_dd,df_yl), axis=1)
 
 # Build name matching regex
 fname_pat = "(?P<first>[A-Z][\w'-]+[.]?)"
 lname_pat = "(?P<last>[A-Z][\w'-]+,?(?: Jr.)?(?: I{:3}V?)?)"
-name_pat1 = "{} ?{}".format(fname_pat, lname_pat)
+name_pat1 = "{} ?{}".format(fname_pat, lname_pat.replace(',?',''))
 name_pat2 = "{}, ?{}".format(lname_pat, fname_pat)
 name_patterns = [name_pat1,name_pat2]
 
@@ -69,7 +76,7 @@ df_rusher = name_extract(df['play_str'],"^",rush_dir_pat, name_patterns, prefix 
 rush_pat2 = " rush" + "(?:{})?".format(direction_pat2)
 run_gl_pat = " for (?P<run_gain>(?:loss of )?\d{1,2}) yards?"
 run_ng_pat = " for (?P<run_gain>no gain)"
-run_to_pat = " to the (?P<run_to_terr>[A-Z\d']+?)(?P<run_to_yl>[0-9]{1,2})"
+run_to_pat = " to the (?P<run_to_terr>(?:[A-Z']+)?(?:\d{4}|\d{2})?)(?P<run_to_yl>[0-9]{1,2})"
 # Create separate outputs for clear gains/losses and no gains, then overlay the latter into the former
 df_gains = df['play_str'].str.extract(rush_pat2 + run_gl_pat + run_to_pat).fillna('')
 df_noGain = df['play_str'].str.extract(rush_pat2 + run_ng_pat + run_to_pat).fillna('')
@@ -138,8 +145,9 @@ df_kp = df_ko + df_punt
 # Extract return info
 df_return = name_extract(df['play_str'], '', ' return', name_patterns, prefix = 'retBy_')
 df_retYards = df['play_str'].str.extract("return (?P<ret_yards>\d{1,2}) yard(?:s)?")
-yl_str = "return .*? to the (?P<ret_terr>[A-Z\d']+?)(?P<ret_yl>[0-9]{1,2})"
-df_retYL = df['play_str'].str.extract(yl_str)
+#yl_str = "return .*? to the (?P<ret_terr>[A-Z\d']+?)(?P<ret_yl>[0-9]{1,2})"
+ret_to_pat = "return .*?" + run_to_pat.replace('run_to', 'ret')
+df_retYL = df['play_str'].str.extract(ret_to_pat)
 df_return = pd.concat((df_return, df_retYards, df_retYL), axis = 1)
 df = pd.concat((df, df_xp, df_kp, df_fg, df_return), axis = 1)
 
@@ -162,12 +170,17 @@ df_pen = pd.concat((df_pen,df['pen_str'].str.extract(pen_pat)), axis = 1)
 
 # Extract fumble info
 df['fumble_str'] = df['play_str'].str.extract(' (fumble.*)')
-df_fum = name_extract(df['fumble_str'], 'fumble by ', '', name_patterns, prefix = 'fumbleBy_')
-recov_by_pat = "recovered by (?P<recovery_team>[A-Z\d']+) "
-df_fum = pd.concat((df_fum, name_extract(df['fumble_str'], recov_by_pat, '', 
-                                         name_patterns, prefix = 'recoveredBy_')), axis = 1)
-fum_yl = df['fumble_str'].str.extract("at (?P<recov_terr>[A-Z\d']+?)(?P<recov_yl>[0-9]{1,2})")
-df_fum = pd.concat((df_fum, fum_yl), axis =1)
+fum_str = df.fumble_str
+df['fumble_num'] = df.fumble_str.str.findall('fumble').str.len()
+df_fum = pd.DataFrame()
+for i in range(int(df.fumble_num.max())):
+    df_fum_curr = fumble_df(fum_str, name_patterns)
+    if i > 0:
+        colnames = [colname[:colname.index('_')] + str(i+1) + colname[colname.index('_'):] 
+                    for colname in df_fum_curr.columns]
+        df_fum_curr.columns = colnames
+    df_fum = pd.concat((df_fum, df_fum_curr), axis =1)
+    fum_str = fum_str[3:].str.extract(' (fumble.*)')
 df = pd.concat((df, df_tackler1, df_tackler2, df_fum, df_pen), axis = 1)
 
 # Get times where posted

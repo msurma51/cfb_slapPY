@@ -1,241 +1,241 @@
-,quarter,down,dist,yl_raw,terr,passer,rusher,kicker,intended,poss,drive_num,play_type,gain_loss,gnls_to_yl,gnls_to_terr
-0,1,0,0,0,,,,,,,1,,0,0,
-1,1,0,0,0,,,,,,,1,,0,0,
-2,1,0,0,0,,,,,,SUSQFB,2,,0,0,
-3,1,1,10,35,SUSQFB,,,Elijah Hoffman,,SUSQFB,2,Kickoff,0,0,
-4,1,0,0,0,,,,,,SUSQFB,2,,0,0,
-5,1,0,0,0,,,,,,LYCO,3,,0,0,
-6,1,1,10,30,LYCO,,,,,LYCO,3,,0,0,
-7,1,1,10,30,LYCO,Elijah Shemory,,,Kyle Powell,LYCO,3,Pass,4,34,LYCO
-8,1,2,6,34,LYCO,,Kyle Powell,,,LYCO,3,Run,5,39,LYCO
-9,1,3,1,39,LYCO,,Kyle Powell,,,LYCO,3,Run,3,42,LYCO
-10,1,1,10,42,LYCO,Elijah Shemory,,,Tyjah During,LYCO,3,Pass,28,30,SUSQFB
-11,1,1,10,30,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,3,Pass,0,0,
-12,1,2,10,30,SUSQFB,,Joey Guida,,,LYCO,3,Run,2,28,SUSQFB
-13,1,3,8,28,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,3,Pass,0,0,
-14,1,4,8,28,SUSQFB,Elijah Shemory,,,Kevin Krawczyk,LYCO,3,Pass,0,0,
-15,1,0,0,0,,,,,,LYCO,3,,0,0,
-16,1,0,0,0,,,,,,SUSQFB,4,,0,0,
-17,1,1,10,28,SUSQFB,,,,,SUSQFB,4,,0,0,
-18,1,1,10,28,SUSQFB,Michael Ruisch,,,,SUSQFB,4,Pass,-4,24,SUSQFB
-19,1,2,14,24,SUSQFB,Michael Ruisch,,,Samuel Darrell,SUSQFB,4,Pass,8,32,SUSQFB
-20,1,3,6,32,SUSQFB,Michael Ruisch,,,Clay Olley,SUSQFB,4,Pass,3,35,SUSQFB
-21,1,4,3,35,SUSQFB,,,Clay Olley,,SUSQFB,4,Punt,0,0,
-22,1,0,0,0,,,,,,SUSQFB,4,,0,0,
-23,1,0,0,0,,,,,,LYCO,5,,0,0,
-24,1,1,10,29,LYCO,,,,,LYCO,5,,0,0,
-25,1,1,10,29,LYCO,,Elijah Shemory,,,LYCO,5,Run,1,30,LYCO
-26,1,2,9,30,LYCO,Elijah Shemory,,,Tyjah During,LYCO,5,Pass,0,0,
-27,1,3,9,30,LYCO,,Kyle Powell,,,LYCO,5,Run,1,31,LYCO
-28,1,4,8,31,LYCO,,,,,LYCO,5,Penalty,0,0,
-29,1,4,13,26,LYCO,,,Michael Coe,,LYCO,5,Punt,0,0,
-30,1,0,0,0,,,,,,LYCO,5,,0,0,
-31,1,0,0,0,,,,,,SUSQFB,6,,0,0,
-32,1,1,10,36,SUSQFB,,,,,SUSQFB,6,,0,0,
-33,1,1,10,36,SUSQFB,,Gavin Coles,,,SUSQFB,6,Run,4,40,SUSQFB
-34,1,2,6,40,SUSQFB,,Eddie Nugent,,,SUSQFB,6,Run,2,42,SUSQFB
-35,1,3,4,42,SUSQFB,Michael Ruisch,,,Kyle Good,SUSQFB,6,Pass,0,0,
-36,1,4,4,42,SUSQFB,,,Clay Olley,,SUSQFB,6,Punt,0,0,
-37,1,0,0,0,,,,,,SUSQFB,6,,0,0,
-38,1,0,0,0,,,,,,LYCO,7,,0,0,
-39,1,1,10,23,LYCO,,,,,LYCO,7,,0,0,
-40,1,1,10,23,LYCO,,Joey Guida,,,LYCO,7,Run,3,26,LYCO
-41,1,2,7,26,LYCO,,Elijah Shemory,,,LYCO,7,Run,2,28,LYCO
-42,1,3,5,28,LYCO,Elijah Shemory,,,,LYCO,7,Pass,-9,19,LYCO
-43,1,4,14,19,LYCO,,,Michael Coe,,LYCO,7,Punt,0,0,
-44,1,0,0,0,,,,,,LYCO,7,,0,0,
-45,1,0,0,0,,,,,,SUSQFB,8,,0,0,
-46,1,1,10,13,LYCO,,,,,SUSQFB,8,,0,0,
-47,1,1,10,13,LYCO,Michael Ruisch,,,Eddie Nugent,SUSQFB,8,Pass,0,0,
-48,1,2,10,13,LYCO,,,,,SUSQFB,8,Timeout,0,0,
-49,1,2,10,13,LYCO,,Michael Ruisch,,,SUSQFB,8,Run,9,4,LYCO
-50,1,3,1,4,LYCO,,Michael Ruisch,,,SUSQFB,8,Run,2,2,LYCO
-51,1,1,2,2,LYCO,,Gavin Coles,,,SUSQFB,8,Run,2,0,LYCO
-52,1,1,3,3,LYCO,,,,,SUSQFB,8,Penalty,0,0,
-53,1,1,8,8,LYCO,,,Elijah Hoffman,,SUSQFB,8,Extra Pt.,0,0,
-54,1,1,35,35,SUSQFB,,,Elijah Hoffman,,SUSQFB,8,Kickoff,0,0,
-55,1,0,0,0,,,,,,SUSQFB,8,,0,0,
-56,1,0,0,0,,,,,,LYCO,9,,0,0,
-57,1,1,10,22,LYCO,,,,,LYCO,9,,0,0,
-58,1,1,10,22,LYCO,Elijah Shemory,,,Tyjah During,LYCO,9,Pass,24,46,LYCO
-59,1,1,10,46,LYCO,,Elijah Shemory,,,LYCO,9,Run,6,48,SUSQFB
-60,1,2,4,48,SUSQFB,Elijah Shemory,,,Alex Hans,LYCO,9,Pass,7,41,SUSQFB
-61,1,1,10,41,SUSQFB,,Chase Cramer,,,LYCO,9,Run,4,37,SUSQFB
-62,1,2,6,37,SUSQFB,Elijah Shemory,,,,LYCO,9,Pass,-10,47,SUSQFB
-63,1,3,16,47,SUSQFB,,,,,LYCO,9,Timeout,0,0,
-64,1,3,16,47,SUSQFB,Elijah Shemory,,,Kevin Krawczyk,LYCO,9,Pass,0,0,
-65,1,4,16,47,SUSQFB,,,Michael Coe,,LYCO,9,Punt,0,0,
-66,1,0,0,0,,,,,,LYCO,9,,0,0,
-67,1,0,0,0,,,,,,SUSQFB,10,,0,0,
-68,1,1,10,11,SUSQFB,,,,,SUSQFB,10,,0,0,
-69,1,1,10,11,SUSQFB,,Michael Ruisch,,,SUSQFB,10,Run,-5,6,SUSQFB
-70,1,2,15,6,SUSQFB,,Gavin Coles,,,SUSQFB,10,Run,7,13,SUSQFB
-71,1,3,8,13,SUSQFB,Michael Ruisch,,,Eddie Nugent,SUSQFB,10,Pass,0,0,
-72,1,4,8,13,SUSQFB,,,Clay Olley,,SUSQFB,10,Punt,0,0,
-73,1,0,0,0,,,,,,SUSQFB,10,,0,0,
-74,1,0,0,0,,,,,,SUSQFB,11,,0,0,
-75,1,1,10,37,LYCO,,,,,SUSQFB,11,,0,0,
-76,2,0,0,0,,,,,,LYCO,12,,0,0,
-77,2,1,10,37,LYCO,,,,,LYCO,12,,0,0,
-78,2,1,10,37,LYCO,Elijah Shemory,,,Tyjah During,LYCO,12,Pass,6,43,LYCO
-79,2,2,4,43,LYCO,,Elijah Shemory,,,LYCO,12,Run,8,49,SUSQFB
-80,2,1,10,49,SUSQFB,,Jacob Fimbres,,,LYCO,12,Run,0,49,SUSQFB
-81,2,2,10,49,SUSQFB,Elijah Shemory,,,Tyjah During,LYCO,12,Pass,1,48,SUSQFB
-82,2,3,9,48,SUSQFB,,Elijah Shemory,,,LYCO,12,Run,19,29,SUSQFB
-83,2,1,10,29,SUSQFB,,Jacob Fimbres,,,LYCO,12,Run,1,28,SUSQFB
-84,2,2,9,28,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,12,Pass,0,0,
-85,2,3,9,28,SUSQFB,Elijah Shemory,,,Tyjah During,LYCO,12,Pass,18,10,SUSQFB
-86,2,1,10,10,SUSQFB,,Elijah Shemory,,,LYCO,12,Run,-3,13,SUSQFB
-87,2,2,13,13,SUSQFB,Elijah Shemory,,,Joey Guida,LYCO,12,Pass,0,0,
-88,2,3,13,13,SUSQFB,Elijah Shemory,,,Aaron Wolcott,LYCO,12,Pass,0,0,
-89,2,4,13,13,SUSQFB,,,Ian Plankenhorn,,LYCO,12,FG,0,0,
-90,2,1,35,35,LYCO,,,Ian Plankenhorn,,LYCO,12,Kickoff,0,0,
-91,2,0,0,0,,,,,,LYCO,12,,0,0,
-92,2,0,0,0,,,,,,SUSQFB,13,,0,0,
-93,2,1,10,35,SUSQFB,,,,,SUSQFB,13,,0,0,
-94,2,1,10,35,SUSQFB,,Will Cardew,,,SUSQFB,13,Run,4,39,SUSQFB
-95,2,2,6,39,SUSQFB,Michael Ruisch,,,Samuel Darrell,SUSQFB,13,Pass,12,49,LYCO
-96,2,1,10,49,LYCO,,Will Cardew,,,SUSQFB,13,Run,-5,46,SUSQFB
-97,2,2,15,46,SUSQFB,Michael Ruisch,,,Samuel Darrell,SUSQFB,13,Pass,41,13,LYCO
-98,2,1,10,13,LYCO,,,,,SUSQFB,13,Penalty,0,0,
-99,2,1,5,8,LYCO,,Will Cardew,,,SUSQFB,13,Run,5,3,LYCO
-100,2,1,3,3,LYCO,,Will Cardew,,,SUSQFB,13,Run,1,2,LYCO
-101,2,2,2,2,LYCO,,Frank Negrini,,,SUSQFB,13,Run,2,0,LYCO
-102,2,1,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,13,Extra Pt.,0,0,
-103,2,1,35,35,SUSQFB,,,Elijah Hoffman,,SUSQFB,13,Kickoff,0,0,
-104,2,0,0,0,,,,,,SUSQFB,13,,0,0,
-105,2,0,0,0,,,,,,LYCO,14,,0,0,
-106,2,1,10,26,LYCO,,,,,LYCO,14,,0,0,
-107,2,1,10,26,LYCO,,Kyle Powell,,,LYCO,14,Run,4,30,LYCO
-108,2,2,6,30,LYCO,,Kyle Powell,,,LYCO,14,Run,0,30,LYCO
-109,2,3,6,30,LYCO,,,,,LYCO,14,Timeout,0,0,
-110,2,3,6,30,LYCO,Elijah Shemory,,,,LYCO,14,Pass,0,0,
-111,2,4,6,30,LYCO,,,Michael Coe,,LYCO,14,Punt,0,0,
-112,2,0,0,0,,,,,,LYCO,14,,0,0,
-113,2,0,0,0,,,,,,SUSQFB,15,,0,0,
-114,2,1,10,31,SUSQFB,,,,,SUSQFB,15,,0,0,
-115,2,1,10,31,SUSQFB,,Will Cardew,,,SUSQFB,15,Run,4,35,SUSQFB
-116,2,2,6,35,SUSQFB,,Will Cardew,,,SUSQFB,15,Run,1,36,SUSQFB
-117,2,3,5,36,SUSQFB,Michael Ruisch,,,Michael Lefever,SUSQFB,15,Pass,14,0,5
-118,2,1,10,50,SUSQFB,Michael Ruisch,,,"Bryce Ellinger,",SUSQFB,15,Pass,0,0,
-119,2,1,15,45,SUSQFB,Michael Ruisch,,,Bryce Ellinger,SUSQFB,15,Pass,7,48,LYCO
-120,2,2,8,48,LYCO,Michael Ruisch,,,Bryce Ellinger,SUSQFB,15,Pass,4,44,LYCO
-121,2,3,4,44,LYCO,,Will Cardew,,,SUSQFB,15,Run,6,38,LYCO
-122,2,1,10,38,LYCO,Michael Ruisch,,,Warren Griffit,SUSQFB,15,Pass,23,15,LYCO
-123,2,1,10,15,LYCO,,Will Cardew,,,SUSQFB,15,Run,0,15,LYCO
-124,2,2,10,15,LYCO,,,,,SUSQFB,15,Timeout,0,0,
-125,2,2,10,15,LYCO,Michael Ruisch,,,Michael Lefever,SUSQFB,15,Pass,9,6,LYCO
-126,2,3,1,6,LYCO,,Will Cardew,,,SUSQFB,15,Run,1,5,LYCO
-127,2,1,5,5,LYCO,Michael Ruisch,,,Jacob Erb,SUSQFB,15,Pass,5,0,LYCO
-128,2,1,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,15,Extra Pt.,0,0,
-129,2,1,35,35,SUSQFB,,,Elijah Hoffman,,SUSQFB,15,Kickoff,0,0,
-130,2,0,0,0,,,,,,SUSQFB,15,,0,0,
-131,2,0,0,0,,,,,,SUSQFB,16,,0,0,
-132,2,1,10,40,LYCO,,,,,SUSQFB,16,,0,0,
-133,2,0,0,0,,,,,,SUSQFB,16,,0,0,
-134,3,0,0,0,,,,,,LYCO,17,,0,0,
-135,3,0,0,0,,,,,,LYCO,17,,0,0,
-136,3,0,0,0,,,,Ian Plankenhorn,,LYCO,17,Kickoff,0,0,
-137,3,0,0,0,,,,,,SUSQFB,18,,0,0,
-138,3,1,10,33,SUSQFB,,,,,SUSQFB,18,,0,0,
-139,3,1,10,33,SUSQFB,Michael Ruisch,,,Michael Lefever,SUSQFB,18,Pass,26,41,LYCO
-140,3,1,10,41,LYCO,,Michael Ruisch,,,SUSQFB,18,Run,33,8,LYCO
-141,3,1,4,4,LYCO,,,,,SUSQFB,18,,0,0,
-142,3,1,4,4,LYCO,,Will Cardew,,,SUSQFB,18,Run,0,4,LYCO
-143,3,2,4,4,LYCO,,Will Cardew,,,SUSQFB,18,Run,2,2,LYCO
-144,3,3,2,2,LYCO,,Frank Negrini,,,SUSQFB,18,Run,-3,5,LYCO
-145,3,4,5,5,LYCO,,,Elijah Hoffman,,SUSQFB,18,FG,0,0,
-146,3,1,35,35,SUSQFB,,,Elijah Hoffman,,SUSQFB,18,Kickoff,0,0,
-147,3,0,0,0,,,,,,SUSQFB,18,,0,0,
-148,3,0,0,0,,,,,,LYCO,19,,0,0,
-149,3,1,10,16,LYCO,,,,,LYCO,19,,0,0,
-150,3,1,10,16,LYCO,Elijah Shemory,,,Tyjah During,LYCO,19,Pass,0,0,
-151,3,2,10,16,LYCO,,Jacob Fimbres,,,LYCO,19,Run,-1,15,LYCO
-152,3,3,11,15,LYCO,Elijah Shemory,,,,LYCO,19,Pass,-6,9,LYCO
-153,3,4,17,9,LYCO,,,Michael Coe,,LYCO,19,Punt,0,0,
-154,3,0,0,0,,,,,,LYCO,19,,0,0,
-155,3,0,0,0,,,,,,SUSQFB,20,,0,0,
-156,3,1,10,40,SUSQFB,,,,,SUSQFB,20,,0,0,
-157,3,1,10,40,SUSQFB,,Will Cardew,,,SUSQFB,20,Run,6,46,SUSQFB
-158,3,2,4,46,SUSQFB,Michael Ruisch,,,Michael Lefever,SUSQFB,20,Pass,14,40,LYCO
-159,3,1,10,40,LYCO,Michael Ruisch,,,Eddie Nugent,SUSQFB,20,Pass,0,0,
-160,3,2,10,40,LYCO,Michael Ruisch,,,Samuel Darrell,SUSQFB,20,Pass,10,30,LYCO
-161,3,1,10,30,LYCO,,Will Cardew,,,SUSQFB,20,Run,10,20,LYCO
-162,3,1,10,20,LYCO,,Kyle Howes,,,SUSQFB,20,Run,9,11,LYCO
-163,3,2,1,11,LYCO,,Will Cardew,,,SUSQFB,20,Run,6,5,LYCO
-164,3,1,5,5,LYCO,,Will Cardew,,,SUSQFB,20,Run,0,5,LYCO
-165,3,2,5,5,LYCO,Michael Ruisch,,,Michael Lefever,SUSQFB,20,Pass,0,0,
-166,3,3,5,5,LYCO,,,,,SUSQFB,20,Timeout,0,0,
-167,3,3,5,5,LYCO,Michael Ruisch,,,Samuel Darrell,SUSQFB,20,Pass,5,0,LYCO
-168,3,1,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,20,Extra Pt.,0,0,
-169,3,1,35,35,SUSQFB,,,Elijah Hoffman,,SUSQFB,20,Kickoff,0,0,
-170,3,0,0,0,,,,,,SUSQFB,20,,0,0,
-171,3,0,0,0,,,,,,LYCO,21,,0,0,
-172,3,1,10,21,LYCO,,,,,LYCO,21,,0,0,
-173,3,1,10,21,LYCO,Elijah Shemory,,,Tyjah During,LYCO,21,Pass,6,27,LYCO
-174,3,2,4,27,LYCO,,Kyle Powell,,,LYCO,21,Run,0,27,LYCO
-175,3,3,4,27,LYCO,Elijah Shemory,,,Markus Sidwell,LYCO,21,Pass,0,0,
-176,3,4,4,27,LYCO,,,Michael Coe,,LYCO,21,Punt,0,0,
-177,3,0,0,0,,,,,,LYCO,21,,0,0,
-178,3,0,0,0,,,,,,SUSQFB,22,,0,0,
-179,3,1,10,35,SUSQFB,,,,,SUSQFB,22,,0,0,
-180,3,1,10,35,SUSQFB,,Gavin Coles,,,SUSQFB,22,Run,2,37,SUSQFB
-181,3,2,8,37,SUSQFB,Michael Ruisch,,,Michael Lefever,SUSQFB,22,Pass,2,39,SUSQFB
-182,3,3,6,39,SUSQFB,Michael Ruisch,,,Eddie Nugent,SUSQFB,22,Pass,8,47,SUSQFB
-183,3,1,10,47,SUSQFB,,,,,SUSQFB,22,Pass,0,0,
-184,3,1,10,38,LYCO,,Michael Ruisch,,,SUSQFB,22,Run,0,38,LYCO
-185,3,2,10,38,LYCO,,,,,SUSQFB,22,Timeout,0,0,
-186,3,2,10,38,LYCO,Michael Ruisch,,,Bryce Ellinger,SUSQFB,22,Pass,5,33,LYCO
-187,4,0,0,0,,,,,,SUSQFB,23,,0,0,
-188,4,3,5,33,LYCO,,,,,SUSQFB,23,,0,0,
-189,4,3,5,33,LYCO,Michael Ruisch,,,Bryce Ellinger,SUSQFB,23,Pass,0,0,
-190,4,4,5,33,LYCO,Michael Ruisch,,,Warren Griffit,SUSQFB,23,Pass,6,27,LYCO
-191,4,1,10,27,LYCO,Michael Ruisch,,,Bryce Ellinger,SUSQFB,23,Pass,13,14,LYCO
-192,4,1,10,14,LYCO,,,,,SUSQFB,23,Penalty,0,0,
-193,4,1,5,9,LYCO,,Gavin Coles,,,SUSQFB,23,Run,1,8,LYCO
-194,4,2,4,8,LYCO,Michael Ruisch,,,Eddie Nugent,SUSQFB,23,Pass,0,0,
-195,4,3,4,8,LYCO,,Michael Ruisch,,,SUSQFB,23,Run,5,3,LYCO
-196,4,1,3,3,LYCO,,Gavin Coles,,,SUSQFB,23,Run,-1,4,LYCO
-197,4,2,4,4,LYCO,,Gavin Coles,,,SUSQFB,23,Run,3,1,LYCO
-198,4,3,1,1,LYCO,,Michael Ruisch,,,SUSQFB,23,Run,1,0,LYCO
-199,4,1,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,23,Extra Pt.,0,0,
-200,4,1,35,35,SUSQFB,,,Elijah Hoffman,,SUSQFB,23,Kickoff,0,0,
-201,4,0,0,0,,,,,,SUSQFB,23,,0,0,
-202,4,0,0,0,,,,,,LYCO,24,,0,0,
-203,4,1,10,21,LYCO,,,,,LYCO,24,,0,0,
-204,4,1,10,21,LYCO,Elijah Shemory,,,Tre' Leach,LYCO,24,Pass,6,27,LYCO
-205,4,2,4,27,LYCO,Elijah Shemory,,,Matt Jaeger,LYCO,24,Pass,0,0,
-206,4,3,4,27,LYCO,Elijah Shemory,,,Tre' Leach,LYCO,24,Pass,4,31,LYCO
-207,4,1,10,31,LYCO,Elijah Shemory,,,Aaron Wolcott,LYCO,24,Pass,11,42,LYCO
-208,4,1,10,43,SUSQFB,,,,,LYCO,24,,0,0,
-209,4,1,10,43,SUSQFB,,Joey Guida,,,LYCO,24,Run,0,43,SUSQFB
-210,4,2,10,43,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,24,Pass,0,43,SUSQFB
-211,4,3,10,43,SUSQFB,Elijah Shemory,,,Markus Sidwell,LYCO,24,Pass,23,20,SUSQFB
-212,4,1,10,20,SUSQFB,,Elijah Shemory,,,LYCO,24,Run,3,17,SUSQFB
-213,4,2,7,17,SUSQFB,,,,,LYCO,24,Timeout,0,0,
-214,4,2,7,17,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,24,Pass,17,0,SUSQFB
-215,4,1,3,3,SUSQFB,,,Ian Plankenhorn,,LYCO,24,Extra Pt.,0,0,
-216,4,1,35,35,LYCO,,,Ian Plankenhorn,,LYCO,24,Kickoff,0,0,
-217,4,0,0,0,,,,,,LYCO,24,,0,0,
-218,4,0,0,0,,,,,,SUSQFB,25,,0,0,
-219,4,1,10,19,SUSQFB,,,,,SUSQFB,25,,0,0,
-220,4,1,10,19,SUSQFB,Mikey Giancaspro,,,Warren Griffit,SUSQFB,25,Pass,10,29,SUSQFB
-221,4,1,10,29,SUSQFB,,Frank Negrini,,,SUSQFB,25,Run,2,31,SUSQFB
-222,4,2,8,31,SUSQFB,Mikey Giancaspro,,,,SUSQFB,25,Pass,0,0,
-223,4,3,8,31,SUSQFB,Mikey Giancaspro,,,Frank Negrini,SUSQFB,25,Pass,11,42,SUSQFB
-224,4,1,10,42,SUSQFB,,Mikey Giancaspro,,,SUSQFB,25,Run,16,42,LYCO
-225,4,1,10,42,LYCO,,Frank Negrini,,,SUSQFB,25,Run,22,20,LYCO
-226,4,1,10,20,LYCO,Mikey Giancaspro,,,Kyle Howes,SUSQFB,25,Pass,1,19,LYCO
-227,4,2,9,19,LYCO,,Frank Negrini,,,SUSQFB,25,Run,6,13,LYCO
-228,4,2,14,24,LYCO,,Mikey Giancaspro,,,SUSQFB,25,Run,16,8,LYCO
-229,4,1,8,8,LYCO,,Frank Negrini,,,SUSQFB,25,Run,8,0,LYCO
-230,4,1,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,25,Extra Pt.,0,0,
-231,4,1,35,35,SUSQFB,,,Elijah Hoffman,,SUSQFB,25,Kickoff,0,0,
-232,4,0,0,0,,,,,,SUSQFB,25,,0,0,
-233,4,0,0,0,,,,,,LYCO,26,,0,0,
-234,4,1,10,17,LYCO,,,,,LYCO,26,,0,0,
-235,4,1,10,17,LYCO,Will Fish,,,Markus Sidwell,LYCO,26,Pass,0,0,
-236,4,2,10,17,LYCO,,Hunter Budman,,,LYCO,26,Run,5,22,LYCO
-237,4,3,5,22,LYCO,,Hunter Budman,,,LYCO,26,Run,2,24,LYCO
-238,4,4,3,24,LYCO,,,,,LYCO,26,,0,0,
-239,4,0,0,0,,,,,,LYCO,26,,0,0,
+,quarter,down,dist,yl_raw,yl,terr,passer,rusher,kicker,intended,poss,drive_num,play_type,gain_loss,gnls_to_yl,gnls_to_terr
+0,1,0,0,0,0,,,,,,,1,,0,0,
+1,1,0,0,0,0,,,,,,,1,,0,0,
+2,1,0,0,0,0,,,,,,SUSQFB,2,,0,0,
+3,1,1,10,35,-35,SUSQFB,,,Elijah Hoffman,,SUSQFB,2,Kickoff,0,0,
+4,1,0,0,0,0,,,,,,SUSQFB,2,,0,0,
+5,1,0,0,0,0,,,,,,LYCO,3,,0,0,
+6,1,1,10,30,-30,LYCO,,,,,LYCO,3,,0,0,
+7,1,1,10,30,-30,LYCO,Elijah Shemory,,,Kyle Powell,LYCO,3,Pass,4,34,LYCO
+8,1,2,6,34,-34,LYCO,,Kyle Powell,,,LYCO,3,Run,5,39,LYCO
+9,1,3,1,39,-39,LYCO,,Kyle Powell,,,LYCO,3,Run,3,42,LYCO
+10,1,1,10,42,-42,LYCO,Elijah Shemory,,,Tyjah During,LYCO,3,Pass,28,30,SUSQFB
+11,1,1,10,30,30,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,3,Pass,0,0,
+12,1,2,10,30,30,SUSQFB,,Joey Guida,,,LYCO,3,Run,2,28,SUSQFB
+13,1,3,8,28,28,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,3,Pass,0,0,
+14,1,4,8,28,28,SUSQFB,Elijah Shemory,,,Kevin Krawczyk,LYCO,3,Pass,0,0,
+15,1,0,0,0,0,,,,,,LYCO,3,,0,0,
+16,1,0,0,0,0,,,,,,SUSQFB,4,,0,0,
+17,1,1,10,28,-28,SUSQFB,,,,,SUSQFB,4,,0,0,
+18,1,1,10,28,-28,SUSQFB,Michael Ruisch,,,,SUSQFB,4,Pass,-4,24,SUSQFB
+19,1,2,14,24,-24,SUSQFB,Michael Ruisch,,,Samuel Darrell,SUSQFB,4,Pass,8,32,SUSQFB
+20,1,3,6,32,-32,SUSQFB,Michael Ruisch,,,Clay Olley,SUSQFB,4,Pass,3,35,SUSQFB
+21,1,4,3,35,-35,SUSQFB,,,Clay Olley,,SUSQFB,4,Punt,0,0,
+22,1,0,0,0,0,,,,,,SUSQFB,4,,0,0,
+23,1,0,0,0,0,,,,,,LYCO,5,,0,0,
+24,1,1,10,29,-29,LYCO,,,,,LYCO,5,,0,0,
+25,1,1,10,29,-29,LYCO,,Elijah Shemory,,,LYCO,5,Run,1,30,LYCO
+26,1,2,9,30,-30,LYCO,Elijah Shemory,,,Tyjah During,LYCO,5,Pass,0,0,
+27,1,3,9,30,-30,LYCO,,Kyle Powell,,,LYCO,5,Run,1,31,LYCO
+28,1,4,8,31,-31,LYCO,,,,,LYCO,5,Penalty,0,0,
+29,1,4,13,26,-26,LYCO,,,Michael Coe,,LYCO,5,Punt,0,0,
+30,1,0,0,0,0,,,,,,LYCO,5,,0,0,
+31,1,0,0,0,0,,,,,,SUSQFB,6,,0,0,
+32,1,1,10,36,-36,SUSQFB,,,,,SUSQFB,6,,0,0,
+33,1,1,10,36,-36,SUSQFB,,Gavin Coles,,,SUSQFB,6,Run,4,40,SUSQFB
+34,1,2,6,40,-40,SUSQFB,,Eddie Nugent,,,SUSQFB,6,Run,2,42,SUSQFB
+35,1,3,4,42,-42,SUSQFB,Michael Ruisch,,,Kyle Good,SUSQFB,6,Pass,0,0,
+36,1,4,4,42,-42,SUSQFB,,,Clay Olley,,SUSQFB,6,Punt,0,0,
+37,1,0,0,0,0,,,,,,SUSQFB,6,,0,0,
+38,1,0,0,0,0,,,,,,LYCO,7,,0,0,
+39,1,1,10,23,-23,LYCO,,,,,LYCO,7,,0,0,
+40,1,1,10,23,-23,LYCO,,Joey Guida,,,LYCO,7,Run,3,26,LYCO
+41,1,2,7,26,-26,LYCO,,Elijah Shemory,,,LYCO,7,Run,2,28,LYCO
+42,1,3,5,28,-28,LYCO,Elijah Shemory,,,,LYCO,7,Pass,-9,19,LYCO
+43,1,4,14,19,-19,LYCO,,,Michael Coe,,LYCO,7,Punt,0,0,
+44,1,0,0,0,0,,,,,,LYCO,7,,0,0,
+45,1,0,0,0,0,,,,,,SUSQFB,8,,0,0,
+46,1,1,10,13,13,LYCO,,,,,SUSQFB,8,,0,0,
+47,1,1,10,13,13,LYCO,Michael Ruisch,,,Eddie Nugent,SUSQFB,8,Pass,0,0,
+48,1,2,10,13,13,LYCO,,,,,SUSQFB,8,Timeout,0,0,
+49,1,2,10,13,13,LYCO,,Michael Ruisch,,,SUSQFB,8,Run,9,4,LYCO
+50,1,3,1,4,4,LYCO,,Michael Ruisch,,,SUSQFB,8,Run,2,2,LYCO
+51,1,1,2,2,2,LYCO,,Gavin Coles,,,SUSQFB,8,Run,2,0,LYCO
+52,1,1,3,3,3,LYCO,,,,,SUSQFB,8,Penalty,0,0,
+53,1,1,8,8,8,LYCO,,,Elijah Hoffman,,SUSQFB,8,Extra Pt.,0,0,
+54,1,1,35,35,-35,SUSQFB,,,Elijah Hoffman,,SUSQFB,8,Kickoff,0,0,
+55,1,0,0,0,0,,,,,,SUSQFB,8,,0,0,
+56,1,0,0,0,0,,,,,,LYCO,9,,0,0,
+57,1,1,10,22,-22,LYCO,,,,,LYCO,9,,0,0,
+58,1,1,10,22,-22,LYCO,Elijah Shemory,,,Tyjah During,LYCO,9,Pass,24,46,LYCO
+59,1,1,10,46,-46,LYCO,,Elijah Shemory,,,LYCO,9,Run,6,48,SUSQFB
+60,1,2,4,48,48,SUSQFB,Elijah Shemory,,,Alex Hans,LYCO,9,Pass,7,41,SUSQFB
+61,1,1,10,41,41,SUSQFB,,Chase Cramer,,,LYCO,9,Run,4,37,SUSQFB
+62,1,2,6,37,37,SUSQFB,Elijah Shemory,,,,LYCO,9,Pass,-10,47,SUSQFB
+63,1,3,16,47,47,SUSQFB,,,,,LYCO,9,Timeout,0,0,
+64,1,3,16,47,47,SUSQFB,Elijah Shemory,,,Kevin Krawczyk,LYCO,9,Pass,0,0,
+65,1,4,16,47,47,SUSQFB,,,Michael Coe,,LYCO,9,Punt,0,0,
+66,1,0,0,0,0,,,,,,LYCO,9,,0,0,
+67,1,0,0,0,0,,,,,,SUSQFB,10,,0,0,
+68,1,1,10,11,-11,SUSQFB,,,,,SUSQFB,10,,0,0,
+69,1,1,10,11,-11,SUSQFB,,Michael Ruisch,,,SUSQFB,10,Run,-5,6,SUSQFB
+70,1,2,15,6,-6,SUSQFB,,Gavin Coles,,,SUSQFB,10,Run,7,13,SUSQFB
+71,1,3,8,13,-13,SUSQFB,Michael Ruisch,,,Eddie Nugent,SUSQFB,10,Pass,0,0,
+72,1,4,8,13,-13,SUSQFB,,,Clay Olley,,SUSQFB,10,Punt,0,0,
+73,1,0,0,0,0,,,,,,SUSQFB,10,,0,0,
+74,1,0,0,0,0,,,,,,,11,,0,0,
+75,1,1,10,37,37,LYCO,,,,,,11,,0,0,
+76,2,0,0,0,0,,,,,,LYCO,12,,0,0,
+77,2,1,10,37,-37,LYCO,,,,,LYCO,12,,0,0,
+78,2,1,10,37,-37,LYCO,Elijah Shemory,,,Tyjah During,LYCO,12,Pass,6,43,LYCO
+79,2,2,4,43,-43,LYCO,,Elijah Shemory,,,LYCO,12,Run,8,49,SUSQFB
+80,2,1,10,49,49,SUSQFB,,Jacob Fimbres,,,LYCO,12,Run,0,49,SUSQFB
+81,2,2,10,49,49,SUSQFB,Elijah Shemory,,,Tyjah During,LYCO,12,Pass,1,48,SUSQFB
+82,2,3,9,48,48,SUSQFB,,Elijah Shemory,,,LYCO,12,Run,19,29,SUSQFB
+83,2,1,10,29,29,SUSQFB,,Jacob Fimbres,,,LYCO,12,Run,1,28,SUSQFB
+84,2,2,9,28,28,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,12,Pass,0,0,
+85,2,3,9,28,28,SUSQFB,Elijah Shemory,,,Tyjah During,LYCO,12,Pass,18,10,SUSQFB
+86,2,1,10,10,10,SUSQFB,,Elijah Shemory,,,LYCO,12,Run,-3,13,SUSQFB
+87,2,2,13,13,13,SUSQFB,Elijah Shemory,,,Joey Guida,LYCO,12,Pass,0,0,
+88,2,3,13,13,13,SUSQFB,Elijah Shemory,,,Aaron Wolcott,LYCO,12,Pass,0,0,
+89,2,4,13,13,13,SUSQFB,,,Ian Plankenhorn,,LYCO,12,FG,0,0,
+90,2,1,35,35,-35,LYCO,,,Ian Plankenhorn,,LYCO,12,Kickoff,0,0,
+91,2,0,0,0,0,,,,,,LYCO,12,,0,0,
+92,2,0,0,0,0,,,,,,SUSQFB,13,,0,0,
+93,2,1,10,35,-35,SUSQFB,,,,,SUSQFB,13,,0,0,
+94,2,1,10,35,-35,SUSQFB,,Will Cardew,,,SUSQFB,13,Run,4,39,SUSQFB
+95,2,2,6,39,-39,SUSQFB,Michael Ruisch,,,Samuel Darrell,SUSQFB,13,Pass,12,49,LYCO
+96,2,1,10,49,49,LYCO,,Will Cardew,,,SUSQFB,13,Run,-5,46,SUSQFB
+97,2,2,15,46,-46,SUSQFB,Michael Ruisch,,,Samuel Darrell,SUSQFB,13,Pass,41,13,LYCO
+98,2,1,10,13,13,LYCO,,,,,SUSQFB,13,Penalty,0,0,
+99,2,1,5,8,8,LYCO,,Will Cardew,,,SUSQFB,13,Run,5,3,LYCO
+100,2,1,3,3,3,LYCO,,Will Cardew,,,SUSQFB,13,Run,1,2,LYCO
+101,2,2,2,2,2,LYCO,,Frank Negrini,,,SUSQFB,13,Run,2,0,LYCO
+102,2,1,3,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,13,Extra Pt.,0,0,
+103,2,1,35,35,-35,SUSQFB,,,Elijah Hoffman,,SUSQFB,13,Kickoff,0,0,
+104,2,0,0,0,0,,,,,,SUSQFB,13,,0,0,
+105,2,0,0,0,0,,,,,,LYCO,14,,0,0,
+106,2,1,10,26,-26,LYCO,,,,,LYCO,14,,0,0,
+107,2,1,10,26,-26,LYCO,,Kyle Powell,,,LYCO,14,Run,4,30,LYCO
+108,2,2,6,30,-30,LYCO,,Kyle Powell,,,LYCO,14,Run,0,30,LYCO
+109,2,3,6,30,-30,LYCO,,,,,LYCO,14,Timeout,0,0,
+110,2,3,6,30,-30,LYCO,Elijah Shemory,,,,LYCO,14,Pass,0,0,
+111,2,4,6,30,-30,LYCO,,,Michael Coe,,LYCO,14,Punt,0,0,
+112,2,0,0,0,0,,,,,,LYCO,14,,0,0,
+113,2,0,0,0,0,,,,,,SUSQFB,15,,0,0,
+114,2,1,10,31,-31,SUSQFB,,,,,SUSQFB,15,,0,0,
+115,2,1,10,31,-31,SUSQFB,,Will Cardew,,,SUSQFB,15,Run,4,35,SUSQFB
+116,2,2,6,35,-35,SUSQFB,,Will Cardew,,,SUSQFB,15,Run,1,36,SUSQFB
+117,2,3,5,36,-36,SUSQFB,Michael Ruisch,,,Michael Lefever,SUSQFB,15,Pass,14,50,
+118,2,1,10,50,50,SUSQFB,Michael Ruisch,,,Bryce Ellinger,SUSQFB,15,Pass,0,0,
+119,2,1,15,45,-45,SUSQFB,Michael Ruisch,,,Bryce Ellinger,SUSQFB,15,Pass,7,48,LYCO
+120,2,2,8,48,48,LYCO,Michael Ruisch,,,Bryce Ellinger,SUSQFB,15,Pass,4,44,LYCO
+121,2,3,4,44,44,LYCO,,Will Cardew,,,SUSQFB,15,Run,6,38,LYCO
+122,2,1,10,38,38,LYCO,Michael Ruisch,,,Warren Griffit,SUSQFB,15,Pass,23,15,LYCO
+123,2,1,10,15,15,LYCO,,Will Cardew,,,SUSQFB,15,Run,0,15,LYCO
+124,2,2,10,15,15,LYCO,,,,,SUSQFB,15,Timeout,0,0,
+125,2,2,10,15,15,LYCO,Michael Ruisch,,,Michael Lefever,SUSQFB,15,Pass,9,6,LYCO
+126,2,3,1,6,6,LYCO,,Will Cardew,,,SUSQFB,15,Run,1,5,LYCO
+127,2,1,5,5,5,LYCO,Michael Ruisch,,,Jacob Erb,SUSQFB,15,Pass,5,0,LYCO
+128,2,1,3,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,15,Extra Pt.,0,0,
+129,2,1,35,35,-35,SUSQFB,,,Elijah Hoffman,,SUSQFB,15,Kickoff,0,0,
+130,2,0,0,0,0,,,,,,SUSQFB,15,,0,0,
+131,2,0,0,0,0,,,,,,,16,,0,0,
+132,2,1,10,40,40,LYCO,,,,,,16,,0,0,
+133,2,0,0,0,0,,,,,,,16,,0,0,
+134,3,0,0,0,0,,,,,,LYCO,17,,0,0,
+135,3,0,0,0,0,,,,,,LYCO,17,,0,0,
+136,3,0,0,0,0,,,,Ian Plankenhorn,,LYCO,17,Kickoff,0,0,
+137,3,0,0,0,0,,,,,,SUSQFB,18,,0,0,
+138,3,1,10,33,-33,SUSQFB,,,,,SUSQFB,18,,0,0,
+139,3,1,10,33,-33,SUSQFB,Michael Ruisch,,,Michael Lefever,SUSQFB,18,Pass,26,41,LYCO
+140,3,1,10,41,41,LYCO,,Michael Ruisch,,,SUSQFB,18,Run,33,8,LYCO
+141,3,1,4,4,4,LYCO,,,,,SUSQFB,18,,0,0,
+142,3,1,4,4,4,LYCO,,Will Cardew,,,SUSQFB,18,Run,0,4,LYCO
+143,3,2,4,4,4,LYCO,,Will Cardew,,,SUSQFB,18,Run,2,2,LYCO
+144,3,3,2,2,2,LYCO,,Frank Negrini,,,SUSQFB,18,Run,-3,5,LYCO
+145,3,4,5,5,5,LYCO,,,Elijah Hoffman,,SUSQFB,18,FG,0,0,
+146,3,1,35,35,-35,SUSQFB,,,Elijah Hoffman,,SUSQFB,18,Kickoff,0,0,
+147,3,0,0,0,0,,,,,,SUSQFB,18,,0,0,
+148,3,0,0,0,0,,,,,,LYCO,19,,0,0,
+149,3,1,10,16,-16,LYCO,,,,,LYCO,19,,0,0,
+150,3,1,10,16,-16,LYCO,Elijah Shemory,,,Tyjah During,LYCO,19,Pass,0,0,
+151,3,2,10,16,-16,LYCO,,Jacob Fimbres,,,LYCO,19,Run,-1,15,LYCO
+152,3,3,11,15,-15,LYCO,Elijah Shemory,,,,LYCO,19,Pass,-6,9,LYCO
+153,3,4,17,9,-9,LYCO,,,Michael Coe,,LYCO,19,Punt,0,0,
+154,3,0,0,0,0,,,,,,LYCO,19,,0,0,
+155,3,0,0,0,0,,,,,,SUSQFB,20,,0,0,
+156,3,1,10,40,-40,SUSQFB,,,,,SUSQFB,20,,0,0,
+157,3,1,10,40,-40,SUSQFB,,Will Cardew,,,SUSQFB,20,Run,6,46,SUSQFB
+158,3,2,4,46,-46,SUSQFB,Michael Ruisch,,,Michael Lefever,SUSQFB,20,Pass,14,40,LYCO
+159,3,1,10,40,40,LYCO,Michael Ruisch,,,Eddie Nugent,SUSQFB,20,Pass,0,0,
+160,3,2,10,40,40,LYCO,Michael Ruisch,,,Samuel Darrell,SUSQFB,20,Pass,10,30,LYCO
+161,3,1,10,30,30,LYCO,,Will Cardew,,,SUSQFB,20,Run,10,20,LYCO
+162,3,1,10,20,20,LYCO,,Kyle Howes,,,SUSQFB,20,Run,9,11,LYCO
+163,3,2,1,11,11,LYCO,,Will Cardew,,,SUSQFB,20,Run,6,5,LYCO
+164,3,1,5,5,5,LYCO,,Will Cardew,,,SUSQFB,20,Run,0,5,LYCO
+165,3,2,5,5,5,LYCO,Michael Ruisch,,,Michael Lefever,SUSQFB,20,Pass,0,0,
+166,3,3,5,5,5,LYCO,,,,,SUSQFB,20,Timeout,0,0,
+167,3,3,5,5,5,LYCO,Michael Ruisch,,,Samuel Darrell,SUSQFB,20,Pass,5,0,LYCO
+168,3,1,3,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,20,Extra Pt.,0,0,
+169,3,1,35,35,-35,SUSQFB,,,Elijah Hoffman,,SUSQFB,20,Kickoff,0,0,
+170,3,0,0,0,0,,,,,,SUSQFB,20,,0,0,
+171,3,0,0,0,0,,,,,,LYCO,21,,0,0,
+172,3,1,10,21,-21,LYCO,,,,,LYCO,21,,0,0,
+173,3,1,10,21,-21,LYCO,Elijah Shemory,,,Tyjah During,LYCO,21,Pass,6,27,LYCO
+174,3,2,4,27,-27,LYCO,,Kyle Powell,,,LYCO,21,Run,0,27,LYCO
+175,3,3,4,27,-27,LYCO,Elijah Shemory,,,Markus Sidwell,LYCO,21,Pass,0,0,
+176,3,4,4,27,-27,LYCO,,,Michael Coe,,LYCO,21,Punt,0,0,
+177,3,0,0,0,0,,,,,,LYCO,21,,0,0,
+178,3,0,0,0,0,,,,,,SUSQFB,22,,0,0,
+179,3,1,10,35,-35,SUSQFB,,,,,SUSQFB,22,,0,0,
+180,3,1,10,35,-35,SUSQFB,,Gavin Coles,,,SUSQFB,22,Run,2,37,SUSQFB
+181,3,2,8,37,-37,SUSQFB,Michael Ruisch,,,Michael Lefever,SUSQFB,22,Pass,2,39,SUSQFB
+182,3,3,6,39,-39,SUSQFB,Michael Ruisch,,,Eddie Nugent,SUSQFB,22,Pass,8,47,SUSQFB
+183,3,1,10,47,-47,SUSQFB,,,,,SUSQFB,22,Pass,0,0,
+184,3,1,10,38,38,LYCO,,Michael Ruisch,,,SUSQFB,22,Run,0,38,LYCO
+185,3,2,10,38,38,LYCO,,,,,SUSQFB,22,Timeout,0,0,
+186,3,2,10,38,38,LYCO,Michael Ruisch,,,Bryce Ellinger,SUSQFB,22,Pass,5,33,LYCO
+187,4,0,0,0,0,,,,,,SUSQFB,23,,0,0,
+188,4,3,5,33,33,LYCO,,,,,SUSQFB,23,,0,0,
+189,4,3,5,33,33,LYCO,Michael Ruisch,,,Bryce Ellinger,SUSQFB,23,Pass,0,0,
+190,4,4,5,33,33,LYCO,Michael Ruisch,,,Warren Griffit,SUSQFB,23,Pass,6,27,LYCO
+191,4,1,10,27,27,LYCO,Michael Ruisch,,,Bryce Ellinger,SUSQFB,23,Pass,13,14,LYCO
+192,4,1,10,14,14,LYCO,,,,,SUSQFB,23,Penalty,0,0,
+193,4,1,5,9,9,LYCO,,Gavin Coles,,,SUSQFB,23,Run,1,8,LYCO
+194,4,2,4,8,8,LYCO,Michael Ruisch,,,Eddie Nugent,SUSQFB,23,Pass,0,0,
+195,4,3,4,8,8,LYCO,,Michael Ruisch,,,SUSQFB,23,Run,5,3,LYCO
+196,4,1,3,3,3,LYCO,,Gavin Coles,,,SUSQFB,23,Run,-1,4,LYCO
+197,4,2,4,4,4,LYCO,,Gavin Coles,,,SUSQFB,23,Run,3,1,LYCO
+198,4,3,1,1,1,LYCO,,Michael Ruisch,,,SUSQFB,23,Run,1,0,LYCO
+199,4,1,3,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,23,Extra Pt.,0,0,
+200,4,1,35,35,-35,SUSQFB,,,Elijah Hoffman,,SUSQFB,23,Kickoff,0,0,
+201,4,0,0,0,0,,,,,,SUSQFB,23,,0,0,
+202,4,0,0,0,0,,,,,,LYCO,24,,0,0,
+203,4,1,10,21,-21,LYCO,,,,,LYCO,24,,0,0,
+204,4,1,10,21,-21,LYCO,Elijah Shemory,,,Tre' Leach,LYCO,24,Pass,6,27,LYCO
+205,4,2,4,27,-27,LYCO,Elijah Shemory,,,Matt Jaeger,LYCO,24,Pass,0,0,
+206,4,3,4,27,-27,LYCO,Elijah Shemory,,,Tre' Leach,LYCO,24,Pass,4,31,LYCO
+207,4,1,10,31,-31,LYCO,Elijah Shemory,,,Aaron Wolcott,LYCO,24,Pass,11,42,LYCO
+208,4,1,10,43,43,SUSQFB,,,,,LYCO,24,,0,0,
+209,4,1,10,43,43,SUSQFB,,Joey Guida,,,LYCO,24,Run,0,43,SUSQFB
+210,4,2,10,43,43,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,24,Pass,0,43,SUSQFB
+211,4,3,10,43,43,SUSQFB,Elijah Shemory,,,Markus Sidwell,LYCO,24,Pass,23,20,SUSQFB
+212,4,1,10,20,20,SUSQFB,,Elijah Shemory,,,LYCO,24,Run,3,17,SUSQFB
+213,4,2,7,17,17,SUSQFB,,,,,LYCO,24,Timeout,0,0,
+214,4,2,7,17,17,SUSQFB,Elijah Shemory,,,Tre' Leach,LYCO,24,Pass,17,0,SUSQFB
+215,4,1,3,3,3,SUSQFB,,,Ian Plankenhorn,,LYCO,24,Extra Pt.,0,0,
+216,4,1,35,35,-35,LYCO,,,Ian Plankenhorn,,LYCO,24,Kickoff,0,0,
+217,4,0,0,0,0,,,,,,LYCO,24,,0,0,
+218,4,0,0,0,0,,,,,,SUSQFB,25,,0,0,
+219,4,1,10,19,-19,SUSQFB,,,,,SUSQFB,25,,0,0,
+220,4,1,10,19,-19,SUSQFB,Mikey Giancaspro,,,Warren Griffit,SUSQFB,25,Pass,10,29,SUSQFB
+221,4,1,10,29,-29,SUSQFB,,Frank Negrini,,,SUSQFB,25,Run,2,31,SUSQFB
+222,4,2,8,31,-31,SUSQFB,Mikey Giancaspro,,,,SUSQFB,25,Pass,0,0,
+223,4,3,8,31,-31,SUSQFB,Mikey Giancaspro,,,Frank Negrini,SUSQFB,25,Pass,11,42,SUSQFB
+224,4,1,10,42,-42,SUSQFB,,Mikey Giancaspro,,,SUSQFB,25,Run,16,42,LYCO
+225,4,1,10,42,42,LYCO,,Frank Negrini,,,SUSQFB,25,Run,22,20,LYCO
+226,4,1,10,20,20,LYCO,Mikey Giancaspro,,,Kyle Howes,SUSQFB,25,Pass,1,19,LYCO
+227,4,2,9,19,19,LYCO,,Frank Negrini,,,SUSQFB,25,Run,6,13,LYCO
+228,4,2,14,24,24,LYCO,,Mikey Giancaspro,,,SUSQFB,25,Run,16,8,LYCO
+229,4,1,8,8,8,LYCO,,Frank Negrini,,,SUSQFB,25,Run,8,0,LYCO
+230,4,1,3,3,3,LYCO,,,Elijah Hoffman,,SUSQFB,25,Extra Pt.,0,0,
+231,4,1,35,35,-35,SUSQFB,,,Elijah Hoffman,,SUSQFB,25,Kickoff,0,0,
+232,4,0,0,0,0,,,,,,SUSQFB,25,,0,0,
+233,4,0,0,0,0,,,,,,LYCO,26,,0,0,
+234,4,1,10,17,-17,LYCO,,,,,LYCO,26,,0,0,
+235,4,1,10,17,-17,LYCO,Will Fish,,,Markus Sidwell,LYCO,26,Pass,0,0,
+236,4,2,10,17,-17,LYCO,,Hunter Budman,,,LYCO,26,Run,5,22,LYCO
+237,4,3,5,22,-22,LYCO,,Hunter Budman,,,LYCO,26,Run,2,24,LYCO
+238,4,4,3,24,-24,LYCO,,,,,LYCO,26,,0,0,
+239,4,0,0,0,0,,,,,,LYCO,26,,0,0,

@@ -9,6 +9,7 @@ import pandas as pd
 from pandas.api.types import CategoricalDtype
 import numpy as np
 from play_maker_new import df
+from play_maker_funcs import possession
 import re
 
 # Identify R/P/K play types
@@ -30,6 +31,7 @@ df['try_type'] = df.try_type.replace('Rush', 'Run')
 df['down'] = df.down.fillna(0).astype('int64')
 df['dist'] = np.where(df.dist.str.contains('GOAL'), df.yl_raw, df.dist)
 df['dist'] = df.dist.fillna(0).astype('int64')
+df['terr'] = df.terr.fillna('')
 df['yl_raw'] = df.yl_raw.fillna(0).astype('int64')
 # Combine run and pass gains for gain_loss column
 df['gain_loss'] = 0
@@ -68,61 +70,22 @@ df_name['kicker'] = np.where(df.xp_type == 'kick', df_name.xp,
 df = pd.concat((df, df_name), axis = 1)
 
 
-teams = df.terr[~df.terr.isna()].unique()
-def possession(row, teams):
-    if row['terr'] != '':
-        other_side = [team for team in teams if team != row['terr']][0]
-    else:
-        other_side = ''
-    if row['play_type'] in ['Run', 'Pass']:
-        gain = 'gain_loss'
-        to_yl = 'gnls_to_yl'
-        to_terr = 'gnls_to_terr'
-    elif row['play_type'] in ['Kickoff', 'Punt']:
-        gain = 'kick_yards'
-        to_yl = 'kick_yl'
-        to_terr = 'kick_terr'
-    elif row['play_type'] in ['FG', 'Extra Pt.', '2 Pt.']:
-        return other_side
-    else:
-        return '' 
-    if row[gain] > 0:
-        if row['terr'] == row[to_terr]:
-            if row['yl_raw'] < row[to_yl]:
-                poss = row['terr']
-            else:
-                poss = other_side
-        else:
-            poss = row['terr']
-    elif row[gain] < 0:
-        if row['terr'] == row[to_terr]:
-            if row['yl_raw'] > row[to_yl]:
-                poss = row['terr']
-            else:
-                poss = other_side
-        else:
-            poss = row[to_terr]
-    else:
-        poss = ''
-    return poss
-
+teams = [team for team in df.terr.unique() if team != '']
 df['poss'] = df.apply(possession, args = (teams,), axis = 1)
 for role in ('passer', 'rusher', 'intended', 'kicker'):
     try:
-        role_map = df[(df[role] != '') & (~df.poss.isna())][[role, 'poss']].drop_duplicates().set_index(role).squeeze()
-        df['poss'] = df.poss.mask(df.poss.isna(), df[role].map(role_map))
-    except:
-        print(role)
-    
-
-team_cat_ordered = CategoricalDtype(categories = sorted(teams.tolist() + ['']), ordered = True)
+        role_map = df[(df[role] != '') & (df['poss'] != '')][[role, 'poss']].drop_duplicates().set_index(role).squeeze()
+        df['poss'] = df.poss.mask(df.poss == '', df[role].map(role_map)).fillna('')
+    except Exception as e:
+        print(role, e)
+team_cat_ordered = CategoricalDtype(categories = sorted(teams + ['']), ordered = True)
 df['poss'] = df.poss.astype(team_cat_ordered)
 df['drive_poss'] = df.groupby('drive_num')['poss'].transform(max)
 df['poss'] = np.where(df.drive_count == 0, df.drive_poss, df.poss.replace('', np.NaN))
 df['poss'] = df.poss.ffill()
 
+df['yl'] = np.where((df.terr == df.poss) & (df.yl_raw != 50), df.yl_raw * -1, df.yl_raw)
 
-
-view = df[['quarter', 'down', 'dist', 'yl_raw', 'terr', 'passer', 'rusher', 'kicker', 'intended', 'poss', 'drive_num',
+view = df[['quarter', 'down', 'dist', 'yl_raw', 'yl', 'terr', 'passer', 'rusher', 'kicker', 'intended', 'poss', 'drive_num',
            'play_type', 'gain_loss', 'gnls_to_yl', 'gnls_to_terr']]
 view.to_csv('df_temp.csv')
