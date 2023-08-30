@@ -161,7 +161,7 @@ df_tackler2 = name_extract(tackler_df[1], '', '', name_patterns, prefix = 'tackl
 
 # Extract penalty info
 df['pen_str'] = df['play_str'].str.extract('(PENALTY.*)', flags = re.IGNORECASE)
-df['presnap_pen'] = df['play_str'].str.startswith('PENALTY')
+df['presnap_pen'] = df['play_str'].str.startswith('PENALTY').replace({True: 1, False: np.NaN})
 player_pen_strings = df['pen_str'].str.extract("\((.*)\)").squeeze().str.strip().fillna('')
 df_pen = name_extract(player_pen_strings, '', '', name_patterns, prefix = 'penOn_')
 pen_pat = "PENALTY (?P<pen_team>[A-Z'\d]+) (?P<penalty>[a-zA-Z ]+[a-zA-Z])? ?(?P<pen_yards>\d{1,2})"
@@ -193,7 +193,7 @@ df['game_clock'] = df['game_clock'].replace('', np.NaN).ffill().bfill()
 # Set boolean values for certain events
 for tag in ['TOUCHDOWN', 'NO PLAY', 'Timeout']:
     colname = '_'.join(tag.lower().split())
-    df[colname] = np.where(df['play_str'].str.contains(tag, flags = re.IGNORECASE), 1, 0)
+    df[colname] = np.where(df['play_str'].str.contains(tag, flags = re.IGNORECASE), 1, np.NaN)
 
 regex_check(df['play_str'].str.contains('TOUCHDOWN'))
 
