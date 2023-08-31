@@ -8,9 +8,31 @@ Created on Wed Aug 16 06:50:40 2023
 import pandas as pd
 from pandas.api.types import CategoricalDtype
 import numpy as np
-from play_maker_new import df
-from play_maker_funcs import possession
+from presto_prep import headers, pot, get_info_dict
+from bs4 import SoupStrainer
+from play_maker_base import play_maker
+from play_maker_funcs import possession, possession_final
 import re
+
+pd.set_option('display.max_columns', None)
+#url = 'https://lycomingathletics.com/sports/football/stats/2021/susquehanna/boxscore/15029'
+url = 'https://muhlenbergsports.com/sports/football/stats/2022/franklin-marshall/boxscore/4600'
+#url = 'https://wvusports.com/sports/football/stats/2022/baylor/boxscore/18685' # def PAT
+#url = 'https://muhlenbergsports.com/sports/football/stats/2022/lebanon-valley/boxscore/4834'
+#url = 'https://d3football.com/seasons/2021/boxscores/20210904_yzfh.xml'
+# BS object of just the play-by-play
+soup = pot(headers, url, strainer = SoupStrainer(id='play-by-play'))
+presto = False
+if len(soup) < 1:
+    soup = pot(headers, url + '?view=plays', strainer = SoupStrainer(class_='stats-fullbox clearfix'))
+    soup = soup.find_all('table')[1]
+    presto = True
+# fname = 'lyco_pbp.html'
+# with open(fname, 'r') as infile:
+#     html = infile.read()
+# strainer = SoupStrainer(id='play-by-play')
+# soup = BeautifulSoup(html, "html.parser", parse_only = strainer)
+df = play_maker(soup, presto = presto)
 
 # Identify R/P/K play types
 df['play_type'] = np.where(df.play_str.str.contains(' rush'), 'Run', 
@@ -75,7 +97,6 @@ df_name['kicker'] = np.where(df.xp_type == 'kick', df_name.xp,
                              np.where(df.play_type == 'FG', df_name.fg, df_name.kicker))
 df = pd.concat((df, df_name), axis = 1)
 
-
 teams = [team for team in df.terr.unique() if team != '']
 df['poss'] = df.apply(possession, args = (teams,), axis = 1)
 for role in ('passer', 'rusher', 'intended', 'kicker'):
@@ -93,7 +114,26 @@ df['poss'] = df.poss.ffill()
 df['yl'] = np.where((df.terr == df.poss) & (df.yl_raw != 50), df.yl_raw * -1, df.yl_raw)
 df['pen_yards'] = df.pen_yards.fillna(0).astype('int64')
 for result_col in ('pass_result', 'fg_result', 'xp_type', 'xp_result', 'penalty'):
-    df[result_col] = df[result_col].str.title()
+    df[result_col] = df[result_col].str.title().replace({'Successful': 'Good', 
+                                                         'Failed': 'No Good', 
+                                                         'Blocked': 'No Good'})
+    
+# Fix PBUs captured as tackles
+pbu = np.where((df.pass_result == 'Incomplete' ) & (df.tackler1 != ''), df.tackler1, '')
+df['pbuBy'] = df.pbuBy + pbu
+df['tackler1'] = np.where(pbu != '', '', df.tackler1)
+
+df['poss_final'] = df.apply(possession_final, args = (teams,), axis = 1)
+    
+
+players = df[['rusher', 'passer', 'kicker']].agg(sum, axis = 1).rename('player')
+player_map = pd.concat((players, df.poss), axis = 1).drop_duplicates() 
+player_map = player_map[(player_map.player != '') & (player_map.poss != '')].set_index('player').squeeze()
+if presto:
+    box_soup = pot(headers, url)
+else:
+    box_soup = pot(headers, url, strainer = SoupStrainer(id='box-score'))
+info_dict = get_info_dict(box_soup, player_map, presto = presto)
 
 view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss', 'down', 'dist', 'yl', 'terr', 'play_type',
             'gain_loss', 'gnls_to_yl', 'gnls_to_terr', 'rusher', 'run_dir1', 'run_dir2', 

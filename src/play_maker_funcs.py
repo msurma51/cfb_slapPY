@@ -89,3 +89,46 @@ def possession(row, teams):
     else:
         poss = ''
     return poss
+
+def possession_final(row, teams):
+    # Possession can change in-play by fumble or blocked kick recovery, interception or return
+    recoveries = [dex for dex in row.index if dex.startswith('recovery') and row[dex] != '']
+    if len(recoveries) == 0:
+        last_recovery_team = None
+    elif len(recoveries) == 1:
+        last_recovery_team = row[recoveries[0]]
+    elif len(recoveries) > 1:
+        last_recovery_team = row[sorted(recoveries)[-2]]
+    if row['pass_result'] == 'Intercepted':
+        int_team = [team for team in teams if row['poss'] != team][0]
+    else:
+        int_team = None
+    if row['play_type'] in ('Extra Pt.', 'FG', 'Kickoff', 'Punt') and row['retBy'] != '':
+        ret_team = [team for team in teams if row['poss'] != team][0]
+    else:
+        ret_team = None
+    if not any((last_recovery_team, ret_team, int_team)):
+        return row['poss']
+    elif last_recovery_team and ret_team:
+        return last_recovery_team
+    elif last_recovery_team and int_team:
+        recov_index = row['play_str'].find('recover')
+        int_index = row['play_str'].find('intercept')
+        if recov_index > int_index:
+            return last_recovery_team
+        else:
+            return int_team 
+    elif last_recovery_team:
+        return last_recovery_team
+    elif int_team:
+        return int_team
+    else:
+        return ret_team
+    
+    
+        
+
+# def score(row, team):
+#     if row['Touchdown'] == 1:
+        
+    

@@ -43,7 +43,7 @@ def pot(headers, url, strainer = None):
     
     
 
-def presto_parser(url):
+def presto_parser(soup):
     '''
     
 
@@ -56,8 +56,6 @@ def presto_parser(url):
     Dataframe with quarter and drive starts identified
 
     '''
-    soup = pot(headers, url, strainer = SoupStrainer(class_='stats-fullbox clearfix'))
-    soup = soup.find_all('table')[1]
     html = str(soup)
     df = pd.read_html(html)[0]
     df.columns = ['dd_str', 'play_str']
@@ -72,5 +70,37 @@ def presto_parser(url):
     df.drop('top', axis = 1, inplace = True)
     df.reset_index(drop = True, inplace = True)
     return df
+
+
+def get_info_dict(box_soup, player_map, presto = False):
+    if not presto:
+        box = box_soup.find('tbody')
+        names = [name.string for name in box.find_all(class_='hide-on-small-down')]
+        abbrs = [abbr.string for abbr in box.find_all(class_='hide-on-medium')]
+        info_dict = {'away_team': names[0], 'home_team': names[1], 'away_abbr': abbrs[0], 'home_abbr': abbrs[1]}
+        game_info = box_soup.find(class_='text-center inline')
+        keys = [key.string[:-1] for key in game_info.find_all('dt')][:-1]
+        values = [value.string for value in game_info.find_all('dd')][:-1]
+        info_dict.update(dict(zip(keys,values)))
+    else:
+        off_player_box = box_soup.find_all(class_='stats-fullbox clearfix')[-2]
+        box_dfs = pd.read_html(str(off_player_box))
+        names = box_dfs[0].iloc[0].tolist()
+        box_indices = (1,3,7,9,11)
+        abbrs = []
+        for j in range(2):
+            side_dfs = [box_dfs[i+j] for i in box_indices]
+            side_players = pd.concat([side_df.iloc[:,0] for side_df in side_dfs]).drop_duplicates()
+            side_abbr = side_players.map(player_map).dropna().unique().tolist()
+            assert len(side_abbr) == 1, f'Error assigning abbreviation for {names[j]}'
+            abbrs.extend(side_abbr)
+        info_dict = {'away_team': names[0], 'home_team': names[1], 'away_abbr': abbrs[0], 'home_abbr': abbrs[1]}
+        info_box = box_soup.find(class_='stats-fullbox summary other-info clearfix')
+        info_strings = list(info_box.stripped_strings)
+        info_strings = info_strings[info_strings.index('Location:'):info_strings.index('Referee:')]
+        keys = [string.replace(':','') for string in info_strings if string.find(':') > -1]
+        values = [string for string in info_strings if string.find(':') == -1]
+        info_dict.update(dict(zip(keys,values)))
+    return info_dict
 
         
