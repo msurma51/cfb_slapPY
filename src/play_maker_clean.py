@@ -11,7 +11,7 @@ import numpy as np
 from presto_prep import headers, pot, get_info_dict
 from bs4 import SoupStrainer
 from play_maker_base import play_maker
-from play_maker_funcs import possession, possession_final
+from play_maker_funcs import possession, possession_final, points_on_play
 import re
 
 pd.set_option('display.max_columns', None)
@@ -135,6 +135,8 @@ else:
     box_soup = pot(headers, url, strainer = SoupStrainer(id='box-score'))
 info_dict = get_info_dict(box_soup, player_map, presto = presto)
 
+df['away_points_on_play'] = df.apply(points_on_play, args = (info_dict['away_abbr'],), axis = 1)
+
 view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss', 'down', 'dist', 'yl', 'terr', 'play_type',
             'gain_loss', 'gnls_to_yl', 'gnls_to_terr', 'rusher', 'run_dir1', 'run_dir2', 
             'passer', 'pass_dir', 'intended', 'pass_result', 'intBy', 'int_terr', 'int_yl', 'pbuBy', 'hurriedBy',
@@ -143,7 +145,7 @@ view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss', 'down'
             'fumble_num', 'fumbleBy', 'fumbleBy2', 'fumbleBy3', 
             'recoveredBy', 'recoveredBy2', 'recoveredBy3', 'recovery_team', 'recov_terr', 'recov_yl',
             'presnap_pen', 'penalty', 'penOn', 'pen_team', 'pen_yards'
-            'touchdown', 'no_play', 'timeout']
+            'touchdown', 'no_play', 'timeout', 'away_points_on_play']
 view_cols = [col for col in view_cols if col in df.columns]
 view = df[view_cols] 
 view.to_csv('df_temp.csv')

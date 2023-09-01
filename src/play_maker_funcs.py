@@ -125,10 +125,23 @@ def possession_final(row, teams):
     else:
         return ret_team
     
-    
+def points_on_play(row, team):
+    if row['poss_final'] == team:
+        if row['touchdown'] == 1:
+            return 6
+        if row['play_type'] == 'FG' and row['fg_result'] == 'Good':
+            return 3
+        if row['xp_result'] == 'Good':
+            if row['xp_type'] == 'Kick':
+                return 1
+            else:
+                return 2
+        if row['def_pat'] == 1:
+            return 2
+    else:
+        if row['safety'] == 1:
+            return 2
+    return 0
         
-
-# def score(row, team):
-#     if row['Touchdown'] == 1:
         
     
