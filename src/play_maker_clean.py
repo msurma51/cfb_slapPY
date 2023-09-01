@@ -75,6 +75,7 @@ for col in ydyl_cols:
         print('Error for column name ', col)
         print(e)
         raise
+    
 
 for first_row, colname in zip(('qtr_first_row', 'drive_first_row'),('quarter', 'drive_num')):
     ser = df.groupby(first_row).cumcount()
@@ -97,6 +98,7 @@ df_name['kicker'] = np.where(df.xp_type == 'kick', df_name.xp,
                              np.where(df.play_type == 'FG', df_name.fg, df_name.kicker))
 df = pd.concat((df, df_name), axis = 1)
 
+# Determine possession at the beginning of each play
 teams = [team for team in df.terr.unique() if team != '']
 df['poss'] = df.apply(possession, args = (teams,), axis = 1)
 for role in ('passer', 'rusher', 'intended', 'kicker'):
@@ -111,12 +113,14 @@ df['drive_poss'] = df.groupby('drive_num')['poss'].transform(max)
 df['poss'] = np.where(df.drive_count == 0, df.drive_poss, df.poss.replace('', np.NaN))
 df['poss'] = df.poss.ffill()
 
+# Convert yl to +/- depending on possession and territory
 df['yl'] = np.where((df.terr == df.poss) & (df.yl_raw != 50), df.yl_raw * -1, df.yl_raw)
-df['pen_yards'] = df.pen_yards.fillna(0).astype('int64')
+#df['pen_yards'] = df.pen_yards.fillna(0).astype('int64')
 for result_col in ('pass_result', 'fg_result', 'xp_type', 'xp_result', 'penalty'):
     df[result_col] = df[result_col].str.title().replace({'Successful': 'Good', 
                                                          'Failed': 'No Good', 
                                                          'Blocked': 'No Good'})
+df['gain_loss'] = np.where(df.pass_result == 'Incomplete', 0, df.gain_loss)
     
 # Fix PBUs captured as tackles
 pbu = np.where((df.pass_result == 'Incomplete' ) & (df.tackler1 != ''), df.tackler1, '')
@@ -135,7 +139,9 @@ else:
     box_soup = pot(headers, url, strainer = SoupStrainer(id='box-score'))
 info_dict = get_info_dict(box_soup, player_map, presto = presto)
 
-df['away_points_on_play'] = df.apply(points_on_play, args = (info_dict['away_abbr'],), axis = 1)
+for prefix in ('away_', 'home_'):
+    df[prefix + 'points_on_play'] = df.apply(points_on_play, args = (info_dict[prefix + 'abbr'],), axis = 1)
+    df[prefix + 'points'] = df[prefix + 'points_on_play'].cumsum().shift(1).fillna(0)
 
 view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss', 'down', 'dist', 'yl', 'terr', 'play_type',
             'gain_loss', 'gnls_to_yl', 'gnls_to_terr', 'rusher', 'run_dir1', 'run_dir2', 
@@ -144,8 +150,9 @@ view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss', 'down'
             'retBy', 'ret_yards', 'ret_terr', 'ret_yl', 'tackler1', 'tackler2', 
             'fumble_num', 'fumbleBy', 'fumbleBy2', 'fumbleBy3', 
             'recoveredBy', 'recoveredBy2', 'recoveredBy3', 'recovery_team', 'recov_terr', 'recov_yl',
-            'presnap_pen', 'penalty', 'penOn', 'pen_team', 'pen_yards'
-            'touchdown', 'no_play', 'timeout', 'away_points_on_play']
+            'presnap_pen', 'penalty', 'penOn', 'pen_team', 'pen_yards',
+            'touchdown', 'no_play', 'timeout', 'away_points_on_play', 'home_points_on_play', 
+            'away_points', 'home_points']
 view_cols = [col for col in view_cols if col in df.columns]
 view = df[view_cols] 
 view.to_csv('df_temp.csv')
