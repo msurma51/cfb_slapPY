@@ -179,6 +179,11 @@ def play_maker(soup, presto = False):
         fum_str = fum_str[3:].str.extract(' (fumble.*)')
     df = pd.concat((df, df_tackler1, df_tackler2, df_fum, df_pen), axis = 1)
     
+    # Extract non-fumble recoveries (on-side)
+    recov_by_pat = "recovered by (?P<recovery_team>[A-Z\d']+) "
+    recov_ser = df['play_str'].str.extract(recov_by_pat).fillna('').squeeze()
+    df['recovery_team'] = np.where(df.fumble_num.isna(), recov_ser, df.recovery_team)
+    
     
     # Get times where posted
     df['game_clock'] = ''
@@ -189,7 +194,8 @@ def play_maker(soup, presto = False):
     
     # Set boolean values for certain events
     for tag in ['TOUCHDOWN', 'NO PLAY', 'Timeout', '1ST DOWN', 'safety', 
-                'on-side', 'touchback', 'downed', 'out of bounds', 'out-of-bounds', 'blocked']:
+                'on-side', 'touchback', 'downed', 'fair catch', 'touchback',
+                'out of bounds', 'out-of-bounds', 'blocked']:
         colname = '_'.join(tag.lower().split())
         if '-' in tag:
             colname = '_'.join(tag.lower().split(sep = '-'))

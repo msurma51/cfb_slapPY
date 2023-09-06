@@ -11,7 +11,7 @@ import numpy as np
 from presto_prep import headers, pot, get_info_dict
 from bs4 import SoupStrainer
 from play_maker_base import play_maker
-from play_maker_funcs import possession, possession_final, points_on_play
+from play_maker_funcs import possession, possession_final, points_on_play, time_remaining_half, kick_result
 import re
 
 pd.set_option('display.max_columns', None)
@@ -127,6 +127,14 @@ pbu = np.where((df.pass_result == 'Incomplete' ) & (df.tackler1 != ''), df.tackl
 df['pbuBy'] = df.pbuBy + pbu
 df['tackler1'] = np.where(pbu != '', '', df.tackler1)
 
+# Add KO/Punt Result
+recov_by_pat = "recovered by (?P<recovery_team>[A-Z\d']+) "
+df['kick_result'] = df.apply(kick_result, axis = 1)
+
+# Associate timeouts with the previous play
+df['timeout'] = np.where(df.play_type == 'Timeout', 1, np.NaN)
+df['timeout'] = df.timeout.shift(-1)
+
 df['poss_final'] = df.apply(possession_final, args = (teams,), axis = 1)
     
 
@@ -143,10 +151,13 @@ for prefix in ('away_', 'home_'):
     df[prefix + 'points_on_play'] = df.apply(points_on_play, args = (info_dict[prefix + 'abbr'],), axis = 1)
     df[prefix + 'points'] = df[prefix + 'points_on_play'].cumsum().shift(1).fillna(0)
 
-view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss', 'down', 'dist', 'yl', 'terr', 'play_type',
+view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss', 
+             'down', 'dist', 'yl', 'terr', 'play_type',
             'gain_loss', 'gnls_to_yl', 'gnls_to_terr', 'rusher', 'run_dir1', 'run_dir2', 
-            'passer', 'pass_dir', 'intended', 'pass_result', 'intBy', 'int_terr', 'int_yl', 'pbuBy', 'hurriedBy',
-            'kicker', 'kick_yards', 'kick_terr', 'kick_yl', 'fg_dist', 'fg_result', 'xp_type', 'xp_result', 
+            'passer', 'pass_dir', 'intended', 'pass_result', 
+            'intBy', 'int_terr', 'int_yl', 'pbuBy', 'hurriedBy',
+            'kicker', 'kick_yards', 'kick_terr', 'kick_yl', 'kick_result',
+            'fg_dist', 'fg_result', 'xp_type', 'xp_result', 
             'retBy', 'ret_yards', 'ret_terr', 'ret_yl', 'tackler1', 'tackler2', 
             'fumble_num', 'fumbleBy', 'fumbleBy2', 'fumbleBy3', 
             'recoveredBy', 'recoveredBy2', 'recoveredBy3', 'recovery_team', 'recov_terr', 'recov_yl',
@@ -158,3 +169,5 @@ view = df[view_cols]
 view.to_csv('df_temp.csv')
 export = view[view.play_type.str.len() > 0]
 export.to_csv('sample_export.csv')
+
+

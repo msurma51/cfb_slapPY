@@ -49,9 +49,8 @@ def fumble_df(fum_str, name_patterns):
     recov_by_pat = "recovered by (?P<recovery_team>[A-Z\d']+) "
     df_recov_by = name_extract(fum_str, recov_by_pat, '', name_patterns, prefix = 'recoveredBy_')
     recov_at_pat = " at (?P<recov_terr>(?:[A-Z']+)?(?:\\d{4}|\\d{2})?)(?P<recov_yl>[0-9]{1,2})"
-    fum_yl = fum_str.str.extract(recov_at_pat)
-    df_fum_curr = pd.concat((df_fumBy, df_recov_by, fum_yl), axis = 1)
-    return pd.concat((df_fumBy, df_recov_by, fum_yl), axis = 1)
+    recov_yl = fum_str.str.extract(recov_at_pat)
+    return pd.concat((df_fumBy, df_recov_by, recov_yl), axis = 1)
 
 def possession(row, teams):
     if row['terr'] != '':
@@ -89,6 +88,16 @@ def possession(row, teams):
     else:
         poss = ''
     return poss
+
+def kick_result(row):
+    if row['play_type'] in ('Punt', 'Kickoff'):
+        if row['retBy'] != '' or row['recovery_team'] != '':
+            return 'Return'
+        else:
+            for dex in ('fair_catch', 'out_of_bounds', 'touchback', 'downed'):
+                if row[dex] == 1:
+                    return (' '.join(dex.split(sep = '_'))).title()
+    return ''
 
 def possession_final(row, teams):
     # Possession can change in-play by fumble or blocked kick recovery, interception or return
@@ -142,6 +151,32 @@ def points_on_play(row, team):
         if row['safety'] == 1:
             return 2
     return 0
+
+def time_remaining_half(row):
+    min_sec = [int(unit) for unit in row['game_clock'].split(sep = ':')]
+    sec_remaining = min_sec[0]*60 + min_sec[1]
+    if row['quarter'] in (1,3):
+        return sec_remaining + 900
+    return sec_remaining
+
+def play_duration(row):
+    if row['play_type'] == 'Pass':
+        return 1
+    if row['play_type'] == 'Run':
+        if row['timeout'] == 1:
+            return 1
+        elif row['touchdown'] == 1 and row['gain_loss'] < 20:
+            return 1
+        else:
+            return 2
+    if row['play_type'] == 'Kickoff':
+        if row['kick_result'] == 'Return':
+            return 1
+        else:
+            return 0
+    if row['play_type'] == 'Extra Pt.':
+        return 0
+    return 1
         
         
     
