@@ -174,7 +174,7 @@ def play_duration(row):
             return 1
         else:
             return 0
-    if row['play_type'] == 'Extra Pt.':
+    if row['play_type'] in ('Extra Pt.', ''):
         return 0
     return 1
         

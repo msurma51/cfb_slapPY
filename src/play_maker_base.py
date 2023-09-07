@@ -63,12 +63,13 @@ def play_maker(soup, presto = False):
     # Get rusher and direction info using multiple possible patterns for both
     direction_pat1 = " left| middle| right"
     direction_pat2 = " over left end| up middle| over right end"
-    rush_dir_pat = "(?P<run_dir1>{})?".format(direction_pat1) + " rush" + "(?P<run_dir2>{})?".format(direction_pat2) 
+    rush_dir_pat = ("(?P<run_dir1>{})?".format(direction_pat1) + " rush" + 
+                    "(?P<run_dir2>{}|{})?".format(direction_pat1, direction_pat2))
     # "Overlay" dataframes using concatenation and add columns to df
     df_rusher = name_extract(df['play_str'],"^",rush_dir_pat, name_patterns, prefix = 'rusher_')
     # Get gain/loss and yardline rushed to info
-    rush_pat2 = " rush" + "(?:{})?".format(direction_pat2)
-    run_gl_pat = " for (?P<run_gain>(?:loss of )?\d{1,2}) yards?"
+    rush_pat2 = " rush" + "(?:{}|{})?".format(direction_pat1, direction_pat2)
+    run_gl_pat = " for (?P<run_gain>(?:loss of )?\d{1,2}) yards?(?: gain)?"
     run_ng_pat = " for (?P<run_gain>no gain)"
     run_to_pat = " to the (?P<run_to_terr>(?:[A-Z']+)?(?:\d{4}|\d{2})?)(?P<run_to_yl>[0-9]{1,2})"
     # Create separate outputs for clear gains/losses and no gains, then overlay the latter into the former
@@ -81,7 +82,8 @@ def play_maker(soup, presto = False):
     
     # Extract pass play info
     # Get passer, direction and result for passes thrown
-    pass_dir_pat = "(?P<pass_dir> LE| middle| RE)? pass (?P<pass_result>(?:in)?complete|intercepted)"
+    pass_dir_pat = ("(?P<pass_dir1> LE| middle| RE)? pass (?P<pass_result>(?:in)?complete|intercepted)" + 
+                    "(?P<pass_depth> short| deep)?(?P<pass_dir2>{})?".format(direction_pat1))
     df_passer = name_extract(df['play_str'],"^",pass_dir_pat,name_patterns, prefix = 'passer_')
     # Get passer and result for sacks
     df_sacked = name_extract(df['play_str'],"^"," (?P<pass_result>sack)ed", name_patterns, prefix = 'passer_')
@@ -99,7 +101,7 @@ def play_maker(soup, presto = False):
     df_hurriedBy = name_extract(df['play_str'],' QB hurried by| QB hurry by','', name_patterns,prefix = 'hurriedBy_')
     # Get gain/loss info for passes and sacks
     pass_pats = [pattern.replace('run_','pass_') for pattern in (run_gl_pat, run_ng_pat, run_to_pat)]
-    pass_start_pat = " pass (?:in)?complete to.*?"
+    pass_start_pat = " pass (?:in)?complete .*?to.*?"
     df_pass_gains = df['play_str'].str.extract(pass_start_pat + pass_pats[0] + pass_pats[2]).fillna('')
     df_pass_noGain = df['play_str'].str.extract(pass_start_pat + pass_pats[1] + pass_pats[2]).fillna('')
     df_sack_loss = df['play_str'].str.extract('sacked.*?' + pass_pats[0] + pass_pats[2]).fillna('')
@@ -194,11 +196,12 @@ def play_maker(soup, presto = False):
     
     # Set boolean values for certain events
     for tag in ['TOUCHDOWN', 'NO PLAY', 'Timeout', '1ST DOWN', 'safety', 
-                'on-side', 'touchback', 'downed', 'fair catch', 'touchback',
+                'on-side', 'onside', 'touchback', 'downed', 'fair catch', 'touchback',
                 'out of bounds', 'out-of-bounds', 'blocked']:
         colname = '_'.join(tag.lower().split())
         if '-' in tag:
             colname = '_'.join(tag.lower().split(sep = '-'))
         df[colname] = np.where(df['play_str'].str.contains(tag, flags = re.IGNORECASE), 1, np.NaN)
-    df = df.rename(columns = {'1st down': 'first down'})
+    df['onside'] = df.onside.mask(df.on_side == 1, 1)
+    df = df.rename(columns = {'1st_down': 'first_down'})
     return df

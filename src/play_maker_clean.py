@@ -8,15 +8,18 @@ Created on Wed Aug 16 06:50:40 2023
 import pandas as pd
 from pandas.api.types import CategoricalDtype
 import numpy as np
+import datetime
+import re
 from presto_prep import headers, pot, get_info_dict
 from bs4 import SoupStrainer
 from play_maker_base import play_maker
-from play_maker_funcs import possession, possession_final, points_on_play, time_remaining_half, kick_result
-import re
+from play_maker_funcs import possession, possession_final, points_on_play, kick_result, play_duration
+
 
 pd.set_option('display.max_columns', None)
 #url = 'https://lycomingathletics.com/sports/football/stats/2021/susquehanna/boxscore/15029'
-url = 'https://muhlenbergsports.com/sports/football/stats/2022/franklin-marshall/boxscore/4600'
+#url = 'https://muhlenbergsports.com/sports/football/stats/2022/franklin-marshall/boxscore/4600'
+url = 'https://godiplomats.com/sports/football/stats/2023/lebanon-valley-college/boxscore/12182'
 #url = 'https://wvusports.com/sports/football/stats/2022/baylor/boxscore/18685' # def PAT
 #url = 'https://muhlenbergsports.com/sports/football/stats/2022/lebanon-valley/boxscore/4834'
 #url = 'https://d3football.com/seasons/2021/boxscores/20210904_yzfh.xml'
@@ -150,11 +153,13 @@ info_dict = get_info_dict(box_soup, player_map, presto = presto)
 for prefix in ('away_', 'home_'):
     df[prefix + 'points_on_play'] = df.apply(points_on_play, args = (info_dict[prefix + 'abbr'],), axis = 1)
     df[prefix + 'points'] = df[prefix + 'points_on_play'].cumsum().shift(1).fillna(0)
+    
+
 
 view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss', 
              'down', 'dist', 'yl', 'terr', 'play_type',
             'gain_loss', 'gnls_to_yl', 'gnls_to_terr', 'rusher', 'run_dir1', 'run_dir2', 
-            'passer', 'pass_dir', 'intended', 'pass_result', 
+            'passer', 'pass_dir1', 'pass_dir2', 'pass_depth', 'intended', 'pass_result', 
             'intBy', 'int_terr', 'int_yl', 'pbuBy', 'hurriedBy',
             'kicker', 'kick_yards', 'kick_terr', 'kick_yl', 'kick_result',
             'fg_dist', 'fg_result', 'xp_type', 'xp_result', 
@@ -167,7 +172,31 @@ view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss',
 view_cols = [col for col in view_cols if col in df.columns]
 view = df[view_cols] 
 view.to_csv('df_temp.csv')
-export = view[view.play_type.str.len() > 0]
+export = view[view.play_type.str.len() > 0].copy()
+
+gc = pd.to_datetime(export.game_clock, format = '%M:%S')
+next_time = export.groupby('quarter')['game_clock'].shift(-1).fillna('00:00')
+gcn = pd.to_datetime(next_time, format = '%M:%S')
+grpBy = export.groupby(['quarter','game_clock'])
+export['time_elapsed_next'] = gc - gcn
+export['time_elapsed_chunk'] = grpBy['time_elapsed_next'].transform(max)
+export['play_units'] = export.apply(play_duration, axis = 1)
+export['play_units_chunk'] = grpBy['play_units'].transform(sum)
+export['play_unit_duration'] = export.time_elapsed_chunk / export.play_units_chunk
+export['play_duration'] = export.play_unit_duration * export.play_units
+export['cum_play_duration'] = grpBy['play_duration'].cumsum().round('1s')
+export['cum_play_duration'] = grpBy['cum_play_duration'].shift(1).fillna(datetime.timedelta(minutes = 0))
+export['est_game_clock'] = gc - export['cum_play_duration']
+export['sec_remaining_half'] = (export.est_game_clock.dt.minute*60 + export.est_game_clock.dt.second +
+                                ((export.quarter % 2)*900))
+export['est_game_clock'] = export['est_game_clock'].dt.strftime('%M:%S')
+export['play_duration'] = (export['play_duration'].round('1s') + pd.to_datetime('1900/01/01')).dt.strftime('%M:%S')
+
+export = export.drop(labels = ['time_elapsed_next', 'time_elapsed_chunk', 'play_units', 'play_units_chunk',
+                                'play_unit_duration', 'cum_play_duration'], axis = 1)
+
+
+ 
 export.to_csv('sample_export.csv')
 
 
