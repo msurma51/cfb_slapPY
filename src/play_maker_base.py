@@ -7,7 +7,7 @@ Created on Sat Feb 11 15:46:33 2023
 import pandas as pd
 import numpy as np
 import re
-from play_maker_funcs import name_extract, kick_extract, fumble_df, regex_check
+from play_maker_funcs import name_extract, kick_extract, fumble_df, slice_fum_str, regex_check
 from presto_prep import presto_parser
 
 
@@ -43,21 +43,21 @@ def play_maker(soup, presto = False):
     df['dd_str'] = df['dd_str'].str.split().str.join(sep = ' ')
     # Extract down, distance and yard line from d&d string
     dd_pattern = "(?P<down>[1-4])[dhnrst]{2} and (?P<dist>\d{1,2}|GOAL) at "
-    at_yl_pattern = " at (?P<terr>[A-Z']+(?:\d{4}|\d{2})?)(?P<yl_raw>[0-9]{2})"
+    at_yl_pattern = " at (?P<terr>[A-Z']+(?:\d{4}|\d{2})?)(?P<yl_raw>[0-9]{1,2})"
     df_dd = df['dd_str'].str.extract(dd_pattern)
     df_yl = df['dd_str'].str.extract(at_yl_pattern)
     df = pd.concat((df,df_dd,df_yl), axis=1)
     
     # Build name matching regex
-    fname_pat = "(?P<first>[A-Z][\w'-]*[.]?)"
+    fname_pat = "(?P<first>[A-Z][\w'-]*)(?:\. )?"
     lname_pat = "(?P<last>[A-Z][\w'-]+,?(?: Jr.)?(?: I{:3}V?)?)"
     name_pat1 = "{} ?{}".format(fname_pat, lname_pat.replace(',?',''))
     name_pat2 = "{}, ?{}".format(lname_pat, fname_pat)
     name_patterns = [name_pat1,name_pat2]
     
     # Mark and remove no-huddle shotgun
-    df['no_huddle'] = np.where(df.play_str.str.contains('No Huddle-Shotgun'), 1, np.NaN)
-    df['play_str'] = df['play_str'].str.replace('No Huddle-Shotgun ', '')
+    df['no_huddle'] = np.where(df.play_str.str.contains('No Huddle'), 1, np.NaN)
+    df['play_str'] = df['play_str'].str.replace('No Huddle-Shotgun ', '').str.replace('No Huddle ', '')
     
     # Extract run play info
     # Get rusher and direction info using multiple possible patterns for both
@@ -69,7 +69,7 @@ def play_maker(soup, presto = False):
     df_rusher = name_extract(df['play_str'],"^",rush_dir_pat, name_patterns, prefix = 'rusher_')
     # Get gain/loss and yardline rushed to info
     rush_pat2 = " rush" + "(?:{}|{})?".format(direction_pat1, direction_pat2)
-    run_gl_pat = " for (?P<run_gain>(?:loss of )?\d{1,2}) yards?(?: gain)?"
+    run_gl_pat = " for (?:loss of )?(?P<run_gain>\d{1,2}) yards?(?: gain| loss)?"
     run_ng_pat = " for (?P<run_gain>no gain)"
     run_to_pat = " to the (?P<run_to_terr>(?:[A-Z']+)?(?:\d{4}|\d{2})?)(?P<run_to_yl>[0-9]{1,2})"
     # Create separate outputs for clear gains/losses and no gains, then overlay the latter into the former
@@ -77,8 +77,10 @@ def play_maker(soup, presto = False):
     df_noGain = df['play_str'].str.extract(rush_pat2 + run_ng_pat + run_to_pat).fillna('')
     for col in df_gains.columns:
         df_gains[col] = df_gains[col] + df_noGain[col]
+    run_loss_pat = rush_pat2 + " for .*?loss"
+    run_loss = df['play_str'].str.contains(run_loss_pat).rename('run_loss').replace({True: 1, False: np.NaN})
     # Combine with main dataframe
-    df = pd.concat((df,df_rusher,df_gains),axis = 1)
+    df = pd.concat((df,df_rusher,df_gains, run_loss),axis = 1)
     
     # Extract pass play info
     # Get passer, direction and result for passes thrown
@@ -104,12 +106,14 @@ def play_maker(soup, presto = False):
     pass_start_pat = " pass (?:in)?complete .*?to.*?"
     df_pass_gains = df['play_str'].str.extract(pass_start_pat + pass_pats[0] + pass_pats[2]).fillna('')
     df_pass_noGain = df['play_str'].str.extract(pass_start_pat + pass_pats[1] + pass_pats[2]).fillna('')
-    df_sack_loss = df['play_str'].str.extract('sacked.*?' + pass_pats[0] + pass_pats[2]).fillna('')
+    df_sack_loss = df['play_str'].str.extract(' sacked.*?' + pass_pats[0] + pass_pats[2]).fillna('')
     for col in df_pass_gains.columns:
         df_pass_gains[col] = df_pass_gains[col] + df_pass_noGain[col] + df_sack_loss[col]
+    pass_loss_pat = "(?:{}|{}) for.*? loss".format(pass_start_pat, ' sacked.*?')
+    pass_loss = df['play_str'].str.contains(pass_loss_pat).rename('pass_loss').replace({True: 1, False: np.NaN})
     # Combine with main dataframe
     df = pd.concat((df, df_passer, df_intended, df_interceptedBy, df_brokenUpBy, df_hurriedBy,
-                    df_pass_gains), axis = 1)
+                    df_pass_gains, pass_loss), axis = 1)
     
     # Extract extra point and fg info
     fg_result_str = 'good|successful|no good|failed|blocked'
@@ -169,16 +173,18 @@ def play_maker(soup, presto = False):
     # Extract fumble info
     df['fumble_str'] = df['play_str'].str.extract(' (fumble.*)')
     fum_str = df.fumble_str
-    df['fumble_num'] = df.fumble_str.str.findall('fumble').str.len()
-    df_fum = pd.DataFrame()
-    for i in range(int(df.fumble_num.max())):
-        df_fum_curr = fumble_df(fum_str, name_patterns)
-        if i > 0:
+    df['fumble_num'] = df.fumble_str.str.findall(' fumble by').str.len()
+    df_fum = fumble_df(fum_str, name_patterns)
+    max_fumbles = df.fumble_num.max()
+    if max_fumbles > 1:
+        for i in range(1, int(max_fumbles)):
+            fum_str = fum_str.fillna('').map(slice_fum_str)
+            df_fum_curr = fumble_df(fum_str, name_patterns)
             colnames = [colname[:colname.index('_')] + str(i+1) + colname[colname.index('_'):] 
                         for colname in df_fum_curr.columns]
             df_fum_curr.columns = colnames
-        df_fum = pd.concat((df_fum, df_fum_curr), axis =1)
-        fum_str = fum_str[3:].str.extract(' (fumble.*)')
+            df_fum = pd.concat((df_fum, df_fum_curr), axis =1)
+            # Create new fum_str series if necessary
     df = pd.concat((df, df_tackler1, df_tackler2, df_fum, df_pen), axis = 1)
     
     # Extract non-fumble recoveries (on-side)

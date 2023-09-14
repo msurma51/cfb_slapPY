@@ -103,4 +103,8 @@ def get_info_dict(box_soup, player_map, presto = False):
         info_dict.update(dict(zip(keys,values)))
     return info_dict
 
+def get_roster(roster_soup, presto = False):
+    if not presto:
+        roster = [table for table in pd.read_html(str(roster_soup)) if len(table) > 0][0]
+
         

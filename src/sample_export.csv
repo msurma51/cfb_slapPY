@@ -1,153 +1,159 @@
-,quarter,game_clock,drive_num,drive_count,poss,down,dist,yl,terr,play_type,gain_loss,gnls_to_yl,gnls_to_terr,rusher,run_dir1,run_dir2,passer,pass_dir1,pass_dir2,pass_depth,intended,pass_result,intBy,int_terr,int_yl,pbuBy,hurriedBy,kicker,kick_yards,kick_terr,kick_yl,kick_result,fg_dist,fg_result,xp_type,xp_result,retBy,ret_yards,ret_terr,ret_yl,tackler1,tackler2,fumble_num,fumbleBy,recoveredBy,recovery_team,recov_terr,recov_yl,presnap_pen,penalty,penOn,pen_team,pen_yards,touchdown,no_play,timeout,away_points_on_play,home_points_on_play,away_points,home_points,play_duration,est_game_clock,sec_remaining_half
-2,1,15:00,1,2,LVC,,,,,Kickoff,,,,,,,,,,,,,,,,,,Brian Dym,55,FMC,10,Return,,,,,Matt Hanna,25,FMC,35,Alex Brown,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:04,15:00,1800
-5,1,15:00,2,2,FMC,1,10,-35,FMC,Run,14.0,49,FMC,Ty Tremba,, middle,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,,Erik Williams,LVC,FMC,49,,,,,,,,,0,0,0.0,0.0,00:08,14:56,1796
-8,1,14:48,3,2,LVC,1,10,49,FMC,Pass,1.0,48,FMC,,,,Braden Bohannon,, left, short,,Complete,,,,,,,,,,,,,,,,,,,Kell Hall,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:20,14:48,1788
-9,1,14:48,3,3,LVC,2,9,48,FMC,Run,,,,Tim Ervey,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jeffrey Decker,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:40,14:28,1768
-10,1,14:48,3,4,LVC,3,10,49,FMC,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,Offside,,LVC,5,,1.0,,0,0,0.0,0.0,00:20,13:49,1729
-11,1,14:48,3,5,LVC,3,15,-46,LVC,Pass,10.0,44,FMC,,,,Braden Bohannon,, left, short,,Complete,,,,,,,,,,,,,,,,,,,Kell Hall,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:20,13:29,1709
-12,1,14:48,3,6,LVC,4,5,44,FMC,Punt,,,,,,,,,,,,,,,,,,Jeremy Bours Jr.,18,FMC,26,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:20,13:09,1689
-15,1,12:49,4,2,FMC,1,10,-26,FMC,Run,4.0,30,FMC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:31,12:49,1669
-16,1,12:49,4,3,FMC,2,6,-30,FMC,Run,9.0,39,FMC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Nick Morder,Brody Robinson,,,,,,,,,,,,,,,0,0,0.0,0.0,00:31,12:18,1638
-17,1,12:49,4,4,FMC,1,10,-39,FMC,Run,0.0,39,FMC,Mitch Wagner,, left,,,,,,,,,,,,,,,,,,,,,,,,,Erik Williams,,,,,,,,,Holding,,FMC,10,,1.0,,0,0,0.0,0.0,00:31,11:46,1606
-18,1,12:49,4,5,FMC,1,20,-29,FMC,Pass,9.0,38,FMC,,,,Ty Tremba,, middle, short,,Complete,,,,,,,,,,,,,,,,,,,James Jackson,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:16,11:15,1575
-19,1,12:49,4,6,FMC,2,11,-38,FMC,Pass,0.0,,,,,,Ty Tremba,, left, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:16,11:00,1560
-20,1,12:49,4,7,FMC,3,11,-38,FMC,Run,3.0,41,FMC,Ty Tremba,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jacob Horton,Brody Robinson,,,,,,,,,,,,,,,0,0,0.0,0.0,00:31,10:44,1544
-21,1,12:49,4,8,FMC,4,8,-41,FMC,Punt,,,,,,,,,,,,,,,,,,Laurence Miller,0,FMC,41,Return,,,,,,,,,,,,,,LVC,,,,,,,,,,,0,0,0.0,0.0,00:16,10:13,1513
-24,1,09:57,5,2,LVC,1,10,29,FMC,Run,7.0,22,FMC,Dion Bryant,, left,,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:26,09:57,1497
-25,1,09:57,5,3,LVC,2,3,22,FMC,Pass,0.0,,,,,,Braden Bohannon,, left, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:13,09:31,1471
-26,1,09:57,5,4,LVC,3,3,22,FMC,Pass,0.0,,,,,,Braden Bohannon,, left, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:13,09:18,1458
-28,1,09:05,5,6,LVC,1,10,-35,LVC,Kickoff,,,,,,,,,,,,,,,,,,Brian Dym,49,FMC,16,Return,,,,,Matt Hanna,17,FMC,33,BoursJeremy JrBours Jr.,Alex Brown,,,,,,,,,,,,,,,0,0,0.0,0.0,00:02,09:05,1445
-31,1,09:03,6,2,FMC,1,10,-33,FMC,Pass,22.0,45,LVC,,,,Ty Tremba,, right, deep,,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:18,09:03,1443
-32,1,09:03,6,3,FMC,1,10,45,LVC,Run,4.0,41,LVC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Shawn Fester,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:36,08:45,1425
-33,1,09:03,6,4,FMC,2,6,41,LVC,Pass,15.0,26,LVC,,,,Ty Tremba,, middle, short,,Complete,,,,,,,,,,,,,,,,,,,Brent Moody,Taijay Brown,,,,,,,,,,,,,,,0,0,0.0,0.0,00:18,08:08,1388
-34,1,09:03,6,5,FMC,1,10,26,LVC,Run,6.0,20,LVC,Ty Tremba,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Brody Robinson,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:36,07:50,1370
-35,1,09:03,6,6,FMC,2,4,20,LVC,Pass,0.0,,,,,,Ty Tremba,, middle, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:18,07:13,1333
-36,1,09:03,6,7,FMC,3,4,20,LVC,Pass,0.0,,,,,,Ty Tremba,, right, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:18,06:55,1315
-38,1,06:37,6,9,FMC,1,10,-35,FMC,Kickoff,,,,,,,,,,,,,,,,,,Laurence Miller,65,LVC,0,Touchback,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:00,06:37,1297
-41,1,06:37,7,2,LVC,1,10,-25,LVC,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,False Start,,LVC,5,,1.0,,0,0,0.0,0.0,00:19,06:37,1297
-42,1,06:37,7,3,LVC,1,15,-20,LVC,Run,9.0,29,LVC,Malachi Williams,, left,,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:37,06:18,1278
-43,1,06:37,7,4,LVC,2,6,-29,LVC,Pass,9.0,38,LVC,,,,Braden Bohannon,, middle, short,,Complete,,,,,,,,,,,,,,,,,,,Matt Scully,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:19,05:41,1241
-44,1,06:37,7,5,LVC,1,10,-38,LVC,Run,4.0,42,LVC,Braden Bohannon,, right,,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:37,05:23,1223
-45,1,06:37,7,6,LVC,2,6,-42,LVC,Run,1.0,43,LVC,Malachi Williams,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:37,04:46,1186
-46,1,06:37,7,7,LVC,3,5,-43,LVC,Pass,17.0,40,FMC,,,,Braden Bohannon,, middle, short,,Complete,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:19,04:09,1149
-47,1,06:37,7,8,LVC,1,10,40,FMC,Run,12.0,28,FMC,Dion Bryant,, left,,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:37,03:50,1130
-48,1,06:37,7,9,LVC,1,10,28,FMC,Run,1.0,27,FMC,Dion Bryant,, right,,,,,,,,,,,,,,,,,,,,,,,,,Justin Gerhart,Jacob Hille,,,,,,,,,,,,,,,0,0,0.0,0.0,00:37,03:13,1093
-49,1,06:37,7,10,LVC,2,9,27,FMC,Pass,4.0,23,FMC,,,,Braden Bohannon,, left, short,,Complete,,,,,,,,,,,,,,,,,,,Matt Scully,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:19,02:36,1056
-50,1,06:37,7,11,LVC,3,5,23,FMC,Pass,0.0,,,,,,Braden Bohannon,, middle, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:19,02:18,1038
-54,1,01:59,8,2,FMC,1,10,-23,FMC,Run,1.0,24,FMC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,Shawn Fester,,,,,,,,,,,,,,,0,0,0.0,0.0,00:48,01:59,1019
-55,1,01:59,8,3,FMC,2,9,-24,FMC,Run,4.0,28,FMC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,Shawn Fester,,,,,,,,,,,,,,,0,0,0.0,0.0,00:48,01:11,971
-56,1,01:59,8,4,FMC,3,5,-28,FMC,Pass,8.0,36,FMC,,,,Ty Tremba,, middle, short,,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:24,00:24,924
-59,2,15:00,9,2,LVC,1,10,36,FMC,Run,,,,Trey Glass,, right,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,,Trey Glass,FMC,FMC,38,,,,,,,,,0,0,0.0,0.0,00:39,15:00,900
-60,2,15:00,9,3,FMC,2,12,-34,FMC,Pass,0.0,,,,,,Ty Tremba,, middle, deep,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:20,14:21,861
-61,2,14:01,9,4,FMC,3,12,-34,FMC,Pass,,,,,,,Ty Tremba,,,,,Intercepted,,,,,,,,,,,,,,,Brody Robinson,42,FMC,0,,,,,,,,,,,,,,1.0,,1.0,0,6,0.0,0.0,00:02,14:01,841
-62,2,14:01,9,5,FMC,1,10,,,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:02,13:59,839
-63,2,14:01,9,6,FMC,1,10,,,Extra Pt.,,,,,,,,,,,,,,,,,,Tim Kissinger,,,,,,,Kick,No Good,,,,,Rylee Stahl,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:00,13:56,836
-64,2,14:01,9,7,LVC,1,10,-35,LVC,Kickoff,,,,,,,,,,,,,,,,,,Brian Dym,50,FMC,15,Return,,,,,Chris Albero,13,FMC,28,Alex Brown,Ryan Fink,,,,,,,,,,,,,,,0,0,0.0,6.0,00:02,13:56,836
-67,2,13:54,10,2,FMC,1,10,-28,FMC,Run,4.0,32,FMC,,,,,,,,,,,,,,,,,,,,,,,,,,,,FMTy C32Tremba,Brody Robinson,,,,,,,,,,,,,,,0,0,0.0,6.0,00:40,13:54,834
-68,2,13:54,10,3,FMC,2,6,-32,FMC,Pass,0.0,,,,,,Ty Tremba,, middle, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:20,13:14,794
-69,2,13:54,10,4,FMC,3,6,-32,FMC,Pass,11.0,43,FMC,,,,Ty Tremba,, middle, short,,Complete,,,,,,,,,,,,,,,,,,,Erik Williams,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:20,12:54,774
-70,2,13:54,10,5,FMC,1,10,-43,FMC,Run,2.0,45,FMC,Ty Tremba,, right,,,,,,,,,,,,,,,,,,,,,,,,,Brody Robinson,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:40,12:34,754
-71,2,13:54,10,6,FMC,2,8,-45,FMC,Run,4.0,49,FMC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jacob Horton,Ryan Enright,,,,,,,,,,,,,,,0,0,0.0,6.0,00:40,11:54,714
-72,2,13:54,10,7,FMC,3,4,-49,FMC,Run,9.0,42,LVC,Ty Tremba,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Tyler Hartl,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:40,11:14,674
-73,2,13:54,10,8,FMC,1,10,42,LVC,Run,3.0,39,LVC,Dante Wilson,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:40,10:34,634
-74,2,13:54,10,9,FMC,2,7,39,LVC,Pass,-6.0,45,LVC,,,,Ty Tremba,,,,,Sack,,,,,,,,,,,,,,,,,,,Jake Marcus,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:20,09:54,594
-75,2,13:54,10,10,FMC,3,13,45,LVC,Run,6.0,39,LVC,Mitch Wagner,, left,,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,Alex Brown,,,,,,,,,,,,,,,0,0,0.0,6.0,00:40,09:34,574
-76,2,13:54,10,11,FMC,4,7,39,LVC,Punt,,,,,,,,,,,,,,,,,,Laurence Miller,39,LVC,0,Touchback,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:20,08:54,534
-79,2,08:34,11,2,LVC,1,10,-20,LVC,Run,4.0,24,LVC,Dion Bryant,, left,,,,,,,,,,,,,,,,,,,,,,,,,John Burke,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:36,08:34,514
-80,2,08:34,11,3,LVC,2,6,-24,LVC,Run,,,,Malachi Williams,, left,,,,,,,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:36,07:58,478
-81,2,08:34,11,4,LVC,3,13,-17,LVC,Pass,0.0,,,,,,Braden Bohannon,, left, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pass Interference,,FMC,15,,1.0,,0,0,0.0,6.0,00:18,07:22,442
-82,2,08:34,11,5,LVC,1,10,-32,LVC,Run,0.0,32,LVC,Logan Klitsch,, right,,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:36,07:04,424
-83,2,08:34,11,6,LVC,2,10,-32,LVC,Pass,5.0,37,LVC,,,,Logan Klitsch,, left, short,,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:18,06:28,388
-84,2,08:34,11,7,LVC,3,5,-37,LVC,Pass,0.0,,,,,,Braden Bohannon,, middle, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:18,06:10,370
-85,2,08:34,11,8,LVC,4,5,-37,LVC,Run,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Luke Dauberman,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:36,05:52,352
-86,2,08:34,11,9,LVC,1,10,-49,LVC,Run,,,,Tim Ervey,, left,,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,Matt Wertz,,,,,,,,,,,,,,,0,0,0.0,6.0,00:36,05:15,315
-87,2,08:34,11,10,LVC,2,11,-48,LVC,Run,0.0,48,LVC,Braden Bohannon,, middle,,,,,,,,,,,,,,,,,,,,,,,,,LT Kelly,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:36,04:39,279
-88,2,08:34,11,11,LVC,3,11,-48,LVC,Run,,,,Malachi Williams,, left,,,,,,,,,,,,,,,,,,,,,,,,,Matt Wertz,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:36,04:03,243
-89,2,08:34,11,12,LVC,4,13,-46,LVC,Punt,,,,,,,,,,,,,,,,,,Jeremy Bours Jr.,44,FMC,10,Return,,,,,Chris Albero,10,FMC,20,Brody Robinson,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:18,03:27,207
-92,2,03:09,12,2,FMC,1,10,-20,FMC,Pass,75.0,5,LVC,,,,Ty Tremba,, middle, deep,,Complete,,,,,,,,,,,,,,,,,,,James Jackson,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:14,03:09,189
-93,2,03:09,12,3,FMC,1,5,,,Run,4.0,1,LVC,Mitch Wagner,, left,,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:28,02:55,175
-94,2,03:09,12,4,FMC,2,1,,,Run,,,,Ty Tremba,, left,,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,Nick Morder,,,,,,,,,,,,,,,0,0,0.0,6.0,00:28,02:27,147
-95,2,03:09,12,5,FMC,3,3,,,Pass,0.0,,,,,,Ty Tremba,, right, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:14,01:58,118
-99,2,01:44,13,2,LVC,1,10,-20,LVC,Run,14.0,34,LVC,Dion Bryant,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Matt Wertz,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:24,01:44,104
-100,2,01:44,13,3,LVC,1,10,-34,LVC,Pass,5.0,39,LVC,,,,Braden Bohannon,, left, short,,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:12,01:20,80
-101,2,01:44,13,4,LVC,2,5,-39,LVC,Pass,0.0,,,,,,Braden Bohannon,, left, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:12,01:09,69
-102,2,01:44,13,5,LVC,3,5,-39,LVC,Pass,0.0,,,,,,Braden Bohannon,, middle, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:12,00:57,57
-103,2,01:44,13,6,LVC,4,5,-39,LVC,Punt,,,,,,,,,,,,,,,,,,Jeremy Bours Jr.,34,FMC,27,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:12,00:45,45
-106,2,00:33,14,2,FMC,1,10,-27,FMC,Run,3.0,30,FMC,Mitch Wagner,, left,,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,Shawn Fester,,,,,,,,,,,,,,,0,0,0.0,6.0,00:33,00:33,33
-110,3,15:00,15,2,FMC,,,,,Kickoff,,,,,,,,,,,,,,,,,,Laurence Miller,65,LVC,0,Return,,,,,Avrey Grimm,8,LVC,8,McRyan ArthurMcArthur,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:19,15:00,1800
-113,3,15:00,16,2,LVC,1,10,,,Run,2.0,10,LVC,,,,,,,,,,,,,,,,,,,,,,,,,,,,LVBraden C10Bohannon,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:37,14:41,1781
-114,3,15:00,16,3,LVC,2,8,-10,LVC,Pass,0.0,,,,,,Braden Bohannon,, middle, deep,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ineligible Downfield On Pass,,LVC,5,,1.0,,0,0,0.0,6.0,00:19,14:04,1744
-115,3,15:00,16,4,LVC,2,13,,,Pass,6.0,11,LVC,,,,Braden Bohannon,, left, short,,Complete,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:19,13:45,1725
-116,3,15:00,16,5,LVC,3,7,-11,LVC,Pass,4.0,15,LVC,,,,Braden Bohannon,, right, short,,Complete,,,,,,,,,,,,,,,,,,,Matt Wertz,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:19,13:26,1706
-117,3,15:00,16,6,LVC,4,3,-15,LVC,Punt,,,,,,,,,,,,,,,,,,Jeremy Bours Jr.,28,LVC,43,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:19,13:08,1688
-120,3,12:49,17,2,FMC,1,10,43,LVC,Run,2.0,41,LVC,Ty Tremba,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jacob Horton,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:42,12:49,1669
-121,3,12:49,17,3,FMC,2,8,41,LVC,Run,2.0,39,LVC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jordan Blauch,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:42,12:07,1627
-122,3,12:49,17,4,FMC,3,6,39,LVC,Pass,17.0,22,LVC,,,,Ty Tremba,, middle, short,,Complete,,,,,,,,,,,,,,,,,,,Brent Moody,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:21,11:25,1585
-123,3,12:49,17,5,FMC,1,10,22,LVC,Pass,0.0,,,,,,Ty Tremba,, right, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:21,11:04,1564
-124,3,12:49,17,6,FMC,2,10,22,LVC,Run,7.0,15,LVC,Jake Fant,, right,,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:42,10:43,1543
-125,3,12:49,17,7,FMC,3,3,15,LVC,Run,7.0,8,LVC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jacob Horton,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:42,10:00,1500
-126,3,12:49,17,8,FMC,1,8,,,Run,6.0,2,LVC,Ty Tremba,, right,,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,,,,,,,,,,,,,,,,0,0,0.0,6.0,00:42,09:18,1458
-127,3,08:36,17,9,FMC,2,2,,,Pass,2.0,0,LVC,,,,Ty Tremba,, left, short,,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,,,6,0,0.0,6.0,00:04,08:36,1416
-128,3,08:36,17,10,FMC,1,10,,,Extra Pt.,,,,,,,,,,,,,,,,,,Laurence Miller,,,,,,,Kick,Good,,,,,Justin Gerhart,,,,,,,,,,,,,,,,1,0,6.0,6.0,00:00,08:32,1412
-129,3,08:36,17,11,FMC,1,10,-35,FMC,Kickoff,,,,,,,,,,,,,,,,,,Laurence Miller,63,LVC,2,Return,,,,,Avrey Grimm,18,LVC,20,Chilamo Taylor,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:04,08:32,1412
-132,3,08:29,18,2,LVC,1,10,-20,LVC,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,Illegal Substitution,,LVC,5,,1.0,,0,0,7.0,6.0,00:13,08:29,1409
-133,3,08:29,18,3,LVC,1,15,-15,LVC,Run,1.0,16,LVC,Braden Bohannon,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Julian Amoako,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:27,08:16,1396
-134,3,08:29,18,4,LVC,2,14,-16,LVC,Pass,23.0,39,LVC,,,,Braden Bohannon,, left, short,,Complete,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:13,07:49,1369
-135,3,08:29,18,5,LVC,1,10,-39,LVC,Pass,0.0,,,,,,Braden Bohannon,, left, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:13,07:36,1356
-136,3,08:29,18,6,LVC,2,10,-39,LVC,Run,8.0,47,LVC,Braden Bohannon,, middle,,,,,,,,,,,,,,,,,,,,,,,,,John Burke,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:27,07:23,1343
-137,3,08:29,18,7,LVC,3,2,-47,LVC,Run,1.0,48,LVC,Tim Ervey,, left,,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:27,06:56,1316
-138,3,08:29,18,8,LVC,4,1,-48,LVC,Run,,,,Braden Bohannon,, right,,,,,,,,,,,,,,,,,,,,,,,,,Matt Scully,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:27,06:30,1290
-141,3,06:03,19,2,FMC,1,10,46,LVC,Run,1.0,45,LVC,Jack Sutton,, left,,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,Jacob Horton,,,,,,,,,,,,,,,0,0,7.0,6.0,00:38,06:03,1263
-142,3,06:03,19,3,FMC,2,9,45,LVC,Run,4.0,41,LVC,Mitch Wagner,, left,,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:38,05:25,1225
-143,3,06:03,19,4,FMC,3,5,41,LVC,Run,7.0,34,LVC,Dante Wilson,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:38,04:47,1187
-144,3,06:03,19,5,FMC,1,10,34,LVC,Pass,0.0,,,,,,Ty Tremba,, middle, deep,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:19,04:09,1149
-145,3,06:03,19,6,FMC,2,10,34,LVC,Run,6.0,28,LVC,Ty Tremba,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Evan Kutzler,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:38,03:50,1130
-146,3,06:03,19,7,FMC,3,4,28,LVC,Pass,-4.0,32,LVC,,,,Ty Tremba,,,,,Sack,,,,,,,,,,,,,,,,,,,Jacob Horton,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:19,03:11,1091
-147,3,06:03,19,8,FMC,1,10,17,LVC,Run,0.0,17,LVC,Jake Fant,, left,,,,,,,,,,,,,,,,,,,,,,,,,Brody Robinson,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:38,02:52,1072
-148,3,06:03,19,9,FMC,2,10,17,LVC,Pass,0.0,,,,,,Ty Tremba,, middle, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:19,02:14,1034
-149,3,06:03,19,10,FMC,3,10,17,LVC,Run,0.0,17,LVC,Jake Fant,, middle,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,,Zac Green,FMC,LVC,15,,,,,,,,,0,0,7.0,6.0,00:38,01:55,1015
-151,3,01:17,19,12,FMC,1,10,-35,FMC,Kickoff,,,,,,,,,,,,,,,,,,Laurence Miller,62,LVC,3,Return,,,,,Avrey Grimm,16,LVC,19,Jacob Hille,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:05,01:17,977
-154,3,01:12,20,2,LVC,1,10,-19,LVC,Pass,-3.0,16,LVC,,,,Tanner Lewis,,,,,Sack,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,01:12,972
-155,3,01:12,20,3,LVC,2,13,-16,LVC,Pass,13.0,29,LVC,,,,Tanner Lewis,, left, short,,Complete,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,00:54,954
-156,3,01:12,20,4,LVC,1,10,-29,LVC,Run,5.0,34,LVC,Tanner Lewis,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Matt Scully,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,00:36,936
-159,4,15:00,21,2,LVC,2,5,-34,LVC,Run,2.0,36,LVC,Tim Ervey,, right,,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,Kevonte Beard,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,15:00,900
-160,4,15:00,21,3,LVC,3,3,-36,LVC,Pass,12.0,48,LVC,,,,Tanner Lewis,, left, short,,Complete,,,,,,,,,,,,,,,,,,,Kell Hall,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,14:24,864
-161,4,15:00,21,4,LVC,1,10,-48,LVC,Run,7.0,45,FMC,Dion Bryant,, right,,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,14:07,847
-162,4,15:00,21,5,LVC,2,3,45,FMC,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,False Start,,LVC,5,,1.0,,0,0,7.0,6.0,00:18,13:31,811
-163,4,15:00,21,6,LVC,2,8,50,FMC,Run,1.0,49,FMC,Tanner Lewis,, middle,,,,,,,,,,,,,,,,,,,,,,,,,John Burke,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,13:13,793
-164,4,15:00,21,7,LVC,3,7,49,FMC,Pass,10.0,39,FMC,,,,Tanner Lewis,, left, short,,Complete,,,,,,,,,,,,,,,,,,,Kevonte Beard,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,12:38,758
-165,4,15:00,21,8,LVC,1,10,39,FMC,Pass,4.0,35,FMC,,,,Tanner Lewis,, right, short,,Complete,,,,,,,,,,,,,,,,,,,Matt Wertz,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,12:20,740
-166,4,15:00,21,9,LVC,2,6,35,FMC,Pass,0.0,,,,,,Tanner Lewis,, right, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,12:02,722
-167,4,15:00,21,10,LVC,3,6,35,FMC,Run,0.0,35,FMC,Tanner Lewis,, left,,,,,,,,,,,,,,,,,,,,,,,,,John Burke,,,,,,,,,Holding,,LVC,10,,1.0,,0,0,7.0,6.0,00:36,11:44,704
-168,4,15:00,21,11,LVC,3,16,45,FMC,Pass,13.0,32,FMC,,,,Tanner Lewis,, right, short,,Complete,,,,,,,,,,,,,,,,,,,Kevonte Beard,,,,,,,,,Horse Collar Tackle,,FMC,15,,,,0,0,7.0,6.0,00:18,11:09,669
-169,4,15:00,21,12,LVC,1,10,17,FMC,Run,1.0,16,FMC,Tim Ervey,, right,,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,10:51,651
-170,4,15:00,21,13,LVC,2,9,16,FMC,Pass,7.0,9,FMC,,,,Tanner Lewis,, left, short,,Complete,,,,,,,,,,,,,,,,,,,Justin Gerhart,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,10:15,615
-171,4,15:00,21,14,LVC,3,2,,,Run,3.0,6,FMC,Tim Ervey,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Tom Papa,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,09:57,597
-172,4,15:00,21,15,LVC,1,6,,,Run,0.0,6,FMC,Tim Ervey,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Tom Papa,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,09:22,562
-173,4,15:00,21,16,LVC,2,6,,,Run,1.0,5,FMC,Tim Ervey,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,08:46,526
-174,4,15:00,21,17,LVC,3,5,,,Pass,0.0,,,,,,Tanner Lewis,, right, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,08:11,491
-179,4,15:00,22,2,LVC,1,10,-46,LVC,Run,0.0,46,LVC,,,,,,,,,,,,,,,,,,,,,,,,,,,,LVTanner C46Lewis,John Burke,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,07:53,473
-180,4,15:00,22,3,LVC,2,10,-46,LVC,Pass,0.0,,,,,,Tanner Lewis,, left, short,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,07:17,437
-181,4,15:00,22,4,LVC,3,10,-46,LVC,Run,7.0,47,FMC,Tanner Lewis,, left,,,,,,,,,,,,,,,,,,,,,,,,,Lebanon Valley,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:36,06:59,419
-182,4,15:00,22,5,LVC,4,3,47,FMC,Pass,-3.0,50,FMC,,,,Tanner Lewis,,,,,Sack,,,,,,,,,,,,,,,,,,,Jeffrey Decker,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:18,06:24,384
-185,4,06:06,23,2,FMC,1,10,50,FMC,Run,2.0,48,LVC,,,,,,,,,,,,,,,,,,,,,,,,,,,,LVMitch C48Wagner,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:37,06:06,366
-186,4,06:06,23,3,FMC,2,8,48,LVC,Run,,,,Mitch Wagner,, right,,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:37,05:29,329
-187,4,06:06,23,4,FMC,3,9,49,LVC,Run,11.0,38,LVC,Ty Tremba,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Shawn Fester,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:37,04:52,292
-188,4,06:06,23,5,FMC,1,10,38,LVC,Run,0.0,38,LVC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,Noah Caldani,,,,,,,,,,,,,,,0,0,7.0,6.0,00:37,04:16,256
-189,4,06:06,23,6,FMC,2,10,38,LVC,Run,7.0,31,LVC,Ty Tremba,, left,,,,,,,,,,,,,,,,,,,,,,,,,Nick Morder,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:37,03:39,219
-190,4,06:06,23,7,FMC,3,3,31,LVC,Run,7.0,24,LVC,Ty Tremba,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:37,03:02,182
-191,4,06:06,23,8,FMC,1,10,24,LVC,Run,0.0,24,LVC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jordan Blauch,,,,,,,,,Offside,,LVC,5,,1.0,,0,0,7.0,6.0,00:37,02:25,145
-192,4,06:06,23,9,FMC,1,5,19,LVC,Run,0.0,19,LVC,Ty Tremba,, left,,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,,,,,,,,,,,,,,,1.0,0,0,7.0,6.0,00:18,01:48,108
-193,4,01:30,23,10,FMC,2,5,19,LVC,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:02,01:30,90
-194,4,01:30,23,11,FMC,2,5,19,LVC,Run,1.0,18,LVC,Mitch Wagner,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,,,,,,,,,,,,,,,1.0,0,0,7.0,6.0,00:02,01:28,88
-195,4,01:25,23,12,FMC,3,4,18,LVC,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:03,01:25,85
-196,4,01:25,23,13,FMC,3,4,18,LVC,Run,,,,Ty Tremba,, right,,,,,,,,,,,,,,,,,,,,,,,,,Ryan Enright,,,,,,,,,,,,,,,1.0,0,0,7.0,6.0,00:03,01:22,82
-197,4,01:19,23,14,FMC,4,5,19,LVC,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:06,01:19,79
-199,4,01:13,23,16,FMC,1,10,-35,FMC,Kickoff,,,,,,,,,,,,,,,,,,Laurence Miller,63,LVC,2,Return,,,,,Avrey Grimm,18,LVC,20,McRyan ArthurMcArthur,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:05,01:13,73
-202,4,01:08,24,2,LVC,1,10,-20,LVC,Run,14.0,34,LVC,,,,,,,,,,,,,,,,,,,,,,,,,,,,LVBraden C34Bohannon,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:15,01:08,68
-203,4,01:08,24,3,LVC,1,10,-34,LVC,Pass,4.0,38,LVC,,,,Braden Bohannon,, right, short,,Complete,,,,,,,,,,,,,,,,,,,Kevonte Beard,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:08,00:53,53
-204,4,01:08,24,4,LVC,2,6,-38,LVC,Pass,4.0,42,LVC,,,,Braden Bohannon,, middle, short,,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:08,00:45,45
-205,4,01:08,24,5,LVC,3,2,-42,LVC,Pass,26.0,32,FMC,,,,Braden Bohannon,, left, deep,,Complete,,,,,,,,,,,,,,,,,,,Justin Gerhart,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:08,00:38,38
-206,4,01:08,24,6,LVC,1,10,32,FMC,Run,1.0,31,FMC,Braden Bohannon,, middle,,,,,,,,,,,,,,,,,,,,,,,,,Jeffrey Decker,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:15,00:30,30
-207,4,01:08,24,7,LVC,2,9,31,FMC,Pass,0.0,,,,,,Braden Bohannon,, right, deep,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:08,00:15,15
-208,4,01:08,24,8,LVC,3,9,31,FMC,Pass,0.0,,,,,,Braden Bohannon,, middle, deep,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,7.0,6.0,00:08,00:08,8
+,quarter,game_clock,drive_num,drive_count,poss,down,dist,yl,terr,play_type,gain_loss,gnls_to_yl,gnls_to_terr,rusher,run_dir,passer,pass_dir,pass_depth,intended,pass_result,intBy,int_terr,int_yl,pbuBy,hurriedBy,kicker,kick_yards,kick_terr,kick_yl,kick_result,fg_dist,fg_result,xp_type,xp_result,retBy,ret_yards,ret_terr,ret_yl,tackler1,tackler2,fumble_num,fumbleBy,recoveredBy,recovery_team,recov_terr,recov_yl,presnap_pen,penalty,penOn,pen_team,pen_yards,touchdown,no_play,timeout,away_points_on_play,home_points_on_play,away_points,home_points,play_duration,est_game_clock,sec_remaining_half
+3,1,15:00,1,3,LVC,,,,,Kickoff,,,,,,,,,,,,,,,,Brian Dym,55,FMC,10,Return,,,,,Matt Hanna,25,FMC,35,Alex Brown,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:04,15:00,1800
+6,1,15:00,2,2,FMC,1,10,-35,FMC,Run,14.0,49,FMC,Ty Tremba,M,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,Ty Tremba,Erik Williams,LVC,FMC,49,,,,,,,,,0,0,0.0,0.0,00:08,14:56,1796
+10,1,14:48,3,2,LVC,1,10,49,FMC,Pass,1.0,48,FMC,,,Braden Bohannon,L,,Malaki Blair,Complete,,,,,,,,,,,,,,,,,,,Kell Hall,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:20,14:48,1788
+11,1,14:48,3,3,LVC,2,9,48,FMC,Run,-1.0,49,FMC,Tim Ervey,M,,,,,,,,,,,,,,,,,,,,,,,,Jeff Decker,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:40,14:28,1768
+12,1,14:48,3,4,LVC,3,10,49,FMC,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,Offside Defense,,LVC,5,,,,0,0,0.0,0.0,00:20,13:49,1729
+14,1,14:48,3,6,LVC,3,15,-46,LVC,Pass,10.0,44,FMC,,,Braden Bohannon,L,,Malaki Blair,Complete,,,,,,,,,,,,,,,,,,,Kell Hall,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:20,13:29,1709
+15,1,14:48,3,7,LVC,4,5,44,FMC,Punt,,,,,,,,,,,,,,,,Jerem Bours Jr.,18,FMC,26,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:20,13:09,1689
+19,1,12:49,4,2,FMC,1,10,-26,FMC,Run,4.0,30,FMC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:31,12:49,1669
+20,1,12:49,4,3,FMC,2,6,-30,FMC,Run,9.0,39,FMC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Nick Morder,Brody Robinson,,,,,,,,,,,,,,,0,0,0.0,0.0,00:31,12:18,1638
+21,1,12:49,4,4,FMC,1,10,-39,FMC,Run,0.0,39,FMC,Mitch Wagner,L,,,,,,,,,,,,,,,,,,,,,,,,Erik Williams,,,,,,,,,Holding,,FMC,10,,1.0,,0,0,0.0,0.0,00:31,11:46,1606
+23,1,12:49,4,6,FMC,1,20,-29,FMC,Pass,9.0,38,FMC,,,Ty Tremba,M,,Trey Glass,Complete,,,,,,,,,,,,,,,,,,,James Jackson,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:16,11:15,1575
+24,1,12:49,4,7,FMC,2,11,-38,FMC,Pass,0.0,,,,,Ty Tremba,L,,Trey Glass,Incomplete,,,,James Jackson,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:16,11:00,1560
+25,1,12:49,4,8,FMC,3,11,-38,FMC,Run,3.0,41,FMC,Ty Tremba,M,,,,,,,,,,,,,,,,,,,,,,,,Jacob Horton,Brody Robinson,,,,,,,,,,,,,,,0,0,0.0,0.0,00:31,10:44,1544
+26,1,12:49,4,9,FMC,4,8,-41,FMC,Punt,,,,,,,,,,,,,,,,TEAM,,,,Return,,,,,,,,,Jerem Bours Jr.,,,,,LVC,,,,,,,,,,,0,0,0.0,0.0,00:16,10:13,1513
+30,1,09:57,5,2,LVC,1,10,29,FMC,Run,7.0,22,FMC,Dion Bryant,L,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:26,09:57,1497
+31,1,09:57,5,3,LVC,2,3,22,FMC,Pass,0.0,,,,,Braden Bohannon,L,,Gabe Iacavone,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:13,09:31,1471
+32,1,09:57,5,4,LVC,3,3,22,FMC,Pass,0.0,,,,,Braden Bohannon,L,,Drew Campbell,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,0.0,00:13,09:18,1458
+33,1,09:05,5,5,LVC,4,3,22,FMC,FG,,,,,,,,,,,,,,,,Tim Kissinger,,,,,40,Good,,,,,,,,,,,,,,,,,,,,,,,0,3,0.0,0.0,00:01,09:05,1445
+34,1,09:05,5,6,LVC,1,35,-35,LVC,Kickoff,,,,,,,,,,,,,,,,Brian Dym,49,FMC,16,Return,,,,,Matt Hanna,17,FMC,33,Jerem Bours Jr.,Alex Brown,,,,,,,,,,,,,,,0,0,0.0,3.0,00:01,09:04,1444
+38,1,09:03,6,2,FMC,1,10,-33,FMC,Pass,22.0,45,LVC,,,Ty Tremba,R,,Trey Glass,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,3.0,00:18,09:03,1443
+39,1,09:03,6,3,FMC,1,10,45,LVC,Run,4.0,41,LVC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Shawn Fester,,,,,,,,,,,,,,,,0,0,0.0,3.0,00:36,08:45,1425
+40,1,09:03,6,4,FMC,2,6,41,LVC,Pass,15.0,26,LVC,,,Ty Tremba,M,,Jack Sutton,Complete,,,,,,,,,,,,,,,,,,,Brent Moody,Taijay Brown,,,,,,,,,,,,,,,0,0,0.0,3.0,00:18,08:08,1388
+41,1,09:03,6,5,FMC,1,10,26,LVC,Run,6.0,20,LVC,Ty Tremba,M,,,,,,,,,,,,,,,,,,,,,,,,Brody Robinson,,,,,,,,,,,,,,,,0,0,0.0,3.0,00:36,07:50,1370
+42,1,09:03,6,6,FMC,2,4,20,LVC,Pass,0.0,,,,,Ty Tremba,M,,Trey Glass,Incomplete,,,,Erik Williams,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,3.0,00:18,07:13,1333
+43,1,09:03,6,7,FMC,3,4,20,LVC,Pass,0.0,,,,,Ty Tremba,R,,Mitch Wagner,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0.0,3.0,00:18,06:55,1315
+44,1,06:37,6,8,FMC,4,4,20,LVC,FG,,,,,,,,,,,,,,,,Laurence Miller,,,,,35,Good,,,,,,,,,,,,,,,,,,,,,,,3,0,0.0,3.0,00:17,06:37,1297
+45,1,06:37,6,9,FMC,1,35,-35,FMC,Kickoff,,,,,,,,,,,,,,,,Laurence Miller,65,LVC,0,Touchback,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:00,06:20,1280
+49,1,06:37,7,2,LVC,1,10,-25,LVC,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,False Start,,LVC,5,,,,0,0,3.0,3.0,00:17,06:20,1280
+51,1,06:37,7,4,LVC,1,15,-20,LVC,Run,9.0,29,LVC,Malach Williams,L,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:35,06:02,1262
+52,1,06:37,7,5,LVC,2,6,-29,LVC,Pass,9.0,38,LVC,,,Braden Bohannon,M,,Jay Sisko,Complete,,,,,,,,,,,,,,,,,,,Matt Scully,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:17,05:27,1227
+53,1,06:37,7,6,LVC,1,10,-38,LVC,Run,4.0,42,LVC,Braden Bohannon,R,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:35,05:10,1210
+54,1,06:37,7,7,LVC,2,6,-42,LVC,Run,1.0,43,LVC,Malach Williams,M,,,,,,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:35,04:35,1175
+55,1,06:37,7,8,LVC,3,5,-43,LVC,Pass,17.0,40,FMC,,,Braden Bohannon,M,,Malach Williams,Complete,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:17,04:01,1141
+56,1,06:37,7,9,LVC,1,10,40,FMC,Run,12.0,28,FMC,Dion Bryant,L,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:35,03:43,1123
+57,1,06:37,7,10,LVC,1,10,28,FMC,Run,1.0,27,FMC,Dion Bryant,R,,,,,,,,,,,,,,,,,,,,,,,,Justin Gerhart,Jacob Hille,,,,,,,,,,,,,,,0,0,3.0,3.0,00:35,03:09,1089
+58,1,06:37,7,11,LVC,2,9,27,FMC,Pass,4.0,23,FMC,,,Braden Bohannon,L,,Rylee Stahl,Complete,,,,,,,,,,,,,,,,,,,Matt Scully,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:17,02:34,1054
+59,1,06:37,7,12,LVC,3,5,23,FMC,Pass,0.0,,,,,Braden Bohannon,M,,,Incomplete,,,,Tom Papa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:17,02:16,1036
+64,1,01:59,8,2,FMC,1,10,-23,FMC,Run,1.0,24,FMC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,Shawn Fester,,,,,,,,,,,,,,,0,0,3.0,3.0,01:00,01:59,1019
+65,1,01:59,8,3,FMC,2,9,-24,FMC,Run,4.0,28,FMC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,Shawn Fester,,,,,,,,,,,,,,,0,0,3.0,3.0,01:00,00:59,959
+66,1,00:00,8,4,FMC,3,5,-28,FMC,Pass,8.0,36,FMC,,,Ty Tremba,M,,Trey Glass,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:00,00:00,900
+69,2,15:00,9,2,FMC,1,10,-36,FMC,Run,2.0,38,FMC,Trey Glass,R,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,Trey Glass,Trey Glass,FMC,FMC,34,,,,,,,,,0,0,3.0,3.0,00:39,15:00,900
+70,2,15:00,9,3,FMC,2,12,-34,FMC,Pass,0.0,,,,,Ty Tremba,M,,Jack O'Hearen,Incomplete,,,,Jacob Horton,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,3.0,00:20,14:21,861
+71,2,14:01,9,4,FMC,3,12,-34,FMC,Pass,,,,,,Ty Tremba,M,,,Intercepted,Brody Robinson,FMC,42,,,,,,,,,,,,Brody Robinson,42,FMC,0,,,,,,,,,,,,,,1.0,,,0,6,3.0,3.0,00:02,14:01,841
+74,2,14:01,10,1,LVC,1,10,20,FMC,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:02,13:59,839
+75,2,14:01,10,2,LVC,1,10,20,FMC,Extra Pt.,,,,,,,,,,,,,,,,Tim Kissinger,,,,,,,Kick,No Good,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:00,13:56,836
+76,2,14:01,10,3,LVC,1,35,-35,LVC,Kickoff,,,,,,,,,,,,,,,,Brian Dym,50,FMC,15,Return,,,,,Chris Albero,13,FMC,28,Alex Brown,Ryan Fink,,,,,,,,,,,,,,,0,0,3.0,9.0,00:02,13:56,836
+80,2,13:54,11,2,FMC,1,10,-28,FMC,Run,4.0,32,FMC,Ty Tremba,M,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,Brody Robinson,,,,,,,,,,,,,,,0,0,3.0,9.0,00:40,13:54,834
+81,2,13:54,11,3,FMC,2,6,-32,FMC,Pass,0.0,,,,,Ty Tremba,M,,Jack Sutton,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:20,13:14,794
+82,2,13:54,11,4,FMC,3,6,-32,FMC,Pass,11.0,43,FMC,,,Ty Tremba,M,,Jack O'Hearen,Complete,,,,,,,,,,,,,,,,,,,Erik Williams,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:20,12:54,774
+83,2,13:54,11,5,FMC,1,10,-43,FMC,Run,2.0,45,FMC,Ty Tremba,R,,,,,,,,,,,,,,,,,,,,,,,,Brody Robinson,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:40,12:34,754
+84,2,13:54,11,6,FMC,2,8,-45,FMC,Run,4.0,49,FMC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Jacob Horton,Ryan Enright,,,,,,,,,,,,,,,0,0,3.0,9.0,00:40,11:54,714
+85,2,13:54,11,7,FMC,3,4,-49,FMC,Run,9.0,42,LVC,Ty Tremba,M,,,,,,,,,,,,,,,,,,,,,,,,Tyler Hartl,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:40,11:14,674
+86,2,13:54,11,8,FMC,1,10,42,LVC,Run,3.0,39,LVC,Dante Wilson,M,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:40,10:34,634
+87,2,13:54,11,9,FMC,2,7,39,LVC,Pass,-6.0,45,LVC,,,Ty Tremba,,,,Sack,,,,,,,,,,,,,,,,,,,Jake Marcus,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:20,09:54,594
+88,2,13:54,11,10,FMC,3,13,45,LVC,Run,6.0,39,LVC,Mitch Wagner,L,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,Alex Brown,,,,,,,,,,,,,,,0,0,3.0,9.0,00:40,09:34,574
+89,2,13:54,11,11,FMC,4,7,39,LVC,Punt,,,,,,,,,,,,,,,,Laurence Miller,39,LVC,0,Touchback,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:20,08:54,534
+93,2,08:34,12,2,LVC,1,10,-20,LVC,Run,4.0,24,LVC,Dion Bryant,L,,,,,,,,,,,,,,,,,,,,,,,,John Burke,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:36,08:34,514
+94,2,08:34,12,3,LVC,2,6,-24,LVC,Run,-7.0,17,LVC,Malach Williams,L,,,,,,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:36,07:58,478
+95,2,08:34,12,4,LVC,3,13,-17,LVC,Pass,0.0,,,,,Braden Bohannon,L,,,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,Pass Interference,,FMC,15,,1.0,,0,0,3.0,9.0,00:18,07:22,442
+97,2,08:34,12,6,LVC,1,10,-32,LVC,Run,0.0,32,LVC,Logan Klitsch,R,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:36,07:04,424
+98,2,08:34,12,7,LVC,2,10,-32,LVC,Pass,5.0,37,LVC,,,Logan Klitsch,L,,Malaki Blair,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:18,06:28,388
+99,2,08:34,12,8,LVC,3,5,-37,LVC,Pass,0.0,,,,,Braden Bohannon,M,,Rylee Stahl,Incomplete,,,,Owen Walsh,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:18,06:10,370
+100,2,08:34,12,9,LVC,4,5,-37,LVC,Run,-6.0,31,LVC,Braden Bohannon,R,,,,,,,,,,,,,,,,,,,,,,,,Luke Dauberman,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:36,05:52,352
+101,2,08:34,12,10,LVC,1,10,-49,LVC,Run,-1.0,48,LVC,Tim Ervey,L,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,Matt Wertz,,,,,,,,,,,,,,,0,0,3.0,9.0,00:36,05:15,315
+102,2,08:34,12,11,LVC,2,11,-48,LVC,Run,0.0,48,LVC,Braden Bohannon,M,,,,,,,,,,,,,,,,,,,,,,,,LT Kelley,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:36,04:39,279
+103,2,08:34,12,12,LVC,3,11,-48,LVC,Run,-2.0,46,LVC,Malach Williams,L,,,,,,,,,,,,,,,,,,,,,,,,Matt Wertz,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:36,04:03,243
+104,2,08:34,12,13,LVC,4,13,-46,LVC,Punt,,,,,,,,,,,,,,,,Jerem Bours Jr.,44,FMC,10,Return,,,,,Chris Albero,10,FMC,20,Brody Robinson,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:18,03:27,207
+108,2,03:09,13,2,FMC,1,10,-20,FMC,Pass,75.0,5,LVC,,,Ty Tremba,M,,Matt Hanna,Complete,,,,,,,,,,,,,,,,,,,James Jackson,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:14,03:09,189
+109,2,03:09,13,3,FMC,1,5,5,LVC,Run,4.0,1,LVC,Mitch Wagner,L,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:28,02:55,175
+110,2,03:09,13,4,FMC,2,1,1,LVC,Run,-2.0,3,LVC,Ty Tremba,L,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,Nick Morder,,,,,,,,,,,,,,,0,0,3.0,9.0,00:28,02:27,147
+111,2,03:09,13,5,FMC,3,3,3,LVC,Pass,0.0,,,,,Ty Tremba,R,,Trey Glass,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:14,01:58,118
+116,2,01:44,14,2,LVC,1,10,-20,LVC,Run,14.0,34,LVC,Dion Bryant,M,,,,,,,,,,,,,,,,,,,,,,,,Matt Wertz,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:24,01:44,104
+117,2,01:44,14,3,LVC,1,10,-34,LVC,Pass,5.0,39,LVC,,,Braden Bohannon,L,,Alex Vassallo,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:12,01:20,80
+118,2,01:44,14,4,LVC,2,5,-39,LVC,Pass,0.0,,,,,Braden Bohannon,L,,Malaki Blair,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:12,01:09,69
+119,2,01:44,14,5,LVC,3,5,-39,LVC,Pass,0.0,,,,,Braden Bohannon,M,,Alex Vassallo,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:12,00:57,57
+120,2,01:44,14,6,LVC,4,5,-39,LVC,Punt,,,,,,,,,,,,,,,,Jerem Bours Jr.,34,FMC,27,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:12,00:45,45
+124,2,00:33,15,2,FMC,1,10,-27,FMC,Run,3.0,30,FMC,Mitch Wagner,L,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,Shawn Fester,,,,,,,,,,,,,,,0,0,3.0,9.0,00:33,00:33,33
+129,3,15:00,16,1,FMC,,,,,Kickoff,,,,,,,,,,,,,,,,Laurence Miller,65,LVC,0,Return,,,,,Avrey Grimm,8,LVC,8,Ryan McArthur,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:19,15:00,1800
+132,3,15:00,17,2,LVC,1,10,-8,LVC,Run,2.0,10,LVC,Braden Bohannon,M,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:37,14:41,1781
+133,3,15:00,17,3,LVC,2,8,-10,LVC,Pass,0.0,,,,,Braden Bohannon,M,,Adam Acker,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,Ineligible Downfield On Pass,,LVC,5,,1.0,,0,0,3.0,9.0,00:19,14:04,1744
+135,3,15:00,17,5,LVC,2,13,-5,LVC,Pass,6.0,11,LVC,,,Braden Bohannon,L,,Malach Williams,Complete,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:19,13:45,1725
+136,3,15:00,17,6,LVC,3,7,-11,LVC,Pass,4.0,15,LVC,,,Braden Bohannon,R,,Malach Williams,Complete,,,,,,,,,,,,,,,,,,,Matt Wertz,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:19,13:26,1706
+137,3,15:00,17,7,LVC,4,3,-15,LVC,Punt,,,,,,,,,,,,,,,,Jerem Bours Jr.,28,LVC,43,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:19,13:08,1688
+141,3,12:49,18,2,FMC,1,10,43,LVC,Run,2.0,41,LVC,Ty Tremba,M,,,,,,,,,,,,,,,,,,,,,,,,Jacob Horton,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:42,12:49,1669
+142,3,12:49,18,3,FMC,2,8,41,LVC,Run,2.0,39,LVC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Jordan Blauch,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:42,12:07,1627
+143,3,12:49,18,4,FMC,3,6,39,LVC,Pass,17.0,22,LVC,,,Ty Tremba,M,,Isaiah Brown,Complete,,,,,,,,,,,,,,,,,,,Brent Moody,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:21,11:25,1585
+144,3,12:49,18,5,FMC,1,10,22,LVC,Pass,0.0,,,,,Ty Tremba,R,,Jack Sutton,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:21,11:04,1564
+145,3,12:49,18,6,FMC,2,10,22,LVC,Run,7.0,15,LVC,Jake Fant,R,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:42,10:43,1543
+146,3,12:49,18,7,FMC,3,3,15,LVC,Run,7.0,8,LVC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Jacob Horton,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:42,10:00,1500
+147,3,12:49,18,8,FMC,1,8,8,LVC,Run,6.0,2,LVC,Ty Tremba,R,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,,,,,,,,,,,,,,,,0,0,3.0,9.0,00:42,09:18,1458
+148,3,08:36,18,9,FMC,2,2,2,LVC,Pass,2.0,0,LVC,,,Ty Tremba,L,,Jack O'Hearen,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,,,6,0,3.0,9.0,00:04,08:36,1416
+149,3,08:36,18,10,FMC,1,10,20,LVC,Extra Pt.,,,,,,,,,,,,,,,,Laurence Miller,,,,,,,Kick,Good,,,,,,,,,,,,,,,,,,,,,1,0,9.0,9.0,00:00,08:32,1412
+150,3,08:36,18,11,FMC,1,35,-35,FMC,Kickoff,,,,,,,,,,,,,,,,Laurence Miller,63,LVC,2,Return,,,,,Avrey Grimm,18,LVC,20,Chilamo Taylor,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:04,08:32,1412
+154,3,08:29,19,2,LVC,1,10,-20,LVC,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,Substitution Infraction,,LVC,5,,,,0,0,10.0,9.0,00:13,08:29,1409
+156,3,08:29,19,4,LVC,1,15,-15,LVC,Run,1.0,16,LVC,Braden Bohannon,M,,,,,,,,,,,,,,,,,,,,,,,,Julian Amoako,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:27,08:16,1396
+157,3,08:29,19,5,LVC,2,14,-16,LVC,Pass,23.0,39,LVC,,,Braden Bohannon,L,,Reilly Taylor,Complete,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:13,07:49,1369
+158,3,08:29,19,6,LVC,1,10,-39,LVC,Pass,0.0,,,,,Braden Bohannon,L,,Rylee Stahl,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:13,07:36,1356
+159,3,08:29,19,7,LVC,2,10,-39,LVC,Run,8.0,47,LVC,Braden Bohannon,M,,,,,,,,,,,,,,,,,,,,,,,,John Burke,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:27,07:23,1343
+160,3,08:29,19,8,LVC,3,2,-47,LVC,Run,1.0,48,LVC,Tim Ervey,L,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:27,06:56,1316
+161,3,08:29,19,9,LVC,4,1,-48,LVC,Run,-2.0,46,LVC,Braden Bohannon,R,,,,,,,,,,,,,,,,,,,,,,,,Matt Scully,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:27,06:30,1290
+165,3,06:03,20,2,FMC,1,10,46,LVC,Run,1.0,45,LVC,Jack Sutton,L,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,Jacob Horton,,,,,,,,,,,,,,,0,0,10.0,9.0,00:38,06:03,1263
+166,3,06:03,20,3,FMC,2,9,45,LVC,Run,4.0,41,LVC,Mitch Wagner,L,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:38,05:25,1225
+167,3,06:03,20,4,FMC,3,5,41,LVC,Run,7.0,34,LVC,Dante Wilson,M,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:38,04:47,1187
+168,3,06:03,20,5,FMC,1,10,34,LVC,Pass,0.0,,,,,Ty Tremba,M,,Trey Glass,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:19,04:09,1149
+169,3,06:03,20,6,FMC,2,10,34,LVC,Run,6.0,28,LVC,Ty Tremba,M,,,,,,,,,,,,,,,,,,,,,,,,Evan Kutzler,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:38,03:50,1130
+170,3,06:03,20,7,FMC,3,4,28,LVC,Pass,-4.0,32,LVC,,,Ty Tremba,,,,Sack,,,,,,,,,,,,,,,,,,,Jacob Horton,,,,,,,,,Unsportsmanlike Conduct,,LVC,15,,,,0,0,10.0,9.0,00:19,03:11,1091
+172,3,06:03,20,9,FMC,1,10,17,LVC,Run,0.0,17,LVC,Jake Fant,L,,,,,,,,,,,,,,,,,,,,,,,,Brody Robinson,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:38,02:52,1072
+173,3,06:03,20,10,FMC,2,10,17,LVC,Pass,0.0,,,,,Ty Tremba,M,,Jack Sutton,Incomplete,,,,Evan Kutzler,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,10.0,9.0,00:19,02:14,1034
+174,3,06:03,20,11,FMC,3,10,17,LVC,Run,2.0,15,LVC,Jake Fant,M,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,Jake Fant,Zac Green,FMC,LVC,17,,,,,,,,,0,0,10.0,9.0,00:38,01:55,1015
+175,3,01:17,20,12,FMC,4,10,17,LVC,FG,,,,,,,,,,,,,,,,Laurence Miller,,,,,34,Good,,,,,,,,,,,,,,,,,,,,,,,3,0,10.0,9.0,00:02,01:17,977
+176,3,01:17,20,13,FMC,1,35,-35,FMC,Kickoff,,,,,,,,,,,,,,,,Laurence Miller,62,LVC,3,Return,,,,,Avrey Grimm,16,LVC,19,Jacob Hille,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:02,01:15,975
+180,3,01:12,21,2,LVC,1,10,-19,LVC,Pass,-3.0,16,LVC,,,Tanner Lewis,,,,Sack,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:36,01:12,972
+181,3,01:12,21,3,LVC,2,13,-16,LVC,Pass,13.0,29,LVC,,,Tanner Lewis,L,,Alex Vassallo,Complete,,,,,,,,,,,,,,,,,,,Jacob Hille,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:36,00:36,936
+182,3,00:00,21,4,LVC,1,10,-29,LVC,Run,5.0,34,LVC,Tanner Lewis,M,,,,,,,,,,,,,,,,,,,,,,,,Matt Scully,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:00,00:00,900
+185,4,15:00,22,2,LVC,2,5,-34,LVC,Run,2.0,36,LVC,Tim Ervey,R,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,Kevonte Beard,,,,,,,,,,,,,,,0,0,13.0,9.0,00:38,15:00,900
+186,4,15:00,22,3,LVC,3,3,-36,LVC,Pass,12.0,48,LVC,,,Tanner Lewis,L,,Alex Vassallo,Complete,,,,,,,,,,,,,,,,,,,Kell Hall,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:19,14:22,862
+187,4,15:00,22,4,LVC,1,10,-48,LVC,Run,7.0,45,FMC,Dion Bryant,R,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:38,14:03,843
+188,4,15:00,22,5,LVC,2,3,45,FMC,Penalty,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.0,False Start,,LVC,5,,,,0,0,13.0,9.0,00:19,13:25,805
+190,4,15:00,22,7,LVC,2,8,50,LVC,Run,1.0,49,FMC,Tanner Lewis,M,,,,,,,,,,,,,,,,,,,,,,,,John Burke,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:38,13:06,786
+191,4,15:00,22,8,LVC,3,7,49,FMC,Pass,10.0,39,FMC,,,Tanner Lewis,L,,Malaki Blair,Complete,,,,,,,,,,,,,,,,,,,Kevonte Beard,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:19,12:28,748
+192,4,15:00,22,9,LVC,1,10,39,FMC,Pass,4.0,35,FMC,,,Tanner Lewis,R,,Jay Sisko,Complete,,,,,,,,,,,,,,,,,,,Matt Wertz,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:19,12:09,729
+193,4,15:00,22,10,LVC,2,6,35,FMC,Pass,0.0,,,,,Tanner Lewis,R,,Jay Sisko,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:19,11:50,710
+194,4,15:00,22,11,LVC,3,6,35,FMC,Run,0.0,35,FMC,Tanner Lewis,L,,,,,,,,,,,,,,,,,,,,,,,,John Burke,,,,,,,,,Holding,,LVC,10,,1.0,,0,0,13.0,9.0,00:38,11:31,691
+196,4,15:00,22,13,LVC,3,16,45,FMC,Pass,13.0,32,FMC,,,Tanner Lewis,R,,Malach Williams,Complete,,,,,,,,,,,,,,,,,,,Kevonte Beard,,,,,,,,,Personal Foul,,FMC,15,,,,0,0,13.0,9.0,00:19,10:54,654
+198,4,15:00,22,15,LVC,1,10,17,FMC,Run,1.0,16,FMC,Tim Ervey,R,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:38,10:35,635
+199,4,15:00,22,16,LVC,2,9,16,FMC,Pass,7.0,9,FMC,,,Tanner Lewis,L,,Malaki Blair,Complete,,,,,,,,,,,,,,,,,,,Justin Gerhart,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:19,09:57,597
+200,4,15:00,22,17,LVC,3,2,9,FMC,Run,3.0,6,FMC,Tim Ervey,M,,,,,,,,,,,,,,,,,,,,,,,,Tom Papa,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:38,09:38,578
+201,4,15:00,22,18,LVC,1,6,6,FMC,Run,0.0,6,FMC,Tim Ervey,M,,,,,,,,,,,,,,,,,,,,,,,,Tom Papa,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:38,09:00,540
+202,4,15:00,22,19,LVC,2,6,6,FMC,Run,1.0,5,FMC,Tim Ervey,M,,,,,,,,,,,,,,,,,,,,,,,,Owen Walsh,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:38,08:22,502
+203,4,15:00,22,20,LVC,3,5,5,FMC,Pass,0.0,,,,,Tanner Lewis,R,,Malaki Blair,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,13.0,9.0,00:19,07:44,464
+204,4,07:25,22,21,LVC,4,5,5,FMC,FG,,,,,,,,,,,,,,,,Tim Kissinger,,,,,23,Good,,,,,,,,,,,,,,,,,,,,,,,0,3,13.0,9.0,00:10,07:25,445
+205,4,07:25,22,22,LVC,1,35,-35,LVC,Kickoff,,,,,,,,,,,,,,,,Brian Dym,0,LVC,35,Return,,,,,,,,,,,,,,LVC,,,,,,,,,,,0,0,13.0,12.0,00:10,07:15,435
+209,4,07:25,23,2,LVC,1,10,-46,LVC,Run,0.0,46,LVC,Tanner Lewis,R,,,,,,,,,,,,,,,,,,,,,,,,Jacob Hille,John Burke,,,,,,,,,,,,,,,0,0,13.0,12.0,00:20,07:05,425
+210,4,07:25,23,3,LVC,2,10,-46,LVC,Pass,0.0,,,,,Tanner Lewis,L,,Reilly Taylor,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:10,06:45,405
+211,4,07:25,23,4,LVC,3,10,-46,LVC,Run,7.0,47,FMC,Tanner Lewis,L,,,,,,,,,,,,,,,,,,,,,,,,TEAM,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:20,06:36,396
+212,4,07:25,23,5,LVC,4,3,47,FMC,Pass,-3.0,50,,,,Tanner Lewis,,,,Sack,,,,,,,,,,,,,,,,,,,Jeff Decker,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:10,06:16,376
+216,4,06:06,24,2,FMC,1,10,50,FMC,Run,2.0,48,LVC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:37,06:06,366
+217,4,06:06,24,3,FMC,2,8,48,LVC,Run,-1.0,49,LVC,Mitch Wagner,R,,,,,,,,,,,,,,,,,,,,,,,,Noah Caldani,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:37,05:29,329
+218,4,06:06,24,4,FMC,3,9,49,LVC,Run,11.0,38,LVC,Ty Tremba,M,,,,,,,,,,,,,,,,,,,,,,,,Shawn Fester,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:37,04:52,292
+219,4,06:06,24,5,FMC,1,10,38,LVC,Run,0.0,38,LVC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,Noah Caldani,,,,,,,,,,,,,,,0,0,13.0,12.0,00:37,04:16,256
+220,4,06:06,24,6,FMC,2,10,38,LVC,Run,7.0,31,LVC,Ty Tremba,L,,,,,,,,,,,,,,,,,,,,,,,,Nick Morder,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:37,03:39,219
+221,4,06:06,24,7,FMC,3,3,31,LVC,Run,7.0,24,LVC,Ty Tremba,M,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:37,03:02,182
+222,4,06:06,24,8,FMC,1,10,24,LVC,Run,0.0,24,LVC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Jordan Blauch,,,,,,,,,Offside Defense,,LVC,5,,1.0,,0,0,13.0,12.0,00:37,02:25,145
+224,4,06:06,24,10,FMC,1,5,19,LVC,Run,0.0,19,LVC,Ty Tremba,L,,,,,,,,,,,,,,,,,,,,,,,,Jake Marcus,Luke Ordway,,,,,,,,,,,,,,1.0,0,0,13.0,12.0,00:18,01:48,108
+225,4,01:30,24,11,FMC,2,5,19,LVC,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:02,01:30,90
+226,4,01:30,24,12,FMC,2,5,19,LVC,Run,1.0,18,LVC,Mitch Wagner,M,,,,,,,,,,,,,,,,,,,,,,,,Luke Pollock,,,,,,,,,,,,,,,1.0,0,0,13.0,12.0,00:02,01:28,88
+227,4,01:25,24,13,FMC,3,4,18,LVC,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:03,01:25,85
+228,4,01:25,24,14,FMC,3,4,18,LVC,Run,-1.0,19,LVC,Ty Tremba,R,,,,,,,,,,,,,,,,,,,,,,,,Ryan Enright,,,,,,,,,,,,,,,1.0,0,0,13.0,12.0,00:03,01:22,82
+229,4,01:19,24,15,FMC,4,5,19,LVC,Timeout,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,13.0,12.0,00:06,01:19,79
+230,4,01:13,24,16,FMC,4,5,19,LVC,FG,,,,,,,,,,,,,,,,Laurence Miller,,,,,36,Good,,,,,,,,,,,,,,,,,,,,,,,3,0,13.0,12.0,00:02,01:13,73
+231,4,01:13,24,17,FMC,1,35,-35,FMC,Kickoff,,,,,,,,,,,,,,,,Laurence Miller,63,LVC,2,Return,,,,,Avrey Grimm,18,LVC,20,Ryan McArthur,,,,,,,,,,,,,,,,0,0,16.0,12.0,00:02,01:11,71
+235,4,01:08,25,2,LVC,1,10,-20,LVC,Run,14.0,34,LVC,Braden Bohannon,M,,,,,,,,,,,,,,,,,,,,,,,,Dante Medlar,,,,,,,,,,,,,,,,0,0,16.0,12.0,00:15,01:08,68
+236,4,01:08,25,3,LVC,1,10,-34,LVC,Pass,4.0,38,LVC,,,Braden Bohannon,R,,Adam Acker,Complete,,,,,,,,,,,,,,,,,,,Kevonte Beard,,,,,,,,,,,,,,,,0,0,16.0,12.0,00:08,00:53,53
+237,4,01:08,25,4,LVC,2,6,-38,LVC,Pass,4.0,42,LVC,,,Braden Bohannon,M,,Rylee Stahl,Complete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,16.0,12.0,00:08,00:45,45
+238,4,01:08,25,5,LVC,3,2,-42,LVC,Pass,26.0,32,FMC,,,Braden Bohannon,L,,Alex Vassallo,Complete,,,,,,,,,,,,,,,,,,,Justin Gerhart,,,,,,,,,,,,,,,,0,0,16.0,12.0,00:08,00:38,38
+239,4,01:08,25,6,LVC,1,10,32,FMC,Run,1.0,31,FMC,Braden Bohannon,M,,,,,,,,,,,,,,,,,,,,,,,,Jeff Decker,,,,,,,,,,,,,,,,0,0,16.0,12.0,00:15,00:30,30
+240,4,01:08,25,7,LVC,2,9,31,FMC,Pass,0.0,,,,,Braden Bohannon,R,,Ethan Heisey,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,16.0,12.0,00:08,00:15,15
+241,4,01:08,25,8,LVC,3,9,31,FMC,Pass,0.0,,,,,Braden Bohannon,M,,Rylee Stahl,Incomplete,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,16.0,12.0,00:08,00:08,8

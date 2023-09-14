@@ -28,8 +28,8 @@ def name_extract(str_ser,start_pattern,end_pattern, name_patterns, prefix = '', 
     if len(patterns) > 1:
         for pattern in patterns[1:]:
             df_new = str_ser.str.extract(pattern, flags = flags).fillna('')
-            for col in df_phase.columns:
-                df_phase[col] = df_phase[col] + df_new[col]
+            df_new = df_new[df_phase.columns.values]
+            df_phase = pd.DataFrame(np.where(df_new == '', df_phase, df_new), columns = df_phase.columns)
     return df_phase.rename(columns = {name: prefix + name for name in ('first','last')})
 
 def kick_extract(str_ser, kick_type, name_patterns):
@@ -46,12 +46,28 @@ def regex_check(df):
 
 def fumble_df(fum_str, name_patterns):
     df_fumBy = name_extract(fum_str, 'fumble by ', '', name_patterns, prefix = 'fumbleBy_')
+    df_forcedBy = name_extract(fum_str, 'forced by ', '', name_patterns, prefix = 'forcedBy_')
     recov_by_pat = "recovered by (?P<recovery_team>[A-Z\d']+) "
     df_recov_by = name_extract(fum_str, recov_by_pat, '', name_patterns, prefix = 'recoveredBy_')
     recov_at_pat = " at (?P<recov_terr>(?:[A-Z']+)?(?:\\d{4}|\\d{2})?)(?P<recov_yl>[0-9]{1,2})"
     recov_yl = fum_str.str.extract(recov_at_pat)
-    return pd.concat((df_fumBy, df_recov_by, recov_yl), axis = 1)
+    return pd.concat((df_fumBy, df_forcedBy, df_recov_by, recov_yl), axis = 1)
 
+def slice_fum_str(fumble_str):
+    fumble_str_new = ''
+    fumbleBy_dex = fumble_str.find(' fumble by')
+    forcedBy_dex = fumble_str.find(' forced by')
+    if forcedBy_dex > -1:
+        if fumbleBy_dex > forcedBy_dex: # Forced by comes before fumble by
+            start_new = fumble_str.find(' forced by', fumbleBy_dex)
+        else:
+            start_new = fumble_str.find(' fumble by', forcedBy_dex)
+    else:
+        start_new = fumble_str.find(' fumble by', 1)
+    if start_new > -1:
+        fumble_str_new = fumble_str[start_new:]
+    return fumble_str_new
+            
 def possession(row, teams):
     if row['terr'] != '':
         other_side = [team for team in teams if team != row['terr']][0]
@@ -177,6 +193,11 @@ def play_duration(row):
     if row['play_type'] in ('Extra Pt.', ''):
         return 0
     return 1
+
+def clean_direction(play_direction):
+    for direction in ('left', 'right', 'middle', 'LE', 'RE'):
+        if direction in play_direction:
+            return direction[0].upper()
         
         
     

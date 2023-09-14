@@ -13,16 +13,17 @@ import re
 from presto_prep import headers, pot, get_info_dict
 from bs4 import SoupStrainer
 from play_maker_base import play_maker
-from play_maker_funcs import possession, possession_final, points_on_play, kick_result, play_duration
+from play_maker_funcs import (possession, possession_final, points_on_play, kick_result, play_duration,
+                              clean_direction)
 
 
 pd.set_option('display.max_columns', None)
 #url = 'https://lycomingathletics.com/sports/football/stats/2021/susquehanna/boxscore/15029'
 #url = 'https://muhlenbergsports.com/sports/football/stats/2022/franklin-marshall/boxscore/4600'
-url = 'https://godiplomats.com/sports/football/stats/2023/lebanon-valley-college/boxscore/12182'
+#url = 'https://godiplomats.com/sports/football/stats/2023/lebanon-valley-college/boxscore/12182'
 #url = 'https://wvusports.com/sports/football/stats/2022/baylor/boxscore/18685' # def PAT
 #url = 'https://muhlenbergsports.com/sports/football/stats/2022/lebanon-valley/boxscore/4834'
-#url = 'https://d3football.com/seasons/2021/boxscores/20210904_yzfh.xml'
+url = 'https://bryantbulldogs.com/sports/fball/2023-24/boxscores/20230909_f6un.xml'
 # BS object of just the play-by-play
 soup = pot(headers, url, strainer = SoupStrainer(id='play-by-play'))
 presto = False
@@ -61,9 +62,9 @@ for int_col in ('down', 'dist', 'yl_raw'):
 # Combine run and pass gains for gain_loss column
 df['gain_loss'] = ''
 for gain in ['run_gain', 'pass_gain']:
-    loss = df[gain].str.extract('loss of (\d{1,2})').squeeze().fillna(0).astype('int64')
-    gl = pd.Series(np.where(df[gain].str.contains('loss'), loss*-1, 
-                            np.where(df[gain].str.contains('no'), 0, df[gain]))).astype('str')
+    loss_key = gain[:gain.index('gain')] + 'loss'
+    gl = pd.Series(np.where(df[loss_key] == 1, '-' + df[gain], 
+                            np.where(df[gain].str.contains('no'), '0', df[gain])))
     df['gain_loss'] = df.gain_loss + gl
 df['gain_loss'] = np.where(df.gain_loss == '', np.NaN, df.gain_loss.replace('',0).astype('int64'))
 # Convert 'to_yl' and '_yards' to int/NA types as above   
@@ -78,8 +79,14 @@ for col in ydyl_cols:
         print('Error for column name ', col)
         print(e)
         raise
+        
+# Merge run and pass directions into individual columns (respectively) and convert values to L/M/R
+for col in ('run_dir', 'pass_dir'):
+    df[col] = (df[col + '1'] + df[col + '2']).map(clean_direction)
     
 
+    
+# Add quarter and overall 'drive' counts
 for first_row, colname in zip(('qtr_first_row', 'drive_first_row'),('quarter', 'drive_num')):
     ser = df.groupby(first_row).cumcount()
     ser = np.where(df[first_row] == False, np.NaN, ser)
@@ -87,16 +94,19 @@ for first_row, colname in zip(('qtr_first_row', 'drive_first_row'),('quarter', '
     df[colname] = df[colname].ffill().astype('int64')
 df['drive_count'] = df.groupby('drive_num').cumcount()
 
+# Merge first and last names into full name for export
 first_cols = [col for col in df.columns if re.search('_first$', col)]
 last_cols = [col for col in df.columns if re.search('_last$', col)]
 name_cols = [col[:col.index('_last')] for col in last_cols]
 df_name = pd.DataFrame()
 for i, colname in enumerate(name_cols):
+    #df[first_cols[i]] = df[first_cols[i]].replace('.', '')
     name_col = df[[first_cols[i], last_cols[i]]].apply(' '.join, axis = 1).rename(colname)
-    name_col = name_col.str.strip()
+    name_col = name_col.str.strip().replace('TE AM', 'TEAM')
     df_name = pd.concat((df_name, name_col), axis = 1)
 df_name['rusher'] = df_name.rusher.mask(df.try_type == 'Rush', df_name.xp)
 df_name['passer'] = df_name.passer.mask(df.try_type == 'Pass', df_name.xp)
+# Merge xp/fg kicker into kicker into 'kicker' name column
 df_name['kicker'] = np.where(df.xp_type == 'kick', df_name.xp,
                              np.where(df.play_type == 'FG', df_name.fg, df_name.kicker))
 df = pd.concat((df, df_name), axis = 1)
@@ -138,18 +148,25 @@ df['kick_result'] = df.apply(kick_result, axis = 1)
 df['timeout'] = np.where(df.play_type == 'Timeout', 1, np.NaN)
 df['timeout'] = df.timeout.shift(-1)
 
+# Determine possession at the end of each play (not for the next play)
 df['poss_final'] = df.apply(possession_final, args = (teams,), axis = 1)
     
-
+# Create player map to be used in determining home and away team
 players = df[['rusher', 'passer', 'kicker']].agg(sum, axis = 1).rename('player')
 player_map = pd.concat((players, df.poss), axis = 1).drop_duplicates() 
 player_map = player_map[(player_map.player != '') & (player_map.poss != '')].set_index('player').squeeze()
+# Get game-level box score info
 if presto:
     box_soup = pot(headers, url)
+    rurl = url[:url.find('boxscores')] + 'roster'
+    #roster_soup = 
 else:
     box_soup = pot(headers, url, strainer = SoupStrainer(id='box-score'))
+    rurl = url[:url.find('stats')] + 'roster'
+    roster_soup = pot(headers, rurl)
 info_dict = get_info_dict(box_soup, player_map, presto = presto)
 
+# Add points scored on each play and cumulative team score
 for prefix in ('away_', 'home_'):
     df[prefix + 'points_on_play'] = df.apply(points_on_play, args = (info_dict[prefix + 'abbr'],), axis = 1)
     df[prefix + 'points'] = df[prefix + 'points_on_play'].cumsum().shift(1).fillna(0)
@@ -158,8 +175,8 @@ for prefix in ('away_', 'home_'):
 
 view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss', 
              'down', 'dist', 'yl', 'terr', 'play_type',
-            'gain_loss', 'gnls_to_yl', 'gnls_to_terr', 'rusher', 'run_dir1', 'run_dir2', 
-            'passer', 'pass_dir1', 'pass_dir2', 'pass_depth', 'intended', 'pass_result', 
+            'gain_loss', 'gnls_to_yl', 'gnls_to_terr', 'rusher', 'run_dir', 
+            'passer', 'pass_dir', 'pass_depth', 'intended', 'pass_result', 
             'intBy', 'int_terr', 'int_yl', 'pbuBy', 'hurriedBy',
             'kicker', 'kick_yards', 'kick_terr', 'kick_yl', 'kick_result',
             'fg_dist', 'fg_result', 'xp_type', 'xp_result', 
@@ -195,6 +212,7 @@ export['play_duration'] = (export['play_duration'].round('1s') + pd.to_datetime(
 export = export.drop(labels = ['time_elapsed_next', 'time_elapsed_chunk', 'play_units', 'play_units_chunk',
                                 'play_unit_duration', 'cum_play_duration'], axis = 1)
 
+away_pass = export[(export.poss == info_dict['away_abbr']) & (export.play_type == 'Pass')]
 
  
 export.to_csv('sample_export.csv')
