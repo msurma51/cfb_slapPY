@@ -13,8 +13,8 @@ import re
 from presto_prep import headers, pot, get_info_dict
 from bs4 import SoupStrainer
 from play_maker_base import play_maker
-from play_maker_funcs import (possession, possession_final, points_on_play, kick_result, play_duration,
-                              clean_direction)
+from play_maker_funcs import (name_patterns, possession, possession_final, points_on_play, kick_result, 
+                              play_duration, clean_direction)
 
 
 pd.set_option('display.max_columns', None)
@@ -36,17 +36,19 @@ if len(soup) < 1:
 #     html = infile.read()
 # strainer = SoupStrainer(id='play-by-play')
 # soup = BeautifulSoup(html, "html.parser", parse_only = strainer)
-df = play_maker(soup, presto = presto)
+df = play_maker(soup, name_patterns, presto = presto)
 
 # Identify R/P/K play types
 df['play_type'] = np.where(df.play_str.str.contains(' rush'), 'Run', 
                            np.where(df.pass_result != '', 'Pass', 
                                     np.where(df.kick_type != '', df.kick_type.str.capitalize(), 
                                              np.where(df.fg_result != '', 'FG', ''))))
+# Add kneels as type run
+df['play_type'] = df.play_type.mask(df.kneel == 1, 'Run')
 # Fill / overwrite with XP plays
 df['play_type'] = np.where(df.xp_type == 'kick', 'Extra Pt.', 
                            np.where(df.xp_type.isin(['rush', 'pass']), '2 Pt.', df.play_type))
-# Fill with timeouts and pre-snap penalties
+# Fill with timeouts, pre-snap penalties
 df['play_type'] = df.play_type.mask(df.timeout == 1, 'Timeout')
 df['play_type'] = df.play_type.mask(df.presnap_pen == True, 'Penalty')
 # Identify attempt type (R/P) for 2 Pt. attempts
@@ -100,11 +102,11 @@ last_cols = [col for col in df.columns if re.search('_last$', col)]
 name_cols = [col[:col.index('_last')] for col in last_cols]
 df_name = pd.DataFrame()
 for i, colname in enumerate(name_cols):
-    #df[first_cols[i]] = df[first_cols[i]].replace('.', '')
     name_col = df[[first_cols[i], last_cols[i]]].apply(' '.join, axis = 1).rename(colname)
     name_col = name_col.str.strip().replace('TE AM', 'TEAM')
     df_name = pd.concat((df_name, name_col), axis = 1)
 df_name['rusher'] = df_name.rusher.mask(df.try_type == 'Rush', df_name.xp)
+df_name['rusher'] = df_name.rusher.mask(df.kneel == 1, 'TEAM')
 df_name['passer'] = df_name.passer.mask(df.try_type == 'Pass', df_name.xp)
 # Merge xp/fg kicker into kicker into 'kicker' name column
 df_name['kicker'] = np.where(df.xp_type == 'kick', df_name.xp,
@@ -164,7 +166,7 @@ else:
     box_soup = pot(headers, url, strainer = SoupStrainer(id='box-score'))
     rurl = url[:url.find('stats')] + 'roster'
     roster_soup = pot(headers, rurl)
-info_dict = get_info_dict(box_soup, player_map, presto = presto)
+info_dict = get_info_dict(box_soup, player_map, name_patterns, presto = presto)
 
 # Add points scored on each play and cumulative team score
 for prefix in ('away_', 'home_'):
@@ -184,7 +186,7 @@ view_cols = ['quarter', 'game_clock', 'drive_num', 'drive_count', 'poss',
             'fumble_num', 'fumbleBy', 'fumbleBy2', 'fumbleBy3', 
             'recoveredBy', 'recoveredBy2', 'recoveredBy3', 'recovery_team', 'recov_terr', 'recov_yl',
             'presnap_pen', 'penalty', 'penOn', 'pen_team', 'pen_yards',
-            'touchdown', 'no_play', 'timeout', 'away_points_on_play', 'home_points_on_play', 
+            'touchdown', 'no_play', 'timeout', 'kneel', 'away_points_on_play', 'home_points_on_play', 
             'away_points', 'home_points']
 view_cols = [col for col in view_cols if col in df.columns]
 view = df[view_cols] 

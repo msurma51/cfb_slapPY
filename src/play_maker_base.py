@@ -12,7 +12,7 @@ from presto_prep import presto_parser
 
 
 
-def play_maker(soup, presto = False):
+def play_maker(soup, name_patterns, presto = False):
     if not presto:
         # Pull a BS object for each quarter of the game
         quarter_sections = soup.find_all('section')[1:]
@@ -48,16 +48,12 @@ def play_maker(soup, presto = False):
     df_yl = df['dd_str'].str.extract(at_yl_pattern)
     df = pd.concat((df,df_dd,df_yl), axis=1)
     
-    # Build name matching regex
-    fname_pat = "(?P<first>[A-Z][\w'-]*)(?:\. )?"
-    lname_pat = "(?P<last>[A-Z][\w'-]+,?(?: Jr.)?(?: I{:3}V?)?)"
-    name_pat1 = "{} ?{}".format(fname_pat, lname_pat.replace(',?',''))
-    name_pat2 = "{}, ?{}".format(lname_pat, fname_pat)
-    name_patterns = [name_pat1,name_pat2]
+
     
     # Mark and remove no-huddle shotgun
     df['no_huddle'] = np.where(df.play_str.str.contains('No Huddle'), 1, np.NaN)
     df['play_str'] = df['play_str'].str.replace('No Huddle-Shotgun ', '').str.replace('No Huddle ', '')
+    df['play_str'] = df['play_str'].str.replace('Shotgun ', '')
     
     # Extract run play info
     # Get rusher and direction info using multiple possible patterns for both
@@ -65,7 +61,7 @@ def play_maker(soup, presto = False):
     direction_pat2 = " over left end| up middle| over right end"
     rush_dir_pat = ("(?P<run_dir1>{})?".format(direction_pat1) + " rush" + 
                     "(?P<run_dir2>{}|{})?".format(direction_pat1, direction_pat2))
-    # "Overlay" dataframes using concatenation and add columns to df
+    # "Overlay" dataframes using string concatenation and add columns to df
     df_rusher = name_extract(df['play_str'],"^",rush_dir_pat, name_patterns, prefix = 'rusher_')
     # Get gain/loss and yardline rushed to info
     rush_pat2 = " rush" + "(?:{}|{})?".format(direction_pat1, direction_pat2)
@@ -78,9 +74,13 @@ def play_maker(soup, presto = False):
     for col in df_gains.columns:
         df_gains[col] = df_gains[col] + df_noGain[col]
     run_loss_pat = rush_pat2 + " for .*?loss"
-    run_loss = df['play_str'].str.contains(run_loss_pat).rename('run_loss').replace({True: 1, False: np.NaN})
+    df_gains['run_loss'] = df['play_str'].str.contains(run_loss_pat).replace({True: 1, False: np.NaN})
+    # Capture kneel down loss
+    kneel = df['play_str'].str.extract('(?:^Kneel| kneel).*' + run_gl_pat).squeeze().fillna('')
+    df_gains['run_gain'] = df_gains.run_gain + kneel
+    df_gains['run_loss'] = df_gains.run_loss.mask(kneel != '', 1) 
     # Combine with main dataframe
-    df = pd.concat((df,df_rusher,df_gains, run_loss),axis = 1)
+    df = pd.concat((df,df_rusher,df_gains),axis = 1)
     
     # Extract pass play info
     # Get passer, direction and result for passes thrown
@@ -93,7 +93,7 @@ def play_maker(soup, presto = False):
     for col in df_sacked.columns:
         df_passer[col] = df_passer[col] + df_sacked[col]
     # Get intended receiver info
-    df_intended = name_extract(df['play_str']," pass (?:in)?complete to ",'', name_patterns, prefix = 'intended_')
+    df_intended = name_extract(df['play_str']," pass (?:in)?complete.* to ",'', name_patterns, prefix = 'intended_')
     # If pass is intercepted, get interceptor info
     int_start_pat = " pass intercepted by "
     int_end_pat = " at the (?P<int_terr>[A-Z\d']+?)(?P<int_yl>[0-9]{1,2})"
@@ -131,7 +131,7 @@ def play_maker(soup, presto = False):
             for col in df_xp:
                 df_xp[col] = df_xp[col] + df_xp_type[col]
     
-    fg_result_pat = ' field goal attempt from (?P<fg_dist>\d{1,2}) (?P<fg_result>'+ fg_result_str + ')'
+    fg_result_pat = ' field goal attempt from (?P<fg_dist>\d{1,2})(?: yards?) (?P<fg_result>'+ fg_result_str + ')'
     df_fg = name_extract(df['play_str'], '^', ' field goal attempt', name_patterns, prefix = 'fg_' )
     df_fg = pd.concat((df_fg, df['play_str'].str.extract(fg_result_pat, flags = re.IGNORECASE)), axis = 1).fillna('')
     
@@ -203,7 +203,7 @@ def play_maker(soup, presto = False):
     # Set boolean values for certain events
     for tag in ['TOUCHDOWN', 'NO PLAY', 'Timeout', '1ST DOWN', 'safety', 
                 'on-side', 'onside', 'touchback', 'downed', 'fair catch', 'touchback',
-                'out of bounds', 'out-of-bounds', 'blocked']:
+                'out of bounds', 'out-of-bounds', 'blocked', 'kneel']:
         colname = '_'.join(tag.lower().split())
         if '-' in tag:
             colname = '_'.join(tag.lower().split(sep = '-'))

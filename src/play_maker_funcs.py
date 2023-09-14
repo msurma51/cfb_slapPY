@@ -8,6 +8,13 @@ Created on Mon Jul  3 18:21:16 2023
 import pandas as pd
 import numpy as np
 
+# Build name matching regex
+fname_pat = "(?P<first>[A-Z][\w'-]*)(?:\. )?"
+lname_pat = "(?P<last>[A-Z][\w'-]+,?(?: Jr.)?(?: I{1,3}V?)?)"
+name_pat1 = "{} {}".format(fname_pat, lname_pat.replace(',?',''))
+name_pat2 = "{}, ?{}".format(lname_pat, fname_pat)
+name_patterns = [name_pat1,name_pat2]
+
 def name_extract(str_ser,start_pattern,end_pattern, name_patterns, prefix = '', flags = 0):
     '''
     
@@ -45,7 +52,7 @@ def regex_check(df):
     return df_check.dropna(axis = 0, how = 'all')
 
 def fumble_df(fum_str, name_patterns):
-    df_fumBy = name_extract(fum_str, 'fumble by ', '', name_patterns, prefix = 'fumbleBy_')
+    df_fumBy = name_extract(fum_str, 'fumbled? by ', '', name_patterns, prefix = 'fumbleBy_')
     df_forcedBy = name_extract(fum_str, 'forced by ', '', name_patterns, prefix = 'forcedBy_')
     recov_by_pat = "recovered by (?P<recovery_team>[A-Z\d']+) "
     df_recov_by = name_extract(fum_str, recov_by_pat, '', name_patterns, prefix = 'recoveredBy_')

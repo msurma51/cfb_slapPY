@@ -1,5 +1,6 @@
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup, SoupStrainer
+from play_maker_funcs import name_extract
 import pandas as pd
 import numpy as np
 import ssl
@@ -72,7 +73,7 @@ def presto_parser(soup):
     return df
 
 
-def get_info_dict(box_soup, player_map, presto = False):
+def get_info_dict(box_soup, player_map, name_patterns, presto = False):
     if not presto:
         box = box_soup.find('tbody')
         names = [name.string for name in box.find_all(class_='hide-on-small-down')]
@@ -90,7 +91,9 @@ def get_info_dict(box_soup, player_map, presto = False):
         abbrs = []
         for j in range(2):
             side_dfs = [box_dfs[i+j] for i in box_indices]
-            side_players = pd.concat([side_df.iloc[:,0] for side_df in side_dfs]).drop_duplicates()
+            side_players_raw = pd.concat([side_df.iloc[:,0] for side_df in side_dfs]).drop_duplicates()
+            side_players_df = name_extract(side_players_raw, '^', '', name_patterns)
+            side_players = side_players_df.apply(' '.join, axis = 1)
             side_abbr = side_players.map(player_map).dropna().unique().tolist()
             assert len(side_abbr) == 1, f'Error assigning abbreviation for {names[j]}'
             abbrs.extend(side_abbr)
