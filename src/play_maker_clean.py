@@ -10,7 +10,7 @@ from pandas.api.types import CategoricalDtype
 import numpy as np
 import datetime
 import re
-from presto_prep import headers, pot, get_info_dict
+from presto_prep import headers, pot, get_info_dict, get_roster
 from bs4 import SoupStrainer
 from play_maker_base import play_maker
 from play_maker_funcs import (name_patterns, possession, possession_final, points_on_play, kick_result, 
@@ -18,12 +18,9 @@ from play_maker_funcs import (name_patterns, possession, possession_final, point
 
 
 pd.set_option('display.max_columns', None)
-#url = 'https://lycomingathletics.com/sports/football/stats/2021/susquehanna/boxscore/15029'
-#url = 'https://muhlenbergsports.com/sports/football/stats/2022/franklin-marshall/boxscore/4600'
-#url = 'https://godiplomats.com/sports/football/stats/2023/lebanon-valley-college/boxscore/12182'
-#url = 'https://wvusports.com/sports/football/stats/2022/baylor/boxscore/18685' # def PAT
-#url = 'https://muhlenbergsports.com/sports/football/stats/2022/lebanon-valley/boxscore/4834'
-url = 'https://bryantbulldogs.com/sports/fball/2023-24/boxscores/20230909_f6un.xml'
+url = 'https://godiplomats.com/sports/football/stats/2023/lebanon-valley-college/boxscore/12182'
+#url = 'https://muhlenbergsports.com/sports/football/stats/2023/moravian/boxscore/5074'
+#url = 'https://bryantbulldogs.com/sports/fball/2023-24/boxscores/20230909_f6un.xml'
 # BS object of just the play-by-play
 soup = pot(headers, url, strainer = SoupStrainer(id='play-by-play'))
 presto = False
@@ -85,8 +82,6 @@ for col in ydyl_cols:
 # Merge run and pass directions into individual columns (respectively) and convert values to L/M/R
 for col in ('run_dir', 'pass_dir'):
     df[col] = (df[col + '1'] + df[col + '2']).map(clean_direction)
-    
-
     
 # Add quarter and overall 'drive' counts
 for first_row, colname in zip(('qtr_first_row', 'drive_first_row'),('quarter', 'drive_num')):
@@ -161,12 +156,13 @@ player_map = player_map[(player_map.player != '') & (player_map.poss != '')].set
 if presto:
     box_soup = pot(headers, url)
     rurl = url[:url.find('boxscores')] + 'roster'
-    #roster_soup = 
+    roster_soup = pot(headers, rurl, strainer = SoupStrainer(class_='table-responsive'))
 else:
     box_soup = pot(headers, url, strainer = SoupStrainer(id='box-score'))
     rurl = url[:url.find('stats')] + 'roster'
     roster_soup = pot(headers, rurl)
 info_dict = get_info_dict(box_soup, player_map, name_patterns, presto = presto)
+roster = get_roster(roster_soup, presto = presto)
 
 # Add points scored on each play and cumulative team score
 for prefix in ('away_', 'home_'):

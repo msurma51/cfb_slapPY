@@ -109,5 +109,50 @@ def get_info_dict(box_soup, player_map, name_patterns, presto = False):
 def get_roster(roster_soup, presto = False):
     if not presto:
         roster = [table for table in pd.read_html(str(roster_soup)) if len(table) > 0][0]
-
+        split_cols = [col for col in roster.columns if '/' in col]
+        for col in split_cols:
+            split_df = roster[col].str.split(pat = ' / ', expand = True).apply(lambda x: x.str.strip())
+            split_df.columns = [colname.strip() for colname in col.split(sep = '/')]
+            roster = pd.concat((roster, split_df), axis = 1).drop(split_cols, axis = 1)
+    else:
+        roster_raw = pd.read_html(str(roster_soup))[0]
+        full_name = roster_raw.iloc[:,2].str.replace('  ', ' ', regex = True).rename('Name')
+        roster = roster_raw.iloc[:,3:]
+        roster.columns = roster_raw.columns.values[2:-1]
+        split_cols = [col for col in roster.columns if '/' in col]
+        roster = roster.apply(lambda x: x.str.replace(x.name + ': ', '', regex = True))
+        for col in split_cols:
+            split_df = roster[col].str.split(pat = ' / ', expand = True).apply(lambda x: x.str.strip())
+            split_df.columns = [colname.strip() for colname in col.split(sep = '/')]
+            roster = pd.concat((roster, split_df), axis = 1).drop(split_cols, axis = 1)
+        schools = pd.DataFrame()
+        if roster['High School'].str.contains('\(').any():
+            schools = roster['High School'].str.split(pat = ' \(', expand = True)
+            schools.columns = ['high_school', 'prev_school']
+            schools['prev_school'] = schools.prev_school.str.replace('\)','', regex = True)
+            if schools.prev_school.str.contains(',').any():
+                prev_schools = schools.prev_school.str.split(pat = ',', expand = True)
+                prev_schools.columns = (['prev_school'] + 
+                                        [f'prev_school{i}' for i in range(2,len(prev_schools.columns)+1)])
+                schools = pd.concat((schools.iloc[:,0],prev_schools), axis = 1)
+        roster = pd.concat((roster_raw.iloc[:,0], full_name, 
+                            roster.iloc[:,:-1], schools), axis = 1).fillna('')
+        roster.columns = roster.columns.str.title()
+    col_map = {'#': 'No.', 'Name': 'Full_Name', 'Full Name': 'Full_Name', 
+               'Cl.': 'Yr.', 'High School': 'High_School'}    
+    roster = roster.rename(columns = col_map)
+    roster['Yr.'] = roster['Yr.'].replace('FY', 'Fr.')
+    roster_cols = ['No.', 'Full_Name', 'Yr.', 'Pos.', 'Ht.', 'Wt.', 'Hometown', 'High_School']
+    return roster[roster_cols]
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         

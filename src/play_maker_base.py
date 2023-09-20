@@ -131,7 +131,7 @@ def play_maker(soup, name_patterns, presto = False):
             for col in df_xp:
                 df_xp[col] = df_xp[col] + df_xp_type[col]
     
-    fg_result_pat = ' field goal attempt from (?P<fg_dist>\d{1,2})(?: yards?) (?P<fg_result>'+ fg_result_str + ')'
+    fg_result_pat = ' field goal attempt from (?P<fg_dist>\d{1,2})(?: yards?)? (?P<fg_result>'+ fg_result_str + ')'
     df_fg = name_extract(df['play_str'], '^', ' field goal attempt', name_patterns, prefix = 'fg_' )
     df_fg = pd.concat((df_fg, df['play_str'].str.extract(fg_result_pat, flags = re.IGNORECASE)), axis = 1).fillna('')
     
