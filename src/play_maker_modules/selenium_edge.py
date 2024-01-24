@@ -33,7 +33,6 @@ def selenium_soup(url):
     driver.implicitly_wait(10)
     driver.maximize_window()
     
-    
     driver.get(url)
     
     tab_names = []
@@ -64,7 +63,7 @@ def selenium_soup(url):
     html = '<section></section>' + ''.join(html_list)
     return BeautifulSoup(html, "html.parser")
         
-#url = 'https://mgoblue.com/sports/football/stats/2023/bowling-green/boxscore/25649'
+url = 'https://mgoblue.com/sports/football/stats/2023/bowling-green/boxscore/25649'
     
     
     

@@ -47,11 +47,12 @@ def play_maker(soup, name_patterns, presto = False):
     df_dd = df['dd_str'].str.extract(dd_pattern)
     df_yl = df['dd_str'].str.extract(at_yl_pattern)
     df = pd.concat((df,df_dd,df_yl), axis=1)
-    
 
     
     # Mark and remove no-huddle shotgun
     df['no_huddle'] = np.where(df.play_str.str.contains('No Huddle'), 1, np.NaN)
+    clock = df.play_str.str.extract('\((\d{1,2}:\d{2})\)').squeeze()
+    df['play_str'] = df['play_str'].str.replace('(\(\d{1,2}:\d{2}\))', '', regex = True).str.strip()
     df['play_str'] = df['play_str'].str.replace('No Huddle-Shotgun ', '').str.replace('No Huddle ', '')
     df['play_str'] = df['play_str'].str.replace('Shotgun ', '')
     
@@ -198,6 +199,7 @@ def play_maker(soup, name_patterns, presto = False):
     for token in (' at', ' clock'):
         time_series = df['play_str'].str.extract(token + ' (\d{1,2}:\d{2})').squeeze().fillna('')
         df['game_clock'] = df.game_clock + time_series
+    df['game_clock'] = np.where(df.game_clock == '', clock, df.game_clock)
     df['game_clock'] = df['game_clock'].replace('', np.NaN).ffill().bfill()
     
     # Set boolean values for certain events
