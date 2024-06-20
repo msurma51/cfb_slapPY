@@ -31,29 +31,35 @@ if len(sys.argv) > 1:
     url = sys.argv[1]
 else:
     #url = 'https://godiplomats.com/sports/football/stats/2023/lebanon-valley-college/boxscore/12182'
-    url = 'https://muhlenbergsports.com/sports/football/stats/2023/moravian/boxscore/5074'
-    url = 'https://bryantbulldogs.com/sports/fball/2023-24/boxscores/20230909_f6un.xml'
+    url = 'https://muhlenbergsports.com/sports/football/stats/2023/moravian/boxscore/5074' # Sidearm
+    url = 'https://mgoblue.com/sports/football/stats/2023/bowling-green/boxscore/25649' # Dynamic sidearm
+    
 # Get BS object of just the play-by-play, assuming Sidearm to start
 presto = False
 # Try static sidearm
 soup = pot(headers, url, strainer = SoupStrainer(id='play-by-play'))
 # Try presto
 if len(soup) < 1:
+    print(f'Failure to parse HTML with static Sidearm parser for url: {url}')
+    try:
+        from selenium_edge import selenium_soup
+        soup = selenium_soup(url) 
+    except:
+        print(f'Failure to parse HTML with dynamic Sidearm parser for url: {url}')
+if len(soup) < 1:
+    print('Not Sidearm, trying Presto...')
     try:
         soup = pot(headers, url + '?view=plays', strainer = SoupStrainer(class_='stats-fullbox clearfix'))
         soup = soup.find_all('table')[1]
         presto = True
-    except:
-        None
-# Try dynamic sidearm
-if len(soup) < 1:
-    try:
-        from selenium_edge import selenium_soup
-        soup = selenium_soup(url) 
     except Exception as e:
         print(f'Failure to parse HTML for url provided {url}')
         print(e)
         raise
+        
+# Try dynamic sidearm
+if len(soup) < 1:
+    
 
 # fname = 'lyco_pbp.html'
 # with open(fname, 'r') as infile:
