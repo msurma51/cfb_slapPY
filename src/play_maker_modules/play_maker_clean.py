@@ -32,14 +32,29 @@ if len(sys.argv) > 1:
 else:
     #url = 'https://godiplomats.com/sports/football/stats/2023/lebanon-valley-college/boxscore/12182'
     url = 'https://muhlenbergsports.com/sports/football/stats/2023/moravian/boxscore/5074'
-    #url = 'https://bryantbulldogs.com/sports/fball/2023-24/boxscores/20230909_f6un.xml'
-# BS object of just the play-by-play
-soup = pot(headers, url, strainer = SoupStrainer(id='play-by-play'))
+    url = 'https://bryantbulldogs.com/sports/fball/2023-24/boxscores/20230909_f6un.xml'
+# Get BS object of just the play-by-play, assuming Sidearm to start
 presto = False
+# Try static sidearm
+soup = pot(headers, url, strainer = SoupStrainer(id='play-by-play'))
+# Try presto
 if len(soup) < 1:
-    soup = pot(headers, url + '?view=plays', strainer = SoupStrainer(class_='stats-fullbox clearfix'))
-    soup = soup.find_all('table')[1]
-    presto = True
+    try:
+        soup = pot(headers, url + '?view=plays', strainer = SoupStrainer(class_='stats-fullbox clearfix'))
+        soup = soup.find_all('table')[1]
+        presto = True
+    except:
+        None
+# Try dynamic sidearm
+if len(soup) < 1:
+    try:
+        from selenium_edge import selenium_soup
+        soup = selenium_soup(url) 
+    except Exception as e:
+        print(f'Failure to parse HTML for url provided {url}')
+        print(e)
+        raise
+
 # fname = 'lyco_pbp.html'
 # with open(fname, 'r') as infile:
 #     html = infile.read()
