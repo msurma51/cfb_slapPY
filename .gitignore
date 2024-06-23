@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Jun 23 13:09:44 2024
+
+@author: surma
+"""
+
+*.sqlite
+/data/exports/

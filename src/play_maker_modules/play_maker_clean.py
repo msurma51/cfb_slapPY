@@ -20,11 +20,16 @@ from play_maker_funcs import (name_patterns, possession, possession_final, point
                               play_duration, clean_direction)
 
 curr_path = os.getcwd()
+# Find / create directories for storing data
 os.chdir('../../')
 data_path = os.path.join(os.getcwd(), 'data')
-os.chdir(os.path.join('src', curr_path))
 imports_path = os.path.join(data_path, 'imports')
 exports_path = os.path.join(data_path, 'exports')
+for path in (data_path, imports_path, exports_path):
+    if not os.path.exists(path):
+        os.mkdir(path)
+# Return to module directory
+os.chdir(os.path.join('src', curr_path))
 
 pd.set_option('display.max_columns', None)
 if len(sys.argv) > 1:
@@ -56,11 +61,7 @@ if len(soup) < 1:
         print(f'Failure to parse HTML for url provided {url}')
         print(e)
         raise
-        
-# Try dynamic sidearm
-if len(soup) < 1:
-    
-
+# If working offline
 # fname = 'lyco_pbp.html'
 # with open(fname, 'r') as infile:
 #     html = infile.read()
@@ -186,27 +187,29 @@ players = df[['rusher', 'passer', 'kicker']].agg(sum, axis = 1).rename('player')
 player_map = pd.concat((players, df.poss), axis = 1).drop_duplicates() 
 player_map = player_map[(player_map.player != '') & (player_map.poss != '')].set_index('player').squeeze()
 # Get game-level box score info and roster info
-if presto:
-    box_soup = pot(headers, url)
-    rurl = url[:url.find('boxscores')] + 'roster'
-    roster_soup = pot(headers, rurl, strainer = SoupStrainer(class_='table-responsive'))
-else:
+if not presto:
     box_soup = pot(headers, url, strainer = SoupStrainer(id='box-score'))
     rurl = url[:url.find('stats')] + 'roster'
     roster_soup = pot(headers, rurl)
+else:
+    box_soup = pot(headers, url)
+    rurl = url[:url.find('boxscores')] + 'roster'
+    roster_soup = pot(headers, rurl, strainer = SoupStrainer(class_='table-responsive'))
 info_dict = get_info_dict(box_soup, player_map, name_patterns, presto = presto)
 roster = get_roster(roster_soup, presto = presto)
 
 url_root_list = re.findall('https?://(?:www.)?(.*?)/', url)
 if url_root_list:
     url_root_curr = url_root_list[0]
+    # Replace with DB reference?
     teams_info = pd.read_csv(os.path.join(imports_path, 'd3info.csv'), index_col = 0)
     url_root_map = pd.Series(teams_info.School.values, index = teams_info.url_root).to_dict()
-    url_team = url_root_map[url_root_curr]
-    if fuzz.ratio(url_team, info_dict['home_team']) > fuzz.ratio(url_team, info_dict['away_team']):
-        url_side = 'home'
-    else:
-        url_side = 'away'
+    if url_root_curr in url_root_map.keys():
+        url_team = url_root_map[url_root_curr]
+        if fuzz.ratio(url_team, info_dict['home_team']) > fuzz.ratio(url_team, info_dict['away_team']):
+            url_side = 'home'
+        else:
+            url_side = 'away'
         
 off_roles = df.melt(value_vars = ['passer', 'rusher', 'intended']).groupby('value').value_counts()
 
