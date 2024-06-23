@@ -46,20 +46,20 @@ def pot(headers, url, strainer = None):
     
     
 
-def presto_parser(soup):
+def presto_parser(pbp_soup):
     '''
     
 
     Parameters
     ----------
-    url : URL for presto-based html to be parsed
+    pbp_soup : BeautifulSoup object containing pbp info in PrestoSports style
 
     Returns
     -------
-    Dataframe with quarter and drive starts identified
+    Dataframe containing gamestate and play text with quarter and drive starts identified
 
     '''
-    html = str(soup)
+    html = str(pbp_soup)
     df = pd.read_html(html)[0]
     df.columns = ['dd_str', 'play_str']
     df['top'] = np.where(df['dd_str'] == 'back to top',1,0)
@@ -76,55 +76,50 @@ def presto_parser(soup):
 
 
 def get_game_summary(box_soup, sidearm = True):
-    game_dict = dict()
     if sidearm:
+        # Get generic boxscore table and convert to DataFrame
         box_table = box_soup.table
         table_body = box_table.tbody
         box_df = pd.read_html(str(box_table))[0]
+        # Clean df
         box_df = box_df.drop(columns = box_df.columns.values[0])
         box_df = box_df.rename(columns = {col: col.split(' ')[0] for col in box_df.columns.values})
+        # Get team names and abbreviations and add to df
         box_df['team_abbr'] = [tag.string for tag in table_body.find_all(class_ = 'hide-on-medium')[:2]]
         box_df['team_name'] =  [tag.string for tag in table_body.find_all(class_ = 'hide-on-small-down')[:2]]
-        box_df.index.name = 'home'
-        box_df['index'] = ['away', 'home']
-        box_df = box_df.reset_index().set_index('index')
-        game_dict.update(box_df.to_dict(orient = 'index'))
+        # Get generic game information (date, site, weather, attendance...)
         info_tag = box_soup.header.div.contents[-2]
-        info_keys = [tag.string for tag in info_tag.find_all('dt')][:-1]
-        info_values = [tag.string for tag in info_tag.find_all('dd')][:-1]
-        game_dict.update(dict(zip(info_keys, info_values)))
+        info_strings = list(info_tag.stripped_strings)
+    else: # Presto
+        # Get generic boxscore table and convert to DataFrame    
+        tables = box_soup.find_all(class_='table')
+        box = tables[1]
+        box_df = pd.read_html(str(box))[0].iloc[:2]
+        # Clean df
+        team_names = box_df['Scoring'].str.extract('(.*) \(\d').squeeze()
+        box_df['team_name'] = team_names.str.strip() # Presto boxscores don't include team abbreviation
+        box_df = box_df.drop(columns = box_df.columns.values[0])
+        box_df = box_df.rename(columns = {'Final': 'F'})
+        # Get generic game information (date, site, weather, attendance...)
+        info_strings = list(tables[-1].stripped_strings)
+        info_strings = info_strings[info_strings.index('Location:'):]
         
-        off_player_box = box_soup.find_all('dl')[0]
-        box_dfs = pd.read_html(str(off_player_box))
-        names = box_dfs[0].iloc[0].tolist()
-        box_indices = (1,3,7,9,11)
-        abbrs = []
-        for j in range(2):
-            side_dfs = [box_dfs[i+j] for i in box_indices]
-            side_players_raw = pd.concat([side_df.iloc[:,0] for side_df in side_dfs]).drop_duplicates()
-            side_players_df = name_extract(side_players_raw, '^', '', name_patterns)
-            side_players = side_players_df.apply(' '.join, axis = 1)
-            side_abbr = side_players.map(player_map).dropna().unique().tolist()
-            assert len(side_abbr) == 1, f'Error assigning abbreviation for {names[j]}'
-            abbrs.extend(side_abbr)
-        info_dict = {'away_team': names[0], 'home_team': names[1], 'away_abbr': abbrs[0], 'home_abbr': abbrs[1]}
-        info_box = box_soup.find(class_='stats-fullbox summary other-info clearfix')
-        info_strings = list(info_box.stripped_strings)
-        info_strings = info_strings[info_strings.index('Location:'):info_strings.index('Referee:')]
-        keys = [string.replace(':','') for string in info_strings if string.find(':') > -1]
-        values = [string for string in info_strings if string.find(':') == -1]
-        info_dict.update(dict(zip(keys,values)))
-    else:
-        box = box_soup.find('tbody')
-        names = [name.string for name in box.find_all(class_='hide-on-small-down')]
-        abbrs = [abbr.string for abbr in box.find_all(class_='hide-on-medium')]
-        info_dict = {'away_team': names[0], 'home_team': names[1], 'away_abbr': abbrs[0], 'home_abbr': abbrs[1]}
-        game_info = box_soup.find(class_='text-center inline')
-        keys = [key.string[:-1] for key in game_info.find_all('dt')][:-1]
-        values = [value.string for value in game_info.find_all('dd')][:-1]
-        info_dict.update(dict(zip(keys,values)))
-        
-    return info_dict
+    # Convert numeric game info values to integers
+    game_info = [int(string) if string.isdigit() else string for string in info_strings]
+    # Create game info dictionary by mapping info keys to values (which alternate in list)
+    game_dict = {game_info[i]: game_info[i+1] for i in np.arange(0,len(game_info),2)}
+    # Convert game scores to integers
+    score_cols = [col for col in box_df.columns if col.isdigit()]
+    score_cols.append('F')
+    box_df[score_cols] = box_df[score_cols].astype(int)
+    # Create 'home' binary and identify each row as  'away' and 'home' respectively
+    box_df.index.name = 'home'
+    box_df['index'] = ['away', 'home']
+    box_df = box_df.reset_index().set_index('index')
+    # Update game dictionary with subdictionaries containing info and box score unique to each team
+    game_dict.update(box_df.to_dict(orient = 'index'))
+
+    return game_dict
 
 def get_roster(roster_soup, presto = False):
     if not presto:

@@ -35,12 +35,12 @@ pd.set_option('display.max_columns', None)
 if len(sys.argv) > 1:
     url = sys.argv[1]
 else:
-    #url = 'https://godiplomats.com/sports/football/stats/2023/lebanon-valley-college/boxscore/12182'
     url = 'https://muhlenbergsports.com/sports/football/stats/2023/moravian/boxscore/5074' # Sidearm
     url = 'https://mgoblue.com/sports/football/stats/2023/bowling-green/boxscore/25649' # Dynamic sidearm
+    url = 'https://ccsubluedevils.com/sports/fball/2023-24/boxscores/20231118_xejv.xml' # Presto
     
 # Get BS object of just the play-by-play, assuming Sidearm to start
-presto = False
+sidearm = True
 # Try static sidearm
 soup = pot(headers, url, strainer = SoupStrainer(id='play-by-play'))
 # Try presto
