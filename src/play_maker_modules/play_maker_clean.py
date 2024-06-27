@@ -187,7 +187,7 @@ players = df[['rusher', 'passer', 'kicker']].agg(sum, axis = 1).rename('player')
 player_map = pd.concat((players, df.poss), axis = 1).drop_duplicates() 
 player_map = player_map[(player_map.player != '') & (player_map.poss != '')].set_index('player').squeeze()
 # Get game-level box score info and roster info
-if not presto:
+if sidearm:
     box_soup = pot(headers, url, strainer = SoupStrainer(id='box-score'))
     rurl = url[:url.find('stats')] + 'roster'
     roster_soup = pot(headers, rurl)
