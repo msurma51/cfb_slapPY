@@ -36,6 +36,7 @@ if len(sys.argv) > 1:
     url = sys.argv[1]
 else:
     url = 'https://muhlenbergsports.com/sports/football/stats/2023/moravian/boxscore/5074' # Sidearm
+    url = 'https://godiplomats.com/sports/football/stats/2023/muhlenberg/boxscore/11820'
     url = 'https://mgoblue.com/sports/football/stats/2023/bowling-green/boxscore/25649' # Dynamic sidearm
     url = 'https://ccsubluedevils.com/sports/fball/2023-24/boxscores/20231118_xejv.xml' # Presto
     
